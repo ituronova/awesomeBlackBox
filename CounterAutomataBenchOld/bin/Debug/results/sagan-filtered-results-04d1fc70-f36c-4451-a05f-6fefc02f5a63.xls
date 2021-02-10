@@ -1,0 +1,15 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	|NCA|	|DCA|	|DCA|-alg	NCA-trans	DCA-trans	DCC-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)	Regex Matcher - time (milliseconds)
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external,	0,0051	38,4456	115,5579	72,7825	40	53	77	171	954	396	3	3	3								
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0018	11,1336	46,9135	32,5081	45	51	107	232	1020	870	4	4	4								
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external	0,0013	15,9664	31,7597	9,4705	40	53	77	171	954	396	3	3	3								
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0013	16,2015	50,7679	34,8342	45	51	107	232	1020	870	4	4	4								
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external	0,0013	9,4597	37,6749	10,2435	40	53	77	171	954	396	3	3	3								
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0013	19,7107	44,4731	29,8862	45	51	107	232	1020	870	4	4	4								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-500 	0,0013	1,8623	6,8528	2,3559	17	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-556 	0,0009	1,8679	5,3552	1,6011	17	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-1101 	0,0023	2,7352	5,0403	1,5549	18	34	34	51	306	124	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-512 	0,0009	1,5017	5,5773	1,5418	17	32	32	45	256	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-519 	0,0009	2,083	5,6001	1,4285	17	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-520 	0,0009	1,6435	3,8959	1,4709	17	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-518 	0,0009	1,7004	6,1833	1,463	17	32	32	50	288	118	3	3	3								
+User-Agent\x3a \{[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\}	0,0013	6,6783	11,2811	4,146	19	36	36	59	540	146	5	5	5								

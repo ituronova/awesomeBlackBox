@@ -1,0 +1,15 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	|NCA|	|DCA|	|DCA|-alg	NCA-trans	DCA-trans	DCC-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)	Regex Matcher - time (milliseconds)
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external,	0,0055	36,7007	149,0098	44,7236	40	53	77	171	954	396	3	3	3		Index je mimo hranice pole.						
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0013	15,3921	42,1717	29,3081	45	51	107	232	1020	870	4	4	4		Index je mimo hranice pole.						
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external	0,0018	14,905	36,0863	10,4856	40	53	77	171	954	396	3	3	3		Index je mimo hranice pole.						
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0013	21,5479	44,7661	29,658	45	51	107	232	1020	870	4	4	4		Index je mimo hranice pole.						
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external	0,0009	8,8327	37,749	11,0095	40	53	77	171	954	396	3	3	3		Index je mimo hranice pole.						
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0009	19,0473	48,9084	29,0203	45	51	107	232	1020	870	4	4	4		Index je mimo hranice pole.						
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-500 	0,0018	1,9771	6,5477	3,0949	17	32	32	50	288	118	3	3	3		Index je mimo hranice pole.						
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-556 	0,0009	11,3926	5,1644	1,6034	17	32	32	50	288	118	3	3	3		Index je mimo hranice pole.						
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-1101 	0,0009	2,3932	18,6895	1,6309	18	34	34	51	306	124	3	3	3		Index je mimo hranice pole.						
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-512 	0,0018	1,5721	3,7504	1,4373	17	32	32	45	256	118	3	3	3		Index je mimo hranice pole.						
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-519 	0,0013	1,7984	13,5418	1,5218	17	32	32	50	288	118	3	3	3		Index je mimo hranice pole.						
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-520 	0,0009	1,8073	6,7469	5,7088	17	32	32	50	288	118	3	3	3		Index je mimo hranice pole.						
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-518 	0,0055	7,3851	4,1959	1,5185	17	32	32	50	288	118	3	3	3		Index je mimo hranice pole.						
+User-Agent\x3a \{[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\}	0,0009	5,442	22,3998	2,1446	19	36	36	59	540	146	5	5	5		Index je mimo hranice pole.						

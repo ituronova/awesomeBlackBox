@@ -1,0 +1,18 @@
+(.{1}\x01.{10}\x8F)|(.{10}\x8F.{1}\x01)
+(.{1}\x01.{10}\x8F)|(.{10}\x8F.{1}\x01)
+(\x16\x03\x00.{4}\x01)|(.{4}\x01\x16\x03\x00)
+(.{1}\x04.{4}\x00\x02)|(.{4}\x00\x02.{1}\x04)
+(.{1}\x01.{4}\x00\x02)|(.{4}\x00\x02.{1}\x01)
+(\x16\x03\x01.{4}\x01)|(.{4}\x01\x16\x03\x01)
+(\x16\x03\x01.{4}\x02)|(.{4}\x02\x16\x03\x01)
+\x16\x03\x00.{2}\x01.{3}\x03\x00.{32}\x00
+\x16\x03\x00.{2}\x01.{3}\x03\x00.{32}\x00
+(.{1}\x01.{4}\x00\x02)|(.{4}\x00\x02.{1}\x01)
+.*w3who.dll\x3F[^\r\n]{51}
+.*isComponentInstalled\s*\([^,\)]{25}
+.*\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{20}
+.*isComponentInstalled\s*\([^,\)]{25}
+.*w3who.dll\x3F[^\r\n]{51}
+.*\x2FCSuserCGI\x2Eexe\x3FLogout\x2B[^\s]{96}
+.*\x3cj2se[^\x3e]*(initial|max)-heap-size\s*\x3d\s*(\x22|\x27)[^\2]{50}
+.*\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{20}

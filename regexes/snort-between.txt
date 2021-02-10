@@ -1,0 +1,241 @@
+(\x20[^\x20]{16,}|\x20[^\x20]{16,})\.cda$
+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}
+(name|id|number|total|boundary)=\s*[^\r\n\x20\s\x20]{300}
+.* [aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][eE] [^\x20]{100}
+.* [cC][hH][oO][wW][nN] [^\x20]{100}
+.* [cC][pP][wW][dD] [^\x20]{100}
+.* [lL][iI][sS][tT] [^\x20]{100}
+.* [nN][eE][wW][eE][rR] [^\x20]{100}
+.* [zZ][iI][pP][cC][hH][kK] [^\x20]{100}
+.* LOGIN [^\x20]{100}
+.* LSUB [^\x20]{100}
+.*[aA][pP][oO][pP][^\x20]{256}
+.*[aA][uU][tT][hH][^\x20]{50}
+.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]: [bB][aA][sS][iI][cC] [^\x20]{512}
+.*[cC][eE][lL] [^\x20]{100}
+.*[cC][mM][dD] [^\x20]{100}
+.*[cC][wW][dD] [^\x20]{100}
+.*[dD][eE][lL][eE] [^\x20]{100}
+.*[lL][iI][sS][tT][^\x20]{50}
+.*[mM][kK][dD] [^\x20]{100}
+.*[pP][aA][sS][sS] [^\x20]{100}
+.*[pP][aA][sS][sS][^\x20]{50}
+.*[pP][rR][iI][vV][mM][sS][gG] [nN][iI][cC][kK][sS][eE][rR][vV] [iI][dD][eE][nN][tT][iI][fF][yY][^\x20]{150}
+.*[rR][eE][sS][tT] [^\x20]{100}
+.*[rR][mM][dD] [^\x20]{100}
+.*[rR][mM][dD][iI][rR] [^\x20]{100}
+.*[sS][iI][tT][eE] [^\x20]{100}
+.*[sS][tT][aA][tT] [^\x20]{100}
+.*[uU][sS][eE][rR] [^\x20]{100}
+.*[uU][sS][eE][rR][^\x20]{50}
+.*[xX][tT][nN][dD][^\x20]{50}
+.*\x20[lL][oO][cC][aA][tT][iI][oO][nN]\x20[^\x20]{128}
+.*Content-Transfer-Encoding:[^\x20]{100}
+.*Content-Type:[^\x20]{50}
+.*FOLD [^\x20]{256}
+.*SEARCH \/ HTTP\/1\.1\x20\x20Host\x20.{0,251}\x20\x20\x20\x20
+.{0,24}\x20\x20\x20\x20\x20\x20\x20\x20
+.{0,92}\x20\x20\x20\x20\x20\x20\x20\x20
+.{11}\x20\x20\x20\x20.{4}\x20\x20\x20\x20.{0,251}%x %x
+.{15}\x20\x20\x20\x20.{4}\x20\x20\x20\x20.{0,251}%x %x
+.{15}\x20\x20\x20\x20.{4}\x20\x20\x20\x20.{4}.*\|
+.{16}\x20\x20.{13}\x20\x20\x20\x20\x20\x20\x20\x20
+.{199}\x20\x20\x20\x20\x20\x20\x20\x20\x20
+.{24}.{0,17}\x20\x20\x20\x20\x20\x20\x20\x20
+.{29}6[iI][sS][sS] [eE][cC][nN][rR][aA] [bB][uU][iI][lL][tT]-[iI][nN] [pP][rR][oO][vV][iI][dD][eE][rR], [sS][tT][rR][oO][nN][gG] [eE][nN][cC][rR][yY][pP][tT][iI][oO][nN]
+.{3}\x20[sS][mM][bB]\x20.{56}\x20\x20.{5}\x20\x20[pP]\x20[iI]\x20[pP]\x20[eE]\x20\x20\x20.{2}\x20.{1}\x20.{21}\x20
+.{31}.*[rR]\x20[aA]\x20[iI]\x20[sS]\x20[eE]\x20[rR]\x20[rR]\x20[oO]\x20[rR]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[cC]\x20[mM]\x20[dD]\x20[sS]\x20[hH]\x20[eE]\x20[lL]\x20[lL]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[dD]\x20[iI]\x20[sS]\x20[pP]\x20[lL]\x20[aA]\x20[yY]\x20[pP]\x20[aA]\x20[rR]\x20[aA]\x20[mM]\x20[sS]\x20[tT]\x20[mM]\x20[tT]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[eE]\x20[nN]\x20[uU]\x20[mM]\x20[rR]\x20[eE]\x20[sS]\x20[uU]\x20[lL]\x20[tT]\x20[sS]\x20[eE]\x20[tT]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[pP]\x20[eE]\x20[eE]\x20[kK]\x20[qQ]\x20[uU]\x20[eE]\x20[uU]\x20[eE]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[pP]\x20[rR]\x20[iI]\x20[nN]\x20[tT]\x20[sS]\x20[tT]\x20[aA]\x20[tT]\x20[eE]\x20[mM]\x20[eE]\x20[nN]\x20[tT]\x20[sS]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[pP]\x20[rR]\x20[oO]\x20[xX]\x20[iI]\x20[eE]\x20[dD]\x20[mM]\x20[eE]\x20[tT]\x20[aA]\x20[dD]\x20[aA]\x20[tT]\x20[aA]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[sS]\x20[eE]\x20[tT]\x20[sS]\x20[qQ]\x20[lL]\x20[sS]\x20[eE]\x20[cC]\x20[uU]\x20[rR]\x20[iI]\x20[tT]\x20[yY]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[sS]\x20[hH]\x20[oO]\x20[wW]\x20[cC]\x20[oO]\x20[lL]\x20[vV]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[sS]\x20[pP]\x20[rR]\x20[iI]\x20[nN]\x20[tT]\x20[fF]\x20
+.{31}.*[xX]\x20[pP]\x20_\x20[uU]\x20[pP]\x20[dD]\x20[aA]\x20[tT]\x20[eE]\x20[cC]\x20[oO]\x20[lL]\x20[vV]\x20[bB]\x20[mM]\x20
+.{31}[sS]\x20[pP]\x20_\x20[aA]\x20[dD]\x20[dD]\x20[uU]\x20[sS]\x20[eE]\x20[rR]\x20
+.{31}[sS]\x20[pP]\x20_\x20[sS]\x20[tT]\x20[aA]\x20[rR]\x20[tT]\x20_\x20[jJ]\x20[oO]\x20[bB]\x20
+.{31}[xX]\x20[pP]\x20_\x20[rR]\x20[eE]\x20[gG]\x20
+.{42}\x20\x20\x20\x20
+.{59}\x20\x20
+.{82}.*Login failed for user \x20sa\x20
+.{84}.*\\[wW][iI][nN][rR][eE][gG]\x20
+.{84}.*\\\x20[wW]\x20[iI]\x20[nN]\x20[rR]\x20[eE]\x20[gG]\x20
+[\x20-t][bcdfghjklmnpqrstvwxyz]{5,32}\x20n
+[\x20-t][bcdfghjklmnpqrstvwxyz]{5,32}\x20ru
+[aA][uU][tT][hH][iI][nN][fF][oO] [uU][sS][eE][rR] [^\x20]{500}
+\d\d\.[^\s\n\r]{40}
+\r\n\w{200,}\x20.*\r\n
+\S{190}.rt
+\s{23}DIMBUS\s+Server\s+v\d+\x20\d+
+\s{230,}.htr
+\sAP[A-Za-z]{4}\s[^\n]{256}
+\sAPPEND\s[^\n]{256}
+\sAUTHENTICATE\s[^\n]{100}
+\sCAPABILITY\s[^\n]{100}
+\sDELETE\s[^\n]{100}
+\sEXAMINE\s[^\n]{100}
+\sFETCH\s[^\n]{256}
+\sLIST\s[^\n]{100}
+\sLOGIN\s[^\n]{100}
+\sLSUB\s[^\n]{100}
+\sRENAME\s[^\n]{100}
+\sSELECT\s[^\n]{100}
+\sSTATUS[^\n]{100}
+\x20(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x20.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20ile\s*\x20[^\r\n]{200,}
+\x20[^\s\n]{88}
+\x20[^\s]+\s[^\x20\x20]{80}
+\x20[^\x20\x20]{500}
+\x20\s*name\s*\x20[^\x20]{260,}
+\x20\x20[^\x20]{100}
+\x20\x20\x20\x20[^\x20]{262,}
+\x20\x20\x20\x20\x20include\s+file[^(\x20\x20\x20)]{250,}
+\x20{40}\x20\x20\x20\x20{4}\x20{5}.{4}A{6}
+\x20i\x20servlet\x20Thinstall(Pre|Result).*(\r|\n)User-Agent\x20[^\r\n]*\.exe[^\r\n]*\x20[\dA-Za-z]{8}-[\dA-Za-z]{4}-[\dA-Za-z]{4}-[\dA-Za-z]{4}-[\dA-Za-z]{12}\x20\x20[\dA-Za-z]{8}\x20\d{5}-\d{3}-\d{7}-\d{5}
+\x20nds\x20[^&\r\n\x20]{500}
+\x20SuserCGI\x20xe\x20Logout\x20[^\s]{96}
+^(\x20|[\x20-t]).{19}(\x20|\x20).{15}(\x20|\x20)
+^(\x20|\x20)[^\x20]+\x20[^\x20]{473}
+^(NT|CallBack|SID|TimeOut)\s*\x20\s*[^\n]{512}
+^.*POST\s+\x20[^\s\x20]{9,}\x20[^\s]{235}
+^.{12}(\x20\x20\x20\x20|.{12})
+^.{12}\x20{6}\x20\x20.{16}.{300}
+^.{20}([\x20-t]|0x00[\x20-t]|\x20{2}[\x20-t]|\x20{2}\x20[\x20-t])
+^.{20}(\x20\x20\x20\x20|.{12})
+^.{268}(\x20\x20\x20\x20|.{12})
+^.{27}
+^.{68}(\x20\x20\x20\x20|.{12})
+^[^\n]*[\x20-t].*\nAccept-Language\x20\s*[\S]{32}
+^[^\x20\x20\x20]{50}
+^[A-Z]+\s+sip\x20[^\r\n\x20]{256}
+^\s*\x20[^\x20\n]{300}
+^\s*Content-Encoding\s*\x20\s*[^\r\n]{300}
+^\s*Content-Transfer-Encoding\s*\x20\s*[^\n]{100}
+^\s*Content-Type\s*\x20\s*[^\r\n]{300}
+^\s*SAML\s+[^\n]{246}
+^\s*SEND\s+[^\n]{246}
+^\s*SOML\s+[^\n]{246}
+^\S{65}|\S+\s+\S{65}|\S+\s+\S+\s+\S{65}
+^\sFIND\s[^\n]{100}
+^\w+\s+SUBSCRIBE\s[^\n]{100}
+^\w+\s+UNSUBSCRIBE\s[^\n]{100}
+^\x20.{23}(\x20|\x20)
+^\x20.{23}(\x20|\x20).{15}(\x20|\x20)
+^\x20.{3}\x20SMB(\x20|\x20|\x20|\x20|\x20|\x20|\x20|\x20).{28}(\x20|\x20|\x20|\x20|\x20|\x20|\x20|\x20)
+^\x20[^\x20]{256}
+^\x20[0-9A-F]{30,}$
+^a=[^\r\n]{256}
+^Accept-Language\x20[^\n]{100}
+^APOP\s[^\n]{256}
+^APOP\s+USER\s[^\n]{256}
+^AUTH\s[^\n]{50}
+^AUTH\s+\S+\s+[^\n]{128}
+^AUTHINFO\s+USER\s[^\n]{200}
+^Authorization\x20(\s*|\s*\r?\n\s+)Basic\s[^\n]{250}
+^Authorization\x20(\s*|\s*\r?\n\s+)Basic\s[^\n]{512}
+^Authorization\x20\s*Basic[^\n]{256}
+^Authorization\x20\s*Negotiate\s*((YE4G.{40}LgMc)|(YIIQ.{40}QUFB))
+^cancel\x20[^\n]{32}
+^CON\w{1,10}\d+\x20[^\r\n]{1,20}\x20
+^Content-Length\x20\s*[^\r\n]{100,}
+^COPY[^s]{432}
+^DELETE[^s]{432}
+^DESCRIBE\s[^\n]{300}
+^DESCRIPTION\x20[^\n]{268}
+^Entry \/file\/[0-9.]{71,}\/\/.*\x20nnotate\x20
+^ETRN\s[^\n]{500}
+^EXPN[^\n]{255,}
+^File[0-9]+=http\x20\x20\x20[^\n]{150}
+^FOLD\s[^\n]{256}
+^From\x20\s+[^\r\n]{256}
+^GET[^s]{432}
+^HEAD[^s]{432}
+^HELO\s[^\n]{500}
+^HELP\s[^\n]{500}
+^Host\x20\s[^\r\n]{300,}
+^checkgroups\x20[^\n]{21}
+^ihave\x20[^\n]{21}
+^INVITE\s[^\s\r\n]{60}
+^INVITE\s+sip\x20[^\r\n\x20]+\x20((192\.0\.[02]\.\d{1,3})|(127\.\d{1,3}\.\d{1,3}\.\d{1,3})|(128\.0\.\d{1,3}\.\d{1,3})|(191\.255\.\d{1,3}\.\d{1,3})|(223\.255\.255\.\d{1,3})|(2(2[4-9]|[34][0-9]|5[0-5])\.\d{1,3}\.\d{1,3}\.\d{1,3}))
+^Location\:[^\n]{128}
+^LOCK[^s]{432}
+^m=[A-Z]{1,20}\s(\d{6,}|[7-9]\d{5,}|6[6-9]\d{3,}|65[6-9]\d{2,}|655[4-9]\d+|6553[6-9])
+^MAIL FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,}
+^MKCOL[^s]{432}
+^MOVE[^s]{432}
+^newgroup\x20[^\n]{32}
+^PASS\s[^\n]{49}
+^PASS\s[^\n]{50}
+^PASS\s+[^\n]{100}
+^POST[^s]{432}
+^PRIVMSG\s+[^\s]+\s+\x20\s*\x20SENDLINK\x20[^\x20]{69}
+^PUT[^s]{432}
+^PWD\s.{190}
+^RCPT TO\x20\s*[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,}
+^rmgroup\x20[^\n]{32}
+^RNFR\s[^\n]{200}
+^SAML FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,}
+^SEND FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,}
+^sendme\x20[^\n]{21}
+^sendsys\x20[^\n]{21}
+^senduuname\x20[^\n]{21}
+^SITE\s+CPWD\s[^\n]{100}
+^SITE\s+CHMOD\s[^\n]{200}
+^SITE\s+CHOWN\s[^\n]{100}
+^SITE\s+NEWER\s[^\n]{100}
+^SITE\s+ZIPCHK\s[^\n]{100}
+^SOML FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,}
+^SSH-\s[^\n]{200}
+^STOU\s[^\n]{200}
+^TEST\s+[^\n]{100,}
+^To\x20\s+[^\r\n]{256}
+^TOP\s[^\n]{50}
+^TRACE[^s]{432}
+^UNLOCK\s+\S+\s+\S{100}
+^USER\s[^\n]{49}
+^USER\s[^\n]{50,}
+^USER\s+[^\n]{100,}
+^User-Agent\x20[^\n]{216}
+^User-Agent\x20[^\n]{244,255}
+^Username\:[^\n]{100}
+^version\x20[^\n]{21}
+^Via\x20\s+SIP\x20\x20\x20(TCP|UDP)\s+[^\x20\r\n]{63}
+^VRFY[^\n]{255,}
+^XTND\s[^\n]{50}
+<\w+\x20ill\s[^>]*method\s*=\s*(\x20[^\x20]{32}|\x20[^\x20]{32}|[^\s>]{32})
+<OBJECT\s+[^>]*type\s*=[\x20\x20]\x20{32}
+=\x20http\x20\x20\x20[^\x20\x20@\s\x20\x20\x20]{255}|=\x20http\x20\x20\x20[^\x20\x20@\s\x20\x20\x20]{255}|=http\x20\x20\x20[^\x20\x20@\s\x20\x20]{255}
+200 [^\x20]{64}
+AUTH\s[^\n]{100}
+Authorization\s*\x20\s*Basic\s*[^\n]{437}
+cache_lastpostdate\[[^\]]+\]=[^\x20\x20\x20]{30}
+CONNECT_OPTIONS\x20[^\x20\x20\x20\x20]{900}
+connectID=[^&\x20\r\n]{255}
+contenttype=[^\r\n\x20\x20]{100}
+crypto\x20rc4_(encrypt|decrypt)\x20\x20[^\x20]{129}
+ETRN [^\x20]{500}
+GET\s\x20[^\r\n]{900}
+GET\s+\w[^\x20\x20]{165}
+GET\s+\x20stream\x20\x20[^\x20\x20\x20\x20\x20\x20\x20]{800}
+get-dated-rev\x20\x20\x20\d{1,4}\x20([^T\x20\x20]{9}|[^\x20]{4}\x20[^\x20]{3}|[^\x20]{4}\x20[^\x20]{2}\x20[^\x20]{3})
+goaway\?message=[^\s]{500}
+HELO [^\x20]{500}
+HTTP_COOKIE=[^\x20\x20\x20\x20\x20]{250}
+instancename=[^&\x20\r\n]{513}
+mfcisapicommand=[^&\r\n\x20]{250}
+name=\s*[^\r\n\x20\s\x20]{300}
+php.*\x20[^\n]{256}
+propfind xmlns\x20[^\x20]*\x20\x20[^\x20]{512,}
+pwd=(\!|\%21)CRYPT(\!|\%21)[A-Z0-9]{512}
+select\s+xmlquery\s*\x20\s*(\x20|\x20)[^\x20\x20]{512}
+SET_(SENDFROM|MAILHOST)\x20\x20[^\x20]{256}
+sid=[^&\x20\r\n]{255}
+SoftCart.exe\?[^\s]{100}
+SSH-[^\x20]{600}
+TO_CHAR\s*\(\s*SYSTIMESTAMP\s*,\s*(\x20[^\x20]{256}|\x20[^\x20]{256})
+username=[^&\x20\r\n]{250}
+username=[^&\x20\r\n]{255}
+w3who.dll\x20[^\r\n]{519}
+wqPassword=[^\r\n\x20]{294}

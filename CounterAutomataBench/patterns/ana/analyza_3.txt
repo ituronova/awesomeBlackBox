@@ -1,0 +1,2231 @@
+([^\\40-\\176\\\\])
+([^\\\\A-Z\\x{c1}\\x{c9}\\x{cd}\\x{d3}\\x{da}a-z\\x{e1}\\x{e9}\\x{ed}\\x{f3}\\x{fa}'-][A-Z\\x{c1}\\x{c9}\\x{cd}\\x{d3}\\x{da}a-z\\x{e1}\\x{e9}\\x{ed}\\x{f3}\\x{fa}])([.?!])
+([^\\a-zA-Z0-9\\-\\_\\.])
+([^\\n]{
+([^\\p{Common}]+)
+([^\\p{Digit}])(,|:)
+([^\\p{Digit}])(,|:)(\\p{Digit})
+([^\\p{javaLowerCase}\\p{javaUpperCase}])+$
+([^\\p{Letter}\\p{Digit}\\-_.:])
+([^\\p{Upper}]*)(\\p{Upper}*)
+([^\\p{Upper}_])(\\p{Upper}+)
+([^\\pL\\pN]|^)(\\pL|\\pN)
+([^\\pL\\s\\d])
+([^\\pL0-9]\\s*)\\/([^\\/].*?[^\\\\])\\/
+([^\\PP.\\-_])
+([^\\PS+])
+([^\\Q;/?:@&=+,\\$\\[\\]%-_.!~*'()\\EA-Za-z0-9])
+([^\\Q+-*/=\\E]+)([\\Q+-*/\\E]?)\\=\\\"\\+\\((.*)\\)\\+\\\"$
+([^\\s,\"=]*)\\s*=\\s*([^\\s,\"]+|\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\")\\s*
+([^\\s\\[{(>
+([^\\s]*)github\\.com[\\/\\\\]gapid
+([^\\s]*)src[\\/\\\\]runtime
+([^\\s']+?)(?=test(?:[\\/\\\\])feature(?:[\\/\\\\]))
+([^\\s]+?)\\s+(.*+)
+([^\\sa-zA-Z0-9\\\\])(\\^|\\\\A)?(.*?)(\\$|\\\\z|\\\\Z)?\\1[a-zA-Z]*
+([^\\u0040\\u0023\\p{Alnum}\\p{Space}\\.\\u2014\\u8212?\\-\\?\\?\\?\\!'`,:/\\u0027\\u0091\\u0092\\u2019\\u201A\\u201B\\u203A\\u2018\\u2039\\u00B7])
+([^\\w\\r\\n]{0,
+([^\\w]*?)$prefix([A-Z()\\[\\]0-9\\._]*)\\|\\[(.*?)(?<!\\\\)\\]
+([^\\x
+([^\\x00-\\x7F]|[.*+?^=!:${}()|\\[\\]\\/\\\\]|&\\s+)
+([^\\x{1040}-\\x{1049}])\\x{1040}$
+([^\\x{1040}-\\x{1049}])\\x{1040}(?=[\\\\f\\\\n\\\\r])
+([^\\x{1040}-\\x{1049}])\\x{1040}([^\\x{1040}-\\x{1049}]|[\\x{104a}\\x{104b}])
+([^\\x{200C}\\x{200D}\\P{Join_Control}])
+([^\\x{32}-\\x{128}])
+([^]*?);
+([^]*?)\\n{2,}
+([^']\\S*|'.+?(?<!\\\\)')\\s*
+'([^']++)'
+([^{,a-zA-Z0-9_\\\\x24\\.])\\Q$block_var\\E:
+([^|\\\\]+|\\\\.)+
+([^-+={}<()\\\\]+)(?=[-+=*<{}])?
+([^= ]+)='((?:\\\\.|[^'\\\\])*)'
+([^= ]+)=\"((?:\\\\.|[^\"\\\\])*)\"
+([^=,\\s]*)\\s*=\\s*((?:\"(?:\\\\.|[^\"\\\\]+)*\"|'(?:\\\\.|[^'\\\\]+)*')|[^'\"\\s]*)
+([^=]*)=(\\s*\".*?[^\\\\]\";?|\\S*)\\s*
+([^=]*)=\\s*\"(.*?[^\\\\])\"\\s*
+([^=]+)=(U|[\\d\\.,\\-]+)([\\pL\\/%]*);?([\\d\\.,\\-:~@]+)?;?([\\d\\.,\\-:~@]+)?;?([\\d\\.,\\-]+)?;?([\\d\\.,\\-]+)?;?\\s*
+([^=]+)=\"((?:[\\\\][\"\\\\]|[^\"\\\\])+)\"(:?,|$)
+([^=]+?(?:\\\\\\\\)*$)
+([^=]++)=\"([^\"]*)\" *
+([^0-9a-zA-Z-\\\\\\\"\\_\\.\\/\\:])
+([^A-Z]):(?!\\\\)
+([^a-z0-9\\-\\_])
+([^a-z0-9\\_\\\\])
+([^a-z0-9_\\\\]+)
+([^a-zA-Z\\-\\_0-9])
+([^a-zA-Z0-9 \\!\\#\\$\\%\\&\\(\\)\\*\\+\\,\\-\\.\\/\\:\\;\\=\\?\\@\\^\\_\\{\\|\\}]+)
+([^A-Za-z0-9;\\/\\?\\:\\@\\&\\=\\+\\$,\\[\\]\\-\\_\\.\\!\\~\\*\\'\\(\\)%\\#])
+([^A-Za-z0-9\\'\\(\\)\\*\\+\\,\\-\\/\\<\\>\\:\\;\\?\\_])
+([^a-zA-Z0-9\\-\\_\\.\\!\\~\\*\\'\\(\\)\\/])
+([^A-Za-z0-9\\-_.!~*'()/:\\$@&=+,;?\\\\\\]\\[^`|<>
+([^A-Za-z0-9\\_\\:\\.])
+([^a-zA-Z0-9\\_]+)
+([^a-zA-Z0-9\\x{007f}-\\x{ffe5}\\-\\_\\@]+)+
+([^a-zA-Z0-9_.
+([^a-zA-Z0-9_.-
+([^a-zA-Z0-9_\\\\x24\\.])\\Q$block_var\\E([^a-zA-Z0-9_\\\\x24:])
+([_%\\\\])
+([_'%\\\\])
+([_-\\s]?([a-z0-9]+))
+([_a-z]|
+([_a-z0-9-]|
+([`\"\\$\\\\])
+([`\"'\\\\])
+(['`\"])((?:[^\\\\]\\\\\\1|.)*?)\\1
+([`\\\\])
+(['`])(?:\\\\(?:\\d+|x[\\da-f]+|.)|(?!\\1)[^\\\\\\r\\n])\\1
+([{,])\\s*([0-9a-zA-Z\\_]+)\\s*:
+([|])(\\s*)(
+([|])(\\s+)(
+([|<>\\\\])
+([~`!\\@#\\$\\%^&*()_+\\-=\\[\\]{};:'\",<\\.>\\/\\?\\|\\\\]+)
+([+!(){}\\[\\]^\"~*?:\\\\]|\\&\\&|\\|\\|)
+([+\\-!(){}\\[\\]^\"~:/]|\\\\(?![*?])|&&|\\|\\|)
+([+\\-|!(){}\\[\\]\\^'\"~*?:\\\\])
+([+\\-=!(){}\\[\\]^\"~:/]|\\\\(?![*?])|\\\\u|&&|\\|\\|)
+([+]
+([-+])?0[xX](((\\p{XDigit}+)\\.?)|((\\p{XDigit}*)\\.(\\p{XDigit}+)))[pP]([-+])?(\\p{Digit}+)[fFdD]?
+([+{($^|.\\\\])
+([<>\"\\\\])
+([=<>()|!@~&/^$\\-\\'\\\"\\\\])
+([0-5]?[0-9](?=?(?!?)))|((?<=((?<!(?|??|\\d))([0-2]?[0-9])(?|?)))[0-5]?[0-9](?!?))
+([0-5]?[0-9](?=?))|((?<=?)[0-5]?[0-9])
+([0-7]|
+([0-9???????????])(?)
+([0-9???????????]+)(?)
+([0-9???????????]+)(??)
+([0-9???????????]+)??(?)
+([0-9???????????]+)??(??|??)
+([0-9\\.\\+\\-]*)[\\s](
+([0-9\\.\\+\\-]*)[\\s]([0-9\\.\\+\\-]*)[\\s]([0-9\\.\\+\\-]*)[\\s](
+([0-9\\.\\+\\-]*)[\\s]([0-9\\.\\+\\-]*)[\\s]([0-9\\.\\+\\-]*)[\\s]([0-9\\.\\+\\-]*)[\\s]([0-9\\.\\+\\-]*)[\\s](
+([0-9\u00ef\u00bc\u0090-\u00ef\u00bc\u0099]*[\\p{Han}\u00e3\u0082\u00b1\u00e3\u0083\u00b6]+[0-9\u00ef\u00bc\u0090-\u00ef\u00bc\u0099]*|[^\\p{Han}]+)
+([0-9]{1,2})[-,/,\\\\]([0-9]{1,2})([-,/,\\\\]([0-9]{1,4}))?
+([0-9]{1,2})[-,/,\\\\]([0-9]{1,2})[-,/,\\\\]([0-9]{1,4})
+([0-9]{12}]*)\\_(.*)
+([0-9]{2})\\9([0-9]{4})([0-9]{4})
+([0-9]+\\s*\\.?\\s*\\(?[SBU/NTSC]+\\)[ ]*)  # Something like 1. (C)\n                    |(\\-{3,}|={3,}|_{3,}|/{3,}|\\#{3,}|\\*{3,}|\\.{3,})      # Section delimiters\n                    |(\\s*[A-Z]+\\s+[0-9 \\.]+OF\\s+[0-9]+)    # Section numbers like ROME 0001 003.2 OF 004\n                    |(^[0-9]+\\s*\\.\\s*)                     # Paragraph numbering without classification\n                    |((END )?\\s*SUMMAR?Y(\\s+AND\\s+COMMENT)?(\\s+AND\\s+ACTION\\s+REQUEST)?\\s*\\.?:?[ ]*) # Introduction/end of summary\n                    |((END )?\\s*COMMENT\\s*\\.?:?[ ]*)       # Introduction/end of comment\n                    |(^\\s*SIPDIS\\s*)                       # Trends to occur randomly ;)\n                    
+([0-9]+\\s*\\.?\\s*\\(?[SBU/NTSC]+\\)[ ]*)  # Something like 1. (C)\n                    |(\\-{3,}|={3,}|_{3,}|/{3,}|\\#{3,}|\\*{3,}|\\.{4,})      # Section delimiters\n                    |(\\s*[A-Z]+\\s+[0-9 \\.]+OF\\s+[0-9]+)    # Section numbers like ROME 0001 003.2 OF 004\n                    |(^[0-9]+\\s*\\.\\s*)                     # Paragraph numbering without classification\n                    |((END )?\\s*SUMMAR?Y(\\s+AND\\s+COMMENT)?(\\s+AND\\s+ACTION\\s+REQUEST)?\\s*\\.?:?[ ]*) # Introduction/end of summary\n                    |((END )?\\s*COMMENT\\s*\\.?:?[ ]*)       # Introduction/end of comment\n                    |(^\\s*SIPDIS\\s*)                       # Trends to occur randomly ;)\n                    |((?<=[a-z])?xx+)                      # xxx\n                    
+([0-9a-f]{
+([0-9a-zA-Z\\.\\-\\_]+)\\s+x\\.x
+([0-9a-zA-Z\\_\\-]*?\\.jpe?g|png|gif)
+([AE@IU][12]?|=[.#:\\^/\\\\]|[\\^#][!:\\\\]|.)
+([a-f0-9]{40}) refs/(remotes/
+([achlmqstvz])([0-9e\\.,\\+-\\s]*)
+([a-z\\-\\_\\/]*)#([a-z\\-\\_]*)
+--([a-z\\-]+)([\\s=]+)?['\"]?((?!--)[-\\w/.,\\\\]+)?['\"]?
+([a-z\\_]+)\\s+\\:\\s+(.*)
+([a-z\\d\\-\\_\\.\\/]+)
+([a-z]*)\\h(.*)\\h\\((.*)\\)
+([A-Z]:\\\\)\\\\*[^\\\\]+\\\\+\\.\\.$
+([A-Z][a-z]{
+([a-z][a-zA-Z\\d@_]*+)\\s*+(,)?
+([a-z][a-zA-Z\\d@_]*+)\\s*+(/)
+([a-z][a-zA-Z\\d@_]*+|'[^']*+')\\s*+(,)?
+([a-z][a-zA-Z\\d@_]*+|'[^']*+')\\s*+(/)
+([A-Z]{2,5}+)
+([A-Z]+) \\([A-Z\\_]+\\)
+([a-z]+) => ([+-]? [0-9]+ (?: \\. [0-9]+ )?+|(?:(?:\\')(?:[^\\\\\\']*(?:\\\\.[^\\\\\\']*)*)(?:\\')))
+([a-z]+)\\s+([^]*)
+([a-z]+)=([^,\\\\ ][^,\\\\]*(?:\\\\.[^,\\\\]*)*)
+([a-z-]+)=(\"[^\"]+(?<!\\\\)\"|[^,]+)
+([a-z]+:)?[/\\\\]
+([A-Z]+[A-Za-z0-9\\_]*)\\_([0-9]*)
+(--[a-z-_]+|-[a-z])(=([a-zA-Z-._\\/\\\\]+))?
+([A-z_0-9]+)\\s*\\[label=\\\"([^\\\\]+)
+([a-z0-9!
+([A-Z0-9\\!\\#\\$\\&\\.\\+\\-\\^\\_]{1,127})/([A-Z0-9\\!\\#\\$\\&\\.\\+\\-\\^\\_]{1,127})
+([a-z0-9\\.\\-\\_]+)
+([a-z0-9\\.\\_\\/\\%\\-]+)
+([a-z0-9\\.\\_\\-\\:]+)\\#?([a-z0-9_-]+)?
+([a-z0-9\\-\\_\\/]{3,})
+([a-z0-9\\-\\_\\@\\$])+\\=\\\"
+([a-z0-9\\-\\_]+)=\"(.*?)(\\{\\{.+?\\}\\})(.*?)\"
+([a-z0-9\\_:-]+)\\s*(?:=\\s*('[^']*'|\"[^\"]*\"|[^'\"\\s]+))?()
+([a-z0-9\\_]+)(\\?|\\=)?$
+([A-Z0-9\\_]+): (.+)\\s*
+([a-z0-9\\_]+)\\s*\\=\\s*[\\\"]{1}([^\\\"]+)[\\\"]{1}
+([a-z0-9]{2})[/\\\\]([a-z0-9]{38})
+([a-z0-9]+((\\_)([a-z0-9]+))*)+((\\.)[a-z0-9]+((\\_)([a-z0-9]+))*)+
+([-a-zA-Z$._][-a-zA-Z$._0-9]*|
+([a-zA-Z\\-\\_0-9\\.]+)/([a-zA-Z\\-\\_0-9\\.]+)
+([a-zA-Z\\\\])
+([A-Za-z\\_]*?)\\((.*?)\\)
+([a-zA-Z\\_][a-zA-Z0-9\\_]*)\\(
+([A-Za-z]*)\\\\([A-Za-z]*)
+([a-zA-Z]:[\\/\\\\\\\\]+(?:[^:*?\\\"<>|;]+[\\/\\\\\\\\]*)*)
+([a-zA-z-]+)=(?:\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"|'([^'\\\\]*(?:\\\\.[^'\\\\]*)*)')
+([a-zA-Z_][a-zA-Z_\\.\\d]*+)
+([A-Za-z_][A-Za-z0-9_]*)(
+([a-zA-Z0-9\\!\\$\\&\\*\\+\\-\\.\\/\\:\\;\\<\\>\\?\\[\\]\\^\\_\\`\\|]+)\\s*(\\=)
+([a-zA-Z0-9\\.\\-\\_\\s\\(\\)]+)\\.([a-zA-Z0-9]+)$
+([a-zA-Z0-9\\-\\.\\_]+@[a-zA-Z0-9\\-\\.\\_]+\\.[a-zA-Z0-9\\-\\.\\_]+)
+([a-zA-Z0-9\\-\\_\\.\\/]+)
+([a-zA-Z0-9\\-\\_\\.]+)(=|<=|>=|<|>|~)(.*)
+([a-zA-Z0-9\\\\]+Bundle)
+([a-zA-Z0-9\\_\\-\\*]+):not\\(([^\\)]*)\\)
+([a-zA-Z0-9\\_\\-\\*]+):nth-child\\(([^\\)]*)\\)
+([a-zA-Z0-9\\_\\-\\.]*?)\\.(lib)$
+([a-zA-Z0-9\\_\\-]+)(\\(([a-zA-Z0-9\\_\\-\\., ]+)\\))?
+([A-Za-z0-9\\_]+)$
+([a-zA-Z0-9\\_]+)[\\s]*\\([\\s]*\\$module[\\s]*\\,[\\s]*\\$data\\_block[\\s]*\\,[\\s]*\\$lang\\_block[\\s]*\\)
+([a-zA-Z0-9\\_]+)[\\s]*\\([\\s]*\\$module[\\s]*\\,[\\s]*\\$lang\\_block[\\s]*\\)
+([a-zA-Z0-9\\_]+)\\s+(\\d+)\\s+(\\d+)
+([A-Za-z0-9]*)\\\\([A-Za-z0-9]*)Bundle\\\\(Propel)\\\\(.*)
+([a-zA-Z0-9]+://([a-zA-Z0-9\\:\\_\\-\\.])+(/)?)(.)*
+([a-zA-Z0-9_\\xFF-\\x{10FFFF}]+)(?:\\+([0-9]+))\\(FP\\)
+([A-Za-z0-9_]!|[A-Za-z0-9_?])(
+([A-Za-z0-9_])+|['\"`](\\\\.|[^'\"`\\\\\\\\])*['\"`]
+([a-zA-Z0-9_]+)\\s+extends\\s+([a-zA-Z0-9_\\\\]*ServiceProvider)
+([a-zA-Z0-9_]+\\\\[a-zA-Z0-9_]+)\\\\(.+)
+([a-zA-Z0-9+$\u2019\u201d\\]\\)@#!\\/]|[\\d[\u5e74\u6708\u65e5]]{2,})((?![\u5e74\u6708\u65e5\u53f7])\\p{Han})
+([hH][dD][lL]:\n                          |https?://hdl\\.handle\\.net/)\n                         (?P<hdl_id>\\S+/\\S+)
+([iI]|y\\\\O\\{\\})'(|\\\\D\\{\\})
+([iI]|y\\\\O{})'(|\\\\D{})
+([iIuU]})(\\\\ham\\{a\\})
+([iIuU]})(\\\\ham{a})
+([msixpodualgcern]*+)$
+([ptdf]\\.|system\\.|get\\_|is\\_|set\\_)+([^=]*)
+([r
+(\\\\
+(\\\\ |[^\\s\\\\])\\s+$
+(\\ +)(def 
+(\\!?(?<!\\\\)\\$\\{?([a-zA-Z0-9_]+)(\\(\\))*(((\\.[a-zA-Z0-9_]+(\\(\\))*)*(\\[\\$*[a-zA-Z_.0-9]+\\])*)*)\\}?)
+(\"
+(\"((\\\\.)|[^\"])*\"|\\\\.|[^\\}
+(\"(?:[^\"\\\\]*(?:\\\\\\\\)*(?:\\\\\"?)?)*(?:\"|$))|(\\'(?:[^\\'\\\\]*(?:\\\\\\\\)*(?:\\\\\\'?)?)*(?:\\'|$))|(?:\\/\\/(?:.|\r|\t)*?(\n|$))|(?:\\/\\*(?:.|\n|\r|\t)*?(?:\\*\\/|$))
+(\"(?:[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\")[ ,]*|([^ ,]+)[ ,]*|[ ,]+
+(\"(?:[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"|'(?:[^'\\\\]*(?:\\\\.[^'\\\\]*)*)'|[^\\s]+)
+(\"(?:[^\"\\\\]|\\\\(?:\\\\\\\\)*\"|\\\\\\\\)*\"|'(?:[^'\\\\]|\\\\(?:\\\\\\\\)*'|\\\\\\\\)*')
+(\"(?:[^\"\\\\]+|\\\\.)*\")
+(\"(?:\\\\.|[^\"\\\\])*\"|'(?:\\\\.|[^'\\\\])*')
+(\"(?:\\\\.|[^\"\\\\\\\\])*\"|[^,]*)(?:\\s*,\\s*|\\s*$)
+(\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"|'([^'\\\\]*(?:\\\\.[^'\\\\]*)*)')
+(\"([^\"\\\\]|\\\\.)*\")
+(\"([^\\\\\"]|\\\\.|\\\\)*\")|('([^\\\\']|\\\\.|\\\\)*')
+(\\\"([^\\\\\\\\\\\"]|\\\\\\\\.|\\\\\\\\)*\\\")|('([^\\\\\\\\']|\\\\\\\\.|\\\\\\\\)*')
+(\\\"([^\\\\\\\"]|\\\\.|\\\\)*\\\")|(\\'([^\\\\\\']|\\\\.|\\\\)*\\')
+(\\\"([^\\n\\r\\f\\\\\\\"]|\\\\
+(\"(\\\\\\\\)*)(?!\\\\)
+(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)
+(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+-]?\\d+)?)
+(\"(<a .+?a>|[^\"\\\\]|\\\\.)*\"|'([^'\\\\]|\\\\.)*')
+(\"(<a .+?a>|[^\"\\\\]|\\\\.)*\"|'([^'\\\\]|\\\\.)?')
+(\".*\")|('.*')|([#\\w\\*-\\.+/()=<>{}\\\\]+)|([,;:\\\\])
+(\"?
+(\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\")
+(\\\"[^\\\"\\\\\\\\]*(?:\\\\\\\\.[^\\\"\\\\\\\\]*)*\\\")
+(\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\"|_(?:[^ \\n<]|<(?![-0-9:#@ ]*>))*|[^ \\n:#@\\[\\]\"<>]+|[:#@\\[\\]<>])
+(\"[^\"]*+\")+( DESC)?
+(\"\"\"|\")(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1
+(\"\\s*\\.\\s*\\$(
+(\"\\s*\\.\\s+(
+(\"|')(#\\{[^}]+\\}|\\\\(?:\\r?\\n|\\r)|\\\\?.)*?\\1
+(\"|')((?:\\\\.|[^\"\\\\])*)(\"|')
+(\"|')(?:#\\{[^}]+\\}|\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1
+(\"|')(?:(?!\\1)[^\\\\\\r\\n]|\\\\(?:\\r\\n|[\\s\\S]))*?\\1
+(\"|')(?:(?!\\1)[^\\\\\\r\\n]|\\\\(?:\\r\\n|[\\s\\S]))*\\1
+(\"|')(?:[^\\\\\\r\\n]|\\\\(?:\\r\\n|[\\s\\S]))*?\\1
+(\"|')(?:\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1
+(\"|')(?:\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1|@\"(?:\\\\(?:\\r\\n|[\\s\\S])|[^\"\\\\\\r\\n])*\"
+(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1
+(\"|')(?=
+(\"|')(?P<swf>[^\"']+.swf)(\"|')
+(\"|')(\\\\(?:\\((?:[^()]|\\([^)]+\\))+\\)|\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1
+(\"|')(\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\])*\\1
+(\"|')(\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1
+(\"|')(\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1|@\"(\\\\(?:\\r\\n|[\\s\\S])|[^\"\\\\\\r\\n])*\"
+(\"|')(\\\\(?:\\r\\n|[\\w\\W])|(?!\\1)[^\\\\\\r\\n])*\\1
+(\"|')(\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1
+(\"|').+?[^\\\\]\\1|\\.\\w*|\\$\\w*|\\w*:|\\b(?:this|true|false|null|undefined|new|typeof|Number|String|Object|Array|Math|Date|JSON)\\b|([a-z_]\\w*)\\(|([a-z_]\\w*)
+(\"|').+?[^\\\\]\\1|\\.\\w*|\\w*:|\\b(?:this|true|false|null|new|typeof|Number|String|Object|Array|Math|Date)\\b|([a-z_]\\w*)
+(\"|').+?[^\\\\]\\1|\\.\\w*|\\w*:|\\b(?:this|true|false|null|undefined|new|typeof|Number|String|Object|Array|Math|Date|JSON)\\b|([a-z_]\\w*)
+(\"|[^\\\\]\")
+(\"|\\\\(?![*?]))
+(\"|\\\\(?![*?])|\\+)
+(\"|\\\\)
+(\\\"|\\\\)
+(\"|\\')(?P<url>(/|[a-zA-Z]:\\\\)[\\w/\\s\\\\\\.\\-]*)(\"|\\')(, line (?P<line>\\d*))?
+(\\\\\"|\\\\[0-7]{1,3}\\D|\\\\[abfnrtv]|\\\\\\\\)
+(\\\"|\\]|\\\\)
+(\\\"|\\'|\\\\)
+(\"|'|\\\\)
+(\"|'|\\)|\\\\)
+(\"|'|`)[^\\\\]*(\\\\+-?[0-7]{1,3}(?![0-9]))(?:.|\\n|\\t|\\u2028|\\u2029)*(?:\\1)
+(\"a|\"o|\"u|\\\\3)
+(\"card_number\\\\?\":\\\\?\")[^\"\\\\]*
+(\\#)(
+(\\$
+(\\$(
+(\\$)(
+(\\$)((\\\\)([bdefnrstv\\\\'\"]|(\\^)[@-_]|[0-7]{1,3}))
+(\\$\\$?|\\\\(?:begin|end)\\{[a-z]*\\*?\\}|\\\\[{}$]|[{}]|(?:\\n\\s*)+|@@\\d+@@|\\\\\\\\(?:\\(|\\)|\\[|\\]))
+(\\$\\$kameleon\\_data\\_dir|\\$\\${kameleon\\_data\\_dir})(.*)
+(\\$\\.
+(\\$\\{|(\\A|[^\\\\])(\\\\\\\\)*\")
+(\\${|`|\\\\)
+(\\\\\\$|\\\\\"|\\\\'|'|\\r|\\t|\\\\t|\\n|\\\\n|\\\\\\\\)
+(\\$|\\@|\\\\)
+(\\$+?[a-z0-9\\_]+?\\s*?)\\(.+?\\)
+(\\$PROTECTED-(?P<num>[0-9]*))
+(\\$this->initializer[0-9a-f]++) && \\1->__invoke\\(\\$this->(valueHolder[0-9a-f]++), (.*?), \\1\\);
+(\\$VERSION\\s*=\\s')([\\d\\.\\_]+)'
+(\\%
+(\\&\\#(\\d
+(\\((?:[^\\[\\]\\(\\)\\{\\}]*+\\g<1>*+)*+\\)|\\[(?:[^\\[\\]\\(\\)\\{\\}]*+\\g<1>*+)*+\\]|\\{(?:[^\\[\\]\\(\\)\\{\\}]*+\\g<1>*+)*+\\})
+(\\(([^()]|(?R))*\\))
+(\\()(?!\\?)|\\\\([1-9]\\d*)|\\\\[\\s\\S]|\\[(?:[^\\\\\\]]|\\\\[\\s\\S])*\\]
+(\\()(?!\\?)|\\\\([1-9]\\d*)|\\\\[\\s\\S]|\\[(?:[^\\\\\\]]|\\\\[\\s\\S])*]
+(\\()(\\s*)(
+(\\\\(.)(\\\\?\\w{1,2}))
+(\\\\(.))
+(\\\\(.))(?=(?:[^\"]|\"[^\"]*\")*$)
+(\\\\(.))|(;)|(\\/)
+(\\\\(.)\\{(\\\\?\\w{1,2})\\})
+(\\\\(?! ))
+(\\\\(?:$DIAC_RE_BASE|$ACCENTS_RE))\\{\\\\i\\}
+(\\\\(?:(
+(\\\\(?:[0x]..|c?.))
+(\\\\(?:[a-fA-F0-9]{1,6}\\x20|\\x20))?(\\x20{2,})
+(\\\\(?:begin|end|ref|cite|label|usepackage|documentclass)(?:\\[[^\\]]+\\])?\\{)[^}]+(?=\\})
+(\\\\(?:M[-^].|\\^.|[0-7]{3}|\\\\|[0abtnvfrs]))
+(\\\\(?:part|chapter|section|subsection|frametitle|subsubsection|paragraph|subparagraph|subsubparagraph|subsubsubparagraph)\\*?(?:\\[[^\\]]+\\])?\\{)[^}]+(?=\\}(?:\\[[^\\]]+\\])?)
+(\\\\\\\\(?=\\\\*[{}])|\\\\[{}]|[{}\\n])
+(\\\\(?P<escaped>.)|(?P<unescaped>[^\\\\]+)|(?P<error>.+))
+(\\\\([\\[$.|?*+\\]]))
+(\\\\([^ ]))(?=(?:[^\"]|\"[^\"]*\")*$)
+(\\'([^\\n\\r\\f\\\\']|\\\\
+(\\\\([0-7]{1,3}))
+(\\\\([ntvbrf\\\\$qq]))
+(\\'(\\\\\\\\)*)(?!\\\\)
+(\\(\\)|{}|\\[\\]|
+(\\\\(\\\\|\")|[^\"])*
+(\\\\\\\\(\\\\\\\\|N|n))
+(\\(\\Q$expression\\E\\))
+(\\\\(\\w+)(\\d+))
+(\\\\(\\w+\\*?)[ \\t]+(\\S+))
+(\\(|,\\s?)([\\w\\\\]*?)(?=\\s\\$)
+(\\(|\\)|\\\\)
+(\\(|\\)|\\,|\\s|\\'|\\\"|\\\\)
+(\\(|\\[|\\{|\\+|\\-|\\*|\\/|\\>|\\<|\\=|\\!|\\,|\\;|\\?|\\:|\\&|\\|)\\s*([a-z\\_0-9\\$]+)
+(\\(|\\[|\\s)+(
+(\\(|\\||\\)|\\\\(?!w\\*)|\\[|\\|-|\\.|\\^|\\+|\\$|\\?|^(?!w)\\*)
+(\\(dist[\\/|\\\\]\\w*.js:)(\\d*)(:)(\\d*)(\\))
+(\\\\)
+(\\\\\\\\)
+(\\\\)(.)(\\\\.|.)*?(\\2)
+(\\\\)(.*)$\\n?
+(\\\\)([\\S]*)
+(\\\\)([^a-zA-Z]|[A-Za-z]+)(?=\\b|\\}|\\]|\\^|\\_)
+(\\\\)([^utrn])
+(\\-)([0-9]+\\.[0-9]*
+(\\\\)([bdefnrstv\\\\'\"]|(\\^)[@-_]|[0-7]{1,3})
+(\\\\)(\\*|_|`|\\!)
+(\\\\)(arccos|arcsin|arctan|arg|cos|cosh|cot|coth|csc|deg|det|dim|exp|gcd|hom|inf|ker|lg|lim|liminf|limsup|ln|log|max|min|pr|sec|sin|sinh|sup|tan|tanh)\\b
+(\\\\)(backmatter|else|fi|frontmatter|ftrue|mainmatter|if(case|cat|dim|eof|false|hbox|hmode|inner|mmode|num|odd|undefined|vbox|vmode|void|x)?)\\b
+(\\\\)(newcommand|renewcommand)\\b
+(\\\\)(s(s(earrow|warrow|lash)|h(ort(downarrow|uparrow|parallel|leftarrow|rightarrow|mid)|arp)|tar|i(gma|m(eq)?)|u(cc(sim|n(sim|approx)|curlyeq|eq|approx)?|pset(neq(q)?|plus(eq)?|eq(q)?)?|rd|m|bset(neq(q)?|plus(eq)?|eq(q)?)?)|p(hericalangle|adesuit)|e(tminus|arrow)|q(su(pset(eq)?|bset(eq)?)|c(up|ap)|uare)|warrow|m(ile|all(s(etminus|mile)|frown)))|h(slash|ook(leftarrow|rightarrow)|eartsuit|bar)|R(sh|ightarrow|e|bag)|Gam(e|ma)|n(s(hort(parallel|mid)|im|u(cc(eq)?|pseteq(q)?|bseteq))|Rightarrow|n(earrow|warrow)|cong|triangle(left(eq(slant)?)?|right(eq(slant)?)?)|i(plus)?|u|p(lus|arallel|rec(eq)?)|e(q|arrow|g|xists)|v(dash|Dash)|warrow|le(ss|q(slant|q)?|ft(arrow|rightarrow))|a(tural|bla)|VDash|rightarrow|g(tr|eq(slant|q)?)|mid|Left(arrow|rightarrow))|c(hi|irc(eq|le(d(circ|S|dash|ast)|arrow(left|right)))?|o(ng|prod|lon|mplement)|dot(s|p)?|u(p|r(vearrow(left|right)|ly(eq(succ|prec)|vee(downarrow|uparrow)?|wedge(downarrow|uparrow)?)))|enterdot|lubsuit|ap)|Xi|Maps(to(char)?|from(char)?)|B(ox|umpeq|bbk)|t(h(ick(sim|approx)|e(ta|refore))|imes|op|wohead(leftarrow|rightarrow)|a(u|lloblong)|riangle(down|q|left(eq(slant)?)?|right(eq(slant)?)?)?)|i(n(t(er(cal|leave))?|plus|fty)?|ota|math)|S(igma|u(pset|bset))|zeta|o(slash|times|int|dot|plus|vee|wedge|lessthan|greaterthan|m(inus|ega)|b(slash|long|ar))|d(i(v(ideontimes)?|a(g(down|up)|mond(suit)?)|gamma)|o(t(plus|eq(dot)?)|ublebarwedge|wn(harpoon(left|right)|downarrows|arrow))|d(ots|agger)|elta|a(sh(v|leftarrow|rightarrow)|leth|gger))|Y(down|up|left|right)|C(up|ap)|u(n(lhd|rhd)|p(silon|harpoon(left|right)|downarrow|uparrows|lus|arrow)|lcorner|rcorner)|jmath|Theta|Im|p(si|hi|i(tchfork)?|erp|ar(tial|allel)|r(ime|o(d|pto)|ec(sim|n(sim|approx)|curlyeq|eq|approx)?)|m)|e(t(h|a)|psilon|q(slant(less|gtr)|circ|uiv)|ll|xists|mptyset)|Omega|D(iamond|ownarrow|elta)|v(d(ots|ash)|ee(bar)?|Dash|ar(s(igma|u(psetneq(q)?|bsetneq(q)?))|nothing|curly(vee|wedge)|t(heta|imes|riangle(left|right)?)|o(slash|circle|times|dot|plus|vee|wedge|lessthan|ast|greaterthan|minus|b(slash|ar))|p(hi|i|ropto)|epsilon|kappa|rho|bigcirc))|kappa|Up(silon|downarrow|arrow)|Join|f(orall|lat|a(t(s(emi|lash)|bslash)|llingdotseq)|rown)|P(si|hi|i)|w(p|edge|r)|l(hd|n(sim|eq(q)?|approx)|ceil|times|ightning|o(ng(left(arrow|rightarrow)|rightarrow|maps(to|from))|zenge|oparrow(left|right))|dot(s|p)|e(ss(sim|dot|eq(qgtr|gtr)|approx|gtr)|q(slant|q)?|ft(slice|harpoon(down|up)|threetimes|leftarrows|arrow(t(ail|riangle))?|right(squigarrow|harpoons|arrow(s|triangle|eq)?))|adsto)|vertneqq|floor|l(c(orner|eil)|floor|l|bracket)?|a(ngle|mbda)|rcorner|bag)|a(s(ymp|t)|ngle|pprox(eq)?|l(pha|eph)|rrownot|malg)|V(dash|vdash)|r(h(o|d)|ceil|times|i(singdotseq|ght(s(quigarrow|lice)|harpoon(down|up)|threetimes|left(harpoons|arrows)|arrow(t(ail|riangle))?|rightarrows))|floor|angle|r(ceil|parenthesis|floor|bracket)|bag)|g(n(sim|eq(q)?|approx)|tr(sim|dot|eq(qless|less)|less|approx)|imel|eq(slant|q)?|vertneqq|amma|g(g)?)|Finv|xi|m(ho|i(nuso|d)|o(o|dels)|u(ltimap)?|p|e(asuredangle|rge)|aps(to|from(char)?))|b(i(n(dnasrepma|ampersand)|g(s(tar|qc(up|ap))|nplus|c(irc|u(p|rly(vee|wedge))|ap)|triangle(down|up)|interleave|o(times|dot|plus)|uplus|parallel|vee|wedge|box))|o(t|wtie|x(slash|circle|times|dot|plus|empty|ast|minus|b(slash|ox|ar)))|u(llet|mpeq)|e(cause|t(h|ween|a))|lack(square|triangle(down|left|right)?|lozenge)|a(ck(s(im(eq)?|lash)|prime|epsilon)|r(o|wedge))|bslash)|L(sh|ong(left(arrow|rightarrow)|rightarrow|maps(to|from))|eft(arrow|rightarrow)|leftarrow|ambda|bag)|Arrownot)\\b
+(\\\\)(sum|prod|coprod|int|oint|bigcap|bigcup|bigsqcup|bigvee|bigwedge|bigodot|bigotimes|bogoplus|biguplus)\\b
+(\\\\)(text(s(terling|ixoldstyle|urd|e(ction|venoldstyle|rvicemark))|yen|n(ineoldstyle|umero|aira)|c(ircledP|o(py(left|right)|lonmonetary)|urrency|e(nt(oldstyle)?|lsius))|t(hree(superior|oldstyle|quarters(emdash)?)|i(ldelow|mes)|w(o(superior|oldstyle)|elveudash)|rademark)|interrobang(down)?|zerooldstyle|o(hm|ne(superior|half|oldstyle|quarter)|penbullet|rd(feminine|masculine))|d(i(scount|ed|v(orced)?)|o(ng|wnarrow|llar(oldstyle)?)|egree|agger(dbl)?|blhyphen(char)?)|uparrow|p(ilcrow|e(so|r(t(housand|enthousand)|iodcentered))|aragraph|m)|e(stimated|ightoldstyle|uro)|quotes(traight(dblbase|base)|ingle)|f(iveoldstyle|ouroldstyle|lorin|ractionsolidus)|won|l(not|ira|e(ftarrow|af)|quill|angle|brackdbl)|a(s(cii(caron|dieresis|acute|grave|macron|breve)|teriskcentered)|cutedbl)|r(ightarrow|e(cipe|ferencemark|gistered)|quill|angle|brackdbl)|g(uarani|ravedbl)|m(ho|inus|u(sicalnote)?|arried)|b(igcircle|orn|ullet|lank|a(ht|rdbl)|rokenbar)))\\b
+(\\))(\\s*)(:)(\\s+)(
+(\\))\\s*+(\\.)
+(\\\\)*$
+(\\\\)*'$
+(\\\\\\\\)*(\\\\)?/
+(\\\\)*\"$
+(\\\\\\\\)*\\\\\\(
+(\\\\\\\\)*\\\\\\(\\?:
+(\\\\\\\\)*\\\\?\\/
+(\\\\).|([*?]|\\[.*\\]|\\{.*\\}|\\(.*\\|.*\\)|^!)
+(\\\\).|([@?!+*]\\(.*\\))
+(\\\\)?#\\[((?:.|\\n)*)$
+(\\\\)?#\\{(.+)
+(\\\\)?#\\{([^}]+)\\}
+(\\\\)?#\\{.+\\}
+(\\\\)?#{(.*?)}
+(\\\\)?(?:\\[\\[([
+(\\\\)?([#!])\\{
+(\\\\)?([#!])\\{(.*?)\\}
+(\\\\)?([#!]){((?:.|\\n)*)$
+(\\\\)?([#!]){((?:.|\\n)*)$$
+(\\\\)?([#!]){(.*?)}
+(\\\\)?([#!]){([^}]*)}
+(\\\\)?([:.\\[\\],])
+(\\\\)?([A-Z])
+(\\\\)?(\\$)(\\()?\\{?([A-Z0-9_]+)?\\}?
+(\\\\)?(\\?)
+(\\\\)?(\\{\\{([^\\}\\n]+)\\}\\})
+(\\\\)?(dd?d?d?|MM?M?M?|yy?y?y?|hh?|HH?|mm?|ss?|tt?|S)
+(\\\\)?(kbd|btn):\\[(
+(\\)?)\\s*+(\\.)
+(\\\\)?[$sigils]
+(\\\\)?\\$(?:\\{(-?\\d+|\\*)(-)?(-?\\d+)?\\}|(-?\\d+|\\*))
+(\\\\\\\\)?\\(([^)]+)\\)
+(\\\\\\\\\\\\\\\\)?\\([^)]+\\)
+(\\\\)?\\*
+(\\\\)?\\\\\\*
+(\\\\)?\\.
+(\\\\)?\\\\\\.
+(\\\\)?\\.(\\*)?
+(\\\\)?\\.\\*
+(\\\\)?\\{(
+(\\\\)?\\{((set|counter2?):.+?|\\w+(?:[\\-]\\w+)*)(\\\\)?\\}
+(\\\\)?\\{\\{([^\\}]+)\\}\\}
+(\\\\\\\\)?\\{\\{([^\\}]+)\\}\\}
+(\\\\)?\\<\\<(\\w+)\\>\\>\n              }
+(\\\\)?\\b(GLOB_(MARK|BRACE|NO(SORT|CHECK|ESCAPE)|ONLYDIR|ERR|AVAILABLE_FLAGS)|XML_(SAX_IMPL|HTML_DOCUMENT_NODE|N(OTATION_NODE|AMESPACE_DECL_NODE)|C(OMMENT_NODE|DATA_SECTION_NODE)|TEXT_NODE|OPTION_(SKIP_(TAGSTART|WHITE)|CASE_FOLDING|TARGET_ENCODING)|D(TD_NODE|OCUMENT_(NODE|TYPE_NODE|FRAG_NODE))|PI_NODE|E(RROR_(RECURSIVE_ENTITY_REF|MISPLACED_XML_PI|B(INARY_ENTITY_REF|AD_CHAR_REF)|SYNTAX|NO(NE|_(MEMORY|ELEMENTS))|TAG_MISMATCH|IN(CORRECT_ENCODING|VALID_TOKEN)|DUPLICATE_ATTRIBUTE|UN(CLOSED_(CDATA_SECTION|TOKEN)|DEFINED_ENTITY|KNOWN_ENCODING)|JUNK_AFTER_DOC_ELEMENT|PAR(TIAL_CHAR|AM_ENTITY_REF)|EXTERNAL_ENTITY_HANDLING|A(SYNC_ENTITY|TTRIBUTE_EXTERNAL_ENTITY_REF))|NTITY_(REF_NODE|NODE|DECL_NODE)|LEMENT_(NODE|DECL_NODE))|LOCAL_NAMESPACE|ATTRIBUTE_(N(MTOKEN(S)?|O(TATION|DE))|CDATA|ID(REF(S)?)?|DECL_NODE|EN(TITY|UMERATION)))|M(HASH_(RIPEMD(1(28|60)|256|320)|GOST|MD(2|4|5)|S(HA(1|2(24|56)|384|512)|NEFRU256)|HAVAL(1(28|92|60)|2(24|56))|CRC32(B)?|TIGER(1(28|60))?|WHIRLPOOL|ADLER32)|YSQL(_(BOTH|NUM|CLIENT_(SSL|COMPRESS|I(GNORE_SPACE|NTERACTIVE))|ASSOC)|I_(RE(PORT_(STRICT|INDEX|OFF|ERROR|ALL)|FRESH_(GRANT|MASTER|BACKUP_LOG|S(TATUS|LAVE)|HOSTS|T(HREADS|ABLES)|LOG)|AD_DEFAULT_(GROUP|FILE))|GROUP_FLAG|MULTIPLE_KEY_FLAG|B(INARY_FLAG|OTH|LOB_FLAG)|S(T(MT_ATTR_(CURSOR_TYPE|UPDATE_MAX_LENGTH|PREFETCH_ROWS)|ORE_RESULT)|E(RVER_QUERY_(NO_(GOOD_INDEX_USED|INDEX_USED)|WAS_SLOW)|T_(CHARSET_NAME|FLAG)))|N(O(_D(EFAULT_VALUE_FLAG|ATA)|T_NULL_FLAG)|UM(_FLAG)?)|C(URSOR_TYPE_(READ_ONLY|SCROLLABLE|NO_CURSOR|FOR_UPDATE)|LIENT_(SSL|NO_SCHEMA|COMPRESS|I(GNORE_SPACE|NTERACTIVE)|FOUND_ROWS))|T(YPE_(GEOMETRY|MEDIUM_BLOB|B(IT|LOB)|S(HORT|TRING|ET)|YEAR|N(ULL|EWD(ECIMAL|ATE))|CHAR|TI(ME(STAMP)?|NY(_BLOB)?)|INT(24|ERVAL)|D(OUBLE|ECIMAL|ATE(TIME)?)|ENUM|VAR_STRING|FLOAT|LONG(_BLOB|LONG)?)|IMESTAMP_FLAG)|INIT_COMMAND|ZEROFILL_FLAG|O(N_UPDATE_NOW_FLAG|PT_(NET_(READ_BUFFER_SIZE|CMD_BUFFER_SIZE)|CONNECT_TIMEOUT|INT_AND_FLOAT_NATIVE|LOCAL_INFILE))|D(EBUG_TRACE_ENABLED|ATA_TRUNCATED)|U(SE_RESULT|N(SIGNED_FLAG|IQUE_KEY_FLAG))|P(RI_KEY_FLAG|ART_KEY_FLAG)|ENUM_FLAG|A(S(SOC|YNC)|UTO_INCREMENT_FLAG)))|CRYPT_(R(C(2|6)|IJNDAEL_(1(28|92)|256)|AND)|GOST|XTEA|M(ODE_(STREAM|NOFB|C(BC|FB)|OFB|ECB)|ARS)|BLOWFISH(_COMPAT)?|S(ERPENT|KIPJACK|AFER(128|PLUS|64))|C(RYPT|AST_(128|256))|T(RIPLEDES|HREEWAY|WOFISH)|IDEA|3DES|DE(S|CRYPT|V_(RANDOM|URANDOM))|PANAMA|EN(CRYPT|IGNA)|WAKE|LOKI97|ARCFOUR(_IV)?))|S(TREAM_(REPORT_ERRORS|M(UST_SEEK|KDIR_RECURSIVE)|BUFFER_(NONE|FULL|LINE)|S(HUT_(RD(WR)?|WR)|OCK_(R(DM|AW)|S(TREAM|EQPACKET)|DGRAM)|ERVER_(BIND|LISTEN))|NOTIFY_(RE(SOLVE|DIRECTED)|MIME_TYPE_IS|SEVERITY_(INFO|ERR|WARN)|CO(MPLETED|NNECT)|PROGRESS|F(ILE_SIZE_IS|AILURE)|AUTH_RE(SULT|QUIRED))|C(RYPTO_METHOD_(SSLv(2(_(SERVER|CLIENT)|3_(SERVER|CLIENT))|3_(SERVER|CLIENT))|TLS_(SERVER|CLIENT))|LIENT_(CONNECT|PERSISTENT|ASYNC_CONNECT)|AST_(FOR_SELECT|AS_STREAM))|I(GNORE_URL|S_URL|PPROTO_(RAW|TCP|I(CMP|P)|UDP))|O(OB|PTION_(READ_(BUFFER|TIMEOUT)|BLOCKING|WRITE_BUFFER))|U(RL_STAT_(QUIET|LINK)|SE_PATH)|P(EEK|F_(INET(6)?|UNIX))|ENFORCE_SAFE_MODE|FILTER_(READ|WRITE|ALL))|UNFUNCS_RET_(STRING|TIMESTAMP|DOUBLE)|QLITE(_(R(OW|EADONLY)|MIS(MATCH|USE)|B(OTH|USY)|SCHEMA|N(O(MEM|T(FOUND|ADB)|LFS)|UM)|C(O(RRUPT|NSTRAINT)|ANTOPEN)|TOOBIG|I(NTER(RUPT|NAL)|OERR)|OK|DONE|P(ROTOCOL|ERM)|E(RROR|MPTY)|F(ORMAT|ULL)|LOCKED|A(BORT|SSOC|UTH))|3_(B(OTH|LOB)|NU(M|LL)|TEXT|INTEGER|OPEN_(READ(ONLY|WRITE)|CREATE)|FLOAT|ASSOC)))|CURL(M(SG_DONE|_(BAD_(HANDLE|EASY_HANDLE)|CALL_MULTI_PERFORM|INTERNAL_ERROR|O(UT_OF_MEMORY|K)))|SSH_AUTH_(HOST|NONE|DEFAULT|P(UBLICKEY|ASSWORD)|KEYBOARD)|CLOSEPOLICY_(SLOWEST|CALLBACK|OLDEST|LEAST_(RECENTLY_USED|TRAFFIC))|_(HTTP_VERSION_(1_(1|0)|NONE)|NETRC_(REQUIRED|IGNORED|OPTIONAL)|TIMECOND_(IF(MODSINCE|UNMODSINCE)|LASTMOD)|IPRESOLVE_(V(4|6)|WHATEVER)|VERSION_(SSL|IPV6|KERBEROS4|LIBZ))|INFO_(RE(DIRECT_(COUNT|TIME)|QUEST_SIZE)|S(SL_VERIFYRESULT|TARTTRANSFER_TIME|IZE_(DOWNLOAD|UPLOAD)|PEED_(DOWNLOAD|UPLOAD))|H(TTP_CODE|EADER_(SIZE|OUT))|NAMELOOKUP_TIME|C(ON(NECT_TIME|TENT_(TYPE|LENGTH_(DOWNLOAD|UPLOAD)))|ERTINFO)|TOTAL_TIME|PR(IVATE|ETRANSFER_TIME)|EFFECTIVE_URL|FILETIME)|OPT_(R(E(SUME_FROM|TURNTRANSFER|DIR_PROTOCOLS|FERER|AD(DATA|FUNCTION))|AN(GE|DOM_FILE))|MAX(REDIRS|CONNECTS)|B(INARYTRANSFER|UFFERSIZE)|S(S(H_(HOST_PUBLIC_KEY_MD5|P(RIVATE_KEYFILE|UBLIC_KEYFILE)|AUTH_TYPES)|L(CERT(TYPE|PASSWD)?|_(CIPHER_LIST|VERIFY(HOST|PEER))|ENGINE(_DEFAULT)?|VERSION|KEY(TYPE|PASSWD)?))|TDERR)|H(TTP(GET|HEADER|200ALIASES|_VERSION|PROXYTUNNEL|AUTH)|EADER(FUNCTION)?)|N(O(BODY|SIGNAL|PROGRESS)|ETRC)|C(RLF|O(NNECTTIMEOUT(_MS)?|OKIE(SESSION|JAR|FILE)?)|USTOMREQUEST|ERTINFO|LOSEPOLICY|A(INFO|PATH))|T(RANSFERTEXT|CP_NODELAY|IME(CONDITION|OUT(_MS)?|VALUE))|I(N(TERFACE|FILE(SIZE)?)|PRESOLVE)|DNS_(CACHE_TIMEOUT|USE_GLOBAL_CACHE)|U(RL|SER(PWD|AGENT)|NRESTRICTED_AUTH|PLOAD)|P(R(IVATE|O(GRESSFUNCTION|XY(TYPE|USERPWD|PORT|AUTH)?|TOCOLS))|O(RT|ST(REDIR|QUOTE|FIELDS)?)|UT)|E(GDSOCKET|NCODING)|VERBOSE|K(RB4LEVEL|EYPASSWD)|QUOTE|F(RESH_CONNECT|TP(SSLAUTH|_(S(SL|KIP_PASV_IP)|CREATE_MISSING_DIRS|USE_EP(RT|SV)|FILEMETHOD)|PORT|LISTONLY|APPEND)|ILE(TIME)?|O(RBID_REUSE|LLOWLOCATION)|AILONERROR)|WRITE(HEADER|FUNCTION)|LOW_SPEED_(TIME|LIMIT)|AUTOREFERER)|PRO(XY_(SOCKS(4|5)|HTTP)|TO_(S(CP|FTP)|HTTP(S)?|T(ELNET|FTP)|DICT|F(TP(S)?|ILE)|LDAP(S)?|ALL))|E_(RE(CV_ERROR|AD_ERROR)|GOT_NOTHING|MALFORMAT_USER|BAD_(C(ONTENT_ENCODING|ALLING_ORDER)|PASSWORD_ENTERED|FUNCTION_ARGUMENT)|S(S(H|L_(C(IPHER|ONNECT_ERROR|ERTPROBLEM|ACERT)|PEER_CERTIFICATE|ENGINE_(SETFAILED|NOTFOUND)))|HARE_IN_USE|END_ERROR)|HTTP_(RANGE_ERROR|NOT_FOUND|PO(RT_FAILED|ST_ERROR))|COULDNT_(RESOLVE_(HOST|PROXY)|CONNECT)|T(OO_MANY_REDIRECTS|ELNET_OPTION_SYNTAX)|O(BSOLETE|UT_OF_MEMORY|PERATION_TIMEOUTED|K)|U(RL_MALFORMAT(_USER)?|N(SUPPORTED_PROTOCOL|KNOWN_TELNET_OPTION))|PARTIAL_FILE|F(TP_(BAD_DOWNLOAD_RESUME|SSL_FAILED|C(OULDNT_(RETR_FILE|GET_SIZE|S(TOR_FILE|ET_(BINARY|ASCII))|USE_REST)|ANT_(RECONNECT|GET_HOST))|USER_PASSWORD_INCORRECT|PORT_FAILED|QUOTE_ERROR|W(RITE_ERROR|EIRD_(SERVER_REPLY|227_FORMAT|USER_REPLY|PAS(S_REPLY|V_REPLY)))|ACCESS_DENIED)|ILE(SIZE_EXCEEDED|_COULDNT_READ_FILE)|UNCTION_NOT_FOUND|AILED_INIT)|WRITE_ERROR|L(IBRARY_NOT_FOUND|DAP_(SEARCH_FAILED|CANNOT_BIND|INVALID_URL))|ABORTED_BY_CALLBACK)|VERSION_NOW|FTP(METHOD_(MULTICWD|SINGLECWD|NOCWD)|SSL_(NONE|CONTROL|TRY|ALL)|AUTH_(SSL|TLS|DEFAULT))|AUTH_(GSSNEGOTIATE|BASIC|NTLM|DIGEST|ANY(SAFE)?))|I(MAGETYPE_(GIF|XBM|BMP|SWF|COUNT|TIFF_(MM|II)|I(CO|FF)|UNKNOWN|J(B2|P(X|2|C|EG(2000)?))|P(SD|NG)|WBMP)|NPUT_(REQUEST|GET|SE(RVER|SSION)|COOKIE|POST|ENV)|CONV_(MIME_DECODE_(STRICT|CONTINUE_ON_ERROR)|IMPL|VERSION))|D(NS_(MX|S(RV|OA)|HINFO|N(S|APTR)|CNAME|TXT|PTR|A(NY|LL|AAA|6)?)|OM(STRING_SIZE_ERR|_(SYNTAX_ERR|HIERARCHY_REQUEST_ERR|N(O(_(MODIFICATION_ALLOWED_ERR|DATA_ALLOWED_ERR)|T_(SUPPORTED_ERR|FOUND_ERR))|AMESPACE_ERR)|IN(DEX_SIZE_ERR|USE_ATTRIBUTE_ERR|VALID_(MODIFICATION_ERR|STATE_ERR|CHARACTER_ERR|ACCESS_ERR))|PHP_ERR|VALIDATION_ERR|WRONG_DOCUMENT_ERR)))|JSON_(HEX_(TAG|QUOT|A(MP|POS))|NUMERIC_CHECK|ERROR_(S(YNTAX|TATE_MISMATCH)|NONE|CTRL_CHAR|DEPTH|UTF8)|FORCE_OBJECT)|P(REG_(RECURSION_LIMIT_ERROR|GREP_INVERT|BA(CKTRACK_LIMIT_ERROR|D_UTF8_(OFFSET_ERROR|ERROR))|S(PLIT_(NO_EMPTY|OFFSET_CAPTURE|DELIM_CAPTURE)|ET_ORDER)|NO_ERROR|INTERNAL_ERROR|OFFSET_CAPTURE|PATTERN_ORDER)|SFS_(PASS_ON|ERR_FATAL|F(EED_ME|LAG_(NORMAL|FLUSH_(CLOSE|INC))))|CRE_VERSION|OSIX_(R_OK|X_OK|S_IF(REG|BLK|SOCK|CHR|IFO)|F_OK|W_OK))|F(NM_(NOESCAPE|CASEFOLD|P(ERIOD|ATHNAME))|IL(TER_(REQUIRE_(SCALAR|ARRAY)|SANITIZE_(MAGIC_QUOTES|S(TRI(NG|PPED)|PECIAL_CHARS)|NUMBER_(INT|FLOAT)|URL|E(MAIL|NCODED)|FULL_SPECIAL_CHARS)|NULL_ON_FAILURE|CALLBACK|DEFAULT|UNSAFE_RAW|VALIDATE_(REGEXP|BOOLEAN|I(NT|P)|URL|EMAIL|FLOAT)|F(ORCE_ARRAY|LAG_(S(CHEME_REQUIRED|TRIP_(BACKTICK|HIGH|LOW))|HOST_REQUIRED|NO(NE|_(RES_RANGE|PRIV_RANGE|ENCODE_QUOTES))|IPV(4|6)|PATH_REQUIRED|E(MPTY_STRING_NULL|NCODE_(HIGH|LOW|AMP))|QUERY_REQUIRED|ALLOW_(SCIENTIFIC|HEX|THOUSAND|OCTAL|FRACTION))))|E(_(BINARY|SKIP_EMPTY_LINES|NO_DEFAULT_CONTEXT|TEXT|IGNORE_NEW_LINES|USE_INCLUDE_PATH|APPEND)|INFO_(RAW|MIME(_(TYPE|ENCODING))?|SYMLINK|NONE|CONTINUE|DEVICES|PRESERVE_ATIME)))|ORCE_(GZIP|DEFLATE))|LIBXML_(XINCLUDE|N(SCLEAN|O(XMLDECL|BLANKS|NET|CDATA|E(RROR|MPTYTAG|NT)|WARNING))|COMPACT|D(TD(VALID|LOAD|ATTR)|OTTED_VERSION)|PARSEHUGE|ERR_(NONE|ERROR|FATAL|WARNING)|VERSION|LOADED_VERSION))\\b
+(\\\\)?\\b(RADIXCHAR|GROUPING|M(_(1_PI|SQRT(1_2|2|3|PI)|2_(SQRTPI|PI)|PI(_(2|4))?|E(ULER)?|L(N(10|2|PI)|OG(10E|2E)))|ON_(GROUPING|1(1|2|0)?|7|2|8|THOUSANDS_SEP|3|DECIMAL_POINT|9|4|5|6))|S(TR_PAD_(RIGHT|BOTH|LEFT)|ORT_(REGULAR|STRING|NUMERIC|DESC|LOCALE_STRING|ASC)|EEK_(SET|CUR|END))|H(TML_(SPECIALCHARS|ENTITIES)|ASH_HMAC)|YES(STR|EXPR)|N(_(S(IGN_POSN|EP_BY_SPACE)|CS_PRECEDES)|O(STR|EXPR)|EGATIVE_SIGN|AN)|C(R(YPT_(MD5|BLOWFISH|S(HA(256|512)|TD_DES|ALT_LENGTH)|EXT_DES)|NCYSTR|EDITS_(G(ROUP|ENERAL)|MODULES|SAPI|DOCS|QA|FULLPAGE|ALL))|HAR_MAX|O(NNECTION_(NORMAL|TIMEOUT|ABORTED)|DESET|UNT_(RECURSIVE|NORMAL))|URRENCY_SYMBOL|ASE_(UPPER|LOWER))|__COMPILER_HALT_OFFSET__|T(HOUS(EP|ANDS_SEP)|_FMT(_AMPM)?)|IN(T_(CURR_SYMBOL|FRAC_DIGITS)|I_(S(YSTEM|CANNER_(RAW|NORMAL))|USER|PERDIR|ALL)|F(O_(GENERAL|MODULES|C(REDITS|ONFIGURATION)|ENVIRONMENT|VARIABLES|LICENSE|ALL))?)|D(_(T_FMT|FMT)|IRECTORY_SEPARATOR|ECIMAL_POINT|A(Y_(1|7|2|3|4|5|6)|TE_(R(SS|FC(1(123|036)|2822|8(22|50)|3339))|COOKIE|ISO8601|W3C|ATOM)))|UPLOAD_ERR_(NO_(TMP_DIR|FILE)|CANT_WRITE|INI_SIZE|OK|PARTIAL|EXTENSION|FORM_SIZE)|P(M_STR|_(S(IGN_POSN|EP_BY_SPACE)|CS_PRECEDES)|OSITIVE_SIGN|ATH(_SEPARATOR|INFO_(BASENAME|DIRNAME|EXTENSION|FILENAME)))|E(RA(_(YEAR|T_FMT|D_(T_FMT|FMT)))?|XTR_(REFS|SKIP|IF_EXISTS|OVERWRITE|PREFIX_(SAME|I(NVALID|F_EXISTS)|ALL))|NT_(NOQUOTES|COMPAT|IGNORE|QUOTES))|FRAC_DIGITS|L(C_(M(ONETARY|ESSAGES)|NUMERIC|C(TYPE|OLLATE)|TIME|ALL)|O(G_(MAIL|SYSLOG|N(O(TICE|WAIT)|DELAY|EWS)|C(R(IT|ON)|ONS)|INFO|ODELAY|D(EBUG|AEMON)|U(SER|UCP)|P(ID|ERROR)|E(RR|MERG)|KERN|WARNING|L(OCAL(1|7|2|3|4|5|0|6)|PR)|A(UTH(PRIV)?|LERT))|CK_(SH|NB|UN|EX)))|A(M_STR|B(MON_(1(1|2|0)?|7|2|8|3|9|4|5|6)|DAY_(1|7|2|3|4|5|6))|SSERT_(BAIL|CALLBACK|QUIET_EVAL|WARNING|ACTIVE)|LT_DIGITS))\\b
+(\\\\)?\\b(STD(IN|OUT|ERR)|ZEND_(THREAD_SAFE|DEBUG_BUILD)|DEFAULT_INCLUDE_PATH|P(HP_(R(OUND_HALF_(ODD|DOWN|UP|EVEN)|ELEASE_VERSION)|M(INOR_VERSION|A(XPATHLEN|JOR_VERSION))|BINDIR|S(HLIB_SUFFIX|YSCONFDIR|API)|CONFIG_FILE_(SCAN_DIR|PATH)|INT_(MAX|SIZE)|ZTS|O(S|UTPUT_HANDLER_(START|CONT|END))|D(EBUG|ATADIR)|URL_(SCHEME|HOST|USER|P(ORT|A(SS|TH))|QUERY|FRAGMENT)|PREFIX|E(XT(RA_VERSION|ENSION_DIR)|OL)|VERSION(_ID)?|WINDOWS_(NT_(SERVER|DOMAIN_CONTROLLER|WORKSTATION)|VERSION_(M(INOR|AJOR)|BUILD|S(UITEMASK|P_M(INOR|AJOR))|P(RODUCTTYPE|LATFORM)))|L(IBDIR|OCALSTATEDIR))|EAR_(INSTALL_DIR|EXTENSION_DIR))|E_(RECOVERABLE_ERROR|STRICT|NOTICE|CO(RE_(ERROR|WARNING)|MPILE_(ERROR|WARNING))|DEPRECATED|USER_(NOTICE|DEPRECATED|ERROR|WARNING)|PARSE|ERROR|WARNING|ALL))\\b
+(\\\\)?\\bT_(RE(TURN|QUIRE(_ONCE)?)|G(OTO|LOBAL)|XOR_EQUAL|M(INUS_EQUAL|OD_EQUAL|UL_EQUAL|ETHOD_C|L_COMMENT)|B(REAK|OOL(_CAST|EAN_(OR|AND))|AD_CHARACTER)|S(R(_EQUAL)?|T(RING(_(CAST|VARNAME))?|A(RT_HEREDOC|TIC))|WITCH|L(_EQUAL)?)|HALT_COMPILER|N(S_(SEPARATOR|C)|UM_STRING|EW|AMESPACE)|C(HARACTER|O(MMENT|N(ST(ANT_ENCAPSED_STRING)?|CAT_EQUAL|TINUE))|URLY_OPEN|L(O(SE_TAG|NE)|ASS(_C)?)|A(SE|TCH))|T(RY|HROW)|I(MPLEMENTS|S(SET|_(GREATER_OR_EQUAL|SMALLER_OR_EQUAL|NOT_(IDENTICAL|EQUAL)|IDENTICAL|EQUAL))|N(STANCEOF|C(LUDE(_ONCE)?)?|T(_CAST|ERFACE)|LINE_HTML)|F)|O(R_EQUAL|BJECT_(CAST|OPERATOR)|PEN_TAG(_WITH_ECHO)?|LD_FUNCTION)|D(NUMBER|I(R|V_EQUAL)|O(C_COMMENT|UBLE_(C(OLON|AST)|ARROW)|LLAR_OPEN_CURLY_BRACES)?|E(C(LARE)?|FAULT))|U(SE|NSET(_CAST)?)|P(R(I(NT|VATE)|OTECTED)|UBLIC|LUS_EQUAL|AAMAYIM_NEKUDOTAYIM)|E(X(TENDS|IT)|MPTY|N(CAPSED_AND_WHITESPACE|D(SWITCH|_HEREDOC|IF|DECLARE|FOR(EACH)?|WHILE))|CHO|VAL|LSE(IF)?)|VAR(IABLE)?|F(I(NAL|LE)|OR(EACH)?|UNC(_C|TION))|WHI(TESPACE|LE)|L(NUMBER|I(ST|NE)|OGICAL_(XOR|OR|AND))|A(RRAY(_CAST)?|BSTRACT|S|ND_EQUAL))\\b
+(\\\\)?\\\\n
+(\\\\)?\\n
+(\\\\)?\\\\r
+(\\\\)?\\\\\\r?\\n$
+(\\\\)?\\\\t
+(\\\\)?{(.*?)}
+(\\\\\\\\\\\\\\\\)?{([^}]*)}
+(\\\\\\\\)?{([^}]*)}
+(\\\\)?{{ *(\\w+) *}}
+(\\\\)?u(\\\\)?r(\\\\)?l(\\\\)?
+(\\\\)[\\.a-zA-Z0-9_][\\.a-zA-Z0-9_]*\\b
+(\\\\)[^\\S\\n]*
+(\\\\)[^a-zA-Z@]
+(\\\\)[A-Za-z@]+
+(\\\\)[A-Za-z]+
+(\\\\)[a-zA-Z-]+\\b
+(\\\\){1,2}[.$^\\[\\]{}]
+(\\\\)|(')
+(\\\\)|(/)|(:)(|)|(\\?)|(>)|(<)|(\\\")
+(\\\\\\\\)|(?<!\\\\)\\$(?:(\\w+)|\\{(.*?)\\})
+(\\\\\\\\)|(?<!\\\\){([^,{}]*)(?<!\\\\)}
+(\\\\\\\\)|(\\$\\$)|\\$\\{([^}]+)\\}
+(\\\\\\\\)|(\\\\\\d+)$|(\\d+)$
+(\\)|\\])[\\s]*\\,[\\s]*\\$([0-9a-zA-Z\\_'\"\\[\\]]+)[\\s]*\\)[\\s]*\\;
+(\\\\\\\\)|\\\\u\\{([\\da-fA-F]+)\\}
+(\\\\)+
+(\\\\\\\\)+$
+(\\\\)breathe
+(\\\\)item\\b
+(\\*)(
+(\\*)(\\{
+(\\\\*)\n                  [\\$\\@]\\w+\n                  (?:::\\w+)*\n                  \\\\([[{-])\n                 
+(\\\\*)\\\\u{([0-9a-fA-F]+)}
+(\\*\\\\)|(\\*)
+(\\*\\h*)(text\\h*)(=\\h*auto)
+(\\\\*\\s*)(
+(\\*\\s*@namespace\\s[^\\n\\r]+)\\\\
+(\\*\\s*[^*]*?\\b\\w+[^\\n\\r ]+)\\\\([A-Z])
+(\\*\\s*[^*]*\\s)\\\\([A-Z])
+(\\*{1,2}\\??|(?<!\\\\):{1,2}[^/*$]+\\??)
+(\\*|_|`|~|\\\\)
+(\\.
+(\\\\.(*SKIP)(*FAIL)|(?P<token>[,{}]))
+(\\.(?<lang>[a-z]{2}(-[a-z]{2})?)
+(\\.)(
+(\\.)([^./\\\\]+?)$
+(\\.)[\\p{IsUpper}\\-]+(\\.+)$
+(\\\\.)|(\\A(\\=\\]|\\|)|[^\\\\](\\=\\]|\\|)|\\Z)
+(\\.[\\.]+) +(['\"([\\x{00bf}\\x{00A1}\\p{IsPi}]*[\\p{IsUpper}])
+(\\.[^.\\/\\\\]+?)$
+(\\.[^\\.\\/\\?\\\\]*)(\\?.*)?$
+(\\\\\\.\\.?\\\\)|(\\\\\\.\\.?)$|^(\\.\\.?\\\\)|(\\\\\\\\+)|(\\/)
+(\\.\\.?\\s*)(
+(\\.\\.|\\/\\.|[?*[~^: \\\\]|\\/\\/|\\/.$|\\/$)
+(\\.\\d
+(\\.\\s*([a-zA-Z_][a-zA-Z0-9_]*|\\*|\"[^\"\\\\]*(\\\\.[^\"\\\\]*)*\")|(\\[\\s*([0-9]+|\\*)\\s*\\])|\\*\\*)
+(\\.\\s*)('
+(\\.\\w+)|\\[((?:[^\\[\\]]*|(?R))*)\\]
+(\\\\.|[\\]|*?+()\\[]|[^\\\\])
+'(\\\\.|[^'\\\\])*'
+(\\\\.|[^\\\\])*?(\\n|$)
+'(\\\\.|[^'\\\\])*'|\"(\\\\.|[^\"\\\\])*\"
+'(\\\\.|[^\\\\']|(\\\\x[0-9a-fA-F]{2})|(\\\\u{[0-9a-fA-F]{1,6}}))'
+(\\\\.|[^\\n\\\\])+
+(\\.|\\\\)
+(\\.|\\[|\\]|\\{|\\}|(?<!\\\\)\\\"|(?<!\\\\)\\'|\\b$)
+'(\\\\.|\\\\[0-7]{1,3}|\\\\x[a-f0-9]{1,2}|[^\\\\'\\n])'
+'(\\\\.|\\\\[0-7]{1,3}|\\\\x[a-fA-F0-9]{1,3}|\\\\u[a-fA-F0-9]{1,4}|\\\\U[a-fA-F0-9]{1,6}|[^\\\\\\'\\n])'
+(\\.delete\\('.*?')\\s*,\\s*\"[^]+[^\\\\]\"\\)
+(\\.get\\('.*?')\\s*,\\s*\"[^]+[^\\\\]\"\\)
+(\\.merge\\('.*?')\\s*,\\s*\"[^]+[^\\\\]\"\\)
+(\\.patch\\('.*?')\\s*,\\s*\"[^]+[^\\\\]\"\\)
+(\\.post\\('.*?')\\s*,\\s*\"[^]+[^\\\\]\"\\)
+(\\.put\\('.*?')\\s*,\\s*\"[^]+[^\\\\]\"\\)
+(\\/
+(\\/)((?![*+?])(?:[^\\r\\n\\[/\\\\]|\\\\.|\\[(?:[^\\r\\n\\]\\\\]|\\\\.)*\\])+)(\\/)(?!\\/)([igm]{0,3})
+(\\/)((?![*+?])(?:[^\\r\\n\\[\\/\\\\]|\\\\.|\\[(?:[^\\r\\n\\]\\\\]|\\\\.)*\\])+)(\\/)(?!\\/)([igm]{0,3})
+(\\/){2,}|(\\\\){1,}
+(\\/\\.\\.?\\/)|(\\/\\.\\.?)$|^(\\.\\.?\\/)|(\\/\\/+)|(\\\\)
+(\\/\\/ --- START lexer error class ---)[^]+?(\\/\\/ --- END lexer error class ---)
+(\\/\\/ --- START lexer kernel ---)[^]+?(\\/\\/ --- END lexer kernel ---)
+(\\/\\/ --- START parser error class ---)[^]+?(\\/\\/ --- END( of)? parser error class ---)
+(\\/\\/ --- START parser kernel ---)[^]+?(\\/\\/ --- END( of)? parser kernel ---)
+(\\/\\/ @START@)[^]*(\\/\\/ @END@)
+(\\/\\/ @START@)[^]*(\\s.*\\/\\/ @END@)
+(\\/\\/|\\/\\*\\*)([^]+?)(\\w+):\\s*.*?PropTypes(.*)
+(\\\\\\/|\\\\\\\\)
+(\\/|\\\\)
+(\\/|\\\\\\\\)$
+(\\/|\\\\)$
+(\\/|\\\\\\\\)([^(\\/|\\\\\\\\)]+)$
+(\\/|\\\\)(cjs|commonjs)(\\/|\\\\)
+(\\/|\\\\)*$
+(\\/|\\\\)[^/\\\\]*$
+(\\/|\\\\)[^\\/\\\\]+\\/\\.\\.(\\/|\\\\)
+(\\/|\\\\)\\.(\\/|\\\\|$)
+(\\/|\\\\)\\.\\.?\\1
+(\\/|\\\\)\\s*$
+(\\/|\\\\)\\w+-files(\\/|\\\\)
+(\\/|\\\\){2}\\.(\\/|\\\\)pipe
+(\\/|\\\\)+
+(\\/|\\\\)+$
+(\\/|\\\\)content(\\/|\\\\)images$
+(\\/|\\\\)content(\\/|\\\\)images(\\/|\\\\)animated$
+(\\/|\\\\)content(\\/|\\\\)images(\\/|\\\\)photo$
+(\\/|\\\\)content(\\/|\\\\)images(\\/|\\\\)photos$
+(\\/|\\\\)externals\\.json$
+(\\/|\\\\)files(\\/|\\\\)
+(\\/|\\\\)js$
+(\\/|\\\\)lib\\.json$
+(\\/|\\\\)node(\\/|\\\\)
+(\\/|\\\\)style(\\/|\\\\)index\\.js
+(\\/|\\\\)style(\\/|\\\\)index\\.less$
+(\\/|\\\\)style(\\/|\\\\)v2-compatible-reset\\.less$
+(\\/|\\\\)test(\\/|\\\\).*utf8
+(\\/|\\\\)test(\\/|\\\\)main(\\/|\\\\)stack\\.js
+(\\/|\\.|\\*|\\+|\\?|\\||\\(|\\)|\\[|\\]|\\{|\\}\\\\)
+(\\/|\\.|\\*|\\+|\\?|\\||\\(|\\)|\\[|\\]|\\{|\\}|\\\\)
+(\\/|\\\\|\\A)ChangeLog[^\\/\\\\]*\\z
+(\\/|\\\\|^)([^\\/\\\\]+)?php([^\\/\\\\]+)?$
+(\\/|^)(
+(\\/|^)[.]{1,2}(\\/|$)|\\\\
+(\\/||\\\\)
+(\\?\\??)\\s*+([a-zA-Z\\d@_]++)
+(\\?<!\\\\);.*
+(\\@?[a-zA-Z0-9\\-_\\.\\\\]+)
+(\\@[a-zA-Z0-9\\-_\\.\\\\]+)
+(\\[
+(\\[ (?P<attr>[^=><!]+?) (\\s* (?P<op>[><!]?[=]|[><]) \\s* (?P<val>(?:\\/.*?\\/ | [^\\]]+)) )? \\])
+(\\[(?P<section>\\S+)\\]|)(?P<option>[a-zA-z0-9._/]+)=(?P<value>.+)
+(\\[(?P<text>.*?)\\]\\((?P<url>.*?)\\))
+(\\[(?P<text>[^\\]]+)\\]\\((?P<uri>/[^\\)]+)\\))
+(\\[(?P<text>[^\\]]+)\\]\\[(?P<uri>[A-Za-z_][A-Za-z_.0-9]*)?\\])
+(\\\\\\\\[(]co)
+(\\[)(
+(\\[)((?<square>[^\\[\\]\\\\]|\\\\.|\\[\\g<square>*+\\])*+)(\\])[ ]?(\\[)([^\\]]*+)(\\])
+(\\[)((?<square>[^\\[\\]\\\\]|\\\\.|\\[\\g<square>*+\\])*+)(\\])[ ]?(\\[)(\\])
+(\\[[^[]*])|(\\\\)?(LTS|LT|LLLL|LLL|LL|L|llll|lll|ll|l)
+(\\[[^[]*])|(\\\\)?(x|ss|s|mm|m|hh|h|do|dddd|ddd|dd|d|aa|a|ZZ|Z|YYYY|YY|X|Wo|WW|W|SSS|SS|S|Qo|Q|Mo|MMMM|MMM|MM|M|HH|H|GGGG|GG|E|Do|DDDo|DDDD|DDD|DD|D|A|.)
+(\\[[^\\[]*\\])|(\\\\)?([Hh]mm(ss)?|MMMM|MMM|MM|M|dd?d?|yy?yy?y?|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(LT|LL?L?L?)
+(\\[[^\\[]*\\])|(\\\\)?(LT|LL?L?L?|l{1,4})
+(\\[[^\\[]*\\])|(\\\\)?(LTS|LT|LL?L?L?|l{1,4})
+(\\[[^\\[]*\\])|(\\\\)?(MMMM|MMM|MM?|DDDD|DDD|DD|D|dd?|yyyy|YYYY|yy|YY|y|Y|aa?|AA?|hh?|HH?|mm?|ss?|x|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Q|YYYY|YY|e|E|a|A|hh?|HH?|mm?|ss?|S{1,4}|x|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Q|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|S{1,4}|x|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Q|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|S{1,4}|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Q|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|YYYYY|YYYY|YY|a|A|hh?|HH?|mm?|ss?|SS?S?|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|S{1,4}|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|SS?S?|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|S{1,4}|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|YYYY|YY|a|A|hh?|HH?|mm?|ss?|SS?S?|zz?|ZZ?)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|YYYY|YY|a|A|hh?|HH?|mm?|ss?|SS?S?|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|dddd?|do?|w[o|w]?|YYYY|YY|a|A|hh?|HH?|mm?|ss?|SS?S?|zz?|ZZ?|LT|LL?L?L?)
+(\\[[^\\[]*\\])|(\\\\)?i(Mo|MM?M?M?|Do|DDDo|DD?D?D?|w[o|w]?|YYYYY|YYYY|YY|gg(ggg?)?)|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|SS?S?|X|zz?|ZZ?|.)
+(\\[[^\\[]*\\])|(\\\\)?j(Mo|MM?M?M?|Do|DDDo|DD?D?D?|w[o|w]?|YYYYY|YYYY|YY|gg(ggg?)?|)|(\\\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|SS?S?|X|zz?|ZZ?|.)
+(\\[[^\\[]*])|(\\\\)?(LTS|LT|LL?L?L?|l{1,4})
+(\\[[^\\]]+\\]\\([^)]+\\))\\s+\\[([\\w\\_\\/\\.]+)\\:(\\d+)\\]
+'(\\\\['\"?\\\\abfnrtv]|\\\\x[0-9a-fA-F]{2}|\\\\[0-7]{1,3}|\\\\u[0-9a-fA-F]{4}|\\\\U[0-9a-fA-F]{8}|\\\\&\\w+;|.)'
+(\\\\['\"]|['\":,\\/\\\\]|\\\\.)
+(\\\\['\"]|['\":,\\\\]|\\\\.)
+(\\[\\[(?P<page_title>.*?)\\]\\]) +((?P<flags>[A-Z\\!]+) )?(?P<url>\\S*) +\\* (?P<user>.*?) \\* (\\((?P<change_size>[\\+\\-][0-9]+)\\))? ?(?P<summary>.+)?
+(\\\\[\\[\\]\\-\\\\])|\\\\(.)|([\\[\\]\\\\])
+(\\[\\])|(\\[(.|\\s)*?([^\\\\]\\]))
+(\\\\[\\\\])|(\\\\U[\\da-fA-F]{8}|\\\\u[\\da-fA-F]{4}|\\\\x[\\da-fA-F]{2})|(\\\\[0-7]{3})
+(\\[\\]|\\[.*?[^\\\\]\\])
+(\\[\\{\\{
+(\\\\[\\S][^-+={}<()\\\\]*)(?=[-+=*<{}])?
+(\\\\[0-7]{3}|\\\\x[0-9A-Fa-f]{2}|\\\\(\\n|\\r\\n|[^N]))
+(\\\\[abfrtnv\\\\])|(\\\\U[\\da-fA-F]{8}|\\\\u[\\da-fA-F]{4}|\\\\x[\\da-fA-F]{2})|(\\\\[0-7]{1,3})
+(\\\\[a-z]*?bou\\{(?:\\w|(?:\\\\UTF\\{[0-9a-fA-F]+\\}|\\\\CID\\{[0-9]+\\}))+?)(\\\\ajD?Kunoji)\\{\\}((?:\\w|(?:\\\\UTF\\{[0-9a-fA-F]+\\}|\\\\CID\\{[0-9]+\\}))*?)\\}
+(\\\\[a-zA-Z]+)\\\\(\\s+)
+(\\\\[nrt\\\\|.\\-^?*+{}()\\[\\]sSdDiIcCwW]|\\\\[pP]{[a-zA-Z\\-0-9]+})
+(\\\\[nrtbf()\\\\])|(\\\\[0-9]{1,3})|(\\\\(\\r\\n|\\r|\\n))|(\\r\\n|\\r|\\n)|(\\()|(\\))
+(\\[thumbnail\\-image)[;]{0,1}([A-Za-z0-9\\-\\_\\.\\#\\ ]*)\\]
+(\\_(.))
+(\\_)([a-z]{1})
+(\\_[0-9]+|value)$
+(\\_[0-9]+|value|Seq|Bag|Alt|Statement|Property|List)$
+(\\_[a-z])
+(\\_[a-zA-Z])
+(\\_\\w)
+(\\_|\\-)\\w+$
+(\\_base\\/js\\/base|wink).*\\.js
+(\\{(?:[^{}]+|(?R))*\\})
+(\\{(?P<url>.+)\\})?(?P<name>.+)$
+(\\{?\"([^\"\\\\]|\\\\.)*\"|[^,{}]+)+([,}]+)
+(\\{@\\p{Alpha}[^\\}]*\\})|(\\r?\\n)
+(\\{[\\n ]*)((([A-Za-z\\$\\_][0-9A-Za-z\\$\\_]*|`)[\\n ]*\\:[\\n ]*[^,\\}]+,?)+)([\\n ]*\\})
+(\\{[^{}]+)\\\\(?:$markups)\\s+([^{}]+\\})
+(\\{\\\\(.)(\\\\?\\w{1,2})\\})
+(\\{\\\\(.)\\{(\\\\?\\w{1,2})\\}\\})
+(\\{\\{
+(\\{\\{([a-z\\-\\_]{1,})\\}\\})
+(\\\\{\\\\{[^\\\\]+\\\\}\\\\})
+(\\\\|
+(\\|[^\\|]+\\||
+(\\'|\\\"|\\.|\\*|\\/|\\-|\\\\)
+(\\'|\\\\((?P<octal>[0-7]{1,3})|(?P<hexadecimal>[xX][0-9a-fA-F]{1,2})|(?P<numeric_character_reference>[uU][0-9a-fA-F]{4})|(?P<backspace>b)|(?P<escape>e)|(?P<form_feed>f)|(?P<new_line>n)|(?P<carriage_return>r)|(?P<tab>t)|(?P<backslash>\\\\)|(?P<double_quote>\")|(?P<special_key><[^>]+>)))
+'(\\\\\\\\|\\\\.|[^'\\\\])*'
+(\\\\|\\^|\\~|[\\#\\$\\%\\&\\_\\{\\}])
+(\\-|\\_|\\.)+$
+(\\-|\\_|\\.|\\s)+(.)?
+(\\\\|\\\\\\\\+|[^\\\\]|\\b|\\A)\\$([[:alnum:]_]+|{[[:alnum:]_]+})
+(\\\\|\\A)([^\\\\]*)$
+(\\\\|\\r\\n|[\\n\\r
+(\\\\|^)((\\.\\\\)|(\\.$))
+(\\\\|namespace\\s+|use\\s+)[\\w\\\\]+
+(\\})\\\\(\\\\*)([$#@])
+(\\\\+)([
+(\\\\+)([^\\\\]*)
+(\\+)([0-9]+\\.[0-9]*
+(\\+)?\\d+ #<Thread:0x\\h+(@.+:\\d+)? (sleep|sleep_forever|run)>
+(\\+\\+\\+|---|\\*\\*\\*)(\\s+(?P<path>.*?)(\\t.*?)?)?\\s*$
+(\\\\\\\\\\\\\\\\+|[^\\\\\\\\]|\\\\b|\\\\A)\\\\$({?)([[:alnum:]_]+)(}?)
+(\\+|\\-)?((\\d++)?(\\.))?\\d++
+(\\+|-|&&|\\|\\||!|\\(|\\)|\\{|}|\\[|]|\\^|\"|~|\\*|\\?|:|\\\\)
+(\\+|-|&&|\\|\\||!|\\(|\\)|\\{|}|\\[|]|\\^|\"|~|\\*|\\?|:|\\/|\\\\)
+(\\+|-|&&|\\|\\||!|\\(|\\)|{|}|\\[|\\]|`|\"|~\\*|\\?|:|\\\\)
+(\\<cds.JOURNAL(?P<ibid>ibid)?\\>([^\\<]+)\\<\\/cds.JOURNAL(?:ibid)?\\>\\s*.?\\s*([A-H]|(I{1,3}V?|VI{0,3}))\\s+:)
+(\\<cds.JOURNAL(?P<ibid>ibid)?\\>([^\\<]+)\\<\\/cds.JOURNAL(?:ibid)?\\>\\s*.?\\s*\\<cds\\.SER\\>([A-H]|(I{1,3}V?|VI{0,3}))\\<\\/cds\\.SER\\>)
+(\\<WD>.*?<\\/WD>)
+(\\=)(
+(\\>(((?>([^><]+|(?R)))*)\\<))
+(\\0)(\\C)
+(\\015\\012)(--\\Q$bdry\\E\\015\\012)
+(\\A
+(\\A(
+(\\A(?P<User>[%\\+\\--\\.0-9A-Z_a-z]+)@(?P<Host>.+)(?-m:$))
+(\\\\a)|(\\\\b)|(\\\\f)|(\\\\n)|(\\\\r)|(\\\\t)|(\\\\v)|\\\\x([0-9a-fA-F]+)\\\\|\\\\([0-7]+)\\\\|(\\\\\\\\)|(\\\\')|('')|(\\\\\")|(\\\\`)|(\\\\.)|(.)
+(\\A.+?)(?=
+(\\A\\s*\\#.*?^\\s*def 
+(\\A|
+(\\A|(\\]([^\\[\\\\]|\\\\[^\\\\])*?))\\^
+(\\A|[:\\.]) \\Q$_\\E ([:\\.]|\\z)
+(\\A|[-\\'\\\"\\(\\[\\{</: \\\\])$
+(\\A|[^\\\\](?:\\\\\\\\)*)([
+(\\A|[^\\\\])$1
+(\\A|[^\\\\])(\\\\\\\\)*'
+(\\A|[^\\\\])(\\\\\\\\)*/
+(\\A|[^\\\\])('|\")(\\2)
+(\\A|[^\\\\])('|\").*?[^\\\\](\\2)
+(\\A|[^\\\\])\\'
+(\\A|[^\\\\])\\\"
+(\\A|[^\\\\])\\\\([
+(\\A|[^\\\\])\\/
+(\\A|[^\\\\])\\\\G
+(\\A|[^\\\\])~
+(\\A|\\:)\\Q$tag\\E\\z
+(\\\\a|\\\\e|\\\\v|\\\\x|\\\\#)
+(\\A|\\s)(
+(\\A|^)module\\s+(?P<name>\\w+)\\s*(!.*|)$
+(\\Aimport[\\t-\\n\\f-\\r ]+(?P<Package>[0-9A-Z_a-z]+)(?P<Alias>([\\t-\\n\\f-\\r ]+as[\\t-\\n\\f-\\r ]+(?P<Name>[0-9A-Z_a-z]+))?)(?-m:$))
+(\\b
+(\\b(?:class|interface|extends|implements|instanceof|new)\\s+)[\\w.\\\\]+
+(\\b)(
+(\\b)(\\Q$known_title\\E\\b)
+(\\b|[^\\d])(\\d
+(\\b|\\/|\\\\)(test)(\\/|\\\\)
+(\\bAS\\b\\s*)`([^`]++)`(\\s*)$
+(\\bdata-video=\"|<meta property=\"og:video\" content=\".+?&videoId=)(?P<video_id>[0-9]+)\"
+(\\bmy\\b|\\b
+(\\\\c|\\\\\\\\)
+(\\\\Controller)?\\\\?$
+(\\\\cos|\\\\sin|\\\\tan|\\\\sec|\\\\csc|\\\\cot)([h]*)\\\\left\\((.+?),(.+?)\\\\right\\)
+(\\d
+(\\d)(?=\\d{3}+$)
+(\\d)(?=\\d{3}+(?:\\.|$))(\\d{3}\\..*)?
+(\\d)(?=\\d{3}+(\\.\\d*)?$)
+(\\d)(\\d\\d\\d\\Q$g\\E)
+(\\D[A-Z1-9]{1,8})[ ]+(?P<sign>[+-=])(?=\\d)
+(\\d\\p{Upper}\\p{Upper}?)
+(\\d{1,2})(st|nd|rd|th)?\\s+(
+(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})\\s?+(.+)?
+(\\d{4})(?:\\/|\\\\)(\\d{2})
+(\\d{4}-\\d{1,2}-\\d{1,2})-([^\\\\]+?)(\\.\\w+)$
+(\\d+(?=(?)???[??]??))|((?<=??)\\d+(?=(?)???))
+(\\d+(?=??[??]??))|((?<=??)\\d+(?=??))
+(\\d+(?=?[??]??))|((?<=??)?\\d+(?=?))
+(\\d+) (\\d
+(\\d+)((\\N{FULLWIDTH SOLIDUS}|\\/)(\\d+))?
+(\\d+)(?:,(\\d+))?+
+(\\d+)(?:[\\x\\/](\\d+))?
+(\\d+)(?:\\.(\\d+))?+(?:\\.(\\d+))?+(?:[-.](.+))?
+(\\d+)(?|??|?)?
+(\\d+)([
+(\\d+)(\\p{Alpha}*)
+(\\d+)[\\*\\/\\\\](\\d+)
+(\\d+)\\\\
+(\\d+)\\N{MULTIPLICATION SIGN}(\\d+)
+(\\d+)\\s*/\\s*(
+(\\d+)\\S*\n\t\t \\s+\n\t\t (
+(\\d+)\\S*\r\n         \\s+\r\n         (
+(\\d+)\\s+(?:(url\\(\\s*(?:'(?:[^']|\\\\')*'|\"(?:[^\"]|\\\\\")*\"|(?:[^'\"\\\\]|\\\\.)*?\\s*)\\))|\"((?:[^\"\\\\]|\\\\.)*)\"|'((?:[^'\\\\]|\\\\.)*)'|([^'\",]+))
+(\\d+)\\s+(\\d+)\\s+([0-9a-fx]+)\\s+([0-9a-fx]+)\\s+([a-zA-Z0-9\\_]+)
+(\\\\d+,)?(?P<uid>\\\\d+),l,apk,\\\\d+,(?P<pkgName>[^,]+),.*
+(\\d+.)\\Q$marker\\E(\\d+)
+(\\d+.)\\Q$marker\\E(\\d+.)\\Q$marker\\E(\\d+)
+(\\d+\\)/\\d+
+(\\d+\\.?\\d?+)(-\\w+)?
+(\\d+\\.\\d+)\\\\(ultimate|professional|premium|community)
+(\\d+\\.\\d+\\.\\d+(?:-(?:
+(\\d+\\s+[ap]\\.)\\Q$marker\\E(m\\.\\s*)\\Q$marker\\E
+(\\d+\\s+[ap]m\\.\\s+)\\Q$marker\\E
+(\\d+\\w*(\\.|\\-|\\_))*\\d+\\w*
+(\\d+{1,2})%
+(\\d+|
+(\\d+|\\*|?|?|?|?|?|\\(..?\\)|\\{|?|\\[..?\\]|\\+|\\||?|\\^|?|?|?|#|?|?|?|?|?)(.*)
+(\\d++)\\s*+(\\*)
+(\\G[^\\\\]?)\\{(.*?)[^\\\\]?\\}
+(\\G|[^\\\\]{1})\"(?!.*\\\\).*?\"
+(\\H\\d{5})
+(\\h{2})(?=\\h)
+(\\h{2})(\\h{2})(\\h{2})
+-(\\h{32}|\\h{64})\\.css\\z
+(\\\\ham\\{.\\})\\\\shadda\\{\\}
+(\\\\ham\\{w\\})([^\\\\])
+(\\\\ham\\{y\\})([^\\\\])
+(\\\\ham{.})\\\\shadda{}
+(\\\\ham{w})([^\\\\])
+(\\\\ham{y})([^\\\\])
+(\\\\I[a-z]|[A-Z])\\w*
+(\\\\item\\[.*\\])
+(\\\\k\\<)([a-z]\\w*)(\\>)
+(\\\\lms[^\\{]+\\{|(?<!\\\\)(\\\\\\\\)*[\\{\\}])
+(\n                                  \\\\hyper(def|ref\\{\\})\n                                  \\{\n                              )\n                              amuse\n                              (\\})\n                             
+(\n                               \\w+(::\\w+)*[.\\#]\\w+(\\([\\.\\w+\\*\\/\\+\\-\\=\\<\\>]+\\))?  # A::B.meth(**) (for operator in Fortran95)\n                             | \\#\\w+(\\([.\\w\\*\\/\\+\\-\\=\\<\\>]+\\))?  #  meth(**) (for operator in Fortran95)\n                             | \\b([A-Z]\\w*(::\\w+)*[.\\#]\\w+)  #    A::B.meth\n                             | \\b([A-Z]\\w+(::\\w+)*)       #    A::B..\n                             | \\#\\w+[!?=]?                #    #meth_name \n                             | \\b\\w+([_\\/\\.]+\\w+)*[!?=]?  #    meth_name\n                             )
+(\n                      # A::B::C.meth\n                      
+(\n                \\/\\*.*?\\*\\/|\n                \\/\\/.*?\\n|\n                \\#.[^a-fA-F0-9]+?\\n|\n                \\&lt;\\!\\-\\-[\\s\\S]+\\-\\-\\&gt;|\n                (?<!\\\\)&quot;.*?(?<!\\\\)&quot;|\n                (?<!\\\\)'(.*?)(?<!\\\\)'\n            )
+(\n       (?:\\s*     # whitespace\n         (?<!\\\\)  # unescaped\n         \\%[^\\n]* # comment\n       \\n)+       # newline\n    )
+(\n    (?P<select>\\.[^.\\[\\]]+) |\n    (?P<find>\\.\\.[^.\\[\\]]+) |\n    (?P<index>\\[-?\\d+\\]) |\n    (?P<star>\\[\\*\\]) |\n    (?P<range>\\[(?:-?\\d+)?:(?:-?\\d+)?(?:\\:\\d+)?\\])\n)
+(\\N*)$
+(\\n*)([^]*)
+(\\\\N\\{[^}]+\\})
+(\\\\N\\{[^}]+}|\\\\u[0-9A-Fa-f]{4}|\\\\U[0-9A-Fa-f]{8})
+(\\n\\n)\\t(http:\\/\\/[A-Za-z0-9\\/\\%\\&\\=\\-\\_\\\\\\.]+)\\n([^\\t]|\\t\\n)
+(\n\t\t       [()]\n\t\t      |\n\t\t       \"(?:[^\"\\\\]+|\\\\.)*\"\n\t\t      |\n\t\t       \\#<[^>]+>\n\t\t      |\n\t\t       [^()\\s]+\n\t\t       )
+(\n\t\t\t\t[\\xC0-\\xC1] # Invalid UTF-8 Bytes\n\t\t\t\t| [\\xF5-\\xFF] # Invalid UTF-8 Bytes\n\t\t\t\t| \\xE0[\\x80-\\x9F] # Overlong encoding of prior code point\n\t\t\t\t| \\xF0[\\x80-\\x8F] # Overlong encoding of prior code point\n\t\t\t\t| [\\xC2-\\xDF](?![\\x80-\\xBF]) # Invalid UTF-8 Sequence Start\n\t\t\t\t| [\\xE0-\\xEF](?![\\x80-\\xBF]{2}) # Invalid UTF-8 Sequence Start\n\t\t\t\t| [\\xF0-\\xF4](?![\\x80-\\xBF]{3}) # Invalid UTF-8 Sequence Start\n\t\t\t\t| (?<=[\\x0-\\x7F\\xF5-\\xFF])[\\x80-\\xBF] # Invalid UTF-8 Sequence Middle\n\t\t\t\t| (?<![\\xC2-\\xDF]|[\\xE0-\\xEF]|[\\xE0-\\xEF][\\x80-\\xBF]|[\\xF0-\\xF4]\n\t\t\t\t\t| [\\xF0-\\xF4][\\x80-\\xBF]|[\\xF0-\\xF4][\\x80-\\xBF]{2})[\\x80-\\xBF] # Overlong Sequence\n\t\t\t\t| (?<=[\\xE0-\\xEF])[\\x80-\\xBF](?![\\x80-\\xBF]) # Short 3 byte sequence\n\t\t\t\t| (?<=[\\xF0-\\xF4])[\\x80-\\xBF](?![\\x80-\\xBF]{2}) # Short 4 byte sequence\n\t\t\t\t| (?<=[\\xF0-\\xF4][\\x80-\\xBF])[\\x80-\\xBF](?![\\x80-\\xBF]) # Short 4 byte sequence (2)\n\t\t\t)
+(\n\t\t\t\t\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\"                           # match double quoted string\n\t\t\t\t|\n\t\t\t\t'[^'\\\\]*(?:\\\\.[^'\\\\]*)*'                       # match single quoted string\n\t\t\t\t|\n\t\t\t\t(?s:\\/\\*.*?\\*\\/)                                     # multi line comments\n\t\t\t\t|\n\t\t\t\t\\/\\/.*?\\n                                             # single line comments\n\t\t\t\t|\n\t\t\t\t(?<![A-Za-z_])([0-9]+\\.[0-9]+|[0-9]+)(?![A-Za-z_])                       # an number\n\t\t\t\t|\n\t\t\t\t(?i:\\sIN\\s*\\(\\s*[0-9.]+(?:\\s*,\\s*[0-9.])*\\s*\\))  # in (1, 2, 3)\n\t\t\t\t|\n\t\t\t\t(?i:\\sIN\\s*\\(\\s*['].+?['](?:\\s*,\\s*['].+?['])*\\s*\\))  # in ('a', 'b', 'c')\n\t\t\t)
+(\\n|(\\n\\r)|(\\r\\n)){2,}+|'\\u2029+
+(\\n|)(<h
+(\\n|\\r\\n|\\r)\\s*(?:currentfile eexec\\s+|\\/sfnts\\s+\\[\\1<)\\h{8,}\\1
+(\\\\n|\\\\r|\\\\l)
+(\n|^) ?(?P<file_name>.*\\.py)\\s+\\|
+(\\p
+(\\p{$block}+)
+(\\p{Alnum})\\s*(\\u00B6\\u00B6)+\\s*([\\p{Lower}\\p{Digit}])
+(\\P{ASCII})
+(\\p{Digit}+[\\.])[\\ ]*(\\p{Digit}+)
+(\\p{Digit}+\\.\\p{Digit}+)(:?;.*)?
+(\\p{Ethiopic}|\\p{P})
+(\\p{Han})+
+(\\p{Han}+)
+(\\p{Hangul})
+(\\p{HexDigit}+)
+(\\p{InArabic}+)\\s+(\\p{InArabic}+)\\s+(\\p{InArabic}+)
+(\\p{InCJKUnifiedIdeographs})
+(\\p{InHebrew}+)\\s+(\\p{InHebrew}+)
+(\\p{InKana})\u00e3\u0080\u009c
+(\\p{InVWPP0Fullwidth}+)|(\\p{InVWPP0Halfwidth}+)
+(\\p{InVWPP1Fullwidth}+)|(\\p{InVWPP1Halfwidth}+)
+(\\p{Is_DisallowedAssigned})
+(\\p{IsConsonant})\\1\\Kle$
+(\\p{IsDeviation})
+(\\p{IsDisallowed})
+(\\p{IsDisallowedSTD3Mapped})
+(\\p{IsDisallowedSTD3Valid})
+(\\p{IsEndOfSentenceCharacter}\\w+\\p{IsEndOfSentenceCharacter}\\p{Punctuation}*\\s*)$EOS
+(\\p{IsEndOfSentenceCharacter}+(['\"\\p{ClosePunctuation}])?\\s+)
+(\\p{IsEndOfSentenceCharacter}+['\"\\p{ClosePunctuation}]?\\s+)(?!$EOS)
+(\\p{IsIDNADot})
+(\\p{IsIgnored})
+(\\p{IsLetter})
+(\\p{IsLl}+)\\.([\\w\\$]+)$
+(\\p{IsLu}+)
+(\\p{IsMapped}|\\p{IsDisallowedSTD3Mapped})
+(\\P{IsPrint})
+(\\p{IsPunct}|\\p{IsSpace})
+(\\p{IsWord}|\\p{IsSpace}|\\p{IsPunct}|[[:punct:]])
+(\\p{javaJavaIdentifierStart}\\p{javaJavaIdentifierPart}*\\.)*\\p{javaJavaIdentifierStart}\\p{javaJavaIdentifierPart}*
+(\\p{Katakana}{$kana_size,}|\\p{Han}{$han_size,}|\\p{Latin}{$latin_size,})
+(\\p{Katakana}|\\p{Hiragana})
+(\\p{Letter}${chartypes{notacute}}*)\\x{0301}(${chartypes{notacute}}*)$
+(\\p{Letter}\\p{ModifierLetter}*)$
+(\\p{Letter}\\p{NonspacingMark}*)[\\x{0300}\\x{030C}]+(\\p{NonspacingMark}*)$
+(\\p{Letter}+)
+(\\p{Lower})(\\p{Upper})
+(\\p{Lowercase})(\\p{Uppercase})
+(\\p{Punctuation}[\\w\\p{IsEndOfSentenceCharacter}]['\"\\p{ClosePunctuation}]\\s*)$EOS
+(\\p{STerm}) .*
+(\\p{Unassigned})
+(\\p{Upper})
+(\\p{Word}|-)
+(\\p{Word}+)
+(\\p{XDigit}{10})(______|\\p{XDigit}{6})
+(\\p{XDigit}{4}-){3}\\p{XDigit}{4}
+(\\p{XDigit}{8})(\\p{XDigit}{4})(\\p{XDigit}{4})(\\p{XDigit}{4})(\\p{XDigit}+)
+(\\pL[\\pL']*)
+(\\pL[\\pL']*) \\) 
+(\\pL\\pM*)($re)
+(\\pL{4,})
+(\\pL|\\pM|\\pN|\\p{Pc})+
+(\\pL|\\pN)([^\\pL\\pN]|$)
+(\\pL|\\pN)+
+(\\pL+)(?:\\[@(\\pL+)='([\\w-]+)'\\])?
+(\\pL+)|(\\pL[\\pL-]*\\pL)
+(\\Q$;\\E....\\Q$;\\E)
+(\\Q${\\SQL_MARK}\\E$top_parse_re)(?::$top_parse_re2)?(\\s*\\{)
+(\\Q${\\SQL_MARK}\\E($top_parse_re)(?::($top_parse_re2))?\\s*\\{)
+(\\Q$bn\\E)
+(\\Q$decimal\\E\\d+?)(0+)$
+(\\Q$dels\\E|\\Q$dels\\E)
+(\\Q$EACHLINE\\E)
+(\\Q$END\\E)
+(\\Q$end\\E+)$
+(\\Q$esc\\E|\\Q$r\\E)
+(\\Q$filename\\E(?:/.*|\\.pm)$)
+(\\Q$find\\E(?: during global destruction)?(\\.?\\n?))$trace_re\\z
+(\\Q$highlight\\E)
+(\\Q$highlight_str\\E)
+(\\Q$char\\E|\\\\)
+(\\Q$lib_path\\E[/\\\\]+([^\\.]+\\.[^\\s]+)\\s+line\\s+(\\d+))[^<]?
+(\\Q$options{hl_tag}\\E(.*?)\\Q$options{hl_end}\\E)
+(\\Q$query\\E)
+(\\Q$star\\E.*\\Q$end\\E)
+(\\Q$START\\E)
+(\\Q$var\\E)
+(\\Q$word\\E)
+(\\Q$x\\E|\\Q$y\\E)
+(\\Q\\hspace*{\\E)
+(\\Q\\hspace*{-0mm}\\E)
+(\\Q\\rotatebox{0}\\E)
+(\\Q\\scalebox{1.}\\E)
+(\\Q}% closing rotatebox\\E)
+(\\Q}% closing scalebox\\E)
+(\\Qdir1\\dir2\\\\E)
+(\\Qhttp://miud.in/\\E\\w+)
+(\\Qhttp://tinyurl.com/\\E\\w+)
+(\\R)
+(\\R){2,}
+(\\r\\n|
+(\\R|)(\\R|)\\{\\#\\s--\\s(.*)\\s--\\s(.*)\\#\\}(\\R|)
+(\\R+)\\z
+(\\s
+(\\S
+(\\s)(
+(\\S)(
+(\\s)\\\\([A-Z]\\w+)
+(\\S)\\Q${stop}\\E
+(\\s)vary!!\\Q$vary\\E(?:!![,\\w]+)?(\\s)
+(\\s*
+(\\s*&)?\\s*((\\$+)
+(\\s*(?:'(?:[^'\\\\]|\\\\.)*'|\"(?:[^\"\\\\]|\\\\.)*\"|[\\[\\]\\{\\}:,])\\s*)
+(\\s*(?P<key>[\\w\\d_\\-]*)\\s*=\\s*)?((?P<value>(\"[^\"]*\"|'[^']*'|[^,]*)),?)
+(\\s*(\\{% *(?:
+(\\s*)\\$latex[= ](.*?[^\\\\])\\$(\\s*)
+(\\s*)\\S*\\Q$(BASEEXT)\\E\\S*(\\s*)
+(\\s*,\\s*
+(\\s*?)(?P<af>IPv[46]) Unicast:\\s*(?P<sent>\\d+)\\s*(?P<received>\\d+)
+(\\s*['\\\"]\\s*(
+(\\s*|
+(\\s\\w\\p{IsEndOfSentenceCharacter}\\s+)
+(\\S{
+(\\s|&nbsp;|--|&[mn]dash;|
+(\\s|(#.*$))++
+(\\s|\\#|\\'|\\\"|\\\\)*
+(\\s|\\()+run\\s*\\(\\s*\"(?P<name>.*?)\"\\s*\\)
+(\\s|\\.|\\$|\\/|\\\\)+
+(\\s|\\'|\\\"|\\\\)+
+(\\s|\\G)(\\@(?P<login>[\\w-\\._]+)[\\s]{0,1})
+(\\\\s|\\\\n|\\\\\\\\)
+(\\s|^)@([^\\s\\pP<]+)
+(\\s+(href|src|poster)\\s*=\\s*[\"|'])(\\/
+(\\s+)(?u)
+(\\s+)([a-z\u0430-\u044f\u0410-\u042f0-9]{1,2}
+(\\s+)(\\w++(?<!\\baction|\\balt|\\bcontent|\\bsrc)=\"\")
+(\\S+)[\\/\\_](\\d+)\\-(\\d+)
+(\\S+)\\\\(.+)
+(\\s+)|('|\\\\)(?![^%]*%\\})|(?:\\{%(=|#)(.+?)%\\})|(\\{%)|(%\\})
+(\\S+:'(?:[^'\\\\]|\\\\.)*')|(\\S+:\"(?:[^\"\\\\]|\\\\.)*\")|(-?\"(?:[^\"\\\\]|\\\\.)*\")|(-?'(?:[^'\\\\]|\\\\.)*')|\\S+|\\S+:\\S+
+(\\S+@[A-Za-z0-9\\-\\.\\_]+)
+(\\s+[[:upper:]]\\.\\s+)\\Q$marker\\E
+(\\s+|(?P<equals>\\=))(?P<context>\\S+?)\\([^\\)\\s]*?\\Z
+(\\s+|^)(?P<key>[^\\s]+?):(?P<value>[^\\s]+)
+(\\s+mod_echo.c\\s+\\\\)
+(\\\\u([0-9A-F]{4}))|(\\\\U([0-9A-F]{4})([0-9A-F]{4}))
+(\\\\u([0-9a-fA-F]{4}))
+(\\\\u(\\p{XDigit}{4}))
+(\\\\u(00)?[0-9a-fA-F][0-9a-fA-F])
+(\\\\u)([\\da-f]{4})
+(\\\\u)([0-9a-f]{4}
+(\\\\U)([0-9a-f]{8}
+(\\\\u.{4})
+(\\\\u[\\dabcdef]{4}|\\\\x[\\dabcdef]{2})
+(\\\\u[0-9a-fA-F]{0,4})|(\\\\.)|(\\\\$)
+(\\\\u[0-9a-fA-F]{0,4})|(\\\\.)|(\\\\$)|([ \\t\\f]*[ \\t\\f:=][ \\t\\f]*)
+(\\\\u[0-9A-Fa-f]{4}|\\\\U[0-9A-Fa-f]{8})
+(\\\\u[0-9A-Fa-f]{4}|\\\\x[0-9A-Fa-f]{2}|\\\\u\\{[0-9A-Fa-f]+\\}|\\\\.|.)
+(\\\\U[0-9A-Fa-f]{8})|(\\\\u[0-9A-Fa-f]{4})|(\\\\N\\{[a-zA-Z ]+\\})
+(\\\\u[a-fA-F0-9]{4})
+(\\\\u[ed][0-9a-f]{3})
+(\\\\u\\{[a-z0-9]+\\})|([\\{\\}])
+(\\\\u00[2-3][0-9])(\\\\u20e3)
+(\\u{00a9}|\\u{00ae}|\\u{002a 20e3})[\\ufe0e\\ufe0f]?
+(\\u00B6\\u00B6)+\\s*([\\p{Lower}\\!#\\$%&\\(\\)\\*\\+,-\\/:;=>\\?@\\[\\\\\\]\\^\\{\\|\\}~])
+(\u203b)(\\\\footnote\\{[^(?:\\\\footnote)]+\\})((?:
+(\\u{66}|\\u{000062})oo
+(\\\\url\\{)[^}]+(?=\\})
+(\\\\UTF{.+?})
+(\\w):[/\\\\](.*)
+(\\w)\\\\
+(\\w)\\\\(\\w)
+(\\W)\n                (
+(\\w*)\\\\(\\w*)\\\\Test\\\\Handler\\\\(\\w*)\\\\(\\w*)
+(\\w:[/\\\\])(.*)
+(\\w\\:\\\\\\w[\\w\\\\\\_\\-\\. ]+)
+(\\w{@{[$self->min_length]},})
+(\\w|?|?|?|?|?)\\.
+(\\w+(?:\\(\\))?)\\s+([*\\\\])(.*\\S)
+(\\w+)(/|\\\\){1,}
+(\\w+).+(:[^]+)
+(\\w+):([\\w\\pL.]+)
+(\\w+):\\\\
+(\\w+):\"(.*?)(?<!\\\\)\"
+(\\w+)\\((\\X*)\\)$
+(\\w+)\\|([A-Z\\d\\.\\_]+)(\\|[A-Z\\d\\_]+)?
+(\\w+)\\h*=\\h*(.+?)(?=,|$)
+(\\w+)\\Q$stem\\E$
+(\\w+)\\Q$suffix\\E
+'(\\w+)'\\Q: '{proto}://{host}:\\E(\\d+)'
+(\\w+)\\s*\\:\\s*(
+(\\w+)\\s+from\\s+(
+(\\w+)\\s+in\\s+(
+(\\w+)=((?:\"[^\"]+\")|(?:'[^']+')|[\\w\\.\\_-]+)
+(\\w+)=([\\w\\p{InCJKUnifiedIdeographs}]+)
+(\\w+)=[\"']([^\"']*)(?<!\\\\)[\"']
+(\\w+)=\"(.*[^\\\\])\"
+(\\w+)=\"([^\"\\\\]*)\"\\s*(?:,\\s*|$)
+(\\w+[\\_]?[\\-]?)+
+(\\w+[\\_]?[\\-]?)+\\[\\d+\\]{1}
+(\\w+\\.(
+(\\w+\\h*)(=)(\\h*\\\"[^\\\"]+\\\")
+(\\\\x([0-1]|[8-9A-F])[0-9A-F])+
+(\\x([0-9A-Fa-f][0-9A-Fa-f]))
+(\\X)
+(\\X)*
+(\\\\x..|\\\\u....|\\\\?[\\s\\S])(?:-(\\\\x..|\\\\u....|\\\\?[\\s\\S]))?
+(\\\\x[0-1][0-9a-f])
+(\\\\x[0-9A-F]{2})|(\\\\[0-7]{3})|(\\\\\\n)|(\\\\\\\\)|(\\\\\\\")|(\\\\')|(\\\\a)|(\\\\b)|(\\\\f)|(\\\\n)|(\\\\r)|(\\\\t)|(\\\\v)
+(\\\\x[0-9A-F]{2}|\\\\?.){40}
+(\\\\x[0-9a-f]{2}|\\\\[0-7]{1,3})
+(\\\\x[0-9a-fA-F]{2})|(\\\\u[0-9a-fA-F]{4})
+(\\\\x[2-7][0-9A-F]){3,}
+(\\\\\\\\x[a-fA-F0-9]{2})
+(\\\\x\\{[0-9a-fA-F]+\\})
+(\\\\\\Z|[^\\w\\\\])
+(^
+(^ *)\\[([^\\n]+?)\\](
+(^ *)\\[([^\\n]+?)\\]:\\s+<?(
+(^ {
+(^#[a-z0-9){6}$)
+(^---$[^]*?^---$)?(\\r\\n|\\r|\\n){1,}
+(^$|[ =\"\\\\])
+(^(
+(^((\\t)+)?(
+(^(/\\*\\*|\\h*\\*/?\\h?)|\\*/$)
+(^(?:\\h*\\*)\\h*|\\h+$)
+(^([ \\t]|)+)[+][\\w.\\-\\_]*($|[ \\t]+|[(]([^)]|)+[)]([ \\t]+|))$
+(^([a-z]|[A-Z]):(?=\\\\(?![\\0-\\37<>:\"/\\\\|?*])|\\/(?![\\0-\\37<>:\"/\\\\|?*])|$)|^\\\\(?=[\\\\\\/][^\\0-\\37<>:\"/\\\\|?*]+)|^(?=(\\\\|\\/)$)|^\\.(?=(\\\\|\\/)$)|^\\.\\.(?=(\\\\|\\/)$)|^(?=(\\\\|\\/)[^\\0-\\37<>:\"/\\\\|?*]+)|^\\.(?=(\\\\|\\/)[^\\0-\\37<>:\"/\\\\|?*]+)|^\\.\\.(?=(\\\\|\\/)[^\\0-\\37<>:\"/\\\\|?*]+))((\\\\|\\/)[^\\0-\\37<>:\"/\\\\|?*]+|(\\\\|\\/)$)*()$
+(^)?(
+(^.
+(^.*
+(^.*)(- 
+(^.*)?+[mM]ore\\:+.*$
+(^.*)[/|\\\\].*
+(^.*/d)/(?P<type_id>\\w{0,32})/(!.*)?$
+(^.*/d)/(?P<type_id>\\w{0,32})/(?P<entity_id>\\w{0,32})/(!.*)?$
+(^.*/l/\\w{0,32})/(?P<type_id>\\w{0,32})/(!.*)?$
+(^.*/v/\\w{0,32})/(?P<type_id>\\w{0,32})/(!.*)?$
+(^.*/v/\\w{0,32})/(?P<type_id>\\w{0,32})/(?P<entity_id>\\w{0,32})/(!.*)?$
+(^.*[\\s\\r\\n]+)namespace\\s+([_a-zA-Z0-9\\\\]+);\\s*$
+(^.*\\/
+(^/ ([^/]+)
+(^[
+(^[ \\t]*(?:\\\\(?:\\r\\n|[\\s\\S])|[^\\\\\\s:=])+?(?: *[=:] *| ))(?:\\\\(?:\\r\\n|[\\s\\S])|.)+
+(^[ \\t]*(?:\\\\(?:\\r\\n|[\\s\\S])|[^\\\\\\s:=])+?(?: *[=:] *| ))(?:\\\\(?:\\r\\n|[\\s\\S])|[^\\\\\\r\\n])+
+(^[ \\t]*)\\[(?!\\[)(?:([\"'$`])(?:(?!\\2)[^\\\\]|\\\\.)*\\2|\\[(?:[^\\]\\\\]|\\\\.)*\\]|[^\\]\\\\]|\\\\.)*\\]
+(^[ \\t]+)?(?=\\\\\\\\)
+(^[ \\t]+.*$)|(\\S.{0,
+(^[/\\\\]|:)
+(^[\\/\\-\\_]+)|([\\/\\-\\_]+$)
+(^[\\pC\\pC\\pM\\pP\\pS\\pZ]+|[\\pC\\pC\\pM\\pP\\pS\\pZ]+$)
+(^[\\x21-\\x2F\\x3A-\\x40\\x5B-\\x60\\x7B-\\x7F\\x{2000}-\\x{206F}\\x{2E00}-\\x{2E7F}\\x{00A1}-\\x{00A9}\\x{00AB}-\\x{00B1}\\x{00B4}\\x{00B6}-\\x{00B8}\\x{00BB}\\x{00BF}\\x{00D7}\\x{00F7}]+|[\\x21-\\x2F\\x3A-\\x40\\x5B-\\x60\\x7B-\\x7F\\x{2000}-\\x{206F}\\x{2E00}-\\x{2E7F}\\x{00A1}-\\x{00A9}\\x{00AB}-\\x{00B1}\\x{00B4}\\x{00B6}-\\x{00B8}\\x{00BB}\\x{00BF}\\x{00D7}\\x{00F7}]+$)
+(^[a-zA-Z0-9]+([a-zA-Z0-9\\_\\.\\-\\+]*))$
+(^\\$\\{?|\\$\\{)(?P<group_name>\\w+)=(?P<pattern>\\w+)(\\}?$|\\})
+(^\\$|[^\\\\]\\$)[^\\$]+\\$
+(^\\\\(['\"])|\\\\(['\"])$)
+(^\\.)|[/\\\\]
+(^\\/)|(^\\\\)
+(^\\/)|(^\\\\)|(\\/$)|(\\\\$)
+(^\\[)|(\\\\)|\\]$
+(^\\[Term\\]\\s*?id:\\s*?
+(^\\_)
+(^\\\\item)
+(^\\s*
+(^\\s*#\\s*
+(^\\s*)#\\s*[a-z]+(?:[^\\r\\n\\\\]|\\\\(?:\\r\\n|[\\s\\S]))*
+(^\\s*)#\\s*[a-z]+([^\\r\\n\\\\]|\\\\.|\\\\(?:\\r\\n?|\\n))*
+(^\\s*\\#{2,3}\\s*$|
+(^\\s*\\.\\. )_(?:`[^`]+`|(?:[^:\\\\]|\\\\.)+):
+(^\\s*|[^\\\\])%.*
+(^\\s*gem ['\"]
+(^|
+(^| )#[A-Za-z][\\w\\.\\-\\_]+( |$)
+(^| )(
+(^| )\\Q$prefix\\E(?=\\d+)
+(^| |\\G)\\Q$delete_class\\E( |$)
+(^|(?!\\\\).)($MARK_START)
+(^|(?<='))(
+(^|(?<=[ ]))(?P<number>\\d+)(TH|ST|ND|RD)?(?P<rest>(\b|[ ]).*)
+(^|(?<=\\s))@(?P<name>[a-zA-Z]+)
+(^|,)\\s*(?:(true|false)|(\"[^\"]*\")|(\\{[^\\}]*\\})|(([0-9]+[a-zA-Z\\_]|[a-zA-Z])[\\w\\-\\.]*[\\?\\!]?))\\s*(?=$|,)
+(^|.*?\\r?\\n)--\\Q$b\\E\\r?\\n
+(^|.*\\\")(\\[[a-zA-Z\\.\\!?-]+\\][\\s_]*)?(\\[BD\\][\\s_]*)?(\\[\\d{3,4}[ip]\\][\\s_]*)?(?P<title>[\\w\\s_.+!?'-\\(\\)]+)(New Edit|(Blu-?ray)?( ?Box)?( ?Set)?)?([ _]-[ _]|([ ._-]Epi?(sode)?[ ._-]?0?)?[ ._-]?|[ ._-]Vol\\.|[ ._-]E)(?P<epno>\\d{1,3}|Movie|OVA|Complete Series)(v\\d|-\\d+)?[-_. ].*[\\[\\(\\\"]
+(^|/)(?P<name>[^/]+?)-(?P<ver>.+?)\n    (-(?P<pyver>.+?))?(-(?P<arch>.+?))?.egg-info(/|$)
+(^|/)comments/(?P<id>.+?)($|/)
+(^|/|\\\\\\\\)
+(^|/|\\\\)\\.\\.(/|\\\\|$)
+(^|/|\\\\)\\.{1,2}$
+(^|;)\\Q$path\\E(;|$)
+(^|[
+(^|[({\\[](?=\\.\\.)|(?![({\\[]\\.).)(?:(?:[=+\\-*\\/<>@$~&%|!?^:\\\\]|\\.\\.|\\.(?![)}\\]]))+|\\b(?:and|div|of|or|in|is|isnot|mod|not|notin|shl|shr|xor)\\b)
+(^|[,{])(\\w+):\"([\\w\\-%]++\\.[\\w\\-%.]++)\"
+(^|[.])ip-10-(?P<b>[0-9]*)-(?P<c>[0-9]*)-(?P<d>[0-9]*)[.]example[.]$
+(^|[/\\\\])\\.
+(^|[/\\\\])\\..
+(^|[/\\\\])\\.\\.([/\\\\]|$)
+(^|[/\\\\])\\.git(ignore|modules|keep)?([/\\\\]|$)
+(^|[\\/\\\\])\\..
+(^|[\\/\\\\])\\.git([\\/\\\\]|$)
+(^|[\\/\\\\])\\.svn([\\/\\\\]|$)
+(^|[\\/\\\\])\\Q${\\__PACKAGE__}\\E\\.pmc?$
+(^|[\\/\\\\])_darcs([\\/\\\\]|$)
+(^|[\\/\\\\])core$
+(^|[\\/\\\\])CVS([\\/\\\\]|$)
+(^|[\\/\\\\])node_modules([\\/\\\\]|$)
+(^|[\\-\\_\\s])(\\w)
+(^|[-\\_])ad([-\\_]|$)
+(^|[\n ])@([A-Za-z0-9\\_]*)
+(^|[\\s>])(@
+(^|[^
+(^|[^-!#$%*+=\\?&@|~.:<>^\\\\])(--[^-!#$%*+=\\?&@|~.:<>^\\\\].*(\\r?\\n|$)|{-[\\w\\W]*?-})
+(^|[^.])<\\/?\\w+(?:\\s+[^\\s>\\/=]+=(\"|')(?:\\\\[\\s\\S]|(?!\\2)[^\\\\])*\\2)*\\s*\\/?>
+(^|[^.0-9\\\\])(?:0?\\.)?0(?:ex|ch|r?em|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|g?rad|turn|m?s|k?Hz|dpi|dpcm|dppx|%)
+(^|[^:])\\\\b(
+(^|[^@\\\\])(\"|')(?:\\\\?[\\s\\S])*?\\2
+(^|[^@\\\\])(\"|')(?:\\\\[\\s\\S]|(?!\\2)[^\\\\])*\\2
+(^|[^@\\\\])(\"|')(?:\\\\[\\s\\S]|(?!\\2)[^\\\\]|\\2\\2)*\\2
+(^|[^\"])(\"\"\"|\")(?:\\\\[\\s\\S]|(?!\\2)[^\\\\])*\\2(?!\")
+(^|[^\"{\\\\])#.*
+(^|[^\"{\\\\])(#.*?(\\r?\\n|$))
+(^|[^\\\\](\\\\\\\\)*+)(?=/)
+(^|[^\\\\](\\\\\\\\)*+)\\\\(?=/)
+(^|[^\\\\](\\\\\\\\)*+)\\\\n
+(^|[^\\\\](\\\\\\\\)*+)\\\\\\n
+(^|[^\\\\](\\\\\\\\)*+)\\\\t
+(^|[^\\\\])'
+(^|[^\\\\])''
+(^|[^\\\\]) \\% .*
+(^|[^\\\\])#
+(^|[^\\\\])##.*
+(^|[^\\\\])#(?:\\\\(?:\\r\\n|[\\s\\S])|.)*
+(^|[^\\\\])#(?:\\\\(?:\\r\\n|[\\s\\S])|[^\\\\\\r\\n])*
+(^|[^\\\\])#.*
+(^|[^\\\\])#.*?(\\r?\\n|$)
+(^|[^\\\\])#.+
+(^|[^\\\\])#@
+(^|[^\\\\])#[a-z_](?:-?[a-z]|[\\d_])*
+(^|[^\\\\])#[a-z_](?:-?[a-z]|\\d)*
+(^|[^\\\\])#\\*[\\s\\S]*?\\*#
+(^|[^\\\\])#\\[\\[[\\s\\S]*?]]#
+(^|[^\\\\])#\\{[^}]+\\}
+(^|[^\\\\])#1
+(^|[^\\\\])#2
+(^|[^\\\\])#3
+(^|[^\\\\])#4
+(^|[^\\\\])#5
+(^|[^\\\\])#6
+(^|[^\\\\])#7
+(^|[^\\\\])#8
+(^|[^\\\\])#9
+(^|[^\\\\])%
+(^|[^\\\\])((?:\\\\\\\\)*)
+(^|[^\\\\])((?:\\\\\\\\)*)\\\\\\s*$
+(^|[^\\\\])((\\\\\\\\)+)?[\\\\]$
+(^|[^\\\\])((\\\\{2})*)\\\\(\\{query\\})
+(^|[^\\\\])((\\\\{2})*)\\{query\\}
+(^|[^\\\\])(?:(?:\\B\\[(?:[^\\]\\\\\"]|([\"'])(?:(?!\\2)[^\\\\]|\\\\.)*\\2|\\\\.)*\\])?(?:\\b_(?!\\s)(?: _|[^_\\\\\\r\\n]|\\\\.)+(?:(?:\\r?\\n|\\r)(?: _|[^_\\\\\\r\\n]|\\\\.)+)*_\\b|\\B``(?!\\s).+?(?:(?:\\r?\\n|\\r).+?)*''\\B|\\B`(?!\\s)(?: ['`]|.)+?(?:(?:\\r?\\n|\\r)(?: ['`]|.)+?)*['`]\\B|\\B(['*+#])(?!\\s)(?: \\3|(?!\\3)[^\\\\\\r\\n]|\\\\.)+(?:(?:\\r?\\n|\\r)(?: \\3|(?!\\3)[^\\\\\\r\\n]|\\\\.)+)*\\3\\B)|(?:\\[(?:[^\\]\\\\\"]|([\"'])(?:(?!\\4)[^\\\\]|\\\\.)*\\4|\\\\.)*\\])?(?:(__|\\*\\*|\\+\\+\\+?|##|\\$\\$|[~^]).+?(?:(?:\\r?\\n|\\r).+?)*\\5|\\{[^}\\r\\n]+\\}|\\[\\[\\[?.+?(?:(?:\\r?\\n|\\r).+?)*\\]?\\]\\]|<<.+?(?:(?:\\r?\\n|\\r).+?)*>>|\\(\\(\\(?.+?(?:(?:\\r?\\n|\\r).+?)*\\)?\\)\\)))
+(^|[^\\\\])(?:\\$([\\w_]+)|\\$\\{([^}]+)\\})([^\\\\]|)
+(^|[^\\\\])(?:\\*(?:\\n(?!\\n)|.)+?\\*|_(?:\\n(?!\\n)|.)+?_)
+(^|[^\\\\])([*_])(?:(?:\\r?\\n|\\r)(?!\\r?\\n|\\r)|.)+?\\2
+(^|[^\\\\])(\\$+)(.+?)\\2
+(^|[^\\\\])(\\\\\\\\)*$
+(^|[^\\\\])(\\\\\\\\)*[\\$@]
+(^|[^\\\\])(\\\\\\\\)*[\\[\\?\\*]
+(^|[^\\\\])(\\\\\\\\)*[\\r\\n\\u2028\\u2029]
+(^|[^\\\\])(\\\\\\\\)*\\\\$
+(^|[^\\\\])(\\\\\\\\)*\\\\[a-z]+$
+(^|[^\\\\])(\\\\\\\\)*\\{
+(^|[^\\\\])(\\\\\\\\)*\\s
+(^|[^\\\\])(\\*\\*|__)(?:(?:\\r?\\n|\\r)(?!\\r?\\n|\\r)|.)+?\\2
+(^|[^\\\\])(\\*\\*|__)(?:\\n(?!\\n)|.)+?\\2
+(^|[^\\\\])(\\/\\*([\\s\\S]*?)\\*\\/|([^:]|^)\\/\\/(.*)$)
+(^|[^\\\\])(\\{|\\})
+(^|[^\\\\])(\\\\|\\s)
+(^|[^\\\\])(_|%)
+(^|[^\\\\])(`+)(.+?)\\2
+(^|[^\\\\])(`+)([^\\n]*?[^`\\n])\\2(?!`)
+(^|[^\\\\])(`+)([^\\r]*?[^`])\\2(?!`)
+(^|[^\\\\])/
+(^|[^\\\\]);
+(^|[^\\\\])[:\\*]([a-zA-Z0-9_]+)
+(^|[^\\\\])[\"']
+(^|[^\\\\])[\\$\\@]
+(^|[^\\\\])[\\?\\*\\{\\}]
+(^|[^\\\\])[|!]=*
+(^|[^\\\\])\\\\
+(^|[^\\\\])\"
+(^|[^\\\\])\\\"
+(^|[^\\\\])\"$
+(^|[^\\\\])\"|'
+(^|[^\\\\])\\$(?:::)?\\w+(?:::\\w+)*
+(^|[^\\\\])\\$(T|N|U|H|A)
+(^|[^\\\\])\\$\\{
+(^|[^\\\\])\\$D
+(^|[^\\\\])\\$D\\{($S)\\}
+(^|[^\\\\])\\$D\\{\"(.*?)\"\\}
+(^|[^\\\\\\\\])\\(.*?\\)
+(^|[^\\\\])\\([^?]
+(^|[^\\\\])\\(\\*[\\s\\S]*?\\*\\)
+(^|[^\\\\])\\(\\*[\\w\\W]*?\\*\\)
+(^|[^\\\\])\\*
+(^|[^\\\\\\\\])\\\\*([^*]+[^\\\\\\\\])\\\\*
+(^|[^\\\\])\\.
+(^|[^\\\\\\\\])\\\\.
+(^|[^\\\\])\\/\\*[\\s\\S]*?(?:\\*\\/|$)
+(^|[^\\\\])\\/\\*[\\s\\S]*?\\*\\/
+(^|[^\\\\])\\/\\*[\\w\\W]*?\\*\\/
+(^|[^\\\\])\\/\\/.*
+(^|[^\\\\])\\?
+(^|[^\\\\\\\\])\\[.*?\\]
+(^|[^\\\\])\\\\[lcnr]
+(^|[^\\\\\\\\])\\{.*?\\}
+(^|[^\\\\])\\{\\{
+(^|[^\\\\])\\|
+(^|[^\\\\])\\\\\\|
+(^|[^\\\\])''\\+
+(^|[^\\\\])\\\\a
+(^|[^\\\\])\\\\c
+(^|[^\\\\])\\\\e
+(^|[^\\\\])\\\\n
+(^|[^\\\\])\\\\u
+(^|[^\\\\])_
+(^|[^\\\\]){=[\\S\\s]*?}
+(^|[^\\\\])D
+(^|[^\\\\])F
+(^|[^\\\\])l
+(^|[^\\\\])M
+(^|[^\\\\]{1})\"
+(^|[^\\\\]|(\\\\\\\\)+)\\}
+(^|[^\\\\]+)\\\\\\*(?=.+)
+(^|[^`
+(^|\\\\)(int|float|bool|string|void|null|false|true|resource|object|numeric|mixed)$
+(^|\\\\)out($|\\\\)
+(^|\\.)([\\w$-]{1,
+(^|\\.)\\Q$accept_id_dom\\E\\z
+(^|\\.)\\Q$domain_to_use\\E$
+(^|\\.)\\Q$signing_domain\\E\\z
+(^|\\/)\\_
+(^|\\/)\\Q$lib\\E(\\.$so)?$
+(^|\\/|\\\\)(?:((?:u[0-9a-f]{4,6},?)+)-)(.+)\\.svg$
+(^|\\/|\\\\)(\\.git|\\.hg|\\.svn|CVS)
+(^|\\/|\\\\)\\.\\.(\\\\|\\/|$)
+(^|\\/|\\\\)_
+(^|\\_).
+(^|\\|)\\Q$path\\E$
+(^|\\n)( +)?[\\.\\:\\#\\[\\]][a-z0-9\\-\\_\\=\\(\\)\\, \\[\\]]([\\s\\S]+)?\\{
+(^|\\n)(?P<initial_indent>[ \\t]*)$
+(^|\\n)(?P<level>#{1,6})(?P<header>.*?)#*(\\n|$)
+(^|\\n)(?P<level>h[1-6]\\.)(?P<header>.*?)#*(\\n|$)
+(^|\\n)(\\{[^\\}]*\\}\\n)?[ ]{0,3}:[ ]{1,3}(?P<caption>.*?)(\\n|$)
+(^|\\n)\\p{javaWhitespace}*@([^\\p{javaWhitespace}]+)
+(^|\\n\\n)\n            (?P<sep_open>---)[ ]*  # open YAML stream\n            (?P<alias>.+)?  # cell split, or !tag\n            (\\n\n            (?P<body>(.+\\n)+)  # optional YAML\n            (?P<sep_close>(\\.{3}|-{3}))  # close YAML stream\n            )?(?:\\n{2}|$)
+(^|\\n|
+(^|\\n| |\\\\)--( |\\n|$)
+(^|\\r)\\s*(\\\\font|\\\\magnification|\\\\input|\\\\def|\\\\special|\\\\baselineskip|\\\\begin)
+(^|\\r)\\s*\\\\(end|bye)(\\s|$)
+(^|\\r?\\n|\\r)\\/[\\t ]*(?:(?:\\r?\\n|\\r)(?:.*(?:\\r?\\n|\\r))*?(?:\\\\(?=[\\t ]*(?:\\r?\\n|\\r))|$)|\\S.*)
+(^|\\s) (-l\\Q$_\\E) ($|\\s)
+(^|\\s)(
+(^|\\s)(\\\\)?(@([a-z\\d\\-]+))(?=[.!?;,[\\]()]|\\s|$)
+(^|\\s)(\\\\)?(@([a-z\\d]+(?:[a-z\\d._-]+?[a-z\\d]+)*))
+(^|\\s|
+(^|\\s|\\(|,)url\\((.*?[^\\\\])\\)(?=$|\\s|\\)|,)
+(^|\\s+)#(\\p{Word}+)
+(^|\\s+)(
+(^|\\s+)(?P<st>_?st_)(?P<context>\\S+?)\\((?P<quote>[^\\)]*?\")(?P<pre>[^\\)]*?)\\Z
+(^|\\s+)\\Q$_\\E($|\\s+)
+(^|\\s+)\\Q$tostrip\\E(\\s+|$)
+(^|\\W)(
+(^|\\W)([
+(^|\\W)\\ba\\b(?=$|\\W)(?! (?:
+(^|\\W)\\Q$var\\E(\\W|$)
+(^|\\W|\\_)([\\@\\.\\/A-Za-z\\*][\\*\\.\\@\\/\\w\\:\\-]*(?:\\(\\)){0,1})
+(^|^[^\\\\]|[^\\\\]{2})\"
+(^|_)(
+(^|>)\\s++(<|$)
+(^|link:|
+(^~(?P<user>[^/]*))(?P<path>.*)
+(^C:[\\/\\\\])|(^\\/)
+(^ctl\\d+\\$m)(\\_)
+(^http{1}[s]?://([w]{3}\\.)?.+\\.(
+(^https?:\\/\\/[\\p{Han}a-zA-Z0-9\\-\\.\\/]+)
+(^mailto:)|\\p{Alnum}+
+(^plugin\\|)(?P<plugin>.*?)(\\|site\\|)(?P<site>.*?)(\\|class\\|)(?P<class>.*?)(\\|subclass\\|)(?P<subclass>.*?)(\\|type\\|)(?P<type>.*?)(\\|id\\|)(?P<id>.*?)(\\|endpoint\\|)(?P<endpoint>.*?$)
+(^whitespace)|(char$)|(^[oe]$)|(^sym\\_)
+(_.+?)??(_?(
+(_?)(
+(_[a-zA-Z\\d@_]++|[A-Z][a-zA-Z\\d@_]*+)|(_)
+(_LOCAL_)(\\.(.*?))?\\\\
+(_x\\h\\h\\h\\h_)+
+(`(?P<identifier>.*?)`|(?P<null>NULL)|'(?P<string>(?:\\\\.|''|[^'])*?)'|0x(?P<hex>[0-9a0-f]+)|(?P<number>[+-]?\\d+\\.?\\d*(?:e[+-]?\\d+)?)|(?P<close_paren>\\)))
+(`)(
+(`)[^`\\\\]*(`)
+(`|\\\\)
+(`|\\*{1,3}|_)(.*?[^\\\\])\\1
+(`+)(?:
+(`+)([^`]|(?!(?<!`)\\1(?!`))`)*+(\\1)
+(`+)[^\\S\\n]*(\\S[^\\n]*?)[^\\S\\n]*(
+({(?P<closing>\\/)?(?:(?P<symbol>[\\~\\#\\?\\@\\:\\<\\>\\+\\^\\%])\\s*)?(?P<refpath>[a-zA-Z0-9_\\$\\.]+|\"[^\"]+\")(?:\\:(?P<contpath>[a-zA-Z0-9\\$\\.]+))?(?P<filters>[\\|a-z]+)*?(?P<params>(?:\\s+\\w+\\=((\"[^\"]*?\")|([$\\w\\.]+)))*)?\\s*(?P<selfclosing>\\/)?\\})
+({(?P<closing>\\/)?(?:(?P<symbol>[\\~\\#\\?\\@\\:\\<\\>\\+\\^\\%])\\s*)?(?P<refpath>[a-zA-Z0-9_\\$\\.]+|\"[^\"]+\")(?:\\:(?P<contpath>[a-zA-Z0-9\\$\\.]+))?(?P<filters>[\\|a-z]+)*?(?P<params>(?:\\s+\\w+\\=((\"[^\"]*?\")|([\\w\\.]+)))*)?\\s*(?P<selfclosing>\\/)?\\})
+({(?P<namespace>.*)})?(?P<localname>.*)
+({)\\s+|(\\;)\\s+|/\\*.+?\\*\\/|\\R
+(-{1}[a-z0-9]{32}*\\.{1}){1}
+('''|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1
+('|\\\\)
+(~)((\\-)?\\d++|(\\*))?((\\.)(\\d++|(\\*)))?((\\.)((\\*)|.))?[~cfegswpWPBX#bx\\+ni]
+(~)(\\*)?(\\d++)?[~du\\-#fsacl]
+(~[^/\\\\]+)\\.less$
+(-+|All files|% Lines|
+(<
+(<!-- !tree -->)[^]*(<!-- tree! -->)
+(<(a |span data-)href=\"https://
+(<)(
+(<)([a-zA-Z0-9:]++)(?=[^>]*></\\2>)
+(<[^<>]*)\\Q$o\\E($safe)\\Q$c\\E([^>]*>)
+(<[^>]+?)style[\\x00-\\x20]*=[\\x00-\\x20]*[`'\"]*.*?behaviour[\\x00-\\x20]*\\([^>]*+>
+(<[^>]+?)style[\\x00-\\x20]*=[\\x00-\\x20]*[`'\"]*.*?expression[\\x00-\\x20]*\\([^>]*+>
+(<[^>]+?)style[\\x00-\\x20]*=[\\x00-\\x20]*[`'\"]*.*?s[\\x00-\\x20]*c[\\x00-\\x20]*r[\\x00-\\x20]*i[\\x00-\\x20]*p[\\x00-\\x20]*t[\\x00-\\x20]*:*[^>]*+>
+(<[^>]+?)style[\\x00-\\x20]*=[\\x00-\\x20]*[`'\"]*.*?s[\\x00-\\x20]\n            *c[\\x00-\\x20]*r[\\x00-\\x20]*i[\\x00-\\x20]*p[\\x00-\\x20]*t[\\x00-\\x20]*:*[^>]*+>
+(<[^>]+?[\\x00-\\x20\"'])(?:on|xmlns)[^>]*+[>\\b]?
+(<[^>]+?[\\x00-\\x20\"'])(?:on|xmlns)[^>]*+>
+(<[^>]+>\\s*(;\\s*\\w+\\s*(=\\s*(\\w+|\"([^\"\\\\]*(\\\\.[^\"\\\\]*)*)\")\\s*)?)*)
+(<\\?xml\\s+\n                              (version=\\\"(?P<xmlversion>[\\d.]+)\\\")?\\s*\n                              (encoding=\\\"(?P<encoding>[\\w-]+)\\\")?\\s*\n                              (standalone=\\\"(?P<standalone>[\\w]+)\\\")?\\s*\n                              \\?>)\\s*
+(<\\[)\\s*(
+(<\\\\[^\\\\])|([^\\\\]\\\\>)
+(<|&((
+(<|&(?!(
+(<<|>>|/\\\\|\\\\/|\\\\)
+(<<<)(([^\\s\\\\]|\\\\.)+)
+(<code ?.*>)([^]*)<\\/code>
+(<img\\s*)([^>]*?class\\s*=\\s*[\"']?[^\"']*?
+(<input.*id=\"
+(<jnlp.*?)(
+(<meta[^>]*charset=[\"']?(?P<charset>[^\"'>]*)[\"']?[ ]?[/]?[>])
+(<p>
+(<p>&lt;p align=&quot;center&quot;&gt;[^]+?)(<h2>Dependencies<\\/h2>)
+(<pre
+(<script
+(<script(?=\\s|>)(?:\"[^\"]*\"|'[^']*'|[^\"'>])*+>)(.*?)(</script>)
+(<style
+(<table:table-row[^>]*>)?<table:table-cell [^>]*table:style-name=\"(
+(<table:table-row[^>]*>\\s*<table:table-cell [^>]+>\\s*)?(<text:list-item>\\s*)?(<text:p [^>]+>\\s*)?(<\\/text:span>\\s*)?<text:span text:style-name=\"(
+(<textarea
+(=\\s*)(([\\\"\\'])(?:(?:[^\\3\\\\]*?(?:\\3\\3|\\\\.))*?[^\\3\\\\]*?)\\3)
+(==|~=|!=|<=|>=|\\.\\.\\.|\\.\\.|->|=>|[=+\\-*/%^<>#!\\\\])
+(=>\\s?+)(.+)(?=::)
+(>?
+(->\\\\?\\s*|&\\s*)(
+(->|::)(\\s*)(
+(>https?:\\/\\/[^\\<\\\\]+)
+(1[0-2]|0?[1-9]|
+(1Z.\\d{15})|\\T\\d{10}|\\d{9,12}
+(9u|(2\\`shj{2147483649,}\\r|3|f|y|3*)+8\\B)\\W93+
+(a(b)a)\\k<-1>
+(a(b|\\g<0>))
+(a)(\\g<1>|ccc)
+(a)(b)(?idsumx)(?<named>x)
+(a)(b)(?idsumx:Z)(?<named>x)
+(a)(b)(c)\\k<-1>
+(a)(b)(c)\\k<-3>
+(a)(b)(c)\\k'-1'
+(a)(b)(c)_d++
+(a)(b)\\g<-1>
+(a)(b)\\Q[\\E(?<named>c)\\]
+(a)*+bc|d
+(a)?+bc|d
+(a)\\1\\2
+(a)\\g<+1>(b)
+(a)\\g<1>
+(a)\\k<-1>_1(?>33|3)37
+(a)\\\\Q(?<named>\\d+)\\\\E
+(a)\\\\Q(?<named>d)\\E
+(a)++bc|d
+(a\\)
+(a\\\\\\Kb)
+(a\\Kb)|(c\\\\\\Kd)ef
+(A{9999999999}B|C*)*
+(A{9999999999}B|C*)*D
+(a|t)\\_tree\\-$lang\\-.+
+(a|t)\\_tree\\-$lang\\_$sel\\-.+
+(abc)(def)\\3
+(abc)\\\\Q(?<named>\\d+)\\\\E
+(address=\\/
+(against 
+(and\\_with|and|with)?\\_(.*)$
+(android|webos|palm\\os|qnx|bada|rim\\stablet\\sos|meego)[\\/\\s-]?([\\w\\.]+)*
+(android|webos|palm\\os|qnx|bada|rim\\stablet\\sos|meego|contiki)[\\/\\s-]?([\\w\\.]+)*
+(as)(\\s*)(
+(at|gt|gte|lt|lte)?\\.?(
+(audio( format)?|codec( name)?|format).*?\\b(?P<audio>0x0055 MPEG-1 Layer 3|AAC( LC)?|AC-?3|\\(AC3|DD5(.1)?|(A_)?DTS-?(HD)?|Dolby(\\s?TrueHD)?|TrueHD|FLAC|MP3)\\b
+(Authorization: )[^\\\\]*
+(autoload\\s+[:\\w]+,\\s+[\"'])(
+(AWS|aws)?_(SECRET|secret|Secret)?_?(ACCESS|access|Access)?_?(KEY|key|Key)(?P<secret>[A-Za-z0-9/\\+=]{41})
+(-----BEGIN\\s+PRIVATE\\s+KEY-----)[0-9A-Za-z+\\/=\\s\\\\]+(-----END\\s+PRIVATE\\s+KEY-----)
+(bet|bet.|between)\\s+(?P<start>.+)\\s+and\\s+(?P<stop>.+)
+(boost_)?(?P<version>\\d[._]\\d\\d(?P<minor>[._]\\d)?)
+(border|margin):(\\d+(?:\\p{Alpha}*))(\\2){3}
+'(C:)?(\\/|\\\\)[^']+(\\/|\\\\)([^'\\/\\\\]+)'
+(C:\\\\)(\\w+)(\\\\)
+(C-|c)\\\\
+(C-|c)\\\\[\\\\MCc]
+(card_number\\\\?\":\\\\?\")[^\"\\\\]*
+(CertificateID=\\\\\\\")[^\\\\]*
+(Class)?\\/([a-z\\-\\/\\_]+)$
+(class|include)(\\s*)(
+(class|interface)\\s+[a-z0-9A-Z\\_]+
+(class=\"navbar-toggler\").+(data-target=\"#
+(codec( (name|code))?|(original )?format|res(olution)|video( (codec|format|res))?|tv system|type|writing library).*?\\b(?P<video>AVC|AVI|DBrip|DIVX|\\(Divx|DVD|[HX][._ -]?264|MPEG-4 Visual|NTSC|PAL|WMV|XVID)\\b
+(Concur(ring)? in )?(?P<type>((the )?(Senate|House) Amendments? (with an amendment )?to )+)(?P<bill>.*)
+(const commonJsMain = `)[^]+?(\\/\\/ --- END( of)? commonJsMain chunk ---)
+(const debugTraceSrc = `)[^]+?(\\/\\/ --- END( of)? debugTraceSrc chunk ---)
+(const define_parser_APIs_1 = `)[^]+?(\\/\\/ --- END( of)? define_parser_APIs_1 chunk ---)
+(const parseErrorSourceCode = `)[^]+?(\\/\\/ --- END( of)? parseErrorSourceCode chunk ---)
+(const)(\\s+)(
+(cpu at |processor: |
+(create|make|start|build|construct|prepare|whip).*(directory|folder|catalogue)(\\s)(and\\s)?(call(ed)?|name(ed)?)(\\sit\\s)?(?P<name>.*)
+(ctl\\d+)(\\_)
+(cvv2\\\\?\":\\\\?\")\\d+[^\"\\\\]*
+(d+\\/(\\d+)
+(dbname|Database)=([a-zA-Z0-9\\_]+)
+(de)\\s+(?P<start>.+)\\s+(\u00e0)\\s+(?P<stop>.+)
+(define)(\\s*)(\\()(
+(define)(\\s+)(
+(delete|select)\\s.*from\\s+\\Q$word\\E$
+(dist\\/dev\\/)|(dist\\\\dev\\\\)
+(Domain\\\\Model|Controller)\\\\(.+)
+(Double\\\\.+?\\\\P)\\d+
+(egg=)?(?P<package_name>.*)==.*$
+(en|zh)\\_?\\w*
+(entre|ent\\.|ent)\\s+(?P<start>.+)\\s+(et)\\s+(?P<stop>.+)
+(envAppend|pathAppend)[(](?P<var>.+?)[,]\\s(?P<target>.+?)[)]
+(envPrepend|pathPrepend)[(](?P<var>.+?)[,]\\s(?P<target>.+?)[)]
+(escape)|\\\\(\\n|\\r\\n?|\\f)
+(eval[\\s]*\\(|system\\(|\\\\x)
+(exception|and)(\\s*)(
+(exception|and)(\\s+)(
+(fast_)*(s_)*mp\\_[a-z_0-9]*
+(find|bash):\\s(?P<ERROR_MSG_FIND>.*)
+(font-family|font-style|font-weight)\\s*+:\\s*+[^;\n\r]*+;
+(foo(bar))\\g<2>+
+(foo)(?<x>bar)(baz)\\g<x>+
+(foo)(bar)(qux)\\g<-2>+
+(foo)(bar)\\g<2>+
+(foo)\\g<+2>(bar)(quz)
+(foo)\\g<1>(bar)\\2
+(foo){2}(bar)\\g<1>
+(fr\u00e1)?\\s*(?P<start>.+)\\s*(til|--|\u2013)\\s*(?P<stop>.+)
+(fr\u00e5n)?\\s*(?P<start>.+)\\s*(till|--|\u2013)\\s*(?P<stop>.+)
+(fra)?\\s*(?P<start>.+)\\s*(til|--|\u2013)\\s*(?P<stop>.+)
+(frame size|(video )?res(olution)?|video).*?(?P<res>(272|336|480|494|528|608|\\(?640|688|704|720x480|810|816|820|1 ?080|1280( \\@)?|1 ?920(x1080)?))
+(from)((?:\\\\\\s|\\s)+)(
+(from)\\s+(?P<start>.+)\\s+to\\s+(?P<stop>.+)
+(from|to) ([a-z0-9.]+) using ([a-z0-9\\\\_]+)\\.?
+(g|\\\\0{0,4}(47|67)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\g)
+(gbrowse[^/]*)(?\\!.*gbrowse)/.+$
+(get|create)\\(\\s*([a-z0-9\\\\]+)::class\\s*\\)
+(git\\+)?((?P<protocol>\\w+)://)((?P<username>[^:]+)(:(?P<password>[^@]+))?@)?((?P<hostname>[\\w\\.\\-]+))(:(?P<port>\\d+))?(?P<pathname>(\\/(?P<owner>\\w+)/)?(\\/?(?P<name>[\\w\\-]+)(\\.git)?)?)
+(go|change|move).*\\sto\\s(?P<alias>\\w*)$
+(group :
+(group\\.)?(?P<name>(all|android|chrome|windows10|phone|tablet|pc))
+(h|\\\\0{0,4}(48|68)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\h)
+(h|t|r|e|l|u|U|s(/|%|\\#)(.*?)(?<!\\\\)\\2(.*?)(?:(?<!\\\\)\\2|$))
+(href[\\s\\\"\\'\\=]{2,})([a-z0-9\\/\\.\\_]{3,})([\\?a-z\\=]*[0-9a-zA-Z]*)[\\'\\\"]
+(hstore, unknown, text[])
+(http.:\\/\\/[w\\.]*mega\\.[a-z\\.]+\\/\\#[A-Z0-9\\_\\-\\!\\=]+)
+(http://orcid\\.org/|https://orcid\\.org/|orcid\\.org/)?(?P<orcid>(\\d{4}-\\d{4}-\\d{4}-\\d{3}[0-9x]))$
+(http|https)://(www\\.)?(?P<host>putlocker\\.(com|ws))/(embed/|file/)(?P<id>[\\w]+)
+(http|https)?:?\\/\\/[^\"'\\s<>()\\\\]*
+(https://([a-zA-Z0-9\\-\\.]+)?\\.google.com)([a-zA-Z0-9\\-\\_/]+)?
+(https?:\\/\\/)([a-zA-Z0-9.\\/\\-\\_]*)
+(https?\\:\\/\\/[a-zA-Z0-9\\:\\/\\-\\?\\&\\;\\.\\=\\_\\~\\#\\'\\%$\\!\\+]*)
+(https?\\:\\/\\/|)(youtu(\\.be|be\\.com)|vimeo).*+
+(chr\\d+)\\_(\\d+)-(\\d+)
+(i|\\\\0{0,4}(49|69)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\i)
+(I|y\\\\O\\{\\})'(aN[AY]?[\\s\\-])
+(I|y\\\\O{})'(aN[AY]?[\\s\\-])
+(i18n_getf?|__) ?\\(\\s*[\"']([^\"'\\\\]*(?:\\\\.[^\"'\\\\]*)*)[\"'](?U).*\\)
+(id)(\\s*)(:)(\\s*)(
+(id|label|source|target|value)\\s+(?|([0-9\\.]+)|\\\"([^\\\"]+)\\\")
+(idiomas|lang|language|langue|sprache).*?\\b(?P<lang>Brazilian|Chinese|Croatian|Danish|DE|Deutsch|Dutch|Estonian|ES|English|Englisch|Finnish|Flemish|Francais|French|FR|German|Greek|Hebrew|Icelandic|Italian|Japenese|Japan|Japanese|Korean|Latin|Nordic|Norwegian|Polish|Portuguese|Russian|Serbian|Slovenian|Swedish|Spanisch|Spanish|Thai|Turkish)\\b
+(image:)?(?:(https?:[^\\[]+)|{([a-z0-9_-]+)})\\[(|.*?[^\\\\])\\]
+(import)(\\s+)(
+(in 
+(include_once|include)[ ]+\"([^\"\\\\]*(\\\\.[^\"\\\\]*)*)\"[ ]*\\r?(?:\\n|$)
+(install)\\s(?P<package>\\w*)
+(invalid regexp
+(iPhone|iPad|CPU)\\s+OS\\s+(\\d+\\_\\d+)
+(is|was)\\s(?P<package>\\w*)\\s(installed)
+(k|\\\\0{0,4}(4b|6b)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\k)
+(kl\\.\\s+)\\Q$marker\\E(\\d+.)(\\d+.)\\Q$marker\\E(\\d+)
+(kl\\.\\s+)\\Q$marker\\E(\\d+.)\\Q$marker\\E(\\d+)
+(lang\\s*=)(\\s*)(\"(?:\\\\.|[^\\\\])*?\"|'(\\\\.|[^\\\\])*?'|[^\\s>]+)
+(largeur|width).*?(?P<res>(\\(?640|688|704|720|1280( \\@)?|1 ?920))
+(latest|
+(let|into)(\\s+)(
+(let|var)\\b(\\s*)(
+(locales/.*\\.yml)|((config/routes|
+(Lor)([^]?m)
+(m|\\\\0{0,4}(4d|6d)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\m)
+(mailto:)?([\\w\\.\\_]+)@(\\w+)\\.(\\w+)\\.?(\\w+)?
+(mellan)\\s+(?P<start>.+)\\s+och\\s+(?P<stop>.+)
+(mellem)\\s+(?P<start>.+)\\s+og\\s+(?P<stop>.+)
+(mellom)\\s+(?P<start>.+)\\s+og\\s+(?P<stop>.+)
+(method)(\\s+)(
+(mezi)\\s+(?P<start>.+)\\s+(a)\\s+(?P<stop>.+)
+(milli)\\s+(?P<start>.+)\\s+og\\s+(?P<stop>.+)
+(module) (
+(mswin\\d+)((\\_|-)(\\d+))?
+(mswin\\d+)(\\_(\\d+))?
+(multigroup\\_)?collections(_\\d+)?
+(NAME\\s*:\\s*)?'([^\\\\']|\\\\([bfnrtv'\\\\/]|u[0-9a-fA-F]{4}))*'
+(NAME\\s*:\\s*)?\"([^\\\\\"]|\\\\([bfnrtv\"\\\\/]|u[0-9a-fA-F]{4}))*\"
+(native\\_(dash|hls)|html5)
+(now|today)(?P<sign>[+-])(?P<time>\\d+)(?P<unit>day|week|month|year)(s)?
+(o|\\\\0{0,4}(51|71)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\o)
+(-o|--open)(=?|\\s)(?P<LinkId>\\d+)
+(od)\\s+(?P<start>.+)\\s+(do)\\s+(?P<stop>.+)
+(open|navigate to|browse)\\s(?P<site>.*)
+(p|\\\\0{0,4}(50|70)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\p)
+(package)(\\s+)(
+(packages\\\\[^\\\\]+)\\\\src\\\\
+(packages\\\\Xamarin\\.UITest\\.)(\\d+(\\.\\d+)+)
+(paste.*(to)?\\s((?P<location>\\\"?(.)*\\\"?)$)?)|paste.*
+(pci|usb)-[0-9a-zA-Z:_-]*_(?P<usbid>[0-9a-zA-Z]*)-.*$
+(perl5\\.(?|([0-9]{3})_?([0-9]{2})|([0-9]{1,2})\\.([0-9]+)))
+(PHPUnit\\\\)|(Test.php)|(phpunit.phar)|(vendor)|(Interface.php)
+(pod|item|defn|nested|finish|\\U $name\\E )
+(property)(\\s+)(
+(protected static \\$unicodePropsRegexp)[^;]++;
+(public\\s\\$(
+(public\\s+\\$(
+(public|protected|private|provide)(\\s+)(
+(public|protected|private|provide)(\\s+)((
+(-r|--results)(=?|\\s)(?P<ResultsCount>\\d+)
+(react-cosmos[a-z0-9-]*|react-querystring-router)(\\/|\\\\)src
+(record)(\\s*)(\\()(
+(remove|delete|terminate|kill)\\s(?P<file>\\\"?(.)*\\\"?)
+(remove|delete|terminate|kill)\\s(?P<original>\\\"?(.)*\\\"?)
+(rename|name)\\s(?P<original>\\\"?(.)*\\\"?)\\sto\\s(?P<new>\\\"?(.)*\\\"?)
+(rule\\s+([\\w\\_\\-]+)(\\s*:\\s*(\\w[\\w\\s]+\\w))?\\s*\\{\\s*(meta:\\s*(.*?))?(strings:\\s*(.*?)\\s*)?condition:\\s*(.*?)\\s*\\})
+(run) (
+(run|down): ([/\\w\\_\\-\\.]+): \\(pid ([\\d]+)\\) (\\d+s); (run|down): log: \\(pid ([\\d]+)\\) (\\d+s)
+(s
+(s)(.)(
+(sanity-plugin-[^\\\\]+)\\\\src\\\\
+(sass|scss)[/\\\\]custom-importer\\.(scss|sass)
+(save|alias|nickname).*(as|name\\w*|call\\w*)\\s(?P<alias>\\w*)$
+(sd|hd)_src[\"']?\\s*:\\s*(?P<quote>[\"'])(?P<url>.+?)(?P=quote)
+(self)(\\s*->\\s*)('
+(Settings for|Time stamping parameters for)\\s+(?P<INT>\\S+):
+(signal)(\\s+)(
+(Sprint|sprint) (?P<sprint_number>[\\d+])
+(src|file): (?P<q>[\\\"'])(?P<url>(https?:)?//.+?m3u8.*?)(?P=q)
+(ss|sh|t?ch|zz|x|
+(ssh\\:\\/\\/\\w+@(?P<host>[a-zA-Z0-9_.-]+))(:{0,1})(?P<port>(\\d+))?
+(stable|beta|nightly)(-[\\d-]+)?-(?P<target>.+)
+(styled(\\.\\w+|\\([^)]*\\))(\\.\\w+(\\([^)]*\\))*)*|css|injectGlobal|keyframes|css={)`(?:\\$\\{[^}]+\\}|\\\\\\\\|\\\\?[^\\\\])*?`
+(subroutine|function)\\s*(?P<name>\\w+)\\s*\\(
+(SYS-(SW[0-9]+-)?5-CONFIG_I|VSHD-5-VSHD_SYSLOG_CONFIG_I): Configured from .+ by (?P<user>.+) on .*
+(TEMP\\_OCEANLAYERS\\_?\\w*)\\.OUT$
+(tracking url|the url to track the job):\\s+(?P<url>.+)$
+(translate|scale|rotate|matrix)\\(([0-9,.eE+-\\s]+)(?:,|\\s?)+\\)
+(tz=>['\"][a-zA-Z0-9\\/\\_]+['\"])
+(U\u222fS|U\\.S|U\u222fK|E\u222fU|E\\.U|U\u222fS\u222fA|U\\.S\\.A|I|i.v|I.V)\u222f(?=\\s
+(u8|u|U|L)?'(\\\\.|\\\\[0-7]{1,3}|\\\\x[a-f0-9]{1,2}|[^\\\\'\\n])'
+(unpack\\w*|unzip|unload|unarchive|unrar|untar|extract)\\s(?P<file>\\\"?(.)*\\\"?\\.(?P<format>(\\w)*))
+(unpack\\w*|unzip|unload|unarchive|unrar|untar|extract)\\s(?P<file>\\\"?.*\\\"?\\.(?P<format>\\w*))(\\s(to|here)\\s(?P<location>\\\"?.*\\\"?))?
+(unset |Remove-Item Env:\\\\)(.+?)$
+(url\\(['\"]?)(?P<link>.*?)['\"]?\\)
+(url\\(['\"]{0,1}\\s*(?P<url>.*?)[\"']{0,1}\\))
+(url\\(\\s*(?:'(?:[^']|\\\\')*'|\"(?:[^\"]|\\\\\")*\"|(?:[^'\"\\\\]|\\\\.)*?\\s*)\\))|counter\\(\\s*([a-z0-9-]+)\\s*,\\s*([a-zA-Z0-9-]+)\\s*\\)|counters\\(\\s*([a-z0-9-]+)\\s*,\\s*(?:\"((?:[^\"\\\\]|\\\\.)*)\"|'((?:[^'\\\\]|\\\\.)*)')\\s*(?:,\\s*([a-zA-Z0-9-]+)\\s*)?\\)|\"((?:[^\"\\\\]|\\\\.)*)\"|'((?:[^'\\\\]|\\\\.)*)'|([^'\"]+)
+(use\\s+Psr\\\\Http\\\\Server\\\\RequestHandlerInterface).*;
+(v?c?s)  # collection type\n        /\\w+     # collection name\n        (\n            /?                 # no key\n            |                  # OR\n            /(?P<key>[^/]+)/?  # item key\n        )\n        $\n    
+(van)\\s+(?P<start>.+)\\s+(tot)\\s+(?P<stop>.+)
+(verify_internal_consistency_reachable_i:\\sWB\\smiss\\s\\S+\\s\\(T_ARRAY\\)\\s->\\s)\\S+\\s\\((proc|T_NONE)\\)\\n\n             \\K(?:\\1\\S+\\s\\(\\2\\)\\n)*
+(VG
+(VH
+(volume|chapter) (?P<chapter>[0-9]{1,2})
+(von|vom)\\s+(?P<start>.+)\\s+(bis)\\s+(?P<stop>.+)
+(vuosien\\s*)?(?P<start>.+)\\s+ja\\s+(?P<stop>.+)\\s+v\u00e4lill\u00e4
+(webos|palm\\os|qnx|bada|meego)[\\/\\s-]?([\\w\\.]+)*
+(X)(?>aa|a)\\k<-1>
+(X)\\\\(Y)
+(x|\\\\0{0,4}(58|78)(\\r\\n|[ \\t\\r\\n\\f])?|\\\\x)
+(y)(.)(
+)
+) {  # 
+)(.
+);
+)+}{} unless $path eq \".
+*
+* Always start with 2 *
+* Build the set of points *
+* compute tau *
+* compute the power at this frequency *
+* Compute the value for each frequency *
+* Dereference to get the original array *
+* Draw an ellipse tilted toward the mouse. Thanks to\n\t\t\t * http:
+* First integer indicates how much room we have *
+* get \"items\" variable, and stack pointer variables used by ST() *
+* if none of the primes below sqrt_candidate divide\n\t\t\t\t\t * into it, it must be prime. *
+* If the array was previously allocated, then call for a\n\t\t\t * reallocation. *
+* If the array was previously unallocated, call for a new\n\t\t\t * block of memory. *
+* Indicate we're returning a single value on the stack. *
+* Iterate through the number of x and y ellipses to draw *
+* mostly equivalent to Perl code above *
+* Note: no need for aTHX_ because Newx and Safefree do not need\n\t * them. *
+* ponto de referencia   *
+* posicao do observador *
+* Prepare stack to receive return values. *
+* Push the sum onto the return stack *
+* Re-assign the array to its new memory slot *
+* Second integer indicates how many items are \"used\", which will\n\t\t * not change during this procedure. However, if the initial array\n\t\t * was empty, then the newly allocated stretchy has no \"used\" slots,\n\t\t * so mark it as such. *
+* Set up variables *
+* so that with increment, it'll go to 3 *
+* Sum the given numeric values. *
+* Unpack the data *
+* vup                   *
+**
+***
+**.* match can be followed with :name to make it into a\n    named match, so:\n\n      sub (
+*.mustache
+*.pm>, <lib
+*.t>);\nshift if $ARGV[0] eq '-fail';\nmy $Mblib = $^O eq 'MSWin32' ? '-Iblib\\arch -Iblib\\lib' : \"-Iblib
+*DELETED at \\d+ with token [\\w.]+* 
+, [a-zA-Z\\_]+=None
+,(?![^()]*+\\))
+,(?!\\\\)
+,(?!\\p{IsDigit})
+,(?=
+,?(?:\\$(?P<var>[\\w]+))\\s*=(?P<val>[^,]+)
+,?\\s*(
+,\\\\
+,\\Q$args{\"-as\"}\\E
+,\\s*([^\\s,\"=]*)\\s*=\\s*([^\\s,\"]+|\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\")\\s*
+,|?
+,|\\||?|\t|\\n|\\r|\\n\\r
+,|\\R
+.(?<$>a).
+.(?P<nick>.+)!.*
+.* (?P<sign>[+-])(?P<hours>\\d\\d)(?P<minutes>\\d\\d)$
+.* (?P<version>\\d+\\.\\d)
+.* ^ \\s* use \\s+ \\Q$package\\E \\s* ; \\n 
+.* anaconda upload (?P<pkg_path>.+)$
+.* socat\\[\\d*\\]\\s(?P<INFO_MSG>[NWID].*)
+.* socat\\[\\d*\\]\\s[E|F]\\s(?P<ERROR_MSG>.*)
+.*![\\p{Alnum}]+
+.*(
+.*((
+.*((?![\\._])[\\p{Punct}|\\s])
+.*((?>/\\*.*?\\*/\\s+))\n                         ([\\w\\.\\s]+\\s* = \\s+)?rb_define_(class|module).*?\"(
+.*((?>/\\*.*?\\*/\\s+))\n                         ([\\w\\.\\s]+\\s* = \\s+)?rb_define_(class|module)_under.*?\"(
+.*(/|\\\\)
+.*(?:^|\\s)(?:__)?(?P<cc>cdecl|stdcall|thiscall|fastcall)(?:__)?.*
+.*(?|(<!--)|(-->))
+.*(?<!\\\\)[\\!\\\\\"\\#\\$\\%\\&\\\\'\\(\\)\\+\\,\\.\\/\\:\\;\\<\\=\\>\\@\\[\\]\\^\\`\\{\\|\\}\\~\\-].*
+.*(?P<basefile>\\d{4}[:/_-]\\d{1,3}).pdf$
+.*(?P<basefile>\\d+[:/_-]\\d+).pdf$
+.*(?P<basefile>EIFS_\\d{4}_\\d+).pdf$
+.*-(?P<bitrate>[0-9]+k)\\.mp4
+.*(?P<CPU_ROW>Cpu).*:\\s*(?P<US>\\d*.\\d*).*us,\\s*(?P<SY>\\d*.\\d*).*sy,\\s*(?P<NI>\\d*.\\d*).*ni,\\s*(?P<ID>\\d*.\\d*).*id,\\s*(?P<WA>\\d*.\\d*).*wa,\\s*(?P<HI>\\d*.\\d*).*hi,\\s*(?P<SI>\\d*.\\d*).*si,\\s*(?P<ST>\\d*.\\d*).*st
+.*(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+).*
+.*(?P<year>\\d{4})/(?P<month>\\d{2})?/(?P<day>\\d{2})?.*
+.*(?P<year>\\d{4})/week/(?P<week>\\d+)?.*
+--.*([\\n\\Z]|$)
+.*(\\.(??????|?????|????|????|????|?????|??????))$
+.*(\\/|\\\\)
+.*(\\/|\\\\)(.*)$
+.*(\\/|\\\\)(.*\\.jar)
+.*(\\/|\\\\)([^(\\/|\\\\)]*)\\.ngdoc
+.*(\\/|\\\\)+?(.*)$
+.*(\\/|\\\\)themes(\\/|\\\\).*?(?=(\\/|\\\\))
+.*(\\{.*?[^\\\\]?\\})
+.*(\\b
+.*(\\n|^)(?P<name>[A-Z0-9 ]+):\\w*.+
+.*(azext_[^/\\\\]+).*
+.*(closes #|fixes #|adresses #)(?P<bugid>\\d+)
+.*(ep|eh)[\\/\\\\](.*)[\\/\\\\]hqmf1.xml
+.*(Plugin|plugins)[/\\\\]
+.*/(?P<basefile>[LVHSF\\-]+FS_ ?\\d{4}[_\\-]\\d+)\\.pdf$
+.*/(?P<url>[-\\w\\.]+)/?$
+.*/d/(?P<key>[^/]+)/.*?(?:gid=(?P<gid>\\d+))?$
+.*/lagrum/gallande-ffs.*/ffs.*(?P<basefile>\\d{4}[\\.:/_-]\\d{1,3})[^/]*.pdf$
+.*/objects/(?<domain-type>\\\\w*)/(?<object-id>\\\\d*)
+.*/sok-fffs/\\d{4}/((?P<baseact>\\d{5,}/)|)(?P<basefile>\\d{5,})/$
+.*: (?P<domains>\\d*) .*, \\d* .*$
+.*: \\d* .*, (?P<backups>\\d*) .*$
+.*: In (?:member )?function '(?P<func>.*)':
+.*://(?P<namespace>.+)
+.*::(\\p{Word}+)$
+.*? login attempt \\[(?P<name>.*?)/(?P<pass>.*?)\\] (?P<status>.*?)$
+.*? New connection: (?P<ip>.*?):(?P<port>.*?) .*?$
+.*? Remote SSH version: (?P<client>.*?)$
+'.*?(?<!\\\\)'
+.*?(?<!\\\\)\"
+.*?(?=\\]={
+.*?-(?P<id>[a-zA-Z0-9_-]+)(?:/watch_as3|/html5player(?:-new)?|(?:/[a-z]{2}_[A-Z]{2})?/base)?\\.(?P<ext>[a-z]+)$
+.*?(?P<loc>[A-Z0-9]{3,4})\\s?(?P<dir>[0-9]{3})(?P<dist>[0-9]{3})
+.*?([^\\\\]+)$
+.*?(\\R)
+.*?(FROM\\s*(?P<gnames>\\<.*\\>+))?\\s*(WHERE\\s*)?\\{(?P<tpattern>.*)\\}.*
+.*?:(?P<lineno>\\d+):\\s*\\[(?P<what>[A-Z]\\d{4})(,\\s+(?P<where>[^\\]]+))?\\]\\s+(?P<message>.*)
+.*?[^\\\\](?:\\\\{2})*(?=\\))
+.*?[^\\\\](?=')
+.*?[^\\\\](?=\")
+'.*?[^\\\\]'|''
+'.*?[^\\\\]'|dddd|ddd|dd|d|MMMM|MMM|MM|M|yyyy|yy|y|hh|h|HH|H|mm|m|ss|s|tt|t|fff|ff|f|zzz|zz|z
+.*?[0-9.]*[0-9]++([xX][0-9.]*[0-9.]++)+$
+.*?\\.dev(?P<dev_num>\\d+)
+.*?\\[ \\<[^\\>]+\\> (?:HH\\\\)?(\\w+)(.*?)\\$
+.*?\\_\\d+\\.(.*?)\\_(\\d+)\\.
+.*?\\{@(\\p{Alpha}+)\\b(.*?)}
+.*?\\15\\12--\\Q$self->{boundary}\\E(..)
+.*?\\b(?P<name>\\w+)\\Z
+.*?\\n(?=\\Q$label\\E\\n)
+.*?\\R\\.\\h*(?=\\R|\\z)
+.*?_\\(((?:\".*?(?<!\\\\)\")|(?:'.*?(?<!\\\\)')).*?\\)
+.*?<FILENAME docid=\"(?P<stream_id>.*?)\">(?P<tagged_doc>(.|\n)*?)</FILENAME>
+.*@([@_\\d\\p{IsAlpha}]+).*
+.*@param\\s++(?<name>\\S*)(\\s++)?(?<descr>.+)?
+.*@return(\\s++)?(?<descr>.+)?
+.*@throws\\s++(?<name>\\S*)(\\s++)?(?<descr>.+)?
+.*[/\\\\]
+.*[/\\\\](.*)$
+.*[/\\\\](.*)[/\\\\](.*)\\.xml
+.*[/\\\\](.+)(\\:\\d+|\\(\\d+\\))\\: 
+.*[/\\\\](.+)(\\:\\d+|\\(\\d+\\))\\:
+.*[/\\\\](?!$)
+.*[/\\\\]([^/\\\\\\?]*).*
+.*[/\\\\]([^\\\\/]+)$
+.*[/\\\\](repository|local-repo)[/\\\\].*
+.*[/\\\\]\\.git
+.*[/\\\\]+
+.*[/\\\\]Examples[/\\\\].*
+.*[/\\\\]OVRUI[/\\\\]node_modules[/\\\\].*
+.*[/\\\\]OVRUI[/\\\\]package\\.json
+.*[/\\\\]website
+.*[/\\\\]website[/\\\\].*
+.*[:/\\\\](.*)
+.*[\\\":=,+?`!@#$^&*{}\\[\\]\\\\].*
+.*[\\.\\/\\\\]
+.*[\\/\\\\]
+.*[\\/\\\\]((ep|eh)_.*)\\.xml
+.*[\\/\\\\](.*)
+.*[\\/\\\\](.*)$
+.*[\\/\\\\](.*)\\.(.*)
+.*[\\/\\\\](.+)[\\/\\\\]?$
+.*[\\/\\\\]([\\w-]+).*
+.*[\\/\\\\](\\w+)$
+.*[\\/\\\\](\\w+)Controller\\.php$
+.*[\\\\\\/]([^\\/\\\\]+)$
+.*[\\/|\\\\](.+)$
+--.*[\\n\\Z]
+.*[\\s<>;'\\\\].*
+.*[\\w\\_]+_\\d{4}-\\d{2}-\\d{2}-\\d{2}_(\\d{2})-(\\d{2})_\\d{1,2}\\.tar
+.*[^\\\\].
+.*[^\\\\];\\s*$
+.*[^\\\\]\\\\..+
+.*[^\\\\]\\\\\\s$
+.*[^\\\\]=.*
+.*[^\\p{Alnum}].*
+.*[^\\p{ASCII}]+.*
+.*[0-9]++%.*
+.*[a-f0-9]{8}+$
+.*[a-zA-Z0-9\\s<>;'\\\\]+.*
+.*\\\\
+.*\"CrumbStore\":\\{\"crumb\":\"(?P<crumb>[^\"]+)\"\\}
+.*\\$\\p{Alnum}+\\.class
+.*\\((?P<myint>\\d+)\\).*|(?P<myint2>\\d+).*
+.*\\\\(.*)$
+.*\\\\(.*?)Test$
+.*\\\\(.:)$
+.*\\\\(.+?)
+.*\\\\(.+?)Command$
+.*\\\\([^\\\\]+)Definition
+.*\\\\([^\\\\]+)Node$
+.*\\.(
+.*\\.(?P<extension>.*)
+.*\\.(?P<format>\\w{1,8})$
+.*\\.([\\p{Alpha}]+)$
+.*\\..*_(?P<index>\\d+).json
+.*\\/(
+.*\\/\\jst\\/
+.*\\@Route\\(\\\"([\\w\\/\\-\\{\\}]+)\\\", name=\"([^\\w\\_]+)\"\\).*
+.*\\[(?P<percent>.+)%.*\\].*
+.*\\[(http|.*HttpServer.*)\\s*] \\[.*\\] .*publish_address {(?:inet\\[[\\w\\d\\.-]*/|\\[)?(?:[\\w\\d\\.-]+/)?(?P<addr>[\\d\\.:]+)(?:\\])?}
+.*\\\\[^\\\\\\/\\\"\\[\\]:|<>+=;,?*@]+$
+.*\\\\[a-zA-Z0-9]{1,}\\\\Proxy$
+.*\\\\[UL][\\$\\\\]\\d.*
+.*\\_(\\w*\\-?\\w*\\_CONC)\\.IN$
+.*\\_(\\w*\\_EMIS)\\.IN$
+.*\\_(\\w*\\_OT)\\.IN$
+.*\\_(\\w*\\_RF)\\.(IN|MON)$
+.*\\_allergies.c32.erb
+.*\\9
+.*\\\\CVS\\\\
+.*\\d+[\\_\\-\\.x]\\d+[\\_\\-\\.x]\\d+[\\_\\-\\.x]\\d+[^\\.]+
+.*\\K at .* line \\d+\\.$
+.*\\K::.*
+.*\\K\\..*
+.*\\p{Punct}alignment\\p{Punct}.*
+.*\\p{Punct}start\\p{Punct}.*
+.*\\Q$file_ext\\E$
+.*\\R|.+\\z
+.*\\s+(?P<fivesecs>\\d+)\\s+(?P<onemin>\\d+)\\s+(?P<fivemin>\\d+)\\s+(?P<onehour>\\d+)
+.*\\s+(?P<packets_input>\\d+) packets input.*\\s+(?P<bytes_input>\\d+) bytes.*
+.*\\s+(?P<packets_output>\\d+) packets output.*\\s+(?P<bytes_output>\\d+) bytes.*
+.*\\s+(?P<unknown_drops>\\d+) unknown protocol drops.*
+.*\\s+lo:(?P<label>\\S+).*
+.*\\s+This is Suricata version (?P<version>[\\d\\.]+ .*)
+.*\\s+Version (?P<version>[\\d\\.]+ .*)
+.*\\\\site-packages\\\\
+.*\\sMaxTime=(?P<MaxTime>[^ \t]+)\\s+
+.*^chruby: (
+.*_(?P<bitrate>[0-9]+)\\.mp4
+.*_(?P<bitrate>[0-9]+k)\\.mp4
+.*{(?P<size>\\d+)}$
+.*+foo
+.*<(?P<email>.*@*.)>
+.*AMMR_VERSION\\s\"(?P<version>.*)\"
+.*appIdKey=(\\h+)
+.*app-only-begin[^]*?app-only-end.*
+.*azure/cli/command_modules/(?P<module>[^/]*)/__init__.*
+.*BGP version 4, remote router ID (?P<rid>.*?), VRF (?P<vrf>.*?)$
+.*BODY.PEEK\\[HEADER.FIELDS \\((?P<headers>.+)\\)\\].*
+.*Bug-Url: https?://bugzilla.*/[^\\d]*(?P<bugid>\\d+)
+.*console.cloud.google.com/dataflow.*/jobs/([a-z|0-9|A-Z|\\-|\\_]+).*
+.*DisplayViewport\\{valid=true, .*orientation=(?P<orientation>\\d+), .*deviceWidth=(?P<width>\\d+), deviceHeight=(?P<height>\\d+).*
+.*FLAGS \\((?P<flags>.*?)\\)
+.*FLAGS \\((?P<flags>[^\\)]*)\\)
+.*for (?P<subscriber>\\S+):(?P<plan>\\S+)
+.*go\\:linkname some\\_name some\\_name.*
+.*HAIL\\.\\.\\.(?P<haildir>[><]?)(?P<hail>[0-9\\.]+)IN
+.*hazelcast-[1-9][\\p{Alnum}\\-_\\.]+\\.jar.*
+.*hazelcast-client-[\\p{Alnum}\\-_\\.]+\\.jar.*
+.*if_not_exists\\s*\\((?P<path>.+),\\s*(?P<default>.+)\\).*
+.*INFO.*Launching Job (?P<job_number>[0-9]+) out of (?P<max_jobs>[0-9]+)
+.*INFO.*Stage-(?P<stage_number>[0-9]+).*map = (?P<map_progress>[0-9]+)%.*reduce = (?P<reduce_progress>[0-9]+)%.*
+.*INFO.*Total jobs = (?P<max_jobs>[0-9]+)
+.*INTERNALDATE \"(?P<day>[ 0123][0-9])-(?P<mon>[A-Z][a-z][a-z])-(?P<year>[0-9][0-9][0-9][0-9]) (?P<hour>[0-9][0-9]):(?P<min>[0-9][0-9]):(?P<sec>[0-9][0-9]) (?P<zonen>[-+])(?P<zoneh>[0-9][0-9])(?P<zonem>[0-9][0-9])\"
+.*it\\s*([\"'])(.*
+.*modules[/\\\\](\\w*)[/\\\\]?\\w*[/\\\\]?
+.*name *= *(?P<name>[^\\(\\),]+)
+.*ni, (?P<idle>.*).id.*
+.*part.(?P<i>[\\d]+).parquet$
+.*PhysicalDisplayInfo{(?P<width>\\d+) x (?P<height>\\d+), .*, density (?P<density>[\\d.]+).*
+.*project *= *(?P<project>[^\\(\\),]+)
+.*'skia_revision': '(?P<revision>[0-9a-fA-F]{2,40})'.*
+.*Template[/\\\\]
+.*TinderboxPrint: ?(?P<line>.*)$
+.*TORNADO DAMAGE THREAT\\.\\.\\.(?P<damage>CONSIDERABLE|SIGNIFICANT|CATASTROPHIC)
+.*TORNADO\\.\\.\\.(?P<tornado>RADAR INDICATED|OBSERVED|POSSIBLE)
+.*Total output drops:\\s+(?P<output_drops>\\d+)\\s+.*
+.*UID (?P<uid>[0-9]+)
+.*urlpatterns\\s*=\\s*patterns\\((?P<params>.*)\\)
+.*version\\s:\\s(?P<version>(?P<v1>\\d)\\.\\s(?P<v2>\\d)\\.\\s(?P<v3>\\d)\\.\\s(?P<build>\\d+)\\s\\((?P<arc>.*)\\))
+.*WATERSPOUT\\.\\.\\.(?P<waterspout>RADAR INDICATED|OBSERVED|POSSIBLE)
+.*WIND\\.\\.\\.(?P<winddir>[><]?)\\s?(?P<wind>[0-9]+)\\s?(?P<windunits>MPH|KTS)
+.*WIND\\.\\.\\.HAIL (?P<winddir>[><]?)(?P<wind>[0-9]+)(?P<windunits>MPH|KTS) (?P<haildir>[><]?)(?P<hail>[0-9\\.]+)IN
+.*yaml-tests[\\/\\\\]
+.@\\{iconfont-css-prefix\\}-([^:]+):before\\s*\\{content:\"\\\\([0-9a-f]+)\";\\}
+.[/\\\\]test[/\\\\]fixture[/\\\\]error\\.js
+.[/\\\\]test[/\\\\]fixture[/\\\\]failedRunner\\.js
+.[/\\\\]test[/\\\\]fixture[/\\\\]legacyDoneRunner\\.js
+.[/\\\\]test[/\\\\]fixture[/\\\\]legacyFailedRunner\\.js
+.[/\\\\]test[/\\\\]fixture[/\\\\]runner\\.js
+.[/\\\\]test[/\\\\]fixture[/\\\\]runnerAllSuccess\\.js
+.[/\\\\]test[/\\\\]fixture[/\\\\]runnerWithFailed\\.js
+.[/\\\\]test[/\\\\]fixture[/\\\\]success\\.js
+.-[^\\\\]
+.\\\\(\\w+)$
+.\\.\\_.|.\\-\\_.|.\\_\\..|.\\_\\-.|.\\_\\_.
+.\\js$
+.^$*+?{}()[]\\|
+-.~:@!$&'()*+,;/?
+-.~:@!$&'()*+,;/?=
+-.~:@!$&'()*+,;=
+.+(?::|?|?)(?:?|?|?)?(?:.+(?::|?)?|??|??|.+?)?(?:.+??)
+.+(?:???|???|?|?|??)
+.+(?:\\Q\u00acO\\E|\\Q\u00b7|\\E|\\Q\u00b4\u00bf\\E|\\Q\u00b1N\\E|\\Q\u00af\u00e0\\E|\\Q\u00a6\u00b3\\E)
+.+(?:\\Q\u00e6\u0098\u00af\\E|\\Q\u00e6\u009c\u0083\\E|\\Q\u00e6\u009b\u00be\\E|\\Q\u00e5\u00b0\u0087\\E|\\Q\u00e8\u0083\u00bd\\E|\\Q\u00e6\u009c\u0089\\E|\\Q\u00e7\u0082\u00ba\\E)
+.+(?<!\\\\)[\\*].+
+.+(?<!\\\\)[\\?].+
+.+/in/(?P<username>.+)
+.+?((?/w)|(?/w )|(?/w )|\\n|$)
+.+?(?=
+.+?(?=\\\\)(.*)\\Http
+.+?(?P<db>\\d+)
+.+?(?P<ext>\\.[^.]*$|$)
+.+@.+\\.(
+.+[/\\\\]
+.+[/\\\\](.+)
+.+[\\/\\\\]
+.+[^\\\\]\\..+
+.+\\\\
+.+\\\\(.+)
+.+\\\\(.+\\((19|20)\\d\\d\\)\\.avi)
+.+\\\\(.+\\((19|20)\\d\\d\\)\\.avi)$
+.+\\\\(.+\\((19|20)\\d\\d\\)\\.iso)
+.+\\\\(.+\\((19|20)\\d\\d\\)\\.iso)$
+.+\\\\([^\\\\]*)$
+.+\\\\(\\w+)Test$
+.+\\. (?P<challenger>.+?) challenged.*? the play was (?P<callUpheld>upheld|overturned)\\.
+.+\\.(
+.+\\.[\\p{Alnum}]+
+.+\\/\\^\\[A-Z][^]+line: 1.+column: 8
+.+\\/|.+\\\\
+.+\\[Time:\\s*(?P<time>[0-9]+.[0-9]+)\\].+\\[Ctxt:\\s*(?P<nrCtxt>[0-9]+)\\].+\\[IRQ:\\s*(?P<nrIrq>[0-9]+)\\].+\\[Core:\\s*(?P<nrCore>[0-9]+)\\].+\\[Task:\\s*(?P<nrProc>[0-9]+)/(?P<nrThread>[0-9]+)
+.+\\_
+.+\\\\Entity\\\\
+.+\\\\Mod\\\\.+
+.+\\s+(?P<topic>[a-zA-Z0-9\\\\._\\\\-]+)\\s+(?P<partitionId>\\d+)\\s+(?P<currentOffset>\\d+)\\s+\\d+\\s+(?P<lag>\\d+)\\s+(?P<clientId>\\S+)_/(?P<consumerAddress>.+)
+.+_(?P<start_time>\\d+)(?:_v\\d+)?\\.nc\\Z
+.+coding[:=][ \\t]*(?P<encoding>[-_.a-zA-Z0-9]+)\\b
+.+SPHEROID\\[\\\"(?P<name>.+)\\\",(?P<major>\\d+(\\.\\d+)?),(?P<flattening>\\d{3}\\.\\d+),
+.+UNIT ?\\[\"(?P<unit_name>[\\w \\'\\(\\)]+)\", ?(?P<unit>[\\d\\.]+)(,AUTHORITY\\[\"(?P<unit_auth_name>[\\w \\'\\(\\)]+)\",\"(?P<unit_auth_val>\\d+)\"\\])?\\]([\\w ]+)?(,AUTHORITY\\[\"(?P<auth_name>[\\w \\'\\(\\)]+)\",\"(?P<auth_val>\\d+)\"\\])?\\]$
+.<>(){}[]+&!$;-%_?:#@~='\" ^\\`|
+.hla.(?P<hlatype>[\\w-]+).fq
+.if_str_equal(\\(.*\\)
+.NET[\\/\\]VC7
+/(
+/(?:(?:
+/(?:(?:\\\\.)|(?:\\[(?:\\\\.|[^\\[\\]])+\\])|[^/\\\\])+/[a-z]*
+/(?:[^/\\\\]*(?:\\\\.[^/\\\\]*)*)/[a-zA-Z]*(?s)
+/(?:video|klipp)/(?P<id>[0-9]+)/
+/(?P<a>foo|bar)/b
+/(?P<basefile>\\d+\\-\\d+\\-\\d+)/$
+/(?P<CONTEST>[^/]+)(/(?P<PROBLEM>[^/]+))?
+/(?P<CONTEST>[a-zA-Z0-9]+)(/(problems/)?(?P<PROBLEM>[a-zA-Z0-9]+))?
+/(?P<height>\\d+)[pP]_(?P<tbr>\\d+)[kK]
+/(?P<height>\\d+)\\.mp4
+/(?P<letter>[A-Za-z])/
+/(?P<prefixes>[^/:]+):
+/(?P<radio_id>\\d+)/(?P<audio_id>\\d+)
+/(?P<rating>[ERATINnG]+)\\.png$
+/(?P<total>[0-9]+)
+/(?P<version>[0-9.]+)/
+/(?P<width>\\d+)x(?P<height>\\d+)/
+/(?P<year>\\d{4})-(?P<month>\\d{2})-(?P<day>\\d{2})/
+/(?P<year>\\d{4})/(?P<month>\\d{2})/
+/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/
+/([^/\\\\]+\\.src.rpm)\\b
+/(detail|kill)/(?P<kill_id>\\d+)/?
+/(sections|
+/, $ct, 2;\n      given @ct[0] {\n\ts:g/\\s+//;\n\t$_ .= lc;\n      }\n\n      given want {\n\twhen List   { return @ct }\n\twhen Scalar { return @ct[0] }\n      }\n    },\n    STORE => -> Str $type {\n      ./:header(\"Content-Type\", $type);\n    });\n}\n\nmethod referer () is rw {\n  return Proxy.new(\n    FETCH => { @{./:header(\"Referer\")}[0] },\n    STORE => -> $new is copy {\n      if ($new ~~ /\\#/) {\n\t# Strip fragment per RFC 2616, section 14.36.\n\tif ($new ~~ URI) {\n\t  $new .= clone;\n\t  $uri.fragment = undef;\n\t} else {\n\t  $new ~~ s/\\#.
+// *CLIF:? +include +\"(?P<path>[^\"]+)\"
+// *CLIF:? +init_module +(?P<cpp_statement>.+)
+// *CLIF:? +macro +(?P<name>.+) +(?P<def>.+)$
+// *CLIF:? +use +`(?P<cname>.+)` +as +(?P<pyname>[\\w.]+)
+// [^\\n\\\\]* (?: \\\\. [^\\n\\\\]* )* | /\\* (?: .*? \\*/ | .* )
+//(?P<package>[[:alnum:]-_.][[:alnum:]-_./]+)
+//) {\n\t#my $val = MIME::Base64::decode($cur);\n\n\tgiven want {\n\t  when Scalar { return $val }\n\t  when List   { return split /\\:/, $val, 2 }\n\t}\n      }\n\n      return undef;\n    },\n    # -- XXX does this create a reasonable warning? If not, put\n    #   Carp::croak(\"Basic authorization user name can't contain ':'\")\n    # back.\n    # XXX Str where { $^str !~ /\\:/ }\n    STORE => -> Str $user, Str ?$passwd = \"\" {\n      #./:header($h, \"Basic \" ~ MIME::Base64::encode(\"$user:$passwd\", \"\"));\n    });\n}\n\nmethod redirect (::?CLASS ::class: Str $location, Str ?$target, Str ?$status = \"302 Found\", Str 
+//.* | /\\*(?:[^*]++|\\*(?!/))*\\*/
+//\\s*(?P<Comment>.*)
+//\\s*\\Q]]>\\E$
+//\\s?[\\-]*\\s(?P<desc>.*?)\\*/\\W*?struct\\s(?:ASSIMP_API\\s)?(?P<name>[a-z][a-z0-9_]\\w+\\b)[^{]*?\\{(?P<code>.*?)\\}\\s*(PACK_STRUCT)?;
+//++
+//code (?P<syntax>[a-zA-Z]+)(?P<code>.*?)//code
+/?((?P<model>[^\\\\.]*)\\\\.)?(?P<appname>[^:]*)(:(?P<endpoints>.*))?
+/?(?P<zoom>[0-9]?[0-9])/(?P<x>[0-9]{1,10})/(?P<y>[0-9]{1,10})(\\\\.[a-zA-Z]{3,4})?$
+/?\\Q$mod_file\\E$
+/?\\Q$prefix\\E$
+/[
+/[^/\\\\]*$
+/[^/\\\\]+$
+/[^/]+(?=/
+/[^\\\\]\\\\\\d+/g
+/[^a-zA-Z0-9\\-\\_]/g
+/\\\\\\\\
+/\\* ( (?>[^/*]+ | /[^*] | \\*[^/] ) | (?R) )* \\*/
+/\\*.*?\\*/(?us)
+/\\*.*+\\*
+/\\*[^*]*\\*+([^/*][^*]*\\*+)*/|//([^\\\\]|[^\\n][\\n]?)*?\\n|(\"(\\\\.|[^\"\\\\])*\"|'(\\\\.|[^'\\\\])*'|.[^/\"'\\\\]*)
+/\\*\\*.*?\\*/\\s*(?:function |var )?([\\w.]+)\\N*
+/\\*\\*?\\s*@(?P<name>[A-Za-z_-]+)(?:[ \\t]+(?P<value>.*?))?[ \\t]*\\r?\\*/$
+/\\*\\s*\\Q]]>\\E\\s*\\*/$
+/\\*{2,}\\s*@(\\p{Alpha}+)\\s
+/\\Q$0\\E/?
+/\\Q$filename\\E$
+/\\Q$key2\\E/$
+/\\Q$mod_pm\\E$
+/\\Q$name
+/\\Q$name_match\\E$
+/\\Q$path_dir\\E/[^/]*$
+/^(CBeebies:?|CBBC|\\[Ages?
+/_api/simple/(?P<simple>\\w*)|/_api/(?P<direct>\\w*)
+/|#|\\\\$|!|\\\\^|\\\\*|'| |\\\"|%|&|\\\\(|\\\\)|\\\\+|\\\\,|/|:|;|<|>|=|\\\\?|@|\\\\||\\\\\\\\
+/|\\\\
+/++
+/api/(?P<Version>.+)/(?P<Format>.+)/(?P<Service>.+)/(?P<Method>.+)
+/avatars/(?P<hash>[\\S\\s]*?)\\.(?P<ext>svg|png)(?:[\\S\\s]*?)$
+/clubs\\.php\\?cid=(?P<id>[0-9]+)
+/CPAN/(?:source/)?(.*\\Q$archive\\E)
+/Date\\((-?\\p{Digit}+)(?:(\\+|-)(\\p{Digit}{1,4}))?\\)/
+/Date\\((-?\\p{Digit}+)\\)/
+/gems/([\\w\\-\\_]+)/?([\\d\\.]+)?/?
+/gems/doc/([\\w\\-\\_]+)/?([\\d\\.]+)?/?(.*)?
+/grails-app/views/(.+\\.(
+/hello/(?P<name>[a-zA-Z]+)
+/hls_(?P<height>\\d{3,4})_(?P<tbr>\\d{2,})/
+/invites/([\\pL\\pM\\p{Nd}-_]*)(\\?.*)?$
+/kafka_(?P<ver>[-\\d.]*)\\.jar
+/kill/(?P<kill_id>\\d+)/?
+/lang/(?P<id>[0-9]+)$
+/lib/rspec/(
+/member-reviews/(?P<id>[^/]+)
+/not/here/clang++
+/OUT:(?P<out>.+)$
+/postcodes/(?P<postcode>[^/]+)
+/product-reviews/(?P<asin>[^/]+)
+/readme(
+/recorded/(?P<id>\\d+)/?$
+/review/(?P<id>[^/]+)
+/sites/([\\w\\.\\-\\_]+)/
+/spreadsheets/d/(?P<id>[a-zA-Z0-9-_]+)
+/subscriptions/(?P<subscription>[^/]*)/
+/subscriptions/[^/]*(/resource[gG]roups/(?P<resource_group>[^/]*)(/providers/(?P<resource_provider_namespace>[^/]*)(/(?P<parent_resource_path>.*))?/(?P<resource_type>[^/]*)/(?P<resource_name>[^/]*))?)?/providers/Microsoft.Authorization/locks/(?P<lock_name>[^/]*)
+/Sysdb/(?:lag|slice/phy/.+)/intfCounterDir/(?P<intf>.+)/intfCounter
+/Sysdb/(lag|slice/phy/.+)/intfCounterDir/(?P<intf>.+)/intfCounter
+/threads/.*\\.(?P<id>[0-9]+)/
+/todos/(?P<id>\\d+)
+/tv/tags/[^/]+/\"\\s*>(?P<tag>[^<]*?)<
+/v1/killmails/(?P<kill_id>\\d+)/[0-9a-f]+/
+/views/(.+\\.(
+/vpnp/exec:EXITCODE=(?P<code>\\d+)\n
+: ENOENT[^]*$
+: iconv.h\n[Alien::SDL] Testing header(s
+: SDL_mixer.h\nChecking prerequisites...\n  requires:\n    !  Compress::Bzip2 is not installed\n    !  File::Which is not installed\n  build_requires:\n    !  Compress::Bzip2 is not installed\n    !  SDL (2.504
+:(
+:(:)?[a-zA-Z0-9\\_\\-\\+\\(\\)\"'.]+
+:(:)?[a-zA-Z0-9\\_\\-\\+\\(\\)\"']+
+:(?!
+:(?!\\\\)|;
+:(?!\\/|\\\\)
+:(?:(?=[^/\\\\]))
+:(?:.*?)\\s+303(?:.*?):(?P<nicks>.*)
+:(?P<k>[a-zA-Z_]+)
+:(?P<key>[^:]+): (?:`{2})?(?P<value>[^`\n]+)(?:`{2})?$
+:(?P<key>[a-zA-Z0-9_-]+)
+:(?P<label>[a-z0-9_-]+)|{\\s*(?P<multilabel>(?::[a-z0-9_-]+(?: .. )*)+\\s*)}|\\.(?P<directive>[a-z0-9_-]+)|\"(?P<string>.*)\"|(?P<reg>[vp][0-9]+)|{(?P<multireg>[vp0-9,. ]+)}|(?P<id>[a-z][a-z/-]*[a-z0-9/-]*)|(?P<reflike>[A-Za-z_0-9/;$()<>\\[-]+(?::[A-Za-z_0-9/;$()<>\\[-]+)?)|#(?P<comment>.*)
+:(?P<nick>.*?)!\\S+\\s+?JOIN\\s+.*?(?P<channel>#+[-\\w]+)
+:(?P<nick>.*?)!\\S+\\s+?PART\\s+(?P<channel>#+[-\\w]+)
+:(?P<nick>.*?)!\\S+\\s+?PRIVMSG\\s+(?P<channel>#+[-\\w]+)\\s+:(?P<message>[^\n\r]+)
+:(?P<nick>.*?)!\\S+\\s+?QUIT\\s+.*
+:(?P<nick>.*?)!~\\S+\\s+?PRIVMSG\\s+[^#][^:]+:(?P<message>[^\n\r]+)
+:(?P<old_nick>.*?)!\\S+\\s+?NICK\\s+:\\s*(?P<new_nick>[-\\w]+)
+:(?P<role>[A-Za-z0-9_]+)(?:\\s+(?P<args>[A-Za-z0-9_]+))?:`(?P<content>[^`]*)`
+:(?P<server>.*?)\\s+(?:376|422)
+:(?P<sym>.*?)(?P<energy>-?\\d*\\.\\d*) eV
+:(?P<tag>[A-z]*):`(?P<val>.*?)`
+:(?P<var_name>[a-zA-Z0-9_]+)
+:([\\w\\d]+(\\___[\\w\\d\\_]+)?(\\[.*\\])?)
+:([^]+)
+:([0-9A-Za-z\\_]*)
+:([a-z\\_\\-][a-z0-9\\_\\-]+)
+:([a-z\\_]+)
+:([a-z]+)(?:\\((?![*+?])(?:[^\\r\\n\\[/\\\\]|\\\\.|\\[(?:[^\\r\\n\\]\\\\]|\\\\.)*\\])+\\))?(\\?)?
+:([a-zA-Z]):\\\\
+:(init|main|factory|state|prefix|load-impl-ns|implements|constructors|exposes|impl-ns|exposes-methods|methods)(?![a-zA-Z+!\\-_?0-9*~
+:(lang|nth-(?:last-)?(?:child|of-type))\\((.*?[^\\\\])\\)
+://(?P<user>[^:/\\s]+):(?P<password>[^@\\s/]+)@
+://(?P<user>[^@]+?):(?P<password>.+?)@
+::(
+::\\Kid([^:]+)$
+::\\Q$tbl\\E$
+::\\Q$to\\E\\z
+::|\\\\
+::|\\/|\\\\
+::attr\\((?P<attr>.*)\\)$
+::C\\u{30b9 30ec 30c3 30c9}:
+::DBD::\\Q$driver\\E$
+::uml::\n                        \\s*(format=(?P<quot>\"|')(?P<format>\\w+)(?P=quot))?\n                        \\s*(classes=(?P<quot1>\"|')(?P<classes>[\\w\\s]+)(?P=quot1))?\n                        \\s*(alt=(?P<quot2>\"|')(?P<alt>[\\w\\s\"']+)(?P=quot2))?\n                    
+::X\\u{df}:
+:?(?P<nick>.*?)!~?(?P<user>.*?)@(?P<host>.*)
+:?(?P<target>[[:alnum:]_/?.+-=,@~.]*)+
+:[ ]?(\\d+{4}|--)$
+:[\\s:\\\\]*
+:[^/#?()\\.\\\\]+
+:[^/#?()\\.\\\\]+\\*
+:[^:]+:([A-Z]:\\\\)?[^:]+$
+:[^]*
+:\\\\\\.\\\\
+:\\/=\\\\
+:\\@]+)(?::(\\d+))?(
+:\\Q$ID\\E/bin$
+:\\Q$ID\\E/bin:
+:\\s*(?P<state>on|off)(?:\\s+|$)
+:\\s*param\\s*(?P<param>\\w+)\\s*:(?P<help>.*)$
+:\\s?(\\W*
+:\\S+\\(\\p{ASCII}*\\)
+:|?
+:=|[-+*/%=<>&|!?\\\\]+
+:0x\\h+
+:date_header('Client-Date')         }\n\n# The retry_after field is dual format (can also be a expressed as\n# number of seconds from now), so we don't provide an easy way to\n# access it until we have know how both these interfaces can be\n# addressed.  One possibility is to return a negative value for\n# relative seconds and a positive value for epoch based time values.\n#sub retry_after       { shift->_date_header('Retry-After',       @_); }\n\nmethod content_type () is rw {\n  return Proxy.new(\n    FETCH => {\n      my $ct = (.:header(\"Content-Type\"))[0];\n      return \"\" unless $ct.defined and $ct.chars;\n\n      my @ct = split 
+:doc:`(?P<value>.*) <(?P<path>.*)>`
+:enqueue(\"KICK $channel $nick :{$reason 
+:header($header, HTTP::Date::time2str($time));\n    }\n  );\n}\n\nmethod date ()                is rw { .
+:in `(
+:ivar (?P<attr>[a-z_]+): \\w+ operations\\n\\s+:vartype (?P=attr): .*.operations.(?P<clsname>\\w+)\\n
+:mac => \"08:00:27:\\h{2}:\\h{2}:\\h{2}\"
+:math:`(?P<math>.*?)`
+:mod:`(?P<value>.*) <(?P<module>.*)>`
+:model\\.([A-Za-z\\_]+)
+:model\\.[A-Za-z\\_]+
+:register_default_handlers;\n    $:nickgen = Permutation.new($.nick);\n    $:queue = new Queue: floodcontrol => $floodcontrol;\n  }\n\n  method :enqueue(Str $msg) {\n    $:queue.enqueue({ .
+:stale_content;\n            \n            return @old if want.List;\n            return @old[0];\n        });\n}\n\n# XXX ::?CLASS $part\nmethod add_part ($part) returns Void {\n    if ((.content_type 
+;   # from newest release\nour $author         : Getopt(au=s
+;   # of the newest release\n\nour $add_change     : Getopt(ac=s
+; *(?:HTC[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+))?)?)?(?:[/\\\\]1\\.0 | V|/| +)\\d+\\.\\d[\\d\\.]*(?: *Build|\\))
+; *(?:HTC[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+))?)?(?:[/\\\\]1\\.0 | V|/| +)\\d+\\.\\d[\\d\\.]*(?: *Build|\\))
+; *(?:HTC[ _/])+([^ _/]+)(?:[ _/]([^ _/]+))?(?:[/\\\\]1\\.0 | V|/| +)\\d+\\.\\d[\\d\\.]*(?: *Build|\\))
+; *(?:HTC[ _/])+([^ _/]+)(?:[/\\\\]1\\.0 | V|/| +)\\d+\\.\\d[\\d\\.]*(?: *Build|\\))
+; CPU(?: iPhone)? OS (\\d+\\_\\d+(?:_\\d+)?) like Mac OS X
+; charset=(?P<charset>[^;]+)
+;(
+;(?P<hlsurl>[^;]+video\\.m3u8.+?)\\\\&quot;
+;(?P<param>[-[:alnum:]]+)=(?P<value>[^[:cntrl:]\";:,]+|\"[^[:cntrl:]\"]+\")
+;[A-Z]:\\\\
+;\n    }\n    else {\n        return ();\n    }\n}\n\n__PACKAGE__->meta->make_immutable;\n\n1;\n\n__END__\n\n=pod\n\n=encoding utf-8\n\n=head1 NAME\n\nApp::BatParser - Parse DOS .bat and .cmd files\n\n=head1 VERSION\n\nversion 0.011\n\n=head1 DESCRIPTION\n\nParse DOS .bat and .cmd files\n\n=head1 SYNOPSYS\n\n    use App::BatParser;\n    use Path::Tiny;\n    use Data::Dumper;\n\n    my $parser = App::BatParser->new;\n    my $bat_string = Path::Tiny::path('t
+;\n  } else {\n    my $err = Dumper(\\@!);\n    die \"couldn't parse $self->{def_name}: ($err)\";\n  }\n\n  my $output = $def_parsed->{pipeline}->{command};\n\n  foreach my $pipeline_component (@$output) {\n    $pipeline_component->{shell_arg} = [ map { $self->process_arg($_) } @{$pipeline_component->{shell_arg}} ];\n  }\n\n  return $output;\n}\n\n\nsub process_arg {\n  my ($self, $arg) = @_;\n\n  unless ($arg =~ 
+;\n*ERRNO = *!;\n\nuse Carp;\n\n$gensym = 0;\n\nwhile ($ARGV[0] =~ 
+;\n\n  my @components;\n\n  foreach my $element (@{ $parsed->{regexp}->{element} }) {\n    my $component = {};\n\n    if ($element->{literal}) {\n      $component->{chars} = [ $element->{literal} ];\n    } elsif ($element->{charclass}) {\n      $component->{chars} = $element->{charclass}->{literal};\n      $component->{negate} = 1 if $element->{charclass}->{negate_charclass};\n    } else {\n      die \"unknown element type\";\n    }\n\n    if ($element->{repeat}) {\n      $component->{min} = $element->{repeat}->{min};\n      $component->{max} = $element->{repeat}->{max};\n    } else {\n      $component->{min} = 1;\n      $component->{max} = 1;\n    }\n\n    push @components, $component;\n  }\n\n  $self->{components} = \\@components;\n\n  if ($type eq 'dna' || $type eq 'rna') {\n    $self->normalize_dna_rna;\n  } else {\n    die \"protein not impl\";\n  }\n\n  return $self;\n}\n\n\nsub compute_min_max {\n  my ($self) = @_;\n\n  my $min = my $max = 0;\n\n  for my $component (@{ $self->{components} }) {\n     $min += $component->{min};\n     $max += $component->{max};\n  }\n\n  return ($min, $max);\n}\n\n\nmy $iupac_lookup = {\n  R => [ qw
+;\n\nopen(IN, shift || '../README'
+;\n\nour $format_yaml    : Getopt(fy
+;\nour $filename : Getopt(file|f=s
+;\nour $new_file       : Getopt(new|n
+;\\Q$path
+;\\s*(?:
+;\\s*charset=(?P<charset>[^\\s;]+)
+;\\s*charset=(\")?(?P<charset>.+?(?(1)(?=(?<!\\\\)\")|($|(?=[;\\s]))))(?(1)\")
+?
+-? (?:0x\\h* \\. \\h+ (?:p[+\\-]?\\d+)? | \\d*\\.\\d+ (?:e[+\\-]?\\d+)?)
+-? (?:0x\\h+ (?:p[+\\-]?\\d+)? | \\d+ (?:e[+\\-]?\\d+)?)
+? (MPC-HC v\\d+.\\d+.\\d+.\\d+).*
+? [Ll]e 
+? [Ll]es 
+?$
+?(?!?)
+?(?)??
+-?(?:(?:[a-zA-Z_]|[^\\x00-\\x7F]|\\\\(?:\\$|\\n|[0-9a-fA-F]{1,6}\\s?))(?:[a-zA-Z_0-9\\-]*|\\\\(?:\\$|\\n|[0-9a-fA-F]{1,6}\\s?))*)
+-?(?:\\p{IsDigit}+(?:\\.\\p{IsDigit}*)?|\\.\\p{IsDigit}+)
+?(?|?|?)
+?(?|?|?|?)
+?([\\u4E00-\\u9FA5]{2,10})?.{0,5}([abcdefghijklmnopqrstuwxyz????????????????????????????]+)(.*)
+?([\\u4E00-\\u9FA5]+)?([abcdefghijklmnopqrstuwxyz????????????????????????????]+)
+'?([\\w\\:]+)'?\\s*=>\\s*'?\\d[\\d\\.\\-\\_]*'?
+?([^\\s])
+--?([a-z\\-\\_]+)\\s([\\d]+)\\s?
+'?(\\d+)[^-\\d\\s]*\n                 \\s*\n                 (
+'?(\\d+)[^-\\d\\s]*\n       \\s*\n       (
+'?(\\d+)[^-\\d\\s]*\n\t\t \\s*\n\t\t (
+??
+??(.*?)?
+??(?<DETAIL>.+?)(?<AMOUNT>\\d+)?
+??(?<DETAIL>.+?)??(?<AMOUNT>\\d+)?
+??([0-1]?[0-9])?([0-3]?[0-9])[??]
+??([0-3]?[0-9])[??]
+??(\\d)
+???(?<DETAIL>.+?)??(?<AMOUNT>\\d+)?
+????
+????(?<VAL>[^?]+)??([^?]+)??
+????([^?]+)??(?<VAL>[^?]+)??
+??????
+????????
+?????????(?<VAL>.+??)?
+??????????(?<VAL>[^??]+)???????
+???????[:?](?<VAL>[^?]+)?
+?????[:?](?<VAL>[^??]+)??
+????\\)???(?<VAL>[^?]+)?
+???[????????????????????????]+
+??\\(???\\)[:?](?<VAL>.+)($|\\n)
+??|??
+-?\\p{Digit}+
+?_
+?|?
+?|?|(?:?|?|?|?|?|?)?|???|??|??|??|??|??|??|???|(?:??)??|??|??|??|??|??
+?|?|?|?
+?|?|?|?|?|?|?|?
+?|?|?|?|?|?|?|?|\\u0670
+?|?|?|?|\\u0671
+?|[\\u2014\\u8212]
+?+
+?ddaaad?
+?org
+?s
+?www.?.com/?/app
+?www.?.com/?/app?
+@(
+@((?:\\.\\.\\/)*
+@(?:[\\w\\.\\-\\/\\\\]+?)\\.(?:css|less|scss|sass|mx|style)
+@(?=\\w{1,15}+(?!\\w))
+@(?i)(PhpUnitGen|Pug)\\\\
+@(?P<dllname>.*),-(?P<index>\\d+)(?:;(?P<comment>.*))?
+@(?P<family_name>\\w+)
+@(?P<key>[\\w_]+)\\s+(?P<value>.*?)\\s*(?=$|@[\\w_]+\\s)
+@(?P<name>[A-Za-z_-]+)(?:[ \\t]+(?P<value>.*?))?[ \\t]*\\r?$
+@(?P<name>\\w+)
+@(?P<type>command|admin)\\((?P<aliases>.*?)\\)\\ndef (?P<command>\\w+)\\(.*?\\):.*?(?P<docs>(?:\\s+#-[^\\n]*?\\n)+)
+@([\"'`])(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])+\\1
+@([\\p{Alpha}@][@$\\d\\w_]{0,127})
+@([\\pL-_+]+)
+@([\\w\\-\\_]{3,20})
+@([\\w-]+):\\s*'(\\\\E[0-9A-F]+)';
+@(\"|')(?:\\1\\1|\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1
+@'(\\\\[0-7]{1,3}|\\\\x[a-fA-F0-9]{1,2}|\\\\.|[^\\\\'\\n]')
+@(\\p{Word}++):?
+@(Neos\\\\Flow\\\\Annotations|Flow)\\\\Introduce.+$
+@@ -(?P<line_start>\\d+),?\\d* \\+\\d+,?\\d* @@
+@@ \\-(?P<removed_start>\\d+),(?P<removed_length>\\d+) \\+(?P<added_start>\\d+),(?P<added_length>\\d+) @@
+@[\\w.$]+|@([\"'`])(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])+\\1
+@[^@]+\\.(?:
+@[A-Za-z0-9\\\\]+\\\\([A-Za-z0-9]+)(?:\\((.*)\\))?$
+@\"(
+@\\Q$m[1]\\E@
+@\\w+(?<paren>\\{(?:[^{}]|\\g<paren>)*\\})
+@{[ $other->data() ]}
+@{[ $self->what() ]}
+@{[$self->get_regexes->{'abbreviations'}]}
+@{[$self->get_regexes->{'livres_avec_un_chapitre'}]}
+@{[$self->get_regexes->{'livres'}]}
+@+(?P<ssh_git_url>.*)?:
+@<(?:(?P<name>\\S+?)\\s+)?(?P<url>\\S+?://.*?)>
+@0x\\h+[lL]?
+@context\\s*(?P<defaults>\\(.*\\))?\\s+(?P<name>\\w+)\\s*(=(?P<aliases>.*))*
+@dataProvider\\s+(?P<methodName>\\w+)
+@fa-var-(.*): \\\"\\\\(.*)\\\"
+@fa-var-([\\w-]+): \"\\\\([0-9A-Fa-f]+)\";
+@fa-var-([\\w-]+):\\s*\"\\\\([0-9a-f]+)\";
+@fa-var-([^:]+):\\s*\"\\\\([0-9a-f]+)\";
+@fa-var-([a-z0-9-]+)\\s*:\\s*\"\\\\([0-9a-f]+)\";
+@group\\s+(?P<name>\\w+)\\s*(using\\s(?P<used_groups>.*))*
+@charset \"[^\"]++\";
+@import (\"|')(?P<filename>(/?[-a-zA-Z0-9_\\.]+)+\\.css)(\"|');
+@JsonCreator[\\s]+public[\\s]+(static\\s+)?(\\w+)[\\w\\s]*\\((?:\\s*
+@media [^{]*+{([^{}]++|{[^{}]*+})*+}
+@media\\b[^{]*({((?:[^{}]+|(?1))*)})
+@mixin\\s+([\\w\\\\]+)
+@module\\s+([\\w\\.\\\\]+)
+@ORM\\\\(ManyToOne|OneToOne)\\(
+@ORM\\\\JoinColumn\\(
+@ORM\\\\Table\\(name=\"(.*)\"\\)
+@property-read (?P<type>[\\w|]+) \\$(?P<name>\\w+).*\\[(?P<id>\\d+)\\]
+@Relational\\\\isNotColumn
+@return\\h+(\\H+)(\\h|\\n)
+@return\\s+\\\\Illuminate\\\\Database\\\\Eloquent\\\\Relations
+@see\\s+([\\w\\.\\:\\\\]+)
+@set\\((?<q>'|\")(.+)\\k{q}\\,\\s?(.*)\\)
+@spec\\s+([a-zA-Z0-9_\\\\]+)
+@SuppressRule\\(\"(?P<Rule>\\S+)\"\\)
+@system\\s+(?P<name>\\w+)\\s*(using\\s(?P<used_groups>.*))*
+@title\\s(.+)|@desc\\s(.+)|(\\nimport [^]+?\\n})|@component\\s(.+)
+@var ([\\\\A-Za-z0-9]*)
+@var\\h+([a-zA-Z0-9\\\\_]+)(?:\\h+\\[([a-zA-Z0-9\\\\\\s,_]+)\\]\\h*|.*)\\v
+@var\\s([A-Za-z_0-9\\\\]+)\\s
+@var\\s*(.*+)
+@var\\s+(?:([\\w\\\\]+)\\s+)?(\\$\\w+(?:\\s*,\\s*\\$\\w+)*)
+@var\\s+([\\w\\.\\\\]+(\\[\\s*\\])?)\\s*?(.*)$
+@var\\s+([\\w\\\\]+)
+[
+[ !#$%&()*+,./;<=>?@[\\]^`{|}~\"'\\\\]
+[ .$\\/\\\\]
+[ ;#]?\\b(?:(?:w(?:idth)?+|h(?:eight)?+)\\s*+=\\s*+(['\"])?+|\\d++X)\\d++\\b(?(1)\\1)?+
+[ \\.\\#\\/\\\\]
+[ \\/\\\\]
+[ \\-\\_]
+[ \\\\]
+[ \\_\\-\\.]+|(?=[A-Z][^A-Z])
+[ \\n\\t\\r\\(\\)\\*:;@!&'\"\\+\\|~>,\\[\\]\\\\]|\\/(?=\\*)
+[ \\n\\t\\r\\(\\)\\{\\},:;@!'\"\\\\]|\\*(?=\\/)|#(?={)
+[ \\n\\t\\r\\(\\)\\{\\},:;@!'\"\\\\]|\\/(?=\\*)|#(?={)
+[ \\n\\t\\r\\(\\)\\{\\}:;@!'\"\\\\]|\\/(?=\\*)
+[ \\n\\t\\r\\(\\)\\{\\}?:;&#\\+\\|~,\\[\\]\\\\]|\\/(?=\\*)
+[ \\n\\t\\r\\(\\)\\{\\}\\*:;@!&'\"\\-\\+\\|~>,\\[\\]\\\\]|\\/
+[ \\n\\t\\r\\(\\)\\{\\}\\*:;@!&'\"\\+\\|~>,\\[\\]\\\\]|\\/(?=\\*)
+[ \\n\\t\\r\\f'\"\\\\]
+[ \n\t]+\\_from\\_
+[ \\t\\n\\v\\\"\\\\]
+[ \\t\\u000c]*(?:[^ \\t\\u000c\\r\\n=:\\\\]|\\\\u[0-9a-f]{4,4}|\\\\(?:\\r\\n|\\r|\\n)[ \\t\\u000c]*|\\\\[\\s\\S])+[ \\t\\u000c]*([ \\t\\u000c=:](?:[^\\r\\n\\\\]|\\\\u[0-9a-f]{4,4}|\\\\\\r\\n|\\\\[\\s\\S])*)
+[ \\t]*(?:
+[ \t]*(?P<time>[\\[\\]\\w\\.:]+) +(?P<sample>\\d+) +(?P<symbol>.) +(?P<subtype>\\d+) +(?P<chan>\\d+) +(?P<num>\\d+)\t?(?P<aux_note>.*)
+[ \\t]*[_a-zA-Z0-9\\\\]+:
+[ \\t]*\\r?\\n[ \\t]*+\\*[ \\t]*+
+[ \\t]*+(?:#.*)?$
+[ \\t]+(vi|vim([<>=]?\\d{3})?|ex):\\s*(?P<rhs>.*?)$
+[ \\t]+(vi|vim([<>=]?\\d{3})?|ex):\\s*set? (?P<rhs>.*?)(?<!\\\\):
+[ \\u{A}-\\u{D}\\u{85}\\u{2028}\\u{2029}\\t\\u{200B}\\u{00AD}\\u{00A0}-]
+[ ]*+\\n
+[ ]:(
+[ ]\\Q$v\\E(?:[ ]|$)
+[ _\\-:\\/\\\\]
+[ _\\xA0\\x{1680}\\x{180E}\\x{2000}-\\x{200A}\\x{2028}\\x{2029}\\x{202F}\\x{205F}\\x{3000}]+
+[ {}();\\/\\\\]+
+[ +\\-i\\\\]
+[!
+[!#-&(-[\\]-_a-~]
+[!?.,:\"';()#\\/\\\\]
+[!?/\\\\]
+[!@
+[!\"#$%&'()*+,.\\/:;<=>?@\\[\\]^`{|}~\\\\]
+[!-~
+[#
+[#*\\/\\\\]
+[#/\\\\\\\\]
+[#:\\/\\?\\\\]+
+[#'\"\\\\]
+[#\\\\\\n

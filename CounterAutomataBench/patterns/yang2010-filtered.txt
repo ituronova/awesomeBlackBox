@@ -1,0 +1,228 @@
+^NLST\s+[^\n]*\x2a{10}
+^DELE[ \t][^\n]{100}
+^CEL[ \t][^\n]{100}
+^MDTM[ \t][^\n]{100}
+^PASS[ \t][^\n]{100}
+^REST[ \t][^\n]{100}
+^RMDIR[ \t][^\n]{100}
+^RMD[ \t][^\n]{100}
+^SITE\s+CHOWN\s[^\n]{100}
+^SITE\s+CPWD\s[^\n]{100}
+^SITE\s+NEWER\s[^\n]{100}
+^SITE\s+ZIPCHK\s[^\n]{100}
+^SITE[ \t]+CHOWN[ \t][^\n]{100}
+^SITE[ \t]+CPWD[ \t][^\n]{100}
+^SITE[ \t][^\n]{100}
+^SITE[ \t]+NEWER[ \t][^\n]{100}
+^SITE[ \t]+ZIPCHK[ \t][^\n]{100}
+^SYST[ \t][^\n]{100}
+^TEST[ \t][^\n]{100,}
+^TEST[ \t][^\n]{100}
+^USER[ \t][^\n]{100,}
+^USER[ \t][^\n]{100}
+^XCWD[ \t][^\n]{100}
+^LIST[^\n]{120}
+^MKD[ \t][^\n]{180}
+^STAT[ \t][^\n]{190}
+^PWD\s.{190}
+^PWD[ \t][^\n]{190}
+^ALLO[ \t][^\n]{200}
+^APPE[ \t][^\n]{200}
+^CMD[ \t][^\n]{200}
+^CWD[ \t][^\n]{180}
+^HELP[ \t][^\n]{200}
+^RETR[ \t][^\n]{200}
+^NLST[ \t][^\n]{200}
+^SITE\s+CHMOD\s[^\n]{200}
+^RNFR\s[^\n]{200}
+^RNFR[ \t][^\n]{200}
+^RNTO[ \t][^\n]{200}
+^STOR[ \t][^\n]{200}
+^SITE[ \t]+CHMOD[ \t][^\n]{200}
+^STOU\s[^\n]{200}
+^XMD5[ \t][^\n]{200}
+^XMKD[ \t][^\n]{200}
+^STOU[ \t][^\n]{200}
+^ALLO[ \t][^\n]{200}
+^APPE[ \t][^\n]{200}
+^CEL[ \t][^\n]{100}
+^CMD[ \t][^\n]{200}
+^CWD[ \t][^\n]{180}
+^DELE[ \t][^\n]{100}
+^HELP[ \t][^\n]{200}
+^LIST[^\n]{120}
+^MDTM[ \t][^\n]{100}
+^MKD[ \t][^\n]{180}
+^NLST\s+[^\n]*\x2a{10}
+^NLST[ \t][^\n]{200}
+^PASS[ \t][^\n]{100}
+^PORT[ \t][^\n]{400}
+^PWD\s.{190}
+^PWD[ \t][^\n]{190}
+^REST[ \t][^\n]{100}
+^RETR[ \t][^\n]{200}
+^RMDIR[ \t][^\n]{100}
+^RMD[ \t][^\n]{100}
+^RNFR\s[^\n]{200}
+^RNFR[ \t][^\n]{200}
+^RNTO[ \t][^\n]{200}
+^SITE\s+CHMOD\s[^\n]{200}
+^SITE\s+CHOWN\s[^\n]{100}
+^SITE\s+CPWD\s[^\n]{100}
+^SITE\s+NEWER\s[^\n]{100}
+^SITE\s+ZIPCHK\s[^\n]{100}
+^SITE[ \t]+CHMOD[ \t][^\n]{200}
+^SITE[ \t]+CHOWN[ \t][^\n]{100}
+^SITE[ \t]+CPWD[ \t][^\n]{100}
+^SITE[ \t][^\n]{100}
+^SITE[ \t]+NEWER[ \t][^\n]{100}
+^SITE[ \t]+ZIPCHK[ \t][^\n]{100}
+^SIZE[ \t]+[\x2F\x5C][^\x2F\x3A\x5C\n][^\n]{526}
+^STAT[ \t][^\n]{190}
+^STOR[ \t][^\n]{200}
+^STOU\s[^\n]{200}
+^STOU[ \t][^\n]{200}
+^SYST[ \t][^\n]{100}
+^TEST[ \t][^\n]{100,}
+^TEST[ \t][^\n]{100}
+^USER[ \t][^\n]{100,}
+^USER[ \t][^\n]{100}
+^XCWD[ \t][^\n]{100}
+^XMD5[ \t][^\n]{200}
+^XMKD[ \t][^\n]{200}
+^DESCRIBE[ ][^\n]{30}
+^file\x3a\x2f\x2f[^\n]{40}
+^http\x3a\x2f\x2f[^\n]{40}
+^Authorization\x3a[ ]*Basic[ ][^\n]{20}
+^User-Agent\x3a[^\n]{21}
+^http\x3a\x2f\x2f[^\n]{40}
+^Host\x3A[ ][^\n]{30}
+^Host\x3A[ ][^\n]{30}
+^Host\x3A[ ][^\n]{30}
+^Authorization\x3a([ \t]*|[ \t]*\r?\n[ \t]+)Basic[ \t][^\n]{51}
+^User-Agent\x3a[^\n]{24}
+^Content-Length\x3A[^\r\n]{10}
+^File[0-9]+=http\x3a\x2f\x2f[^\n]{15}
+[\x3f&]instancename=#[^&\x3b\x3f\r\n]{513}
+[\x3f&]sid=#[^&\x3b\x3f\r\n]{255}
+[\x3f&]username=#[^&\x3b\x3f\r\n]{255}
+[\x3f&]username=#[^&\x3b\x3f\r\n]{250}
+[\x3f&]connectID=#[^&\x3b\x3f\r\n]{255}
+[\x3f&]wqPassword=#[^\r\n\x26\x3f]{294}
+[\x3f&]mfcisapicommand=#[^&\r\n\x3b\x3f]{250}
+(.{1}\x01.{10}\x8F)|(.{10}\x8F.{1}\x01)
+(\x16\x03\x00.{4}\x01)|(.{4}\x01\x16\x03\x00)
+(\x16\x03.{4}\x02)|(.{4}\x02\x16\x03)
+(\x16\x03.{4}\x01)|(.{4}\x01\x16\x03)
+(.{1}\x04.{4}\x00\x02)|(.{4}\x00\x02.{1}\x04)
+(.{2}\x01.{5}\x00\x02)|(.{5}\x00\x02.{2}\x01)
+(\x16\x03\x01.{4}\x02)|(.{4}\x02\x16\x03\x01)
+(\x16\x03\x01.{4}\x01)|(.{4}\x01\x16\x03\x01)
+(.{1}\x01.{10}\x8F)|(.{10}\x8F.{1}\x01)
+(\x16\x03\x00.{4}\x01)|(.{4}\x01\x16\x03\x00)
+(.{1}\x04.{4}\x00\x02)|(.{4}\x00\x02.{1}\x04)
+(.{1}\x01.{4}\x00\x02)|(.{4}\x00\x02.{1}\x01)
+(.{2}\x01.{5}\x00\x02)|(.{5}\x00\x02.{2}\x01)
+(\x16\x03\x01.{4}\x01)|(.{4}\x01\x16\x03\x01)
+(.{1}\x01.{2}\x03\x01)|(.{2}\x03\x01.{1}\x01)
+(\x16\x03\x01.{4}\x02)|(.{4}\x02\x16\x03\x01)
+\x16\x03\x00.{2}\x01.{3}\x03\x00.{32}\x00
+\x16\x03\x00.{2}\x01.{3}\x03\x00.{32}\x00
+(.{1}\x01.{2}\x03\x01)|(.{2}\x03\x01.{1}\x01)
+(.{1}\x01.{4}\x00\x02)|(.{4}\x00\x02.{1}\x01)
+(\x16\x03.{4}\x01.{8}[^\x03]*)|(\x16\x03.{8}[^\x03]*.{4}\x01)|(.{4}\x01\x16\x03.{8}[^\x03]*)|(.{4}\x01.{8}[^\x03]*\x16\x03)|(.{8}[^\x03]*\x16\x03.{4}\x01)|(.{8}[^\x03]*.{4}\x01\x16\x03)
+(\x16\x03.{4}\x01.{8}[^\x03]*)|(\x16\x03.{8}[^\x03]*.{4}\x01)|(.{4}\x01\x16\x03.{8}[^\x03]*)|(.{4}\x01.{8}[^\x03]*\x16\x03)|(.{8}[^\x03]*\x16\x03.{4}\x01)|(.{8}[^\x03]*.{4}\x01\x16\x03)
+.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]
+.*w3who.dll\x3F[^\r\n]{51}
+.*A?<\s*[A-Za-z]{3,5}\x3A\x2F\x2F[^>]+> T<
+^Authorization\x3a\s*Negotiate\s*((YE4G.{40}LgMc)|(YIIQ.{40}QUFB))
+^Authorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{25}
+.*cache_lastpostdate\[[^\]]+\]=[^\x00\x3B\x3D]{30}
+.*connectID=[^&\x3b\r\n]{25}
+^Content-Length\x3A\s*[^\r\n]{10}
+.*contenttype=[^\r\n\x3b\x38]{10}
+.*crypto\x3Arc4_(encrypt|decrypt)\x28\x27[^\x27]{12}
+^(\d{5}|390[1-9]|39[1-9][0-9]|[4-9][0-9]{3})\x3A
+.*(EAL|EAR|ETT)\s*-0{0,4}1
+^File[0-9]+=http\x3a\x2f\x2f[^\n]{15}
+.*get-dated-rev\x20\x28\x20\d{1,4}\x3a([^T\x2d\x3a]{9}|[^\x2d]{4}\x2d[^\x2d]{3}|[^\x2d]{4}\x2d[^\x2d]{2}\x2d[^\x2d]{3})
+.*GNU\x2esparse\x2enumblocks\s*\x3d\s*(0|[6-9]\d{4})
+.*isComponentInstalled\s*\([^,\)]{25}
+.*mfcisapicommand=[^&\r\n\x3b]{25}
+^[^\n]*[\x80-\xFF].*\nAccept-Language\x3A\s*[\S]{32}
+.*<OBJECT\s+[^>]*type\s*=[\x22\x27]\x2f{32}
+^POST \x2F[A-Z\d]{16} 
+.*<[pv]\x3Arecolorinfo\s+[^>]*numcolors\s*=\s*(\x22[1-9]\d{4}\x22|\x27[1-9]\d{7}\x27)[^>]*>.*<[pv]\x3Arecolorinfoentry\s+[^>]*tocolor
+.*<[pv]\x3Arecolorinfo\s+[^>]*numfills\s*=\s*(\x22[1-9]\d{4}\x22|\x27[1-9]\d{7}\x27)[^>]*>.*<[pv]\x3Arecolorinfoentry\s+[^>]*tocolor
+.*qt\x3anext\s*\x3d\s*\x22\s*file\x3a\x2f{3}
+.*skype4com\x3A[A-Z\d]{0,6}[^A-Z\d]
+.*SoftCart.exe\?[^\s]{10}
+.*tree\s*\x3d\s*(\d{4}|25[6-9]|2[6-9]|[3-9])
+.*unescape\s*\x28(\x22|\x27|\x26quot\x3B|\x5c\x22)[\x25\x5c][0-9a-f]{2}[\x25\x5c][0-9a-f]{2}
+.*unescape\s*\x28(\x22|\x27|\x26quot\x3B|\x5c\x22)[\x25\x5c]u[0-9a-f]{4}(\x22\s*\x2B\s*\x22)?[\x25\x5c]u[0-9a-f]{4}
+^User-Agent\x3A[^\r\n]*Agent[0-9]{7}
+.*username=[^&\x3b\r\n]{25}
+.*wqPassword=[^\r\n\x26]{29}
+.*\x28\s*\x22\s*\x25([2-9][6-9][5-9]|[1-9][0-9]{3})f
+^[^\x29]*\x2E[0-9]{11}
+.*\x2Edll[\x2F\x5C][^\x3E\x00\s\x2F\x5C]*[\x2F\x5C](\x23|%23)(\d{6}|[7-9]\d{4}|6[6-9]\d{3}|65[6-9]\d{2}|655[4-9]\d|6553[6-9])
+^\x2F40e800[0-9A-F]{30}$
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fb\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fchk_bar\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fchk\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Ffav\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fshdoclc\.fcgi
+.*\x2Fmrow\x5Fpin\x2F\x3Fid\d+[a-z]{5}\d{5}\x26rnd\x3D\d+
+^[^\x3a\x3f]{11}\x3a\x2f
+.*\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{20}
+.*(\x5c[^\x5c]{16}|\x2f[^\x2f]{16})\.cda$
+.*\xFC\x02[\x08\x06]\x00.{4}(\?!\x00\x00)
+.*A?<\s*[A-Za-z]{3,5}\x3A\x2F\x2F[^>]+> T<
+^Authorization\x3a\s*Negotiate\s*((YE4G.{40}LgMc)|(YIIQ.{40}QUFB))
+^Authorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{25}
+.*cache_lastpostdate\[[^\]]+\]=[^\x00\x3B\x3D]{30}
+.*connectID=[^&\x3b\r\n]{25}
+^Content-Length\x3A\s*[^\r\n]{10}
+.*contenttype=[^\r\n\x3b\x38]{10}
+.*crypto\x3Arc4_(encrypt|decrypt)\x28\x27[^\x27]{12}
+^(\d{5}|390[1-9]|39[1-9][0-9]|[4-9][0-9]{3})\x3A
+.*(EAL|EAR|ETT)\s*-0{0,4}1
+^File[0-9]+=http\x3a\x2f\x2f[^\n]{15}
+.*get-dated-rev\x20\x28\x20\d{1,4}\x3a([^T\x2d\x3a]{9}|[^\x2d]{4}\x2d[^\x2d]{3}|[^\x2d]{4}\x2d[^\x2d]{2}\x2d[^\x2d]{3})
+.*GNU\x2esparse\x2enumblocks\s*\x3d\s*(0|[6-9]\d{4})
+.*isComponentInstalled\s*\([^,\)]{25}
+.*mfcisapicommand=[^&\r\n\x3b]{25}
+^[^\n]*[\x80-\xFF].*\nAccept-Language\x3A\s*[\S]{32}
+.*<OBJECT\s+[^>]*type\s*=[\x22\x27]\x2f{32}
+^POST \x2F[A-Z\d]{16} 
+.*<[pv]\x3Arecolorinfo\s+[^>]*numcolors\s*=\s*(\x22[1-9]\d{4}\x22|\x27[1-9]\d{7}\x27)[^>]*>.*<[pv]\x3Arecolorinfoentry\s+[^>]*tocolor
+.*<[pv]\x3Arecolorinfo\s+[^>]*numfills\s*=\s*(\x22[1-9]\d{4}\x22|\x27[1-9]\d{7}\x27)[^>]*>.*<[pv]\x3Arecolorinfoentry\s+[^>]*tocolor
+.*qt\x3anext\s*\x3d\s*\x22\s*file\x3a\x2f{3}
+.*skype4com\x3A[A-Z\d]{0,6}[^A-Z\d]
+.*SoftCart.exe\?[^\s]{10}
+.*tree\s*\x3d\s*(\d{4}|25[6-9]|2[6-9]|[3-9])
+.*unescape\s*\x28(\x22|\x27|\x26quot\x3B|\x5c\x22)[\x25\x5c][0-9a-f]{2}[\x25\x5c][0-9a-f]{2}
+.*unescape\s*\x28(\x22|\x27|\x26quot\x3B|\x5c\x22)[\x25\x5c]u[0-9a-f]{4}(\x22\s*\x2B\s*\x22)?[\x25\x5c]u[0-9a-f]{4}
+^User-Agent\x3A[^\r\n]*Agent[0-9]{7}
+.*username=[^&\x3b\r\n]{25}
+.*Visio \x28TM\x29 Drawing\r\n\x00{4}([^\x00]|\x00[^\x00]|\x00\x00[^\x01-\x06\x0b]|\x00\x00[\x01-\x06\x0b][^\x00])
+.*w3who.dll\x3F[^\r\n]{51}
+.*wqPassword=[^\r\n\x26]{29}
+.*\w+\.substringData\([^\),]+,\s*(\d{4}|25[7-9]|2[6-9][0-9]|[3-9][0-9]{2}|0x0*([1-9a-f][1-9a-f]{3}|[2-9a-f][0-9a-f]{2}|1([0-9a-f][0-9a-f]|0[1-9a-f])))
+.*<\w+\x3afill\s[^>]*method\s*=\s*(\x27[^\x27]{32}|\x22[^\x22]{32}|[^\s>]{32})
+.*\x28\s*\x22\s*\x25([2-9][6-9][5-9]|[1-9][0-9]{3})f
+^[^\x29]*\x2E[0-9]{11}
+.*\x2Edll[\x2F\x5C][^\x3E\x00\s\x2F\x5C]*[\x2F\x5C](\x23|%23)(\d{6}|[7-9]\d{4}|6[6-9]\d{3}|65[6-9]\d{2}|655[4-9]\d|6553[6-9])
+^\x2F40e800[0-9A-F]{30}$
+.*\x2FCSuserCGI\x2Eexe\x3FLogout\x2B[^\s]{96}
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fb\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fchk_bar\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fchk\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Ffav\.fcgi
+.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fshdoclc\.fcgi
+.*\x2Fmrow\x5Fpin\x2F\x3Fid\d+[a-z]{5}\d{5}\x26rnd\x3D\d+
+^[^\x3a\x3f]{11}\x3a\x2f
+.*\x3cj2se[^\x3e]*(initial|max)-heap-size\s*\x3d\s*(\x22|\x27)[^\2]{50}
+.*\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{20}
+.*(\x5c[^\x5c]{16}|\x2f[^\x2f]{16})\.cda$
+.*\xFC\x02[\x08\x06]\x00.{4}(\?!\x00\x00)

@@ -1,0 +1,5 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	NCA->DCA (milliseconds)-opt	|NCA|	|DCA|	|DCA|-opt	|DCA|-alg	NCA-trans	DCA-trans	DCA-trans-opt	DCA-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)
+.*IHEGFJDCA[BD-J]{60,60}A.*	1,3501	2,7683	31,9994	7,17140000000001	11,6066	11	34	34	34	13	150	136	150	1	1	1			0	6	77	1,8362	1,63486
+.*BA{0,50}(EC|EE)A{0,10}[DE]{86,86}FF.*	1,455	0,5803	3,023	3,2059	2,765	8	12	12	12	13	37	36	37	3	3	3			0	6	108,8	3,38712	3,4723
+.*IFKKLHJG[AB]*D[AB]*E?C[^BC]{4,}C.*	3,191	10,8681	85,9578	39,2697	24,319	14	88	66	88	22	590	335	587	2	2	2			0	6	38	0,45808	0,45836
+.*GDIIJFHE[AB]+[C-J]{52,52}([AB].*|B+.*)	1,6179	1,3445	23,7592	10,1175	16,3008	13	40	40	40	18	197	191	197	1	1	1			0	6	78,2	1,06252	0,58478

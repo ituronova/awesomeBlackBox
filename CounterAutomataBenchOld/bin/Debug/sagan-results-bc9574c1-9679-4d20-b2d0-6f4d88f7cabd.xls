@@ -1,0 +1,12 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	NCA->DCA (milliseconds)-opt	|NCA|	|DCA|	|DCA|-opt	|DCA|-alg	NCA-trans	DCA-trans	DCA-trans-opt	DCA-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)	regex->NFA (milliseconds)	NFA->DFA (milliseconds)	DFA->min (milliseconds)	|NFA|	|DFA|	|MIN|	NFA-trans	DFA-trans	MIN-trans	Timeouts-classical	Classical exception
+/vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,/i	18,9186	32,8625	108,0157		53,6528	49	121	121		64	739	739		4	0			Internal error						0,380699999999999	5,1819	0,2586	66	39	39	77	157	157		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-519 /	4,5331	3,0616	4,2551		3,8801	19	36	36		23	110	110		3	0			Internal error						0,1992	3,1601	0,6366	67	126	64	98	434	218		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-518 /	4,1457	2,0589	3,3765		3,8142	19	36	36		23	110	110		3	0			Internal error						0,3008	1,4805	0,5917	67	126	64	98	434	218		
+/vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external,/i	7,877	5,1712	26,0213		27,3203	44	91	91		55	427	427		3	0			Internal error						0,2979	11,2031	0,2474	56	40	40	64	159	159		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-520 /	9,0914	2,4036	8,5768		5,0204	19	36	36		23	110	110		3	0			Internal error						0,1687	2,1555	9,7925	67	126	64	98	434	218		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-556 /	3,8256	1,2763	10,1269		3,7824	19	36	36		23	110	110		3	0			Internal error						0,1652	1,4935	0,5457	67	126	64	98	434	218		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-1101 /	3,7397	1,8805	4,1434		3,8843	20	38	38		24	116	116		3	0			Internal error						0,2084	2,1364	0,9081	68	128	65	99	440	221		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-512 /	4,0054	2,7055	3,9074		3,0588	19	36	36		23	110	110		3	0			Internal error						0,1841	2,3051	2,3796	67	126	64	98	434	218		
+/vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external/i	8,5398	5,5232	26,7508		28,0033	43	89	89		54	419	419		3	0			Internal error						0,1601	3,3188	0,2496	55	39	39	63	155	155		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-500 /	4,2499	1,2015	3,9342		4,4796	19	36	36		23	110	110		3	0			Internal error						0,1354	1,5864	0,9024	67	126	64	98	434	218		
+/User-Agent\x3a \{[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\}/iH	2,1925	4,7199	5,1207		4,5687	23	23	23		29	72	72		5	0			Internal error						0,1906	2,6825	0,4369	55	108	55	56	321	162		

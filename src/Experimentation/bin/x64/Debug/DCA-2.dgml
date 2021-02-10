@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml" ZoomLevel="1.5" GraphDirection="TopToBottom" >
+<Nodes>
+<Node Id="init" Label="DCA-2" Stroke="white" Background="white"/>
+<Node Id="1" Label="S₀&#13;{q₀}" Category="State" >
+<Category Ref="InitialState" />
+</Node>
+<Node Id="3" Label="S₁&#13;{q₀,q₁}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="5" Label="S₂&#13;{q₀,q₂}&#13;(c₀)" Category="State" />
+<Node Id="9" Label="S₃&#13;{q₀,q₃}&#13;(c₀)" Category="State" />
+<Node Id="17" Label="S₄&#13;{q₀,q₄}&#13;(c₀)" Category="State" />
+<Node Id="97" Label="S₅&#13;{q₀,q₅,q₆}&#13;(c₀)" Category="State" />
+<Node Id="35" Label="S₆&#13;{q₀,q₁,q₅}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="7" Label="S₇&#13;{q₀,q₁,q₂}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="13" Label="S₈&#13;{q₀,q₂,q₃}&#13;(c₀)" Category="State" />
+</Nodes>
+<Links>
+<Link Source="init" Target="1" Label="" Category="StartTransition" />
+<Link Source="1" Target="1" Label="[^d]" Category="NonepsilonTransition" />
+<Link Source="1" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="3" Target="1" Label="[^ad]" Category="NonepsilonTransition" />
+<Link Source="3" Target="5" Label="a⇒COPY(c₀);" Category="NonepsilonTransition" />
+<Link Source="3" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="5" Target="1" Label="[^ad]" Category="NonepsilonTransition" />
+<Link Source="5" Target="9" Label="a⇒COPY(c₀);" Category="NonepsilonTransition" />
+<Link Source="5" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="9" Target="1" Label="[^bd]&#183;EMPTY(c₀)∨&#13;[^d]&#183;HIGH(c₀)∨&#13;[^bd]&#183;CANLOOP(c₀)" Category="NonepsilonTransition" />
+<Link Source="9" Target="17" Label="b&#183;CANLOOP(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="9" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="17" Target="1" Label="[^ad]" Category="NonepsilonTransition" />
+<Link Source="17" Target="97" Label="a⇒COPY(c₀);" Category="NonepsilonTransition" />
+<Link Source="17" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="97" Target="1" Label="[^ad]" Category="NonepsilonTransition" />
+<Link Source="97" Target="35" Label="a⇒COPY(c₀);" Category="NonepsilonTransition" />
+<Link Source="97" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="35" Target="1" Label="[^ad]" Category="NonepsilonTransition" />
+<Link Source="35" Target="7" Label="a⇒COPY(c₀);" Category="NonepsilonTransition" />
+<Link Source="35" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="7" Target="1" Label="[^ad]" Category="NonepsilonTransition" />
+<Link Source="7" Target="13" Label="a⇒COPY(c₀);" Category="NonepsilonTransition" />
+<Link Source="7" Target="3" Label="d" Category="NonepsilonTransition" />
+<Link Source="13" Target="1" Label="[^abd]&#183;EMPTY(c₀)∨&#13;[^ad]&#183;HIGH(c₀)∨&#13;[^abd]&#183;CANLOOP(c₀)" Category="NonepsilonTransition" />
+<Link Source="13" Target="9" Label="a⇒COPY(c₀);" Category="NonepsilonTransition" />
+<Link Source="13" Target="17" Label="b&#183;CANLOOP(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="13" Target="3" Label="d" Category="NonepsilonTransition" />
+</Links>
+<Categories>
+<Category Id="EpsilonTransition" Label="Epsilon transition" IsTag="True" />
+<Category Id="StartTransition" Label="Initial transition" IsTag="True" />
+<Category Id="FinalLabel" Label="Final transition" IsTag="True" />
+<Category Id="FinalState" Label="Final state" IsTag="True" />
+<Category Id="SinkState" Label="Sink state" IsTag="True" />
+<Category Id="EpsilonState" Label="Epsilon state" IsTag="True" />
+<Category Id="InitialState" Label="Initial state" IsTag="True" />
+<Category Id="NonepsilonTransition" Label="Nonepsilon transition" IsTag="True" />
+<Category Id="State" Label="State" IsTag="True" />
+</Categories>
+<Styles>
+<Style TargetType="Node" GroupLabel="InitialState" ValueLabel="True">
+<Condition Expression="HasCategory('InitialState')" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="FinalState" ValueLabel="True">
+<Condition Expression="HasCategory('FinalState')" />
+<Setter Property="StrokeThickness" Value="4" />
+</Style>
+<Style TargetType="Node" GroupLabel="SinkState" ValueLabel="True">
+<Condition Expression="HasCategory('SinkState')" />
+<Setter Property="NodeRadius" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="EpsilonState" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonState')" />
+<Setter Property="Background" Value="tomato" />
+</Style>
+<Style TargetType="Node" GroupLabel="State" ValueLabel="True">
+<Condition Expression="HasCategory('State')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Link" GroupLabel="NonepsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('NonepsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="StartTransition" ValueLabel="True">
+<Condition Expression="HasCategory('StartTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="EpsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+<Style TargetType="Link" GroupLabel="FinalLabel" ValueLabel="False">
+<Condition Expression="HasCategory('FinalLabel')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+</Styles>
+</DirectedGraph>

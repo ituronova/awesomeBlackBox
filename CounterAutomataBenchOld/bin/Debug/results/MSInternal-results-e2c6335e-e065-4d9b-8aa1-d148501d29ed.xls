@@ -1,0 +1,18 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	|NCA|	|DCA|	|DCA|-alg	NCA-trans	DCA-trans	DCC-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt1-errors	Positive-opt2-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt1 - time (milliseconds)	DCA Matcher opt2 - time (milliseconds)	Regex Matcher - time (milliseconds)
+.*ADCC[B-D]{200,200}.*	0,0051	27,0917	82,1797	41,9557	6	10	10	24	66	36	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				210	10,1842	7,5339		0,5957
+.*IHEGFJDCA[BD-J]{60,60}A.*	0,0009	1,1649	8,4586	4,8626	11	34	34	41	518	190	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				86	0,3125	0,0928		0,0354
+.*BA{0,50}(EC|EE)A{0,10}[DE]{86,86}FF.*	0,0009	1,7289	2,1786	0,626	8	12	12	28	100	54	3	3	3	1	Odkaz na objekt není nastaven na instanci objektu.				106	0,522	0,2029		0,0149
+.*BA{0,50}(FD|FF)A{0,10}[E-G]{43,43}H[^CG].*	0,0009	0,5103	1,4625	0,6223	8	12	12	40	128	54	3	3	3	1	Odkaz na objekt není nastaven na instanci objektu.				72	0,1824	0,1091		0,0172
+.*A[^AB]{0,400}[CE]D{86,86}EE.*	0,0009	0,2486	1,8376	1,6739	5	16	16	23	172	150	2	2	2	1	Odkaz na objekt není nastaven na instanci objektu.				112	0,3452	0,2076		0,0205
+.*A[^AB]{0,400}[CG][EF]{43,43}G[^DF].*	0,0009	0,3079	2,7511	2,3974	5	16	16	35	232	172	2	2	2	1	Odkaz na objekt není nastaven na instanci objektu.				68	0,257	0,1133		0,0158
+.*A[^AB]{0,800}C[D-G]{43,53}DFG[^D-H].*	0,0009	0,7422	8,6046	11,2853	7	32	32	39	536	324	2	2	2	1	Odkaz na objekt není nastaven na instanci objektu.				62	0,6312	0,3615		0,0405
+.{20,20}.*	0,0009	0,0569	0,1436	0,1404	3	3	3	7	7	7	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				33	0,9489	0,0415		0,0111
+.*DOHILMPKGKV[^F]+(JKISVRTMQPGKVA*EA*B[CH-K]{48,}|UHNMJHTMQPGKVA*EA*B[CH-K]{48,})[^F]+F.*	0,0009	14,8654	136,9682	28,0625	36	172	180	207	4308	1228	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				108	0,3377	0,0961		0,0228
+.*A.*[BD]C{86,86}DD.*	0,0009	0,4021	0,8887	0,5477	5	7	7	22	43	36	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				100	0,1744	0,1138		0,0177
+.*A.*[BD]C{43,43}D[^E].*	0,0009	0,2486	0,7483	0,4763	5	7	7	29	50	38	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				64	0,111	0,0625		0,0135
+.*A.*B[C-F]{43,53}CEF[^C-F].*	0,0018	3,8717	2,3191	1,3016	7	17	17	34	159	104	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				65	0,1385	0,0807		0,0153
+.*IFKKLHJG[AB]*D[AB]*E?C[^BC]{4,}C.*	0,0009	6,0466	22,2244	15,5111	14	66	88	79	1138	782	2	2	2	1	Odkaz na objekt není nastaven na instanci objektu.				46	0,2724	0,0363		0,0181
+.*[AC]B{70,70}CC.*	0,0013	0,1282	0,4012	0,3163	4	6	6	14	32	28	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				82	0,1497	0,0984		0,0121
+.*GDIIJFHE[AB]+[C-J]{52,52}([AB].*|B+.*)	0,0004	1,0086	8,8612	2,648	13	40	40	67	620	240	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				79	0,3307	0,0755		0,0312
+.*A.*(JSNRCHG|JSNRHM|TOM).*([^K-U]QUM|IKSSUPRM)F[^DE][^A-D]{7,128}D.*	0,0013	4,6704	109,5061	24,5556	28	90	90	166	2702	975	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				55	0,1497	0,0373		0,0228
+.*A.*(JSNRBHG|JSNRHM|TOM).*([^K-U]QUM|IKSSUPRM)F[^CD][^CE]{7,128}C.*	0,0013	3,9934	110,2656	27,3842	28	94	94	168	2950	1091	1	1	1	1	Odkaz na objekt není nastaven na instanci objektu.				39	0,104	0,0275		0,0209

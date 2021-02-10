@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" ZoomLevel="1.5" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="1" Category="State" Bounds="110.04,82.8800000000001,50,25.96" Label="1">
+      <Category Ref="InitialState" />
+    </Node>
+    <Node Id="2" Category="State" Bounds="171.04,176.72,50,25.96" Label="2" />
+    <Node Id="3" Category="State" Bounds="171.04,275.56,50,25.96" Label="3">
+      <Category Ref="FinalState" />
+    </Node>
+    <Node Id="init" Background="#FFFFFFFF" Bounds="107.18,0,55.72,25.96" Label="autDet" Stroke="#FFFFFFFF" />
+  </Nodes>
+  <Links>
+    <Link Source="1" Target="1" Category="NonepsilonTransition" Bounds="66.5400009155273,83.8899993896484,44.1331405639648,23.9400024414063" Label="[^a-qu-z],&#xD; [u-wyz],&#xD; x" LabelBounds="13.4999999999999,71.9200000000001,53.04,47.8800000000001" />
+    <Link Source="1" Target="2" Category="NonepsilonTransition" Bounds="146.75666809082,108.839996337891,40.8010406494141,59.5162811279297" Label="[a-q]⇒c₀≔{0}" LabelBounds="177.393333333333,134.8,68.6466666666666,15.96" />
+    <Link Source="2" Target="1" Category="NonepsilonTransition" Bounds="107.250885009766,115.475090026855,64.0344390869141,63.0567398071289" HiddenLabel="[^a-qu-z]·HIGH(c₀),&#xD; [u-wyz]·LOW(c₀),&#xD; [u-wyz]·MIDDLE(c₀),&#xD; [u-wyz]·HIGH(c₀),&#xD; x·LOW(c₀)" Label="..." LabelBounds="99.053727670541,134.8,7.80000000000001,15.96" />
+    <Link Source="2" Target="2" Category="NonepsilonTransition" Bounds="127.540000915527,183.210006713867,43.4999923706055,12.9799957275391" HiddenLabel="[^a-qu-z]·LOW(c₀)⇒c₀++,&#xD; [^a-qu-z]·MIDDLE(c₀)⇒c₀++,&#xD; [a-q]·LOW(c₀)⇒c₀++∪{0},&#xD; [a-q]·MIDDLE(c₀)⇒c₀++∪{0},&#xD; [a-q]·HIGH(c₀)⇒c₀≔{0}" Label="..." LabelBounds="119.74,181.72,7.80000000000001,15.96" />
+    <Link Source="2" Target="3" Category="NonepsilonTransition" Bounds="206.057540893555,202.679992675781,21.7599639892578,66.4013671875" Label="x·MIDDLE(c₀)⇒c₀≔∅,&#xD; x·HIGH(c₀)⇒c₀≔∅" LabelBounds="228.3175,228.64,111.63,31.9200000000001" />
+    <Link Source="3" Target="1" Category="NonepsilonTransition" Bounds="53.0400009155273,113.252334594727,117.999992370605,167.605850219727" Label="[^a-qu-z],&#xD; [u-wyz],&#xD; x" LabelBounds="0,165.76,53.04,47.8800000000001" />
+    <Link Source="3" Target="2" Category="NonepsilonTransition" Bounds="163.789993286133,209.765365600586,19.5476837158203,65.7946319580078" Label="[a-q]⇒c₀≔{0}" LabelBounds="94.6433333333333,236.62,68.6466666666666,15.96" />
+    <Link Source="init" Target="1" Category="StartTransition" Bounds="135.039993286133,25.9599990844727,0,47.9199981689453" Label="" LabelBounds="135.04,40.96,0,15.96" />
+  </Links>
+  <Categories>
+    <Category Id="FinalState" Label="Final state" IsTag="True" />
+    <Category Id="InitialState" Label="Initial state" IsTag="True" />
+    <Category Id="NonepsilonTransition" Label="Nonepsilon transition" IsTag="True" />
+    <Category Id="StartTransition" Label="Initial transition" IsTag="True" />
+    <Category Id="State" Label="State" IsTag="True" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="HiddenLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Stroke" DataType="System.Windows.Media.Brush" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="InitialState" ValueLabel="True">
+      <Condition Expression="HasCategory('InitialState')" />
+      <Setter Property="Background" Value="white" />
+      <Setter Property="MinWidth" Value="0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="FinalState" ValueLabel="True">
+      <Condition Expression="HasCategory('FinalState')" />
+      <Setter Property="StrokeThickness" Value="4" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="SinkState" ValueLabel="True">
+      <Condition Expression="HasCategory('SinkState')" />
+      <Setter Property="NodeRadius" Value="0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="EpsilonState" ValueLabel="True">
+      <Condition Expression="HasCategory('EpsilonState')" />
+      <Setter Property="Background" Value="tomato" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="State" ValueLabel="True">
+      <Condition Expression="HasCategory('State')" />
+      <Setter Property="Stroke" Value="black" />
+      <Setter Property="Background" Value="white" />
+      <Setter Property="MinWidth" Value="0" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="NonepsilonTransition" ValueLabel="True">
+      <Condition Expression="HasCategory('NonepsilonTransition')" />
+      <Setter Property="Stroke" Value="black" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="StartTransition" ValueLabel="True">
+      <Condition Expression="HasCategory('StartTransition')" />
+      <Setter Property="Stroke" Value="black" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="EpsilonTransition" ValueLabel="True">
+      <Condition Expression="HasCategory('EpsilonTransition')" />
+      <Setter Property="Stroke" Value="black" />
+      <Setter Property="StrokeDashArray" Value="8 8" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="FinalLabel" ValueLabel="False">
+      <Condition Expression="HasCategory('FinalLabel')" />
+      <Setter Property="Stroke" Value="black" />
+      <Setter Property="StrokeDashArray" Value="8 8" />
+    </Style>
+  </Styles>
+</DirectedGraph>

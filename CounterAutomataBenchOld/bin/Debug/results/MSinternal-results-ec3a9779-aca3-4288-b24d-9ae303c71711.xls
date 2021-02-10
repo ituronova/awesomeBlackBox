@@ -1,0 +1,18 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	|NCA|	|DCA|	|DCA|-alg	NCA-trans	DCA-trans	DCC-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-opt-errors	Positive-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt1 - time (milliseconds)	Regex Matcher - time (milliseconds)
+.*ADCC[B-D]{200,200}.*	12,71274	27,82402	3,33768	1,67037999999999	6	10	10	24	66	36	1	1	1			0	0	216,75	3,328625	5,74052	0,0947749999999999
+.*IHEGFJDCA[BD-J]{60,60}A.*	3,1187	4,4371	40,1792	19,8185	11	34	34	41	518	190	1	1	1		Index je mimo hranice pole.						
+.*BA{0,50}(EC|EE)A{0,10}[DE]{86,86}FF.*	2,1003	4,3046	5,2209	10,3079	8	12	12	28	100	54	3	3	3		Index je mimo hranice pole.						
+.*BA{0,50}(FD|FF)A{0,10}[E-G]{43,43}H[^CG].*	2,4599	1,7074	8,9871	2,7543	8	12	12	40	128	54	3	3	3		Index je mimo hranice pole.						
+.*A[^AB]{0,400}[CE]D{86,86}EE.*	17,53886	1,18322	15,36542	7,80244	5	16	16	23	172	150	2	2	2			0	0	101,75	1,196825	6,27579	0,066675
+.*A[^AB]{0,400}[CG][EF]{43,43}G[^DF].*	3,53204	1,27376	17,37644	9,94584	5	16	16	35	232	172	2	2	2			0	0	61,25	0,7758	9,10233	0,03925
+.*A[^AB]{0,800}C[D-G]{43,53}DFG[^D-H].*	22,2587	3,30998	33,08544	20,8027	7	32	32	39	536	324	2	2	2			0	0	63,5	0,889775	23,17904	0,04275
+.{20,20}.*	0,4599	0,1464	0,4441	0,5509	3	3	3	7	7	7	1	1	1		Index je mimo hranice pole.						
+.*DOHILMPKGKV[^F]+(JKISVRTMQPGKVA*EA*B[CH-K]{48,}|UHNMJHTMQPGKVA*EA*B[CH-K]{48,})[^F]+F.*	15,5251	62,252	961,7606	131,6204	36	172	180	207	4308	1228	1	1	1		Dimenze pole překročily podporovaný rozsah.						
+.*A.*[BD]C{86,86}DD.*	3,0739	1,28178	4,11398	2,3828	5	7	7	22	43	36	1	1	1			0	0	104,5	0,8228	9,71483	0,0795
+.*A.*[BD]C{43,43}D[^E].*	8,68754	1,27364	4,79474	2,9138	5	7	7	29	50	38	1	1	1			0	0	66,75	1,258775	3,75537	0,037375
+.*A.*B[C-F]{43,53}CEF[^C-F].*	23,5358	1,73656	14,13304	7,21686	7	17	17	34	159	104	1	1	1			0	0	62	0,467525	9,48913	0,03655
+.*IFKKLHJG[AB]*D[AB]*E?C[^BC]{4,}C.*	4,2509	20,2356	84,3159	115,3638	14	66	88	79	1138	782	2	2	2		Index je mimo hranice pole.						
+.*[AC]B{70,70}CC.*	1,33536	0,43812	2,2279	1,3593	4	6	6	14	32	28	1	1	1			0	0	79	0,5683	1,25739	0,034125
+.*GDIIJFHE[AB]+[C-J]{52,52}([AB].*|B+.*)	3,6636	5,9729	50,1759	21,8129	13	40	40	67	620	240	1	1	1		Index je mimo hranice pole.						
+.*A.*(JSNRCHG|JSNRHM|TOM).*([^K-U]QUM|IKSSUPRM)F[^DE][^A-D]{7,128}D.*	9,8852	14,8607	572,3523	153,0009	28	90	90	166	2702	975	1	1	1		Dimenze pole překročily podporovaný rozsah.						
+.*A.*(JSNRBHG|JSNRHM|TOM).*([^K-U]QUM|IKSSUPRM)F[^CD][^CE]{7,128}C.*	14,5029	41,0828	925,5319	162,241	28	94	94	168	2950	1091	1	1	1		Dimenze pole překročily podporovaný rozsah.						

@@ -1,0 +1,10 @@
+C:\Users\42073\Desktop\Automata\src\Automata.Z3\obj\Debug\Automata.Z3.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\Automata\bin\win32\Debug\Microsoft.Automata.Z3.dll
+C:\Users\42073\Desktop\Automata\bin\win32\Debug\Microsoft.Automata.Z3.pdb
+C:\Users\42073\Desktop\Automata\src\Automata.Z3\obj\Debug\Microsoft.Automata.Z3.dll
+C:\Users\42073\Desktop\Automata\src\Automata.Z3\obj\Debug\Microsoft.Automata.Z3.pdb
+C:\Users\42073\Desktop\countingautomata\bin\win32\Debug\Microsoft.Automata.Z3.dll
+C:\Users\42073\Desktop\countingautomata\bin\win32\Debug\Microsoft.Automata.Z3.pdb
+C:\Users\42073\Desktop\countingautomata\src\Automata.Z3\obj\Debug\Automata.Z3.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\countingautomata\src\Automata.Z3\obj\Debug\Microsoft.Automata.Z3.dll
+C:\Users\42073\Desktop\countingautomata\src\Automata.Z3\obj\Debug\Microsoft.Automata.Z3.pdb

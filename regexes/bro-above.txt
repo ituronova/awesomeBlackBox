@@ -1,0 +1,9 @@
+^([pP][aA][cC][kK][aA][gG][eE]|[pP][rR][oO][cC][eE][dD][uU][rR][eE])_[pP][rR][eE][fF][iI][xX][\x20\x20\x20\r\n]*=>[\x20\x20\x20\r\n]*('[^']{1000,}|"[^"]{1000,})
+^.* [fF][iI][nN][dD] [^\x20]{1024}
+^.* [rR][eE][nN][aA][mM][eE] [^\x20]{1024}
+^.* BODY\.PEEK\[[^\]]{1024}
+^.* BODY\[[^\]]{1024}
+^.* CREATE [^\x20]{1024}
+^\n*[\x20\x20\x20][cC][rR][eE][aA][tT][eE][\x20\x20\x20][^\n]{1024}
+^\n*[\x20\x20\x20][pP][aA][rR][tT][iI][aA][lL].*[bB][oO][dD][yY]\.[pP][eE][eE][kK]\[[^\]]{1024}
+^\n*[\x20\x20\x20][pP][aA][rR][tT][iI][aA][lL].*[bB][oO][dD][yY]\[[^\]]{1024}

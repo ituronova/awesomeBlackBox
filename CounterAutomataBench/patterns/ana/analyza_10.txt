@@ -1,0 +1,2226 @@
+<\\/?(?!\\d)[^\\s>\\/=$<%]+(?:\\s+[^\\s>\\/=]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+))?)*\\s*\\/?>
+<\\/?(?!\\d)[^\\s>\\/=$<%]+(?:\\s+[^\\s>\\/=]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|{(?!{)(?:{(?:{[^}]*}|[^}])*}|[^}])+}|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+))?)*\\s*\\/?>
+<\\/?(?!\\d)[^\\s>\\/=$<]+(?:\\s+[^\\s>\\/=]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+))?)*\\s*\\/?>
+<\\/?(?!\\d)[^\\s>\\/=$<]+(?:\\s+[^\\s>\\/=]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^>=]+))?)*\\s*\\/?>
+<\\/?(?!\\d)[a-z0-9]+(?:\\s+[^\\s>\\/=]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+))?)*\\s*\\/?>
+<\\/?(?:
+<\\/?(?:[\\w.:-]+\\s*(?:\\s+(?:[\\w.:-]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s{'\">=]+|\\{(?:\\{(?:\\{[^}]*\\}|[^{}])*\\}|[^{}])+\\}))?|\\{\\.{3}[a-z_$][\\w$]*(?:\\.[a-z_$][\\w$]*)*\\}))*\\s*\\/?)?>
+<\\/?(a|p|abbr|acronym|address|applet|area|b|base|basefont|bdo|big|blockquote|body|br|button|caption|center|cite|code|col|colgroup|dd|del|dfn|dir|div|dl|dt|em|fieldset|font|form|frame|frameset|h6|head|hr|html|i|iframe|img|input|ins|isindex|kbd|label|legend|li|link|map|menu|meta|noframes|noscript|object)[^>]+??>
+<\\/?(ins|font|span|div|canvas|noscript|fig\\w+)[ -\\w*= \\w=\\-.:&\\/\\/?!;,%+()#'\"{}\\u4e00-\\u9fa5]*>
+<\\/?[\\w.:-]+\\s*(?:\\s+(?:[\\w.:-]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+|(?:\\{\\{?[^}]*\\}?\\})))?|\\{\\.{3}[a-z_$][\\w$]*(?:\\.[a-z_$][\\w$]*)*\\}))*\\s*\\/?>
+<\\/?[\\w.:-]+\\s*(?:\\s+(?:[\\w.:-]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s{'\">=]+|\\{(?:\\{[^}]*\\}|[^{}])+\\}))?|\\{\\.{3}[a-z_$][\\w$]*(?:\\.[a-z_$][\\w$]*)*\\}))*\\s*\\/?>
+<\\/?[\\w.:-]+\\s*(?:\\s+(?:[\\w.:-]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s{'\">=]+|\\{(?:\\{[^}]+\\}|[^{}])+\\}))?|\\{\\.{3}[a-z_$][\\w$]*(?:\\.[a-z_$][\\w$]*)*\\}))*\\s*\\/?>
+<\\/?[\\w.:-]+\\s*(?:\\s+(?:[\\w\\.:-]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+|(?:\\{[^}]*\\})))?|\\{\\.{3}\\w+\\}))*\\s*\\/?>
+<\\/?[a-z][^]*?>
+<\\/?\\w+(?:(?:\\s+\\w+(?:\\s*=\\s*(?:\".*?\"|'.*?'|[^'\">\\s]+))?)*+\\s*|\\s*)\\/?>
+<\\/?\\w+>|[^\\w<\\/>
+<\\/?style[ -\\w*= \\w=\\-.:&\\/\\/?!;,+()#\"\\S]*>
+<\\/jsp:(
+<\\/results>\\K
+<\\/script>\\s*<link rel=\"stylesheet\" href=\"[/\\\\]{1}html-css-optional-elements\\.[a-f0-9]+\\.css\"><h1>Hello
+<\\?OFX\\s+\n                       OFXHEADER=\\\"(?P<ofxheader>\\d+)\\\"\\s+\n                       VERSION=\\\"(?P<version>\\d+)\\\"\\s+\n                       SECURITY=\\\"(?P<security>[\\w]+)\\\"\\s+\n                       OLDFILEUID=\\\"(?P<oldfileuid>[\\w-]+)\\\"\\s+\n                       NEWFILEUID=\\\"(?P<newfileuid>[\\w-]+)\\\"\\s*\n                       \\?>\\s*
+<\\?php echo erConfigClassLhConfig::getInstance\\(\\)->getDirLanguage\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)(.*?)\\?\\>
+<\\?php echo erConfigClassLhConfig::getInstance\\(\\)->getOverrideValue\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?),(\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)(.*?)\\?\\>
+<\\?php echo erConfigClassLhConfig::getInstance\\(\\)->getSetting\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?),(\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)(.*?)\\?\\>
+<\\?php echo erLhcoreClassDesign::design\\('([a-zA-Z0-9-\\.-\\/\\_]+)'\\)(.*?)\\?\\>
+<\\?php echo erLhcoreClassModelChatConfig::fetch\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)->current_value(.*?)\\?\\>
+<\\?php echo erLhcoreClassModule::getExtensionInstance\\('([a-zA-Z0-9-\\.-\\/\\_]+)'\\)->getSettingVariable\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)(.*?)\\?\\>
+<\\?php(\\s*)include\\(erLhcoreClassDesign::designtpl\\('([a-zA-Z0-9-\\.-\\/\\_]+)'\\)\\)(.*?)\\?\\>
+<\\?php(\\s*)include_once\\(erLhcoreClassDesign::designtpl\\('([a-zA-Z0-9-\\.-\\/\\_]+)'\\)\\)(.*?)\\?\\>
+<\\?php.*include\\_shop\\_tpl.*\\((.*)\\).*\\?>
+<\\?php.*include\\_tpl.*\\((.*)\\).*\\?>
+<\\?xml\n            (   # strict ordering is reqd but we'll be liberal here\n                \\s+version=['\"](?P<ver>.*?)['\"]\n            |   \\s+encoding=['\"](?P<enc>.*?)['\"]\n            )+\n            .*? # other possible junk\n            \\s*\\?>\n        
+<\\?xml\\s+.*encoding=\"(?P<encoding>[-_.a-zA-Z0-9]+)\".*\\?>
+<\n    (?:(?P<type>int|float|path):)?\n    (?P<name>\\w+)\n    >
+<\\p{IsLower}+>([^<]+)<\\/(\\p{IsLower}+)>
+<\\Q$key\\E>
+<\\Q$loop_name\\E(\\.\\Q$key_match\\E)?>
+<\\s*script.*>([^]*)<\\/\\s*script\\s*>
+<\\s*template\\s*([^>]*)>([^]*)<\\/\\s*template\\s*>
+<\\S++ [^>]++>
+<\\\\u[0-9A-F]{4}>
+<\\w+(?: 
+<<(?:([!@\u00a3\\$%\\^\\&\\*\\(\\)`\\~'\"\\|\\\\\\/;\\:\\.\\,\\+\\=\\-\\_\\{\\}])|([^>\\s]+))(?:\\s*)((?:[^>]|(?:>(?!>)))*)>>
+<<<(.*?)\\: \\\\hbox \\{(.*?)\\}>>>
+<<<('?)(
+<<<(?:(
+<>!=:.#&,[];$()^/
+<a .+>AS(?P<code>.+?)\\s*</a>\\s*(?P<name>.*)
+<a class=\"wiki-link(?P<isedit>-edit)?\" data-wiki-url=\"(?P<url>[^\"]+)\"
+<a href=['\\\"](?P<url>http(s)?://.*)['\\\"]>(?P<value>.+)</a>: uploaded
+<a href=[\\'\\\"](?P<url>.*?)[\\'\\\"]>(?P<text>.*?)<\\/a>
+<a href=\"(?P<href>http://\\w{7}.\\w{3}.\\w{3}.rackcdn.com/\\d{5}/f\\w{4}-\\d{2}-\\d{5}-HTML/image_m/f\\w{4}-\\d{2}-\\d{5}-\\D{1,2}\\d{3}.\\D{3})
+<a href=\"(?P<href>http://\\w{7}.\\w{3}.\\w{3}.rackcdn.com/\\d{5}/f\\w{4}-\\d{2}-\\d{5}-r2/image_m/f\\w{4}-\\d{2}-\\d{5}-\\D{1,2}\\d{3}.\\D{3})
+<a href=\"(?P<path>[^\"]*)\">[^<]*</a>[^:]*: (?P<title>[^<]*)</td>
+<a href=\"(?P<url>[^\"]+)\" class=\"cs-enlarge\">
+<a href=\"(?P<url>[^\"]+)\">
+<a href=\"/character/(?P<char_link>[^\"]+)\">(?P<char_name>[^<]+)</a>\\n\\t\\t\\t<div class=\"spaceit_pad\"><small>(?P<role>[A-Za-z ]+)</small></div>\\n\\t\\t\\t</div>
+<a href=\"/nodes/(?P<key>[\\w.]+)\">(?P<count>[\\d.]+)</a>
+<a href=\\\"download.php\\?id=(?P<download_id>\\d+)\\\" style=\\\"background:url\\(/blueGene/images/topic\\.jpg\\)
+<a href=relogin.cgi>Log out<.a> \\Q$USER\\E
+<a[^>]*href=\"(?P<URL>[^\"]*)\"[^>]*>(?P<LinkText>[^<]*)</a>
+<a[^>]+\\bclass=[\"\\']downloadBtn\\b[^>]+\\bhref=([\"\\'])(?P<url>(?:(?!\\1).)+)\\1
+<a[^>]+\\bhref=([\"\\'])(?P<href>(?:(?!\\1).)+)\\1[^>]+\\bdata-extension=
+<a[^>]+data-quality=\"(?P<format_id>[^\"]+)\"[^>]+href=\"[^\"]+\"[^>]+class=\"[^\"]*quality-btn-active[^\"]*\">(?P<height>[0-9]+)p
+<a[^>]+href=([\"\\'])(?P<path>(?:(?!\\1).)+)\\1[^>]+class=[\"\\'][^>]*js-trackrow-albumpage-link
+<a[^>]+href=([\"\\'])(?P<url>/video(?:-?[\\d_]+).*?)\\1
+<a[^>]+href=([\"\\'])(?P<url>http.+?)\\1
+<a[^>]+href=([\\'\"])(?P<link>[^\\'\"]+)\\1
+<a[^>]+href=\"(?:https?:)?//space\\.bilibili\\.com/(?P<id>\\d+)\"[^>]*>(?P<name>[^<]+)
+<a\\b[^>]+\\bhref=([\"\\'])(?P<path>/raiplay/video/.+?)\\1
+<a\\s+href=\"(?P<URL>[^\"]+?)\".+?>(?P<TEXT>.+?)</a>
+<ACCTTYPE>(?P<contentend>[<\n\r])
+<align left>[\\n\\s]+<\\/align>[\\\\]{2}\\s*
+<aside\\s+([^<>]+)>([^]*?)<\\/aside>
+<b>Name:&nbsp</b>(?P<title>.*?)<br/>.*?<b>Year:&nbsp</b> *<a href='/year/.*?'>(?P<date>.*?)</a><br/><b>Manufacturer:&nbsp</b> *<a href='/manufacturer/.*?'>(?P<developer>.*?)</a><br/><b>Filename:&nbsp;</b>(?P<filename>.*?)<br/><b>
+<blockquote class=\"twitter\\-tweet\"( data\\-lang=\"\\w+(?:\\_|\\-)\\w+\")?
+<body.*>([^]*)<\\/body>
+<BODY[^>]+?ALINK=(.*?[^\\\\])[\\s|>]
+<BODY[^>]+?BACKGROUND=(.*?[^\\\\])[\\s|>]
+<BODY[^>]+?BGCOLOR=(.*?[^\\\\])[\\s|>]
+<BODY[^>]+?LINK=(.*?[^\\\\])[\\s|>]
+<BODY[^>]+?TEXT=(.*?[^\\\\])[\\s|>]
+<BODY[^>]+?VLINK=(.*?[^\\\\])[\\s|>]
+<body>([^]*)<\\/body>
+<br[^>]*>\\R
+<cmdtest (?P<name>[\\w\\.]+)\\[(?P<examplenum>\\d+)\\]>$
+<code>([^]*?)<\\/code>
+<controlfield.*?tag=.001.*?>(?P<recid>\\d+)</controlfield>
+<Details>(?P<details>.*)</Details>
+<div class=\"block-error\">\\s*<div class=\"heading\">\\s*<div>(?P<msg>.+?)</div>\\s*</div>
+<div class=\"button\" title=\"(?P<title>[^\"]*)\"><a href=\"(?P<url>[^\"]+)\">(?P<name>.+?)</a></div>
+<div class=\"entry\">(.*?)\\Q\u00a4\u00b5\u00a4\u00f3\u00a4\u00ce\u00a5\u00d5\u00a5\u00a9\u00a5\u00c8\u00a5\u00a2\u00a5\u00eb\u00a5\u00d0\u00a5\u00e0\\E<\\/p>
+<div class=\"error\">(?P<error>.*)</div>
+<div class=\"jsb_ jsb_VideoPlaylist\" data-jsb=\"(?P<json>[^\"]+)\">
+<div[^>]*?ng-controller=(?P<quote>[\"'])(?:Live)?PlayerCtrl(?P=quote).*?>
+<div[^>]+class=[\"\\']next[\"\\'][^>]*>\\s*<a[^>]+href=([\"\\'])(?P<url>(?:(?!\\1).)+)\\1
+<div[^>]+data-collection=\"(?P<vico_id>\\d+)\"[^>]+data-video=\"(?P<vivi_id>\\d+)\"
+<div\\s+id=\"header\"\\s*>((?:(?:(?!<div[^>]*>|</div>).)++|<div[^>]*>(?1)</div>)*)</div>
+<doctest (?P<name>[\\w\\.]+)\\[(?P<examplenum>\\d+)\\]>$
+<embed[^>]+?src=([\"\\'])(?P<url>https?://(?:www\\.)?ivi\\.ru/video/player.+?)\\1
+<embed[^>]src=([\"\\'])(?P<url>http://pics\\.smotri\\.com/(?:player|scrubber_custom8)\\.swf\\?file=v.+?\\1)
+<esi:include src=\"(?P<url>[^\"]+?)\"\\s*/>
+<font class=\"msg_bad\">(?P<msg_bad>(.|\\s)*?)<\\/font>
+<font class=\"msg_info\">(?P<msg_info>(.|\\s)*?)<\\/font>
+<font class=\"msg_ok\">(?P<msg_ok>(.|\\s)*?)<\\/font>
+<h(\\d)>(.+?)</h(?1)>
+<h1[^>]+title=\"(?P<song>[^\"]+)\">[^<]+<span[^>]+title=\"(?P<singer>[^\"]+)\"
+<h2>(?P<description>.*?)<\\/h2>
+<h3 class=\"r\"><a href=\"/url\\?q=(?P<url>[^\"]+)&[^\"]+\">(?P<title>.*?)</a></h3>.*?<a class=\"[^\"]+\" href=\"/url\\?q=(?P<cacheUrl>http://webcache[^\"]+)\">.*?<span class=\"st\">(?P<content>.*?)</span>
+<h3>\\Q$place&nbsp;$year\\E</h3>
+<head>(?P<HEAD>.*)</head>(?P<AFTER_HEAD>.*)<body(?P<BODY_ATTRS>.*?)>(?P<BODY>.*)</body>
+<head>(?P<inner>.*)</head>
+<head>[^]*<\\/head>
+<html[\\n|\\r\\n]*.*?[\\n|\\r\\n]*lang=\"(?P<language>\\S+)\"[\\n|\\r\\n]*.*?[\\n|\\r\\n]*>
+<html>[^]*<\\/html>
+<html>\\s*<link rel=\"stylesheet\" href=\"[/\\\\]{1}html-css-head\\.[a-f0-9]+\\.css\">\\s*<body>
+<iframe.+?src=\"(?P<url>.+?)\".*>
+<iframe.+src=[\"'](?P<url>[^\"']+)[\"'].+allowfullscreen
+<iframe[^>]+?\\bsrc\\s*=\\s*([\"\\'])(?P<url>(?:https?:)?//embed\\.share-videos\\.se/auto/embed/\\d+\\?.*?\\buid=\\d+.*?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:http:)?//(?:www\\.)?tvc\\.ru/video/iframe/id/[^\"]+)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//(?:cache\\.)?vevo\\.com/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?dailymotion\\.[a-z]{2,3}/widget/jukebox\\?.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?xhamster\\.com/xembed\\.php\\?video=\\d+)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//cloud\\.tvigle\\.ru/video/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//media.mtvnservices.com/embed/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//myvi\\.(?:ru/player|tv)/(?:embed/html|flash)/[^\"]+)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//player\\.(?:tna|emp)flix\\.com/video/\\d+)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//player\\.vimeo\\.com/video/\\d+.*?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?:)?//rutube\\.ru/embed/[\\da-z]{32}.*?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>(?:https?://)?embed\\.francetv\\.fr/\\?ue=.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>http://www\\.ustream\\.tv/embed/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://(?:odnoklassniki|ok)\\.ru/videoembed/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://(?:screen|movies)\\.yahoo\\.com/.+?\\.html\\?format=embed)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://(?:test)?player\\.(?:rutv\\.ru|vgtrk\\.com)/(?:iframe/(?:swf|video|live)/id|index/iframe/cast_id)/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://embed(?:-ssl)?\\.ted\\.com/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://embed\\.live\\.huffingtonpost\\.com/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://m(?:lb)?\\.mlb\\.com/shared/video/embed/embed\\.html\\?.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://player\\.cinchcast\\.com/.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://vk\\.com/video_ext\\.php.+?)\\1
+<iframe[^>]+?src=([\"\\'])(?P<url>https?://www\\.facebook\\.com/(?:video/embed|plugins/video\\.php).+?)\\1
+<iframe[^>]+?src=[\"\\'](?P<url>(?:https?:)?//(?:www\\.)?drtuber\\.com/embed/\\d+)
+<iframe[^>]+?src=[\"\\'](?P<url>(?:https?:)?//(?:www\\.)?pornhub\\.com/embed/[\\da-z]+)
+<iframe[^>]+?src=[\"\\'](?P<url>(?:https?:)?//(?:www\\.)?vshare\\.io/v/[^/?#&]+)
+<iframe[^>]+?src=[\"\\'](?P<url>(?:https?:)?//embed\\.redtube\\.com/\\?.*?\\bid=\\d+)
+<iframe[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?expressen\\.se/(?:tvspelare/video|videoplayer/embed)/tv/.+?)\\1
+<iframe[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//[^/]+\\.apa\\.at/embed/[\\da-f]{8}-[\\da-f]{4}-[\\da-f]{4}-[\\da-f]{4}-[\\da-f]{12}.*?)\\1
+<iframe[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//cdn\\.viqeo\\.tv/embed/*\\?.*?\\bvid=[\\da-f]+.*?)\\1
+<iframe[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//embed\\.nexx(?:\\.cloud|cdn\\.com)/\\d+/(?:(?!\\1).)+)\\1
+<iframe[^>]+\\bsrc=[\"\\'](?P<url>(?:https?:)?//embed\\.indavideo\\.hu/player/video/[\\da-f]+)
+<iframe[^>]+src=(?P<q>[\"\\'])(?P<url>(?:https?:)?//vbox7\\.com/emb/external\\.php.+?)(?P=q)
+<iframe[^>]+src=(?P<q1>[\\'\"])(?P<src>(?:https?:)?//streamable\\.com/(?:(?!\\1).+))(?P=q1)
+<iframe[^>]+src=(?P<q1>[\\'\"])(?P<url>(?:https?:)?//rudo\\.video/vod/[0-9a-zA-Z]+)(?P=q1)
+<iframe[^>]+src=([\"\\'])(?P<url>(?:(?:https?:)?//)?(?:www\\.)?20min\\.ch/videoplayer/videoplayer.html\\?.*?\\bvideoId@\\d+.*?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?instagram\\.com/p/[^/]+/embed.*?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?vod-platform\\.net/[eE]mbed/.+?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//.+?\\.media\\.eagleplatform\\.com/index/player\\?.+?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//graphics8\\.nytimes\\.com/bcvideo/[^/]+/iframe/embed\\.html.+?)\\1>
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//html5-player\\.libsyn\\.com/embed/.+?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//out\\.pladform\\.ru/player\\?.+?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//play\\.arkena\\.com/embed/avp/.+?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//videa\\.hu/player\\?.*?\\bv=.+?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?:)?//www\\.nbcnews\\.com/widget/video-embed/[^\"\\']+)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>(?:https?://)?(?:w\\.)?soundcloud\\.com/player.+?)\\1
+<iframe[^>]+src=([\"\\'])(?P<url>.+?)\\1
+<iframe[^>]+src=([\\'\"])(?P<url>(?:https?:)?//(?:www\\.)?(?:periscope|pscp)\\.tv/(?:(?!\\1).)+)\\1
+<iframe[^>]+src=([\\'\"])(?P<url>https?://videomore\\.ru/embed/\\d+)
+<iframe[^>]+src=[\"\\'](?P<url>(?:https?:)?//player\\.piksel\\.com/v/[a-z0-9]+)
+<iframe[^>]+src=[\"\\'](?P<url>(?:https?://)?tunein\\.com/embed/player/[pst]\\d+)
+<iframe[^>]+src=[\"'](?P<url>[^\"']+)[\"']
+<iframe[^>]+src=['\\\"](?P<url>https?://www\\.senate\\.gov/isvp/?\\?[^'\\\"]+)['\\\"]
+<iframe[^>]+src=\"(?P<url>https?://(?:new\\.)?livestream\\.com/[^\"]+/player[^\"]+)\"
+<iframe[^>]+src=\"(?P<url>https?://(?:www\\.)?zapiks\\.fr/index\\.php\\?.+?)\"
+<iframe[^>]+src=\"(?P<url>https?://vplayer\\.nbcsports\\.com/[^\"]+)\"
+<iframe[^>]+src=\"https?://(?:video\\.google\\.com/get_player\\?.*?docid=|(?:docs|drive)\\.google\\.com/file/d/)(?P<id>[a-zA-Z0-9_-]{28,})
+<iframe[^>]+src=\"https?://(?P<host>media\\.clipyou\\.ru)/index/player\\?.*\\brecord_id=(?P<id>\\d+).*\"
+<iframe\\b[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?seznamzpravy\\.cz/iframe/player\\?.*?)\\1
+<iframe\\b[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?video\\.mediaset\\.it/player/playerIFrame(?:Twitter)?\\.shtml.*?)\\1
+<iframe\\b[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//cms\\.springboardplatform\\.com/embed_iframe/\\d+/video/\\d+.*?)\\1
+<iframe\\b[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//media\\.joj\\.sk/embed/(?:(?!\\1).)+)\\1
+<iframe\\b[^>]+\\bsrc=[\"\\'](?P<url>(?:https?:)?//(?:www\\.)?dailymail\\.co\\.uk/embed/video/\\d+\\.html)
+<iframe\\s+class=\"embed-responsive-item\\s+js-embed-iframe\".*src=\"(?P<player_url>.+?)\".*?</iframe>
+<img src=\"(?P<link>[^\"]*.jpg)[^\"]*\"
+<img src=\"(?P<src>http://\\w{7}.\\w{3}.\\w{3}.rackcdn.com/\\d{5}/f\\w{4}-\\d{2}-\\d{5}-HTML/image_n/f\\w{4}-\\d{2}-\\d{5}-\\D{1,2}\\d{3}.\\D{3})
+<img(?:[^>](?!(height|width)=))*+>
+<img.+src=['\"](?P<src>.+?)['\"].*>
+<img\\s+src=\"((?:https?://[\\w\\.:\\d\\/]+)?\n\t\t\t\t\t/comics/[a-z0-9\\_\\-/]+?/[a-z0-9]+\\.(gif|jpg|png))\"
+<input type=\"hidden\" name=\"(?P<key>\\d+)\" value=\"(?P<value>\\w+)\"\\/>
+<input type=\"hidden\" name=\"player_type\" value=\"(?P<stream_type>.+?)\">
+<input type=\"hidden\"[\\s]+name=\"GALX\"[\\s]+value=\"(?P<galx>[a-zA-Z0-9_-]+)\">
+<input type=\"checkbox\" name=\"pay\" value=\"(?P<value>\\w+)\"
+<input[^>]+id=([\\'\"])copy-btn-(?P<id>[0-9a-zA-Z]+)\\1
+<input\\s+type=\"hidden\"\\s+name=\"file_name\"\\s+value=\"(?P<stream_url>.+?)\">.*?<input\\s+type=\"hidden\"\\s+name=\"media_id\"\\s+value=\"(?P<stream_id>\\d+)\">
+<jsp:(
+<jsp:directive\\.(
+<li class=\"xls\"><a href=\"(.*\\/(\\d{4})\\/(\\d{2})\\/dm(\\d{2})(\\d{2})(?:\\_\\d+)?\\.xls)\"[^\\(]*\\(.+(\\d{2}).+(\\d{2})
+<li[^>]*>(.*?(?R)?.*?)<\\/li>
+<li>(?P<item>.*)</li>
+<link itemprop=\"url\" href=\"(?P<uploader_url>https?://www\\.youtube\\.com/(?:user|channel)/(?P<uploader_id>[^\"]+))\">
+<link rel=\"stylesheet\" href=\"[/\\\\]{1}(input\\.[a-f0-9]+\\.css)\">
+<link rel=\"stylesheet\" href=\"[/\\\\]{1}html-css\\.[a-f0-9]+\\.css\">
+<link[^]*href=\"(.*\\.css)\"
+<link\\h+(.+?)\\h*\\/?>
+<meta property=\"og:title\" content=\"(?P<title>[^\"]*)\" />
+<meta[^>]*http-equiv[^>]*refresh[^>]*content\\s*=\\s*(?P<quote>[\"\\'])(?P<int>(\\d*\\.)?\\d+)\\s*;\\s*url=(?P<url>.*?)(?P=quote)
+<meta[^>]+?property=([\"\\'])og:video\\1[^>]+?content=([\"\\'])(?P<url>https?://(?:test)?player\\.(?:rutv\\.ru|vgtrk\\.com)/flash\\d+v/container\\.swf\\?id=.+?\\2)
+<meta[^>]+?property=\"og:video\"[^>]+?content=\"http://www\\.vesti\\.ru/i/flvplayer_videoHost\\.swf\\?vid=(?P<id>\\d+)
+<meta[^>]+property=\"og:video\"[^>]+content=\"https?://embed\\.5min\\.com/(?P<id>[0-9]+)/?
+<meta\\s+property=\"og:video:tag\".*?content=\"yt:stretch=(?P<w>[0-9]+):(?P<h>[0-9]+)\">
+<meta\\shttp-equiv=\"content-language\"\\scontent=\"(?P<language>\\S+)\"\\s\\/>
+<meta\\sproperty=[\"']og:image[\"']\\scontent=\".+/(?P<stream_id>\\d+)/[^/]+\\.jpg
+<nowiki\\s*>([^]*?)<\\/nowiki\\s*>
+<npo-player\\smedia-id=[\"'](?P<media_id>[^\"']+)[\"']
+<object[^>]+data=([\"\\'])https?://videomore\\.ru/player\\.swf\\?.*config=(?P<url>https?://videomore\\.ru/(?:[^/]+/)+\\d+\\.xml).*\\1
+<option.*?>(?P<name>[\\w\\s]+)</option>
+<option[^>]+value=([\"\\'])(?P<id>[0-9a-z_]+)(?:#.+?)?\\1[^>]*>(?P<title>[^<]+)
+<option[^>]+value=([\"\\'])(?P<url>.+?)\\1[^>]+data-file-download=[^>]+>\\s*(?P<id>.+?)(?:(?:&nbsp;|\\s+)\\((?P<size>.+?)\\))?\\s*<
+<option\\b[^>]+\\bvalue=([\"\\'])(?P<url>(?:(?!\\1).)+)\\1[^>]*>\\s*(?P<format>[^<]+?)\\s*<
+<oth>((\\R||.)*)</oth>
+<p class=\\\"results\\\">The (similarity|relatedness) of (.*?) \\(<a href=\\\"\\#\\\" onclick=\\\"showWindow \\(\\'umls\\_wps\\.cgi\\?wps=(C[0-9]+)(|.*?\\')?\\, \\'\\'\\); return false;\\\">(C[0-9]+)<\\/a> \\) and (.*?) \\(<a href=\\\"\\#\\\" onclick=\\\"showWindow \\(\\'umls\\_wps\\.cgi\\?wps=(C[0-9]+)(|.*?\\')\\, \\'\\'\\); return false;\\\">(C[0-9]+)<\\/a> \\) using (.*?) \\(.*?\\) is (.*?)\\.<\\/p>
+<p[ -\\w*= \\w=\\-.:\\/\\/?!;+\"]*>
+<p>([^]+?)<\\/p>
+<p>[\\s\\h\\v]*</p>
+<p>\\s*+(<br\\s*/*>)?\\s*</p>
+<p>data1: (
+<p>data2: (
+<pre class=\"(.*)\">([^\"]*+)<\\/pre>
+<pre class=\".*\">([^\"]*+)<\\/pre>
+<pre>([^]*?)<\\/pre>
+<pre><code class=\"language-(?P<lang>.+?)\">(?P<code>.+?)</code></pre>
+<pre><code>([^]*?)<\\/code><\\/pre>
+<ref>((\\R||.)*)</ref>
+<remark>(?P<msg>[^<>]*)</remark>
+<required>\\s(?<vartype>([A-Z]\\w+(\\\\)*){1,})\\s\\$(?<varname>\\w+)
+<result ((?:(?!\\/>)[^])+)\\/>
+<script *(type=\"text\\/javascript\")? *>(
+<script src=\"//player.dacast.com/js/player.js\" id=\"(?P<broadcaster_id>\\d+)_(?P<video_type>[cf])_(?P<video_id>\\d+)\"
+<script src=\"[/\\\\]{1}html-css-js\\.[a-f0-9]+\\.js\">
+<script([^'\"]|\"(\\\\.|[^\"\\\\])*\"|'(\\\\.|[^'\\\\])*')*?<\\/script>
+<script[^]*<\\/script>
+<script[^]*src=\"(.*)\"
+<script[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//embed\\.cloudflarestream\\.com/embed/[^/]+\\.js\\?.*?\\bvideo=[\\da-f]+?.*?)\\1
+<script[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//player\\.zype\\.com/embed/[\\da-fA-F]+\\.js\\?.*?api_key=.+?)\\1
+<script[^>]+data-config=([\"\\'])(?P<url>(?:https?:)?//config\\.playwire\\.com/.+?)\\1
+<script\\b[\\s]*type[\\s]*=[\\s]*[\"']text\\/javascript[\"'][\\s]* src=[\"']([^>]*[\\/\\\\]dist[\\/\\\\]b4w.js)[\"'][^>]*>[\\s\\S]*?<\\/script>
+<script\\b[^>]+\\bsrc=[\"\\'](?:https?:)?//require\\.nexx(?:\\.cloud|cdn\\.com)/(?P<id>\\d+)
+<section[^]+(?=<h3>Stacked)
+<source\\s+src=\"(?P<src>[^\"]+)\"\\s+type=\"(?P<type>[^\"]+)\"
+<span ([^>]++)>((?:[^<]*+<br \\/>)++[^<]*+)</span>
+<span class=\\\"leech\\\" id=\\\"leechStats\\\"><b>(?P<leechers>\\d+)</b>
+<span class=\\\"seed\\\" id=\\\"seedStats\\\"><b>(?P<seeders>\\d+)</b>
+<span class=\\'alm-search-page matching-text-field-name\\'>(?P<field_name>.*?): </span>
+<span data-module=\"(?P<module>[^\"]+)\" data-metric=\"(?P<metric>[^\"]+)\"></span>
+<span id=\"keepMeBolded\" class=\"alm-search-page matching-text-highlight\">(?P<word>.*?)</span>
+<span id=\\\"tor-hash\\\">(?P<torrent_hash>[a-zA-Z0-9]+)</span>
+<span style=\"color:(#[^\"]+)\">([^]*?)<\\/span>
+<span[^>]*style=\"color:\\s*(?P<color>#[A-Fa-f0-9]{3,6})\"[^>]*>
+<ssi:(?P<tag_id>[a-zA-Z]+)\\s*(?P<params>.*?)>
+<style([^'\"]|\"(\\\\.|[^\"\\\\])*\"|'(\\\\.|[^'\\\\])*')*?<\\/style>
+<style[^]*<\\/style>
+<svg(?:\\s+[a-z0-9-\\:]+=(\"|').*?\\1)*\\s*(?:(\\/)|(>[^]*<\\/svg))>
+<symbol(.*?id=(['\"])(.*?)\\2[^]*?<\\/)symbol>
+<td (?P<td_tag>[^>]+)>\\n\\t\\t\\t<div (?P<div_tag>[^>]+)><a (?P<a_tag>[^>]+)><img (?P<img_tag>[^>]+)></a></div>\\n\\t\\t\\t</div>\\n\\t\\t\\t</td>
+<td class=\"bgcolist2\">(?P<ID>\\d{10})</td>
+<td class=\"v\">(?P<handlers>[^<]+)</td>
+<td style=\\\"color:darkgreen\\\">Info hash:</td><td><strong>(?P<torrent_hash>[a-fA-F0-9]{40})</strong></td>
+<td><table class=\"first last docutils citation\" frame=\"void\" id=\"(?P<tag>[A-Za-z0-9]+)\" rules=\"none\">\n<colgroup><col class=\"label\" /><col /></colgroup>\n<tbody valign=\"top\">\n<tr><td class=\"label\">(?P<content>\\[[A-Za-z0-9]+\\])</td><td></td></tr>\n</tbody>\n</table>\n</td>
+<template>([^]*?)<\\/template>
+<TextView .* text='f\\\\'oo'\\/>
+<title>(?P<artist>.*?) - (?P<title>.*?) LYRICS</title>
+<title>(?P<artist>.*?) LYRICS - (?P<title>.*?)</title>
+<title>(?P<name>.*?)( \\(v[0-9.]*?\\))?<\\/title>
+<title>(?P<title>.*?) Letras de Canciones de (?P<artist>.*?)</title>
+<title>[^]*?<\\/title>
+<tr[^>]*>\\s*\n                                <td[^>]*><a[^>]+>(\\d+)</a></td>\\s* # 1) id\n                                <td[^>]*><b><a[^>]+>(.+?)</a></b></td>\\s* # 2) title\n                                <td[^>]*>(.*?)</td>\\s* # 3) status\n                                <td[^>]*>(.*?)</td>\\s* # 4) severity\n                                <td[^>]*><small>(.*?)</small></td>\\s* # 5) last updated\n                                <td[^>]*>(.*?)</td>\\s* # 6) broken in\n                                <td[^>]*>(.*?)</td>\\s* # 7) fixed in\n                                #</tr>\n                               
+<tr\\sclass=\"(?P<odd_even>odd|even)\">\\n\n                                   \\s+<td>(?P<filename>.*?)</td>\\n\n                                   \\s+<td>(?P<size>.*?)</td>\\n\n                                   \\s+<td>(?P<content_type>.*?)</td>\\n\n                                   \\s+<td>(?P<content_encoding>.*?)</td>\\n\n                                </tr>\n                                
+<tr>[^]*<td>([^]*)<\\/td>[^]*<td>([^]*)<\\/td>[^]*<td>([^]*)<\\/td>[^]*<td>([^]*)<\\/td>
+<tr>\n                        <td>(?P<Project>.*?)</td>\n                        <td>(?P<Spider>.*?)</td>\n                        <td>(?P<Job>.*?)</td>\n                        (?:<td>(?P<PID>.*?)</td>)?\n                        (?:<td>(?P<Start>.*?)</td>)?\n                        (?:<td>(?P<Runtime>.*?)</td>)?\n                        (?:<td>(?P<Finish>.*?)</td>)?\n                        (?:<td>(?P<Log>.*?)</td>)?\n                        (?:<td>(?P<Items>.*?)</td>)?\n                        </tr>\n                    
+<U....> \\\\x..\\\\x.. \\|1 # ([^-]*)->(.*)
+<URL [^>]++>(?!<s>)
+<value\\s*>(?P<rest>[^<>]*)</value\\s*>
+<xhdr>((?:(?!<\\/xhdr>)[^])+)
+= (?P<min>[0-9.]+)/(?P<avg>[0-9.]+)/(?P<max>[0-9.]+) ms
+#NÃZEV?
+=(?!
+=(?!\\{)(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">]+)
+=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+)
+=(?:(\"|')(?:\\\\[\\s\\S]|{(?!{)(?:{(?:{[^}]*}|[^}])*}|[^}])+}|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+)
+=(?:(\\h\\h)|\\r\\n)
+=(?P<estimated_hours>[\\d\\.]+)h
+=(?P<prevent_escape>=)?(?P<explicit_space>,)?\\s*(?P<line>.*)
+=(\\h\\h)|=\\r\\n
+=.*label(_tag)?.*?,\\s*(?<label-title>(['\"].+?['\"]|:[[:alnum:]_]+))
+=.*label(_tag)?[^,]+?(?<label-title>(['\"].+?['\"]|:[[:alnum:]_]+))[^,]*$
+=.*submit(_tag)?\\s+(?<submit-text>(['\"].+?['\"]|:[[:alnum:]_]+))
+=\\?(?P<encoding>.*)\\?B\\?(?P<text>.*)\\?=
+=\\?(?P<charset>[^\\?]*)\\?(?P<encoding>[^\\?]*)\\?(?P<text>[^\\?]*)\\?=
+=\\?([!
+=\\p{Digit}+,
+={9} (?P<marker_type>Started|Finished) (?P<name>.*?) \\(results: (?P<result_code>\\d+), elapsed: .*?\\) \\(at (?P<timestamp>.*?)\\)
+=~\\s++/
+==([a-z0-9\\-\\_]+)==
+==\\sdumpstate:\\s(?P<timestamp>\\d+-\\d+-\\d+\\s\\d+:\\d+:\\d+)
+=>(?P<actual>.*)
+=head[12] \\Q$module\\E\\n\\nThe (.*?) \\(
+=head[12] \\Q$module\\E\\n\\nThe standard (.*?) \\(
+=head1 \\Q$module\\E\\n\\n(.*?) \\(
+=head1 \\Q$module\\E\\n\\nThe (.*?) indicator
+=head2 \\Q$module\\E\\n\\n([A-Z][A-Za-z0-9]+ )+
+=head2 \\Q$module\\E\\n\\nThe (.*?) stop
+=host:\\Q$hname\\E
+> ($xx0,$xx1) { p6_from_n(p6_to_n($xx0) 
+'> ':' Sigbody_noinv\n        {\n          my $sig = $item{Sigbody_noinv};\n          die \"invocant cannot be optional\" unless $item{Invocant}->{required};\n          $sig->s_invocant( $item{Invocant}->{param} );\n          $return = $sig;\n        }\n\n    Sigbody_noinv: Param(s? /,/)\n        {\n          my @params = @{ $item{'Param(s?)'} };\n          my @slurpies = map { $_->{param} } grep { $_->{slurpy} } @params;\n          my @nonslurpies = grep { !$_->{slurpy} } @params;\n          my @positionals = grep { $_->{style} eq 'positional' } @nonslurpies;\n          my @named = grep { $_->{style} eq 'named' } @nonslurpies;\n\n          my $seen_optional;\n          my $requiredPositionalCount = 0;\n\n          # calculate requiredPositionalCount, and make sure we don't have\n          # :($optional?, $required!) -- that's invalid.\n          for my $param (@positionals) {\n              $seen_optional++ if ! $param->{required};\n              die \"can't place required positional after an optional one\" if\n                  $param->{required} && $seen_optional;\n              $requiredPositionalCount++ if ! $seen_optional;\n          }\n\n          my %slurpies = map { $_->p_sigil => $_ } @slurpies;\n\n          my ( $slurpy_array, $slurpy_hash ) = ( @slurpies{qw(@ %)} );\n\n          croak \"Only one slurpy of every type is allowed\" if keys %slurpies != @slurpies;\n\n          my $sig = Perl6::Signature::Val::Sig->new\n              ( s_requiredPositionalCount => $requiredPositionalCount\n              , s_positionalList          => [ map { $_->{param} } @positionals ]\n              , s_namedList               => [ map { $_->{param} } @named ]\n              , s_requiredNames           => { map { $_->{param}->p_label => 1 } grep { $_->{required} } @named }\n              , ( $slurpy_array ? ( s_slurpyArray => $slurpy_array ) : () ),\n              , ( $slurpy_hash  ? ( s_slurpyHash  => $slurpy_hash  ) : () ),\n              );\n          $return = $sig;\n        }\n\n    Invocant: Param\n\n    Param: ParamType(s? /\\|/)\n           SlurpynessModifier(?)\n           ParamIdentifier <skip:''>\n           OptionalityModifier(?)\n           <skip:'\\s
+>(?<tag-content>(?!&.*;)[[:space:][:alnum:][:punct:]]+?)<\\/
+>?\\Q$bar\\E<?
+>\\Q$bar\\E
+>\\Q$project\\E<!--ID:(\\d+)-->
+>\\s+\\n    # '> ' marker line from '' input (input not echoed)\n                 \\n                # empty line\n                 (?P<LIST>         # list of groups\n                  (                # consists of repeats of the same pattern:\n                    \\s*\\d+         # group number\n                    \\s+[^\\s]+\\s*:  # group name, separator ':'\n                    \\s*\\d+\\satoms  # number of atoms in group\n                    \\n\n                   )+              # multiple repeats\n                  )
+>{$name} ) {\n\t\tcroak \"$name already exists, delete it first.\"\n\t\t\tunless refaddr($obj) == refaddr($self
+>v(?P<version>[^<]+)<
+0[xX]\\h+
+0=\n                       (?P<name>[^_]+)_\n                       (?P<major>\\d+)\\.\n                       (?P<minor>\\d+)
+0077\" href=\"(?P<url>[^\"]*)\" >.*?<span class=\"mr6\">[^<]*?</span>(?P<title>.*?)</span>
+0x(?:\\h[\\h_]*)?\\h
+0x\\h('?\\h)*[lu]*
+0x\\h[\\h_]*
+0x\\h+
+1(?~2)3
+1(?P<foo>\\d)
+10(#)\\d++
+10(?<_1>#)\\d++
+11(#)[\\daA]++
+11(?<_1>#)[\\daA]++
+12(#)[\\da-bA-B]++
+12(?<_1>#)[\\da-bA-B]++
+123456[/\\\\]unstructured[/\\\\]\\w+[/\\\\]bwa[/\\\\]human.fa
+1243*&[]_dsfAd
+13(#)[\\da-cA-C]++
+13(?<_1>#)[\\da-cA-C]++
+14(#)[\\da-dA-D]++
+14(?<_1>#)[\\da-dA-D]++
+15(#)[\\da-eA-E]++
+15(?<_1>#)[\\da-eA-E]++
+16(#)\\h++
+16(?<_1>#)\\h++
+17(#)[\\da-gA-G]++
+17(?<_1>#)[\\da-gA-G]++
+18(#)[\\da-hA-H]++
+18(?<_1>#)[\\da-hA-H]++
+19(#)[\\da-iA-I]++
+19(?<_1>#)[\\da-iA-I]++
+2(#)[0-1]++
+2(?<_1>#)[0-1]++
+20(#)[\\da-jA-J]++
+20(?<_1>#)[\\da-jA-J]++
+21(#)[\\da-kA-K]++
+21(?<_1>#)[\\da-kA-K]++
+22(#)[\\da-lA-L]++
+22(?<_1>#)[\\da-lA-L]++
+23(#)[\\da-mA-M]++
+23(?<_1>#)[\\da-mA-M]++
+24(#)[\\da-nA-N]++
+24(?<_1>#)[\\da-nA-N]++
+25(#)[\\da-oA-O]++
+25(?<_1>#)[\\da-oA-O]++
+26(#)[\\da-pA-P]++
+26(?<_1>#)[\\da-pA-P]++
+27(#)[\\da-qA-Q]++
+27(?<_1>#)[\\da-qA-Q]++
+28(#)[\\da-rA-R]++
+28(?<_1>#)[\\da-rA-R]++
+29(#)[\\da-sA-S]++
+29(?<_1>#)[\\da-sA-S]++
+3(#)[0-2]++
+3(?<_1>#)[0-2]++
+3(?=([^\"\\\\]*(\\\\.|\"([^\"\\\\]*\\\\.)*[^\"\\\\]*\"))*[^\"]*$)
+30(#)[\\da-tA-T]++
+30(?<_1>#)[\\da-tA-T]++
+31(#)[\\da-uA-U]++
+31(?<_1>#)[\\da-uA-U]++
+31mError: error with properties[^]*code: 'BAD'
+31mError[^]*murray: 'rothbard'
+32(#)[\\da-vA-V]++
+32(?<_1>#)[\\da-vA-V]++
+33(#)[\\da-wA-W]++
+33(?<_1>#)[\\da-wA-W]++
+34(#)[\\da-xA-X]++
+34(?<_1>#)[\\da-xA-X]++
+35(#)[\\da-yA-Y]++
+35(?<_1>#)[\\da-yA-Y]++
+36(#)[\\da-zA-Z]++
+36(?<_1>#)[\\da-zA-Z]++
+4(#)[0-3]++
+4(?<_1>#)[0-3]++
+5(#)[0-4]++
+5(?<_1>#)[0-4]++
+500.+\\Q$current_proxy
+6(#)[0-5]++
+6(?<_1>#)[0-5]++
+7(#)[0-6]++
+7(?<_1>#)[0-6]++
+7\\u[0-9A-F]{4}
+8(#)[0-7]++
+8(?<_1>#)[0-7]++
+9(#)[0-8]++
+9(?<_1>#)[0-8]++
+9,0,l,bt,(?P<batteryTime>.*)
+a (
+a href=\"(?P<url>[^\"]*)\" title=.*?(title nowrap\">(?P<title>[^<]*))?<\\/span>
+a(?adu:a)a
+a(?P<middle>x*)b
+a(b
+a*+
+A:\\s*(?P<elapsed_s>\\d+)\\.\\d\\s*
+a?+
+a[(]\\\\
+a[)]\\\\
+a[\\P{Any}]a
+A[\ud83d\udca9-\ud83d\udcab]A
+A[\\uD83D\\uDCA9-\\uD83D\\uDCAB]A
+a[]
+a[^\\P{Any}]a
+a[^\\P{Any}x]a
+a\\\\
+a\\/Mordor\\/\\_Sidebar\\.md
+a\\C-\\M-Bc
+a\\\\\\c2b
+a\\C-bc
+a\\G{2,3}b\\G++c
+a\\hc
+a\\Hc
+a\\Kb
+a\\M-\\cBc
+a\\M-\\C-Bc
+a\\M-Bc
+a\\p{Any}a
+a\\P{Any}a
+a\\u{41 1F60D}
+a\\Xb
+a{1,111111111111111111111111111111111111111111111}
+a{1,21474836471}
+a{1,2147483648}
+a{1,999999999999999999999999999999999999999999999}
+a{111111111111111111111111111111111111111111111}
+a{2,4}{3,6}
+a{21474836471,21474836471}
+a{21474836471}
+a{2147483648,2147483648}
+a{2147483648}
+a{4}{6}
+a{4}+
+a{6,8}+
+a{999999999999999999999999999999999999999999999}
+a|an|(?:(?:
+a++
+a=control:(?P<trackid>[\\w=\\d]+)
+aaaa (?P<num>\\d+) bbbb
+ab\\Kcd
+ab\\p{Alpha}cd
+ab\\p{Blank}
+ab\\yef
+ab{2,3}*
+ab{2}{3}{4}{5}
+abak\\-flow\\.([\\w\\d\\-\\_]+)
+abc(
+abc[]
+abc\\\\
+abc{3,2}
+abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&()*+,-./:;<=>?@\\^_|~
+ABSOLUTE\\-VALUE\\-INSERTION\\-\\p{Digit}+
+acct\\_
+acl=(?P<path>[^\"'*]+)
+Active connections: (?P<conn>\\d+)
+Active Ordered Broadcast (?P<type>(foreground|background)) #(?P<id>\\d+)
+Add correct host key in (?P<HOSTS_FILE>\\S+) to get rid of this message
+Add correct host key in (?P<PATH>\\S+) to get rid of this message
+add\\s+(?P<name>\\w+)\\s+(?P<network>.*)\\s*
+add_handler(\"001\", -> $event {\n      $.inside++;\n      $.servername     = $event<server>;\n      $.curnick        = $event<to>;\n      $:in_login_phase = 0;\n      .
+add_handler(\"353\", -> $event {\n      my ($chan, $nicks) = $event<rest> ~~ m:P5
+add_handler(\"366\", -> $event {\n      # (Perl 6)++ for new parenthesis rules! :)\n      my $chan = normalize (split \" \", $event<rest>)[0];\n\n      unless defined %:cache353{$chan} {\n\t%:cache353{$chan} = %:channels{$chan}<users>;\n      }\n\n      %:channels{$chan}<users>.delete(%:cache353{$chan}.keys);\n      %:users{$_}<channels>.delete($chan) for %:cache353{$chan}.keys;\n    });\n\n    # We track our status, especially the channels we've joined.\n    # Somebody joined. Update %channels and %users accordingly.\n    .
+add_handler(\"INVITE\", -> $event {\n    my ($from, $chan) = $event<from rest>;\n    .
+add_handler(\"NICK\", -> $event {\n      if(normalize($event<from_nick>) eq normalize($curnick)) {\n\t$.curnick = $event<object>;\n\tdebug \"Changed nick to \\\"$.curnick\\\".\";\n      }\n\n      my $oldnick = normalize $event<from_nick>;\n      my $newnick = normalize $event<object>;\n      if %:users{$oldnick}<channels> {\n\tfor %:users{$oldnick}<channels>.keys {\n\t  %:channels{$_}<users>.delete($oldnick);\n\t  %:channels{$_}<users>{$newnick}++;\n\t}\n      }\n\n      # The more elegant %users{$newnick} = %users.delete($oldnick) doesn't work\n      # yet in Pugs, because, so it seems, delete stringifies its return values,\n      # but I was unable to work out a test case, and in interactive Pugs delete\n      # seems to work...\n      %:users{$newnick} = %:users{$oldnick};\n      %:users.delete($oldnick);\n    });\n  }\n\n  # Instance methods\n  method channels()            { $:chans.members }\n  method user(Str $nick)       { %:users{normalize $nick} }\n  method channel(Str $channel) { %:channels{normalize $channel} }\n\n  method add_handler(Str $event, Code $callback) {\n    push %:handler{$event}: $callback;\n  }\n\n  method connect() { .
+ADD_ONION (?P<keytype>[^ ]+):(?P<keyblob>[^ ]+)(?P<flags> Flags=[^ ]+)? Port=(?P<ports>[^ ]+)
+addr:? (
+address:? (
+Address=(?P<address>[^/]+)\\b/\\b(?P<network>(?:3[0-2]|[12][0-9]|[1-9]))\\b
+addWebSeed\\s*\\(\\s*([\"\\'])(?P<url>(?:(?!\\1).)+)\\1
+Admin\\\\(.*?)@
+adurl=(?P<domain>.*)$
+algorithm=\"MD5\
+alias (?P<key>.*?)=(?P<value>.*)
+alias\\(\\s?(['\\\"][\\-\\_\\/\\w]+['\\\"])\\s?\\)
+aliases:\\s*\\[([^]]++)
+All configuration parts are assigned to schedulers and their satellites :)
+allocation_id: (?P<allocation_id>\\d+).*allocator_name: \"(?P<allocator_name>[^\"]+)\".*
+ALTER TABLE\\h+(\\w+?)\\h+ADD\\h+(?:(UNIQUE)|INDEX)\\h+(?:INDEX)?\\h*(\\w+?)\\h*\\((.+)\\)
+ALTER TABLE\\h+(\\w+?)\\h+ADD\\h+PRIMARY\\h+KEY\\h+(\\w+?)\\h*\\((.+)\\)
+Android ([\\.\\_\\d]+)
+android ([a-z\\.\\_\\d]+);
+android.*?version\\/([\\.\\_\\d]+).*?safari
+android.+[;\\/]\\s*(Xtreme\\_)?(V(1[045]|2[015]|30|40|60|7[05]|90))\\s+build
+android.+[;\\/]\\s*(Xtreme\\_?)?(V(1[045]|2[015]|30|40|60|7[05]|90))\\s+build
+Android[\\s\\_\\-\\/i686]?[\\s\\_\\-\\/](\\d+[\\.\\-\\_]\\d+[\\.\\-\\_]?\\d*)
+antiForgeryToken: '(?P<token>.+)'
+api\\_key=\\w+
+apiBaseUrl:\\s*[\"'](?P<baseurl>[^\"']+)[\"']
+app[\\/\\\\]assets
+app\\_(?<jsVersion>\\d+)
+App\\\\Modules\\\\(.*?)\\\\
+ardformatplayerclassic\\(\\'playerbereich\\',\\'(?P<width>[0-9]+)\\',\\'.*\\',\\'(?P<video_id>[0-9]+)\\',\\'(?P<secret>[0-9]+)\\',\\'(?P<thumbnail>.+)\\',\\'\\'\\)
+ARG(?P<id>\\d+)
+Argument [0-9]+ passed to [a-zA-Z0-9_\\\\]+::[a-zA-Z0-9_]+\\(\\) must be an instance of [a-zA-Z0-9_\\\\]+, [a-zA-Z0-9_\\\\]+ given
+-arch \\Q$arch\\E
+ARITHMETIC\\-OPERATOR\\-DELETION\\-\\p{Digit}+
+ARITHMETIC\\-OPERATOR\\-REPLACEMENT\\-\\p{Digit}+
+arn:aws:iam::(?P<account_id>[^:]+):role/(?P<role_name>.+)
+arn:aws:kms:(?P<region>[^:]+):(?P<accountid>[^:]+):(?P<keyname>[^:]+)
+arn:aws:lambda:(.+):([0-9]+):function:([A-z0-9\\\\-\\\\_]+)($|:[0-9]+)
+array<(?<type>[a-zA-Z\\\\]+)>
+ASA-(config-)?5-111005: (?P<user>.+) end configuration: OK
+asciinema\\.org\\/a\\/(?<asciinema_id>[\\p{Alnum}_\\-]+)$
+asdf)
+at (.*)(dist[\\/|\\\\]\\w*.js:)(\\d*)(:)(\\d*)
+at [^\\/]*((?:(?:[a-zA-Z]+:)|(?:[\\/])|(?:\\\\\\\\))(?:.+)):(\\d+):(\\d+)
+at \"\\Q$mod_file\\E\" 
+at \"\\Q$mod_file\\E\" line
+at\\s(?P<function>\\w+)\\s\\((?P<file>.*?):(?P<line>\\d+).*?\\)
+attachment;\\s*filename=\"(?P<filename>[^\"]+)\"
+ATTRLOC\\_START([\\S\\s]*)ATTRLOC\\_END
+auth_log(?P<LOG>.*)\\.png
+auth=(?P<auth>.*)
+aws (?P<account>\\\\S+) (?P<region>\\\\S+) (?P<command>list instances)
+aws (?P<account>\\\\S+) (?P<region>\\\\S+) (?P<command>whois) (?P<name>\\\\S+)
+aws (?P<account>\\\\S+) (?P<region>\\\\S+) (?P<command>whoisip) (?P<address>\\\\S+)
+aws (?P<command>find) (?P<name>\\\\S+)
+aws (?P<command>findip) (?P<address>\\\\S+)
+aws (?P<command>list accounts)
+aws (?P<command>list regions)
+AWS.*(?P<access_key>(?<![A-Z0-9])[A-Z0-9]{20}(?![A-Z0-9]))[:/]
+azure[/\\\\]cli[/\\\\]([^/\\\\]+)
+b(('.*?(?<!\\\\)')|(\\\".*?(?<!\\\\)\\\"))
+b'(?:[^']|\\\\(?:['\\\\nrt0]|x[\\da-fA-F]{2}))'
+b(?P<bands>[0-9A]{1,2})
+b?'(?:\\\\(?:x[0-7][\\da-fA-F]|u{(?:[\\da-fA-F]_*){1,6}|.)|[^\\\\\\r\\n\\t'])'
+b?\"(?:[^\\\\]|\\\\.)*?\"
+b[\\/|\\\\]b\\.test\\.js
+B[\ud83d\udca9-\ud83d\udcab]B
+B[\\uD83D\\uDCA9-\\uD83D\\uDCAB]B
+b\\/Mordor\\/\\_Sidebar\\.md
+background \\s* = \\s* [\\\"']? \\Q$$url[2]\\E ([\\\"'>])\n                       
+Bad jmespath expression: Invalid \\\\uXXXX escape.*\\\\uAZ12
+bad-1[^]+bad-1
+bare@([\\w\\.\\-\\/\\\\]+)
+Barryvdh\\Elfinder\\ElfinderServiceProvider::class
+basen><char>)<
+basen><char>*(?:<
+basen><char>]*)<
+basen><char>]+)<
+bb\\d+.*?version\\/([\\.\\_\\d]+)
+BEGIN[^]+?KEY[^]+END[^]+?KEY
+beginbfchar(?P<sections>.*?)endbfchar
+beginbfrange(?P<sections>.*?)endbfrange
+begincodespacerange(?P<sections>.*?)endcodespacerange
+beginswith(\\w+)-([\\w\\_]+)
+benchmark[\\/\\\\]
+BGP neighbor is (?P<neighbor>.*?), remote AS (?P<as>.*?), .*
+bigquery/v2/projects/(?P<projectID>.+?)/datasets/(?P<datasetID>.+?)/tables/(?P<tableId>.+?)/insertAll
+BINARY\\_PATH\\_NAME.*\\: (.*)$
+bitrate: (?P<bitrate>\\d+).* (?P<width>\\d{2,})x(?P<height>\\d{2,}),
+blackberry.*?version\\/([\\.\\_\\d]+)
+BlackBerry\\d*/(?P<version>[\\d\\.]*)
+bless(?=(?:(?:(?:[^\"\\\\]++|\\\\.)*+\"){2})*+(?:[^\"\\\\]++|\\\\.)*+$)
+Block #(?P<block_id>\\d+)
+bookDescEncodedData\\s=\\s\"(?P<description>[^\",]+)
+BOOST_VERSION\\s+(?P<version>\\d+)
+bootstrap(\\:|\\/js\\/\\*\\.js: js\\/\\*\\.js)\\s?\\n(\\n|.)*?((cat\\s)(?P<files>.*?))\\s>
+boundary=(?P<boundary>[^\\s]+)
+boundary=(?P<quote>['\"]?)(.*)(?P=quote)
+branding[\\/\\\\]initlogo.png
+Build dir:\\s+([\\:\\-\\.0-9a-zA-Z\\\\_]+)
+build([/\\\\])
+build:(?P<build_type>\\d+):text
+Build\\s+fingerprint:\\s+'(?P<build>\\S+)'
+Bundle[\\/\\\\]Features.*$
+Bundle\\\\([a-zA-Z0-9]+Bundle)\\\\
+BYCOL\\-([\\w\\_]+)=(\\w+)
+BYDAY=(
+BYHOUR=(
+BYMINUTE=(
+BYMONTH=(
+BYMONTHDAY=(
+BYSECOND=(
+BYSETPOS=(
+bytes (?P<first>\\d+)-(?P<last>\\d+)/(?P<size>\\d+)
+bytes=(?P<start>\\d+)?-(?P<end>\\d+)?
+bytes=\\h*(\\d+)-(\\d*)[\\D.*]?
+BYWEEKNO=(
+BYYEARDAY=(
+C:[\\/\\\\]homepath[\\/\\\\].aws[\\/\\\\]credentials
+C:\\\\
+C:\\\\(\\w+)\\\\
+C:\\\\(WINDOWS|Windows)\\\\(system32|sysnative)
+C:\\\\fakepath\\\\
+C:\\\\Users\\\\.+?.pyz\\/
+C[\ud83d\udca9-\ud83d\udcab]C
+C[\\uD83D\\uDCA9-\\uD83D\\uDCAB]C
+C[^\\uD800\\uDC00-\\uD800\\uDCAA\\uD80F\\uDCAA-\\uD8FF\\uDCAA\\uDAA0\\uDFFF-\\uDAF0\\uDFFFa-z]C
+C-\\\\|c\\\\
+C\\u{309a 26a1 26c4 1f300}
+C\\u{30b9 30ec 30c3 30c9}
+calc(\\(((?:[^\\(\\)]+|(?1))*)\\))
+calc(\\((?:[^\\(\\)]+|(?1))*\\))
+can_(
+cannot handle cmd_\\Q$command\\E event
+Can't locate \\Q$cmd_file\\E in \\@INC
+Can't locate \\Q$file\\E
+Can't locate \\Q$file\\E in \\@INC
+Can't locate \\Q$filename\\E\\.pm
+Can't locate\\s+(?:file\\s+)?'?\\Q$name\\E'?
+CapBnd:\\t\\h{16}
+CapEff:\\t\\h{16}
+CapInh:\\t\\h{16}
+CapPrm:\\t\\h{16}
+Car list:.*?(\\_(.*)\\_).*?Client interval
+card (?P<card>\\d+)[:].*?[[](?P<description>.*?)[]], device (?P<device>\\d+)[:].*?[[](?P<device_description>.*?)[]]
+cat > (?P<filename>.*?) &&.*$
+cat:\\s(?P<PATH>.*):\\s(?P<ERROR>.*)
+CC([-\\s])(?P<type>[A-Z-]+)\\1(?P<version>[\\d.]+)
+cc\\_\\w*\\.
+CJK\\K(\\p{Lu})
+clang(?P<major>(\\d))?(?P<minor>(\\d))?
+class [a-zA-Z]+ extends [a-zA-Z\\\\]+\\s*\\{
+class@anonymous\\x00.*?\\.php0x?[0-9a-fA-F]++
+class\\=(?:\"|').*(
+class\\s+([a-zA-Z0-9_]+)\\s+extends\\s+[\\\\A-Za-z0-9_]*Facade
+class=(?:\"|\"[^\"]*?\\s)(
+class=([\"\\'])embed-video\\1[^>]+data-video-code=([\"\\'])(?P<code>(?:(?!\\2).)+)\\2
+class=[\"\\']embedly-card[\"\\'][^>]href=[\"\\'](?P<url>[^\"\\']+)
+class=[\"\\']embedly-embed[\"\\'][^>]src=[\"\\'][^\"\\']*url=(?P<url>[^&]+)
+class=[\"']tvp_player[\"'][^>]+data-video-id=[\"'](?P<video_id>\\d+)[\"']
+class=\"dm-video-embed_video\" src=\"(?P<dm_url>.*)\"
+class=\"playerlist\"([^]+?)\\/table
+class=\"wrapper-live-player main-live-player\"><iframe src=\"(?P<dm_url>.*)\"
+Classifier: License :: OSI Approved :: (?P<classifier>[^\\r\\n]+)\\r?\\n
+--Classpath=\".*?\\\\jruby-jsvc.jar;.*?\\\\commons-daemon.jar;.*?\\\\jruby.jar
+client (?P<action>(dis)?connected) '(?P<nick>.*)'\\(id:(?P<clid>\\d+)\\)
+Clients waiting: (?P<num>\\d+)
+cloudshell_standard:\\s*cloudshell_(?P<name>\\S+)_standard_(?P<version>\\S+)\\.\\w+$
+cmd:\\s(?P<data>.*)$
+CMSSW_(?P<X>\\d+)_(?P<Y>\\d+)
+code); }\n    method is_error    () { HTTP::Status::is_error    (.
+code); }\n    method is_success  () { HTTP::Status::is_success  (.
+CODE_(?P<code>\\d+)_CODE
+Codec profile\\s*:\\s*([\\w\\_\\-\\\\/\\@\\. ]+)\n
+Codec profile\\s*:\\s*([\\w\\_\\-\\\\\\/\\@\\. ]+)\\n
+Codec\\s*:\\s*([\\w\\_\\-\\\\\\/ ]+)\\n
+Codec\\s*:\\s*([\\w\\_\\-\\\\/ ]+)\n
+Codec\\s*:\\s*([\\w\\_\\-\\\\/\\. ]+)\n
+coding[:=]\\s*(?P<encoding>[-\\w.]+)
+collectd (?P<version>.*), http://collectd.org/
+color by (
+Com.*+
+Command failed:[^]*--js_output_file=\\\".*?\\\"\\n
+Comment( \\(expected\\))?: (?P<comment_index>\\d+)
+comment><comment>       Alert => [\"<font color=\\\"#0000ff\\\">\", \"<
+comment><comment>       BaseN => [\"<font color=\\\"#007f00\\\">\", \"<
+comment><comment>       BString => [\"<font color=\\\"#c9a7ff\\\">\", \"<
+comment><comment>       Comment => [\"<font color=\\\"#7f7f7f\\\"><i>\", \"<
+comment><comment>       DataType => [\"<font color=\\\"#0000ff\\\">\", \"<
+comment><comment>       Error => [\"<font color=\\\"#ff0000\\\"><b><i>\", \"<
+comment><comment>       Function => [\"<font color=\\\"#007f00\\\">\", \"<
+comment><comment>       Char => [\"<font color=\\\"#ff00ff\\\">\", \"<
+comment><comment>       Keyword => [\"<b>\", \"<
+comment><comment>       Others => [\"<font color=\\\"#b03060\\\">\", \"<
+comment><comment>       Reserved => [\"<font color=\\\"#9b30ff\\\"><b>\", \"<
+comment><comment>       String => [\"<font color=\\\"#ff0000\\\">\", \"<
+comment><comment>       Warning => [\"<font color=\\\"#0000ff\\\"><b><i>\", \"<
+comment><comment> my $hl = new Syntax::Highlight::Engine::Kate(<
+comment><comment>##\t\t\t$n ++;<
+compat name=(?P<package>\\S+)
+Completed|Processed|Canceled\\_Reversal
+components\\\\([A-Z]\\w*)\\\\index\\.tsx
+computerized assignment from \"(?P<trigger>[^\"]+)\"
+Concrete\\\\Package\\\\(.*)\\\\Controller
+config.register_curation_concern :(?!
+config_name\\s++[\"'](\\w+)['\"]
+config=(?P<url>https?://bl\\.webcaster\\.pro/feed/start/free_[^?&=]+)
+configstore-custom-path(\\/|\\\\)foo.json$
+configstore-test(\\/|\\\\)config.json$
+connectionProfile:[^]*name:.*profileName
+console\\.error\\.apply\\(console, \\[\"\\[SERVER\\] (?P<msg>.*)\"\\]\\);
+const short *\\*\\n^(
+const VERSION = \"(?P<version>[0-9]+\\.[0-9-]\\.[0-9-]+)\"
+const VERSION = \"(?P<version>[0-9]+\\.[0-9-]+\\.[0-9-]+)\"
+const\\s+(facade)\\s+\\=\\s+('|\\\")(?<name>([A-Z]\\w+(\\\\)*){1,})('|\\\");
+constmap.o tls.o ssl_timeoutio.o ndelay.a -L\\/usr\\/local\\/ssl\\/lib -lssl -lcrypto \\\\
+constraint\\_unique
+Constraints on package \"foo\":[^]+bar 1.0.0
+Constraints on package \"foo\":[^]+top level
+Constraints on package \"indirect\":[^]+one-of-equal 1.0.0
+Constraints on package \"indirect\":[^]+top level
+const-string\\s+(?P<const>.*)
+contains ([\\w\\-\\_]+)
+contains(.+)-([\\w\\_]+)
+content = '';\n    @:parts = ();\n    return;\n}\n\nmethod protocol (Str ?$protocol) is rw {\n    return Proxy.new(\n        FETCH => { $:protocol; },\n        STORE => -> Str $val { $:protocol = $val; }\n    );\n}\n\n# XXX this might need to be rewritten\nmethod content (Str ?$content, Bool ?$keep) is rw {\n    return Proxy.new(\n        FETCH => {\n                if (want.List) {\n                    $:content unless $:content.defined;\n                    \n                    my $old = $:content;\n                    $old = $$old if $old.ref eq \"Scalar\";\n                    \n                    return $old;\n                }\n              },\n        STORE => -> Str $content, Bool ?$keep {\n                if (want ~~ List) {\n                    $:content unless $:content.defined;\n                    \n                    my $old = $self.:content;\n                    $old = $$old if $old.ref eq \"Scalar\";\n                }\n                \n                $:content = $content;\n                \n                #@:parts = () if $del;\n                \n                .
+content(.*+)
+content;\n    \n    return [~] ($:headers.as_string($newline), $newline, ($content.chars && $content !~ 
+content\\-?\\_?type
+CONTENT\\_(LENGTH|TYPE)
+content_type(\"multipart
+content_url_encoded\\[(?P<content_url_encoded_name>[^]]*)\\]
+content=[\"']([^\"'\\\\]+)[\"']
+content=\"showroom:///room\\?room_id=(?P<room_id>\\d+)\"
+Content-Disposition: form-data; name=\"(?P<name>.+?)\"(?:; filename=\"(?P<filename>.+?)\")?(?P<headers>(?:\\r|\\n)+?.+?(?:\\r|\\n)+?)?(?P<data>.+)
+Content-Disposition:.*\\s+name=(
+Content-ID:\\s*([^
+Content-Length: (?P<length>\\d+)\r\n
+Content-Type:(\\V*)
+Controller\\\\(.+)Controller$
+Controller\\\\(\\w+)Controller::?(\\w+)$
+controller_serial':\\s*'(?P<controller_serial>\\w*)',\\s*'faucet_serial':\\s*'(?P<faucet_serial>\\w*)'
+Controllers(\\\\Admin)?\\\\(?P<name>.*)Controller
+CONVECTIVE\\sSIGMET\\s(?P<label>[0-9A-Z]+)\\s\nVALID\\sUNTIL\\s(?P<hour>[0-2][0-9])(?P<minute>[0-5][0-9])Z\\s\n(?P<states>[A-Z ]+)\\s\n(?P<from>FROM)?\\s?(?P<locs>[0-9A-Z \\-]+?)\\s\n(?P<dmshg>DMSHG|DVLPG|INTSF)?\\s?(?P<geotype>AREA|LINE|ISOL)?\\s?\n(?P<cutype>EMBD|SEV|SEV\\sEMBD|EMBD\\sSEV)?\\s?TS\\s(?P<width>[0-9]+\\sNM\\sWIDE)?(?P<diameter>D[0-9]+)?\n
+cookbooks\\/(?!
+Cookie:\\Q$user_name\\E@([\\x21-\\xFF]+).*?((?:\\Q$user_name\\E|\\Q$user_name2\\E)@[\\x21-\\xFF]+\\.txt)
+Cookie\\:\\Q$user_name\\E\\@([\\x21-\\xFF]+).*?((?:\\Q$user_name\\E|\\Q$user_name2\\E)\\@[\\x21-\\xFF]+\\.txt)
+CoolPad( |\\_)?([.0-9a-zA-Z]+)
+copy.*((file|directory|folder)*)?\\s(?P<location>\\\"?(.)*\\\"?)$
+Copyright \\(c\\) (?P<first_year>20\\d\\d)(-(?P<last_year>20\\d\\d))?, Lars Asplund lars\\.anders\\.asplund@gmail\\.com
+Core\\s\\d+:\\s+[\\+\\-](?P<Temp>\\d+)\\.*\\d*(\u00b0|\\s)C
+could not convert (?P<type>\\w+)
+Could not find file: \\Q$in
+Could not find the file foo in container \\h{64}\\z
+Covariance\\_(.*)\\_to\\_(.*)
+coveo\\.analytics[\\/\\\\]dist[\\/\\\\].*\\.js
+CPU (?P<cpu>\\d+) FREQUENCY: (?P<freq>\\d+) kHZ
+CPU:(?P<cpu_id>\\d+) \\[\\d*\\s*EVENTS DROPPED\\]
+cpu_frequency(?:_devlib):\\s+state=(?P<freq>\\d+)\\s+cpu_id=(?P<cpu>\\d+)
+CREATE TABLE\\s+`(?P<name>\\w+)`
+create.* app[/\\\\]basics[/\\\\]mock-project.txt
+created (?P<MigrationFilename>.+(?P<Version>\\d{14}).*?)\\s
+Created test[/\\\\].tmp[/\\\\]bundled.json from test[/\\\\]files[/\\\\]valid[/\\\\]circular-refs[/\\\\]api.yaml\\n
+Created test[/\\\\].tmp[/\\\\]bundled.json from test[/\\\\]files[/\\\\]valid[/\\\\]multi-file[/\\\\]api.yaml\\n
+Created test[/\\\\].tmp[/\\\\]bundled.json from test[/\\\\]files[/\\\\]valid[/\\\\]single-file[/\\\\]api.yaml\\n
+Created test[/\\\\].tmp[/\\\\]bundled.yaml from test[/\\\\]files[/\\\\]valid[/\\\\]circular-refs[/\\\\]api.yaml\\n
+Created test[/\\\\].tmp[/\\\\]bundled.yaml from test[/\\\\]files[/\\\\]valid[/\\\\]multi-file[/\\\\]api.yaml\\n
+Created test[/\\\\].tmp[/\\\\]bundled.yaml from test[/\\\\]files[/\\\\]valid[/\\\\]single-file[/\\\\]api.yaml\\n
+Created test[/\\\\].tmp[/\\\\]dereferenced.json from test[/\\\\]files[/\\\\]valid[/\\\\]single-file[/\\\\]api.yaml\\n
+Created test[/\\\\].tmp[/\\\\]dereferenced.yaml from test[/\\\\]files[/\\\\]valid[/\\\\]single-file[/\\\\]api.yaml\\n
+crios\\/([\\.\\_\\d]+).*?safari
+Cron <(?P<user>[^@].+)@(?P<host>[^>].+)> (?P<command>.*)
+Crop Type #\\s+(?P<num>\\d+)\\s+Date = (?P<doy>\\d+) OFE #\\s+(?P<ofe>\\d+)\\s+yield=\\s+(?P<yield>[0-9\\.]+) \\(kg/m\\*\\*2\\) year= (?P<year>\\d+)
+Crop Type #\\s+(?P<num>\\d+)\\s+is (?P<name>[^\\s]+)
+CryptoJS\\.AES\\.decrypt\\(.*?,\\s*(['\"])(?P<passphrase>(?:(?!\\1).)*)\\1\\s*?\\);
+css\\-([a-zA-Z0-9\\_\\-]+)
+cur=(?P<width>\\d+)x(?P<height>\\d+)
+Current Alpine Version <strong>(?P<version>[0-9][^<]+)</strong>
+cursor\\=.*%3A\\h*
+cursor\\=\\h*
+CVSS:3.0/AV:(?P<AV>[NALP])/AC:(?P<AC>[LH])/PR:(?P<PR>[NLH])/UI:(?P<UI>[NR])/S:(?P<S>[CU])/C:(?P<C>[HLN])/I:(?P<I>[HLN])/A:(?P<A>[HLN])(?:/RC:(?P<RC>[XCRU]))?/
+CX[^\\_]*\\_
+D(?P<day1>[0-9])\\-?(?P<day2>[0-9])?
+d:[\\/\\\\]homepath[\\/\\\\].aws[\\/\\\\]credentials
+D+|E+|F+|G+|H+|K+|M+|S+|W+|X+|Z+|a+|d+|h+|k+|m+|s+|w+|y+|z+|''|'[^']++(''[^']*+)*+'|[^'A-Za-z]++
+D+|E+|F+|G+|H+|K+|M+|S+|W+|Z+|a+|d+|h+|k+|m+|s+|w+|y+|z+|''|'[^']++(''[^']*+)*+'|[^'A-Za-z]++
+dacast\\('(?P<broadcaster_id>\\d+)_(?P<video_type>[a-z]+)_(?P<video_id>\\d+)', 'replay_content', data\\);
+DAT\\_(.*)\\.BINOUT$
+DAT\\_(\\w*)\\.OUT$
+data-(?P<type>clip|prog)id=[\"\\'](?P<id>\\d+)
+data:(?P<mime_type>[^\"]*);(?P<encoding>[^\"]*),(?P<data>[^\"]*)
+data:(?P<mimetype>[\\w\\.\\-\\/]+);(?P<encoding>\\w+),(?P<data>.*)
+data:(image/.+?)?(;.+?)?,(.*+)
+data:image/png;base64, (?P<data>[\\w/+=]+)
+data\\[merges\\]\\[(?P<name>\\w+)\\]
+data-account=\"(?P<account_id>[0-9]+).*?data-video-id=\"(?P<video_id>[0-9]+)\"
+data-bmmr-id=\\\\\"(?P<video_id>.+?)\\\\\"
+data-detail-url=\"(?P<url>.*)\" data-rst-id
+data-dialog-header=([\"\\'])(?P<title>.+?)\\1[^>]+href=([\"\\'])(?P<href>.+?)\\3[^>]*>(?P<kind>Teaser|Trailer)<
+data-holder=\"video(?P<video_id>[0-9]+)\" data-account=\"(?P<account_id>[0-9]+)\"
+data-href=\"(?P<href>https://embed.tumblr.com/embed/post/\\w+/\\w+)\"
+data-id=(?P<quote>[\"'])(?P<id>\\w+)(?P=quote)
+data-json=([\"\\'])(?P<json>{.+?})\\1
+data-main-video=\"(?P<video_id>.+?)\"
+data-ooyala-video-id\\s*=\\s*[\\'\"](?P<ec>.{32})[\\'\"]
+data-quality=((?:\\\\)?[\"\\'])(.+?)\\1[^>]+src=\\1(.+?)\\1
+data-react-props\\s*=\\s*(?P<q>[\"'])(?P<data>.*?)(?P=q)
+datatype><normal> (<
+datatype><normal> ++;<
+datatype><normal> = (<
+datatype><normal> = [ <
+datatype><normal> = [] };<
+datatype><normal>([[<
+datatype><normal>([]);<
+datatype><normal>([<
+datatype><normal>(<
+datatype><normal>) { <
+datatype><normal>) {<
+datatype><normal>) || <
+datatype><normal>) <
+datatype><normal>) = <
+datatype><normal>) > <
+datatype><normal>) cmp <
+datatype><normal>)) { <
+datatype><normal>)) {<
+datatype><normal>));<
+datatype><normal>), <
+datatype><normal>);<
+datatype><normal>)} <
+datatype><normal>)<
+datatype><normal>])) {<
+datatype><normal>]);<
+datatype><normal>]]);<
+datatype><normal>} = [];<
+datatype><normal>}) {<
+datatype><normal>})) {<
+datatype><normal>->[<
+data-uix-load-more-href=\"/?(?P<more>[^\"]+)\"
+dataURL\\s*:\\s*(?P<q>['\"])(?P<url>.*?)(?P=q)
+data-users=\"(?P<users>.*)\"\\s*data-params=\"(?P<params>.*)\"
+data-video\\s*=\\s*([\"\\'])(?P<data>{.+?})\\1
+data-video=\"(?P<video_id>.+?)\"
+data-video-id=([\"\\'])?(?P<id>\\d+)
+data-video-id=['\"](?P<id>[^'\"]+)['\"]
+data-video-iphone-server=\"(?P<server>[^\"]+)\"\\s+data-video-iphone-path=\"(?P<path>[^\"]+)\"
+data-video-link=[\"\\'](?P<url>http://m.mlb.com/video/[^\"\\']+)
+data-wiki-(?P<name>[a-z]+)=\"(?P<value>[^\"]+)\"
+data-zdfplayer-jsb=[\"'](?P<json>{.+?})[\"']
+Date:\\s*(?P<year>20\\d\\d)-\\d\\d-\\d\\d
+date\\_([0-9]{4})(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])
+date\\_day.+date\\_month.+date\\_year
+DateTime<(?<type>[a-zA-Z0-9\\,\\.\\s\\-\\:\\/\\\\]+)>
+DBD-SQLite-BundledExtensions.\\Q$extension_name\\E\\.(so|dll|dylib)$
+dc:[% var %]>\n            [%- END %]\n        [%- END %]\n        <
+declare\\s-x\\s(?P<name>\\S+)=\\\"(?P<value>.*)\\\"
+decval><normal>) {<
+decval><normal>);<
+def (?P<command>\\w+)
+DEF (?P<part_name>\\S+)
+default = (?P<foo>.+)\\n
+define\\('(?P<name>.+)'
+define\\(\"([A-z0-9\\-_\\/\\\\]+)\",\\[\"dust\\.core\"\\]
+define\\(\\s*'isotope\\-layout\\/\\js\\/isotope'(.|\\n)+\\],
+delete\\s+from\\s+`?(?P<table>\\w+)`?
+DELIMITER ([\\;\\$\\|\\\\]+)
+Delivery to the following (?:recipient|recipients) failed permanently\\X*?(\\S+@\\S+\\w)
+demos[\\/\\\\]
+depth\\:(?P<depth>[1-4])\\;*
+desc:\\s(?P<data>.*)$
+describe\\((?P<name>(\"[^\"]+\"|'[^']+'))[^{]+\\{
+description\\s+=\\s+(?P<description>.*)
+DeviceID: (?P<deviceID>[0-9]+)
+Diagnostic results saved in: (?P<tarfile>gs:\\/\\/\\S+diagnostic\\.tar)
+diff .*a/(?P<origin_filename>.*) b/(?P<result_filename>.*)
+diff rules[^]*foo[^]*bar[^]*test-rule[^]*foo-config[^]*bar-config
+dir[\\n\\r]+(?P<revision>\\d+)
+Dir\\[([0-9.-]*),[([0-9.-]*), ([0-9.-]*), ([0-9.-]*)\\]\\]
+Disallow:\\h*(/\\h+|/\\R|/$)
+disconnect if $.connected;\n\n    debug \"Connecting to $.host:$.port... \";\n    try { $:socket = connect($.host, $.port) }\n    if($:socket) {\n      try { $:socket.autoflush(1) }\n      $.connected++;\n      $.last_traffic  = time;\n      $.last_autoping = time;\n      debug \"done.\";\n    } else {\n      debug \"failed ($!).\";\n    }\n  }\n\n  method disconnect() {\n    return unless $.connected;\n\n    debug \"Disconnecting from $host:$port... \";\n    try { $:socket.close }\n    # We want to have a sane state when we connect next time.\n    $.connected      = 0;\n    $.inside         = 0;\n    $:chans          = set();\n    $.servername     = undef;\n    $:socket            = undef;\n    $.curnick        = undef;\n    $.curusername    = undef;\n    $.curircname     = undef;\n    $.curhostname    = undef;\n    $.last_traffic   = 0;\n    $.last_autoping  = 0;\n    $:in_login_phase = 0;\n    %:channels       = ();\n    $:queue.clear;\n    $:nickgen.reset;\n    debug \"done.\";\n  }\n\n  method login() {\n    return unless $.connected;\n\n    $:queue.enqueue({\n      # Indicate that we're currently logging in, so our nick_already_used\n      # handler can choose a different nick. $in_login_phase is reset to 0\n      # when we're successfully logged in.\n      $in_login_phase++;\n      $say(\"NICK {$:nickgen.next}\");\n      $say(\"USER $.username * * :$.ircname\");\n    });\n  }\n\n  # Process $queue, wait for input from server and process it\n  method run() {\n    while $.connected {\n      $queue.run;\n      .
+DISPLAY\\_NAME.*\\: (.*)$
+displayPrint\\(\\'(?P<printId>\\w+)\\'\\)
+dist[/\\\\]pages[/\\\\]_document\\.js
+dist[/\\\\]pages[/\\\\]_error\\.js
+div .*? data-ht=(?P<quote>[\"'])(?P<data>.*?)(?P=quote)
+div.*?data-tp=(?P<q>[\"'])(?P<data>.*?)(?P=q)
+div>\n[$ if $self->{hidden} $]\n<input type=\"hidden\" name=\"[+ $name +]\" value=\"[+ $value +]\">\n[$endif$]\n<input type=\"hidden\" name=\"_id_[+ $name +]\" value=\"[+ $id +]\">\n[$endsub$]\n\n[# ---------------------------------------------------------------------------\n#\n#   show_control_addons - output additional things after the control\n#]\n\n[$ sub show_control_addons ($self, $req)\n \nmy $datasrc_ctrls  ;\n$datasrc_ctrls = $self -> get_datasource_controls ($req)\n    unless ($self -> {no_datasource_controls}) ;\n\n$][$if $datasrc_ctrls $]\n[$foreach my $ctrl (@$datasrc_ctrls) $]\n<a class=\"cControlAddonA\" href=\"[+ $ctrl->{href} +]\" onClick=\"[+ $ctrl->{onclick} +]\">[$if $ctrl -> {icon} $]<img class=\"cControlAddonImg\" src=\"[+ $ctrl -> {icon} +]\" title=\"[+ $ctrl -> {text} +]\" alt=\"[+ $ctrl -> {text} +]\">[$else$][+ $ctrl -> {text} +][$endif$]<
+div>\n[$endif$]  \n[$endsub$]\n  \n\n\n[# ---------------------------------------------------------------------------\n#\n#    show_grid_table_row     Erzeugt eine Grid-Tabelle-Zeile\n#]\n\n[$ sub show_grid_table_row ($self, $req, $i) \n\n    $field = $self -> {fields}[0] ;\n    $id     = $self -> {fullid};\n    $name   = $self -> {name} ;\n    my $jsname = $name ;\n    $jsname =~ s
+div>\t\n[$else$]\n  [# Workaround around segfault in Embperl 2.1.1-dev *grmpf* #]\n  <[# #]input\n  class=\"cBase cControl cControlButton\"  name=\"[+ $self->{name} +]\"\n  value=\"[+ $self -> {showvalue}?($self -> {value} || $self->{text}):$self -> form -> convert_label ($self, undef, undef, $req) +]\"\n  title=\"[+ $self -> {showtext}?($self->{text}):$self -> form -> convert_label ($self, undef, undef, $req) +]\"\n  [$if $self -> {onclick} $] onClick=\"[+ do { local $escmode = 0 ; $self -> {onclick} } +]\" [$endif$]\n  [+ do { local $escmode = 0 ; $self -> {eventattrs} } +]\n  [$if $self -> {image} $]\n  type=\"image\" src=\"[+ $self -> {image} +]\"\n  [$else$]\n  type=\"button\"\n  [$endif$]\n  style=\"[+ $self->{style} || 'text-align: center;' +]\"\n  [#    onMouseOver=\"buttonover(this);\" onMouseOut=\"buttonout(this);\" #]\n    [$ foreach my $attr (keys %$button) $]\n      [$ if exists $button->{\"__$attr\".'_escmode'} $]\n        [+ $attr +]=\"[+ do { local $escmode = int $button->{\"__${attr}_escmode\"}; $button->{$attr}; } +]\"\n      [$ else $]\n        [+ $attr +]=\"[+ $button->{$attr} +]\"\n      [$ endif $]\n    [$ endforeach $]>\n  [$endif$]\n[$ endforeach $]\n\n  <
+DNS=(?P<address>[\\d.]+)
+docker-(?P<id>[^.]+).dockerfile
+DoCoMo/1.0/(?P<model>[^/]*)(?:/c(?P<cache>\\d*)|)
+DoCoMo/2.0 (?P<model>[^\\(]*)\\(c(?P<cache>\\d*)
+doctrine.dbal.logger.profiling.(?P<name>[a-zA-Z0-9]*)
+Doctrine\\\\([^\\\\]+)
+doctype\\s+(?P<type>[0-9a-z\\.]+)
+Document labelled (
+does ['\":]([A-Za-z0-9\\_\\/]+)(?:'|\"|$)(?:,\\s*(.*)$)?
+Domain\\\\Model\\\\(.*)
+Domain\\\\Model\\\\(.+)
+Domains\\\\([^\\\\]*)\\\\Jobs
+dp\\_month\\_([0-9]+)
+dp\\_time\\_([^\\s]+)
+Dr\u017eite\u013e dom\u00e9ny\\s+(?P<owner>\\w+-\\d+)
+Drupal\\\\(\\w*)Tests\\\\
+Drupal\\\\Tests\\\\(\\w+)\\\\(\\w+)
+Drupal\\\\Tests\\\\Component\\\\(\\w+)
+Drupal\\\\Tests\\\\Core\\\\(\\w+)
+duplicate key[^\\)]+\\((?P<fields>[^\\)]+)\\)
+Duration: (?P<hour>\\d{2}):(?P<min>\\d{2}):(?P<sec>\\d{2})\\.(?P<ms>\\d{2})
+Duration: (?P<hours>\\d+):(?P<minutes>\\d+):(?P<seconds>\\d+)
+Duration\\s+: (?P<minute>\\d+)?(?:mn )?(?P<second>\\d+)s
+dust\\.register\\(\"([A-z0-9\\-_\\/\\\\]+)\",body_0\\)
+dwoo\\.const\\.([a-z0-9\\\\_:]+)
+e[(]\\\\
+e[)]\\\\
+e\\\\
+E\\*\\*(?P<varo>.*?(\\({0,1}.*?\\)){0,1})(?=\\+|-|\\*|/|\\*\\*)
+e\\p{IsAlpha}
+E\\u{30a8 30e9 30fc}
+end task(?P<task_name>.*)
+END\\ of \\localinstall
+endswith(\\w+)-([\\w\\_]+)
+engine: \"(?P<engine>\\S+)\"
+enq=(?P<enqueueTimeStamp>[\\d-]+\\s+[\\d:]+)
+enqueueClockTime=(?P<enqueueTimeStamp>[\\d-]+\\s+[\\d:]+)
+enum\\saiTextureType[^{]*?\\{(?P<code>.*?)\\};
+erConfigClassLhConfig::getInstance\\(\\)->getDirLanguage\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)
+erConfigClassLhConfig::getInstance\\(\\)->getOverrideValue\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?),(\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)
+erConfigClassLhConfig::getInstance\\(\\)->getSetting\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?),(\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)
+erLhcoreClassModelChatConfig::fetch\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)->current_value
+erLhcoreClassModelChatConfig::fetch\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)->data\\['([a-zA-Z0-9-\\.-\\/\\_]+)'\\]
+erLhcoreClassModelChatConfig::fetch\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)->data_value
+ERROR: invocation failed \\(errno \\d+\\), args: \\['.*[/\\\\]tox\\.ini
+errorMessage=\"(.*?)(?<!\\\\)\"
+ether:? (
+Ethernet Address: (?P<mac>.*) \\(Hardware Port: (?P<port>[^/)]+)\\)$
+eval\\(function\\(p,a,c,k,e,[d|r]\\)\\{.*?\\}?\\}?return \\w+\\}\\('(.*?[^\\\\])',(\\d+|\\[\\]),(\\d+),'(.*?)'\\.split\\('(.*?)'\\).*?\\)\\)
+executeExpect.*node_modules[/\\\\]unexpected[/\\\\]
+exercises(?:\\/|\\\\)(\\w+)(?:\\/|\\\\)solution(?:\\/|\\\\)solution\\.js
+existing mount at (?P<path>.+)
+Exit code from container (?P<container_id>\\w+) is ?: (?P<returncode>\\d+)
+expected \\[\"a\
+Expected list not to be empty, got `[]`
+eXpGetMessage\\((?:'|\")(?P<matches>.*?)(?:'|\")*\\)
+export (?P<name>.*)=\"(?P<value>.*)\"
+export default ?{[^]*}
+extend(\\/|\\\\)application\\.js
+f\\u{1,2}bar
+fab(\\/|\\\\\\\\|\\\\\\\\\\\\\\\\)index\\.js
+facet by (
+Failed to find a mapper for #<Namespace::Nested::Mung:0x\\h+>. Did you mean to implement Namespace::Nested::MungMapper\\?
+Failed to find a mapper for #<Namespace::Nested::Rye:0x\\h+>. Did you mean to implement MyMappers::Namespace::Nested::RyeMapper\\?
+fake[\\/\\\\]\\.jshintrc$
+family\\s+(?P<FML>\\d+)\\s+model\\s+(?P<MDL>\\d+)\\s+stepping\\s+(?P<STP>\\d+)
+faraday\\_(.*)\\.gemfile
+fast\\_send
+fct_label=(?P<quot>\"|')(?P<fct_label>.*?)(?P=quot)
+ffmpeg version (?P<major>[0-9]{0,3}).(?P<minor>[0-9]{0,3}).(?P<revision>[0-9]{0,3})
+fid:? (?P<fid>\\d+)
+file:(?:\\s+)?(?:\\'|\\\")(?P<url>[^\\\"']+)(?:\\'|\\\")
+file:.*?(?P<q>['\\\"])(?P<url>rtmp://[^\\\"']+)(?P=q),
+file:.*?[/\\\\]package-local-dev-dependency$
+file:///(?P<type>[a-zA-Z]+)/(?P<commit>\\w+)(?P<path>.+)?
+file\\s*:\\s*([\"\\'])(?P<url>(?:(?!\\1).)+)\\1
+filename=\"(?P<filename>[^\"]*)\"
+filename=\"?(.*?[^\\\\])(\"|;|\\z)
+find:\\s(?P<PERMISSION_DENIED>.*Permission denied)
+find\\s+\"?(%{buildroot}|\\$b)(\"?\\S?/?)*\\s*.*\\s+-i?name\\s+[\"\\'\\\\\\\\]?\\*\\.la($|.*[^\\\\\\\\]$)
+firefox\\/([\\.\\_\\d]+)
+FIRMWARE_NAME:([a-zA-Z\\_\\-]+(\\s+[\\d\\.]+)?)
+first\\u
+first\\u\\x\\z\\8\\9second
+first\\u123second
+first\\usecond
+firstInstallTime=(?P<time>.*)
+float><normal>);<
+float><normal>])) {<
+fo(o
+fo[^]*az
+fontkit[/\\\\]index.js$
+foo - failed[^]Error: failed
+foo(
+foo(?i:
+foo(?m:
+foo(A{0,1}+)Abar
+foo\\\\(bar|baz)
+fooA*+Abar
+fooA?+Abar
+fooA++Abar
+fooA++bar
+force-show:(?P<message>.*)
+'Form' => Collective\\Html\\FormFacade::class
+Format profile\\s*:\\s*([\\w\\_\\-\\\\\\/\\@\\. ]+)\\n
+Format profile\\s*:\\s*([\\w\\_\\-\\\\/\\@\\. ]+)\n
+Format.?=.?(?P<format>\\w+)
+Format\\s*:\\s*([\\w\\_\\-\\\\\\/ ]+)\\n
+Format\\s*:\\s*([\\w\\_\\-\\\\\\/\\. ]+)\\n
+Format\\s*:\\s*([\\w\\_\\-\\\\/\\. ]+)\n
+Foundation\\\\Http\\\\Controllers\\\\(.*?)@
+frame=\\s*(?P<frame>\\d+)\\s+fps=\\s*(?P<frame_rate>\\d+\\.?\\d*)\\s+q=\\s*(?P<qscale>\\S+)\\s+\\S*.*size=\\s*(?P<size>\\S+)\\s+time=\\s*(?P<time>\\S+)\\s+bitrate=\\s*(?P<bit_rate>\\S+)
+Frames: \\d+ latency: (?P<pct90>\\d+)/(?P<pct95>\\d+)/(?P<pct99>\\d+) Janks: (?P<jank>\\d+)\\((?P<jank_pct>\\d+)%\\)
+FRIBIDI_\\U${kind}\\E_([A-Z_]*)$
+Friendica '[^']*' (\\d+[\\d\\.\\_\\-\\+abcdehlprstv]*).*
+from (?P<count>[0-9]+) stores
+from http (
+FROM tag [a-z0-9 \\\\-]+ TO (?:tag|vm) [a-z0-9 \\\\-]+ ALLOW (?P<protocol>[a-z]+) \\\\(\\\\s*(?P<ports>PORT [0-9]+(?: AND PORT [0-9]+)*)\\\\s*\\\\)
+FROM tag [a-z0-9 \\\\-]+ TO (?:tag|vm) [a-z0-9 \\\\-]+ ALLOW (?P<protocol>[a-z]+) PORT (?P<port>[0-9]+)
+from.*\\b\\Q$domain\\E.*[\\[\\(][0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+[\\]\\)].*\\bby\\b
+from.*\\b\\Q$domain\\E.*[\\[\\(][0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+[\\]\\)].*by.*\\b\\Q$domain\\E
+from\\s+(?P<source>[^\\s]+)
+FTDIBUS\\\\(?:.+)\\+(.+?)A?\\\\.+
+ftp://(?P<user>.+?):(?P<passwd>.+?)@(?P<host>.+)
+func test([\\w$]+)\\s*\\(\\)\\s*\\{[^]*?\\n([ \\t]+)\\/\\/#-example-code\\n([^]+?)\\n\\2\\/\\/#-end-example-code\\n
+function \\1\\([^\\)]*\\) \\{
+function([^\\(]*)\\(([^\\(\\)]*?)\\)[^\\{]*\\{([^]*)\\}
+function[\\s\\t]*modChrome\\_([a-z0-9\\-\\_]*)[\\s\\t]*\\(
+function\\s([a-zA-Z\\-\\_0-9]+)
+function\\s*+\\([^)]*+\\)\\s*+\\{
+function\\s*mpc\\s*=\\s*(?P<data>.*?)\n
+function><normal> (<
+function><normal>(<
+functional\\\\(?!tests)
+g/<TheGrammar.StrWhiteSpaceChar>+//;\n    $s ~~ s/^([\\+|\\-]?)0+(<[0..9]>)/$1$2/;\n    return +0 if $s eq \"\";\n    return +$s;\n}\nmulti sub ToNumber(JSX
+g;\n}\nclose $fh;\nfor my $key (keys %is_var) {\n\n    # %SIG can also be found as SIG etc. Need at least two word\n    # characters; finding '$^H' with 'H' appears a bit too random.\n    if ($key =~ 
+g_rgProfileData = (?P<json>{.*?});[ \t\r]*\n
+G0?4(?P<comment>[^*]*)(\\*)?
+GAMMA_SOFTWARE-(?P<version>[0-9]{8})
+Gateway=(?P<address>[\\d.]+)
+gbar\\_(?P<channel>[\\w]+)
+GBL-CONFIG-6-DB_COMMIT : Configuration committed by user \\\\'(?P<user>.+?)\\\\'..*
+gcc(?P<major>(\\d))?(?P<minor>(\\d))?
+gem \"foo\
+gen(.statements);\n                $ng.ret(\"$INS\\::p5_make_code( sub \\{ { \n                    (join \"\\n\", map { \n                        \"my \" ~ .
+get(?P<name>.*)
+gim (?P<application>\\\\S+) (?P<command>recover) (?P<users>.*)
+gim (?P<command>list applications)
+gim (?P<command>recover) (?P<users>.*)
+gim (?P<command>set application) (?P<application>\\\\S+) (?P<key>\\\\S+) (?P<api_key>\\\\S+)
+gim (?P<command>set default application) (?P<application>\\\\S+)
+git@github\\.com:(?P<owner>\\w+)/(?P<name>[^.]+)\\.git
+git@github\\.com:(?P<username>.+)/(?P<repo_name>[^\\.]+)(?:\\.git)?
+github (?P<command>invite user) (?P<users>.*)
+github (?P<command>list members)
+github (?P<command>list nomfa)
+github (?P<command>list organizations)
+github (?P<command>list owners)
+github (?P<command>set default organization) (?P<organization>\\\\S+)
+github (?P<command>set organization) (?P<organization>\\\\S+) (?P<login>\\\\S+) (?P<password>\\\\S+)
+github (?P<command>set organization) (?P<organization>\\\\S+) (?P<token>\\\\S+)
+github (?P<organization>\\\\S+) (?P<command>invite user) (?P<users>.*)
+github (?P<organization>\\\\S+) (?P<command>list members)
+github (?P<organization>\\\\S+) (?P<command>list nomfa)
+github (?P<organization>\\\\S+) (?P<command>list owners)
+github.com/([a-zA-Z0-9\\.\\_\\-]+)/([a-zA-Z0-9\\.\\_\\-]+)
+github.com[/:](?P<owner>.*)/(?P<name>.*)\\.git
+github\\.com\\/([\\w\\d\\-\\_]+)\\/([\\w\\d\\-\\_]+)\\/tree
+gl_Position.*(?![^]*gl_Position)
+GLFWAPI (?P<return>[\\w\\s\\d\\*]+) (?P<name>[\\w\\d]+)\\((?P<parameters>.*)\\);
+global[\\s]+\\$([a-zA-Z0-9\\_\\,\\s\\$]+)\\;
+GMT(?P<signal>[+-])(?P<hours>\\d{2}):?(?P<minutes>\\d{2})
+GNTP/(?P<version>\\d+\\.\\d+) (?P<messagetype>REGISTER|NOTIFY|SUBSCRIBE|\\-OK|\\-ERROR)
+go version go(?P<goVersionNumber>[0-9.]+) (?P<platform>[a-zA-Z0-9]+/[a-zA-Z0-9]+)
+Got 20 rows for daily bars table with first day=2015-06-02, last day=2015-06-30, expected 21 rows.\nMissing sessions: [Timestamp('2015-06-15 00:00:00+0000', tz='UTC')]\nExtra sessions: []
+gpu(?P<negate>!)?(?P<start>[0-9]+)(?:-(?P<end>[0-9]+))?
+GPU\\s+(?P<id>\\d+):\\s+(?P<model>.+)
+grep_h($re));\n\n    # find things in the L->R diagonal vector\n    push(@matches, .
+grep_hf($re));\n    push(@matches, .
+grep_lrf($re));\n    push(@matches, .
+grep_rl($re));\n\n    # find things in the vertical vector\n    push(@matches, .
+grep_rlf($re));\n    push(@matches, .
+grep_vf($re));\n    push(@matches, .
+group\\_id\\\"\\:123
+GT-P10|SC-01C|SHW-M180S|SGH-T849|SCH-I800|SHW-M180L|SPH-P100|SGH-I987|zt180|HTC(.Flyer|\\_Flyer)|Sprint.ATP51|ViewPad7|pandigital(sprnova|nova)|Ideos.S7|Dell.Streak.7|Advent.Vega|A101IT|A70BHT|MID7015|Next2|nook
+gt-p10|sc-01c|shw-m180s|sgh-t849|sch-i800|shw-m180l|sph-p100|sgh-i987|zt180|htc(.flyer|\\_flyer)|sprint.atp51|viewpad7|pandigital(sprnova|nova)|ideos.s7|dell.streak.7|advent.vega|a101it|a70bht|mid7015|next2|nook
+gzip:\\s(?P<ERROR_MSG>.*)
+gzip:\\s+(?P<FILE_NAME>.*)\\s+already exists
+h(?P<n1>e)[a-z]+(?P<n2> )world
+h[(]\\\\
+h[)]\\\\
+H[\\uD83D\\uDCA0-\\uD83D\\uDCAB]
+h\\\\
+H264-(?P<width>\\d+)x(?P<height>\\d+)
+has.*+
+hdbref__$CLASS\\__
+hdbref__(\\w+?)__$CLASS\\__
+header($_.key) = $_.value for pairs %headers;\n}\n\nmethod header (Str $field) is rw {\n    return Proxy.new(\n\tFETCH => { %:headers{$field} },\n\tSTORE => -> Str $val { .
+headers\\[(?P<header_name>[^]]*)\\]
+heap_tree=(?P<data>\\w+)
+hexdump:\\s(?P<ERROR_MSG>.*)
+highest\\s+offense.*(?P<status>opening|terminated)
+highlight.js/\\K\\d+\\.\\d+\\.\\d+
+hint=[\\'\"](?P<likecount>\\d+) Likes / (?P<dislikecount>\\d+) Dislikes
+Historical Broadcast (?P<type>(foreground|background)) #(?P<id>\\d+)
+hl_lines=(?P<quot>\"|')(?P<hl_lines>.*?)(?P=quot)
+hls-url=[\"'](?P<url>[^\"']+)[\"']
+Hoa\\\\Consistency::registerShutdownFunction\\(xcallable\\('(.*)'\\)\\)
+Holesize (?P<toolid>[0-9]{1,2})\\. = (?P<size>[0-9/.]+) Tolerance = \\+(?P<xtol>[0-9/.]+)/-(?P<ytol>[0-9/.]+) (?P<plated>(PLATED)|(NON_PLATED)|(OPTIONAL)) MILS Quantity = [0-9]+
+Holesize (?P<toolid>[0-9]{1,2})\\. = (?P<size>[0-9/.]+) Tolerance = \\+(?P<xtol>[0-9/.]+)/-(?P<ytol>[0-9/.]+) (?P<plated>(PLATED)|(NON_PLATED)|(OPTIONAL)) MM Quantity = [0-9]+
+Host: (?P<host>[0-9a-zA-Z\\-\\.\\:]+)\\r\\n
+href\\h*=\\h*\"\\h*(.+?)\\h*\"
+href\\s*=\\s*\"([^\"]*
+href=([\\'\\\"])(
+href=\"(
+href=\"(.*?
+href=\"(.*?)\\\\(.*?)\"
+href=\"(/assets/app\\.[a-f0-9]{
+href=\"(?P<href>/[^\"]+)\"[^>]*>(?:\\s*<img[^>]+alt=\"[^-]+-\\s(?P<title>[^\"]+)\")?
+href=\"(?P<url>.+?)\"
+href=\"\\/?(
+href=\"http://videos\\.francetv\\.fr/video/(?P<video_id>.+?)(?:@.+?)?\"
+hsl\\(\\s*((
+hsla\\(\\s*((
+Hsp\\_(?:qseq|hseq|csline|midline)
+Hsp\\_(?:qseq|hseq|csline|pline|midline)
+Hsp\\_(midline|qseq|hseq)
+Hsp\\_(qseq|hseq|midline)
+HTC[\\w\\-\\.\\_\\ ]*
+'Html' => Collective\\Html\\HtmlFacade::class
+htspell)\nformtitle(Spell Checking Tool)\nproc(htspellFunction)\ndesc(htspellDesc)\ninit(htspellInit)\nfeedback(htspellFeedback)\nlivefeedback(htspellLive)\n\n##\n\n=head1 NAME\n\nhtspell - an application built using Navegante\n\n=head1 SYNOPSIS\n\nBuild the application:\n\n  $ navegante examples
+http(?:s)?://(?:\\w+\\.)?rtl.nl/video/(?P<uuid>.*?)\\Z
+http(?:s)?://(\\w+)\\.?olympicchannel.com/../(?P<type>tv|playback)/(livestream-.\\d|.*)/
+http(?P<was_secure>s?)://.*okccdn.com.*images/[0-9]*x[0-9]*/[0-9]*x[0-9]*/(?P<tnl>[0-9]*?)x(?P<tnt>[0-9]*?)/(?P<tnr>[0-9]*)x(?P<tnb>[0-9]*)/0/(?P<id>[0-9]*).(:?webp|jpeg)\\?v=\\d+
+http(s)?://(?P<account_name>.*?)\\.blob\\.(?P<endpoint_suffix>.*?)/(?P<container_name>.*?)/(?P<blob_name>.*?)\\?(?P<sas_token>.*)
+http(s)?://(?P<cdn>\\w+\\.)?afreeca(tv)?\\.com/(?P<username>\\w+)(/\\d+)?
+http(s)?://(?P<prefix>\\w+.)?panda.tv/(?P<channel>[^/&?]+)
+http(s)?://(\\w+.)?mixer\\.com/(?P<channel>[^/?]+)
+http(s)?://(\\w+\\.)?streamingvideoprovider.co.uk/(?P<channel>[^/&?]+)
+http(s)?://(www\\.)?(periscope|pscp)\\.tv/[^/]+/(?P<broadcast_id>[\\w\\-\\=]+)
+http(s)?://(www\\.)?huya.com/(?P<channel>[^/]+)
+http(s)?\\://(embed\\.|www\\.)?(?P<host>nowvideo\\.(ws|sx|ch))/((embed\\.php\\?v\\=)|(video/))(?P<id>\\w+)
+http.*\\/\\/(?P<storage>[^.]+).blob.core.windows.net\\/(?P<container>[^/]+)\\/*(?P<blob>.*)
+HTTP/(?P<version>\\S+) (?P<status>\\S+) (?P<description>.*)
+HTTP/1.1 (?P<code>\\d+) (?P<status>.*)
+http://((tfile\\.(me|ru|co|cc))|tfile-home\\.org|www1\\.tfiles\\.cc)/forum/viewtopic\\.php\\?p=(?P<torrent_id>\\d+)
+http://(?:playtv\\.fr/television|play\\.tv/live-tv/\\d+)/(?P<channel>[^/]+)/?
+http://(star|y)\\.longzhu\\.(?:tv|com)/(m\\/)?(?P<domain>[a-z0-9]+)
+http://\\Q$server_hostname\\E:\\d+/\n                         
+http://|https://|ftp://|file://|file:\\\\
+http://example.com(?P<path>[-A-Za-z0-9\\/\\._]+)
+http://ipv6\\.(nnm-club\\.(me|ru|name|tv|lib)|nnmclub\\.to)/forum/viewtopic\\.php\\?p=(?P<torrent_id>\\d+)
+http://mangafox.me/manga/[^/]*/(v(?P<volume>[^/]*)/)?c(?P<chapter>[^/]*)
+http://replay\\.gulli\\.fr/(?:Direct|.+/(?P<video_id>VOD[0-9]+))
+http://rinfo.lagrummet.se/publ/(?P<fs>[\\w-]+fs)/(?P<arsutgava>\\d{4}):(?P<lopnummer>\\w+)
+http://rinfo.lagrummet.se/publ/(?P<prop>prop)/(?P<arsutgava>\\d{4}(/\\d{2}|)):(?P<lopnummer>\\w+)
+http://rinfo.lagrummet.se/publ/(?P<utr>(sou|ds))/(?P<arsutgava>\\d{4}(/\\d{2}|)):(?P<lopnummer>\\w+)
+http://rinfo.lagrummet.se/publ/beslut/(?P<myndighet>\\w+)/(?P<dnr>.*)
+http://rinfo.lagrummet.se/publ/rattsfall/(?P<publikation>\\w+)/(?P<arsutgava>\\d+)(s(?P<sidnummer>\\d+)|((:| nr | ref )(?P<lopnummer>\\d+)))
+http://rinfo.lagrummet.se/publ/rf/(?P<rf>\\w+)/(?P<arsutgava>\\d+)(/|)(?P<sep>[s:])(_(?P<sidnummer>\\d+)|(?P<lopnummer>\\d+))
+http://rinfo.lagrummet.se/publ/sfs/(?P<arsutgava>\\d{4}):(?P<lopnummer>\\w+)#?(k_(?P<kapitel>[0-9a-z]+))?(p_(?P<paragraf>[0-9a-z]+))?
+http://rinfo.lagrummet.se/publ/sfs/(?P<law>\\d{4}:\\w+)#?(K(?P<chapter>[0-9a-z]+))?(P(?P<section>[0-9a-z]+))?(S(?P<piece>[0-9a-z]+))?(N(?P<item>[0-9a-z]+))?
+http://www.mangahere.co/manga/[^/]*/(v(?P<volume>[^/]*)/)?c(?P<chapter>[^/]*)
+http://www.mangapanda.com/((\\d+)-(\\d+)-(\\d+)/)?[^/]+/(chapter-)?(?P<chapter>\\d+)(            .html)?
+http://www.mangareader.net/((\\d+)-(\\d+)-(\\d+)/)?[^/]+/(chapter-)?(?P<chapter>\\d+)(            .html)?
+http:\\/\\/www.youtube.com\\/watch\\?v=([A-Za-z0-9\\-\\_]{11})
+http[s]?:\\/\\/(?P<user>.*):(?P<variable>%.*%)@(.*)
+HTTP\\/(?P<version>1\\.[0-9]) (?P<status>[0-9]{3}) (?P<statusPhrase>.*)
+HTTP\\/1.1 (?P<code>[0-9]+) (?P<message>.*)
+HTTPD\\_ROOT
+https://17.live/live/(?P<channel>[^/&?]+)
+https://abema\\.tv/(\n        now-on-air/(?P<onair>[^\\?]+)\n        |\n        video/episode/(?P<episode>[^\\?]+)\n        |\n        channels/.+?/slots/(?P<slots>[^\\?]+)\n        )
+https://egame\\.qq\\.com/(?P<channel>\\d+)
+https://github.com/(
+https://github.com/(?P<user>[^/]+)/(?P<repo>[^/$]+)
+https://www.wattpad.com/(?P<chapterID>\\d+).*
+https://www\\.wattpad\\.com/(?P<chapterId>\\d+).*
+https://www\\.wattpad\\.com/story/(?P<storyId>\\d+).*
+https:\\/\\/(?:docs|drive)\\.google\\.com\\/(?:a\\/[a-zA-Z0-9\\-\\_\\.]+\\/)?(forms|document|presentation|spreadsheets|file)\\/d\\/([a-zA-Z0-9_-]+)
+https:\\/\\/[\\w\\-\\.]*s3-us-west-2\\.amazonaws\\.com([\\w\\-\\.\\_0-9\\/]*)
+https:\\/\\/ec2\\.us-west-2\\.amazonaws\\.com([?\\w\\-\\.\\_0-9\\/]*)
+https?://((www)|(embed))?\\.divxstage\\.eu/((video/)|(embed\\.php\\?v\\=))(?P<id>\\w+)
+https?://(?:(?:www)|(?:embed))?\\.novamov.com/(?:(?:video/)|(?:embed\\.php\\?v\\=))(?P<id>\\w+)
+https?://(?:[^/]+\\.)?vimeo.com/(?P<video_id>\\d+)
+https?://(?:\\w+\\.)?vk\\.com/video\n        (?:\\?z=video)?(?P<video_id>-?[0-9]*_[0-9]*)\n        
+https?://(?:\\w+\\.)?younow\\.com/(?P<channel>[^/&?]+)
+https?://(?:player\\.)?tamago\\.live/w/(?P<id>\\d+)
+https?://(?:watch\\.)?ustvnow\\.com(?:/(?:watch|guide)/(?P<scode>\\w+))?
+https?://(?:www.)?example\\.com/(?P<id>.*?)(?:\\.html)
+https?://(?:www.)?gorillavid.in/(?:embed-)?(?P<id>\\w+)(?:\\-\\d+x\\d+)?.html
+https?://(?:www.)?itv.com/hub/(?P<stream>.+)
+https?://(?:www.)?movreel\\.com/(?:embed/)?(?P<id>\\w+)
+https?://(?:www.)?vidbull\\.com/(?:embed-)?(?P<id>\\w+)(?:\\-\\d+x\\d+)?.html
+https?://(?:www.)?youwatch.org/(?:embed-)?(?P<id>\\w+)(?:\\-\\d+x\\d+)?
+https?://(?:www\\.)?(?:rtbf\\.be/auvio/.*\\?l?id=(?P<video_id>[0-9]+)#?|rtbfradioplayer\\.be/radio/liveradio/.+)
+https?://(?:www\\.)?(?P<channel>1tv|ctc|chetv|ctclove|domashny).(?:com|ru)/(?P<live>live|online)?
+https?://(?:www\\.)?\n        (?:\n            juicyplay\\.dk\n            |\n            play\\.nova\\.bg\n            |\n            (?:tvplay\\.)?\n                skaties\\.lv\n            |\n            (?:(?:tv3)?play\\.)?\n                tv3\\.(?:dk|ee|lt)\n            |\n            tv6play\\.no\n            |\n            viafree\\.(?:dk|no|se|fi)\n        )\n        /(?:\n            (?:\n                .+/\n            |\n                embed\\?id=\n            )\n            (?P<stream_id>\\d+)\n        )?\n    
+https?://(?:www\\.)?bbc.co.uk/iplayer/\n        (\n            episode/(?P<episode_id>\\w+)|\n            live/(?P<channel_name>\\w+)\n        )\n    
+https?://(?:www\\.)?goodgame.ru/channel/(?P<user>[^/]+)
+https?://(?:www\\.)?metube\\.id/\n                         (?P<type>live|videos)/\\w+(?:/.*)?
+https?://(?:www\\.)?mitele\\.es/directo/(?P<channel>\\w+)
+https?://(?:www\\.)?nrk\\.no/skole/?\\?.*\\bmediaId=(?P<id>\\d+)
+https?://(?:www\\.)?openrec.tv/(?:live|movie)/(?P<id>[^/]+)
+https?://(?:www\\.)?thvli\\.vn/live/(?P<channel>[^/]+)
+https?://(?:www\\.)?vidio\\.com/(?:en/)?(?P<type>live|watch)/(?P<id>\\d+)-(?P<name>[^/?#&]+)
+https?://(m\\.)?live\\.qq\\.com/(?P<room_id>\\d+)
+https?://(w+\\.)?(m\\.)?imgur\\.com/((?P<domain>a|album|gallery)/)?(?P<hash>[a-zA-Z0-9]+)$
+https?://(www\\.)?cubetv\\.sg/(?P<channel>[^/]{2,})
+https?://(www\\.)?github\\.com/(?P<owner>\\w+)/(?P<name>[^.]+)(\\.git)?
+https?://(www\\.)?vodlocker.com/(?:embed\\-)?(?P<id>\\w+)(?:\\-\\d+x\\d+.html)?
+https?://.+-(?P<size>\\d+p?)\\..+?$
+https?://[%:/?#\\[\\]@!$&'\\(\\){}*+,;=\\pL\\pN._~-]+
+https?://[^/]++/
+https?://github.com/(?P<user>[^/]+)/(?P<repo>[^/]+)
+https?://groups.google.com/forum/\\?_escaped_fragment_=forum/(?P<group>[-_\\w]+)%5B(?P<next_first>\\d+)-(?P<next_last>\\d+)%5D
+https?://player\\.tvibo\\.com/\\w+/(?P<id>\\d+)
+https?://player2\\.majorleaguegaming\\.com/api/v2/player/embed/live/\\?ch=(?P<channel_id>[^\"']+)
+https?://pravtor\\.(ru|spb\\.ru)/viewtopic\\.php\\?p=(?P<torrent_id>\\d+)
+https?://sketch\\.pixiv\\.net/@?(?P<user>[^/]+)
+https?://tvthek\\.orf\\.at/(index\\.php/)?live/(?P<title>[^/]+)/(?P<id>[0-9]+)
+https?://tvthek\\.orf\\.at/pro(gram|file)/(?P<showtitle>[^/]+)/(?P<showid>[0-9]+)/(?P<episodetitle>[^/]+)/(?P<epsiodeid>[0-9]+)(/(?P<segmenttitle>[^/]+)/(?P<segmentid>[0-9]+))?
+https?://www\\.rte\\.ie/player/[a-z0-9]+/(?:show/[a-z-]+-[0-9]+/(?P<video_id>[0-9]+)|live/(?P<channel_id>[0-9]+))
+https?://www\\.vrt\\.be/vrtnu/(?:kanalen/(?P<channel>[^/]+)|\\S+)
+https?:\\/\\/(?:[a-zA_Z]{2,3}.)?(?:youtube\\.com\\/watch\\?)((?:[\\w\\d\\-\\_\\=]+&amp;(?:amp;)?)*v(?:&lt;[A-Z]+&gt;)?=([0-9a-zA-Z\\-\\_]+))
+https?:\\/\\/([0-9a-z\\_\\.\\-:]+)
+https?:\\/\\/\\S+|<a [^>]+>|<img [^>]+>|([^\\s^\\n^\\^^\\A^\\t^\\r<]{
+https?:\\/\\/www.youtube.com\\/v\\/(?P<id>[\\w-]+)(?P<timestamp>\\?t=\\d*m?\\d*s?)?
+https?:\\/\\/www.youtube.com\\/watch\\?v=(?P<id>[\\w-]+)(?P<timestamp>\\&t=\\d*m?\\d*s?)?
+https?:\\/\\/www\\.youtube\\.com\\/playlist\\?list=(?P<id>[\\w-]+)
+https?:\\/\\/youtu.be\\/(?P<id>[\\w-]+)(?P<timestamp>\\?t=\\d*m?\\d*s?)?
+https?:\\/\\/youtube.com\\/v\\/(?P<id>[\\w-]+)(?P<timestamp>\\?t=\\d*m?\\d*s?)?
+https?:\\/\\/youtube.com\\/watch\\?v=(?P<id>[\\w-]+)(?P<timestamp>\\&t=\\d*m?\\d*s?)?
+https?\\:\\/\\/garena\\.live\\/(?:(?P<channel_id>\\d+)|(?P<alias>\\w+))
+HUAWEI( |\\_)?([.0-9a-zA-Z]+)
+HWaddr:? (
+hwaddr=([\\h:]+)
+HYPERLINK\\s+\\\\l\\s+\"?([^\"]+)\"?\\s*$
+hyph_([\\w\\_]+)\\.dic
+Chain\\s+(?P<NAME>\\S+)\\s+\\((?P<REFERENCES>\\d+) references\\)$
+Chain\\s+(?P<NAME>\\S+)\\s+\\(policy\\s(?P<POLICY>\\S+)\\s+(?P<PACKETS>\\d+)\\s+packets,\\s+(?P<BYTES>\\d+)\\s+bytes\\)$
+ChallengeMusics\\\\(.+)
+changed '\\u{2603}' to '\\u{6FF}'
+changed '\\u{E2}\\u{98}\\u{83}' to '\\u{DB}\\u{BF}'
+channel_id\\s*=\\s*(?P<quote>['\"]?)(?P<value>\\d+)(?P=quote)
+channel-group\\s\\d+\\smode\\s(?P<value>.+)
+chapter=(?P<chapterId>\\d+)$
+characters();\n    my $ok = 1;\n    map {\n        my $line = $_;\n        map {\n            my $n = 0;\n            my $t = $line;\n            $n++ while $t =~ s
+Charge (?P<charge>\\S+)
+charset(()|\\s+)=(()|\\s+)(\\w|\\_|\\.|\\-)+
+charset\\s*=\\s*([A-Za-z0-9\\-\\_]+)
+charset=(?P<enc>\\S*)
+charset=(?P<charset>[\\w-]+)
+checkout of branch: (?P<url>.*)\\n
+chgrp:\\s(?P<ERROR_MSG>.*)
+chmod: changing permissions of\\s(?P<FILENAME>.*):\\s(?P<ERROR>.*) |chmod: cannot access\\s(?P<FILENAME1>.*):  \\s(?P<ERROR1>.*)|chmod: WARNING: can\\'t change|access\\s(?P<FILENAME2>.*)
+chown: missing operand after\\s(?P<FILENAME>.*)|chown: cannot access (?P<FILENAME1>.*):\\s*(?P<ERROR>.*)|chown: changing ownership of (?P<FILENAME2>.*):\\s*(?P<ERROR1>.*)
+chrome\\/([\\.\\_\\d]+)
+chunked 1.0,(?P<metadata_length>\\d+),(?P<body_length>\\d+)(\\n)?
+chunked 1.0,(?P<metadata_length>\\d+),(?P<body_length>\\d+)\\n
+I expect (
+I have an argument (?P<arg>\\d+)
+I/(?P<tag>netstats-\\d+)\\(\\s*\\d*\\): (?P<ts>\\d+) \"(?P<package>[^\"]+)\" TX: (?P<tx>\\S+) RX: (?P<rx>\\S+)
+i[(]\\\\
+i[)]\\\\
+i[+]\\\\
+i\\\\
+i18n:(?P<locale>.+)-shadow-base
+i18n\\((([^)']|'([^'\\\\]|\\\\.)*')*)\\)
+ia-(?P<type>ta|na|pd) \\\"(?P<id>[^\\\"\\\\]*(?:\\\\.[^\\\"\\\\]*)*)\\\" {(?P<config>[\\s\\S]+?)\\n}
+ia(addr|prefix) (?P<ip>[0-9a-f:]+(/[0-9]+)?) {(?P<config>[\\s\\S]+?)\\n\\s+}
+iceweasel\\/([\\.\\_\\d]+)
+Ico_[UFV](?P<size>\\d+)i?
+id(?P<itunes_id>[0-9]+)
+id:\\s+(?P<id>[0-9]+)\\n\\s+display_name:\\s+\\\"(?P<name>[A-Za-z]+)\\\"
+id\\=(?:\"|')(
+id\\s*=\\s*\"vod-player\"\\s+src\\s*=\\s*\"(?P<url>.*?)\"
+ID=(?P<ID>.*);Name=(?P<Name>.*);Target=(?P<Target>.*)\\s(?P<start>\\d+)\\s(?P<stop>\\d+)
+id=(?P<q>[\"'])dvrid(?P=q)\\svalue=(?P=q)(?P<id>[^\"']+)(?P=q)
+id=\"(?P<id>[^\"]+)\"
+id=\\\"html_stream\\\" value=\\\"(?P<stream_id>\\w+)\\\"
+id=\"resultStats\"[^>]*>(?P<stats>[^<]*)
+id=\"video:(?P<internalvideoid>[0-9]+)\"
+id=\\'first_map'
+id=\\'second_map'
+identical.* app[/\\\\]basics[/\\\\]mock-project.txt
+iframe.*?src=\"(?P<url>.*?)\"
+igenic\\_(\\d+)\\-(\\d+)
+ignore[\\/\\\\]dir[\\/\\\\]file\\d\\.js$
+ignore[\\/\\\\]file\\d\\.js$
+ignore[\\/|\\\\]a.js
+image\\?c\\=([A-Za-z0-9\\-\\_]*)\\\"
+img id=\"img\" .*? src=\"(?P<link>[^\"]*)\"
+IMI.+.Startup-config saved on .+ by (?P<user>.+) via .*
+immediate\\(\\h+\\)
+import (?P<name>.*)
+import.*\\MySvcService\\b.*from '.\\/my-svc.service';
+importScripts\\([\\\"\\'\\s]+([a-zA-Z0-9\\/\\_\\-]*\\.js)[\\\"\\'\\s]+\\)
+in (?<test_time>
+in (?P<function>[a-zA-Z0-9_:]+) \\(
+in (?P<function>[a-zA-Z0-9_:]+).*(?:\\.\\./)+(?P<package>(?:\\w+/)+)(?P<file>.+?):(?P<line>\\d+)
+in_one\\s*in_two\\s*\\in_three
+inc[\\/\\\\](.*)\\.pm$
+include:\\s*(?P<filename>.+)$
+include[/\\\\]wx[/\\\\](?:$no_platform)$
+include\\s*\"(?P<s>.*)\";
+inet (?P<ip>\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})
+inet addr:(?P<IP>\\d+\\.\\d+\\.\\d+\\.\\d+)\\s\\sBcast:(?P<BRD>\\d+\\.\\d+\\.\\d+\\.\\d+)\\s\\sMask:(?P<MASK>\\d+\\.\\d+\\.\\d+\\.\\d+)
+inet addr:(?P<IP>\\d+\\.\\d+\\.\\d+\\.\\d+)\\s\\sMask:(?P<MASK>\\d+\\.\\d+\\.\\d+\\.\\d+)
+inet6\\saddr:\\s(?P<IP>.*)\\/(?P<MASK>\\d+)\\sScope:(?P<SCOPE>\\S*)
+inline(?P<type>Video|Audio|YouTube)Data\\.push\\((?P<json_data>[^)]+)\\);
+InputMask: pattern \"\\\\1\\\\A\\\\\\*\\\\\\*\" does not contain any editable characters.
+InputMask: pattern ends with a raw \\\\
+INSERT INTO \\Q$table
+INSERT\\s(?P<write_cmd>.+);?
+insert\\s+(ignore\\s+)?(into\\s+)?`?(?P<table>\\w+)`?
+install_modules_(?P<name>\\w+)
+int_(?P<size>\\d+)$
+invoke-\\w+(?P<invoke>.*)
+io\\.k8s\\.(?P<codebase>\\S+)\\.pkg\\.(?P<packageType>apis)\\.(?P<group>\\S+)\\.(?P<version>\\S+)\\.(?P<kind>\\S+)
+io\\.k8s\\.(?P<codebase>\\S+)\\.pkg\\.(?P<packageType>runtime)\\.(?P<kind>\\S+)
+io\\.k8s\\.(?P<codebase>\\S+)\\.pkg\\.(?P<packageType>util)\\.(?P<version>\\S+)\\.(?P<kind>\\S+)
+io\\.k8s\\.(?P<codebase>\\S+)\\.pkg\\.(?P<packageType>version)\\.(?P<kind>\\S+)
+io\\.k8s\\.(?P<codebase>\\S+)\\.pkg\\.api\\.(?P<version>\\S+)\\.(?P<kind>\\S+)
+io\\.k8s\\.api\\.(?P<group>\\S+)\\.(?P<version>\\S+)\\.(?P<kind>\\S+)
+io\\.k8s\\.api\\.(?P<packageType>core)\\.(?P<version>\\S+)\\.(?P<kind>\\S+)
+Iop_(?P<srcsize>\\d+)(U|S|HI|HL)?to(?P<dstsize>\\d+)
+Iop_(Add|Sub|Mul|Xor|Or|And|Div[SU]|Mod)(?P<size>\\d+)$
+Iop_(Not|Ctz|Clz)(?P<size>\\d+)$
+Iop_(Shl|Shr|Sar)(?P<size>\\d+)$
+Iop_Cmp(EQ|NE)(?P<size>\\d+)$
+Iop_Cmp(GT|GE|LT|LE)(?P<size>\\d+)[SU]$
+Iop_DivMod[SU](?P<fullsize>\\d+)to(?P<halfsize>\\d+)$
+Iop_Mull[SU](?P<size>\\d+)$
+ip=(?P<host>.*),port=(?P<port>\\d+)
+IPA\\K(\\p{Lu})
+ip-permission.(*)
+IPv4.+: (?P<ip>\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})
+iqn\\.\\d{4}-\\d{2}\\.([[:alnum:]-.]+)(:[^,;*&$|\\s]+)$
+is (.+) (
+isset[\\s]*\\([\\s]*\\$nv\\_Lang
+It has (?P<views>[\\d,]+) views
+item\\?id=(?P<id>\\d+)
+Ity_[IFDV](?P<size>\\d+)
+--JavaHome=\"C\\:\\\\Program Files \\(x86\\)\\\\jdk-1\\.7\\.0\"
+JisonLexerError:[^]*?Unrecognized text\\.
+Job <(?P<jobid>\\d+)> is
+join($chan);\n  });\n}\n\n1;\n\n=head1 NAME\n\nNet::IRC::JoinOnInvite - Role which lets your bot join all channels it's\ninvite to\n\n=head1 SYNOPSIS\n\n  use Net::IRC;\n  use Net::IRC::JoinOnInvite;\n\n  my $bot = Net::IRC.new(...);\n  $bot does Net::IRC::JoinOnInvite;\n  # or\n  class MyBot does Net::IRC::JoinOnInvite {...}\n  my $bot = MyBot.new(...);\n\n=head1 DESCRIPTION\n\nC<Net::IRC::JoinOnInvite> is a role which installs a event handler listening\nfor C<INVITE>. When it is triggered, the bot joins the channel it was invited\nto.\n\n=head1 AUTHOR\n\nIngo Blechschmidt E<lt>iblech@web.deE<gt>\n\n=head1 LICENSE\n\nThis program is free software; you can redistribute it and
+JOIN(?:\\s+\\w+)?\\s+(?:\\S+\\s+)?(?:
+JSQueue\\_(?<flashVersion>\\d+)
+jwplayer\\(idplayer\\).playlistItem\\((?P<video_index>[0-9]+)\\)
+K(?P<name>[^+]+)\\+(?P<algo>\\d+)\\+(?P<tag>\\d+)\\.private
+k:(?P<k>\\d+)/m:(?P<m>\\d+)\\((?P<bitfield>[0-9a-zA-Z+/=]+)\\)
+key \\Q$key_id\\E
+Key Content.+: (?P<password>.+)
+keyword><normal>  (<
+keyword><normal> ((<
+keyword><normal> (<
+keyword><normal> (Dumper(<
+keyword><normal>(<
+kfk_(?P<process>\\S*)/config/server.properties
+kill: \\((?P<Pid>\\d+)\\) - No such process
+Killed (?P<Name>[^\\(]+)\\((?P<Pid>\\d+)\\) with signal
+l((\\\\V\\{[aiu]\\}|\\\\D\\{\\}|\\\\O\\{\\})+)(\\\\L\\{\\}|\\\\H\\{[ai]\\}|\\\\M\\{\\})
+L?'(\\\\.|\\\\[0-7]{1,3}|\\\\x[a-f0-9]{1,2}|[^\\\\'\\n])'
+-l\\Q$js_libname\\E\\b
+label\\s*=\\s*\"Left justified label\\\\l\"
+lace-form>\n\nStarting to lean toward something like\n\n$dom->at('#content')\n  ->content( $self->process_components( $self->content))\n\nor mayb $self->content->process_components( ctx=>$self->formdata, ...)\n\nmight have to move the concept of compoents into Template::Lace::DOM \nto get this right. \n\nOk now if we move components to the DOM we can support \n->attach\n\n==== END\n ----\n\n-- <web-component attr_hash={a=>1,f=>4} attr_array=['$.foo','rr']\n\n=== Form ideas\n-- fill and smart_content for matching input[name= same as class and id.\n  ?this maybe is overloading fill to much perhaps a ->fill_form would be\n  better.\n  \n$dom->form('#login',\n  \\%attrs, sub {\n    $_->ctx($self->fif, sub {\n      \n    },\n  },\n)\n\nmaybe instead some sort of MOP on forms like WWW::Mech\n== END\n\n'ul li' => Repeat {\n  Fill('~', $_),\n  '~@id+' => $_->id,\n  '~@class' => do { $_->completed ? 'completed' : undef },\n  '.update' => $self->uri('
+Lagrum: ?(?P<lagrum>.*)
+lastUpdateTime=(?P<time>.*)
+ld-(?P<linker_version>[\\d.]+).so$
+lease (?P<ip>\\d+\\.\\d+\\.\\d+\\.\\d+) {(?P<config>[\\s\\S]+?)\\n}
+LEM:(?P<lem>[^ \"]+)
+Lenovo[\\ |\\-|\\/|\\_]([.0-9a-zA-Z]+)
+Lexical error on line \\d+[^]*?Unrecognized text
+Lexical error on line \\d+[^]*?You can only invoke reject\\(\\) in the lexer when the lexer is of the backtracking persuasion
+Lexical error on line[^]*?Unrecognized text
+li>\n\n\nsub listclass {\n  my ($self, $li) = @_;\n  return $self->completed ? 'completed : undef;\n}\n\n===\n\nsub template {qq[\n  <ol>\n    <view-todo task=$.task 
+lib(.*)(?:\\.\\Q$Config{dlext}\\E|\\Q$Config{_a}\\E)
+lib(.*)(?:\\.\\Q$Config{dlext}\\E|\\Q$Config{_a}\\E).*
+lib([a-zA-Z0-9\\.\\-\\_\\+]+)\\.so(?:\\..*)?
+lib([a-zA-Z0-9\\_\\-\\.]*?)\\.(a|dll\\.a)$
+lib([a-zA-Z0-9\\_\\-\\.]*?)\\.(so|dylib|bundle|a|dll\\.a)$
+License: (?P<license>[^\\r\\n]+)\\r?\\n
+LimelightPlayer\\.doLoad(Media|Channel|ChannelList)\\([\"\\'](?P<id>[a-z0-9]{32})
+line (?P<line>\\d*)
+line (?P<line>\\d+), column\\ (?P<col>\\w+): \"(?P<val>.+)\"
+Linear_?B\\K(\\p{Lu})
+linebreak[/\\\\]src[/\\\\]linebreaker.js
+Link.pm>;\nif ($dist_version < $mods_version ) {\n    warn \"Declared dist version ($dist_version) is less than\\n\",\n\t    \"that derived from module versions ($mods_version)\\n\";\n    $dist_version = $mods_version;\n}\n\nmy %args = (\n   \tmodule_name\t=> 'File::Copy::Link',\n\tdist_version\t=> sprintf(\"%.3f\", $dist_version),\n\tabstract_from\t=> 'lib
+link/ether? (
+Link: <(.+)>; \\Qrel=\"describedby http://reltype.google.com/openid/xrd-op\"; type=\"application/xrds+xml\"\\E
+Link\\sencap:(?P<ENCAP>\\S*)\\s\\sHWaddr\\s(?P<MAC>\\S*)
+linux ()([a-z\\.\\_\\d]+)
+linux x86\\_64
+Listening for connections on port (?P<port>\\d+)
+Listening for system connection on port (?P<port>\\d+)
+LivePlayer\\(.+[\"'](?P<id>D\\d+)[\"']
+LOAD(?P<load>\\d+\\.\\d+)
+Local AS is (?P<as>.*?),.*
+local\\((.*)\\)\\s*\\=\\s*\\@\\_\\;
+locales[\\//\\\\]
+locales[\\/\\\\]?[a-zA-Z\\/]*[\\/\\\\]?device_type
+locales[\\/\\\\]?[a-zA-Z]*[\\/\\\\]?device_type$
+Location: https:\\/\\/www.sk-nic.sk\\/main.jsp;jsessionid=(?P<sessionid>\\w+)
+Log: \\[(?P<program>.*)\\] - (?P<msg>.*)
+log_entries/(?P<log_entry_id>[A-Z0-9]+)
+logging (?P<command>get logs) (?P<channel>\\\\S+) (?P<match>.*) (?P<start_date>\\\\d{4}-\\\\d{2}-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2}) (?P<end_date>\\\\d{4}-\\\\d{2}-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2})
+logging (?P<command>get logs) (?P<channel>\\\\S+) (?P<start_date>\\\\d{4}-\\\\d{2}-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2}) (?P<end_date>\\\\d{4}-\\\\d{2}-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2})
+logging (?P<command>set endpoint) (?P<endpoint>\\\\S+)
+Lor[^]?m
+ls_-\\w+(?P<path>.*)$
+m:([a-zA-Z_\\x7f-\\xff][a-zA-Z0-9_\\x7f-\\xff-]*)\\s*(\\(((?>[^)(]+|(?2))*)\\))?
+M-\\\\
+M-\\\\[\\\\MCc]
+M-\\\\C-([0-9])
+M-\\\\C-([a-zA-Z])
+M30X?(?P<x>\\d*\\.?\\d*)?Y?(?P<y>\\d*\\.?\\d*)?
+Mac OS X (10[\\.\\_\\d]+)
+mac os x.*?([\\.\\_\\d]+)
+Mac OS X[\\s\\_\\-\\/](\\d+[\\.\\-\\_]\\d+[\\.\\-\\_]?\\d*)
+Mac\\s+OS\\s+X\\s+([\\d]+)(\\.|\\_)([\\d]+)\\D
+mage\\.__\\(\\s*(['\"])(.*?[^\\\\])\\1.*?[),]
+Magento\\\\[\\w]+\\\\(Test\\\\(Page|Fixture))\\\\
+Maghead\\Migration
+mailto:(
+MAJOR_VERSION.+=.+(?P<value>[\\d])
+map\\[(?P<k_type>[^\\]]*)\\](?P<v_type>.*)
+MapGen\\:\\:set_([\\w\\d\\_]+)$
+Martin D\\u{FC}rst
+Martin D\\\\u{FC}rst
+matrix\\((?P<a>[0-9.-]+),(?P<b>[0-9.-]+),(?P<c>[0-9.-]+),(?P<d>[0-9.-]+),(?P<e>[0-9.-]+),(?P<f>[0-9.-]+)\\)
+Mean \\+- std dev: (?P<mean>[0-9.]+) ms \\+- (?P<mad>[0-9.]+) ms$
+meas\\_([0-9]+)$
+med\\s+(?P<start>.+)\\s+in\\s+(?P<stop>.+)
+mem_heap_B=(?P<data>\\d+)
+mem_heap_extra_B=(?P<data>\\d+)
+mem_stacks_B=(?P<data>\\d+)
+Member of (?P<port_group>\\S+)
+MemoryLogRawAllocation.*?step_id: (?P<step_id>[-0123456789]+).*operation: \"(?P<kernel_name>[^\"]+)\".*?num_bytes: (?P<allocated_bytes>\\d+).*allocation_id: (?P<allocation_id>\\d+).*allocator_name: \"(?P<allocator_name>[^\"]+)\".*
+MemoryLogStep.*?step_id: (?P<step_id>[-0123456789]+).*
+MemoryLogTensorAllocation.*?step_id: (?P<step_id>[-0123456789]+).*kernel_name: \"(?P<kernel_name>[^\"]+)\".*?allocated_bytes: (?P<allocated_bytes>\\d+).*allocator_name: \"(?P<allocator_name>[^\"]+)\".*allocation_id: (?P<allocation_id>\\d+).*
+MemoryLogTensorOutput.* step_id: (?P<step_id>[-0123456789]+) kernel_name: \"(?P<kernel_name>[^\"]+).*
+MemoryLogTensorOutput.* step_id: (?P<step_id>[-0123456789]+) kernel_name: \"(?P<kernel_name>[^\"]+).*allocated_bytes: (?P<allocated_bytes>\\d+).*allocator_name: \"(?P<allocator_name>[^\"]+)\".*allocation_id: (?P<allocation_id>\\d+).*
+menu_link\\_?
+MergeTree\\(([\\w+, \\(\\)]+)(?= \\(((?:[^()]|\\((?2)\\))+)\\),)
+message\\_type\\\"\\:null
+message\\_type\\\"\\:review\\_request
+meta\\s+data-id=[\"'](?P<id>[^\"']+)[\"']
+metasr\\s([\\d\\.\\_]+)
+method=(
+Microsoft Visual Studio[\\/\\]2017
+MINOR_VERSION.+=.+(?P<value>[\\d])
+mkdir:\\scannot\\screate\\sdirectory\\s(?P<PATH>.*):\\s(?P<ERROR>.*)
+mobile safari ([\\.\\_\\d]+)
+mod-example is now started (pid=
+module\\_Zend (Optimizer\\+|OPcache).+?(\\<table[^>]*\\>.+?\\<\\/table\\>).+?(\\<table[^>]*\\>.+?\\<\\/table\\>)
+module_classname=(?:([a-z0-9\\\\_]+))
+mocha[\\/\\\\]index.js
+mojo-index: *\"(?P<idx>[a-z]+)\"
+mojo-unique: *\"(?P<uniq>[a-z]+)\"
+moment[/\\\\]locale$
+moment[\\/\\\\]locale
+moment[\\/\\\\]locale$
+moment[\\\\]locale$
+monaco-editor[/\\\\]esm[/\\\\]vs[/\\\\]editor[/\\\\]editor.(api|main).js
+mongodb://(?P<username>[^:@]+):(?P<password>[^:@]+)@.*
+month_0] }\n\nour @months_abbr = <Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec>;\nmethod month_abbr returns Str { @months_abbr[.
+mount:\\s(?P<ERROR>.*)
+mov .* ptr \\[(?P<dst>([(rax)|(rbx)|(rcx)|(rdx)|(rsi)|(rdi)|(r9)|(r10)|(r11)|(r12)|(r13)|(r14)|(r15)]{3}))\\], (?P<src>([(rax)|(rbx)|(rcx)|(rdx)|(rsi)|(rdi)|(r9)|(r10)|(r11)|(r12)|(r13)|(r14)|(r15)]{3}))$
+mov dword ptr \\[(?P<dst>([(eax)|(ebx)|(ecx)|(edx)|(esi)|(edi)]{3}))\\], (?P<src>([(eax)|(ebx)|(ecx)|(edx)|(esi)|(edi)]{3}))$
+Mozilla/[\\d\\.]* \\((?P<model>[^;]*); .*CPU iPhone OS (?P<version>[\\w_]*) like Mac OS X
+Mozilla/[\\d\\.]* \\((?P<model>[^;]*); .*CPU like Mac OS X
+Mozilla/[\\d\\.]* \\((?P<model>[^;]*); .*CPU OS (?P<version>[\\w_]*) like Mac OS X
+Mozilla/[\\d\\.]* \\(.*(?P<model>Windows|Mac|Linux).*\\) .* Firefox/(?P<version>[\\d\\.]*)
+Mozilla/[\\d\\.]* \\(.*(?P<model>Windows|Mac|Linux).*\\) .* Chrome/(?P<version>[\\d\\.]*)
+Mozilla/[\\d\\.]* \\(.*(?P<model>Windows|Mac|Linux).*\\) .* Version/(?P<version>[\\d\\.]*) Safari
+Mozilla/[\\d\\.]* \\(Android; Linux .*\\) Gecko/\\d* (?P<model>[^/]*)/(?P<version>[\\d\\.]*)
+Mozilla/[\\d\\.]* \\(BlackBerry; .*\\) .* Version/(?P<version>[\\d\\.]*)
+Mozilla/[\\d\\.]* \\(compatible; MSIE (?P<version>[\\d\\.]*); (?P<model>Windows|Mac|Linux*)
+Mozilla/[\\d\\.]* \\(compatible; MSIE [\\d\\.]*; (?P<model>Windows|Mac|Linux) .*Lunascape (?P<version>[^\\)]*)\\)
+Mozilla/[\\d\\.]* \\(compatible; MSIE [\\d\\.]*; .* Windows Phone (?P<version>[\\d\\.]*)\\)
+Mozilla/[\\d\\.]* \\(compatible; MSIE [\\d\\.]*; Windows Phone OS (?P<version>[\\d\\.]*);
+Mozilla/[\\d\\.]* \\(compatible; MSIE [\\d\\.]*;.*(?P<model>Windows|Mac|Linux).*\\) Opera (?P<version>[\\d\\.]*)
+Mozilla/[\\d\\.]* \\(Linux; U; Android (?P<version>[^;]*); [^;]*; (?P<model>[^;\\)]*) Build/.*\\)
+Mozilla[\\w\\.\\_\\ ]*
+mozilla\\/[a-z\\.\\_\\d]+ \\((?:mobile)|(?:tablet)
+mp4\\:(?P<path>.*)
+m-play-button m-url=\"(?P<url>[^\"]+)\"
+msgid \\\"([\\s\\S]*?[^\\\\]|)\\\"
+msie ([\\.\\_\\d]+)
+mswin32(\\_(\\d+))?
+mswin64(\\_(\\d+))?
+multipart\\/mixed;\\s*boundary=\"?([A-Za-z0-9'\\(\\)\\+\\_,\\-\\.\\/:=\\?^\\s]+)\"?
+Multiple var declaration[^]*---\\^
+MyFlags.bits_from_str: invalid input: 'MyFlags(f0'
+mysql-\\h+
+N[^\\D\\uD800\\uDC00-\\uD800\\uDCAA1-3]N
+N[^\\d\\uD800\\uDC00-\\uD800\\uDCAAa-z]N
+N[^\\S\\uD800\\uDC00-\\uD800\\uDCAA\\t\\r]N
+N[^\\s\\uD800\\uDC00-\\uD800\\uDCAA1-9]N
+N[^\\uD83D\\uDCA9-\\uD83D\\uDCAB]N
+N[^\\w\\uD800\\uDC00-\\uD800\\uDCAA-]N
+N[^\\W\\uD800\\uDC00-\\uD800\\uDCAAa-]N
+NAME:\\s+\"(
+name\\s?=\\s?['\"](?P<name>[A-Za-z0-9\\._\\-]+)['\"]
+name='(?P<name>[^']+)'
+name='(?P<name>[^']+)' versionCode='(?P<vcode>[^']+)' versionName='(?P<vname>[^']+)'
+name='(?P<permission>[^']+)'
+name=[\"']post_key[\"']\\svalue=[\"'](?P<data>[^\"']+)[\"']
+name=\"?(.*?[^\\\\])(\"|;|\\z)
+name=\"?\\Q$param\\E\"?;\\s+filename=\"?([^\\\"]*)\"?
+name=\"regId\"\\svalue=\"(?P<regId>[^\"]*)\"
+name=\"urn:afs:[a-z0-9\\-]*#([A-Z]+\\_?[0-9]*)
+namespace [a-zA-Z\\\\]+;
+namespace +([A-Za-z\\\\]+);
+namespace Codeception\\\\Module;
+namespace Package\\\\Module
+namespace\\s([a-z0-9\\\\]+);
+namespace\\s+([\\w\\\\]+)
+namespace\\s+([\\w\\\\_-]+)
+namespace\\s+[a-z0-9\\\\]+;
+Nan::MakeCallback\\(([^,]+),[\\s\\\\]+([^,]+),
+NET 2003[\\/\\]VC7
+Network Distance:\\s(?P<hop_number>\\d+)\\shops?
+new \\\\Twig_SimpleFilter\\('([^']+)',
+new \\\\Twig_SimpleFunction\\('([^']+)',
+new\\((?P<keyName>[[:alnum:]]+)?(,(?P<curveType>[[:alnum:]]+))?\\)
+new\\sSpotify.Web.Login\\(.*?(?P<params>\\{.*\\}),\\s*?\\d+,\\s*?Spotify\\.Web\\.App.*?\\);
+ng-table[\\/\\\\]src[\\/\\\\].*\\.html$
+nick($:nickgen.next);\n      }\n    });\n\n    # 
+no \\Q$program\\E in 
+no comment\\/**foo
+No\\spasswd\\sentry\\sfor\\suser\\s(?P<USERNAME>.*)
+node  \"%~dp0\\\\(.*?)\"
+node((\\[((
+node@(?P<version>\\d+\\.\\d+\\.\\d+)\\s+\\|\\s+(?P<platform>\\w+)\\s+\\|\\s(?P<arch>ia32|x64)
+node_modules(?!(\\/|\\\\).*(weex).*)
+node_modules(?!(\\/|\\\\)react-sigma)
+node_modules(?![/\\\\]\\.cache)
+node_modules([\\\\]+|\\/)+(?!origin)
+node_modules(\\/|\\\\)(?!(@feathersjs))
+node_modules(\\/|\\\\)(?!(framework7|framework7-vue|template7|dom7)(\\/|\\\\)).*
+node_modules(\\/|\\\\)candela(\\/|\\\\)
+node_modules(\\/|\\\\)candela(\\/|\\\\).*.js$
+node_modules(\\/|\\\\)paraviewweb(\\/|\\\\)
+node_modules(\\/|\\\\)vtk.js(\\/|\\\\)
+node_modules(\\/|\\\\)vtk\\.js(\\/|\\\\)
+node_modules(\\/|\\\\)vtk\\.js(\\/|\\\\).*.glsl$
+node_modules(\\/|\\\\)vtk\\.js(\\/|\\\\).*.js$
+node_modules(\\/|\\\\)wslink(\\/|\\\\)
+node_modules[/\\\\](@[^/\\\\]+?[/\\\\])?[^/\\\\]+?[/\\\\]package\\.json$
+node_modules[/\\\\](rc|tty-table)[/\\\\]
+node_modules[/\\\\]react[/\\\\]dist[/\\\\].*
+node_modules[/\\\\]unexpected(?:-[^/\\\\]+)?[/\\\\]
+node_modules[\\/\\\\](angular|elasticsearch-browser)[\\/\\\\]
+node_modules[\\/\\\\](mocha|moment)[\\/\\\\]
+node_modules[\\/\\\\].*lodash
+node_modules[\\/\\\\]metro(-bundler)?$
+node_modules[\\/\\\\]react-native[\\/\\\\]local-cli$
+node_modules[\\/\\\\]react-native[\\/\\\\]packager$
+node_modules[\\/\\\\]rxjs[\\/\\\\](.*)$
+node_modules[\\/\\\\]tap[\\/\\\\]
+node_modules\\\\json-schema\\\\lib\\\\validate\\.js
+node_modules\\\\sinon\\\\
+node_modules|[/\\\\]\\.
+node_modules|\\.git|[\\/\\\\]\\.
+node_modules|\\.git|^\\..+|[\\/\\\\]\\..+
+node_modules|utils\\/popper\\.js|utils\\/date.\\js
+node-chromelogger(\\/|\\\\)test(\\/|\\\\)test\\.js:[0-9]+:[0-9]+$
+Nokia[\\w\\.\\_\\ ]*
+NORDICSEMI_TARGET_(?P<target>\\d+)_(?P<key>[a-zA-Z_]+)
+normal><normal>\t);<
+normal><normal>\t\t\t[<
+normal><normal>\t\t]);<
+normal><operator>)<
+normal><operator>qw(<
+nota (?P<rating>\\d+)
+nplurals=(?P<nplurals>\\d+)
+nplurals=([0-9]*); *plural=(.*)[;\\\\]
+number $foo ) = @ARG;\n   
+NUMBER\\(+\\d{1}+\\)
+NUMBER\\(+\\d{2}+\\)
+number\\(+\\d{2}+\\)
+nv\\_apply\\_hook[\\s]*\\((\\$module\\_name|\"\"|'')[\\s]*\\,[\\s]*('|\")([a-zA-Z0-9\\_]+)('|\")[\\s]*\\,
+o[(]\\\\
+o[)]\\\\
+o\\\\
+o+ \\Kthree
+od\\s+(?P<start>.+)\\s+do\\s+(?P<stop>.+)
+of (?P<relperiod>this|next|last) (week|month|year)
+of 3: age\\_at\\_visit
+ok 1 test[/\\\\]fixture[/\\\\]babel[/\\\\]assert\\.js
+ok 1 test[/\\\\]fixture[/\\\\]success\\.js
+ON (?P<actionType>(DELETE|UPDATE)+) (?P<action>(SET NULL|NO ACTION|CASCADE))
+ON .*? (?:USING .*?\\s)?\\(([^]*)\\)
+on[a-z]+\\s*=\\s*(?|\"([^\"]+)\"|'([^']+)'|([^\\s><'\"]+))
+onclick=(['\"]).*?(?<!\\\\)\\1
+onstraints on package \"foo\":[^]+@[^]+@[^]+@
+oo(
+OO\\.Player\\.create\\([\\'\"].*?[\\'\"],\\s*[\\'\"](?P<ec>.{32})[\\'\"]
+OO\\.Player\\.create\\.apply\\(\\s*OO\\.Player\\s*,\\s*op\\(\\s*\\[\\s*[\\'\"][^\\'\"]*[\\'\"]\\s*,\\s*[\\'\"](?P<ec>.{32})[\\'\"]
+openbsd ()([a-z\\.\\_\\d]+)
+opera ([\\.\\_\\d]+)
+opera mini.*?version\\/([\\.\\_\\d]+)
+Opera/(?P<version>[\\d\\.]*) \\(.*(?P<model>Windows|Macintosh|Linux).*\\)
+Opera/(?P<version>[\\d\\.]*) \\(BlackBerry; (?P<model>[^/]*)
+Opera/[\\d\\.]* \\(Android (?P<version>[^;]*); Linux; (?P<model>[^;\\)\\/]*)
+opera\\/([\\.\\_\\d]+)
+operator><normal> (<
+operator><normal> => [<
+operator><normal> Dumper(<
+operator><normal>) { <
+operator><normal>) {<
+operator><normal>))  {<
+operator><normal>)) {<
+operator><normal>);<
+operator><normal>)};<
+operator><normal>)<
+operator><normal>} = [];<
+operator><normal>>[<
+opios\\/([a-z\\.\\_\\d]+)
+or libafsauthent (PIC) not found ...\\n\";\n        if ($ENV{AUTOMATED_TESTING}) { exit 0; }\n        die \"Script terminated ...\\n\";\n    }\n}\nelsif ($Config{usethreads} and $alpha_sys =~ 
+or modify it under the same terms as Perl itself\n(Artistic Licence or GNU GPL).\n\n=cut\n\nuse warnings;\nuse strict;\nuse Parse::Lotus123::WK4;\n\nunless (@ARGV) {\n    print STDERR \"wk42csv: no input files\\n\";\n    print STDERR \"Usage: wk42csv [-v] file.dta [otherfile.dta ...]\\n\";\n    print STDERR \" (Parse::Lotus123::WK4 version $Parse::Lotus123::WK4::VERSION)\\n\";\n    exit 1;\n}\n\nmy $verbose    = 0;\nmy $status     = 0;\nmy $longFormat = 0;\nfor my $file (@ARGV) {\n    if ( $file eq '-l' ) {\n        $longFormat = 1;\n        next;\n    }\n    if ( $file eq '-s' ) {\n        $longFormat = 0;\n        next;\n    }\n    unless ( -e $file ) {\n        warn \"$file: file not found\";\n        ++$status;\n        next;\n    }\n    open WK4, '<', $file;\n    my $data = Parse::Lotus123::WK4::parse(*WK4);\n    close WK4;\n    if (!$data) {\n        warn \"$file not understood\";\n        next;\n    }\n    ( my $name = $file ) =~ s
+or modify it\nunder the terms of either:\n\na) the GNU General Public License as published by the Free Software\nFoundation; either version 1, or (at your option) any later version,\n\nor\n\nb) the \"Artistic License\" which comes with this module.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See either\nthe GNU General Public License or the Artistic License for more details.\n\nYou should have received a copy of the Artistic License with this\nmodule, in the file ARTISTIC.  If not, I'll be glad to provide one.\n\nYou should also have received a copy of the GNU General Public License\nalong with this program in the file named \"Copying\". If not, write to the\nFree Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA\n02111-1307, USA or visit their web page on the internet at\nhttp:
+orientation=(?P<rotation>[0-3])
+os ([\\.\\_\\d]+) like mac os
+OS:\\s(?P<os>.*)
+OS\\ ([0-9\\.\\-\\_]+)
+OS\\s+([\\d\\_]+)
+others><char>(<
+others><char>)<
+others><char>[<
+others><char>+)<
+our \\$VERSION = \\'([\\d\\.\\_]+b?)\\'
+output\\s+:\\s+(?P<mode>.*)\\s+\\n
+ov\\((?:iPh OS )?(?:iOS )?([0-9\\_]+)
+P((?P<week>\\d+)W)
+P((?P<year>\\d+)Y)?((?P<month>\\d+)M)?((?P<day>\\d+)D)?(T((?P<hour>\\d+)H)?((?P<minute>\\d+)M)?((?P<second>\\d+)S)?)?
+P(?:(?P<week>\\d+)W)
+P(?:(?P<year>\\d+)Y)?(?:(?P<month>\\d+)M)?(?:(?P<day>\\d+)D)?(?:(?P<time>T)(?:(?P<hour>\\d+)H)?(?:(?P<minute>\\d+)M)?(?:(?P<second>\\d+)S)?)?
+P(?P<d>\\d+)DT(?P<h>\\d+)H(?P<m>\\d+)M(?P<s>\\d+)S
+P(?P<years>\\d+Y)?(?P<months>\\d+M)?(?P<days>\\d+D)?T?(?P<hours>\\d+H)?(?P<minutes>\\d+M)?(?P<seconds>\\d+\\.?\\d*S)?
+P(?P<years>\\d+Y)?(?P<months>\\d+M)?(?P<days>\\d+D)?T?(?P<hours>\\d+H)?(?P<minutes>\\d+M)?(?P<seconds>\\d+S)?
+P5#/# || ( $dosish && $script ~~ m
+P5/([^?]*)(?
+P5/[\\015\\012]*$//; # Hack to remove all \"\\r\\n\"s\n      debug_recv $line if $debug_raw;\n      # We record the time the last traffic from the server was seen, so we can\n      # autoping the server if needed.\n      $last_traffic = time;\n\n      if($line ~~ rx
+P5/^(?
+P5/^([^ \\t
+P5/^[@+%]?(.+)/)[0] }\n\t       .grep
+P5/^[@+%]?(.+)/)[0] }\n\t\t .grep
+P5/^[nN]/;\n            }\n        }\n    }\n\n    #-------------------------------------------------------------------\n    # Close the connection with the server.\n    #-------------------------------------------------------------------\n    _debug(\"  closing connection with FTP server\\n\");\n    $ftp.quit;\n\n    return @uploaded;\n}\n\n#=======================================================================\n#\n# pause_add_files()\n#\n# make an HTTP request to the add_uri form\n#\n#=======================================================================\nsub pause_add_files (*@files) {\n    my $file;\n    my $basename;\n    my $request;\n    my $response;\n    my $agent;\n    my $argref;\n\n\n    _verbose(\"registering upload with PAUSE web server\\n\");\n\n    #-------------------------------------------------------------------\n    # Create the agent we'll use to make the web requests\n    #-------------------------------------------------------------------\n    _debug(\"  creating instance of LWP
+P5/^\\s*(=*[^\\s=;,]+)//) {\n                push @current, ~$0;  # 'token' or parameter 'attribute'\n                \n                # a quoted value\n                if ($value ~~ s
+Package\\s+(?P<package>\\S+):
+Package\\s+\\[(?P<package>\\S+)\\]\\s+\\(.*
+packages[/\\\\]
+packages[/\\\\]node_modules[/\\\\]\\S*?[/\\\\].*
+page/(?P<page>\\d+).*$
+Page\\.messaging_box_controller\\.addItems\\(\\[(?P<msg>{.+?})\\]\\)
+page=(?P<num>[\\d]+)
+PAGEREF\\s+(\\S+)\\s*\\\\h
+pages(?:\\/|\\\\)(.*)\\.([^\\\\/]+)$
+Palm[\\.\\_\\-][\\w]*
+Palm[\\w\\.\\_\\-]*
+PalmOS[\\w\\.\\_\\-]*
+PalmSource[\\w\\.\\_\\-]*
+parameters\\[(?P<parameter_name>[^]]*)\\]
+parent branch: (?P<foo>.+)\\n
+Parse error on line \\d+[^]*?Expecting \"ZERO\", \"E\", \"T\", got unexpected \"PLUS\"
+Parse error on line \\d+[^]*?got unexpected ERR
+Parse error on line[^]*?Expecting end of input, got unexpected \"=\"
+Parse error on line[^]*?got unexpected \"c\"
+Parse error on line[^]*?got unexpected \"d\"
+Parse error on line[^]*?got unexpected y
+parse($str);\n        \n        given ($self) {\n            my ($protocol, $code, $message);\n            \n            if ($status_line ~~ 
+Part\\_[0-9]{2}\\_[a-zA-Z0-9]{13}\\.[a-zA-Z0-9]{13}
+PASS __tests__(\\/|\\\\)file1.test.j
+PASS __tests__(\\/|\\\\)file1.test.js
+PASS __tests__(\\/|\\\\)file2.test.js
+PASS __tests__(\\/|\\\\)file3.test.js
+PASS __tests__(\\/|\\\\)index.js
+password: \"(?P<password>.+)\"
+path(\\W+|)=(\\W+|)[\\'\\\"](?P<entry>.*)[\\'\\\"]
+path=(.+
+pci\\_(?:subsys_)?id=(\\w+):(\\w+)
+pclient_([\\d\\.\\_]+)
+pdfkit[/\\\\]js[/\\\\]
+pending|shipped|chargeback\\_reversal
+perl\\_root\\:\\[lib\\.pod\\]
+Perl5{^HTTP\\/\\d+\\.\\d+\\s+(\\d+)([^\\x0A]*?\\x0D?\\x0A)+?\\x0D?\\x0A}{}) {\n    my $code = $0;\n\n    # XXX
+pf-var-(?<key>.+):\\s*\"\\\\(?<unicode>.*)\";
+pgfpath(move|line)to\\{\\\\pgfqpoint\\{(\\-?[0-9]+)pt\\}\\{(\\-?[0-9]+)pt\\}
+pgilinux-\\d+-(?P<year>\\d\\d)0?(?P<month>[1-9][0-9]?)
+pgrp=([^\\s\\\\]+)
+Phase\\s+(?P<phase>\\d+)[\\s\\w\\(\\)]+\\:\\s+(?P<duration>\\d+)
+PHP_EVENT_REGISTER_CLASS\\(\"([a-z0-9_]+)\
+Physical size: (?P<width>\\d+)x(?P<height>\\d+).*Physical density: (?P<density>\\d+)
+picasaweb\\.google\\.[^\\\\]+\\/([^\\\\]+)\\/([^\\\\?]+)
+pid=(?P<pid>\\d+)
+PING (?P<content>.+)
+pip install([\\w -.=:/\"]*) (?P<packagename>\\w+)==(?P<version>\\d.+)\\n
+Piwik\\\\Plugins\\\\([a-zA-Z_0-9]+)\\\\
+Pixi[\\w\\.\\_\\-]*
+Platna do\\s+(?P<expirationDate>\\d+.\\d+.\\d+)
+play\\s(?P<song>(\\w|\\s)*)
+play\\s(?P<song>(\\w|\\s)*)\\sby\\s(?P<artist>(\\w|\\s)*)
+play\\s(?P<song>(\\w|\\s)*)\\sby\\s(?P<artist>(\\w|\\s)*)\\s((off|on|from|album|within|of)\\s)+(the\\s)?(album\\s)?(?P<album>(\\w|\\s)*)
+play\\s.*album\\s(called\\s|named\\s)?(?P<album>(\\w|\\s)*)
+play\\s.*album\\s(called\\s|named\\s)?(?P<album>(\\w|\\s)*)\\sby\\s(?P<artist>(\\w|\\s)*)
+play\\s.*artist\\s(called\\s|named\\s)?(?P<artist>(\\w|\\s)*)
+player\\.ooyala\\.com/[^\"?]+[?#][^\"]*?(?:embedCode|ec)=(?P<ec>[^\"&]+)
+playlist: \\[{.*?,\"identity\":\"(?P<video_id>.+?)@(?P<catalogue>Ludo|Zouzous)\"
+plot (
+plug\\_set\\_id\\(([^\\,]*),([^\\)]*)\\)
+plugins[/\\\\]([^/\\\\]+)[/\\\\]
+plugins\\/[^\\/\\\\]+
+plural=(?P<plural>[^;\\n]+)
+pod2htm*>;\n\n# write the MANIFEST;\nunshift @files, $root.'MANIFEST';\nwrite_file( $root.\"MANIFEST\", (join\"\\n\", map{ m
+Pods[\\/\\\\]React[\\/\\\\]packager$
+PokerStars Game #([0-9]+): +([^(]*) \\((
+PokerStars Game #([0-9]+): +([^(]*)Hold'em (No |Pot |)Limit \\((
+PokerStars Game #([0-9]+): Tournament #([0-9]+), (
+PokerStars Game #([0-9]+): Tournament #([0-9]+), (\\$[0-9+$]+) ([^\\-]*) - Level ([IVXL]+) \\((
+PokerStars Game #([0-9]+): Tournament #([0-9]+), (Freeroll|(
+policyKey\\s*:\\s*(?P<q>['\"])(?P<key>.*?)(?P=q)
+polyfills[\\/\\\\]Promise\\.js
+port=(?P<port>\\d+).*host=(?P<host>\\S+)
+Ports:\\s+(?P<ports>.*)/
+Posledna zmena stavu\\s+(?P<lastStateChange>\\d+.\\d+.\\d+)
+postfix-(?P<queue>[^/]+)/(?P<process>[^[]+)\\[\\d+\\]:
+powerline_tmux_(?P<major>\\d+)\\.(?P<minor>\\d+)(?P<suffix>[a-z]+)?(?:_(?P<mod>plus|minus))?\\.conf
+Pre[\\w\\.\\_\\-]*
+preview|rc\\d?+
+PRIMARY KEY\\s+\\((?P<columns>[`\\w,]+?)\\)
+processed: (?P<processed>\\d+); failed: (?P<failed>\\d+); total: (?P<total>\\d+); seconds spent: (?P<seconds_spent>\\d.\\d+)
+Processing ((?:\\w+::)*\\w+)#(\\w+)(?: to (\\w+))? \\(for (
+Profile[\\w\\.\\_\\ ]*
+profile\\_private\\_info
+projectVersion\\s*=\\s*(?P<version>[\\d.]+)
+protocol;\n        $status_line = \"$proto $status_line\" if $proto.defined;\n        $status_line ~= \" ($status_message)\" if $status_message ne $message;\n        $status_line ~= \" $message\";\n        \n        return ($status_line, ..
+protocol;\n        \n        $req_line ~= $protocol if $proto.defined;\n        \n        return ($req_line, ..
+psk\\=(?P<password>.+)
+Psy[/\\\\]ExecutionLoop
+PT(?:(?P<hours>\\d+)H)?(?:(?P<minutes>\\d+)M)?(?:(?P<seconds>\\d+)(?:.(?P<fraction>\\d+))?S)?
+PT(?:(\\p{Digit}{1,2})H)?(?:(\\p{Digit}{1,4})M)?(?:(\\p{Digit}{1,5})(?:\\.(\\p{Digit}+?)0*)?S)?
+PT(?P<hours>\\d+)H(?P<minutes>\\d+)M(?P<seconds>[^S]+)S
+PTMProphet\\_[A-Za-z]+([0-9\\.\\-]+)
+public([\\/\\\\])index.php$
+python(?P<major_version>\\d).*
+q=(?P<quality>[^;]+)
+queue '(?P<name>.*?)' \\{(?P<stats>.*?)\\}
+r#\"^\\-\\-\\d+\\-\\- memalign\\(al \\d+, size (?P<size>\\d+)\\) = 0x(?P<ptr>\\w+)$
+r(?P<length>[whqes])?
+R(?P<rcount>[0-9]*)X?(?P<xdelta>[+\\-]?\\d*\\.?\\d*)?Y?(?P<ydelta>[+\\-]?\\d*\\.?\\d*)?
+r?u?\\'(.*?)(?<!\\\\)\\'|\"(.*?)(?<!\\\\)\"
+rack\\_hoptoad
+radical\\\\_value\\\\\\[radical\\\\_nested\\\\\\]
+Ran (?P<count>[\\d]+)
+Ran (?P<count>[\\d]+) tests in 
+Ran (?P<count>[\\d]+) tests with (?P<fail>[\\d]+) failures and (?P<error>[\\d]+) errors
+Ran (?P<unittests>[0-9]+) tests
+range[:\\s]+(?P<range>[^\\s]+)
+Raw packets sent: (?P<SENT_NO>\\d+)\\s+\\((?P<SENT_SIZE>\\S+)\\)\\s+\\|\\s+Rcvd:\\s+(?P<RCVD_NO>\\d+)\\s+\\((?P<RCVD_SIZE>\\S+)\\)
+rb_define_(class|module).*?\"(
+readline() }\n}\n\n# Support for =\"some_file\"\n# I'm not sure where this is specced, but when I migrated &prefix:<=> from\n# meaning the same as &readline to $obj.shift(), =\"some_file\" worked, so I\n# added the .shift() declaration here.  --iblech\nclass Str {\n    method shift ($self: ) is primitive { =open($self) }\n\n    method trans(Str $self:*%intable) is primitive is safe {\n\n      my sub expand(Str $string) {\n        if ($string ~~ m:P5
+readmeio (?P<account>\\\\S+) (?P<command>list changes) (?P<slug>\\\\S+)
+readmeio (?P<account>\\\\S+) (?P<command>list pages)
+readmeio (?P<command>list accounts)
+readmeio (?P<command>list changes) (?P<slug>\\\\S+)
+readmeio (?P<command>list pages)
+readmeio (?P<command>set account) (?P<account>\\\\S+) (?P<login>\\\\S+) (?P<password>\\\\S+)
+readmeio (?P<command>set default account) (?P<account>\\\\S+)
+reddit\\.com/(?:u(?:ser)?/(?P<user>.+?)(?:\\Z|#|/)|r/(?P<sub>.+?)(?:/?\\Z|/comments/(?P<id>.+?)(?:/?\\Z|/(?P<title>.+?)(?:/?\\Z|/(?P<cid>.+?)(?:/|#|\\Z)))))
+REF\\((\\S+)\\s+(.+)(?:\\s*\\1\\s*(.+))(?<!\\\\)\\)
+refunded|chargeback|partial\\_refund
+register\\_service
+register\\_service\\s*\\(\\s*.*proto\\:\\s*\\\"([^\\\"]*)\\\"
+Registr\u00e1tor\\s+(?P<registrar>\\w+-\\d+)
+rel\\h*=\\h*\"pingback\"
+RELATIONAL\\-OPERATOR\\-REPLACEMENT\\-\\p{Digit}+
+relationship:\\((?P<value>[^\\)]*)\\)
+remove.* app[/\\\\]basics[/\\\\]does-not-exist.txt
+remove.* app[/\\\\]basics[/\\\\]mock-project.txt
+RenderPagesVideo\\((?P<q>['\"])(?P<id>\\d+)(?P=q)
+REP(?P<repeat_index>\\d+):\n    (?P<internal_linkage>.+)\n    =(?P<lower_multitude>-?\\d+)-(?P<higher_multitude>-?\\d+)
+repeatItem\\_\\w*\\$
+repeats\\s+(?:\\bon\\s+)?(?:the\\s+)?((?:(?:1|2|3|4|5)(?:st|nd|rd|th)?\\s+
+replace\\('\\http:\\/\\/localhost\\/redirected\\/'\\).*?
+replace\\s+(into\\s+)?`?(?P<table>\\w+)`?
+replSet: \"(?P<replSet>\\S+)\"
+requested permissions:\\s*(?P<permissions>(android.permission.+\\s*)+)
+require ([\\\"\\'])[a-zA-Z0-9\\.\\-\\_]+\\1\\;[\\r\\n]
+require (['\"])(
+require\\((\"(?:[^\"\\\\]|\\\\.)+\"|'(?:[^'\\\\]|\\\\.)+')\\)
+require\\(\"[\\.\\/\\\\]+(__ui-jar-temp-module-[a-z0-9]+)\"\\)
+require\\('\\.\\/\\_styles\\.scss'\\)
+require\\s*\\(\\s*([\"'])(.*?[^\\\\])\\1\\s*\\)
+REQUIRED\\-CONSTANT\\-REPLACEMENT\\-\\p{Digit}+
+reverse)\nformtitle(Read Everything Backwards)\nproc(reverseFunction)\ndesc(reverseDesc)\nquit(exitFunction)\n\n##\n\n=head1 NAME\n\nreverse - an application built using Navegante\n\n=head1 SYNOPSIS\n\nBuild the application:\n\n  $ navegante examples
+revision=\"(?P<revision>\\d+)\"
+rgb\\((?P<args>[0-9.,-]+)\\)
+rgb\\(\\s*((
+rgba\\(\\s*((
+rhino\\d\\_\\d[^\\.]*\\.jar
+rim.*?os\\s*([\\.\\_\\d]+)
+rim.*?version\\/([\\.\\_\\d]+)
+RJ\\.video(?P<format_id>\\d+[pPkK])\\s*=\\s*([\"\\'])(?P<url>(?:(?!\\2).)+)\\2
+ROOT:(?P<root>[^ \"]+)
+route\\(\\s?(['\\\"][\\-\\_\\/\\:\\<\\>\\?\\$\\[\\]\\w]+['\\\"])\\s?\\)
+route\\s?\\(\\s?(['\\\"][\\-\\_\\/\\:\\<\\>\\?\\$\\[\\]\\w]+['\\\"])\\s?\\)
+route\\s?\\(\\s?(['\\\"][\\-\\_\\/\\:\\<\\>\\?\\$\\[\\]\\w]+['\\\"])\\s?\\,?\\s?['\\\"]?(\\w+?)['\\\"]?\\s?\\)
+rtt min\\/avg\\/max\\/mdev = (?P<MIN>\\S+)\\/(?P<AVG>\\S+)\\/(?P<MAX>\\S+)\\/(?P<MDEV>\\S+)\\s+(?P<UNIT>\\S+)
+rule\\h+id\\h+\\d+
+rule\\s+([\\w\\_\\-]+)(\\s*:\\s*(\\w[\\w\\s\\-\\_]+\\w))?\\s*\\{\\s*(meta:\\s*(.*?))?(strings:\\s*(.*?))?\\s*condition:\\s*(.*?)\\s*\\}
+run files)\n       - replaced sbl_xbl.spamhaus.org with zen.spamhaus.org\n\n     Apache.pm\n       - added DirectoryIndex index.php declaration to PHP webmail apps in\n         apache
+running action (?P<action>.*)
+s?[0-9]+\\_([0-9]+)$
+s\\/([^\\\\]+)\\/(.*)
+s=\\K130
+s3 (?P<command>set account) (?P<account>\\\\S+) (?P<region>\\\\S+) (?P<bucket>\\\\S+)
+s3([-.](?P<region>\\w{2}-\\w+-\\d{1})|[-.](?P<bucket>[\\w.\\-\\_]+)|)?.amazonaws.com(.cn)?(?P<path>.*)?
+s3(\\+\\p{Alnum}+)?(://.*)?
+s3://(?P<bucket>[^/]+)/(?P<directory>.+[^/])/*$
+s3://(?P<bucket>[^/]+)/(?P<path>.*)
+s3://(?P<bucket>[^/]+)/*$
+Sampling rate\\s*:\\s*([\\w\\_\\-\\\\/\\@\\. ]+)\n
+Samsung[\\w\\.\\_\\-]*
+SAMSUNG[\\w\\-\\.\\_\\ ]*
+sap\\.ui\\.require\\s*\\(\\s*\\[([^]*)\\]\\s*,\\s*function\\(\\)
+sap-ui-theme=[a-z0-9\\-\\_]+
+SBN\\.VideoLinkset\\.ooyala\\([\\'\"](?P<ec>.{32})[\\'\"]\\)
+scale[:\\s]+(?P<scale>[\\d\\.]+)
+scored (?P<score>[0-9]+) out of a possible (?P<max_score>[0-9]+),
+script\\_bugtraq\\_id\\(([^\\)]*)\\)
+script\\_category\\s*\\((ACT\\_(INIT|SCANNER|SETTINGS|GATHER\\_INFO|ATTACK|MIXED\\_ATTACK|DESTRUCTIVE\\_ATTACK|DENIAL|KILL\\_HOST))\\)
+script\\_copyright\\s*\\([^\\\"]*\\\"([^\\\"]*)\\\"
+script\\_cve\\_id\\(\\\"([^\\)]*)\\\"\\)
+script\\_description\\s*\\(.*english\\:\\s*string\\s*\\(\\s*\\\"\\s*([^\\\"\\)]*)\\\"\\s*\\),?
+script\\_description\\s*\\(.*english\\:\\s*string\\s*\\(\\s*\\'\\s*([^\\'\\)]*)\\'\\s*\\),?
+script\\_description\\s*\\(\\s*english\\:\\s*[^\\\"]*\\\"\\s*([^\\\"\\)]*)\\\"\\s*,?
+script\\_description\\s*\\(\\s*english\\:\\s*[^\\']*\\'\\s*([^\\'\\)]*)\\'\\s*,?
+script\\_family\\s*\\(.*english\\:\\s*\\\"([^\\\"]*)\\\"\\s*,?
+script\\_id\\(([^\\)]*)\\);
+script\\_name\\s*\\(.*english\\:\\s*\\\"([^\\\"]*)\\\"\\s*,?
+script\\_summary\\s*\\(.*english\\:\\s*\\\"([^\\\"]*)\\\"\\s*,?
+script\\_version\\s*\\(\\s*(\\\"|\\')([^\\1\\)]*)\\1\\s*\\)\\s*\\;
+script>\n[#\n<script language=\"javascript\" type=\"text
+sdata\\.src.*?=.*?(?P<q>[\\\"'])(?P<url>http.*?)(?P=q)
+search-ui[\\/\\\\](src.+\\.ts)
+search-ui[\\/\\\\]bin[\\/\\\\]tests[\\/\\\\]unitTests.js
+Seat ([0-9]+): (.+) \\((
+Seat [0-9]+: (.*) (\\((small blind)|(big blind)|(button)\\) )?showed \\[([^\\]]+)\\] and ((won) \\(
+Secret: ([a-z2-7]{
+section>\n\npackage MyApp::Lace::Todos;\n\nsub dispatch { \n  my ($self, $name, @args) = @_;\n  return $self->display(@args) if $name eq 'count';\n}\n\nsub display {\n  my ($self, $dom) = @_;\n  $dom->data('person', \n    name => $self->person->name,\n    todos => sub { $self->list_todos($_) },\n  );\n}\n\nsub list_todos {\n  my ($self, $dom) = @_;\n  $dom->repeat(sub {\n    my ($dom, $todo) = @_;\n    $dom->data('todo', name => $todo->name)\n  }, $self->person->todos);\n}\n\n\n===\n\n# We need some way to set the value to a component\nsub process_dom {\n  my ($self, $dom) = @_;\n  $dom->form('#login', sub {\n    $_->input = $self\n      ->ctx\n      ->view('Input', value=>$self->fif->{user}, err=>$self->err->{user})\n  });\n\n} \n\n  $_->input = Helpers->input( value=>$self->fif->{user}, err=>$self->err->{user})\n\n+++++\n=======\n\n\n<section id=\"todos\">\n    <p>\n      Hi there <span data-person='name'>PERSON<
+sed:\\s(?P<ERROR>.*)
+SELECT (`?(?:
+SELECT \"bars\"\\.\\*, array_to_string\\(array_agg\\(\"__spatial_ids_join__\".\"id\"\\), ','\\) AS \"__spatial_ids__\" FROM \"bars\" INNER JOIN \"foos\" AS \"__spatial_ids_join__\" ON \\(ST_intersects\\(ST_SetSRID\\(\"__spatial_ids_join__\".\"the_other_geom\
+SELECT \"zortables\"\\.\\*, array_to_string\\(array_agg\\(\"__spatial_ids_join__\".\"id\"\\), ','\\) AS \"__spatial_ids__\" FROM \"zortables\" INNER JOIN \"bars\" AS \"__spatial_ids_join__\" ON \\(ST_intersects\\(ST_SetSRID\\(\"__spatial_ids_join__\".\"the_other_geom\
+SELECT +(?:[`\"]?
+select((?:(?:(?!\\sfrom\\s)[^()])+|\\(((?:[^()]+|\\((?2)\\))*)\\))*\\s)(from(?:(?:(?!\\slimit\\s|\\sorder by\\s)[^()])+|\\(((?:[^()]+|\\((?4)\\))*)\\))*\\s)(order by(?:(?:(?!\\slimit\\s)[^()])+|\\(((?:[^()]+|\\((?6)\\))*)\\))*\\s)?limit\\s+(\\d+)(?:\\s+offset\\s+(\\d+))?
+select((?:(?:(?!\\sfrom\\s)[^()])+|\\(((?:[^()]+|\\((?2)\\))*)\\))*\\s)from((?:(?:(?!\\sunion\\s|\\swhere\\s|\\sgroup by\\s|\\slimit\\s|\\sorder by\\s)[^()])+|\\(((?:[^()]+|\\((?4)\\))*)\\))*)(?=\\swhere\\s|\\sgroup by\\s|\\slimit\\s|\\sorder by\\s|\\sunion\\s|\\)|$)
+select\\s.*?\\sfrom\\s+`?(?P<table>\\w+)`?
+serve-icon/(\\d+)/(.*+)$
+service \"\\.service_locator\\.[^\"]++\"
+service\\s(?!class=\"[^\"]+\"\\s+id=\"[^\"]+\")(.*id=\"(?<id>Shopware\\\\[^\"]++)\").*
+service-worker[/\\\\]cli
+SET\\_UNIFORMS
+set=\\+\\[(?P<set>[\\w]+)\\]
+settings[/\\\\]?$
+--settings=(?P<settings_path>.+)
+setuptools-(?P<version>.*).tar.gz
+setVideo(?:Url(?P<id>Low|High)|HLS)\\s*\\(\\s*(?P<q>[\"\\'])(?P<url>(?:https?:)?//.+?)(?P=q)
+SEVERE WEATHER OUTLOOK POINTS DAY\\s+(?P<day>[0-9])
+shared repository: (?P<repository>.*)\\n
+shared[\\/\\\\]?[a-zA-Z]*[\\/\\\\]?branding$
+shared[\\/\\\\][a-zA-Z]+[\\/\\\\]branding$
+sharedUser=SharedUserSetting{\\S+\\s+(?P<label>\\S+)/(?P<uid>\\d+)}
+show (
+SIGMET (?P<name>[A-Z]*) (?P<num>[0-9]*) VALID (?P<sts>[0-9]{6})/(?P<ets>[0-9]{6})
+SIP/2.0 (?P<status_code>[0-9]{3}) (?P<status_message>.+)
+SIP/2.0/(?P<protocol>[a-zA-Z]+)[ \t]*(?P<sentby>[^;]+)(?:;(?P<params>.*))
+sitemap-(?P<type>\\w*)(-(?P<params>.*))?(\\.(\\w*))?$
+size=[^ ]+ time=(?P<hours>[0-9]{2}):(?P<minutes>[0-9]{2}):(?P<seconds>[0-9\\.]{5}) bitrate=
+Skipped (?P<numFrames>\\d+) frames!
+skipped = \"(?P<skipped>.+)\"
+Skipping host (?P<HOST>\\S+) due to host timeout
+skserver\\-raw\\_\\d\\d\\d\\d\\-\\d\\d\\-\\d\\dT\\d\\d\\.log
+slack (?P<command>delete) (?P<email>\\\\S+)
+slack (?P<command>invite) (?P<email>\\\\S+)
+slack (?P<command>list nomfa)
+slack (?P<command>revoke) (?P<email>\\\\S+)
+slack:\\/\\/(.*)@(hooks.slack.com\\/services)\\/([T].*?)\\/([B].*?)\\/(.*)\\/([
+smartctl_-a_\\.dev\\.(?P<device>\\w+)$
+snapshot-(?P<id>\\d+)
+snapshot=(?P<data>\\d+)
+SonyEricsson[\\w\\.\\_]*
+SonyEricsson[\\w\\-\\.\\_\\ ]*
+source.*?(?P<q>[\"'])(?P<stream_url>https?://.*m3u8\\?.*clientKey=.*?)(?P=q)
+source.*?\\b(?P<source>BD(-?(25|50|RIP))?|Blu-?Ray ?(3D)?|BRRIP|CAM(RIP)?|DBrip|DTV|DVD\\-?(5|9|(R(IP)?|scr(eener)?))?|[HPS]D?(RIP|TV(RIP)?)?|NTSC|PAL|R5|Ripped |S?VCD|scr(eener)?|SAT(RIP)?|TS|VHS(RIP)?|VOD|WEB-DL)\\b
+Source: (?P<name>[^\\s]*)( \\((?P<version>.*)\\))?
+sourcedb/(?P<sourcedb>[^\\/]*)/sourceid/(?P<sourceid>[0-9]*)
+sources.*?src:\\s\"(?P<url>.*?)\"
+spamipfilter\\_([0-9]+)\\-([0-9]+)\\-(2[0-9][0-9][0-9])
+span>[$else$][+ $self->{text} +][$endif$]<
+Specified configfile '\\Q$configfile\\E' does not exist
+src \\s = \\s [\\\"'] \\Q$$url[4]\\E ([\\\"'>])\n                        
+src:[\"'](?P<url>[^\"']+\\.(?:m3u8|mp4))[\"']
+src[\\/\\\\].+\\.ts$
+src[\\/\\\\]file4\\.js$
+src[\\/\\\\]lib$
+src[\\/\\\\]lib[\\/\\\\]file5\\.js$
+src\\\\main\\\\resources\\\\
+src=([\"']?)(?P<url>.*?)\\1
+src=\"(/assets/app\\.head\\.[a-f0-9]{
+src=\"(?P<url>.+?)\"
+src=\"(?P<url>[^\"]+)\"
+src=\\\\?[\"']+([^\"'\\\\]+)
+src='localhost/(?P<encrypted_data>\\S+)/' width=1
+SSH_AGENT_PID=(?P<SSH_AGENT_PID>[^;]*);
+SSH_AUTH_SOCK=(?P<SSH_AUTH_SOCK>[^;]*);
+ssh_host_(?P<type>[a-z0-9]*)_key\\Z
+stacktraces(\\/|\\\\)index
+stage\\((?P<title>.*)\\)
+start task(?P<task_name>.*)
+Started (
+Started ([A-Z]+) \"([^\"]+)\" for (
+Started request handling\\:\\ (
+Starting phase\\s+(?P<phase>\\d+)
+--StartParams=\".*?\\\\daemon.rb;--dir;C:\\\\MyApp;-e;production;-p;4242\"
+startup-config was changed by (?P<user>.+) from telnet client .*
+State root mismatch \\(got: 0x(?P<stateroot>[0-9a-f]{64}), expected: 0x00000000000000000000000000000000000000000000000000000000deadc0de\\)
+state_context.(?P<element>\\w+)
+Statements {3}: 75% \\( 3[\\/|\\\\]4 \\)
+Statements {3}: 80% \\( 4[\\/|\\\\]5 \\)
+status (?P<status>0x[0-9a-f]+) \\((?P<flags>.*)\\)
+Status: (?P<status>.+?) - Rating: (?P<rating>.+?) - Chapters: [0-9,]+ - Word count: (?P<numWords>[0-9,]+?) - Genre: (?P<genre>.+?)$
+Stav dom\u00e9ny\\s+(?P<state>\\w+)
+--StdError=\"C\\:\\\\MyApp\\\\log\\\\STD.out\"
+--StdOutput=\"C\\:\\\\MyApp\\\\log\\\\STD.out\"
+steal\\.(production|production\\.[a-zA-Z0-9\\-\\.\\_]*)*js
+'steam://friends/joinchat/(?P<steamid>\\d+)'
+store_transactions/\">(?P<balance>.*?)</a>
+stream_url_(?P<id>[^\\s=]+)\\s*=\\s*([\"\\'])(?P<url>(?:(?!\\2).)+)\\2
+streamKey\\\"\\:\\\"([a-z0-9\\_]*?)\\\"\\,
+string with trailing \\\\
+studio://(?P<experiment>.+)/(?P<artifact>.+)
+su:\\s(invalid|unrecognized)\\soption\\s(?P<OPTION>.*)
+su:\\sAuthentication\\sfailure(?P<AUTH>.*)|su:\\sPermission denied\\s(?P<PERM>.*)|su:\\sincorrect password\\s(?P<PASS>.*)
+Sub\\u{30af 30e9 30b9}
+Subject: \\Q$header_subject\\E
+SUMMARY.*(?:\\.\\./)+(?P<package>(?:\\w+/)+)(?P<file>.+?):(?P<line>\\d+) ?(?P<function>[a-zA-Z0-9_:]+)?
+SW-TOKEN apikey=\"(?P<apikey>\\w+)\"
+SYN Stealth Scan Timing: About (?P<DONE>[\\d\\.]+)% done; ETC: (?P<ETC>[\\d:]+) \\((?P<REMAINING>[\\d:]+) remaining\\)
+syntax error, (.+) in .+ on line \\d+)$
+sys.path.insert\\(0, os.path.join\\(root, '(?P<name>.+)'\\)\\)
+System has non-zero total charge: *(?P<qtot>[-+]?\\d*\\.\\d+([eE][-+]\\d+)?)
+System.out: iteration: (?P<iteration>[0-9]+)
+System.out: Mean: (?P<mean>[0-9\\.]+)\\s+JankP: (?P<junk_p>[0-9\\.]+)\\s+StdDev: (?P<std_dev>[0-9\\.]+)\\s+Count Bad: (?P<count_bad>[0-9]+)\\s+Count Jank: (?P<count_junk>[0-9]+)
+systemjs_import\\s+(['\\\"])(?P<app>.*)\\1
+T(?P<toolid>[0-9]{1,2}) Holesize (?P<toolid2>[0-9]{1,2})\\. = (?P<size>[0-9/.]+) Tolerance = \\+(?P<xtol>[0-9/.]+)/-(?P<ytol>[0-9/.]+) (?P<plated>(PLATED)|(NON_PLATED)|(OPTIONAL)) MILS Quantity = [0-9]+
+T(?P<toolid>[0-9]{1,2}) Holesize (?P<toolid2>[0-9]{1,2})\\. = (?P<size>[0-9/.]+) Tolerance = \\+(?P<xtol>[0-9/.]+)/-(?P<ytol>[0-9/.]+) (?P<plated>(PLATED)|(NON_PLATED)|(OPTIONAL)) MM Quantity = [0-9]+
+t(?P<type>[0-9]+)(?:_(?P<id>[a-z0-9]+))?
+T\\[(?P<index1>\\-?\\d+)(\\,(?P<index2>\\-?\\d+))?\\](\\[(?P<column>.*)\\])?(\\.(?P<function>.*))?
+t\\_?cof
+T\\u{23F0 23F3}
+table>[$  \n endsub $]\n\n[# ---------------------------------------------------------------------------\n#\n#   show_sub_begin - output begin of sub form\n#]\n\n[$sub show_sub_begin ($self, $req)\n\nmy $span = $self->{width_percent}  ;\n$]\n<!-- sub begin --><
+table>\n[$endif$]\n[$endsub$]\n  \n[# ---------------------------------------------------------------------------\n#\n#   show_control - output the control\n#]\n\n[$ sub show_control ($self, $req) \nmy $class = $self -> {class} ||= '' ;\nmy ($attrs, $ctrlid, $name) = $self -> get_std_control_attr($req)  ;\n$]\n\n<textarea type=\"text\" name=\"[+ $self -> {force_name} || $self -> {name} +]\"  [+ do { local $escmode = 0 ; $attrs} +]\n[# [$if $self -> {cols} $]cols=\"[+ $self->{cols} +]\"[$endif$] #]\n[$if $self -> {rows} $]rows=\"[+ $self->{rows} +]\"[$endif$]\n><
+tacacs-server host\\s(
+tail:\\s(?P<PATH>.*):\\s(?P<ERROR>.*)
+td>#]\n    <td class=\"ef-control-box ef-control-box-width-100\">[+ $self->{text} +]<
+td><td style=\"width: [+ int((100 - ($tab * 3)) 
+template(\\/|\\\\)(dist|node_modules)(\\/|\\\\)
+Test \"(?P<test>[a-zA-Z0-9(){}\\[\\]:;&_<>\\-, =]+)\" is skipped
+test(\\/|\\\\)egg\\.test\\.js
+test(\\_(Hit|Hsp))?\\_
+test[/\\\\]core[/\\\\]promises[/\\\\]testPromiseUnhandledRejection.js
+test[/\\\\]fixture[/\\\\]__test__[/\\\\]b.js
+test[/\\\\]fixture[/\\\\]error\\.js
+test[/\\\\]fixture[/\\\\]success\\.js
+test[/\\\\]fixture[/\\\\]test[/\\\\]a\\.js
+test[/\\\\]fixture[/\\\\]test[/\\\\]aaa[/\\\\]bbb[/\\\\]c.test\\.js
+test[/\\\\]fixture[/\\\\]test[/\\\\]aaa[/\\\\]bbb[/\\\\]c\\.js
+test[/\\\\]fixture[/\\\\]test[/\\\\]aaa[/\\\\]bbb[/\\\\]c\\.test.js
+test[/\\\\]fixture[/\\\\]test[/\\\\]aaa[/\\\\]bbb[/\\\\]ccc[/\\\\]b\\.js
+test[/\\\\]fixtures[/\\\\]invalid\\.json: 
+test[/\\\\]only[/\\\\]only\\.js
+test[/\\\\\\\\]tools[/\\\\\\\\]test
+test[\\/\\\\]fixtures[\\/\\\\]invalid.json: Unexpected string
+test[\\/\\\\]intern[\\/\\\\]
+test[\\/\\\\]stack\\.js:\\w+:\\w+\\)\\n
+test[\\\\/]test[/\\\\]not-ok\\.js \\.+ 0/[12]( [0-9.]+m?s)?$
+test[\\\\/]test[/\\\\]ok\\.js \\.+ 10/10( [0-9.]+m?s)?$
+test[^]*\\.(png|jpg)$
+Test\\((?P<func>[\\w_\\.]+)\\)
+Test\\(\\<(?P<class>[\\w_\\.]+) testMethod=(?P<method>[\\w_]+)\\>\\)
+test_(?P<name>.*).py
+tests[/\\\\]
+tests[\\/\\\\]bin[\\/\\\\]stackable.js
+TEXTURE\\_START([\\S\\s]*)TEXTURE\\_END
+the (
+the (?P<Event>.*)
+the (?P<Event>\\w+\\s\\w+) theory
+the card is a (
+The configuration parameter 'command_file = /tmp/command' is deprecated and will be ignored. Please configure an external commands capable module as expected (eg external-commands, NSCA, or WS module may suit.
+The function (?:\"|')(?P<state_func>.*)(?:\"|') is running as PID (?P<pid>[\\d]+) and was started at (?P<date>.*) with jid (?P<jid>[\\d]+)
+The lexer rule\\'s action code section does not compile[^]*?\\n  Erroneous area:\\n2: \"a\" %\\{ return true; \\n\\^\\.\\.\\.\\.\\.\\.\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\n3: \"b\" %\\{ return 1; %\\}\\n\\^\\.\\.\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^\\^
+The value \\'9007199254740992\\' cannot be represented by a javascript number\\.
+themes(\\/|\\\\)?[a-z0-9_.-]+(\\/|\\\\)?index\\.js$
+themes[\\/\\\\]+(.*?)[\\/\\\\].*
+there should(| not) be a process called \"([^\"]*)\" running(
+This is \\\\n\\.\\\\O \\(\\\\s \\\\m \\\\r\\) \\\\t
+This machine benchmarks at (?P<score>\\d+)
+This story is No\\. (?P<num>\\d+) in the series \"(?P<series>.+)\"\\.
+this\\.src=\\'(?P<pic>.*?)\\'
+This\\s*documentation\\s*.*?version\\s*(.*)\\R$
+Thread\\s+(?P<thread>\\d+)\\s+(?P<name>\\w+)\\svalue\\s+\\=\\s+(?P<value>\\d+)
+time (?P<timecode>[0-9a-f]{8}\\.[0-9a-f]{8}) +(?P<timestamp>\\w{3}, \\w{3} \\d+ .*),
+TIME\\.\\.\\.MOT\\.\\.\\.LOC\\s+(?P<ztime>[0-9]{4})Z\\s+(?P<dir>[0-9]{1,3})DEG\\s+(?P<sknt>[0-9]{1,3})KT\\s+(?P<loc>[0-9 ]+)
+time_unit:\\s(?P<data>ms|B|i)$
+time=(?P<data>\\d+)
+time=(?P<hours>\\d+):(?P<minutes>\\d+):(?P<seconds>\\d+)
+timeleft: (?P<hours>[\\d]*):(?P<minutes>[\\d]*):(?P<seconds>[\\d]*)
+Timestamp(?P<spacing>\\s+)Notes
+timestamp\\|(?P<timestamp>(\\d{10}\\.\\d{1,2}))\\|?(?P<meta>.*)$
+tinyletter (?P<command>list accounts)
+tinyletter (?P<command>list subscribers)
+tinyletter (?P<command>list subscribers) (?P<account>\\\\S+)
+tinyletter (?P<command>set account) (?P<account>\\\\S+) (?P<login>\\\\S+) (?P<password>\\\\S+)
+tinyletter (?P<command>set account) (?P<account>\\\\S+) (?P<login>\\\\S+) (?P<password>\\\\S+) (?P<domains>.*)
+tinyletter (?P<command>set allowed domains) (?P<account>\\\\S+) (?P<domains>.*)
+tinyletter (?P<command>set default account) (?P<account>\\\\S+)
+title>(?P<title>[^<]+)</ti
+TKK=(?P<vq>[\\s\\S]+);VERSION_LABEL
+TNR:[ \n](?P<tnr>\\d+\\.\\d+)
+To: \\Q$header_to\\E
+Today, (?P<hour>[0-9]+):(?P<minute>[0-9]+) (?P<am>[APM]+)
+token: '(?P<token>\\S+)',
+token=(?P<q>[\"'])(?P<token>[^'\"]*?)(?P=q)
+tool\\.go:\\d+: undefined: [\\pL_0-9]+\\.([\\pL_0-9]+)
+ToolsVersions\\\\([^\\\\]+)$
+top:\\s*(?P<ERROR_MSG>.*)
+Total dhrystone run time: (?P<time>[0-9.]+)
+Total pot (
+Total Size: (?P<number>[0-9\\.]+)\\s(?P<unit>[a-zA-Z]+)
+total\\s+size\\s+is\\s+(?P<Number>((\\d+)\\,?)+)
+Total|?\\d+ Microsoft Corporation. All rights reserved.*
+Traceback.*\\n(?:  (.*)\\n){1,}(?P<type>[\\w\\.]+)\\: (?P<message>.*)
+tracks/(?P<track_id>[^/]+)
+translate[^(]+\\(([+-\\d.]+)
+translate\\((?P<x>[0-9.-]+),(?P<y>[0-9.-]+)\\)
+trident\\/.*?rv:([\\.\\_\\d]+)
+TS(\\s+(?P<loc>( OHD | VC | DSNT\\s+ | \\s+AND\\s+ |\n                                           [NSEW][EW]? (-[NSEW][EW]?)* )+))?\n                                          ( \\s+MOV\\s+(?P<dir>[NSEW][EW]?) )?\\s+
+ts3server_(?P<date>\\d{4}-\\d\\d-\\d\\d)__(?P<time>\\d\\d_\\d\\d_\\d\\d.\\d+)_(?P<sid>\\d).log
+tt(?P<imdbid>\\d{6,7})$
+ttp?:\\\\/\\\\/.+\\.(jpg|gif|png
+tussen\\s+(?P<start>.+)\\s+en\\s+(?P<stop>.+)
+typedef (?P<signature>void \\(\\*\\s?\\w+\\)\\([\\w\\d\\s\\*,]+\\));
+typedef struct (\\w+)\\s({(?P<variables>[^}]+)}\\s)?(?P<name>\\w+);
+typeof\\s++\\w++\\s*+[!=]{2,3}+\\s*+['\"]?+undefined
+u(?P<userId>\\\\d+)(?P<aidType>[ias])(?P<appId>\\\\d+)
+u(['\\\"])(.*?)(?<!\\\\)\\1
+u?\\'(?P<name>.*)\\' is a required property
+u[(]\\\\
+u[)]\\\\
+u[+]\\\\
+u\\\\
+u\\{\\}\\\\iu
+u\\+(?:
+ubuntu\\d+~(?P<version>\\d+\\.\\d+)
+UI_COMMIT: User \\\\'(?P<user>.+?)\\\\' .*
+uid=(?P<uid>\\S+)
+uid=(?P<UID>\\S+)\\s+gid=(?P<GID>\\S+)\\s+groups=(?P<GROUPS>\\S+)
+unable to (?P<Type>decode|recognize) \"(?P<Manifest>.*)\": (?P<Message>.*)
+uname:\\s(invalid|unknown)\\soption\\s(?P<OPTION>.*)
+uname:\\sextra\\soperand\\s(?P<COMMAND>.*)
+UNARY\\-OPERATOR\\-INSERTION\\-\\p{Digit}+
+UND(?P<und_index>\\d+):\n    (?P<major>\\d+(\\.\\d*)?):\n    (?P<minor>\\d+(\\.\\d*)?)\n    
+unicode-properties[/\\\\]index.js$
+uniform\\s*sampler2D\\s*([\\w]*);\\s*\\/\\/\\s*([\\w|\\:\\/\\/|\\.|\\-|\\_]*)
+UNIQUE KEY\\s+`(?P<name>\\w+)`\\s+\\(`?(?P<column>[\\w,` ]+)`?\\)
+unique\\_violation
+Unknown callback \\\"fast_send\\.mistyped\\_header\\\"
+unless\\s+[^\\?]++\\?
+Unloadable\\u{23F0 23F3}
+unoconv\\s+(?P<version>[0-9]\\.[0-9])
+Unparsed groups in body '(?P<msg>.*)' while processing
+unrelated[\\/\\\\]file.js$
+up (?:(?P<days>\\d+) days?,? )?(?P<hours>\\d+):(?P<minutes>\\d{2})
+UPDATE `?site`? SET `?value`? = '?(?P<patch>\\d+)'? WHERE `?setting`? = 'sqlpatch'
+UPDATE people SET (name|
+update\\s+(ignore\\s+)?`?(?P<table>\\w+)`?\\s+set
+Uppslagsord: ?(?P<sokord>.*)
+uri().defined) ?? .
+url[\\s]*\\(((['\"])\\/(
+url[\\s]*\\((\\/(
+url\\(#(?P<label>\\w+)\\)
+url\\((?:([\"'])(?:\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1|.*?)\\)
+url\\((?:([\"'])(\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1|.*?)\\)
+url\\((?:([\"'])(\\\\(?:\\r\\n|[\\w\\W])|(?!\\1)[^\\\\\\r\\n])*\\1|.*?)\\)
+url\\((?P<urls>.[^)]*)\\)
+url\\(([\"']?)(?P<url>.*?)(\\1)\\)
+url\\(([\"']?)[\\./]*(
+url\\(([a-zA-Z0-9/\\_\\-\\.]*\\.\\w+)\\)
+url\\((\\\\[^)]*)\\)
+url\\([\"' ]?+(?!data:|https?:|\\/\\/)(.*?)[\"' ]?\\)
+url\\([\"\\']?(?!data:)(?P<path>[^\\)]*)[\"\\']?\\)
+url\\(\\s*((['\"]?)(?:[^)]|(?<=\\\\)\\))+['\"]?)\\s*\\)
+url\\(\\s*(?P<quote>[\"\\']?)(?P<replace>cid:(?P<cid>[^\\\\\\')]+))(?P=quote)\\s*\\)
+url\\s*\\((?P<quote>['\"]{0,1})(?P<url>[^'\"\\)]+)\\1\\)
+url_video_(?P<quality>.+)
+url=(?P<raw_url>.*?)(?:&title=)(?P<title>.*?)%
+urn:rmap:procedure:(?P<ident>.*)/(?P<lon>[0-9]+),(?P<lat>[0-9]+)/(?P<rep_memo>.*)/(?P<pindicator>[0-9]+),(?P<p1>[0-9]+),(?P<p2>[0-9]+)/(?P<leveltype1>[0-9]+|-),(?P<l1>[0-9]+|-),(?P<leveltype2>[0-9]+|-),(?P<l2>[0-9]+|-)/(?P<var>B[0-9]{5})
+Usage:\\s(?P<HELP_MSG>.*)
+Usage:\\suseradd\\s\\[options\\]\\sLOGIN(?P<ERROR>.*)
+USB\\\\(?:.+)\\\\(.+)
+use App\\\\Containers\\\\(?P<containers>[a-zA-Z\\d]*)\\\\
+use\\s(?P<database>\\w+);?
+use\\s*Psr\\\\Http\\\\Message\\\\ResponseInterface\\s*(;|as\\s*([^;\\s]+)\\s*;)
+use\\s+encoding(?:::source)?\\s+(['\"])(?P<encoding>[\\w-]+)\\1
+use\\s+Interop\\\\Http\\\\Server(Middleware)?\\\\(DelegateInterface|RequestHandlerInterface)(\\s*)(;|as\\s*([^; ]+)\\s*;)
+use\\s+Interop\\\\Http\\\\ServerMiddleware\\\\MiddlewareInterface(\\s*)(;|as\\s*([^;\\s]+)\\s*;)
+use\\s+Psr\\\\Http\\\\Server\\\\MiddlewareInterface(.*);\\n?
+use\\s+Psr\\\\Http\\\\Server\\\\MiddlewareInterface(\\s*)(?<end>;|as\\s*(?<alias>[^;\\s]+)\\s*;)
+Useless suppression of '(?P<error_name>[^']+)'
+user: (?P<username>.*?); mac: (?P<macaddress>.*?); 
+useradd:\\s(?P<ERROR>.*)
+Userdef\\u{23F0 23F3}
+userdel:\\s(?P<ERROR>.*)
+userdel:\\suser\\s(?P<USER>.*)\\sis\\scurrently\\sused\\sby\\sprocess\\s(?P<PROCESS>.*)
+username (?P<user>[^\\s]+) privilege (\\d+)(?: role ([^\\s]+))?(?: (nopassword))?(?: secret (0|5|7|sha512) (.+))?.*$\\n(?:username (?P=user) sshkey (.+)$)?
+username=(?P<username>[\\w-]+)&password=(?P<password>[\\w-]+)
+using puppet (
+USR(?P<users>\\d+)/(?P<max_users>\\d+)
+UsrMarshal\\u{23F0 23F3}
+v(?P<Major>\\d+)\\.(?P<Minor>\\d+).(?P<Patch>\\d+).*\\+(?P<CommitsAhead>\\d+)
+V(?P<version>\\d+)__(?P<description>.+)\\.sql$
+v(?P<version>\\d+\\.\\d+(\\.\\d+)?)(-(?P<release>alpha|beta|rc|post)(?P<release_number>\\d+))?(?P<suffix>(-(?P<build>\\d+))?(-(?P<hash>.+))?)
+v\\s*=\\s*'((?:[^']|(?<=\\\\)')+)'|v\\s*=\\s*(\\S+)[\\s|}]
+V_(?P<study>[^\\W_]+)_(?P<view>[^\\W_]+)(_(?P<type>[^\\W_]+))?
+VAL\\_ (\\w+) (\\w+) (\\s*[-+]?[0-9]+\\s+\\\".+?\\\"[^;]*)
+valgrind-([0-9])\\.([0-9])\\.([0-9]+)([.-\\w]+)?(\\s+)
+value \\s* = \\s* [\\\"'] \\Q$$url[4]\\E ([\\\"'>])\n                       
+Value must be in DOMAIN\\\\user style syntax
+value\\:(?P<value>.*?)\\;
+VALUE\\s+(?P<key>\\S+)\\s+(?P<flags>\\d+)\\s+(?P<bytes>\\d+)(?:\\s+(?P<cas>\\d+))?\\Z
+var currentStationKey = \"(?P<radio_id>.+?)\"
+var deps = \\[ *({ *name: *(?:(?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\"))) *, *module: *require\\((?:(?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\")))\\) *}(?: *, *{name: *(?:(?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\"))) *, *module: *require\\((?:(?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\")))\\) *})*)? *];
+var deps = { *((?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\")) *: *require\\((?:(?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\")))\\)(?: *, *(?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\")) *: *require\\((?:(?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*)\")))\\))*)? *};
+var location_data =\\s+?(?P<json>\\[.*\\])\\;
+var total_pages = (?P<count>[^;]*?);
+var total_pages=(?P<count>[^;]*?);
+var[ ]+currentName[^=]+=[ \\t]+(?P<quote>[\"'])(?P<name>\\w+)(?P=quote);
+var\\s++\\w++\\s*+=
+var\\s+myid\\s+=\\s+'([a-zA-Z0-9]++)'
+variable><normal>);<
+VARIANCENUMERICAL(\\d+)-([\\w\\_]+)
+VARIANCEPERCENT(\\d+)-([\\w\\_]+)
+vers\u00e3o=(?P<version>\\d+) (?P<columns>.+)$
+version (?P<verstr>[^ ]+) 
+VERSION = \"(
+Version: (?P<major>\\d)\\.(?P<minor>\\d)\\.(?P<patch>\\d)
+version: (?P<version>.+)
+Version: (?P<version>\\S+)
+version\\/([\\.\\_\\d]+).*?safari
+VERSION\\s*=\\s*(?P<q>'|\")(?P<ver>[\\d\\.]+)(?P=q)
+VERSION\\s*=\\s*\"(?P<version>\\d*.\\d*.\\d*.*)\"\n
+version\\s*=\\s*\"(?P<version>\\d*.\\d*.\\d*.*)\"\n
+Version\\s+(?P<version>[^\\s<]+)?
+version\\s+(?P<version>\\d+\\.\\d+(\\.\\d+)?)(\\s+protocol\\s+version\\s+(?P<protocol>\\d+))?
+Version\\s+\\| (?P<full>(?P<major>[0-9]+)\\.(?P<minor>[0-9]+)\\.(?P<patch>[0-9]+))\\s+
+versionCode\\s+(?P<code>\\d+)
+versionCode=(?P<versionCode>\\d+)(\\sminSdk=\\S+)?\\stargetSdk=\\d+
+versionName\\s+\"(?P<name>[\\d.]+)\"
+versionName=(?P<versionName>\\S+)
+VID_([0-9a-f]{4})&PID_([0-9a-f]{4})(\\\\(\\w+))?
+VID_([0-9a-f]{4})(&PID_([0-9a-f]{4}))?(&MI_(\\d{2}))?(\\\\(\\w+))?
+video src=(?P<url>http[^ ]+m3u8[^ ]*)
+Video von:\\s*(?P<uploader_id>[^|]*?)\\s*\\|\\s*vom:\\s*(?P<upload_date>[0-9][0-9]\\.[0-9][0-9]\\.[0-9][0-9][0-9][0-9])
+videoId=(?P<id>\\d+)[\"']
+videoSrc:\\s?[\"'](?P<url>[^\"']+)[\"']
+views.(.+?[\\/\\\\])_(.+)\\.\\w+\\.\\w+$
+vimlparser: (?P<description>.*): line (?P<line_number>\\d+) col (?P<column_number>\\d+)$
+vnd\\.(?P<vendor>[a-zA-Z_-]+)(?:\\.(?P<version>[a-zA-Z0-9]+)(?:\\.(?P<param>[a-zA-Z0-9]+))?)?(?:\\+(?P<format>[a-zA-Z0-9]+))?
+Vodafone[\\w\\-\\.\\_\\ ]*
+Volume:\\s*(?P<volume>\\d+)\\s*%
+vs(\\/|\\\\)editor
+vs(\\/|\\\\)editor(\\/|\\\\)common(\\/|\\\\)standalone
+vs(\\/|\\\\)editor(\\/|\\\\)editor.api
+vs(\\/|\\\\)editor(\\/|\\\\)editor.main
+vs(\\/|\\\\)editor(\\/|\\\\)editor.worker
+vs(\\/|\\\\)editor(\\/|\\\\)standalone
+w[(]\\\\
+w[)]\\\\
+w\\\\
+w= *(?P<length>\\d+)
+waf (?P<account>\\\\S+) (?P<region>\\\\S+) (?P<command>block) (?P<addresses>(?:\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}/\\\\d{1,2}\\\\s?)+)
+waf (?P<account>\\\\S+) (?P<region>\\\\S+) (?P<command>list)
+waf (?P<account>\\\\S+) (?P<region>\\\\S+) (?P<command>unblock) (?P<addresses>(?:\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}/\\\\d{1,2}\\\\s?)+)
+waf (?P<command>block) (?P<addresses>(?:\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}/\\\\d{1,2}\\\\s?)+)
+waf (?P<command>block) (?P<type>(?i)(header|method|query_string|uri|body)) (?P<value>\\\\S+)
+waf (?P<command>list bytematchset$)
+waf (?P<command>list ipset$)
+waf (?P<command>set current bytematchset) (?P<bytematchset>.*)
+waf (?P<command>set default account) (?P<account>\\\\S+)
+waf (?P<command>set default ipset) (?P<ipset>.*)
+waf (?P<command>set default region) (?P<region>\\\\S+)
+waf (?P<command>unblock) (?P<addresses>(?:\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}\\\\.\\\\d{1,3}/\\\\d{1,2}\\\\s?)+)
+waf (?P<command>unblock) (?P<type>(?i)(header|method|query_string|uri|body)) (?P<value>\\\\S+)
+Warmup 1: ([0-9.]+) ms \\(loops: 1, raw: [0-9.]+ ms\\)\\n\\nValue 1: ([0-9.]+) ms\\nValue 2: ([0-9.]+) ms\\n\\nMetadata:\\n(- .*\\n)+\\nMean \\+- std dev: (?P<mean>[0-9.]+) ms \\+- (?P<mad>[0-9.]+) ms\n$
+WARNING: [arbiter-master.alignak.external_command] External command 'command' is not recognized, sorry
+WARNING: [arbiter-master.alignak.external_command] Malformed command '[fake] shutdown_program'
+WARNING: [arbiter-master.alignak.external_command] The external command 'SHUTDOWN_PROGRAM' is not currently implemented in Alignak.
+warning=(?P<warningId>\\d+)
+webOS[\\w\\.\\_\\-]*
+Websocket error: could not parse message data as JSON: ([^]+)
+Websocket\\\\(.+)Websocket$
+Welcome \\Q$user\\E
+wget:\\s(?P<ERROR>.*)
+wgUserName=\"\\Q$self->{'username'}\\E\"
+WhatsApp\\+?\\/([0-9\\.]+) (Android|S60Version|WP7)\\/([0-9\\.\\_]+) Device\\/([^\\-]+)\\-(.*)(?:-\\([0-9]+\\.[0-9]+\\))?(?:\\-H[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)?$
+which: no \\Q$bindef->{'binary'}\\E in
+who($curnick);\n      debug \"Logged in to \\\"$servername\\\" as \\\"$curnick\\\".\";\n    });\n\n    # Nick already used, so we permute our nick.\n    .
+Whois\\s+Server\\s+\\(port ([\\d]+)\\)\\: ([\\w\\-\\.\\_]+)
+width();\n    for (my $i=0; $i < $width; $i++) {\n        my @new;\n        push(@new, substr($_, $i, 1)) foreach @text;\n        my $line = join('', @new);\n        map {\n            my $n = 0;\n            my $t = $line;\n            $n++ while $t =~ s
+window.gtk = '(?P<gtk>\\S+)';
+window\\.siteData = (?P<data>.+);
+window\\[\"ytInitialData\"\\]\\s*=\\s*(?P<ydata>\\{.*?\\})\\s*;\\s*\\n
+Window\\{(?P<id>.+?) (?P<user>.+) (?P<package>.+?)(?:\\/(?P<activity>.+?))?\\}$
+windows phone.*?([\\.\\_\\d]+)
+windows\\s*(?:nt)?\\s*([\\.\\_\\d]+)
+WindVane[\\/\\s]([\\d\\.\\_]+)
+WKST=(
+wordcounter)\nformtitle(Word Counting Tool)\nproc(wcFunction)\ndesc(wcDesc)\ninit(wcInit)\nlivefeedback(wcLive)\nquit(wcQuit)\n\n##\n\n=head1 NAME\n\nwordcounter - an application built using Navegante\n\n=head1 SYNOPSIS\n\nBuild the application:\n\n  $ navegante examples
+WorkFlowyPHP\\\\(WorkFlowy[a-zA-Z]{0,})
+workload (?P<id>\\d+) (?P<value>[0-9.]+) (?P<units>[a-zA-Z/]+) (?P<time>[0-9.]+)s
+wp-image-(?P<id>\\d+)
+written by\\s*(?P<name>.+)\\s\\n
+www.|^(http:\\/\\/|\\/|C:\\\\)
+www\\.drupal\\.org/node/(?P<number>\\d+)(#.*)?$
+www\\.drupal\\.org/project/(?:\\w+)/issues/(?P<number>\\d+)(#.*)?$
+x(?P<foo>\\d)
+X?(?P<x>[\\d\\s]*)?Y?(?P<y>[\\d\\s]*)?
+X509v3 Subject Alternative Name:[^]*X509
+xfs_info_(?P<mount>.*)
+Xperia(-T)?( |\\_|\\-)?([.0-9a-zA-Z]+)
+XXXX([^\\/\\\\]*)$
+XXXX[^\\/\\\\]*$
+ye\\J
+ye\\y
+yes:'(?P<ssid>.+)'
+Yesterday, (?P<hour>[0-9]+):(?P<minute>[0-9]+) (?P<am>[APM]+)
+yhsm://(?P<host>[^:]+)(:(?P<port>\\d+))?/?
+ynet - HOT -- ([\"\\']+)(?P<title>.+?)\\1
+Yoga( Tablet)?[\\ |\\-|\\/|\\_]([.0-9a-zA-Z]+)
+Your job (?P<id>[0-9]*) 
+Your job (?P<jobid>\\d+) \\(\"
+Your job-array (?P<id>\\S*) 
+Yukihiro Matsumoto - \\u{677E 672C 884C 5F18}
+zones\\/(?P<zone>\\S+)$
+ZTE(-T)?( |\\_|\\-)?([.0-9a-zA-Z]+)
+zwischen\\s+(?P<start>.+)\\s+und\\s+(?P<stop>.+)

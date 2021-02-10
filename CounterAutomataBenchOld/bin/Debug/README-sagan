@@ -1,0 +1,25 @@
+All benchmarks were run with the following settings:
+TIMEOUT: 10 minute
+1 times for each regex
+
+Filtered first 12 regexes. 
+
+The filter is set such that it filteres first regular, than from the correct
+regexes with counters and at the end monadic from the rest.
+
+sagan-filtered - passed regular, monadic with counter
+sagan-notSupported - non regular or such that we do not handle them
+sagan-nonMonadic - non monadic
+sagan-noCounters - no counters
+
+11 passed
+0 not suppported
+0 no counters
+1 non monadic
+0 simple strings
+1 from non monadic are not nested counters
+
+12 in total.
+
+
+

@@ -1,0 +1,25 @@
+All benchmarks were run with the following settings:
+TIMEOUT: 10 minute
+1 times for each regex
+
+Filtered first 1 regexes. 
+
+The filter is set such that it filteres first regular, than from the correct
+regexes with counters and at the end monadic from the rest.
+
+regex-d93c5043-d20d-447d-8889-e5f94dedd964-filtered - passed regular, monadic with counter
+regex-d93c5043-d20d-447d-8889-e5f94dedd964-notSupported - non regular or such that we do not handle them
+regex-d93c5043-d20d-447d-8889-e5f94dedd964-nonMonadic - non monadic
+regex-d93c5043-d20d-447d-8889-e5f94dedd964-noCounters - no counters
+
+1 passed
+0 not suppported
+0 no counters
+0 non monadic
+0 simple strings
+0 from non monadic are not nested counters
+
+1 in total.
+
+
+

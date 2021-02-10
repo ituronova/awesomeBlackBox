@@ -1,0 +1,9 @@
+Benchmark;Regexes;NCA-states;NCA-trans;DCA-states;DCA-trans;Our time;Our timeouts;DFA-states;DFA-trans;Classical time;Classical timouts;States-comparison;Trans-comparison;Time-comparison
+snort
+bro
+yang2010;217;14,05;55,98;38,82;1103,96;87,00;2;760,17;3194,55;346,55;8;19,58;2,89;3,98
+sagan;14;28,14;115,29;58,14;1028,86;56,94;0;80,50;270,57;5,44;0;1,38;0,26;0,10
+home-brewed;25;18,64;68,40;31,64;461,76;20,15;0;610,48;1814,36;1138,75;32;19,29;3,93;56,51
+MSInternal;14;9,29;46,43;29,86;540,93;56,06;0;11486,07;68376,86;3232,92;3;384,70;126,41;57,67
+regexes
+exponential-classical;17;2,00;6,00;2,00;6,00;1,59;0;61680,47;185039,41;4935,50;4;30840,24;30839,90;3100,85

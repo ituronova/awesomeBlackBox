@@ -1,0 +1,2 @@
+Time: 18726,8697000176 ms
+Matching lines: 3001

@@ -1,0 +1,13 @@
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external,
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-500 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-556 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-1101 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-512 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-519 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-520 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-518 

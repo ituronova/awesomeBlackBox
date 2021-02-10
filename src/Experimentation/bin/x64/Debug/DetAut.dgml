@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml" ZoomLevel="1.5" GraphDirection="TopToBottom" >
+<Nodes>
+<Node Id="init" Label="DetAut" Stroke="white" Background="white"/>
+<Node Id="1" Label="S₀&#13;{q₀}" Category="State" >
+<Category Ref="InitialState" />
+</Node>
+<Node Id="2" Label="S₁&#13;{q₀,q₁}" Category="State" />
+<Node Id="3" Label="S₂&#13;{q₀,q₁,q₂}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="4" Label="S₃&#13;{q₀,q₂}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+</Nodes>
+<Links>
+<Link Source="init" Target="1" Label="c₀={0}" Category="StartTransition" />
+<Link Source="1" Target="1" Label="[^ax],&#13; x" Category="NonepsilonTransition" />
+<Link Source="1" Target="2" Label="a⇒c₀≔{0};" Category="NonepsilonTransition" />
+<Link Source="2" Target="2" Label="..." Category="NonepsilonTransition"  HiddenLabel = "[^ax]&#183;LOW(c₀)⇒c₀++;,&#13; [^ax]&#183;MIDDLE(c₀)⇒c₀++;,&#13; a&#183;LOW(c₀)⇒c₀++{0};,&#13; a&#183;MIDDLE(c₀)⇒c₀++{0};,&#13; a&#183;HIGH(c₀)⇒c₀≔{0};,&#13; x&#183;LOW(c₀)⇒c₀++;"/>
+<Link Source="2" Target="1" Label="[^ax]&#183;HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="2" Target="3" Label="x&#183;MIDDLE(c₀)⇒c₀++;" Category="NonepsilonTransition" />
+<Link Source="2" Target="4" Label="x&#183;HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="3" Target="3" Label="..." Category="NonepsilonTransition"  HiddenLabel = "[^ax]&#183;LOW(c₀)⇒c₀++;,&#13; [^ax]&#183;MIDDLE(c₀)⇒c₀++;,&#13; a&#183;LOW(c₀)⇒c₀++{0};,&#13; a&#183;MIDDLE(c₀)⇒c₀++{0};,&#13; a&#183;HIGH(c₀)⇒c₀≔{0};,&#13; x&#183;LOW(c₀)⇒c₀++;,&#13; x&#183;MIDDLE(c₀)⇒c₀++;"/>
+<Link Source="3" Target="4" Label="[^ax]&#183;HIGH(c₀),&#13; x&#183;HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="4" Target="4" Label="[^ax],&#13; x" Category="NonepsilonTransition" />
+<Link Source="4" Target="3" Label="a⇒c₀≔{0};" Category="NonepsilonTransition" />
+</Links>
+<Categories>
+<Category Id="EpsilonTransition" Label="Epsilon transition" IsTag="True" />
+<Category Id="StartTransition" Label="Initial transition" IsTag="True" />
+<Category Id="FinalLabel" Label="Final transition" IsTag="True" />
+<Category Id="FinalState" Label="Final state" IsTag="True" />
+<Category Id="SinkState" Label="Sink state" IsTag="True" />
+<Category Id="EpsilonState" Label="Epsilon state" IsTag="True" />
+<Category Id="InitialState" Label="Initial state" IsTag="True" />
+<Category Id="NonepsilonTransition" Label="Nonepsilon transition" IsTag="True" />
+<Category Id="State" Label="State" IsTag="True" />
+</Categories>
+<Styles>
+<Style TargetType="Node" GroupLabel="InitialState" ValueLabel="True">
+<Condition Expression="HasCategory('InitialState')" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="FinalState" ValueLabel="True">
+<Condition Expression="HasCategory('FinalState')" />
+<Setter Property="StrokeThickness" Value="4" />
+</Style>
+<Style TargetType="Node" GroupLabel="SinkState" ValueLabel="True">
+<Condition Expression="HasCategory('SinkState')" />
+<Setter Property="NodeRadius" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="EpsilonState" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonState')" />
+<Setter Property="Background" Value="tomato" />
+</Style>
+<Style TargetType="Node" GroupLabel="State" ValueLabel="True">
+<Condition Expression="HasCategory('State')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Link" GroupLabel="NonepsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('NonepsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="StartTransition" ValueLabel="True">
+<Condition Expression="HasCategory('StartTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="EpsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+<Style TargetType="Link" GroupLabel="FinalLabel" ValueLabel="False">
+<Condition Expression="HasCategory('FinalLabel')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+</Styles>
+</DirectedGraph>

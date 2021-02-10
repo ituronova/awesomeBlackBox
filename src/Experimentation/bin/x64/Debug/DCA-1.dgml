@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml" ZoomLevel="1.5" GraphDirection="TopToBottom" >
+<Nodes>
+<Node Id="init" Label="DCA-1" Stroke="white" Background="white"/>
+<Node Id="1" Label="S₀&#13;{q₀}" Category="State" >
+<Category Ref="InitialState" />
+</Node>
+<Node Id="25" Label="S₁&#13;{q₀,q₁,q₂}&#13;(c₀)" Category="State" />
+<Node Id="57" Label="S₂&#13;{q₀,q₁,q₂,q₃}&#13;(c₀)" Category="State" />
+<Node Id="65" Label="S₃&#13;{q₀,q₄}&#13;(c₀)" Category="State" />
+<Node Id="155" Label="S₄&#13;{q₀,q₁,q₂,q₅,q₆}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="5" Label="S₅&#13;{q₀,q₇}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="59" Label="S₆&#13;{q₀,q₁,q₂,q₃,q₅}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="63" Label="S₇&#13;{q₀,q₁,q₂,q₃,q₅,q₇}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="61" Label="S₈&#13;{q₀,q₁,q₂,q₃,q₇}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="69" Label="S₉&#13;{q₀,q₄,q₇}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="159" Label="S₁₀&#13;{q₀,q₁,q₂,q₅,q₆,q₇}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="29" Label="S₁₁&#13;{q₀,q₁,q₂,q₇}&#13;(c₀)" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+</Nodes>
+<Links>
+<Link Source="init" Target="1" Label="" Category="StartTransition" />
+<Link Source="1" Target="1" Label="[^ad],&#13; d" Category="NonepsilonTransition" />
+<Link Source="1" Target="25" Label="a⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="25" Target="1" Label="[^ad],&#13; d" Category="NonepsilonTransition" />
+<Link Source="25" Target="57" Label="a⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="57" Target="1" Label="[^ad],&#13; d&#183;HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="57" Target="57" Label="a⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="57" Target="65" Label="d&#183;CANLOOP(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="65" Target="1" Label="[^ad],&#13; d" Category="NonepsilonTransition" />
+<Link Source="65" Target="155" Label="a⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="155" Target="1" Label="[^ad]&#183;LOW(c₀),&#13; d&#183;LOW(c₀)" Category="NonepsilonTransition" />
+<Link Source="155" Target="5" Label="[^ad]&#183;CANEXIT(c₀)⇒EXIT(c₀);,&#13; d&#183;CANEXIT(c₀)⇒EXIT(c₀);" Category="NonepsilonTransition" />
+<Link Source="155" Target="59" Label="a&#183;LOW(c₀)⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="155" Target="63" Label="a&#183;CANEXIT(c₀)⇒26(c₀);" Category="NonepsilonTransition" />
+<Link Source="5" Target="5" Label="[^ad],&#13; d" Category="NonepsilonTransition" />
+<Link Source="5" Target="29" Label="a⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="59" Target="1" Label="[^ad]&#183;LOW(c₀)" Category="NonepsilonTransition" />
+<Link Source="59" Target="5" Label="[^ad]&#183;CANEXIT(c₀)⇒EXIT(c₀);,&#13; d&#183;HIGH(c₀)⇒EXIT(c₀);" Category="NonepsilonTransition" />
+<Link Source="59" Target="57" Label="a&#183;LOW(c₀)⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="59" Target="61" Label="a&#183;CANEXIT(c₀)⇒26(c₀);" Category="NonepsilonTransition" />
+<Link Source="59" Target="65" Label="d&#183;LOW(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="59" Target="69" Label="d&#183;MIDDLE(c₀)⇒INCR_EXIT(c₀);" Category="NonepsilonTransition" />
+<Link Source="63" Target="5" Label="[^ad]&#183;LOW(c₀),&#13; [^ad]&#183;CANEXIT(c₀)⇒EXIT(c₀);,&#13; d&#183;HIGH(c₀)⇒EXIT(c₀);" Category="NonepsilonTransition" />
+<Link Source="63" Target="61" Label="a&#183;LOW(c₀)⇒COPY_ADD1(c₀);,&#13; a&#183;CANEXIT(c₀)⇒26(c₀);" Category="NonepsilonTransition" />
+<Link Source="63" Target="69" Label="d&#183;LOW(c₀)⇒INCR(c₀);,&#13; d&#183;MIDDLE(c₀)⇒INCR_EXIT(c₀);" Category="NonepsilonTransition" />
+<Link Source="61" Target="5" Label="[^ad],&#13; d&#183;HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="61" Target="61" Label="a⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="61" Target="69" Label="d&#183;CANLOOP(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="69" Target="5" Label="[^ad],&#13; d" Category="NonepsilonTransition" />
+<Link Source="69" Target="159" Label="a⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="159" Target="5" Label="[^ad]&#183;LOW(c₀),&#13; [^ad]&#183;CANEXIT(c₀)⇒EXIT(c₀);,&#13; d&#183;LOW(c₀),&#13; d&#183;CANEXIT(c₀)⇒EXIT(c₀);" Category="NonepsilonTransition" />
+<Link Source="159" Target="63" Label="a&#183;LOW(c₀)⇒COPY_ADD1(c₀);,&#13; a&#183;CANEXIT(c₀)⇒26(c₀);" Category="NonepsilonTransition" />
+<Link Source="29" Target="5" Label="[^ad],&#13; d" Category="NonepsilonTransition" />
+<Link Source="29" Target="61" Label="a⇒COPY_ADD1(c₀);" Category="NonepsilonTransition" />
+</Links>
+<Categories>
+<Category Id="EpsilonTransition" Label="Epsilon transition" IsTag="True" />
+<Category Id="StartTransition" Label="Initial transition" IsTag="True" />
+<Category Id="FinalLabel" Label="Final transition" IsTag="True" />
+<Category Id="FinalState" Label="Final state" IsTag="True" />
+<Category Id="SinkState" Label="Sink state" IsTag="True" />
+<Category Id="EpsilonState" Label="Epsilon state" IsTag="True" />
+<Category Id="InitialState" Label="Initial state" IsTag="True" />
+<Category Id="NonepsilonTransition" Label="Nonepsilon transition" IsTag="True" />
+<Category Id="State" Label="State" IsTag="True" />
+</Categories>
+<Styles>
+<Style TargetType="Node" GroupLabel="InitialState" ValueLabel="True">
+<Condition Expression="HasCategory('InitialState')" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="FinalState" ValueLabel="True">
+<Condition Expression="HasCategory('FinalState')" />
+<Setter Property="StrokeThickness" Value="4" />
+</Style>
+<Style TargetType="Node" GroupLabel="SinkState" ValueLabel="True">
+<Condition Expression="HasCategory('SinkState')" />
+<Setter Property="NodeRadius" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="EpsilonState" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonState')" />
+<Setter Property="Background" Value="tomato" />
+</Style>
+<Style TargetType="Node" GroupLabel="State" ValueLabel="True">
+<Condition Expression="HasCategory('State')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Link" GroupLabel="NonepsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('NonepsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="StartTransition" ValueLabel="True">
+<Condition Expression="HasCategory('StartTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="EpsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+<Style TargetType="Link" GroupLabel="FinalLabel" ValueLabel="False">
+<Condition Expression="HasCategory('FinalLabel')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+</Styles>
+</DirectedGraph>

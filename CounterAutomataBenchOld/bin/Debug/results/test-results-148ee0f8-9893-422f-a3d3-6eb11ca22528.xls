@@ -1,0 +1,2 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	|NCA|	|DCA|	|DCA|-opt	|DCA|-alg	NCA-trans	DCA-trans	DCC-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)	Regex Matcher - time (milliseconds)
+\d{1,2},U,|\d{1,2},O,	0,0055	44,3429	71,8681	44,3201	9	9	9	13	37	45	52	2	2	2								

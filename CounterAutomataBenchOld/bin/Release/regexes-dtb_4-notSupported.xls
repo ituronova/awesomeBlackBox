@@ -1,0 +1,160 @@
+^(\\/\\*).*(\\*\\/)	analýza ^(\/\).(\*\/) - Nedostatek uzavíracích závorek ).
+^([\\^:]|	analýza ^([\^:]| - Nedostatek uzavíracích závorek ).
+^calls=\\s*(\\d+)\\s+((\\d+|\\+\\d+|-\\d+|\\*)\\s+)+$	analýza ^calls= s( d+) s+(( d+|\+ d+|- d+|\) s+)+$ - Nedostatek uzavíracích závorek ).
+some\\s*regex+\\?*	analýza some sregex+\ - Znak \ na konci vzorku je neplatný.
+FooDeathTest\\.n  Test1nFoo\\.n  Bar1n  Bar2n  DISABLED_Bar3nAbc\\.n  Xyzn  DefnFooBar\\.n  BaznFooTest\\.n  Test1n  DISABLED_Test2n  Test3nTypedTest/0\\.  # TypeParam = (VeryLo{245}|class VeryLo{239})\\.\\.\\.n  TestAn  TestBnTypedTest/1\\.  # TypeParam = int\\s*\\*( __ptr64)?n  TestAn  TestBnTypedTest/2\\.  # TypeParam = .*MyArray<bool,\\s*42>n  TestAn  TestBnMy/TypeParamTest/0\\.  # TypeParam = (VeryLo{245}|class VeryLo{239})\\.\\.\\.n  TestAn  TestBnMy/TypeParamTest/1\\.  # TypeParam = int\\s*\\*( __ptr64)?n  TestAn  TestBnMy/TypeParamTest/2\\.  # TypeParam = .*MyArray<bool,\\s*42>n  TestAn  TestBnMyInstantiation/ValueParamTest\\.n  TestA/0  # GetParam\\(\\) = one linen  TestA/1  # GetParam\\(\\) = two\\\nlinesn  TestA/2  # GetParam\\(\\) = a very\\\nlo{241}\\.\\.\\.n  TestB/0  # GetParam\\(\\) = one linen  TestB/1  # GetParam\\(\\) = two\\\nlinesn  TestB/2  # GetParam\\(\\) = a very\\\nlo{241}\\.\\.\\.n	analýza FooDeathTest\.n  Test1nFoo\.n  Bar1n  Bar2n  DISABLED_Bar3nAbc\.n  Xyzn  DefnFooBar\.n  BaznFooTest\.n  Test1n  DISABLED_Test2n  Test3nTypedTest/0\.  # TypeParam = (VeryLo{245}|class VeryLo{239})\.\.\.n  TestAn  TestBnTypedTest/1\.  # TypeParam = int s\( __ptr64)?n  TestAn  TestBnTypedTest/2\.  # TypeParam = .MyArray<bool, s42>n  TestAn  TestBnMy/TypeParamTest/0\.  # TypeParam = (VeryLo{245}|class VeryLo{239})\.\.\.n  TestAn  TestBnMy/TypeParamTest/1\.  # TypeParam = int s\( __ptr64)?n  TestAn  TestBnMy/TypeParamTest/2\.  # TypeParam = .MyArray<bool, s42>n  TestAn  TestBnMyInstantiation/ValueParamTest\.n  TestA/0  # GetParam\(\) = one linen  TestA/1  # GetParam\(\) = two\
+linesn  TestA/2  # GetParam\(\) = a very\
+lo{241}\.\.\.n  TestB/0  # GetParam\(\) = one linen  TestB/1  # GetParam\(\) = two\
+linesn  TestB/2  # GetParam\(\) = a very\
+lo{241}\.\.\.n - Příliš mnoho zavíracích závorek ).
+(->\\\\?\\s*|&\\s*)(	analýza (->\\? s|& s)( - Nedostatek uzavíracích závorek ).
+\\<facialexpression>	analýza \<facialexpression> - Odkaz na nedefinovaný název skupiny. Název skupiny: facialexpression.
+(.)[\u00e3\u0082\u009c\\x	analýza (.)[ã\x - Nedostatek šestnáctkových číslic.
+\\A(.*):(	analýza ^(.*):( - Nedostatek uzavíracích závorek ).
+(group :	analýza (group : - Nedostatek uzavíracích závorek ).
+.*\\(\\*\\).*	analýza .\(\\).* - Příliš mnoho zavíracích závorek ).
+<\\/jsp:(	analýza <\/jsp:( - Nedostatek uzavíracích závorek ).
+keyword><normal> (<	analýza keyword><normal> (< - Nedostatek uzavíracích závorek ).
+(([A-z]+)\\s+\\$(	analýza (([A-z]+) s+\.*( - Nedostatek uzavíracích závorek ).
+^([a-zA-Z0-9_.\\\\-:]+)(?:([=!<>]{1,2})(.*))?$	analýza ^([a-zA-Z0-9_.\\-:]+)(:([=!<>]{1,2})(.*))?$ - Rozsah [x-y] je v obráceném pořadí.
+^(([a-z0-9&'\\.\\-_\\+])|(\\*))+@(([a-z0-9\\-])|(\\*))+\\.([a-z0-9\\-]+\\.)*?[a-z]+$	analýza ^(([a-z0-9&'\.\-_\+])|(\))+@(([a-z0-9\-])|(\))+\.([a-z0-9\-]+\.)*[a-z]+$ - Nedostatek uzavíracích závorek ).
+$RE{balanced}{-parens=>'(){}[]'}{-keep}	analýza .RE{balanced}{-parens=>'().[]'}{-keep} - Chybí pravá hranatá závorka (]).
+((?:^|[^$\\w\\xA0-\\uFFFF.\"'\\])\\s])\\s*)\\/(\\[[^\\]\\r\n]+]|\\\\.|[^\\/\\\\\\[\\r\n])+\\/[gimyu]{0,5}(?=\\s*($|[\\r\n,.;})]))	Délka nemůže být menší než nula.
+Název parametru: length
+[\\65-\\90\\66-\\72]	analýza [ 65- 90 66- 72] - Rozsah [x-y] je v obráceném pořadí.
+^[\\d-X-Z]*$	analýza ^[ d-X-Z]*$ - Rozsah [x-y] je v obráceném pořadí.
+(?:^|[^:])(\\/\\/|\\{\\{\\!|\\!|\\{\\#|\\*)(\\-\\-)?\\s*@?XXX\\b\\s*(?:\\(([^:]*)\\))*\\s*:?\\s*(.*)	analýza (:^|[^:])(\/\/|\{\{\!|\!|\{\#|\)(\-\-)? s@?XXX b s(:\(([^:])\)) s:? s(.) - Nedostatek uzavíracích závorek ).
+.*\\/\\jst\\/	analýza .*\/\jst\/ - Nerozpoznaná řídicí sekvence \j.
+[\\u\\x\\z\\8\\9]	analýza [\u\x.* 8 9] - Nedostatek šestnáctkových číslic.
+(^|\\s)(\\*{2}\\w(?:[^*]*\\w)?\\*{2})(\\s|$)	analýza (^| s)(\{2}\w(:[^]\w)?\{2})( s|.*) - Chybí pravá hranatá závorka (]).
+(?<![$WORD])\\*(\\S.*?\\S|\\S)\\*(?![$WORD])	analýza (<![.WORD])\(\S.\S|\S)\(![.*WORD]) - Příliš mnoho zavíracích závorek ).
+\\A@?(?![A-Z0-9])(?:[[:alnum:]_]|[^\\0-\\177])+\\z	analýza ^@?(![A-Z0-9])(:[[A-Za-z0-9]_]|[^ 0- 177])+$ - Rozsah [x-y] je v obráceném pořadí.
+^app/views/(.+)/[^/]*\\.(?:	analýza ^app/views/(.+)/[^/]*\.(?: - Nedostatek uzavíracích závorek ).
+\\\\((?P<class>[\\\\w-_\\\\. ]+)?(?:#(?P<id>[\\\\w-_]+))?\\\\)	analýza \\((P<class>[\\w-_\\. ]+)?(:#(P<id>[\\w-_]+))?\\) - Rozsah [x-y] je v obráceném pořadí.
+^[^\\*]+\\*	analýza ^[^\]+\ - Chybí pravá hranatá závorka (]).
+\\{\\s*((	analýza \{s*(( - Nedostatek uzavíracích závorek ).
+[^\n\\P{C}]	analýza [^
+\PC] - Řídicí sekvence znaků \p{X} je neúplná.
+(?=\\P{sc=Dogr})\\p{scx=Dogr}	analýza (=\P{sc=Dogr})escapeP{scx=Dogr} - Řídicí sekvence znaků \p{X} je neúplná.
+\\A\\\\\\M-\\cX	analýza ^\\\M-\cX - Nerozpoznaná řídicí sekvence \M.
+([^:]+):\\s+([^]+)	analýza ([^:]+): s+([^]+) - Chybí pravá hranatá závorka (]).
+\\A[a-z][aeioux][a-z]{2}\\d{2}[0-1]\\d[0-3]\\d[hm](?:	analýza ^[a-z][aeioux][a-z]{2} d{2}[0-1] d[0-3] d[hm](?: - Nedostatek uzavíracích závorek ).
+\\x{103c}\\x{1004}\\x{103a}\\x{1039}([\\x{1000}-\\x{1021}])	analýza \x103c\x1004\x103a\x1039([\x1000-\x1021]) - Rozsah [x-y] je v obráceném pořadí.
+(9u|(2\\`shj{2147483649,}\\r|3|f|y|3*)+8\\B)\\W93+	analýza (9u|(2\`shj{2147483649,}\r|3|f|y|3*)+8 b)\W93+ - Počty skupin digitalizace musí být menší nebo rovny hodnotě Int32.MaxValue.
+[\\s	analýza [ s - Chybí pravá hranatá závorka (]).
+\\.factory\\(\\'TestingNewFactory',\\ function\\(\\)\\ {	analýza \.factory\(\'TestingNewFactory',\ function\(\)\ { - Odkaz na nedefinovaný název skupiny. Název skupiny: TestingNewFactory.
+[\\x{00D2}-\\x{00D8}]	analýza [\x00D2-\x00D8] - Rozsah [x-y] je v obráceném pořadí.
+^((?:(?:> )(?:[^]*?)$(\\r?\n?))+)([\n\\r]*)	analýza ^((:(:> )(:[^]).(\r?
+?))+)([
+\r]*) - Nedostatek uzavíracích závorek ).
+\\*(\\?+)\\*?	analýza \(\+)\ - Příliš mnoho zavíracích závorek ).
+//) {n\t#my $val = MIME::Base64::decode($cur);nn\tgiven want {n\t  when Scalar { return $val }n\t  when List   { return split /\\:/, $val, 2 }n\t}n      }nn      return undef;n    },n    # -- XXX does this create a reasonable warning? If not, putn    #   Carp::croak(\"Basic authorization user name can't contain ':'\")n    # back.n    # XXX Str where { $^str !~ /\\:/ }n    STORE => -> Str $user, Str ?$passwd = \"\" {n      #./:header($h, \"Basic \" ~ MIME::Base64::encode(\"$user:$passwd\", \"\"));n    });n}nnmethod redirect (::?CLASS ::class: Str $location, Str ?$target, Str ?$status = \"302 Found\", Str 	analýza //) {n	#my .val = MIME::Base64::decode(.cur);nn	given want {n	  when Scalar {return .val}n	  when List   {return split /\:/, .val, 2}n	}n    }nn      return undef;n  },n    # -- XXX does this create a reasonable warning? If not, putn    #   Carp::croak("Basic authorization user name can't contain ':'")n    # back.n    # XXX Str where {.^str !~ /\:/}n    STORE => -> Str .user, Str ?.passwd = "" {n      #./:header(.h, "Basic " ~ MIME::Base64::encode(".user:.passwd", ""));n  });n}nnmethod redirect (::?CLASS ::class: Str .location, Str ?.target, Str ?.*status = "302 Found", Str  - Příliš mnoho zavíracích závorek ).
+${\\(BRACKETS)}	analýza .{\(BRACKETS)} - Příliš mnoho zavíracích závorek ).
+Sub\\u{30af 30e9 30b9}	analýza Sub\u{30af 30e9 30b9} - Nedostatek šestnáctkových číslic.
+n    ((?:$RE	analýza n    ((?:.*RE - Nedostatek uzavíracích závorek ).
+([\\x21-\\x7E]	analýza ([\x21-\x7E] - Nedostatek uzavíracích závorek ).
+ye\\y	analýza ye\y - Nerozpoznaná řídicí sekvence \y.
+(?:\\/\\*([^*\\\\\\\\]|\\*(?!\\/))+\\*\\/|@import[^;]+;|@-moz-document\\s*url-prefix\\(\\)\\s*{(([^{}])+{([^{}])+}([^{}])+)+})	analýza (:\/\([^\\\\]|\(!\/))+\\/|@import[^;]+;|@-moz-document surl-prefix\(\) s{(([^.]){([^.])+}([^.])+)+}) - Příliš mnoho zavíracích závorek ).
+n        ^n        (n          (	analýza n        ^n        (n          ( - Nedostatek uzavíracích závorek ).
+//.*|/\\*((.|\n)(?!=*/))+\\*/|--.*(?=\n)	analýza //.|/\((.|
+)(!=/))+\/|--.*(=
+) - Příliš mnoho zavíracích závorek ).
+^[a-z]*://[^/]*\\b(?:	analýza ^[a-z]://[^/] b(?: - Nedostatek uzavíracích závorek ).
+((?<=\\S)\\+(?=\\S)|(?<=\\S)\\+\\s|\\s\\+(?=\\S)|(?<=\\S)\\-(?=\\S)|(?<=\\S)\\-\\s|\\s\\-(?=\\S)|(?<=\\S)/(?=\\S)|(?<=\\S)/\\s|\\s/(?=\\S)|(?<=\\S)\\*(?=\\S)|(?<=\\S)\\*\\s|\\s\\*(?=\\S)|(?<=\\S)=(?=\\S)|(?<=\\S)=\\s|\\s=(?=\\S)|\\s\"[^\"]+\"(?=[^\\s\\?\\.:!,;])|(?<=\\S)\"[^\"]+\"\\s|(?<=\\S)\"[^\"]+\"(?=[^\\s\\?\\.:!,;])|\\s\\([^\\)]+\\)(?=[^\\s\\?\\.:!,;])|(?<=\\S)\\([^\\)]+\\)\\s|(?<=\\S)(\\([^\\)]+\\))(?=[^\\s\\?\\.:!,;]))	analýza ((<=\S)\+(=\S)|(<=\S)\+ s| s\+(=\S)|(<=\S)\-(=\S)|(<=\S)\- s| s\-(=\S)|(<=\S)/(=\S)|(<=\S)/ s| s/(=\S)|(<=\S)\(=\S)|(<=\S)\ s| s\*(=\S)|(<=\S)=(=\S)|(<=\S)= s| s=(=\S)| s"[^"]+"(=[^ s\?\.:!,;])|(<=\S)"[^"]+" s|(<=\S)"[^"]+"(=[^ s\?\.:!,;])| s\([^\)]+\)(=[^ s\?\.:!,;])|(<=\S)\([^\)]+\) s|(<=\S)(\([^\)]+\))(=[^ s\?\.:!,;])) - Příliš mnoho zavíracích závorek ).
+\\x{103c}\\x{1039}([\\x{1000}-\\x{1021}])	analýza \x103c\x1039([\x1000-\x1021]) - Rozsah [x-y] je v obráceném pořadí.
+[\\0-,\\/:-@[-^`{-~]	analýza [ 0-,\/:-@[-^`{-~] - Rozsah [x-y] je v obráceném pořadí.
+^\\/\\*(?:[^*]|\\*+[^\\/*])*\\*+\\/	analýza ^\/\(:[^]|\[^\/])\\/ - Příliš mnoho zavíracích závorek ).
+^(\\w+:)?(template$|^\\*)	analýza ^(\w+:)?(template.|^\) - Nedostatek uzavíracích závorek ).
+(\\s*['\\\"]\\s*(	analýza ( s['\"] s( - Nedostatek uzavíracích závorek ).
+^\\$(	analýza ^\.*( - Nedostatek uzavíracích závorek ).
+\\/[\\d-_]*	analýza \/[ d-_]* - Rozsah [x-y] je v obráceném pořadí.
+(^|\\.)\\*($|\\.)	analýza (^|\.)\(.|\.) - Příliš mnoho zavíracích závorek ).
+(.+)?(\\{	analýza (.+)?(\{ - Nedostatek uzavíracích závorek ).
+^https?\\:\\/\\/(?:www\\.)?(?:(\\*)\\.)?([^\\/]+)(?:\\/(.*))?$	analýza ^https?\:\/\/(:www\.)?(:(\)\.)?([^\/]+)(:\/(.))?$ - Nedostatek uzavíracích závorek ).
+comment><comment>       DataType => [\"<font color=\\\"#0000ff\\\">\", \"<	analýza comment><comment>       DataType => ["<font color=\"#0000ff\">", "< - Chybí pravá hranatá závorka (]).
+([\\0-\\10\\16-\\37])(?=([0-7]?))	analýza ([ 0- 10 16- 37])(=([0-7]?)) - Rozsah [x-y] je v obráceném pořadí.
+^${\\(CC_FIELD)}:	analýza ^.{\(CC_FIELD)}: - Příliš mnoho zavíracích závorek ).
+(?:-(	analýza (?:-( - Nedostatek uzavíracích závorek ).
+^\\s*(\\/\\/(.*?)|\\/\\*([\\s\\S]*?)\\*\\/)	analýza ^ s(\/\/(.)|\/\([ s\S])\*\/) - Příliš mnoho zavíracích závorek ).
+^[*]{2}((?>\\\\[*]|[^*]|[*][^*]*[*])+?)[*]{2}	analýza ^[]{2}((>\\[]|[^]|[][^][])+)[]{2} - Chybí pravá hranatá závorka (]).
+^\\s*(?:(?:%.*)|(?:\\/\\*(?:\n|\\r|.)*?\\*\\/)|(?:\\s+))\\s*	analýza ^ s(:(:%.)|(:\/\(:
+|\r|.)\\/)|(: s+)) s - Příliš mnoho zavíracích závorek ).
+^[0-9a-zA-Z\\\\-\\\\_]{0,500}$	analýza ^[0-9a-zA-Z\\-\.*]{0,500}$ - Rozsah [x-y] je v obráceném pořadí.
+\\/\\*\\*([^*]*)\\*\\/	analýza \/\\([^])\*\/ - Chybí pravá hranatá závorka (]).
+\\b(\\Q@{[ $ua->_agent ]}\\E)\\b	analýza  b( q@{[ .*ua->_agent ]} e) b - Rozsah [x-y] je v obráceném pořadí.
+^\\$\\*	analýza ^\.\ - Znak \ na konci vzorku je neplatný.
+\n(\\s{1,	analýza 
+( s{1, - Nedostatek uzavíracích závorek ).
+(?:\n +\\/\\*[^*]*\\*+(?:[^\\/][^*]*\\*+)*\\/)?\n *try *{(?:\\s*\\/\\/.*)*\n *var noNodeClass[\\s\\S]+?catch[^}]+}\n	analýza (:
+ +\/\[^]\(:[^\/][^]\)\/)?
+ try {(: s\/\/.)
+ *var noNodeClass[ s\S]+catch[^}]+}
+ - Nedostatek uzavíracích závorek ).
+(\\/\\*(.|\\s)*?\\*\\/)|(\\/\\/.*)	analýza (\/\(.| s)\\/)|(\/\/.) - Příliš mnoho zavíracích závorek ).
+[ \n\\t\\r\\(\\)\\*:;@!&'\"\\+\\|~>,\\[\\]\\\\]|\\/(?=\\*)	analýza [ 
+\t\r\(\)\:;@!&'"\+\|~>,\[\]\\]|\/(=\) - Nedostatek uzavíracích závorek ).
+(^(?:\\h*\\*)\\h*|\\h+$)	analýza (^(: h\) h| h+.) - Nedostatek uzavíracích závorek ).
+^[\\P{C} \\r\n]*$	analýza ^[\PC \r
+]*$ - Řídicí sekvence znaků \p{X} byla poškozena.
+\\\u00e9|\\\u00eb|\\\u00ea	analýza \é|\ë|\ê - Nerozpoznaná řídicí sekvence \é.
+(\\\\begin\\{((?:verbatim|lstlisting)\\*?)\\})[\\s\\S]*?(?=\\\\end\\{\\2\\})	analýza (\ begin\{((:verbatim|lstlisting)\)\})[ s\S](=\ end\{2\}) - Nedostatek uzavíracích závorek ).
+(\\*{1,2}[\\s\\S]*?\\*)|(<!-[\\s\\S]*?-->)|(^\\s*\n)	analýza (\{1,2}[ s\S]\)|(<!-[ s\S]-->)|(^ s
+) - Nedostatek uzavíracích závorek ).
+[\\.\\$\\#\\*]	analýza [\.\.\#\] - Chybí pravá hranatá závorka (]).
+[\\x1-\\x8\\xB-\\xC\\xE-\\x1F]	analýza [\x1-\x8\xB-\xC\xE-\x1F] - Nedostatek šestnáctkových číslic.
+\\/\\*jshint -[EWI]{1}[0-9]{3} \\*\\/\\r?\n\\r?\n?	analýza \/\jshint -[EWI]{1}[0-9]{3} \\/\r?
+\r?
+? - Nerozpoznaná řídicí sekvence \j.
+^\\s*(\\#[^\\xd\\xa]*)(.*)$	analýza ^ s(\#[^\xd\xa])(.*)$ - Nedostatek šestnáctkových číslic.
+comment><comment>       Warning => [\"<font color=\\\"#0000ff\\\"><b><i>\", \"<	analýza comment><comment>       Warning => ["<font color=\"#0000ff\"><b><i>", "< - Chybí pravá hranatá závorka (]).
+(?:(?:\\w+|\\*)\\/(?:\\w+(?:\\.|\\-|\\+)?|\\*)*)\\s*(?:;	analýza (:(:\w+|\)\/(:\w+(:\.|\-|\+)?|\)) s(?:; - Nedostatek uzavíracích závorek ).
+[^]*\\/\\*([^]*)\\*\\/\\}$	analýza [^]\/\([^])\\/\}$ - Příliš mnoho zavíracích závorek ).
+^the last output should not match (	analýza ^the last output should not match ( - Nedostatek uzavíracích závorek ).
+^[\\d-X]*$	analýza ^[ d-X]*$ - Rozsah [x-y] je v obráceném pořadí.
+[\\/,\\\\](?<no>no)?cite(?<type>p|t|al[tp]|NP)?(?<star>\\*)?(\\[(?<opt1>	analýza [\/,\\](<no>no)?cite(<type>p|t|al[tp]|NP)?(<star>\*)?(\[(?<opt1> - Nedostatek uzavíracích závorek ).
+decval><normal>);<	analýza decval><normal>);< - Příliš mnoho zavíracích závorek ).
+[\\000-\\011\\013\\014\\016-\\037\\177-\\377]	analýza [ 000- 011 013 014 016- 037 177- 377] - Rozsah [x-y] je v obráceném pořadí.
+(?=\\P{sc=Sogd})\\p{scx=Sogd}	analýza (=\P{sc=Sogd})escapeP{scx=Sogd} - Řídicí sekvence znaků \p{X} je neúplná.
+[^\\W\\w]	SetIsEmpty
+\\s*(AND|OR)?\\s*([\\w_.()]++)\\s*(?:(=|<[=>]?|>=?|LIKE)\\s*((?>'(?>[^']++|'')*+'|[\\d-.()]+))|((NOT )?IN\\s*\\((?>'(?>[^']++|'')*+',? ?|[\\d-.]+,? ?)*+\\)))	analýza  s(AND|OR)? s([\w_.()]+) s(:(=|<[=>]?|>=?|LIKE) s((>'(>[^']+|'')'|[ d-.()]+))|((NOT )?IN s\((>'(>[^']+|'')',? ?|[ d-.]+,? ?)\))) - Rozsah [x-y] je v obráceném pořadí.
+^STUR (X([0-9]|1[0-9]|2[0-7])|LR), \\\\[(X([0-9]|1[0-9]|2[0-7])|SP), #(0|[1-9][0-9]*)\\\\]$	analýza ^STUR (X([0-9]|1[0-9]|2[0-7])|LR), \\[(X([0-9]|1[0-9]|2[0-7])|SP), #(0|[1-9][0-9]*)\\]$ - Příliš mnoho zavíracích závorek ).
+^(.*)\\:(\\d+)-(\\d+|\\*)$	analýza ^(.)\:( d+)-( d+|\)$ - Nedostatek uzavíracích závorek ).
+^([#*]+)(	analýza ^([#*]+)( - Nedostatek uzavíracích závorek ).
+^[ !#-[\\]-~]*\\z	analýza ^[ !#-[\]-~]*$ - Odčítání musí být posledním prvkem ve třídě znaků.
+^[\\/\\\\A-Z0-9]$	analýza ^[\/\^-Z0-9]$ - Rozsah [x-y] je v obráceném pořadí.
+\\c)\\cI\\ci	analýza \c)\cI\ci - Nerozpoznaný řídicí znak.
+\\x{102c}\\x{1039}([\\x{1000}-\\x{1021}])	analýza \x102c\x1039([\x1000-\x1021]) - Rozsah [x-y] je v obráceném pořadí.
+n      \\( \\s*      # coordinate 1n        (\\d+\\.?\\d*) \\s* # x1 numbern        ,\\s*            # whitespace after comma is okn        (\\d+\\.?\\d*) \\s* # y1 numbern        ,\\s*            # whitespace after comma is okn        (\\d+\\.?\\d*) \\s* # r1 numbern      \\)n      \\s*         # space between coordinates is okn      \\( \\s*      # coordinate 2n        (\\d+\\.?\\d*) \\s* # x2 numbern        ,\\s*            # whitespace after comma is okn        (\\d+\\.?\\d*) \\s* # y2 numbern        ,\\s*            # whitespace after comma is okn        (\\d+\\.?\\d*) \\s* # r2 numbern      \\)n      (	analýza n      \(  s      # coordinate 1n        ( d+\.? d)  s # x1 numbern        , s            # whitespace after comma is okn        ( d+\.? d)  s # y1 numbern        , s            # whitespace after comma is okn        ( d+\.? d)  s # r1 numbern      \)n       s         # space between coordinates is okn      \(  s      # coordinate 2n        ( d+\.? d)  s # x2 numbern        , s            # whitespace after comma is okn        ( d+\.? d)  s # y2 numbern        , s            # whitespace after comma is okn        ( d+\.? d)  s* # r2 numbern      \)n      ( - Nedostatek uzavíracích závorek ).
+^#\\s*\\U$what\\E\\s*(.*)\n	analýza ^# s\U.what e s(.)
+ - Nerozpoznaná řídicí sekvence \U.
+([a-zA-Z ]+)\\s*(\\*?)\\s*((?:[0-9]+)?)	analýza ([a-zA-Z ]+) s(\) s*((:[0-9]+)?) - Nedostatek uzavíracích závorek ).
+color by (	analýza color by ( - Nedostatek uzavíracích závorek ).
+\\A(\\d+|\\d+[.]\\d+)([	analýza ^( d+| d+[.] d+)([ - Chybí pravá hranatá závorka (]).
+^(?:\\s*\\*)?n	analýza ^(: s\)?n - Nedostatek uzavíracích závorek ).
+\\Gnn                        # Field name, including possible functionn                        (?:n                          ($FUNC_RE\\s*\\([^)]+\\))   # $1 => functionn                        |n                          ($FIELD_RE)               # $2 => field namen                        | (\\*)                      # $3 => '*' n                        )nn                        # possible aliasn                        (?:n                            \\s+n                            [aA][sS]n                            \\s+n                            (['\"]?)                   # $4 => possibly quotedn                              \\s*n                              ($FIELD_RE)             # $5 => alias (no spaces allowed!)n                              \\s*n                            \\4?n                        )?n                        \\s*n                        ,?n                        \\s*n                       	analýza  gnn                        # Field name, including possible functionn                        (:n                          (.FUNC_RE s\([^)]+\))   # .1 => functionn                        |n                          (.FIELD_RE)               # .2 => field namen                        | (\)                      # .3 => '' n                        )nn                        # possible aliasn                        (:n                             s+n                            [aA][sS]n                             s+n                            (['"]?)                   # .4 => possibly quotedn                               sn                              (.FIELD_RE)             # .5 => alias (no spaces allowed!)n                               sn                             4?n                        )?n                         sn                        ,?n                         s*n                        - Nedostatek uzavíracích závorek ).
+?|[\\u2014\\u8212]	analýza ?|[\u2014\u8212] - Před kvantifikátorem {x,y} není nic uvedeno.
+\\(\\*\\)\\s*\\(	analýza \(\\) s\( - Příliš mnoho zavíracích závorek ).
+(?<=\\$VERSION = ')${\\quotemeta $OLD_DECIMAL}	analýza (<=\.VERSION = ').{\quotemeta .*OLD_DECIMAL} - Nerozpoznaná řídicí sekvence \q.
+^\\U$shortname\\E$	analýza ^\U.*shortname e$ - Nerozpoznaná řídicí sekvence \U.
+(^.	analýza (^. - Nedostatek uzavíracích závorek ).
+\\w[\\w.+&*\\/()',;: -]+\\*ISO\\*	analýza \w[\w.+&\/()',;: -]+\ISO\* - Nerozpoznaná řídicí sekvence \I.
+\\.((?:[\\w\\u00c0-\\uFFFF_-]|\\\\.)+)(?![^[\\]]+])	Délka nemůže být menší než nula.
+Název parametru: length
+[^\\000-\\177]	analýza [^ 000- 177] - Rozsah [x-y] je v obráceném pořadí.
+^((\\s*\\/\\*([^*]|\\*[^/])*\\*\\/\\s*)|(\\s*export\\s*{\\s*}\\s*;\\s*)|())$	analýza ^(( s\/\([^]|\[^/])\\/ s)|( sexport ss s; s*)|())$ - Příliš mnoho zavíracích závorek ).
+\\+ .{3,}(	analýza \+ .{3,}( - Nedostatek uzavíracích závorek ).
+(?i)url\\\\(\\\\s*([\\\"']?)data\\\\:	analýza (i)url\\(\ s*([\"']?)data\\: - Nedostatek uzavíracích závorek ).
+\\*main::\\_\\<	analýza \main::.\< - Nerozpoznaná řídicí sekvence \m.
+^[a-zA-Z0-9.!	analýza ^[a-zA-Z0-9.! - Chybí pravá hranatá závorka (]).
+.*(\\?|\\*)+.*	analýza .(\?|\)+.* - Nedostatek uzavíracích závorek ).
+n        (           # Start group 1, which is the actual link textn            \\[          # Match a literal [n            [^\\]]+      # Match anything except a literal ] - this will be the link text itselfn            \\]          # Match a literal ]n            \\s*         # Any whitespace (including newlines)n            \\[          # Match the opening bracket of the lazy link markern        )           # End group 1n        \\*          # Literal * - this is the lazy link markern        (           # Start group 2, which is everything after the lazy link markern            \\]          # Literal ]n            .*?^        # Non-greedy match of anything up to a new linen            \\[          # Literal [n        )           # End Group 2n        \\*\\]:       # Match a literal *]: - the lazy link URL definition follows thisn        	analýza n        (           # Start group 1, which is the actual link textn            \[          # Match a literal [n            [^\]]+      # Match anything except a literal ] - this will be the link text itselfn            \]          # Match a literal ]n             s         # Any whitespace (including newlines)n            \[          # Match the opening bracket of the lazy link markern        )           # End group 1n        \          # Literal  - this is the lazy link markern        (           # Start group 2, which is everything after the lazy link markern            \]          # Literal ]n            .^        # Non-greedy match of anything up to a new linen            \[          # Literal [n        )           # End Group 2n        \\]:       # Match a literal ]: - the lazy link URL definition follows thisn         - Nedostatek uzavíracích závorek ).
+\\\\\\\\([	analýza \\\\([ - Chybí pravá hranatá závorka (]).
+normal><normal>\t\t]);<	analýza normal><normal>		]);< - Příliš mnoho zavíracích závorek ).
+[^]	analýza [^] - Chybí pravá hranatá závorka (]).
+(?i)(%macro)\\s+(	analýza (i)(%macro) s+( - Nedostatek uzavíracích závorek ).
+^[ \\t]*gemspec(?:\\(?[ \\t]*(?<opts>	analýza ^[ \t]gemspec(?:\(?[ \t](?<opts> - Nedostatek uzavíracích závorek ).
+(?=\\P{sc=Java})\\p{scx=Java}	analýza (=\P{sc=Java})escapeP{scx=Java} - Řídicí sekvence znaků \p{X} je neúplná.
+\\x033\\\\[\\\\d+m	analýza \x033\\[\ d+m - Chybí pravá hranatá závorka (]).
+datatype><normal>) {<	analýza datatype><normal>) {< - Příliš mnoho zavíracích závorek ).
+^([^*]*)\\*	analýza ^([^])\* - Chybí pravá hranatá závorka (]).
+[^\\040-\\176]	analýza [^ 040- 176] - Rozsah [x-y] je v obráceném pořadí.

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml" ZoomLevel="1.5" GraphDirection="TopToBottom" >
+<Nodes>
+<Node Id="init" Label="DCA" Stroke="white" Background="white"/>
+<Node Id="1" Label="S₀&#13;{q₀}" Category="State" >
+<Category Ref="InitialState" />
+</Node>
+<Node Id="2" Label="S₁&#13;{q₀,q₁}" Category="State" />
+<Node Id="3" Label="S₂&#13;{q₀,q₁,q₂}" Category="State" />
+<Node Id="4" Label="S₃&#13;{q₀,q₂}" Category="State" />
+<Node Id="5" Label="S₄&#13;{q₀,q₁,q₃}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="6" Label="S₅&#13;{q₀,q₃}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="7" Label="S₆&#13;{q₀,q₁,q₂,q₃}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="8" Label="S₇&#13;{q₀,q₂,q₃}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+</Nodes>
+<Links>
+<Link Source="init" Target="1" Label="c₀={0}" Category="StartTransition" />
+<Link Source="1" Target="1" Label="[^a-d]" Category="NonepsilonTransition" />
+<Link Source="1" Target="2" Label="[a-d]⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="2" Target="1" Label="[^a-k]/HIGH(c₀),&#13;[^a-d]/LOW(c₀),&#13;[^a-k]/MIDDLE(c₀)" Category="NonepsilonTransition" />
+<Link Source="2" Target="2" Label="[a-d]/LOW(c₀),&#13;[a-c]/MIDDLE(c₀)⇒INCR1(c₀);,&#13; [a-c]/HIGH(c₀)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="2" Target="3" Label="d/MIDDLE(c₀)⇒INCR1(c₀);ADD1(c₁);,&#13; d/HIGH(c₀)⇒ADD1(c₀);ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="2" Target="4" Label="[e-k]/CANEXIT(c₀)⇒ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="3" Target="1" Label="[^a-k]/HIGH(c₀)∧HIGH(c₁),&#13;[^a-d]/LOW(c₀)∧HIGH(c₁),&#13;[^a-k]/MIDDLE(c₀)∧HIGH(c₁),&#13;[^a-k]/HIGH(c₀)∧CANLOOP(c₁),&#13;[^a-k]/CANLOOP(c₀)∧CANLOOP(c₁)" Category="NonepsilonTransition" />
+<Link Source="3" Target="2" Label="[abd]/LOW(c₀)∧HIGH(c₁),&#13;[ab]/MIDDLE(c₀)∧HIGH(c₁),&#13;[a-c]/CANLOOP(c₀)∧LOW(c₁),&#13;[ab]/CANLOOP(c₀)∧MIDDLE(c₁)⇒INCR1(c₀);,&#13; [ab]/HIGH(c₀)∧HIGH(c₁),&#13;[a-c]/HIGH(c₀)∧LOW(c₁),&#13;[ab]/HIGH(c₀)∧MIDDLE(c₁)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="3" Target="5" Label="c/CANLOOP(c₀)∧CANEXIT(c₁)⇒INCR1(c₀);,&#13; c/HIGH(c₀)∧CANEXIT(c₁)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="3" Target="3" Label="d/LOW(c₀)∧CANLOOP(c₁)⇒INCR1(c₀);INCR(c₁);,&#13; d/MIDDLE(c₀)∧CANLOOP(c₁)⇒INCR1(c₀);INCR1(c₁);,&#13; d/HIGH(c₀)∧CANLOOP(c₁)⇒ADD1(c₀);INCR1(c₁);,&#13; d/MIDDLE(c₀)∧HIGH(c₁)⇒INCR1(c₀);ADD1(c₁);,&#13; d/HIGH(c₀)∧HIGH(c₁)⇒ADD1(c₀);ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="3" Target="4" Label="[e-k]/LOW(c₀)∧CANLOOP(c₁)⇒INCR(c₁);,&#13; [e-k]/CANEXIT(c₀)∧CANLOOP(c₁)⇒INCR1(c₁);,&#13; [e-k]/CANEXIT(c₀)∧HIGH(c₁)⇒ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="4" Target="1" Label="[^a-d]/HIGH(c₁),&#13;[^a-k]/CANLOOP(c₁)" Category="NonepsilonTransition" />
+<Link Source="4" Target="2" Label="[abd]/HIGH(c₁),&#13;[a-c]/LOW(c₁),&#13;[ab]/MIDDLE(c₁)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="4" Target="5" Label="c/CANEXIT(c₁)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="4" Target="3" Label="d/CANLOOP(c₁)⇒ADD1(c₀);INCR(c₁);" Category="NonepsilonTransition" />
+<Link Source="4" Target="4" Label="[e-k]/CANLOOP(c₁)⇒INCR(c₁);" Category="NonepsilonTransition" />
+<Link Source="5" Target="6" Label="[^a-k]/HIGH(c₀),&#13;[^a-d]/LOW(c₀),&#13;[^a-k]/MIDDLE(c₀)" Category="NonepsilonTransition" />
+<Link Source="5" Target="5" Label="[a-d]/LOW(c₀),&#13;[a-c]/MIDDLE(c₀)⇒INCR1(c₀);,&#13; [a-c]/HIGH(c₀)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="5" Target="7" Label="d/MIDDLE(c₀)⇒INCR1(c₀);ADD1(c₁);,&#13; d/HIGH(c₀)⇒ADD1(c₀);ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="5" Target="8" Label="[e-k]/CANEXIT(c₀)⇒ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="6" Target="6" Label="[^a-d]" Category="NonepsilonTransition" />
+<Link Source="6" Target="5" Label="[a-d]⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="7" Target="6" Label="[^a-k]/HIGH(c₀)∧HIGH(c₁),&#13;[^a-d]/LOW(c₀)∧HIGH(c₁),&#13;[^a-k]/MIDDLE(c₀)∧HIGH(c₁),&#13;[^a-k]/HIGH(c₀)∧CANLOOP(c₁),&#13;[^a-k]/CANLOOP(c₀)∧CANLOOP(c₁)" Category="NonepsilonTransition" />
+<Link Source="7" Target="5" Label="[a-d]/LOW(c₀)∧HIGH(c₁),&#13;[a-c]/MIDDLE(c₀)∧HIGH(c₁),&#13;[a-c]/CANLOOP(c₀)∧CANLOOP(c₁)⇒INCR1(c₀);,&#13; [a-c]/HIGH(c₀)∧HIGH(c₁),&#13;[a-c]/HIGH(c₀)∧CANLOOP(c₁)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="7" Target="7" Label="d/LOW(c₀)∧CANLOOP(c₁)⇒INCR1(c₀);INCR(c₁);,&#13; d/MIDDLE(c₀)∧CANLOOP(c₁)⇒INCR1(c₀);INCR1(c₁);,&#13; d/HIGH(c₀)∧CANLOOP(c₁)⇒ADD1(c₀);INCR1(c₁);,&#13; d/MIDDLE(c₀)∧HIGH(c₁)⇒INCR1(c₀);ADD1(c₁);,&#13; d/HIGH(c₀)∧HIGH(c₁)⇒ADD1(c₀);ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="7" Target="8" Label="[e-k]/LOW(c₀)∧CANLOOP(c₁)⇒INCR(c₁);,&#13; [e-k]/CANEXIT(c₀)∧CANLOOP(c₁)⇒INCR1(c₁);,&#13; [e-k]/CANEXIT(c₀)∧HIGH(c₁)⇒ADD1(c₁);" Category="NonepsilonTransition" />
+<Link Source="8" Target="6" Label="[^a-d]/HIGH(c₁),&#13;[^a-k]/CANLOOP(c₁)" Category="NonepsilonTransition" />
+<Link Source="8" Target="5" Label="[a-d]/HIGH(c₁),&#13;[a-c]/CANLOOP(c₁)⇒ADD1(c₀);" Category="NonepsilonTransition" />
+<Link Source="8" Target="7" Label="d/CANLOOP(c₁)⇒ADD1(c₀);INCR(c₁);" Category="NonepsilonTransition" />
+<Link Source="8" Target="8" Label="[e-k]/CANLOOP(c₁)⇒INCR(c₁);" Category="NonepsilonTransition" />
+</Links>
+<Categories>
+<Category Id="EpsilonTransition" Label="Epsilon transition" IsTag="True" />
+<Category Id="StartTransition" Label="Initial transition" IsTag="True" />
+<Category Id="FinalLabel" Label="Final transition" IsTag="True" />
+<Category Id="FinalState" Label="Final state" IsTag="True" />
+<Category Id="SinkState" Label="Sink state" IsTag="True" />
+<Category Id="EpsilonState" Label="Epsilon state" IsTag="True" />
+<Category Id="InitialState" Label="Initial state" IsTag="True" />
+<Category Id="NonepsilonTransition" Label="Nonepsilon transition" IsTag="True" />
+<Category Id="State" Label="State" IsTag="True" />
+</Categories>
+<Styles>
+<Style TargetType="Node" GroupLabel="InitialState" ValueLabel="True">
+<Condition Expression="HasCategory('InitialState')" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="FinalState" ValueLabel="True">
+<Condition Expression="HasCategory('FinalState')" />
+<Setter Property="StrokeThickness" Value="4" />
+</Style>
+<Style TargetType="Node" GroupLabel="SinkState" ValueLabel="True">
+<Condition Expression="HasCategory('SinkState')" />
+<Setter Property="NodeRadius" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="EpsilonState" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonState')" />
+<Setter Property="Background" Value="tomato" />
+</Style>
+<Style TargetType="Node" GroupLabel="State" ValueLabel="True">
+<Condition Expression="HasCategory('State')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Link" GroupLabel="NonepsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('NonepsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="StartTransition" ValueLabel="True">
+<Condition Expression="HasCategory('StartTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="EpsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+<Style TargetType="Link" GroupLabel="FinalLabel" ValueLabel="False">
+<Condition Expression="HasCategory('FinalLabel')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+</Styles>
+</DirectedGraph>

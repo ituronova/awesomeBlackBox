@@ -1,0 +1,10 @@
+C:\Users\42073\Desktop\Automata\bin\win32\Debug\Microsoft.Fast.exe
+C:\Users\42073\Desktop\Automata\bin\win32\Debug\Microsoft.Fast.pdb
+C:\Users\42073\Desktop\Automata\src\Fast\obj\Debug\Fast.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\Automata\src\Fast\obj\Debug\Microsoft.Fast.exe
+C:\Users\42073\Desktop\Automata\src\Fast\obj\Debug\Microsoft.Fast.pdb
+C:\Users\42073\Desktop\countingautomata\bin\win32\Debug\Microsoft.Fast.exe
+C:\Users\42073\Desktop\countingautomata\bin\win32\Debug\Microsoft.Fast.pdb
+C:\Users\42073\Desktop\countingautomata\src\Fast\obj\Debug\Fast.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\countingautomata\src\Fast\obj\Debug\Microsoft.Fast.exe
+C:\Users\42073\Desktop\countingautomata\src\Fast\obj\Debug\Microsoft.Fast.pdb

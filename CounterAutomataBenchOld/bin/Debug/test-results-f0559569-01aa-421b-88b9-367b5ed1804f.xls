@@ -1,0 +1,5 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	NCA->DCA (milliseconds)-opt	|NCA|	|DCA|	|DCA|-opt	|DCA|-alg	NCA-trans	DCA-trans	DCA-trans-opt	DCA-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)
+(ba{8})*	0,6541	0,0856999999999992	6,3918			3	3			6	6			1	0		1	Hodnota minValue nemůže být větší než maxValue.\r\nNázev parametru: minValue					
+(b{9})*	1,0908	0,0879	0,322			3	3			6	6			1	0				0		17	9176,9568	
+ab{2,4}cd	1,266	0,1969	17,2438			4	6			6	15			1	0				0		17	5912,6088	
+bc{2,4}d{2,4}d	2,8806																	Internal error					

@@ -1,0 +1,24 @@
+All benchmarks were run with the following settings:
+TIMEOUT: 10 minute
+6 times for each regex
+
+Filtered first 13446 regexes. 
+
+The filter is set such that it filteres first regular, than from the correct
+regexes with counters and at the end monadic from the rest.
+
+regexes-dtb_17-filtered - passed regular, monadic with counter
+regexes-dtb_17-notSupported - non regular or such that we do not handle them
+regexes-dtb_17-nonMonadic - non monadic
+regexes-dtb_17-noCounters - no counters
+
+680 passed
+160 not suppported
+10247 no counters
+56 non monadic
+2303 simple strings
+
+13446 in total.
+
+
+

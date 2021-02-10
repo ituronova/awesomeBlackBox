@@ -1,0 +1,12 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	NCA->DCA (milliseconds)-opt	|NCA|	|DCA|	|DCA|-opt	|DCA|-alg	NCA-trans	DCA-trans	DCA-trans-opt	DCA-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)	regex->NFA (milliseconds)	NFA->DFA (milliseconds)	DFA->min (milliseconds)	|NFA|	|DFA|	|MIN|	NFA-trans	DFA-trans	MIN-trans	Timeouts-classical	Classical exception
+/vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,/i	15,4325	9,8104	77,2087			49	121			64	739			4	0				1		22	14,5289		0,745800000000003	17,0748	0,5931	66	39	39	77	157	157		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-519 /	6,6782	6,28	6,6152			19	36			23	110			3	0				1		53	1,3498		0,375	3,9917	1,2152	67	126	64	98	434	218		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-518 /	5,7434	3,4706	5,6986			19	36			23	110			3	0				1		55	1,1679		0,4065	2,9202	1,2644	67	126	64	98	434	218		
+/vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external,/i	15,7495	14,4951	37,3638			44	91			55	427			3	0				1		29	1,2026		0,3211	6,6741	0,5413	56	40	40	64	159	159		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-520 /	7,2455	1,9326	7,8372			19	36			23	110			3	0				1		42	1,1666		0,3583	3,4308	1,1895	67	126	64	98	434	218		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-556 /	8,6328	2,9373	11,6595			19	36			23	110			3	0				1		58	2,1161		0,1898	4,0999	1,1851	67	126	64	98	434	218		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-1101 /	8,9261	3,3674	7,8288			20	38			24	116			3	0				1		61	1,3608		0,2958	3,403	1,1882	68	128	65	99	440	221		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-512 /	7,1846	2,1948	8,7024			19	36			23	110			3	0				1		42	1,1189		0,2415	3,9245	1,2026	67	126	64	98	434	218		
+/vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external/i	13,8024	10,2431	57,1089			43	89			54	419			3	0				1		28	0,934		0,6775	8,828	0,6619	55	39	39	63	155	155		
+/S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-500 /	9,17	3,6937	11,8809			19	36			23	110			3	0				1		47	1,2571		0,2307	4,5676	1,6251	67	126	64	98	434	218		
+/User-Agent\x3a \{[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\}/iH	5,3299	8,2974	19,7485			23	23			29	72			5	0		1	'minValue' cannot be greater than maxValue.\r\nParameter name: minValue						0,2426	1,7063	0,7736	55	108	55	56	321	162		

@@ -1,0 +1,2 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	NCA->DCA (milliseconds)-opt	|NCA|	|DCA|	|DCA|-opt	|DCA|-alg	NCA-trans	DCA-trans	DCA-trans-opt	DCA-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)
+^Authorization\x3a([ \t]*|[ \t]*\r?\n[ \t]+)Basic[ \t][^\n]{51}	7,3995	5,2148	6,7067	2,16930000000001	19,4858	26	27	27	27	34	37	37	37	2	2	2			0	0	86,2	2,62172	1,53286

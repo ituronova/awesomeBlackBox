@@ -1,0 +1,92 @@
+C:\Users\42073\Desktop\Automata\src\Automata\obj\Debug\Automata.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\Automata\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Automata\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Automata\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Automata\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Automata\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Automata\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Automata\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Automata\src\Automata\obj\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\countingautomata\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\countingautomata\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\countingautomata\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\countingautomata\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\countingautomata\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\countingautomata\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\countingautomata\src\Automata\obj\Debug\Automata.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\countingautomata\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\countingautomata\src\Automata\obj\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata\src\Automata\obj\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\System.ValueTuple.dll
+C:\Users\42073\Desktop\Code\Automata\src\Automata\bin\Debug\System.ValueTuple.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\System.ValueTuple.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\bin\Debug\System.ValueTuple.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\obj\Debug\Automata.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\src\Automata\obj\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\System.ValueTuple.dll
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\bin\Debug\System.ValueTuple.xml
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\obj\Debug\Automata.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata2\src\Automata\obj\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata\src\Automata\obj\Debug\Automata.csprojAssemblyReference.cache
+C:\Users\42073\Desktop\Code\Automata\src\Automata\obj\Debug\Automata.csproj.CoreCompileInputs.cache
+C:\Users\42073\Desktop\Code\Automata\src\Automata\obj\Debug\Automata.csproj.CopyComplete
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\System.ValueTuple.dll
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\bin\Debug\System.ValueTuple.xml
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\obj\Debug\Automata.csprojAssemblyReference.cache
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\obj\Debug\Automata.csproj.CoreCompileInputs.cache
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\obj\Debug\Automata.csproj.CopyComplete
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\countingautomata-generator\src\Automata\obj\Debug\Microsoft.Automata.pdb
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\System.ValueTuple.dll
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\bin\Debug\System.ValueTuple.xml
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\obj\Debug\Automata.csprojAssemblyReference.cache
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\obj\Debug\Automata.csproj.CoreCompileInputs.cache
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\obj\Debug\Automata.csproj.CopyComplete
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\ituronova\Desktop\code\countingautomata-generator\src\Automata\obj\Debug\Microsoft.Automata.pdb
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\Microsoft.Automata.dll
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\Microsoft.Automata.pdb
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\System.ValueTuple.dll
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\bin\Debug\System.ValueTuple.xml
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\obj\Debug\Automata.csprojAssemblyReference.cache
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\obj\Debug\Automata.csproj.CoreCompileInputs.cache
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\obj\Debug\Automata.csproj.CopyComplete
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\obj\Debug\Microsoft.Automata.dll
+C:\Users\ituronova\Desktop\code\awesomeBlackBox\src\Automata\obj\Debug\Microsoft.Automata.pdb

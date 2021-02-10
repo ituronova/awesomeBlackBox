@@ -1,0 +1,2231 @@
+\\\\([nt\\\\])
+\\\\([ntrf\\\\'\"]|([0-7]{3}))
+\\\\([pP])(?:{(\\^?)([^}]*)}|([A-Za-z]))
+\\\\([pP])\\{L([lu])\\}
+\\\\([pP]){([a-zA-Z\\-0-9]+)}
+\\\\([pP]){(\\^?)([^}]*)}
+\\\\([tnfr\"'\\\\]|u\\h{4}|)
+\\\\([tnr\"\\\\]|x\\h\\h)
+\\\\([tnrfbae])
+\\\\([tvnrbfae]|[0-8]{1,3}|x[\\dA-Fa-f]{2}|x7[\\dA-Fa-f]{7})
+\\\\([tvnrbfae]|[0-8]{3}|x\\H\\H\\{7\\H{7}\\}|x\\H\\H|c\\d+|C-\\d+|M-\\d+|M-\\\\C-\\d+)
+\\\\([UL])[\\$\\\\](\\d)
+\\\\([uU](\\h{4}|\\h{2})|\\d{1,3}|.)
+\\\\([uU][\\da-fA-F]{4})
+\\\\([x0-7][0-7]?[0-7]?)
+\\\\(\\\\\\\"([A-Za-z]:)?[[:alnum:]_\\\\-\\\\./\\\\\\\\]+\\\\\\\"\\\\)
+\\\\(\\\")
+\\\\(\"|\")
+\\\\(\"|\\')
+\\\\(\"|\\\\|')
+\\\\(\\$)
+\\\\(\\$[0-9])
+\\\\(\\$\\{[^}]*\\})
+\\\\(\\$\\d+)
+\\\\(\\${|\\r\\n?|\\n|.)|[\"'`]|\\${|(\\r\\n?|\\n)
+\\(\\((!?[-/\\.\\w\\pL]+)\\)\\)
+\\(\\(((?:(?R)|(?!\\)\\)).)*)\\)\\)
+\\(\\\\([dcsa]?\\d+)\\)
+\\(\\(<(INSTALL.win32.
+\\\\(\\\\*)(?:(n)|(\"))
+\\\\(\\*|\\?|\\+)
+\\\\(\\*|`|'|\")
+\\'(\\\\.|[^\\'\\\\])*\\'
+\\\\(\\\\?)
+\\(\\?\\)|(?=[^\\\\])\\?|(?:(?!\\(\\?\\))(?:\\\\\\?|[^\\?]))+
+\\(\\?P<\\K_
+\\\\(\\@|\\\\|\\%|#)
+\\\\(\\[)|\\\\(\\])|\\[([^\\]\\[]*)\\]|\\\\(.)
+\\\\(\\[|\\]|\\|)
+\\\\(\\])
+\\\\(\\_1broker|\\_1btcxe)
+\\\\(\\{|\\})
+\\\\(\\|)
+\\\\(\\\\|')
+\\\\(\\\\|[0-7]{1,3}|x.[0-9a-f]?|['\"abfnrt0]|.|$)
+\\\\(\\\\|[abefnprtv'\"?]|[0-3]\\d{,2}|[4-7]\\d?|x[a-fA-F0-9]{,2})
+\\\\(\\\\|[abefnprtv'\"?]|[0-3]\\d{,2}|[4-7]\\d?|x[a-fA-F0-9]{,2}|u[a-fA-F0-9]{,4}|U[a-fA-F0-9]{,8})
+\\\\(\\\\|[abefnprtv'\"?]|[0-3]\\d{,2}|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8}|&\\w+;)
+\\\\(\\\\|[abefnrtv'\"?]|[0-3]\\d{,2}|[4-7]\\d?|x[a-zA-Z0-9]+)
+\\\\(\\\\|[abfnrutv'\"]|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8}|[0-7]{3})
+\\\\(\\\\|[nrtbf\\(\\)]|[0-7]{1,3}|\\r?\\n)
+\\\\(\\\\|\")
+\\\\(\\'|\\\")
+\\\\(\\'|\\\"|\\\\|[abfnrtv]|x.{0,2}|[0-7]{1,3})
+\\\\(\\'|\\\"|\\\\|[abfnrtv]|x.{0,2}|[0-7]{1,3}|u[0-9a-fA-F]{0,4}|U[0-9a-fA-F]{0,8}|N\\{.+?\\})
+\\\\(\\\\|\\.)
+\\\\(\\\\|\\d+)
+\\\\(\\\\|\\s)
+\\\\(\\\\|'|[0-3][0-7][0-7])
+\\\\(\\\\|'|\\\"|a|b|c[A-Z]+|e|f|n|r|u0+[0-9,A-Z]+|v)
+\\\\(\\\\|'|r|n|t|u2028|u2029)
+\\\\(\\\\|'|r|N|t|u2028|u2029)
+\\\\(\\\\|n|\\||[0-7]{1,3})
+\\\\(\\C)
+\\\\\\\\(\\d)
+\\\\(\\d)
+\\\\(\\d\\d\\d)
+\\\\(\\d{1,3}|x[a-fA-F0-9]+|u[a-fA-F0-9]{1,4}|.|\\n)
+\\\\(\\d{1,6})
+\\\\(\\d{3})
+\\\\(\\d{3}|.)
+\\\\(\\d+)
+\\\\\\\\(\\d+)
+\\\\(\\d+)$
+\\\\(\\d+)\\s*
+\\\\(\\d+)|\\\\([&`'])}\n\t
+\\\\(\\d+|['\"\\\\&trnbvf])
+\\(\\d++\\)\\z
+\\(\n                (?P<comment>(\n                    \\\\.|\n                    [^\\\\)]\n                )+)\n            \\)
+\\\\(\n        '   | # single quote\n        \\\\    # backslash\n      )
+\\\\(\n        '   | # single quote\n        \\\\  | # backslash\n        [ ] | # space\n        \\n    # newline\n      )
+\\\\(\n        [0-7]{1,3}        | # octal character\n        x[0-9a-fA-F]{1,2} | # hex byte\n        u[0-9a-fA-F]{4}   | # unicode character\n        u{[0-9a-fA-F]{4}} | # unicode character\n        M-\\\\C-.           | # meta-ctrl\n        C-\\\\M-.           | # ctrl-meta\n        M-\\\\c.            | # meta-ctrl (shorthand)\n        c\\\\M-.            | # ctrl-meta (shorthand)\n        C-.               | # control (regular)\n        c.                | # control (shorthand)\n        M-.               | # meta\n        \\n                | # line continuation\n        .                   # single-character\n      )
+\\\\(\\n\\d+|\\k\\w+|(?<!\\|)\\g\\w+)
+\\\\(\\n|\\f|\\r)
+\\\\(\\n|\\r\\n|\\r)
+\\(\\p{ASCII}*\\)
+\\(\\Q$arguments_string\\E\\)
+\\(\\Q$subcond\\E\\)
+\\\\(\\r?\\n|\\r)[ \\t\\f]*
+\\\\(\\r\\n|[\\u000A\\u000D\\u2028\\u2029])
+\\\\(\\r\\n|[^\\r0-9a-f]|[0-9a-f]{1,6}(\\r\\n|[ \\n\\r\\t\\f])?)
+\\\\(\\r\\n|\\n)
+\\\\(\\r\\n|\\n\\r|\\n|\\r)
+\\\\(\\r\\n|\\r|\\n|\\f)
+\\\\(\\S)
+\\\\(\\s)
+\\\\(\\s)$
+\\\\(\\s*#.*)?\n
+\\(\\s*([^]*?)\\s*\\)
+\\(\\s*('|\")(?P<name>.*?)('|\")(,(?P<default>.*))?\\)
+\\\\(\\s|$)
+\\\\(\\s+)
+\\\\(\\S+)\\s*([^\\\\]*)
+\\(\\S+[\\/|\\\\]ts-loader[\\/|\\\\]dist[\\/|\\\\]index.js:\\d*:\\d*\\)
+\\\\(\t\t\t# Backslashed stuff:\n\t  [\"\\$\\\\]\t\t    # Things to escape\n\t| [tnrfbae]\t\t    # Simple escape codes\n\t| x[[:xdigit:]]{2}\t    # Hex-code\n\t| x\\{[[:xdigit:]]{1,8}\\}    # Wide hex-code\n\t| [0-7]{1,3}\t\t    # Octal-code\n\t| c[@-_]\t\t    # Control-char\n\t| N\\{\\w*\\}\t\t    # Named char\n      ) |\n      \\$ (\\w+) |\t\t# Undelimited substitution\n      \\$ \\{ (\\w+) \\}\t\t# Delimited substitution\n      
+\\\\(\\w)
+\\\\(\\W)
+\\\\\\\\(\\w)
+\\\\(\\w*)(?:\\\\)?$
+\\\\(\\w+)
+\\\\(\\w+)Controller
+\\\\(\\w+)Test$
+\\\\(\\w+.*)$
+\\\\(\\w+\\s*)\\z
+\\(_(?P<symbol>Z.*)\\)
+\\\\(_\\d+(\\.|$))
+\\\\(_form|_query|_request|globals|session)({(\".+?\"|\\d+|\\$[\\w_]+)})+(\\[\\[\\d+\\]\\])*
+\\\\(`|\"){1}
+\\\\({)|{
+\\\\({|})
+\\\\('|\")
+\\\\('|\"){1}
+\\\\('|\"|`){1}
+\\(|\\)|(;(\\s*[A-Z]+(\\s*((\\[\\])|(\\[(.|\\s)*?([^\\\\]\\]))))+)*)
+\\(|\\\\left\\(
+\\\\(<[0-9a-fA-F]*>|.)
+\\\\(<|>|\\x0d\\x0a)
+\\\\(0[0-7]+)
+\\(0x(?P<hash>[0-9a-f]{32})\\)
+\\\\(200|201|202)
+\\\\(a|b|e|f|n|r|t|v|\\\\|')
+\\\\(ALT|CTRL|SHIFT)\\\\
+\\\\(ansi|mac|pc|pca)[^a-zA-Z]
+\\\\(b|c[A-Z]|x[0-9A-F]{2}|u[a-fA-F0-9]{4}|[0-7]{1,3})$
+\\\\(begin|end)
+\\\\(begin|end)\\{.*?\\}
+\\\\(brief|determine) 
+\\(clone of: <a href='/game/.*?'>(?P<cloneof>.*?)</a>\\)&nbsp;<br/>
+\\\\(cygwin|msys)-\\w+-pty\\d?-(to|from)-master
+\\\\(end|bye)(\\s|$)
+\\\\(n|\\\\|\\\")
+\\\\(n|r)
+\\\\(n|r|l|c)
+\\\\(n|r|t|v|e|f|\\$|\"|\\\\|x[0-9A-Fa-f]{1,2}|u{[0-9a-f]{1,6}}|[0-7]{1,3})
+\\\\(n|r|u2028|u2029)
+\\\\(n|t|r|s)
+\\\\(NUL|SOH|STX|ETX|EOT|ENQ|ACK|BEL|BS|HT|LF|VT|FF|CR|SO|SI|DLE|DC1|DC2|DC3|DC4|NAK|SYN|ETB|CAN|EM|SUB|ESC|FS|GS|RS|US|SP|DEL|[abfnrtv\\\\\\\"'\\&])
+\\\\(o|O|l|L|aa|AA|ae|AE)\\b
+\\(PostgreSQL\\) (?P<major>\\d)\\.(?P<minor>\\d)\\.(?P<bugfix>\\d)
+\\-(s?[0-9]+\\_[0-9]+)\\-([0-9]+)$
+\\\\(sphinx)?includegraphics\\{+plantuml-
+\\-(src|trg)\\_
+\\(task ([\\h-]+)\\)\\.\\z
+\\\\(there4|sup[123]|frac[13][24]|[a-zA-Z]+)($|\\{\\}|[^a-zA-Z])
+\\\\(u(
+\\\\(u)
+\\\\(u)([0-9A-F]{4})
+\\\\(U)([0-9A-F]{8})
+\\\\(u[\\da-fA-F]{4}|U[\\da-fA-F]{8}|.)
+\\\\(u[0-9a-f]{4}|x[0-9a-f]{2}|.)|([^\\\\])
+\\\\(u[0-9a-fA-F]{4})
+\\\\(u[0-9a-fA-F]{4}|[^u])
+\\\\(u[0-9a-fA-F]{4}|b|t|n|f|r|\"|'|\\\\|[0-3]?[0-7]{1,2}|(.))
+\\\\(u[0-9a-fA-F]{4}|newline|tab|space|backspace|formfeed|return|[^\\s])
+\\\\(u[a-f\\d]{4}|x[a-f\\d]{2}|.)|([^\\\\])
+\\\\(u[a-fA-F0-9]{4}|x[a-fA-F0-9]{2})
+\\\\(u[dD][89aAbB][0-9a-fA-F]{2}\\\\u[0-9a-fA-F]{4}|u[0-9a-fA-F]{4}|.|$)
+\\\\(u\\h{4}|.)
+\\\\(u|v|V|a|!|\\$|\\\\|\\[)
+\\\\(x[\\dA-Fa-f]{1,2}|0\\d{1,3}|\\d{1,3}|.)
+\\\\(x[0-9a-fA-F][0-9a-fA-F]|.)
+\\\\(x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8})?
+\\\\(x[a-fA-F0-9][a-fA-F0-9]|[0-2]\\d\\d|[bnrt'\"\\\\])
+\\\\(x\\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]?|37[0-7]?|[4-7][0-7]?|.)
+\\\\(x\\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)
+\\\\(z|x00)
+\\)\\\\
+\\\\\\)|\\\\\\\\
+\\* (?P<data>\\d+) (?P<type>[A-Z-]+)( (?P<data2>.*))?
+\\* (?P<type>[A-Z-]+)( (?P<data>.*))?
+\\* @param (?P<type>\\S+) \\$(?P<name>\\w+)
+\\* @public([^]+?)\\*\\/
+\\* \\d+: examples(?:\\/|\\\\)three-lines\\.js
+\\* \\s+ (\\d+) \\s+ FETCH \\s+    # * nnn FETCH\n             \\(\n               (?:\\s* UID \\s+ (\\d+) \\s* )? # optional: UID nnn <space>\n               FLAGS \\s* \\( (.*?) \\) \\s*   # FLAGS (\\Flag1 \\Flag2) <space>\n               (?:\\s* UID \\s+ (\\d+) \\s* )? # optional: UID nnn\n             \\)\n            
+\\*(?:/(?P<step>\\d+))?$
+\\*(?P<checksum>[0-9A-Fa-f]{2})$
+\\*([\\s\n\t\r]+)\\* \\@param mixed \\$module([\\s\n\t\r]+)\\* \\@param mixed \\$data\\_block([\\s\n\t\r]+)\\* \\@param mixed \\$lang\\_block
+\\*([\\s\n\t\r]+)\\* \\@param mixed \\$module([\\s\n\t\r]+)\\* \\@param mixed \\$lang\\_block
+\\*(\\p{Any})$
+\\*[ \\t]*+@deprecated[ \\t]*+(.*?)\\r?+\\n[ \\t]*+\\*(?:[ \\t]*+@|/$)
+\\*\\\\
+\\*\\*(
+\\*\\*(?!\\\\)((\\*\\*\\\\|[^\\*\\*])*)\\*\\*(?=$|[^\\\\])
+\\*\\*(?P<max_depth>\\d*)
+\\*\\*(\\\\\\/|\\\\\\\\)?
+\\*\\*\\s*(
+\\*\\h+@method\\h+([^\\h]+)\\h+([^(\\s]+)(?:\\h*\\(\\h*([^)]*)\\h*\\))?\\s
+\\*\\h+@property(?:-read|-write|)\\h+([^\\h]+)\\h+\\$([^\\s]+)\\s
+\\*\\h+@return\\h+([^\\h]+)
+\\*\\h+@var\\h+([^\\h]+)
+\\*\\s*(?P<envName>.*)
+\\*{2,2}(?P<exp>\\d+)
+\\*|?|?|?|?|?|\\{|?|\\+|\\||?|\\^|#|?|?|?|?|?|?|?|?
+\\*main::\\_\\<
+\\. *\\.|[*\\/!](?: *=)?|%(?: *=|(?: *#)?(?: *')*)?|\\+(?: *[+=])?|-(?: *[-=>])?|<(?:(?: *<)?(?: *=)?| *>)?|>(?: *>)?(?: *=)?|=(?: *=){0,2}|\\\\(?: *\\/)?(?: *=)?|&(?: *&)?|\\| *\\||['#~^]
+\\.(
+\\.((?(?!\\()[^.]+|(?<exp>\\((?:[^()]+|(?&exp)?)+?\\))))
+\\\\.(*SKIP)(*FAIL)|,
+\\\\.(*SKIP)(*FAIL)|:
+\\.(?:
+\\.(?P<e>\\w{1,5})$
+\\.(?P<format>tar.gz|tar|tgz|zip|zpk)$
+\\.(?P<region>[a-z]{2}-[a-z]+-\\d{1})\\.amazonaws\\.com
+\\.(?P<source>BD|BluRay|BDrip|WEB-DL|HDrip|HDTVrip|HDTV|HD|DVDrip)\\.
+\\.([\\w-]+)(?:\\@[^/\\\\]+)?\\.g?mo$
+\\.([\\w-]+)(?:\\@[^/\\\\]+)?\\.po$
+\\.([^\\/\\\\]+)$
+\\\\.([a-z0-9\\\\.\\\\-\\\\_]+)
+\\.([a-z0-9]+{2,})\\z
+\\.([a-zA-Z0-9\\-\\_]+)
+\\.(js|css|txt)(?:\\.[^/\\\\]+)?$
+\\.(so|bundle|o|
+\\\\.*\\\\
+\\..*+$
+\\.?\\Q$_\\E$
+\\.[/|\\\\](core|modules|tools|extensions)[/|\\\\]
+\\.[/|\\\\](core|modules|tools|tests|extensions|examples|migration)[/|\\\\]
+\\.[\\/\\\\]
+\\.[\\/\\\\]([^\\/\\\\]+)([\\/\\\\].+)?
+\\.[\\-\\_]+
+\\.[^.\\/\\\\]*$
+\\.[^.\\/\\\\]+$
+\\.[^\\.\\/\\\\]+$
+\\.[^\\.\\d\\s\\-\\_][^\\.]*$
+\\.[^\\/\\\\]*$
+\\.[a-zA-Z0-9\\-\\_]*
+\\\\\\.\\\\
+\\.\\\\
+\\\\\\\\.\\\\
+\\.\"\"|(?<!\\\\)\"\"\\.
+\\.\\*\\+\\?\\^=!:\\$\\{}\\(\\)\\|\\[]\\/\\\\
+\\.\\.(\\/|\\\\)
+\\.\\.[\\/\\\\]
+\\.\\.[\\/\\\\]?
+\\.\\.[^A-Za-z0-9\\.\\_\\- ]
+\\.\\.\\\\
+\\.\\.\\s+(?:(?P<extra>\\S+)\\s+)?(?P<block>[^\n:]+)::\\s+(?P<args>[^\n]+)(?:\n\n?(?P<content>.*?)\n\n(?=\\S))?
+\\.\\.+[\\/\\\\]+
+\\.\\/|\\/|\\.\\\\|\\\\
+\\.\\L$old_format$
+\\.\\Q$_\\E$
+\\.\\Q${extension}\\E$
+\\.\\Q$acceptable_sdid\\E\\z
+\\.\\Q$Config::Config{dlext}\\E\\z
+\\.\\Q$Config{dlext}\\E
+\\.\\Q$Config{dlext}\\E\\.\\d+$
+\\.\\Q$copy\\E
+\\.\\Q$d\\E\\z
+\\.\\Q$def_tmpl_ext\\E$
+\\.\\Q$domain\\E$
+\\.\\Q$doms\\E\\z
+\\.\\Q$opts->{suffix}\\E\\z
+\\.\\Q$profile\\E(?:-\\d+)?\\z
+\\.\\Q$ru_host\\E$
+\\.\\Q$self->{name}\\E\\.(?=\\s)
+\\.\\Q$suffix\\E\\z
+\\\\.|/|#|\\\\$|!|\\\\^|\\\\*|'| |\\\"|%|&|\\\\(|\\\\)|\\\\+|\\\\,|/|:|;|<|>|=|\\\\?|@|\\\\||\\\\\\\\
+\\\\.|[:*][a-z0-9_]+|[^:*\\\\]+
+'\\\\.'|'[^\\\\]'
+'\\\\.'|'[^\\\\]'|'\\\\u[0-9a-f]{4}'
+'\\\\.'|'[^\\\\]'|'\\\\u[0-9a-fA-F]{4}'
+\\.|\\\\
+\\.|\\[(?:[^[\\]]*|([\"'])(?:(?!\\1)[^\\\\]|\\\\.)*?\\1)\\]
+\\.|\\[(?:[^[\\]]*|([\"'])(?:(?!\\1)[^\\n\\\\]|\\\\.)*?\\1)\\]
+\\.|\\[(?:[^[\\]]+|([\"'])(?:(?!\\1)[^\\n\\\\]|\\\\.)*?)\\1\\]
+\\.|\\\\|/|\\||:|\\?|\\*|\\\"|<|>|\\p{Cntrl}
+\\.+[^./\\\\]*$
+\\.+\\s+\\Q$include
+\\.B (?P<src>[A-Z]{3}) (?P<date>[0-9]{6,8}) Z DH(?P<hh>[0-9]{2})/DC(?P<valid>[0-9]{10,12}) /DUE/PPHCF/PPTCF/PPQCF
+\\.class\\s+(?P<class>.*);
+\\.controller\\(\\'Testing2Controller',\\ function\\(\\$scope\\)\\ {
+\\.controller\\(\\'TestingNewController',\\ function\\(\\$scope\\)\\ {
+\\.controller\\(\\'TestingScaffController',\\ function\\(\\$scope\\)\\ {
+\\.directive\\(\\'TestingNewDirective',\\ function\\(\\)\\ {
+\\.directive\\(\\'TestingScaffDirective',\\ function\\(\\)\\ {
+\\.DS\\_Store
+\\.factory\\(\\'TestingNewFactory',\\ function\\(\\)\\ {
+\\.factory\\(\\'TestingScaffFactory',\\ function\\(\\)\\ {
+\\.fc(?P<version>\\d+)\\.
+\\.field\\s+(?P<property>.*);
+\\.fui-([^:]+):before[^\"]+\"\\\\([0-9a-f]+)\"
+\\.gemini.\\jsx?$
+\\.Get\\([\\s|\\\\]*Nan::New\\(([^)]+)\\)\\)
+\\.Get\\([\\s|\\\\]*Nan::New<(v8::)*String>\\(([^)]+)\\)\\)
+\\.get_(?P<field>[a-zA-Z0-9_]+)_display$
+\\.get_next_by_(?P<field>[a-zA-Z0-9_]+)$
+\\.get_previous_by_(?P<field>[a-zA-Z0-9_]+)$
+\\.glyphicon-([^\\{\\s]+)[^\"]+\"\\\\([0-9a-f]+)\";
+\\.Has\\([\\s|\\\\]*Nan::New\\(([^)]+)\\)\\)
+\\.Has\\([\\s|\\\\]*Nan::New<(v8::)*String>\\(([^)]+)\\)\\)
+\\.icon-([\\w-]+):before{content:'\\\\([0-9A-Fa-f]+)'}
+\\.icon-([^:]+):before\\s*[^\"]+\"\\\\([0-9a-f]+)\"
+\\.js|\\/|\\\\
+\\.method\\s+(?P<method>.*)$
+\\.mif-([^:]+):before[^\"]+\"\\\\([0-9a-f]+)\"
+\\.pf-([^:]+):before\\s*[^\"]+\"\\\\([0-9a-f]+)\"
+\\.propTypes = ({[^]+?\\n\\})
+\\.pw-([^:]+):before\\s*[^\"]+\"\\\\([0-9a-f]+)\"
+\\.s(?P<ports>\\d+)+p
+\\.service\\(\\'TestingNewService',\\ function\\(\\TestingNewModel\\)\\ {
+\\.service\\(\\'TestingScaffService',\\ function\\(\\TestingScaffModel\\)\\ {
+\\.service\\('Testing2Service',\\ function\\(\\Testing2Model\\)\\ {
+\\.Set\\([\\s|\\\\]*Nan::New\\(([^)]+)\\)\\s*,
+\\.Set\\([\\s|\\\\]*Nan::New<(v8::)*String>\\(([^)]+)\\)\\s*,
+\\.spamipfilter\\_[0-9]+\\-[0-9]+\\-2[0-9][0-9][0-9]$
+\\.super\\s+(?P<parent>.*);
+\\.tfevents\\.(?P<timestamp>\\d+).(?P<hostname>[-.0-9A-Za-z]+)$
+\\.wi-([^:]+):before\\s*[^\"]+\"\\\\([0-9a-f]+)\"
+\\.zocial\\.([^:]+):[^\"]+\"\\\\([0-9a-f]+)\";
+\\/(
+\\/((?)(?:[^\\r\\n\\[\\/\\\\]|\\\\.|\\[(?:[^\\r\\n\\]\\\\]|\\\\.)*\\])+)\\/((?:g(?:im?|m)?|i(?:gm?|m)?|m(?:gi?|i)?)?)
+\\/((?:[^\\/\\\\]|\\\\.)*)|$
+\\/(?![*\\/])(\\\\.|(?=.)[^\\[\\/\\\\]|\\[(\\\\.|(?=.)[^\\]\\\\])*\\])+\\/
+\\/(?![\\*\\/])((?:[^\\\\\\/]|(?:\\\\\\\\)*?\\\\[^\\\\])*?)\\/
+\\/(?!\\/\\/)(?:[^\\/\\\\]|\\\\.)*\\/[igm]*
+\\/(?=[^*\\/])[^[\\/\\\\]*(?:(?:\\[(?:\\\\.|[^\\]\\\\]*)*\\]|\\\\.)[^[\\/\\\\]*)*?([^<]\\/)[gim]*
+\\/(?P<bundle>.*Bundle)\\/
+\\/([\\w\\.\\-\\_]+)$
+\\/([^/\\\\]+\\/[^/\\\\]+):\\d+:\\d+
+\\/([^\\/\\\\]|\\\\.)*\\/
+\\\\/([^_\\\\]+)\\\\/
+\\/(\\\\[\\/\\\\]|[^*\\/])(\\\\.|[^\\/\\n\\\\])*\\/[gim]*
+\\/(\\d+)\\_[^\\.]+\\.rb$
+\\/(\\\\\\n)?\\/(\\n|(.|\\n)*?[^\\\\]\\n)
+\\/..\\/|\\/..\\\\
+\\/:([\\w\\.\\-\\_]+)(\\*?)
+\\/:([A-Za-z0-9_]+)(\\([^\\\\]+?\\))?
+\\/?([^\\/]*?)\\.(
+\\/[a-zA-z0-9\\_\\$]*$
+\\/\\\\
+\\\\/\\\\([1-9])\\\\/
+\\/\\\\(\\w)
+\\/\\*#\\*\\/\\s*function\\s*\\(\\s*\\)\\s*\\{\\s*\\/\\*\\!?([^]*?)\\*\\/[\\s;]*\\}
+\\/\\*(?:!)?rtl:[^]*?\\*\\/
+\\/\\*([^]*)\\*\\/
+\\/\\*[\\s\\S]*?\\*\\/|(?:[^\\\\])\\/\\/.*?[\\n\\r]
+\\/\\*[^]*?\\*\\/
+\\/\\*\\* ignored by jsdoc \\*\\*\\/\\s*[^]*
+\\/\\*\\*([^](?!\\*\\/))*@module([^](?!\\*\\/))*@private[^]*?\\*\\/
+\\/\\*\\*([^]*?)\\*\\/
+\\/\\*\\*::ui-jar_source_module::([a-zA-Z0-9_-\\s]+)\\*\\/
+\\/\\*\\*[^]*?\\*\\/
+\\/\\*\\s*(?P<section_title>.+)\\s*\\*\\/(?P<real_summary>.*)
+\\/\\*\\s*yaspeller\\s+ignore:start\\s*\\*\\/[^]*?\\/\\*\\s*yaspeller\\s+ignore:end\\s*\\*\\/
+\\/\\/ \\(BUILD\\) - REMOVE IN MINIFY - START[^]*?\\/\\/ \\(BUILD\\) - REMOVE IN MINIFY - END
+\\/\\/ \\[bundle remove start\\][^]*?\\/\\/ \\[bundle remove end\\]\\r?\\n?
+\\/\\/%%[ \\t]*(
+\\/\\/(
+\\/\\/(?:(?!
+\\/\\/(?:\\\\(?:\\r\\n|[\\s\\S])|.)*
+\\/\\/(?:\\\\(?:\\r\\n|[\\s\\S])|[^\\\\\\r\\n])*
+\\/\\/(?:www\\.)?youtu(?:\\.be|be\\.com)\\/(?:watch\\?v=|embed\\/)?([a-z0-9\\-\\_\\%]+)
+\\/\\/(?:www\\.)?youtu(?:\\.be|be\\.com|be-nocookie\\.com)\\/(?:watch\\?v=|embed\\/)?([a-z0-9\\-\\_\\%]+)
+\\/\\/(\\[.+?]|\\\\.|(?!\\/\\/)[^\\\\])+\\/\\/[gimyu]{0,5}
+\\/\\/\\s*(
+\\/\\/\\s*[A|a]uthor\\s*[\\:]?\\s*([\\w|\\s|\\@|\\(|\\)|\\-|\\_]*)
+\\/\\/\\s*[T|t]itle\\s*:\\s*([\\w|\\s|\\@|\\(|\\)|\\-|\\_]*)
+\\/\\/\\s*yaspeller\\s+ignore:start[^]*?\\/\\/\\s*yaspeller\\s+ignore:end.*?(\\r?\\n|$)
+\\/\\/>>includeStart\\('debug', pragmas\\.debug\\);?[^]*?\\/\\/>>includeEnd\\('debug'\\);?
+\\/\\_features
+\\/\\d+\\_\\/\\d+\\^
+\\/\\Q${keyword}\\E\\/
+\\/\\Q$source\\E
+\\/\\s*\\s*(
+'\\/^\\s*$|^c:\\\\con\\\\con$|[%,\\*\\\"\\s\\t\\<\\>\\&'\\\\]
+\\/|\\\\
+\\\\\\/|\\\\\\\\
+\\/|\\_|\\?|\\<|\\>|\\\\|\\:|\\*|\\||\\\"
+\\/a\\\\_twisty\\\\_path
+\\/bin\\/busybox (?P<applet>[A-Z]+)
+\\/Creator\\s?\\(([^\\)\\\\]+)
+\\/dataclips\\/([\\w\\-]{36}+)(\\.[\\w]{1,6})?$
+\\/lmd\\/bin\\/lmd$|\\\\lmd\\\\bin\\\\lmd$
+\\/memorial\\/\\d+\\/\\Q$firstname\\E.+\\Q$lastname\\E
+\\/package\\/([\\w\\-\\_\\.]+)\\/?$
+\\/Producer\\s?\\(([^\\)\\\\]+)
+\\\\\\/rx\\/\\\\
+\\/Title\\s?\\(([^\\)\\\\]+)
+\\/users\\/([a-zA-Z0-9\\_\\.-]+)\\/view\\/([0-9]+)
+\\/v\\/([a-z0-9\\-\\_]+)
+\\:(?P<name>[a-z0-9]+)
+\\:[a-z0-9\\.\\_\\-]+|\\?
+\\:\\:\\_\\:\\:Proxy
+\\:\\:\\_\\:\\:Proxy$
+\\:\\?\\((?P<function>.+)\\)\\[
+\\:\\Q$elem\\E$
+\\:access\\_token
+\\:raw_stream_content=\\>\"(?:(?!\"}).)*+\"\\}\\}
+\\;\\_ylt\\=.+$
+\\\\?(
+\\?(([\\w%\\-\\+]|(%\\p{XDigit}{2}))+(=([\\w%\\-\\+]|(%\\p{XDigit}{2}))+)?(&|;))*(([\\w%\\-\\+]|(%\\p{XDigit}{2}))+(=([\\w%\\-\\+]|(%\\p{XDigit}{2}))+)?)?
+\\\\?(.*)\\\\(.*)\\\\(Service|Api)\\\\\\2?(.*)
+\\\\?(?:&lt;&lt;([
+\\\\?(?:(indexterm2?):\\[(
+\\?(?:.*
+\\\\?(?:\\[([^\\]]+)\\])?##(
+\\\\?(?:\\[([^\\]]+)\\])?\\*\\*(
+\\\\?(?:\\[([^\\]]+)\\])?\\+\\+(
+\\\\?(?:\\[([^\\]]+)\\])?__(
+\\\\?(?:\\[([^\\]]+)\\])?``(
+\\\\?(?:\\[\\[([a-zA-Z:_][\\w:.-]*)(?:,[\\t ]*(\\S.*?))?\\]\\]|anchor:(\\S+)\\[(.*?[^\\\\])?\\])
+\\\\?(?:\\\\u)([\\da-f]{4})
+\\\\?(?:link|(mailto)):(|[^:\\s\\[][^\\s\\[]*)\\[(|
+\\?(?P<width>\\d+)(?:x(?P<height>\\d+))?$
+\\\\\\\\?([^\\\\]+)\\\\
+\\?([a-z\\_0-9\\-]+)\\=([a-z\\_0-9\\-/]+)
+\\\\?(\\P{ASCII})
+\\\\?(footnote(?:ref)?):\\[(.*?[^\\\\])\\]
+\\\\?(stem|(?:latex|ascii)math):([a-z]+(?:,[a-z]+)*)?\\[(
+\\?){\n        my $value = shift;\n        if
+\\?.*+
+\\\\\\\\?.+\\\\pipe\\\\?.+
+\\?[!#$&-;=?-[\\]_a-z~]*$
+\\\\?[${}\\\\]|\\\\\\(|\\\\(eq)?ref\\s*\\{
+\\?[a-zA-Z0-9\\=\\&\\%\\$\\-\\_\\.\\+\\!\\*\\'\\(\\)\\,]+
+\\\\?\"([
+\\\\?\\$(?:\\{)?\\:*([a-z0-9\\_]+)(?:\\})?
+\\\\?\\$|\\\\\\(|\\\\(eq)?ref\\s*\\{
+\\\\\\\\\\?\\\\(\\w):[/\\\\](.*)
+\\\\\\\\\\?\\\\UNC\\\\([^\\\\]+)\\\\([^\\\\]+)(?:\\\\(.*))?
+\\?|\\*|\\\\
+\\\\?<!?(|--)(\\d+|\\.)\\1>(?=(?: ?\\\\?<!?\\1(?:\\d+|\\.)\\1>)*
+\\\\?footnote(?:(ref):|:([\\w-]+)?)\\[(?:|(
+\\\\?HH\\\\(mixed|void)?
+\\\\?i(?:mage|con):([^:\\s\\[](?:[^\\n\\[]*[^\\s\\[])?)\\[(|
+\\\\?menu:(
+\\?P<([^>]++)>
+\\\\?Psy\\\\
+\\@(?P<varname>[A-Za-z0-9_]+)\\@
+\\@([A-Za-z0-9\\_\\.\\-]+)
+\\@.*\\Q$from\\E>
+\\@?([a-zA-Z0-9\\-_\\.\\\\]+)
+\\@[^@]*[/\\\\][^@]+[/\\\\][^@]+[/\\\\]0$
+\\@\\{([a-z\\_\\-]+)(\\|.*?)?\\}
+\\@\\Q$_\\E$
+\\@\\Q$config->{server}\\E$
+\\@\\Q$realm\\E$
+\\@\\Q$self_nick \\E
+\\@\\Q$self_nick\\E ?|\\[[^\\[\\]]+\\]\\x01|\\[[^\\[\\]]+\\]
+\\@ALINK\\s*=\\s*(.*?[^\\\\]);
+\\@ALLOWBGCOLOR\\s*?=\\s*?(.*?[^\\\\]);
+\\@ALLOWBGPICTURE\\s*?=\\s*?(.*?[^\\\\]);
+\\@ALLOWBODYMOD\\s*?=\\s*?(.*?[^\\\\]);
+\\@ALLOWNOSIDEBAR\\s*=\\s*(.*?[^\\\\]);
+\\@ALLOWSIDEBARMOD\\s*?=\\s*?(.*?[^\\\\]);
+\\@ALLOWSIDEBARTOGGLE\\s*=\\s*(.*?[^\\\\]);
+\\@BGCOLOR\\s*?=\\s*?(.*?[^\\\\]);
+\\@BGCOLOR\\s*=\\s*(.*?[^\\\\]);
+\\@BGPICTURE\\s*?=\\s*?(.*?[^\\\\]);
+\\@BGPICTURE\\s*=\\s*(.*?[^\\\\]);
+\\@BLANKGIF\\s*=\\s*(.*?[^\\\\]);
+\\@BOTTOMBAR\\s*=\\s*(.*?[^\\\\]);
+\\@import [\"']([a-zA-Z0-9\\+\\.\\-\\/\\:\\_]+\\.(?:css))[\"'];
+\\@INFO\\s*?=\\s*?(.*?[^\\\\]);
+\\@LASTLINK\\s*?=\\s*?(.*?[^\\\\]);
+\\@LINK\\s*=\\s*(.*?[^\\\\]);
+\\@LOCALCONFIGFILE\\s*=\\s*(.*?[^\\\\]);
+\\@MORELINKSTITLE\\s*?=\\s*?(.*?[^\\\\]);
+\\@MORELINKSTITLE\\s*=\\s*(.*?[^\\\\]);
+\\@NAVBAR\\s*=\\s*(.*?[^\\\\]);
+\\@NEXTLINK\\s*?=\\s*?(.*?[^\\\\]);
+\\@NEXTLINK\\s*=\\s*(.*?[^\\\\]);
+\\@NOSIDEBAR\\s*?=\\s*?(.*?[^\\\\]);
+\\@NOSIDEBAREXTRAS\\s*?=\\s*?(.*?[^\\\\]);
+\\@NOSIDEBAREXTRAS\\s*=\\s*(.*?[^\\\\]);
+\\@prefix\\s([a-zA-Z\\\\_]+)
+\\@SEARCHTEMPLATE\\s*?=\\s*?(.*?[^\\\\]);
+\\@SEARCHTEMPLATE\\s*=\\s*(.*?[^\\\\]);
+\\@SIDEBARCOLOR\\s*?=\\s*?(.*?[^\\\\]);
+\\@SIDEBARCOLOR\\s*=\\s*(.*?[^\\\\]);
+\\@SIDEBARMENULINKS\\s*?=\\s*?(.*?[^\\\\]);
+\\@SIDEBARMENULINKS\\s*=\\s*(.*?[^\\\\]);
+\\@SIDEBARMENUTITLE\\s*?=\\s*?(.*?[^\\\\]);
+\\@SIDEBARMENUTITLE\\s*=\\s*(.*?[^\\\\]);
+\\@SIDEBARSEARCHBOX\\s*?=\\s*?(.*?[^\\\\]);
+\\@SIDEBARSEARCHBOX\\s*=\\s*(.*?[^\\\\]);
+\\@SIDEBARTOP\\s*?=\\s*?(.*?[^\\\\]);
+\\@SIDEBARTOP\\s*=\\s*(.*?[^\\\\]);
+\\@SIDEBARWIDTH\\s*?=\\s*?(.*?[^\\\\]);
+\\@SIDEBARWIDTH\\s*=\\s*(.*?[^\\\\]);
+\\@strategy\\s([a-zA-Z\\\\_]+)
+\\@SWG\\\\Parameter\\(\\n(.*?)\\)\\n
+\\@TEXT\\s*=\\s*(.*?[^\\\\]);
+\\@TOPBAR\\s*=\\s*(.*?[^\\\\]);
+\\@TOPBOTTOMLINKS\\s*?=\\s*?(.*?[^\\\\]);
+\\@TOPBOTTOMLINKS\\s*=\\s*(.*?[^\\\\]);
+\\@UPLINK\\s*?=\\s*?(.*?[^\\\\]);
+\\@var[\\s]+([A-Za-z0-9\\\\]+)
+\\@VLINK\\s*=\\s*(.*?[^\\\\]);
+\\[ \\\"#bundle\\\", 1, \\n    \\[ \\\"/n_mapn\\\
+\\[ \"/b_alloc\
+\\[ \"/b_allocRead\
+\\[ \"/b_allocReadChannel\
+\\[ \"/b_close\
+\\[ \"/b_free\
+\\[ \"/b_read\
+\\[ \"/b_write\
+\\[ \"/b_zero\
+\\[ \"/c_fill\
+\\[ \"/c_set\
+\\[ \"/g_deepFree\
+\\[ \"/g_dumpTree\
+\\[ \"/g_freeAll\
+\\[ \"/n_free\
+\\[ \"/n_run\
+\\[ \"/n_set\
+\\[!\\[(?P<alt>.*?)\\]\\((?P<url>.*?)\\).*?\\]\\((?P<target>.*?)\\)
+\\[(
+\\[((?:[^\\[\\]\\\\]|\\\\\\[|\\\\\\]|\\\\.)*?)\\]
+\\[((?:[^\\]\\\\]|\\\\]|\\\\)*)\\]|d{1,4}|M{1,4}|m{1,2}|w{1,2}|Qo|Do|D{1,4}|YY(?:YY)?|H{1,2}|h{1,2}|s{1,2}|S{1,3}|Z{1,2}|a{1,2}|[AQExX]
+\\[((?:[^][]|(?R))*)\\]
+\\[((?:[^][]++|(?R))*+)\\]
+\\[((?>[^\\]\\[]+|(?R))*)\\]
+\\\\[(*]
+\\[(.*?(?<!\\\\)(?:\\\\\\\\)*+)\\]((?:[+*][+?]?|\\?)?)
+\\[(.*?)#([a-zA-Z()\\[\\]0-9_]*)(.*?)(?<!\\\\)\\|(.*?)(?<!\\\\)\\]
+\\[(.*?)$prefix([A-Z()\\[\\]0-9\\._]*)(.*?)(?<!\\\\)\\|(.*?)(?<!\\\\)\\]
+\\[(.*?)\\$cookies{(.*?)}(.*?)(?<!\\\\)\\|(.*?)\\]
+\\[(?:
+\\[(?:.*,)?id-(?P<id>.+?)(?:,.+)?\\]
+\\[(?:[^\\\\\\]]|\\\\[\\S\\s])*]|\\\\u[\\dA-Fa-f]{4}|\\\\x[\\dA-Fa-f]{2}|\\\\\\d+|\\\\[^\\dux]|\\(\\?[!:=]|[()^]|[^()[\\\\^]+
+\\[(?|Color)([0-9]+)\\]
+\\[(?<types>
+\\[(?>[^\\]\\\\]+|\\\\{2}|\\\\.)*\\]
+\\[(?P<col>.*?)\\]
+\\[(?P<curve>[PKB]-[0-9]{3}),SHA-(?P<sha>1|224|256|384|512)\\]
+\\[(?P<elements>[\\s\\S]*)\\]
+\\[(?P<error>E.{4})\\]
+\\[(?P<group>\\w+)\\]\\s*(?P<id>(\\d+|-))?(?P<tag>.*?):(?P<value>.*$)
+\\[(?P<header>[^]]+)\\]
+\\[(?P<host>.+)\\] out: (?P<line>.+)
+\\[(?P<index>-\\d+):]
+\\[(?P<ip>[0-9a-f:]+)\\](:(?P<port>\\d+))?$
+\\[(?P<key>[A-Z-]+)( \\((?P<data>.*)\\))?\\]
+\\[(?P<key>\\w+)=(?P<value>[^\\]]+)\\]
+\\[(?P<min>\\d+)-(?P<max>\\d+)\\]
+\\[(?P<name>[\\w\\.\\-]+)\\]
+\\[(?P<name>[^]]+)\\]
+\\[(?P<param>[a-zA-Z0-9_.\\-]+)\\]$
+\\[(?P<percent>\\d+\\.\\d*)%\\]\\s+(?P<frame>\\d+)/(?P<frame_total>\\d+)\\s+frames,\\s+(?P<frame_rate>\\d+\\.\\d*)\\s+fps,\\s+(?P<bit_rate>[^,]+),\\s+eta\\s+(?P<eta>[\\d:]+)
+\\\\[(?P<Priority>[a-z]+)\\\\] 
+\\[(?P<severity>\\w+)\\]\\s+\\d+\\/\\d+\\s+\\(\\d+\\)\\s+:\\s+(?P<message>.+)\\s+at\\s\\[.+:(?P<line>\\d+)\\]\\s+.+
+\\[(?P<severity>\\w+)\\]\\s+\\d+\\/\\d+\\s+\\(\\d+\\)\\s+:\\s+parsing\\s\\[.+:(?P<line>\\d+)\\]\\s+:\\s+(?P<message>.+)
+\\[(?P<ship>.+),.*
+\\[(?P<tag>USER)=\\d+\\].+?\\[/(?P=tag)\\],?
+\\[(?P<text>.*?)\\]\\((?P<url>.*?)\\)
+\\[(?P<text>.*?)\\]\\[(?P<ref>.*?)\\]
+\\[(?P<text>[^\\]]*)\\]\\((?P<url>[^\\)]*)\\)
+\\[(?P<type>[A-Z-]+)( (?P<data>[^\\]]*))?\\]
+\\[(?P<volume>\\d+)%\\]
+\\[([\\w \\-\\`\\<\\>\\*\\:\\\\]+?)\\]\\([\\s\\S]+?\\)
+\\[([\\w\\s-]+)\\]{([^]*?)}
+\\[([^\\]\\\\]+|\\\\{2}|\\\\.)*\\]
+\\[([^\\]]*?)\\$params{(.*?)}(.*?)(?<!\\\\)\\|(.*?)\\]
+\\[([^\\]]*?)decode\\(\\$params{(.*?)}\\)(.*?)(?<!\\\\)\\|(.*?)\\]
+\\[([^\\]]*?)encode\\(\\$params{(.*?)}\\)(.*?)(?<!\\\\)\\|(.*?)\\]
+\\[([^\\]]+)\\]\\(\\[(
+\\[([^\\]]+?)(?:\\\\([^\\]]+))?\\]
+\\[([^]*?)\\]
+\\[([^<>&/\\[\\]\\x00-\\x20=]++)
+\\[([a-zA-Z]{2}(?:[\\-\\_][a-zA-Z]{2})?)\\]
+\\[([a-zA-Z0-9\\-\\\\]+)\\](\\{([0-9]+)\\})
+\\[([a-zA-Z0-9\\_\\-]+)\\$=([^\\]]+)\\]
+\\[(\\d+)\\]: Processing ((?:\\w+::)*\\w+)#(\\w+)(?: to (\\w+))? \\(for (
+\\[(\\p{Digit})*\\]
+\\[(\\p{InKana}+)\\]
+\\\\[(]
+\\[(cite|citenp):(([\\w\\-\\;\\!\\? ]+):)?(
+\\[(X|\\s|\\_|\\-)?\\]\\s(.*)
+\\[/?([^<>&/\\[\\]\\x00-\\x20=]++)
+\\\\[?*]
+\\[???\\]
+\\\\\\\\[?]\\\\Volume[{][a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}[}]\\\\
+\\\\[[\\\\\\\\u0-9a-zA-Z]+\\\\]
+\\[[\\w_,.+%$
+\\[[^\\]]*[^\\\\]\\(
+\\[\"CurrentUserInitialData\",\\[\\],{\"USER_ID\":\"(?P<profile_id>[0-9]+)\"
+\\[\\#([a-zA-Z0-9\\.\\-\\_]+)\\]
+\\[\\#?[a-zA-Z0-9\\.\\-\\_]+\\]
+\\[\\%([a-zA-Z0-9\\.\\_\\-]+)\\%\\]
+\\[\\((?P<counter_id>(\\\\.|[^)\\\\])*)\\)\\((?P<counter_name>(\\\\.|[^)\\\\])*)\\)\\((?P<amount>\\d+)\\)\\]
+\\\\\\\\\\\\\\\\[\\\\\\\\.\\\\\\\\?]\\\\\\\\([{}a-zA-Z0-9]+).*?\\\\\\\\
+\\[\\@[\\w\\d\\-\\_]+\\]\\(http[s]?:\\/\\/github\\.com\\/.*[\\w\\d\\-\\_]+[\\/]?\\)
+\\[\\[(?P<constant>.+)\\]\\]
+\\[\\[(?P<link>[^|\\]]+)(?:\\|(?P<title>[^\\]]+))?\\]\\]
+\\[\\[(?P<m>[^\\]]+)\\]\\]
+\\[\\[(?P<name>[^\\]\\|]+)(?:\\|[\\W]*(?P<trigger>[^\\]\\#\\|]+)(?:\\#[^\\]\\|]+)?)*\\]\\]
+\\[\\[(?P<target>.*?\\|)?(?P<anchor>.*?)\\]\\]
+\\[\\[(?P<target>[^\\]\\|]+)\\|[\\W]*(?P<anchor>[^\\]\\#\\|]+)(?:\\#[^\\]\\|]+)?\\]\\]
+\\[\\[([\\w\\_/]+)\\]\\]
+\\[\\[([^\\[\\]]++|(?R))*?\\]\\]
+\\[\\[[^]*?\\]\\]
+\\[\\](?P<type>.*)
+\\[\\]\\\\
+\\[\\^(
+\\[\\^?]?(?:[^\\\\\\]]+|\\\\[\\S\\s]?)*]?|\\\\(?:0(?:[0-3][0-7]{0,2}|[4-7][0-7]?)?|[1-9][0-9]*|x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4}|c[A-Za-z]|[\\S\\s]?)|\\((?:\\?[:=!]?)?|(?:[?*+]|\\{[0-9]+(?:,[0-9]*)?\\})\\??|[^.?*+^${[()|\\\\]+|.
+\\[\\_
+\\\\[\\|\\(\\)1-9$^.*+?\\[\\]]
+\\[\\+[A-Z0-9\\.\\_\\-]+\\+\\]
+\\[\\\\c-\\[:\\]\\]
+\\[\\\\i-\\[:\\]\\]
+\\[\\Q$name\\E\\]\\s*
+\\[\\Q$RT::rtname\\E(?::\\S+)?\\s+#\\Q$id\\E\\s*\\]
+\\[\\Q$RT::rtname\\E(?::\\S+)?\\s+\\#(\\d+)\\s*\\]
+\\[\\Q$tag\\E\\s+\\#\\d+\\s*\\]
+\\[\\Q\u00b3]\u00a9w\\E\\]
+\\[\\s*(.*?)(?:\\s*([~|^$*]?=)\\s*((\"|').*\\4|.*?[^\\\\]))?\\s*(i)?\\]
+\\[\\s*(.*?)(?:\\s*([~|^$*]?=)\\s*((\"|').*\\4|.*?[^\\\\]))?\\s*\\]
+\\[\\s*([\\w_-]+)(?:\\s+((\")(?:[^\"\\\\]|\\\\[\"\\\\])*(\"))|\\.([\\w_-]+))?\\s*\\]
+\\[\\s*([_-\\w][_-\\w\\d]*)\\s*(?:(=|\\^=|\\$=|\\*=|\\~=|\\|=)\\s*(?:([_-\\w][_-\\w\\d]*)|\"((?:[^\\\\\"]|\\\\(?:\"|n|r|f|\\\\|0-9a-f))*)\"|'((?:[^\\\\']|\\\\(?:'|n|r|f|\\\\|0-9a-f))*)')\\s*)?\\]
+\\[\\s\\<\\w+?>\\s([\\w,\\\\]+)
+\\[\\s\\<\\w+?>\\s([\\w\\\\]+)
+\\[\\s\\<\\w+?>\\s([a-zA-Z0-9_\\\\]+)
+\\\\[\\\\\\\\u|]
+\\[\\W*http[^\\] ]+\b*(?P<anchor>[^\\]]+)\\]
+\\[^(?:
+\\'[^\\'\\\\]*(?:\\\\.[^\\'\\\\]*)*\\'
+\\\\\\\\[^\\\\]+\\\\([^\\\\]+(?:\\\\.*)?)
+\\\\[^\\s,;\\])}]+
+\\\\[^\\S\\n]*(\\n|\\\\)\\s*
+\\[{2}(?:[^\\[\\]]+|(?R))*\\]{2}
+\\[|\\]|\\*|\\?|\\^|\\{|\\}|\\\\c
+\\[|\t\t\t\t\t\t\t\t\t # Array begin\n\t\t\t\t\t\t \\]|\t\t\t\t\t\t\t\t\t # Array end\n\t\t\t\t\t\t {|\t\t\t\t\t\t\t\t\t\t # Object begin\n\t\t\t\t\t\t }|\t\t\t\t\t\t\t\t\t\t # Object end\n\t\t\t\t\t\t -?(?:0|[1-9]\\d*)                        # Float\n\t\t\t\t\t\t\t (?:\\.\\d*(?:[eE][+\\-]?\\d+)?|\n\t\t\t\t\t\t\t (?:[eE][+\\-]?\\d+))|\n\t\t\t\t\t\t -?(?:0|[1-9]\\d*)|\t\t\t\t\t\t # Integer\n\t\t\t\t\t\t true|\t\t\t\t\t\t\t\t\t # True\n\t\t\t\t\t\t false|\t\t\t\t\t\t\t\t     # False\n\t\t\t\t\t\t null|\t\t\t\t\t\t\t\t\t # Null\n\t\t\t\t\t\t ,|\t\t\t\t\t\t\t\t\t\t # Member separator for arrays and objects\n\t\t\t\t\t\t :|\t\t\t\t\t\t\t\t\t\t # Value separator for objects\n\t\t\t\t\t\t \"(?:(?:(?!\\\\u)[^\\\\\"\\n\\b\\f\\r\\t]+)|   # String\n\t\t\t\t\t\t\t \\\\\\\\|\n\t\t\t\t\t\t\t \\\\/|\n\t\t\t\t\t\t\t \\\\\"|\n\t\t\t\t\t\t\t \\\\b|\n\t\t\t\t\t\t\t \\\\f|\n\t\t\t\t\t\t\t \\\\n|\n\t\t\t\t\t\t\t \\\\r|\n\t\t\t\t\t\t\t \\\\t|\n\t\t\t\t\t\t\t \\\\u[0-9a-fA-F]{4})*\"|\n\t\t\t\t\t\t \\s+\t\t\t\t\t\t\t\t\t # Whitespace\n\t\t\t\t\t\t 
+\\\\[0abt\\tn\\nvfre \"\\\\N_LP]
+\\'[A-z0-9\\:\\!\\%\\^\\&\\*\\_\\-\\+\\=\\|\\?\\\\\\/\\>\\<\\~\\.]+
+\\\\[a-zA-Z]:\\\\
+\\\\[a-zA-Z0-9_\\\\]{4,}\\\\
+\\[code(.*?)\\](((?R)|.)*?)\\[\\/code\\]
+\\[code\\s*=?(?P<language>\\w*)\\](?P<snippet>[\\W\\D\\w\\s]*?)\\[\\/code\\]
+\\[egg:background] task:.*?app[\\/\\\\]controller[\\/\\\\]app\\.js:\\d+:\\d+ success \\(\\d+ms\\)
+\\[egg:background] task:.*?app[\\/\\\\]controller[\\/\\\\]home\\.js:\\d+:\\d+ success \\(\\d+ms\\)
+\\[example:([\\w\\_]+) ([\\w\\:\\/\\.\\-\\_ \\s]+)\\]
+\\[example:([\\w\\_]+)\\]
+\\[F00000000\\]\\[T([0-9A-Z]+)\\].*\\*[\\\\]?(.*)
+\\[img(:.+)?\\]([^\\[\\]].*?)\\.(
+\\[img=([^\\[\\]].*?)\\.(
+\\[link:([\\w|\\:|\\/|\\.|\\-|\\_]+)\\]
+\\[link:([\\w|\\:|\\/|\\.|\\-|\\_|\\(|\\)|\\#|\\=]+) ([\\w|\\:|\\/|\\.|\\-|\\_|\\s]+)\\]
+\\[list(?P<type>=1)?\\](?P<items>[\\W\\D\\w\\s]*?)\\[/list\\]
+\\[mod = L=...., N=..., SHA-(?P<sha>1|224|256|384|512)\\]
+\\[number:([A-Za-z\\.\\_]*)\\]
+\\[question\\((
+\\[quote:([0-9]*)[;]{0,1}([A-Za-z0-9\\-\\_\\.\\#\\ ]*)\\]
+\\[quote\\b[^]]*\\]((?>[^[]++|\\[(?!/?quote))*)\\[/quote\\]
+\\[ro.build.version.sdk\\]:\\s+\\[(?P<sdkVersion>\\d+)\\]
+\\[ro.product.model\\]:\\s+\\[(?P<modelName>.*)\\]
+\\[Session\\\\(.*)\\]
+\\[whois\\s???]
+\\[youtube:([A-Za-z0-9\\_\\-]{11})\\]
+\\[youtube-audio:([A-Za-z0-9\\_\\-]{11})\\]
+\\'\\\\
+\\-\\\\
+\\'\\!\\s\\.\\?\\,\\-\\&\\;\\:\\\\
+\\\\'\\{\\\\i\\}
+\\\\\\]|\\\\\\\\
+\\]|\\\\
+\\^(?P<due>[^\\s]+)
+\\^(?P<exponent>-?\\d+)
+\\\\\\^\\{\\\\i\\}
+\\\\\\^\\{\\\\j\\}
+\\^\\{\\\\prime\\\\prime\\}
+\\^\\+(?P<due>\\d+)
+\\^{?([\\w,()\\\\]+)}?
+\\^{?([\\w\\\\]+)}?
+\\^|\\\\z|\\$|\\\\
+\\^m/(.*?[^\\\\])/
+\\^s/(.*?[^\\\\])/(.*?[^\\\\])/
+\\\\\\_
+\\_
+\\\\_
+\\_$
+\\_$$\\.del
+\\_$$\\.tmp
+\\_$+
+\\_((?:message))$
+\\_(.)
+\\_(.*?)\\_(.*)
+\\_(.+)
+\\_(?:(?:name)|(?:type))$
+\\_(?P<id>\\d+)$
+\\_(?P<type>\\w+)\\_\\d+$
+\\_([^\\_]+)\\_
+\\_([a-z])
+\\_([a-z]+)
+\\_(\\d+)
+\\_(\\d+)\\.
+\\_(\\w)
+\\_(\\w{1})
+\\_(path|url)\\z
+\\_.
+\\_.*
+\\_.+
+\\_.+?\\_
+\\_?[Aa]nd
+\\_?[Ff]inal
+\\_?[Nn][tT]first\\_?
+\\_?[Nn][tT]only\\_?
+\\_?[tT]only\\_?
+\\_[^_]*$
+\\_[0-9]*
+\\_[0-9]*\\.php
+\\_[0-9]+$
+\\_[a-z0-9\\-]{36}
+\\_[a-z0-9]+(\\.[^\\.]+)$
+\\\\_[a-zA-Z\u00e4\u00f6\u00fc\u00c4\u00d6\u00dc\u00e9\u00e8\u00e1\u00e0\u00f3\u00f2\u00e7]*\\\\_
+\\_[A-Za-z0-9]$
+\\_\\#\\_
+\\_\\$\\d+\\_
+\\_\\_([^\\s*].*?)\\_\\_|\\b__([^\\s_].*?)__\\b
+\\_\\_[^\\_]*\\_\\_
+\\_\\_[a-zA-Z0-9]+
+\\_\\_c$
+\\_\\_version\\_\\_ \\= \\'[^\\']+\\'
+\\_\\<
+\\_\\=['\"]['\"].*\\_\\=['\"]['\"]
+\\_\\d\\d\\d\\d
+\\_\\d{1,10}$
+\\_\\d+\\_
+\\_\\s*\\(\\s*(u?r?)\\'(.*?)\\'\\s*\\)
+\\_\\w*
+\\_\\w+$
+\\___(.+?)\\___
+\\__END__(\\n|$)
+\\__END__(\\n|\\Z)
+\\__END__(\\r?\\n|\\Z)
+\\\\__RecexpRefPrefix__
+\\__root__\\.__block__
+\\__root__\\.a\\.b\\.2
+\\__root__\\.a\\.b\\.2\\.d
+\\__root__\\.a\\.b\\.x
+\\__root__\\.box\\.1\\.trololol
+\\__root__\\.lol
+\\_{1,}
+\\_{2,}
+\\_|\\-
+\\\\_|\\\\%|_|%
+\\_|\\s+
+\\_+
+\\_+$
+\\_+(\\w)
+\\_+|\\s{2,}
+\\_before\\_type\\_cast$
+\\_by$
+\\_collection$
+\\_connection$
+\\_const$
+\\_controller$
+\\_ctl
+\\_forms.css
+\\_id$
+\\_ID\\]$
+\\_ip$
+\\_js$
+\\_mac$
+\\_paq\\.push\\(\\[\\'disableCookies\\'\\]\\)\\;
+\\_PLAN
+\\_PM$
+\\_reply$
+\\_sharedData \\= (.*?)\\;\\<\\/script\\>
+\\_styles\\.[\\_\\.a-zA-Z0-9]+
+\\_time$
+\\_ws_
+\\`(.*)\\<#.*\\>\\`\\_
+\\`([^\\`]+)\\s\\<\\#[^\\`]+\\>\\`\\_\\_
+\\`(http:\\/\\/[A-Za-z0-9\\/\\%\\&\\=\\-\\_\\\\\\.]+)\\`
+\\`[-A-Za-z0-9+=*^<>?,;/\\\\]+:?
+\\`[-A-Za-z0-9+=*^<>?,;\\/\\\\]+:?
+\\\\`\\{\\\\i\\}
+\\`\\Q$path\\E' saved \\[(\\d+)/\\d+\\]
+\\\\`|\\\\\\\\
+\\{(
+\\{(((?>[^\\{\\}]+)|(?R))*)\\}
+\\{(([^\\}].*)?(,|\\|)(.*[^\\\\])?)\\}
+\\{(?:
+\\{(?:[^{}]|(?:\\g<0>))*\\}
+\\{(?:[^{}]|(?R))*\\}
+\\{(?:def\\:)(.*?)(?:})(.*?)\\{.def\\:(\\g1)
+\\{(?<part>[a-zA-Z0-9\\_\\-]+)\\}
+\\{(?P<cmd>\\w+)(?::?\\s*(?P<arg>.*))?\\}
+\\{(?P<directive>[^}]+)\\}|(?P<terms>[^{}\\s]+)|(?P<space>\\s+)
+\\{(?P<key>[^}\\r\\n ]+)\\}
+\\{(?P<namespace>[^\\}]+)\\}.+
+\\{(?P<param>[a-z_]+)(?:\\[(?P<start>\\d+)?:(?P<end>\\d+)?\\])?(?P<formatter>[:!][^\\}]+)?\\}
+\\{(?P<parameter>\\w+)(?:\\/(?P<condition>(?:(?>\\\\)\\/|[^\\/])+)\\/)?(?P<optional_sign>\\??)\\}
+\\{(?P<parameter>\\w+)\\}
+\\{(?P<resource>[^}]+)_\\}
+\\{(?P<var>[_a-zA-Z][_a-zA-Z0-9]*):(?P<re>.+)\\}
+\\{(?P<var>[_a-zA-Z][_a-zA-Z0-9]*)\\}
+\\{(?P<variable>\\w+).?(?P<function>([\\w\\.])*):?(?P<parameters>(\\w|,| )*)\\}
+\\{([
+\\{([a-z0-9\\-\\_]+)\\}
+\\{([a-z0-9\\_\\.\\#]+)\\}
+\\{([a-zA-Z\\-\\_]+)\\}
+\\{([a-zA-Z\\_\\-]+)\\}
+\\{(\\$[A-Za-z0-9\\_'\\\"\\[\\]]+)\\}
+\\{(\\\\*)\\\\(0*[1-9][0-9]*)}
+\\{(\\pL\\pM*)\\}($re)
+\\{(\\w++)(<.*?>)?(\\?[^\\}]*+)?\\}
+\\{:(
+\\{:(?!:|\\/)(
+\\{@([^\\p{javaWhitespace}]+)((?:.|\\n)*)\\}
+\\{[\\n\\r]*(\\\\\\*[\\n\\r]*)?\\\\([a-zA-Z]+)([^a-zA-Z])
+\\{[^,}]*[^,}0-9][^,}]*,(([^}\\\\]|\\\\.)*)\\}
+\\{[^\\}]*\\\\p(\\d+)(\\\\[^\\}]+\\}|\\})
+\\{[^\\}]*\\\\p\\d+(\\\\[^\\}]+\\}|\\}).*?($|\\{\\\\p0\\})
+\\{[^]*\\n
+\\{[0-9a-zA-Z\\+\\-\\*\\/\\#\\:\\,\\.\\_\\ ]+\\}
+\\{[A-Za-z\\d-\\_]+\\}
+\\{[a-zA-Z0-9\\.\\_]+\\:([^\\}]*)\\}
+\\{[a-zA-Z0-9\\.\\_]+\\}
+\\{\\%-?[\\s\\n]*include[\\s\\n]+(?P<tmpl>[^\\s\\n]+)[\\s\\n]+with[\\s\\n]+(?P<context>.*?)[\\s\n]*-?\\%\\}
+\\{\\%\\s*use\\s+atoms\\s*\\'?(?P<tmpl>[^\\s]+)\\'?\\s*as\\s*\\'?(?P<context>\\w+)\\'?\\s*\\%\\}
+\\{\\\\([ibu])\\}
+\\{\\\\([ibu])1\\}
+\\{\\\\\\*\\\\htmltag\\d+[^\\}<]+(<.+>)\\}
+\\{\\\\\\*\\\\htmltag\\d+[^\\}<]+\\}
+\\{\\@include ([a-zA-Z0-9\\/\\-\\_]+)\\}
+\\{\\{ (?P<key>\\w+) \\}\\}
+\\{\\{(?P<m>[a-zA-Z_]+)\\}\\}
+\\{\\{(?P<target>.*?)\\}\\}
+\\{\\{?\\s*(begin)(?:\\s+(.*?))?\\}\\}?((?:(?R)|.)*?)\\{\\{?\\s*(?:end(?:\\s+\\2)?)?\\s*\\}\\}?|\\{\\{(\\??(?:[^\\}'\"]*(['\"]).*?(?<!\\\\)\\5)*.*?)\\}\\}|\\{\\s*(if|foreach|section|for|while|switch|literal|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup|capture|php|strip|textformat|dynamic|select|joincalculator|function|helper|form|_if|_foreach|_for|shortcut|block|optgroup)(\\s(?:[^\\}'\"]*(['\"]).*?(?<!\\\\)\\8)*.*?)?\\}((?:(?R)|.)*?)\\{/\\s*\\6?\\s*\\}|\\{(\\??(?:[^\\}'\"]*(['\"]).*?(?<!\\\\)\\11)*.*?)\\}|\\r?\\n
+\\{\\{\\?((?:(?!
+\\{\\{\\{\\{(?P<var>.*?)\\}\\}\\}\\}
+\\{\\{\\p{Alnum}+}}
+\\{\\\\it 
+\\{\\\\it ([^{}]*)\\}
+\\{\n                    # \"{@}\" is not a valid inline tag. This ensures that\n                    # we do not treat it as one, but treat it literally.\n                    (?!@\\})\n                    # We want to capture the whole tag line, but without the\n                    # inline tag delimiters.\n                    (\\@\n                        # Match everything up to the next delimiter.\n                        [^{}]*\n                        # Nested inline tag content should not be captured, or\n                        # it will appear in the result separately.\n                        (?:\n                            # Match nested inline tags.\n                            (?:\n                                # Because we did not catch the tag delimiters\n                                # earlier, we must be explicit with them here.\n                                # Notice that this also matches \"{}\", as a way\n                                # to later introduce it as an escape sequence.\n                                \\{(?1)?\\}\n                                |\n                                # Make sure we match hanging \"{\".\n                                \\{\n                            )\n                            # Match content after the nested inline tag.\n                            [^{}]*\n                        )* # If there are more inline tags, match them as well.\n                           # We use \"*\" since there may not be any nested inline\n                           # tags.\n                    )\n                \\}
+\\{\n                # \"{@}\" is not a valid inline tag. This ensures that we do not treat it as one, but treat it literally.\n                (?!@\\})\n                # We want to capture the whole tag line, but without the inline tag delimiters.\n                (\\@\n                    # Match everything up to the next delimiter.\n                    [^{}]*\n                    # Nested inline tag content should not be captured, or it will appear in the result separately.\n                    (?:\n                        # Match nested inline tags.\n                        (?:\n                            # Because we did not catch the tag delimiters earlier, we must be explicit with them here.\n                            # Notice that this also matches \"{}\", as a way to later introduce it as an escape sequence.\n                            \\{(?1)?\\}\n                            |\n                            # Make sure we match hanging \"{\".\n                            \\{\n                        )\n                        # Match content after the nested inline tag.\n                        [^{}]*\n                    )* # If there are more inline tags, match them as well. We use \"*\" since there may not be any\n                       # nested inline tags.\n                )\n            \\}
+\\{\\p{ASCII}*?\\}
+\\{\\\\pict[\\s\\S]+?\\\\bliptag\\-?\\d+(\\\\blipupi\\-?\\d+)?(\\{\\\\\\*\\\\blipuid\\s?[\\da-fA-F]+)?[\\s\\}]*?
+\\{\\\\pntext[^\\}]*\\}
+\\{\\s*((
+\\{\\s*(?P<pos>\\d+)\\s*,\\s*(?P<len>\\d+)\\s*\\}
+\\{\\s*\\p{Graph}+\\s*\\}
+\\{\\s+\\\"Fn::GetAtt\\\"\\: \\[\\s+(?<key>
+\\{\\s+\\\"Ref\\\"\\:\\s+(?<ref>
+\\{{1,2}[a-z0-9_.-\\s]+\\}{1,2}
+\\{code(:([a-z]+))?\\}([^]*?)\\{code\\}
+\\{gfm-extraction-(\\h{32})\\}
+\\{node\\:[a-zA-z0-9\\_\\-\\/]*\\}
+\\{quote\\}([^]*)\\{quote\\}
+\\{slug\\:[a-zA-z0-9\\_\\-\\/]*\\}
+\\\\\\\\|(?<!\\\\)([\\\\\\s&|><*?\\[\\]{}()\\$\\%\\@'\"`])
+\\\\\\\\|(\\\\)?'|([\\\\])(?=[$\"\\\\])
+\\|(\\_[^\\|]+)\\|([\\ ]+)\\|
+\\\\|/|\\||:|\\?|\\*|\\\"|<|>|\\p{Cntrl}
+\\\\\\\\|\\\\
+\\\\'|\\\\\\\\
+\\'|\\\\
+\\'|\\\"|\\\\
+\\\\\\\\|\\\\(.)
+\\|\\\\(\\_[^\\s]+)\\|
+\\|\\\\(\\_[^\\s]+)\\|\\s+image
+\\\\\\\\|\\\\(\\d+)
+\\-|\\_
+\\\\\\\\|\\\\_|\\\\%|_|%
+\\-|\\_|\\[|\\]|\\(|\\)|\\{|\\}|\\r?\\n|\\r|\\t
+\\|\\Q$action\\E\\|
+\\|\\s*(?P<filters>[a-zA-Z][_.a-zA-Z0-9]*(?:,\\s*[a-zA-Z][_.a-zA-Z0-9]*)*)\\s*$
+\\|\\s+bench\\_.*(Str[a-z]*)\\s+\\|\\s+([\\d\\.\\,]+)([\\S]+)\\s+\\|
+\\\\\\\\|\\\\u\\w{4}|\\\\U\\w{8}|\\\\N\\{([^}\\\\]|\\\\.)+\\}
+\\\\|_(?!.*\\\\)
+\\||\\\\vert|\\\\Vert|\\\\mvert|\\\\mid
+\\\\\\}|\\\\\\\\
+\\\\~\\{\\\\i\\}
+\\+ .{3,}(
+\\+ \\d+ #<Thread:0x\\h+ run> 
+\\+( (?P<data>.*))?
+\\+([$chanmodes->[0]])
+\\+([^$chanmodes->[3]])
+\\-+){\n\t\tmy $stlin = length $`;\n\t\tmy $numdel = length $&;\n\n\t\tmy @confl = map {exists $ins1{$_} ? 
+\\-+){\n\t\tmy $stlin = length $`;\n\t\tmy $numdel = length $&;\n\n\t\tmy @confl = map {exists $ins2{$_} ? 
+\\\\+[^\\\\]+\\\\+\\.\\.$
+\\\\+[^\\\\]+\\\\+\\.\\.\\\\
+\\+\\\\\\\\
+\\+\\+ | -- | ~ | && | \\|\\| | \\\\(?=\\n) | << | >>>? | == | != 
+\\+\\+ | -- | ~ | && | \\|\\| | \\\\(?=\\n) | << | >>>? | ===\n               | !== 
+\\+\\+subject:(?P<subject>.*?)\\+\\+
+\\+|%\\h\\h
+\\+|\\!|\\-|&(gt|lt|amp);|\\/\\=|\\||\\@|\\:|\\.|\\+{2}|\\:|\\*|\\=|#|\\.{2}|(\\\\)[a-zA-Z_]
+\\-+BEGIN CERTIFICATE.+\\-+(?P<public>[^-]+)\\-+END CERTIFICATE.+\\-+
+\\+OK (?P<hostname>\\S+) .*
+\\<!--(?P<content>.*?)-->
+\\<(?P<link>.*)\\>\\; rel\\=\\\"(?P<rel>.*)\\\"
+\\<([A-Za-z0-9\\_\\-\\.]+)\\@([A-Za-z0-9\\_\\-\\.]+)\\.([A-Za-z0-9\\_\\-\\.]+)?(\\>|\\;|\\:|\\ )
+\\<(\\d+)\\>(1) (\\d\\d\\d\\d-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d(?:\\.\\d\\d\\d\\d\\d\\d)?\\+00:00) ([a-z0-9\\-\\_\\.]+) ([a-z0-9\\.-]+) ([a-z0-9\\-\\_\\.]+) (\\-) (.*)$
+\\<[^\\s\\>]*ins[^\\S\\>]*class=\"adsbygoogle\"[^\\S\\>]*style=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"[^\\>]*data-ad-client=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"[^\\>]*data-ad-slot=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"[^\\<]*\\<\\/ins\\>
+\\<\\=\\_$start\\_\\=\\>
+\\<\\s*([^\\s\\>]+)((?:[^\\>]*\\bid[ \\t]*=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"|[^\\>]*)[^\\>]*)style=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"((?:[^\\>]*\\bid[ \\t]*=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"|[^\\>]*)[^\\>]*\\>)
+\\<AccountNum\\>(?P<num>.*)\\<\\/AccountNum\\>
+\\<adj>
+\\<amount>
+\\<b>(((?!\\</b>).)*)\\</b>
+\\<b>(.+?)\\</b>
+\\<BR>(\\<i>(.*))&nbsp;
+\\<BR>.*?</SMALL>(.*)$
+\\<CardSecVal\\>(?P<num>.*)\\<\\/CardSecVal\\>
+\\<code>(((?!\\</code>).)*)\\</code>
+\\<color>
+\\<comment>(((?!\\</comment>).)*)\\</comment>
+\\<conjunction>
+\\<dl>\\<dt>\\<b>(\\d+)\\.
+\\<em>(((?!\\</em>).)*)\\</em>
+\\<error>(((?!\\</error>).)*)\\</error>
+\\<error>(((?!\\</strike>).)*)\\</error>
+\\<exclamation>
+\\<facialexpression>
+\\<firstname>
+\\<i>(((?!\\</i>).)*)\\</i>
+\\<img .* src=\"https?:(?P<src>.+\\.(?:png|jpg))\" .* />(?P<content>.+)
+\\<img [^\\<\\>]*src=\\\"[^\\\"]*(
+\\<info>(((?!\\</info>).)*)\\</info>
+\\<input\\stype\\=\"?hidden\"?\\sname\\=\"?([\\w\\_]+)\"?\\svalue\\=\"?([\\w\\d\\/\\_]+)\"?\\>
+\\<lastname>
+\\<message\\>(?P<message>.+)\\</message\\>
+\\<module[\\s\\S]*from '(?P<it>[\\s\\S]*)'\\>
+\\<no>
+\\<noun>
+\\<option\\svalue\\=\\\"([0-9]+)\\\">([\\w\\s\\-\\_\\.\\,]+)\\<\\/option\\>
+\\<p\\>(?P<msg>\\<strong\\s.*?)\\</p\\>
+\\<p\\>\\[view:\\&quot\\;([a-z\\:\\.\\_\\-]*)\\&quot\\;\\]\\<\\/p\\>
+\\<p>
+\\<p>(.+?)</p>
+\\<prototype.*\\snamespace=\"(?:(?<namespace>(?:[^\\\\]+(?<separator>\\\\(?:\\\\)?){1})))\"
+\\<relationship>
+\\<script>.+?<\\/script>
+\\<SHOP\\_ITEM\\:(\\d{1,10})\\:(.*?)\\:\\>
+\\<span class=\\\"MathJax\\_Preview\\\"\\>.+?\\<\\/span\\>\\<script type=\"math\\/tex\"\\>
+\\<strike>(((?!\\</strike>).)*)\\</strike>
+\\<strong>(.+?)\\</strong>
+\\<success>(((?!\\</strike>).)*)\\</success>
+\\<success>(((?!\\</success>).)*)\\</success>
+\\<TD ALIGN=left>\\<FONT SIZE=2>\\<b>\\<A HREF=\"([^\"]+)\">(.*)\\</FONT>\\</A>\\<BR>
+\\<TD>&nbsp;\\</TD>
+\\<title>
+\\<title>(.*?)<\\/title\\>
+\\<u>(((?!\\</u>).)*)\\</u>
+\\<verb>
+\\<warning>(((?!\\</warning>).)*)\\</warning>
+\\<yes>
+\\\\=\\{\\\\i\\}
+\\=\\s([A-Z0-9\\_]+)
+\\=|\\@|\\#|\\||\\+|\\-|\\,|\\.|\\!|\\?|\\\"|\\'|\\:|\\;|\\(|\\)|\\[|\\]|\\{|\\}|\\/|\\\\
+'\\\\>(.*?)\\\\
+\\\\\\>|\\\\\\\\
+\\0\\0\\_($i)\\_\\0\\0
+\\0|\\\"|\\+|\\,|;|<|>|=|\\\\
+\\0|\\(|\\)|\\*|\\\\
+\\011\\Q1sometext\\E\\011\\Q2sometext\\E
+\\015|\\Q$end\\E{1,2}\\s*\\r?$
+\\033\\[38;5;(?P<color>\\d+);*\\d*m
+\\\\1
+\\\\\\1
+\\1
+\\1(\\P{P\u0000[}()/
+\\1[a]
+\\2
+\\\\2
+\\2147483648
+\\\\2a
+\\\\2C
+\\\\2f 
+\\\\2f
+\\2LITERAL\\\\1LITERAL\\2
+\\\\3A
+\\3a
+\\\\3a
+\\\\3B
+\\\\3C
+\\\\3c
+\\\\3D
+\\\\3E
+\\\\3e
+\\\\3F
+\\\\5B
+\\\\5c
+\\\\5D
+\\\\5E
+\\\\7B
+\\\\7C
+\\\\7D
+\\\\7E
+\\8
+\\\\9
+\\\\9$
+\\99
+\\A (?&PerlDocument) \\Z $grammar
+\\A (?:\\P{IsLower}+ \\s)+ ([A-Z]+) \\s -
+\\A (?i: \\Q$username\\E ) / \\Q$rest\\E \\z
+\\A (\\s*) \\\\include\\{ ([^ \\} ]+) \\} 
+\\A *([a-zA-Z]([\\-\\_]?[a-zA-Z0-9]+)* *[\\:\\=] *)
+\\A *[a-zA-Z\\_][a-zA-Z0-9\\_]*[\\!\\?]?
+\\A [\\t \\P{Cntrl}]* \\z
+\\A \\$ \\Q$name\\E \\z
+\\A \\p{Any}* \\z
+\\A \\Q$class: \\E
+\\A \\Q$exactly_perl_version\\E
+\\A \\Q$tag_end\\E 
+\\A \\Qstat() on unopened filehandle\\E
+\\A \\s*\n        (?P<release>.*?)\n        (?:\n           -(?P<post>\\d+)\n           -g(?:[\\da-f]+)               # SHA\n        )?\n        (?P<dirty>-dirty)?\n        \\s* \\Z
+\\A \\x00 \\x01 \\xff+ \\x00 \\Q$hdr\\E 
+\\A--- END \\Q$this->{id}\\E\\Z
+\\A# starting GPS (?P<epoch>\\d+) duration (?P<duration>\\d+)\\Z
+\\A#![^\\n]*\\R?
+\\A#(
+\\A#?(?<hex_color>[[:xdigit:]]{3}{1,2})\\z
+\\A#?+[0-9a-f]{3}(?:[0-9a-f]{3})?\\z
+\\A#\\{((?>[^{}]|(\\{(?>[^{}]|\\g<1>)*\\}))*)\\}
+\\A#\\h{6}\\Z
+\\A#\\s*frozen[_-]string[_-]literal:\\s*(
+\\A#<Azure::Armrest::BaseModel:0x\\h+\\n
+\\A#<Object:0x\\h+ (?:@foo=\"value\", @bar=42|@bar=42, @foo=\"value\")>\\z
+\\A#<Object:0x\\h+ @ivar=:value>\\z
+\\A#<Object:0x\\h+ @recur=#<Object:0x\\h+ \\.\\.\\.>>\\z
+\\A#<Object:0x\\h+>\\z
+\\A#x\\h+
+\\A$template_dir[/\\\\](.*)\\z
+\\A%(?P<magic>.+?)(?P<code>\\s+.*)?\\Z
+\\A%(?P<magic>\\S*)\\Z
+\\A%set (?P<setting>\\S*)\\Z
+\\\\A(
+\\A(
+\\A--(
+\\A((
+\\A((.*/)*(?P<obs>[^/]+)-(?P<ifo>[A-Z][0-9])_LOSC_((?P<tag>[^/]+)_)?(?P<samp>\\d+)_(?P<version>V\\d+)-(?P<strt>[^/]+)-(?P<dur>[^/\\.]+)\\.(?P<ext>[^/]+))\\Z
+\\A((?![ \\t]*(\\{|\\n)|.*?\\S.*?
+\\A((?:
+\\A((?:.|\\n)*?
+\\A((?:[^\"\\\\]|\\\\.)*)\"
+\\A((?:[^\\\\\\Q$Separator\\E]+|\\\\.)*)(?:\\Q$Separator\\E|\\Z)
+\\A((?>.+?
+\\A(([\\w-]+/)?\\w+/)?(?P<flavor>[\\w-]+)-stemcell-(?P<version>[\\.\\d]+)-(?P<name>(?P<inf_name>\\w+)-(?P<hv_name>\\w+(-\\w+)?)-(?P<os_name>centos|ubuntu|windows)(?P<os_version>-trusty|-xenial|-lucid|1803|2016|2012R2|-\\d+)?(?P<agent_type>-go_agent)?(?P<disk_fmt>-raw)?)\\.tgz\\z
+\\A(([^\\*\\=\\:\\.,]+)|(
+\\A'(([^'\\\\]|\\\\.)*)'
+\\A((\"((?:[^\"\\\\]|\\\\.)*?)\")|('(?:[^'\\\\]|\\\\.)*?'))
+\\A((\"((?:[^\"\\\\]|\\\\.)*?)\")|('(?:[^'\\\\]|\\\\.)*?'))\\Z
+\\A((\"((?:[^\"\\\\]|\\\\.)*?)\")|('(?:[^'\\\\]|\\\\.)*?')|true|false|nil)\\Z
+\\A(-)?P((?P<years>[\\d\\.]+)Y)?((?P<months>[\\d\\.]+)M)?((?P<weeks>[\\d\\.]+)W)?((?P<days>[\\d\\.]+)D)?(T((?P<hours>[\\d\\.]+)H)?((?P<minutes>[\\d\\.]+)M)?((?P<seconds>[\\d\\.]+?)S)?)?\\z
+\\A(.*(?<!\\\\)\")
+\\A(.*)(
+\\A(.*)(?<!\\\\)\\\\
+\\A(.*):(
+\\A'(.*)'::(?:
+\\A(.*)\\s+(
+\\A(.*?)((?:\\s+
+\\A(.*?)(?<!\\\\)
+\\A(.*?)([$]+|\\|?\\s*-?
+\\A(.*?\\S.*?
+\\A(.*\\n)*search\\s{1,}(.*\\s{1,})*(?P<goal>[a-zA-Z0-9-]{1,63}.svc.([a-zA-Z0-9-]{1,63}\\.)*[a-zA-Z0-9]{2,63})
+\\A(.*\\n)*search\\s{1,}(.*\\s{1,})*(?P<goal>svc.([a-zA-Z0-9-]{1,63}\\.)*[a-zA-Z0-9]{2,63})
+\\A(.{
+\\A(.{0,
+\\\\A(.{0,
+\\A(?
+\\A(?!
+\\A(?!.*[<>?%&\\^*
+\\A(?!\\/|.*([\\/.]\\.|\\/\\/|@\\{|\\\\\\\\))(?!.*\\\\)[^\\040\\177 ~^:?*\\[;]+(?<!\\.lock|[\\/.])\\z
+\\A(?:
+\\\\A(?:
+\\A--(?:
+\\A(?: ([^\\\"\\s\\\\]+) | \\\\(.) )
+\\A(?:!|
+\\A(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~\\/?])*\\z
+\\A(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])*\\z
+\\A(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])+(?:\\/(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])*)*\\z
+\\A(?:%\\h\\h|[!$&-.0-;=A-Z_a-z~])*\\z
+\\A(?:%\\h\\h|[^%]+)*\\z
+\\A(?:(
+\\A(?:(.*?)_)?(
+\\A(?:(?:[A-Z](?:[A-Z0-9_]|[\\x{00C0}-\\x{00D6}]|[\\x{00D8}-\\x{00F6}]|[\\x{00F8}-\\x{02FF}]|[\\x{0370}-\\x{037D}]|[\\x{037F}-\\x{1FFF}]|[\\x{200C}-\\x{200D}]|[\\x{2070}-\\x{218F}]|[\\x{2C00}-\\x{2FEF}]|[\\x{3001}-\\x{D7FF}]|[\\x{F900}-\\x{FDCF}]|[\\x{FDF0}-\\x{FFFD}]|[\\x{10000}-\\x{EFFFF}])*)?:)
+\\A(?:(?:[A-Z0-9_]|[\\x{00C0}-\\x{00D6}]|[\\x{00D8}-\\x{00F6}]|[\\x{00F8}-\\x{02FF}]|[\\x{0370}-\\x{037D}]|[\\x{037F}-\\x{1FFF}]|[\\x{200C}-\\x{200D}]|[\\x{2070}-\\x{218F}]|[\\x{2C00}-\\x{2FEF}]|[\\x{3001}-\\x{D7FF}]|[\\x{F900}-\\x{FDCF}]|[\\x{FDF0}-\\x{FFFD}]|[\\x{10000}-\\x{EFFFF}])*)
+\\A(?:(?:Set-Registration: (.+)|[A-Za-z\\-]+: .+)\\R)*\\R
+\\A(?:(?<IP-literal>\\[(?:(?<IPv6address>(?:\\h{1,4}:){6}(?<ls32>\\h{1,4}:\\h{1,4}|(?<IPv4address>(?<dec-octet>[1-9]\\d|1\\d{2}|2[0-4]\\d|25[0-5]|\\d)\\.\\g<dec-octet>\\.\\g<dec-octet>\\.\\g<dec-octet>))|::(?:\\h{1,4}:){5}\\g<ls32>|\\h{,4}::(?:\\h{1,4}:){4}\\g<ls32>|(?:(?:\\h{1,4}:)?\\h{1,4})?::(?:\\h{1,4}:){3}\\g<ls32>|(?:(?:\\h{1,4}:){,2}\\h{1,4})?::(?:\\h{1,4}:){2}\\g<ls32>|(?:(?:\\h{1,4}:){,3}\\h{1,4})?::\\h{1,4}:\\g<ls32>|(?:(?:\\h{1,4}:){,4}\\h{1,4})?::\\g<ls32>|(?:(?:\\h{1,4}:){,5}\\h{1,4})?::\\h{1,4}|(?:(?:\\h{1,4}:){,6}\\h{1,4})?::)|(?<IPvFuture>v\\h+\\.[!$&-.0-;=A-Z_a-z~]+))\\])|\\g<IPv4address>|(?<reg-name>(?:%\\h\\h|[!$&-.0-9;=A-Z_a-z~])*))\\z
+\\A(?:(?<step>(?:\\*|(?:(?<atom>\\d+|sun|mon|tue|wed|thu|fri|sat)(?:-\\g<atom>)?))(?:/\\d+)?)(?:,\\g<step>)*)\\z
+\\\\A(?:(?m:\\\\s*)(?:
+\\A(?:(['\"])(.*?)(?<!\\\\)\\1)
+\\A(?:([\\w\\#\\_][\\w\\-\\.]*))
+\\A(?:.*?(?=\\=\\Q$item[2]\\E))
+\\A(?:.*?(?=\\Q$item[2]\\E))
+\\A(?:[ \\t\\f\\v]*(?:
+\\A(?:[%@\\$][\\w\\#\\_][\\w\\-\\.]*)
+\\A(?:[\\/-\\w.]+)
+\\A(?:[\\x09\\x0b\\x0c\\x20\\xa0\\p{IsZs}]|\\/\\/.+?(?=[$nl])|\\/\\*[^$nl]*?\\*\\/)+
+\\A(?:[^\"]*[^\"\\\\])
+\\A(?:[^\\\\]|
+\\A(?:[^']*[^'\\\\])
+\\A(?:[0-9a-zA-Z\\.\\_\\-]+\\/?)+\\z
+\\A(?:[0-9a-zA-Z\\.\\_\\-]+\\\\?)+\\z
+\\A(?:\\\\)
+\\A(?:\\\\C-\\\\M|\\\\c\\\\M)
+\\A(?:\\C-h|\\x7F)\\z
+\\A(?:\n                (\n                    [A-Z][A-Z]+ |\n                    [A-Z][a-z]+ |\n                    [a-z]+ |\n                    [0-9]+ |\n                    [^A-Za-z0-9]+\n                )\n                (?{ push @res, $1 })\n            )+\\z
+\\A(?:\n         =[^>=~] | (,) | (;) | (\\)) | \n         (in(?!
+\\A(?:\\p{Hiragana}|\\p{Katakana}|[\u30fc\uff0d]|[\u4e00-\u9fa0\u3005])+
+\\A(?:^\\h*$)*^(\\h*)\\S
+\\A(?:^\\s*\\S*?(?=\\Q$item[1]\\E|\\s|$))
+\\A(?:_col|[a-zA-Z0-9]|%\\h\\h)([a-zA-Z0-9\\._]|%\\h\\h)*\\z
+\\A(?:0x)?\\h+\\Z
+\\A(?:1[0-9][0-9]{2}|20[0-$prevDecade][0-9]|20$decade[0-$year])\\Z
+\\A(?:nil||\\-|\\\\N)\\z
+\\A(?:null||\\-|\\\\N)\\z
+\\A(?:U\\+)?(\\h+)\\z
+\\A(?<hfield>(?:%\\h\\h|[!$'-.0-;@-Z_a-z~])*=(?:%\\h\\h|[!$'-.0-;@-Z_a-z~])*)(?:&\\g<hfield>)*\\z
+\\A(?<name>^[-!
+\\A(?<paren>a\\g<paren>*b)+\\z
+\\A(?<relative-ref>(?<relative-part>\\/\\/(?<authority>(?:(?<userinfo>(?:%\\h\\h|[!$&-.0-;=A-Z_a-z~])*)@)?(?<host>(?<IP-literal>\\[(?<IPv6address>(?:\\h{1,4}:){6}(?<ls32>\\h{1,4}:\\h{1,4}|(?<IPv4address>(?<dec-octet>[1-9]\\d|1\\d{2}|2[0-4]\\d|25[0-5]|\\d)\\.\\g<dec-octet>\\.\\g<dec-octet>\\.\\g<dec-octet>))|::(?:\\h{1,4}:){5}\\g<ls32>|\\h{1,4}?::(?:\\h{1,4}:){4}\\g<ls32>|(?:(?:\\h{1,4}:){,1}\\h{1,4})?::(?:\\h{1,4}:){3}\\g<ls32>|(?:(?:\\h{1,4}:){,2}\\h{1,4})?::(?:\\h{1,4}:){2}\\g<ls32>|(?:(?:\\h{1,4}:){,3}\\h{1,4})?::\\h{1,4}:\\g<ls32>|(?:(?:\\h{1,4}:){,4}\\h{1,4})?::\\g<ls32>|(?:(?:\\h{1,4}:){,5}\\h{1,4})?::\\h{1,4}|(?:(?:\\h{1,4}:){,6}\\h{1,4})?::)|(?<IPvFuture>v\\h+\\.[!$&-.0-;=A-Z_a-z~]+)\\])|\\g<IPv4address>|(?<reg-name>(?:%\\h\\h|[!$&-.0-9;=A-Z_a-z~])+))?(?::(?<port>\\d*))?)(?<path-abempty>(?:\\/(?<segment>(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])*))*)|(?<path-absolute>\\/(?:(?<segment-nz>(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])+)(?:\\/\\g<segment>)*)?)|(?<path-noscheme>(?<segment-nz-nc>(?:%\\h\\h|[!$&-.0-9;=@-Z_a-z~])+)(?:\\/\\g<segment>)*)|(?<path-empty>))(?:\\?(?<query>[^#]*))?(?:\\#(?<fragment>(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~\\/?])*))?)\\z
+\\A(?<sign>[-+]?)0[xX](?<frac>\\.\\h+|\\h+(?:\\.\\h*)?)[pP](?<exp>[-+]?\\d+)
+\\A(?<sign>[-+]?)0[xX](?<frac>\\.\\h+|\\h+(?:\\.\\h*)?)[pP](?<exp>[-+]\\d+)
+\\A(?<step>(?:\\*|(?:(?<atom>\\d+||jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)(?:-\\g<atom>)?))(?:/\\d+)?)(?:,\\g<step>)*\\z
+\\A(?<symbol>[
+\\A(?<URI>(?<scheme>[A-Za-z][+\\-.0-9A-Za-z]*):(?<hier-part>\\/\\/(?<authority>(?:(?<userinfo>(?:%\\h\\h|[!$&-.0-;=A-Z_a-z~])*)@)?(?<host>(?<IP-literal>\\[(?:(?<IPv6address>(?:\\h{1,4}:){6}(?<ls32>\\h{1,4}:\\h{1,4}|(?<IPv4address>(?<dec-octet>[1-9]\\d|1\\d{2}|2[0-4]\\d|25[0-5]|\\d)\\.\\g<dec-octet>\\.\\g<dec-octet>\\.\\g<dec-octet>))|::(?:\\h{1,4}:){5}\\g<ls32>|\\h{1,4}?::(?:\\h{1,4}:){4}\\g<ls32>|(?:(?:\\h{1,4}:)?\\h{1,4})?::(?:\\h{1,4}:){3}\\g<ls32>|(?:(?:\\h{1,4}:){,2}\\h{1,4})?::(?:\\h{1,4}:){2}\\g<ls32>|(?:(?:\\h{1,4}:){,3}\\h{1,4})?::\\h{1,4}:\\g<ls32>|(?:(?:\\h{1,4}:){,4}\\h{1,4})?::\\g<ls32>|(?:(?:\\h{1,4}:){,5}\\h{1,4})?::\\h{1,4}|(?:(?:\\h{1,4}:){,6}\\h{1,4})?::)|(?<IPvFuture>v\\h+\\.[!$&-.0-;=A-Z_a-z~]+))\\])|\\g<IPv4address>|(?<reg-name>(?:%\\h\\h|[!$&-.0-9;=A-Z_a-z~])+))?(?::(?<port>\\d*))?)(?<path-abempty>(?:\\/(?<segment>(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])*))*)|(?<path-absolute>\\/(?:(?<segment-nz>(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])+)(?:\\/\\g<segment>)*)?)|(?<path-rootless>\\g<segment-nz>(?:\\/\\g<segment>)*)|(?<path-empty>))(?:\\?(?<query>[^#]*))?(?:\\#(?<fragment>(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~\\/?])*))?)\\z
+\\A(?=.*
+\\A(?=[A-Z])(.*?)(
+\\A(?a)[a-zA-Z]\\w*\\Z
+\\A(?-mix:\\p{^Word})
+\\A(?-mix:\\p{Word})
+\\A(?P<client_ip>(\\d+\\.){3}\\d+):(?P<client_port>\\d+)\\s+\\[(?P<accept_date>.*)\\..*\\]\\s+(?P<frontend_name>.*)\\s+(?P<backend_name>.*)/(?P<server_name>.*)\\s+(?P<tq>-?\\d+)/(?P<tw>-?\\d+)/(?P<tc>-?\\d+)/(?P<tr>-?\\d+)/(?P<tt>\\+?\\d+)\\s+(?P<status_code>-?\\d+)\\s+(?P<bytes_read>\\+?\\d+)\\s+.*\\s+(?P<act>\\d+)/(?P<fe>\\d+)/(?P<be>\\d+)/(?P<srv>\\d+)/(?P<retries>\\+?\\d+)\\s+(?P<queue_server>\\d+)/(?P<queue_backend>\\d+)\\s+((?P<request_headers>{.*})\\s+(?P<response_headers>{.*})\\s+|(?P<headers>{.*})\\s+|)\"(?P<http_request>.*)\"\\Z
+\\A(?P<fileroot>.*)(?P<number>[0-9]{3,6})\\.(?P<ext>.*)\\Z
+\\A(?P<fileroot>.*)\\.(?P<number>[0-9]{3,5})\\Z
+\\A(?P<fileroot>.*)\\.(?P<number>[0-9]{3,6})\\.(?P<ext>.*)\\Z
+\\A(?P<fileroot>.*)_(?P<number>[0-9]{3,6})\\.(?P<ext>.*)\\Z
+\\A(?P<fileroot>.*)_(?P<number1>[0-9]{1,3})_(?P<number2>[0-9]{1,3})\\.(?P<ext>.*)\\Z
+\\A(?P<fileroot>.*)_(?P<otherstuff>.*)\\.(?P<ext>.*)\\Z
+\\A(?P<header>[A-Za-z0-9-]+):\\s+(?P<value>.*)$
+\\A(?P<ifo>[A-Z]\\d):(?P<tag>[^/]+):(?P<version>\\d+)\\Z
+\\A(?P<ifo>[A-Z]\\d):(?P<tag>[^/]+)\\Z
+\\A(?P<infrasp>[\\w]*)\\s?\n                (?P<infrasp_author>.*)
+\\A(?P<iso_date>\\D{3}\\s+\\d{1,2}\\s+\\d{2}:\\d{2}:\\d{2})\\s+(?P<source>.+?)\\s+(?P<facility>.+?)\\[(?P<pid>\\d+?)\\]:\\s(?P<message>.*)\\Z
+\\A(?P<message_id>\\w+?): (?:(?P<removed>removed)|(?:from=\\<(?P<from_address>.*?)\\>, size=(?P<size>[0-9]+), nrcpt=(?P<nrcpt>[0-9]+) \\(queue (?P<queue>[a-z]+)\\)))?\\Z
+\\A(?P<message_id>\\w+?): client=(?P<client_hostname>[.\\w-]+)\\[(?P<client_ip>[A-Fa-f0-9.:]{3,39})\\](?:, sasl_method=[\\w-]+)?(?:, sasl_username=[-_.@\\w]+)?(?:, sasl_sender=\\S)?(?:, orig_queue_id=\\w+)?(?:, orig_client=(?P<orig_client_hostname>[.\\w-]+)\\[(?P<orig_client_ip>[A-Fa-f0-9.:]{3,39})\\])?\\Z
+\\A(?P<message_id>\\w+?): message-id=\\<(?P<ext_message_id>.+?)\\>\\Z
+\\A(?P<message_id>\\w+?): sender non-delivery notification: (?P<bounce_message_id>\\w+?)\\Z
+\\A(?P<message_id>\\w+?): to=\\<(?P<to_email>.*?)\\>, orig_to=\\<(?P<orig_to_email>.*?)\\>, relay=(?P<relay>.+?), delay=(?P<delay>[0-9\\.]+), delays=(?P<delays>[0-9\\.\\/]+), dsn=(?P<dsn>[0-9\\.]+), status=(?P<status>\\w+) \\((?P<response>.+?)\\)\\Z
+\\A(?P<message_id>\\w+?): to=\\<(?P<to_email>.+?)\\>, relay=(?P<relay>.+?), (?:conn_use=(?P<conn_use>\\d), )?delay=(?P<delay>[0-9\\.]+), delays=(?P<delays>[0-9\\.\\/]+), dsn=(?P<dsn>[0-9\\.]+), status=(?P<status>\\w+) \\((?P<response>.+?)\\)\\Z
+\\A(?P<tag>[^/]+):(?P<version>\\d+)\\Z
+\\A(?P<value>\\d+)(?P<time_unit>[smhd])\\Z
+\\A(?P<word>\\S+)\\s*(?P<stem>\\S+).*\\z
+\\A(?s:\"([^#\"\\\\]*(?:\\\\.[^#\"\\\\]*)*)\"|'([^'\\\\]*(?:\\\\.[^'\\\\]*)*)')
+\\A(@(
+\\A([#\\\\]?[^#\\\\]*([#\\\\][^\\\\#\\{][^#\\\\]*)*)
+\\A([\\\\#]?[^#\\\\]*([#\\\\][^\\\\#\\{][^#\\\\]*)*)
+\\A([\\w\\!\\#\\z\\%\\&\\'\\*\\+\\-\\/\\=\\?\\\\A\\`{\\|\\}\\~]+\\.)*[\\w\\+-]+@((((([a-z0-9]{1}[a-z0-9\\-]{0,62}[a-z0-9]{1})|[a-z])\\.)+[a-z]{2,6})|(\\d{1,3}\\.){3}\\d{1,3}(\\:\\d{1,5})?)\\z
+\\A([-]\\d{
+\\A([^:/]++:/)?/
+\\A([^\"\\\\]*(?:\"\"[^\"\\\\]*|\\\\.[^\"\\\\]*)*)\"
+\\A([^'\\\\]*(?:\\\\.[^'\\\\]*)*)'
+\\A([^\\0]*[/\\\\])?perl\\0([^\\0]*[/\\\\])?td\\0
+\\A([^\\n&|;]*[^\\\\&|;](\\\\\\\\)*\\\\\\n)+[^\\n&|;]*[^\\n\\\\&|;](\\\\\\\\)*$
+\\A([_\\$\\p{IsLl}\\p{IsLu}\\p{IsLt}\\p{IsLm}\\p{IsLo}\\p{IsNl}][\\$\\w]*)
+\\A([-+]?\\d+
+\\A([+]\\d{
+\\A([-+]\\d{
+\\A([0-7]{4}|
+\\A([a-z\\d\\-\\_]+)\\.[a-z]{1,12}\\z
+\\A([a-z0-9\\_\\-])+\\z
+\\A([a-z0-9\\_])+\\z
+\\A([a-z0-9]+[a-z0-9\\-\\_\\.]*)+(\\/[a-z0-9]+[a-z0-9\\-\\_\\.]*)*\\z
+\\A([a-zA-Z\\_][a-zA-Z0-9\\_]*[\\!\\?]?)
+\\A([a-zA-Z\\_][a-zA-Z0-9\\_]*\\:(?!\\:))
+\\A([a-zA-Z]+[a-zA-Z0-9\\-\\_\\.]*)=(\\S*)\\z
+\\A([a-zA-Z0-9\\-\\_\\~\\+\\\\]+\\.[a-zA-Z0-9\\-\\_\\~\\+\\\\]+\\.[a-zA-Z0-9\\-\\_\\~\\+\\\\]*)\\z
+\\A(\".*?(?<!\\\\)(?:\\\\\\\\)*\")
+\\A(\\\".*?[^\\\\]\\\")\\@(.+)\\Z
+\\A(\"?)((?:\"\"|.)*?)\\1(\\Q$d\\E|\\z)
+\\A(\\\\)
+\\A(\\\\)?\\Z
+\\\\A(\\\\*|\\\\?+){0,1}[a-zA-Z0-9\\\\-_!\\\"#$%&'()+,./:;<=>@\\\\[\\\\]^`{}\\\\|~\\\\\\\\]+(\\\\*|\\\\?+){0,1}$
+\\A(\\.[a-zA-Z\\_][a-zA-Z0-9\\_]*[\\!\\?]?)
+\\A'(\\\\.|[^'\\\\])*'
+\\A(\\/((?:[^\\/\\\\]|\\\\.)*?)\\/)
+\\A(\\:
+\\A(\\[([\\h:]+)\\]|[^:]+)(?::(\\d+))?(?::(\\d+))?\\z
+\\A(\\[|\\])|[^\\\\](\\[|\\])
+\\A(\\d{
+\\A(\\d{6}) blob ([a-f\\d]{40})\\t\\Q$gpath\\E\\0
+\\\\A(\\\\d|\\\\s\\\\d
+\\A(\\d+
+\\A(\\d+|\\d+[.]\\d+)([
+\\A(\\d+|\\d+[.]\\d+)?([
+\\A(\\h*)#!\\Q$name\\E(?:[\\x20\\t]+([^\\n]+)?)?\\n+
+\\A(\\h{3}){,2}\\z
+\\A(\\h{32}|\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12})\\z
+\\A(\\h{40}) (\\S+)\\Z
+\\A(\\h{40})\\Z
+\\A(\\h+)
+\\A(\n        
+\\A(\\n|;|end(?!
+\\\\A(\\\\p{HandakuonHiragana}{5})\\\\p{^HandakuonHiragana}\\\\z
+\\A(\\w+), \\[([^#]*)#(\\d+)\\]\\s+(\\w+) -- (\\w*): ([\\x0-\\xff]*)
+\\A(\\w+)_\\Q$currency\\E\\z
+\\A(|[0-9a-zA-Z\\+=/]{4}+)\\Z
+\\\\A(<%
+\\A(<@
+\\\\A(<-\\\\s*
+\\A(f[0-7])(
+\\A(https?:\\/\\/[-0-9a-z\\.]+(?::\\d+))\\/(
+\\A(P[41])(
+\\A(P[52])(
+\\A(P[63])(
+\\A(RBENV\\_)
+\\A(squared|cubed|to the \\d+(
+\\A(true|false|yes|no|on|null|off|
+\\A(typedef|enum|class|
+\\A.*#\\s*\\[?(?i:FIXME)\\]?[ :]*(?P<text>.*?)\\s*\\Z
+\\A.*#\\s*\\[?(?i:TODO)\\]?[ :]*(?P<text>.*?)\\s*\\Z
+\\A.*?%mata%(?P<mata>.*?)%varlist%(?P<varlist>.*?)%globals%(?P<globals>.*?)%scalars%(?P<scalars>.*?)%matrices%(?P<matrices>.*?)(\\Z|---+\\s*end)
+\\\\A.+?(?=
+\\A/(
+\\A/((?:\\\\.|[^\\\\])*)/([[:alpha:]]+)?\\z|.*
+\\A/.*(?<!\\\\\\\\)/
+\\A/[^/\\\\]?|mailto://|http://|https://
+\\A/\\*{2}/[^(]++\\((.+)\\);\\z
+\\A/categories/(?P<category_id>[^/#?]+)/posts/(?P<id>[^/#?]+)\\z
+\\A/hierarchy/jobs/(\\h{24})/subtree\\z
+\\A/hierarchy/jobs/(\\h{24})\\z
+\\A/hierarchy/workflows/(\\h{24})\\z
+\\A/page/(
+\\A/page/([^./\\\\]+)
+\\A;(?<pan>[\\d]{1,19}+)=(?<expiration>[\\d]{0,4}|=)(?<service_code>[\\d]{0,3}|=)(?<discretionary_data>.*)\\?\\Z
+\\A@(
+\\A@charset \"(?P<encoding>[\\w-]+)\";
+\\A[
+\\A[ \\d]\\d (?:
+\\A[ \\t]*(?:(?<field>\\S+)[ \\t]+){4}\\g<field>[ \\t]*\\z
+\\A[ -_a-~
+\\A[,\\\\]\\Z
+\\A[/#][^/\\\\]?|mailto:|http://|https://
+\\A[/\\\\]
+\\A[\\.
+\\A[\\.\\#\\&][a-zA-Z\\-\\_\\(\\\"]
+\\A[-\\+]{0,1}((\\d*)|(\\d{0,3}(
+\\A[\\+|\\-]?(?<symbol>
+\\A[\\p{Alpha}]+
+\\A[\\p{hiragana}\\s]+\\z
+\\A[\\p{hiragana}]+\\z
+\\A[\\p{IsASCII}]+\\z
+\\A[\\p{IsWord}\\- ]{3,16}\\Z
+\\A[\\p{katakana}\\s]+\\z
+\\A[\\p{katakana}]+\\z
+\\A[\\s
+\\A[\\w.\\/\\-:]+:?+[\\w+.]+\\z
+\\A[\\w\\.\\-\\_]{2,}\\Z
+\\A[\\w\\+\\-\\@\\ \\$\\!\\%\\&\\(\\)\\*\\.\\/\\#\\=\\:\\;\\?\\,\\'\\[\\]\\_\\^]*\\Z
+\\A[\\x0\\x4\\x1a]\\Z
+\\A[\\x20-\\x21\\x23-
+\\A[^
+\\A[^%]*(?:%\\h\\h[^%]*)*\\z
+\\A[^.]*\\.[a-zA-Z]*\\.\\d{4}\\_?\\d*\\.txt
+\\A[^\\[{(]*(\\s*
+\\A[^\\\\\\n\\t\\r\"\\x{10000}-\\x{10ffff}\\x{7f}-\\x{ffff}\\x{00}-\\x{08}\\x{0b}-\\x{0c}\\x{0e}-\\x{1f}]*\\z
+\\A[^\\t\\u{0A}\\u{0C}\\u{0D}\\u{20}\\>]*
+\\A[^_]++_[^_]++_
+\\A[_\\pL]
+\\A[-+]?(?:
+\\A[-+]?(?:[0-7]+(?:_[0-7]+)*|0(?:
+\\A[+-]?(?:\\d{1,
+\\A[+-]?(?:0(?:\\.\\d{1,
+\\A[0-9a-zA-Z\\-\\_\\%]+\\z
+\\A[0-9A-Za-z\\-\\_]+\\z
+\\A[A-Z]:(?![^/\\\\])
+\\A[A-Z]:\\\\
+\\A[a-z][aeioux][a-z]{2}\\d{2}[0-1]\\d[0-3]\\d[hm](?:
+\\A[A-Z][A-Z0-9]*\\_[A-Z0-9\\_]+\\z
+\\A[A-Z][A-Za-z0-9\\_]*[0-9]+[A-Za-z0-9\\_]+\\z
+\\A[a-z0-9
+\\A[a-z0-9!
+\\A[a-z0-9\\_\\.\\-]+\\z
+\\A[a-zA-Z\\_][a-zA-Z0-9\\_]*[\\!\\?]?
+\\A[a-zA-Z]:(
+\\A[a-zA-Z]+[a-zA-Z0-9\\-\\_/]+\\z
+\\A[A-Za-z0-9\\.\\-\\_]+\\z
+\\A[a-zA-Z0-9\\.\\-\\_]+\\z
+\\A[a-zA-Z0-9\\-\\_\\:\\.]+\\z
+\\A[a-zA-Z0-9\\-\\_]*\\z
+\\A[A-Za-z0-9\\-\\_]+\\z
+\\A[a-zA-Z0-9\\_\\.\\-]+\\/[a-zA-Z0-9\\_\\.\\-]+(?::.*)?\\z
+\\A[a-zA-Z0-9\\_\\-]+\\z
+\\A[a-zA-Z0-9][a-zA-Z0-9\\-\\_\\.]{2,34}[a-zA-Z0-9]\\z
+\\A[yn
+\\A\\\\
+\\A\\\\\\\\
+\\A\\!\\![A-Z]+\\_MULTIPLE\\_ALIGNMENT.*
+\\A\"((?:[^\\\"\\\\]|\\\\.)*)\"
+\\A\\\"((?>(?:[^\\\"\\\\]|\\\\.)*))\\\"
+\\A\\\"((?>(?:[^\"\\\\]|\\\\.)*))\\\"
+\\A\"(([^\"\\\\]|\\\\.)*)\"
+\\A\"(.*)(?<!\\\\)\"\\z
+\\A\"(.*?)(?<!\\\\\\\\)\"
+\\A\\\"(.*?)(?<!\\\\)\\\"
+\\A\"(?<!\\\\).*?(?<!\\\\)\"\\Z
+\\A\".*?(?<!\\\\)\"\\Z
+\\A\"\\\\u(?:0130|\\{130\\})\"\\n?\\z
+\\A\"\\\\u(?:6B63|\\{6b63\\})\"\\n?\\z
+\\A\"\\\\u\\{1f496\\}\"\\n?\\z
+\\A\"executable\" from a conflicts with (?:
+\\A\\#(
+\\A\\$(
+\\A\\'((?>(?:[^\\'\\\\]|\\\\.)*))\\'
+\\A\\'((?>(?:[^'\\\\]|\\\\.)*))\\'
+\\A\\\\(.)?
+\\A\\\\(.?)
+\\A\\\\(.+?)\\\\(i)?\\z
+\\A\\\\(\\d+)\\z
+\\A\\.(
+\\A\\.[/\\\\]
+\\A\\.\\/lib\\/([\\w\\_\\-\\/]+\\.rb)\\Z
+\\A\\/(
+\\A\\/(?:
+\\A\\/(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])*(?:\\/(?:%\\h\\h|[!$&-.0-;=@-Z_a-z~])*)*\\z
+\\A\\:[a-zA-Z]([\\-\\_]?[a-zA-Z0-9]+)*
+\\A\\[(?:(
+\\A\\[(?P<encoded>.+)\\]\\s*\\[(?P<utfexpected>.+)\\].*\\z
+\\A\\_(.*)\\z
+\\A\\_(\\w+)
+\\A\\{\\n\\h+([^\\n;]*);\\n\\}\\z
+\\A\\+62(
+\\A\\\\A(?:
+\\A\\\\\\C-\\M-X
+\\A\\d*x\\d*[
+\\A\\d\\d (?:
+\\A\\d{4}-(
+\\A\\d+ (?:
+\\A\\e(?:\\C-h|\\x7F)\\z
+\\A\\h*\\z
+\\A\\h{16}\\z
+\\A\\h{24}\\z
+\\A\\h{3}[1,3,5,7,9,B,D,F],\\h{4}\\z
+\\A\\h{4},\\h{4}\\z
+\\A\\h{4}\\z
+\\A\\h{40}\\z
+\\A\\h{48}\\z
+\\A\\h{6}\\z
+\\A\\h{64}\\z
+\\A\\h{66}\\z
+\\A\\h{8}-(?:\\h{4}-){3}\\h{12}\\z
+\\A\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12}\\Z
+\\A\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12}\\z
+\\A\\h{8}-\\h{4}-4\\h{3}-[89aAbB]\\h{3}-\\h{12}\\Z
+\\A\\h+\\z
+\\A\\\\HasChildren\\Z
+\\A\\\\HasNoChildren\\Z
+\\A\\\\M-\\\\[Cc]
+\\A\\\\\\M-\\cX
+\\A\\\\\\M-\\C-X
+\\A\n                 \"( (?:\n                         \\\\\\\\ | # backslash\n                         \\\\.  | # escaped something\n                         [^\"\\\\]+ # non-doublequote or non-backslash\n                     )* )\"\n                 (\\s*)\n                 (?: ([;#])(.*) )?\n                 \\z
+\\A\n        (?:\n          # Matches 'compile ((execjs):6692:19)'\n          (?<function>.+)\\s\\((?<file>.+):(?<line>\\d+):\\d+\\)\n        |\n          # Matches 'bootstrap_node.js:467:3'\n          (?<file>.+):(?<line>\\d+):\\d+(?<function>)\n        |\n          # Matches the Ruby part of the backtrace\n          
+\\A\n        (?:\n          ORA-\\d{5}\n          :\\sat\\s\n          (?:\"(?<function>.+)\",\\s)?\n          line\\s(?<line>\\d+)\n        |\n          
+\\A\n        (?:\\s*\\(?\\s*)                                  # optional opening paren surrounded by spaces\n        (?:.*?
+\\A\n        (?<id>\\#\\w++(?:\\-\\w++)*)?\n        (?<klass>\\.\\w++(?:\\-\\w++)*)?\n        (?<method>:\\w+)?\n      \\z
+\\A\n      ((?<operator>(
+\\A\n    \\-? \n    (?: \\d | \\Q$ThousandsSeparator\\E \\d{3} )*\n    (?: \\Q$DecimalSeparator\\E \\d+ )? \n    (?: [eE] \\-? \\d+ )?\n  \\Z
+\\A\\n(?:
+\\A\n(?:\n   (?P<fill>.)?\n   (?P<align>[<>=^])\n)?\n(?P<sign>[-+ ])?\n(?P<alternate>\\#)?\n(?P<zeropad>0)?\n(?P<minimumwidth>[0-9]*)\n(?P<precision>\\.[0-9]+)?\n(?P<rounding>[UDYZN])?\n(?P<type>[aAbeEfFgG%])?\n\\Z
+\\A\n\t\tCan't\\ locate\\ .+\\ at\n\t\t\\ \\Q@{[__FILE__]}\\E\\ line\\ \\Q@{[__LINE__-1]}\\E\n\t
+\\A\\\\NoInferiors\\Z
+\\A\\\\o\\/\\z
+\\A\\\\o\\\\\\z
+\\A\\p{Alpha}\\z
+\\A\\p{Alpha}{3}
+\\A\\p{ASCII}*\\z
+\\A\\p{ASCII}+\\z
+\\A\\p{Default_Ignorable_Code_Point}\\z
+\\A\\p{hiragana}+\\z
+\\A\\p{katakana}+\\z
+\\A\\p{PerlSpace}+
+\\A\\p{Space}*
+\\A\\p{White_Space}\\z
+\\A\\Q
+\\A\\Q$$captured_ref\\E\\0
+\\A\\Q$_\\E[\\-_]
+\\A\\Q${cd}\\E[ \\t]*(.*)\\s+
+\\A\\Q$cap\\E(?:\\0|\\z)
+\\A\\Q$cl\\E(?:\\.|\\z)
+\\A\\Q$cl\\E\\.
+\\A\\Q$clause.human\\E(\\.|\\z)
+\\A\\Q$clause\\E\\.human(\\..+)?\\z
+\\A\\Q$currency\\E_(\\w+)\\z
+\\A\\Q$dist\\E[_-]\\w+\\z
+\\A\\Q$e\\E-
+\\A\\Q$fdir\\E[\\\\\\/](.+)\\z
+\\A\\Q$first\\E
+\\A\\Q$first\\E(?:($RE_WS+)|\\z)
+\\A\\Q$head\\E\\x0d\\x0a
+\\A\\Q$in\\E
+\\A\\Q$item\\E
+\\A\\Q$key.
+\\A\\Q$key\\E-(\\d(?:[.]\\d*)?)
+\\A\\Q$locale\\E[\\-_]
+\\A\\Q$magic\\E\\s*\\z
+\\A\\Q$match
+\\A\\Q$midpr->{riap_uri_prefix}
+\\A\\Q$options{prefix}\\E[^:]*\\z
+\\A\\Q$prefix\\::
+\\A\\Q$prompt
+\\A\\Q$realbase\\E(.*)\\z
+\\A\\Q$request\\E
+\\A\\Q$root\\E(\\/|(?<=\\/))(?!\\.\\.)
+\\A\\Q$root_path\\E
+\\A\\Q$self->{prefix}\\E\n                           (?:\\. (?<period>\\d{4}(?:-\\d\\d(?:-\\d\\d)?)?) )?\n                           \\Q$self->{suffix}\\E\n                           (?:\\. (?<rotate_suffix>\\d+) )?\n                           \\z\n                          
+\\A\\Q$self->{riap_uri_prefix}\\E
+\\A\\Q$self->{server_path}
+\\A\\Q$uri\\E
+\\A\\Q$word\\E-*\\w+\\z
+\\A\\Q$word\\E:*\\w+\\z
+\\A\\Q$word\\E\\w*(::\\w+)?\\z
+\\A\\Q$word\\E\\w*(-\\w+)?\\z
+\\A\\Qbless(sub { ... }, \\E(\".+\")\\)\\z
+\\A\\r?\\n*[ \\t\\f]*\\\\
+\\A\\s*#\\s*frozen[_-]string[_-]literal:\\s*(
+\\A\\s*(
+\\A\\s*((
+\\A\\s*((SELECT|DELETE).*(FROM|JOIN)|(INSERT\\s+INTO|UPDATE))\\s+`?(
+\\A\\s*(.*?[^\\s\\\\]):\\s*(.+)
+\\A\\s*(?:
+\\A\\s*(?:(?:
+\\A\\s*([
+\\A\\s*([\\d\\w\\.\\-\\_]+)\\s+(\\d+)\\s*\\Z
+\\A\\s*(\".*(?<!\\\\)\")
+\\A\\s*\\#.*\\b(?:en)?coding: (
+\\A\\s*\\\\(\n                           part|\n                           chapter|\n                           section|\n                           subsection|\n                           subsubsection)\n                       (\\[\\{(.+)\\}\\])?\n                       ({(.+)}\\s*\\z)\n                      
+\\A\\s*\\\\(documentclass|input|documentstyle|relax|ProvidesPackage|ProvidesClass)
+\\A\\s*\\{\\s*\\p{Word}+:
+\\A\\s*>>>\\s*\\Q$varprefix\\E
+\\A\\s*require\\s+['\"](
+\\A\\w*#\\w++(?:\\-\\w++)*\\z
+\\A\\w+://\\Q$r->{host}\\E[:/]
+\\A\\w+[_-]\\Q$dist\\E\\z
+\\A\\w+_\\Q$args{currency}\\E\\z|\\A\\Q$args{currency}\\E_\\w+\\z
+\\A\\\\x
+\\A{\\g<s>*}\\z|\\A(?<s>\\s|/[*][^*]*[*]+([^*/][^*]*[*]+)*/)*\\z
+\\A-{3}(.+[^\\A])-{3}\\n(.+)
+\\A-{3}.+[^\\A]-{3}\\n(.+)
+\\A<(
+\\A<\\/(
+\\A<\\Q$element\\E
+\\A=([0-9]+)\\p{PerlSpace}*(.+)\\z
+\\A040000 tree ([a-f\\d]{40})\\t\\Q$gpath\\E\\0
+\\A--bundler(?:[= ](
+\\Ac\\.\\Q$cname\\E\\.
+\\ACan't locate \\Q$fn\\E .+ at \\Q@{[__FILE__]}\\E line
+\\ACan't locate object method \"\\Q$name\"
+\\Acomments\\/query-(\\h+)-(\\d+)-(\\d+)\\z
+\\Acomments\\/query-(\\h+)-0\\Z
+\\Acomments\\/query-(\\h+)-0\\z
+\\Acopyright(?:
+\\\\acute\\{\\\\ddot\\{\\\\iota\\}\\}
+\\\\acute\\{\\\\ddot\\{\\\\upsilon\\}\\}
+\\\\acute\\{\\\\iota\\}
+\\\\acute\\{\\\\omega\\}
+\\\\acute\\{\\\\upsilon\\}
+\\Adevelopers\\/query-(\\h+)-(\\d+)-(\\d+)\\Z
+\\Adevelopers\\/query-(\\h+)-(\\d+)-(\\d+)\\z
+\\Adevelopers\\/query-(\\h+)-0\\z
+\\Adevelopers\\/query-(\\h+)-0\\Z
+\\AERROR\\_
+\\Af(?=[[:xdigit:]]{2}+\\z)
+\\Afe\\h+\\Z
+\\AFrom\\s+([^:\\s]
+\\AFunction for field ([\\w\\_]+)\\:\\z
+\\Ahttp:\\/\\/(?:.*?)\\izlesene\\.com\\/video\\/([\\w\\-\\.]+[^#?\\s]+)\\/(.*)?$
+\\Ahttps?\\:\\/\\/[a-z0-9\\-\\.\\_\\?\\=\\&\\/\\+:]+\\z
+\\AIs (?<subject1>.+?) (?<comparison_adjective>(
+\\Ais\\_(.*)
+\\AParameters\\_
+\\Aproducts\\/([\\w\\-\\_]+)\\.(\\w{2,4})
+\\Ar\\\"(.*?)(?<!\\\\)\\\"([gim]*)
+\\AREADME\\.(
+\\ARequest for frame (?P<frnum>\\d+) exceeds the range of 0 through (?P<nframes>\\d+)\\Z
+\\AREV_(\\d+)(?:-(\\d+)-g\\h+)?\\Z
+\\ASELECT (
+\\Au(\\h{4}|\\{\\h{1,4}\\})
+\\AW(\\d+
+\\Ax(\\h{1,2})
+\\b ( \\p{IsUpper} )
+\\b \\Q$near\\E \\b
+\\b \\Q$Waft::jQuery::Name\\E \\. 
+\\b \\Q$Waft::JS::Name\\E \\. 
+\\b${ \\( $exp->element('name')->get() )}\\b
+\\b$args[$_-1]\\b
+\\b$end\\K($roman)$
+\\b$l=(.*(?:(?<=\\\\)\\n.*)*)
+\\b$prefix\\K($roman)\\b
+\\b(
+\\\\b(
+\\b((
+\\b((((ht|f)tp[s]?:\\/\\/)|([a-z0-9]+\\.))+(?<!@)([a-z0-9\\_\\-]+)(\\.[a-z]+)+([\\?\\/\\:][a-z0-9_=%&@\\?\\.\\/\\-\\:\\#\\(\\)]+)?\\/?)
+\\b(([0-9]+(\\.|\\_)?[0-9]*(b|bu|d|f|L|LU|m|u|ub|UL)?)|(0(b|o|x)[0-9]+))\\b
+\\b((\\h{8}-(\\h{4}-){3}\\h{12})|\\d+\\.?\\d*)\\b
+\\b(?!<\\\\)!
+\\b(?:
+\\b(?:(
+\\b(?:[\\w-]++://?+|www[.])[^\\s()<>]+(?:\\([\\w\\d]++\\)|(?:[^[:punct:]\\s]|/))
+\\b(?:[AL]?GPL)-\\d\\K\\.0(?![.\\d])
+\\b(?:0[bx][\\da-f]+|\\d+\\.?\\d*(?:e~?\\d+)?\\b)|&(?:[^\\\\]|\\\\(?:\\d{3}|.))
+\\b(?:Apache|BSL|MPL)-\\d(?!\\.)\\K
+\\b(?:en)?coding: (
+\\b(?:GFDL)\\K(?!-)
+\\b(?:GPL)\\K(?!-)
+\\b(?:LGPL)\\K(?!-)
+\\b(?:m|qr)\\s+([a-zA-Z0-9])(?:[^\\\\]|\\\\.)*?\\1[msixpodualngc]*
+\\b(?:MPL)\\K(?!-)
+\\b(?<!.)(
+\\b(?<!://|\">)www(?:\\.[a-z0-9][-a-z0-9]*+)+\\.[a-z]{2,6}[^<\\s]*\\b
+\\b(?<!href=\"mailto:|\">|58;)(?!\\.)[-+_a-z0-9.]++(?<!\\.)@(?![-.])[-a-z0-9.]+(?<!\\.)\\.[a-z]{2,6}\\b
+\\b(?<!href=\"mailto:|58;)(?!\\.)[-+_a-z0-9.]++(?<!\\.)@(?![-.])[-a-z0-9.]+(?<!\\.)\\.[a-z]{2,6}\\b(?!</a>)
+\\b(?<_1>(?<_2>[0-9]+(?<_3>\\.|\\_)?[0-9]*(?<_4>b|bu|d|f|L|LU|m|u|ub|UL)?)|(?<_5>0(?<_6>b|o|x)[0-9]+))\\b
+\\b(?<_1>\\_|as|assert|base|checked|do|fun|get|ignore|implements|in|is|lock|namespace|out|params|ref|set|syntax|throw|typeof|unchecked|using|with)\\b
+\\b(?<_1>\\w+\\b\\s*)(?<_2>:)\\s*+(?!function)
+\\b(?<_1>0[xX]\\h(?>_?\\h)*|\\d(?>_?\\d)*(?<_2>\\.(?![^[:space:][:digit:]])(?>_?\\d)*)?(?<_3>[eE][-+]?\\d(?>_?\\d)*)?|0[bB][01]+)\\b
+\\b(?<_1>0b[0-1]+|0o[0-7]+|0x\\h+)\\b
+\\b(?<_1>class|struct)\\b\\s*(?<_2>[_A-Za-z][_A-Za-z0-9]*\\b)?+
+\\b(?<_1>debugger|\\\\)\\b
+\\b(?<_1>for)\\s+(?<_2>(?:[^\\s\\\\]|\\\\.)+)\\b
+\\b(?<_1>fun)\\s*+(?<_2>(?<_3>[a-z][a-zA-Z\\d@_]*+)\\s*+(?<_4>:)\\s*+)?(?<_5>[a-z][a-zA-Z\\d@_]*+)\\s*(?<_6>\\/)
+\\b(?<_1>function)\\s+(?<_2>[^\\s\\\\]+)(?:\\s*(?<_3>\\(\\)))?
+\\b(?<_1>include)\\s++(?<_2>\\S++)
+\\b(?<_1>m)\\s*(?<!\\\\)(?<_2>[^\\[\\{\\(A-Za-z0-9\\s])(?<_3>.*?)(?<!\\\\)(?<_4>\\\\{2})*(?<_5>\\k<_2>)
+\\b(?<_1>m)\\s*(?<!\\\\)\\(
+\\b(?<_1>m)\\s*(?<!\\\\)\\[
+\\b(?<_1>m)\\s*(?<!\\\\)\\{
+\\b(?<_1>m)\\s*(?<!\\\\)\\<
+\\b(?<_1>namespace)\\b\\s*(?<_2>[_A-Za-z][_A-Za-z0-9]*\\b)?+
+\\b(?<_1>rule)\\s++(?<_2>[a-zA-Z_][a-zA-Z_\\.\\d]*+)(?<_3>\\s++(?<_4>(?<_5>(?<_6>\\d++)?(?<_7>\\.))?\\d++))?
+\\b(?<_1>s|tr|y)\\s*(?<_2>[^A-Za-z0-9\\s])(?<_3>.*?)(?<!\\\\)(?<_4>\\\\{2})*(?<_5>\\k<_2>)(?<_6>.*?)(?<!\\\\)(?<_7>\\\\{2})*(?<_8>\\k<_2>)
+\\b(?<_1>select)\\s+(?<_2>(?:[^\\s\\\\]|\\\\.)+)\\b
+\\b(?<_1>startshape)\\s++(?<_2>[a-zA-Z_][a-zA-Z_\\.\\d]*+)
+\\b(?=(?<!\\\\)s\\s*(?<_1>[^\\s\\w\\[(?<_2>{<]))
+\\b(?=(?<!\\\\)s\\s*([^\\s\\w\\[({<]))
+\\b(?=(?<!\\\\)s\\s*([^\\s\\w\\[({<>]))
+\\B(?=\\p{javaUpperCase})
+\\b(?i:(?<_1>0x\\h*))
+\\b(?i:(?<_1>0x\\h*)L)
+\\b(?i:(0x\\h*))
+\\b(?i:(0x\\h*)L)
+\\b(?P<email>(mailto:)?[\\w-]+(\\.[\\w-]+)*(\\+[\\w-]+)?@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*\\.(([0-9]{1,3})|([a-zA-Z]+)))\\b
+\\b(?P<first>\\w)(?P<rest>\\w*)\\b
+\\b(?P<ip>(?:[0-9]{1,3}\\.){3}[0-9]{1,3})\\b
+\\b(?P<long_key_id>[0-9a-fA-F]{40})\\b.*# (?P<comment>.+)
+\\b(?P<url>(?P<scheme>http|https|ftp|telnet|mailto|gopher):(?P<interfix>//)(?:(?P<login>(?P<username>[a-zA-Z0-9]+)(?::(?P<password>[A-Za-z0-9]+))?)@)?(?P<hostname>[A-Za-z0-9.-]+(?::(?P<port>[0-9]+))?)(?P<path>[A-Za-z0-9)(@~_=?/.&;%#+-]*[A-Za-z0-9)(@~_=?/&;%#+-]))
+\\b([\\w\\.\\!\\#\\$\\%\\&\\'\\*\\+\\/\\=\\?\\^\\_\\`\\{\\|\\}\\~\\-]+@[\\w\\-\\.]+\\.[\\w\\-\\.]++)\\b
+\\b([\\w\\d\\_]+)\\.([\\w\\d\\_]+)\\b
+\\b([\\w\\d\\_]+\\.[\\w\\d\\_]+)\\b
+\\b([a-zA-Z0-9_]+)\\s+extends\\s+([a-zA-Z0-9_\\\\]*Facade)\\b
+\\b(\\_|as|assert|base|checked|do|fun|get|ignore|implements|in|is|lock|namespace|out|params|ref|set|syntax|throw|typeof|unchecked|using|with)\\b
+\\b(\\d
+\\b(\\d+|
+\\b(\\d++)[Xx](\\d++)\\b
+\\b(\n               (((ht|f)tp[s]?://)|([a-z0-9]+\\.))+\n               (?<!@)\n               ([a-z0-9\\_\\-]+)\n               (\\.[a-z]+)+\n               ([\\?/\\:][a-z0-9_=%&@\\?\\./\\-\\:\\#\\(\\)]+)?\n               /?\n             )
+\\b(\\p{Cased_Letter}{3,})\\b
+\\b(\\Q@{[ $ua->_agent ]}\\E)\\b
+\\b(\\w+[._\\-\\w]*)\\h*(HAVING.+|$)
+\\b(\\w+\\b\\s*)(:)\\s*+(?!function)
+\\b(0[xX]\\h(?>_?\\h)*|\\d(?>_?\\d)*(\\.(?![^[:space:][:digit:]])(?>_?\\d)*)?([eE][-+]?\\d(?>_?\\d)*)?|0[bB][01]+)\\b
+\\b(0b[0-1]+|0o[0-7]+|0x\\h+)\\b
+\\b(abstract|final)?\\s?(class|interface|trait)\\s(\\w+)(\\sextends\\s)?([\\w\\\\]*)?(\\simplements\\s)?([\\w\\\\]*)?\\s?\\{?(\\n|\\})
+\\b(abstract|sealed)?\\s?(class)\\s(\\w+)(\\sextends\\s)?([\\w\\\\]*)?\\s?\\{?(\\n|\\})
+\\b(as )(
+\\b(catch)\\b\\s*\\(\\s*([A-Za-z_][A-Za-z_0-9]*)\\s*((\\$+)
+\\b(class)\\s(\\w+)(\\sextends\\s)?([\\w\\\\]*)?\\b
+\\b(class|struct)\\b\\s*([_A-Za-z][_A-Za-z0-9]*\\b)?+(\\s*:\\s*(public|protected|private)\\s*([_A-Za-z][_A-Za-z0-9]*\\b)((\\s*,\\s*(public|protected|private)\\s*[_A-Za-z][_A-Za-z0-9]*\\b)*))?
+\\b(debugger|\\\\)\\b
+\\b(div|span|table|body)\\b [^\n\r\\{]*+ [\r\n]*+ \\{
+\\b(for)\\s+((?:[^\\s\\\\]|\\\\.)+)\\b
+\\b(fun)\\s*+(([a-z][a-zA-Z\\d@_]*+)\\s*+(:)\\s*+)?([a-z][a-zA-Z\\d@_]*+)\\s*(/)
+\\b(function)\\s+([^\\s\\\\]+)(?:\\s*(\\(\\)))?
+\\b(include)\\s++(\\S++)
+\\b(m)\\s*(?<!\\\\)([^\\[\\{\\(A-Za-z0-9\\s])(.*?)(?<!\\\\)(\\\\{2})*(\\2)
+\\b(m)\\s*(?<!\\\\)\\(
+\\b(m)\\s*(?<!\\\\)\\[
+\\b(m)\\s*(?<!\\\\)\\{
+\\b(m)\\s*(?<!\\\\)\\<
+\\b(namespace)\\b\\s*([_A-Za-z][_A-Za-z0-9]*\\b)?+
+\\b(namespace)\\s+([A-Za-z_][_A-Za-z0-9:]*\\b)?+(?!\\s*?(;|=|,))
+\\b(new)\\s([^\\$][a-z0-9_\\\\]*?)(?=\\)|\\(|;)
+\\b(Object|
+\\b(package\\s+)\\Q$mod\\E\\b
+\\b(rule)\\s++([a-zA-Z_][a-zA-Z_\\.\\d]*+)(\\s++(((\\d++)?(\\.))?\\d++))?
+\\b(s|tr|y)\\s*([^A-Za-z0-9\\s])(.*?)(?<!\\\\)(\\\\{2})*(\\2)(.*?)(?<!\\\\)(\\\\{2})*(\\2)
+\\b(select)\\s+((?:[^\\s\\\\]|\\\\.)+)\\b
+\\b(startshape)\\s++([a-zA-Z_][a-zA-Z_\\.\\d]*+)
+\\B@(@?\\w+(?:::\\w+)?)([ \\t]*)(\\( ( (?>[^()]+) | (?3) )* \\))?
+\\B@(@?\\w+)([ \\t]*)(\\( ( (?>[^()]+) | (?3) )* \\))?
+\\B@([\\w\\x{4e00}-\\x{9aff}]+)(\\s*)(\\( ( (?>[^()]+) | (?3) )* \\) )? 
+\\B@([a-zA-Z0-9\\p{Han}]{1,32})\\s?
+\\B@(\\w+)([ \\t]*)(\\( ( (?>[^()]+) | (?3) )* \\))?
+\\B[$](\\?)?[:]([.\\w\\x{4e00}-\\x{9aff}]+)(\\s*)(\\( ( (?>[^()]+) | (?4) )* \\) )?
+\\b[\\w\\-\\_]+(?=#|\\.)
+\\b[\\w\\\\]+::
+\\b[a-z\\_\\$][a-z0-9\\_\\$]*\\b
+\\b[a-z\\d][a-z\\d-]*::?(?:(?:\\S+)??\\[(?:[^\\]\\\\\"]|([\"'])(?:(?!\\1)[^\\\\]|\\\\.)*\\1|\\\\.)*\\])
+\\b[A-Z][A-Za-z\\d]*|`(?:[^`\\\\]|\\\\.)+`
+\\B\\?(\\\\\\d{1,3}|\\\\x[A-Fa-f0-9]{1,2}|\\\\u[A-Fa-f0-9]{4}|\\\\?\\S)\\b
+\\b\n                      (\\S+\\.(
+\\b\\Q$_\\E\\b
+\\b\\Q${end_tag}\\E\\b
+\\b\\Q${name}\\E\\b
+\\b\\Q$a\\E\\b
+\\b\\Q$conjunctions_word\\E\\b
+\\b\\Q$curSenseGloss[$sWord]\\E\\b?
+\\b\\Q$dom\\E.\\Q$user\\E@
+\\b\\Q$domain\\E
+\\b\\Q$domain\\E\\b
+\\b\\Q$driver\\E\\b
+\\b\\Q$extendedGloss[$extWord]\\E\\b?
+\\b\\Q$file\\E$
+\\b\\Q$full_to\\E\\b
+\\b\\Q$function_name\\E\\b
+\\b\\Q$libs\\E\\b
+\\b\\Q$link->{to}
+\\b\\Q$linktext\\E\\b
+\\b\\Q$name\\E
+\\b\\Q$name\\E\\r?$
+\\b\\Q$nn\\E\\b}\n                
+\\b\\Q$opt_activeout\\E$
+\\b\\Q$opt_sandboxout\\E$
+\\b\\Q$orig\\E\\b
+\\b\\Q$self->{invalid_class}\\E\\b
+\\b\\Q$senseHypeGloss[$hypeWord]\\E\\b?
+\\b\\Q$senseHypoGloss[$hypoWord]\\E\\b?
+\\b\\Q$senseSynsGloss[$synsWord]\\E\\b?
+\\b\\Q$sql_marker\\E($top_parse_re\\s*\\{)
+\\b\\Q$storage\\E$
+\\b\\Q$strategy\\E$
+\\b\\Q$table\\E\\b
+\\b\\Q$term\\E\\b
+\\b\\Q$term\\E\\b?
+\\b\\Q$to\\E\\b
+\\b\\Q$trigger\\E$
+\\b\\Q$VERSION\\E\\b
+\\b\\Q$word\\E\\b
+\\b\\w++\\b
+\\b__([^\\\\_]|@escapes|_(?!_))+__\\b
+\\b0+|[^\\pL\\pN]
+\\b200\\s++OK\\s*+$
+\\bconcat\\s*\\(((?>[^()]+)|(?R))*\\)
+\\bconcat\\s*\\(([^()]|(?R))*\\)
+\\bconfiguration\\s+(?P<lib>[a-zA-Z]\\w*)\\.(?P<cfg>[a-zA-Z]\\w*)
+\\bdef \\s++ __init__\\b
+\\bdo\\s*+\\|[^\\|\r\n]++\\|
+\\\\begin\\{figure\\}(\\[.*?\\])?(.{0,60}?)\\\\includegraphics[^{]*?\\{([^.]{1,50}?\\.pdf)\\}(.*?)\\\\end\\{figure\\}
+\\\\begin\\{figure\\}.{0,60}?\\\\includegraphics[^{]*?\\{([^.]{1,50}?\\.(png|jpg|gif))\\}.*?(<a.*?a>).*?\\\\end\\{figure\\}
+\\\\begin{(?P<block_name>enumerate|itemize)} # list name\n                                    (\\[.*?\\])? # Optional enumerate settings i.e. (a)\n                                    (?P<block_contents>.*?) # Non-greedy list contents\n                                    \\\\end{(?P=block_name)}
+\\\\begin{(?P<block_name>exer|proof|thm|lem|prop)} # block name\n                                    (\\[(?P<block_title>.*?)\\])? # Optional block title\n                                    (?P<block_contents>.*?) # Non-greedy block contents\n                                    \\\\end{(?P=block_name)}
+\\\\begin{(?P<block_name>lstlisting)} # block name\n                                    (?P<block_contents>.*?) # Non-greedy block contents\n                                    \\\\end{(?P=block_name)}
+\\\\begin{center}\\\\rule{3in}{0.4pt}\\\\end{center}[\\s]*?\\\\href{toc.ipynb}{Index}[\\S\\s ]*?.ipynb}{Next}
+\\\\begin{document}\n                                    (?P<main>.*)\n                                    \\\\end{document}
+\\bentity\\s+(?P<lib>[a-zA-Z]\\w*)\\.(?P<ent>[a-zA-Z]\\w*)\\s*(\\((?P<arch>[a-zA-Z]\\w*)\\))?
+\\bgcc\\b(
+\\bh(?:eight)?+\\s*+=\\s*+['\"]?+(\\d++)\\b
+\\bhttps?+:[\\/]{2}[^\\s<]+\\b\\/*+
+\\bI18n\\.screw\\(?\\s*(?<!\\\\)'(.*?)(?<!\\\\)'
+\\bI18n\\.screw\\(?\\s*(?<!\\\\)\"(.*?)(?<!\\\\)\"
+\\bI18n\\.screw\\(?\\s*(?<!\\\\)`(.*?)(?<!\\\\)`
+\\\\bin[\\\\]*$
+\\\\bin\\\\(((?!bin).)*)$|\\/bin\\/(.*)
+\\\\bin\\\\merge.cgi
+\\\\BIN\\\\OCI\\.DLL$
+\\B-l:?\\Q${thislib}\\E\\b
+\\bmb_strpos\\s*\\(((?>[^()]+)|(?R))*\\)
+\\bmb_substr\\s*\\(((?>[^()]+)|(?R))*\\)
+\\bnamespace ([a-z\\\\]+)\\\\Model;
+\\bPacket: (?P<packet_num>\\d+).*
+\\bpassword=\"(?:[^\"\\\\]|\\\\.)*\"
+\\bpassword=\\'(?:[^\\'\\\\]|\\\\.)*\\'
+\\bPRIMARY\\s+KEY\\s*\\((([^)\"]+|\"[^\"]*\"|`[^`]*`)++)
+\\bprint (?P<expr>.*)$
+\\brequire ([\\\"\\'])[a-zA-Z0-9\\.\\-\\_]+\\1\\;[\\r\\n]
+\\bRUBY_TOKEN\\((
+\\bstrftime\\s*\\(((?>[^()]+)|(?R))*\\)
+\\burl\\(\\s*(?:'((?:[^']|\\\\')*)'|\"((?:[^\"]|\\\\\")*)\"|(([^'\"\\\\]|\\\\.)*?)\\s*)\\)
+\\buser=\"(?:[^\"\\\\]|\\\\.)*\"
+\\buser=\\'(?:[^\\'\\\\]|\\\\.)*\\'
+\\bw(?:idth)?+\\s*+=\\s*+['\"]?+(\\d++)\\b
+\\bwith id: (.*);.*?\\bdocument\\\\(.*)\".*?\\bidentifier \"(.*)\"
+\\bze\\\\phi\\:\\:_zPhiSAK_\\(\\(?\\$context([\\[\\]'\"\\w-]+)( \\?\\? null|)\\)?, (.*?), \\\\?ze\\\\phi\\:\\:_zPhiSAKEnd_\\(\\)\\)\\;
+\\bze\\\\phi\\:\\:_zPhiSNAK_\\(\\(?\\$context([\\[\\]'\"\\w-]+)( \\?\\? null|)\\)?, (.*?), \\\\?ze\\\\phi\\:\\:_zPhiSAKEnd_\\(\\)\\)\\;
+\\\\c
+\\c
+\\C
+\\\\C
+\\c#\\cc\\cC
+\\c#{str}
+\\\\c$
+\\\\c(.)
+\\c(\\cH\\ch
+\\c)\\cI\\ci
+\\c*\\cJ\\cj
+\\c,\\cL\\cl
+\\\\c.
+\\c'\\cG\\cg
+\\c-\\cM\\cm
+\\\\c{C}
+\\\\c{c}
+\\\\c{S}
+\\\\c{s}
+\\c+\\cK\\ck
+\\c0
+\\\\Cap 
+\\CAST\\s*$
+\\\\classmethod (?P<id>\\\\?[a-z0-9_]+)(?P<args>\\(.*\\))$
+\\\\Colon 
+\\Controller$
+\\\\Controller\\\\([^\\\\]+)Controller::(.+)Action$
+\\\\Cup 
+\\\\cyrchar\\{\\\\'\\\\CYRG\\}
+\\\\cyrchar\\{\\\\'\\\\CYRK\\}
+\\\\cyrchar\\\\C
+\\\\cyrchar\\\\CYRA 
+\\\\cyrchar\\\\CYRABHDZE 
+\\\\cyrchar\\\\CYRABHHA 
+\\\\cyrchar\\\\CYRABHCH 
+\\\\cyrchar\\\\CYRABHCHDSC 
+\\\\cyrchar\\\\CYRAE 
+\\\\cyrchar\\\\CYRB 
+\\\\cyrchar\\\\CYRBYUS 
+\\\\cyrchar\\\\CYRC 
+\\\\cyrchar\\\\CYRD 
+\\\\cyrchar\\\\CYRDJE 
+\\\\cyrchar\\\\CYRDZE 
+\\\\cyrchar\\\\CYRDZHE 
+\\\\cyrchar\\\\CYRE 
+\\\\cyrchar\\\\CYREREV 
+\\\\cyrchar\\\\CYRERY 
+\\\\cyrchar\\\\CYRF 
+\\\\cyrchar\\\\CYRFITA 
+\\\\cyrchar\\\\CYRG 
+\\\\cyrchar\\\\CYRGHCRS 
+\\\\cyrchar\\\\CYRGHK 
+\\\\cyrchar\\\\CYRGUP 
+\\\\cyrchar\\\\CYRH 
+\\\\cyrchar\\\\CYRHDSC 
+\\\\cyrchar\\\\CYRHRDSN 
+\\\\cyrchar\\\\CYRCH 
+\\\\cyrchar\\\\CYRCHLDSC 
+\\\\cyrchar\\\\CYRCHRDSC 
+\\\\cyrchar\\\\CYRCHVCRS 
+\\\\cyrchar\\\\CYRI 
+\\\\cyrchar\\\\CYRIE 
+\\\\cyrchar\\\\CYRII 
+\\\\cyrchar\\\\CYRIOTBYUS 
+\\\\cyrchar\\\\CYRIOTE 
+\\\\cyrchar\\\\CYRIOTLYUS 
+\\\\cyrchar\\\\CYRISHRT 
+\\\\cyrchar\\\\CYRIZH 
+\\\\cyrchar\\\\CYRJE 
+\\\\cyrchar\\\\CYRK 
+\\\\cyrchar\\\\CYRKBEAK 
+\\\\cyrchar\\\\CYRKDSC 
+\\\\cyrchar\\\\CYRKHCRS 
+\\\\cyrchar\\\\CYRKHK 
+\\\\cyrchar\\\\CYRKOPPA 
+\\\\cyrchar\\\\CYRKSI 
+\\\\cyrchar\\\\CYRKVCRS 
+\\\\cyrchar\\\\CYRL 
+\\\\cyrchar\\\\CYRLJE 
+\\\\cyrchar\\\\CYRLYUS 
+\\\\cyrchar\\\\CYRM 
+\\\\cyrchar\\\\CYRN 
+\\\\cyrchar\\\\CYRNDSC 
+\\\\cyrchar\\\\CYRNG 
+\\\\cyrchar\\\\CYRNHK 
+\\\\cyrchar\\\\CYRNJE 
+\\\\cyrchar\\\\CYRO 
+\\\\cyrchar\\\\CYROMEGA 
+\\\\cyrchar\\\\CYROMEGARND 
+\\\\cyrchar\\\\CYROMEGATITLO 
+\\\\cyrchar\\\\CYROT 
+\\\\cyrchar\\\\CYROTLD 
+\\\\cyrchar\\\\CYRP 
+\\\\cyrchar\\\\CYRpalochka 
+\\\\cyrchar\\\\CYRPHK 
+\\\\cyrchar\\\\CYRPSI 
+\\\\cyrchar\\\\CYRR 
+\\\\cyrchar\\\\CYRRTICK 
+\\\\cyrchar\\\\CYRS 
+\\\\cyrchar\\\\CYRSDSC 
+\\\\cyrchar\\\\CYRSEMISFTSN 
+\\\\cyrchar\\\\CYRSFTSN 
+\\\\cyrchar\\\\CYRSH 
+\\\\cyrchar\\\\CYRSHHA 
+\\\\cyrchar\\\\CYRSHCH 
+\\\\cyrchar\\\\CYRSCHWA 
+\\\\cyrchar\\\\CYRT 
+\\\\cyrchar\\\\CYRTDSC 
+\\\\cyrchar\\\\CYRTETSE 
+\\\\cyrchar\\\\CYRTSHE 
+\\\\cyrchar\\\\CYRU 
+\\\\cyrchar\\\\CYRUK 
+\\\\cyrchar\\\\CYRUSHRT 
+\\\\cyrchar\\\\CYRV 
+\\\\cyrchar\\\\CYRY 
+\\\\cyrchar\\\\CYRYA 
+\\\\cyrchar\\\\CYRYAT 
+\\\\cyrchar\\\\CYRYHCRS 
+\\\\cyrchar\\\\CYRYI 
+\\\\cyrchar\\\\CYRYO 
+\\\\cyrchar\\\\CYRYU 
+\\\\cyrchar\\\\CYRZ 
+\\\\cyrchar\\\\CYRZDSC 
+\\\\cyrchar\\\\CYRZH 
+\\\\cyrchar\\\\CYRZHDSC 
+\\d\\\\\\C-C\\w
+\\d\\n\\d\\n\\\\N
+\\d{1,2}:\\d{1,2}(?:\\.\\d+)?(?P<tz>\\s*[A-Z]+)$
+\\d{1,2}|\\*|?|?|?|?|?|\\(..?\\)|\\{|?|\\[..?\\]|\\+|\\||?|\\^|#|?|?|?|?|?|[a-f]|?|?|?
+\\d{1,3}[\\.\\-\\_]{1}\\d{1,3}[\\.\\-\\_]{1}\\d{1,3}[\\.\\-\\_]{1}\\d{1,3}
+\\d{2}/\\d{2}/\\d{4}: EXCEPTION - (?<exception>(?s)(.+(?:Exception|Error)[^\\n]+(?:\\s++at [^\\n]+)++)(?:\\s*\\.{3}[^\\n]++)?\\s*)\\n
+\\d{2}-\\p{Alpha}{3}]-\\d{4}
+\\d{2}-\\p{Alpha}{3}]-\\d{4} \\d{2}:\\d{2}
+\\d{2}-\\p{Alpha}{3}]-\\d{4} \\d{2}:\\d{2}:\\d{2}
+\\d+ (?:\"((?:[^\"\\\\]|\\\\.)*)\"|'((?:[^'\\\\]|\\\\.)*)'|(url\\(\\s*(?:'(?:[^']|\\\\')*'|\"(?:[^\"]|\\\\\")*\"|(?:[^'\"\\\\]|\\\\.)*?\\s*)\\)))
+\\d+ \\<\\d+\\>1 \\d\\d\\d\\d-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d\\+00:00 d\\.[a-z0-9-]+ ([a-z0-9\\-\\_\\.]+) ([a-z0-9\\-\\_\\.]+) \\- \\- (.*)
+\\d+((?P<decimal>\\D+)\\d+)?
+\\d+(.*?)(?:\\u263a|\\U0001f645)
+\\d+(?{$cnt++})
+\\d+(?{$counter++})
+\\d+(?=(?)???[??]??)
+\\d+(?=(?)??[??]??)
+\\d+(?=??[??]??)
+\\d+(?=?[??]??)
+\\d+(?P<line>\\d+):\\s+(?P<type>\\w)\\s+\\w:\\s+(?P<description>.*)
+\\d+(@(
+\\d+: (?P<iface>\\w+):
+\\d+:\\d+\\((?P<line>\\d+)\\):\\s+(?P<type>\\w):\\s+(?P<description>.*)
+\\d+:\\s+(\\S+)\\s+inet6?\\s+(\\S+).*?(\\S+)?\\\\
+\\d+?(?=\\d{3}*$)
+\\d+-?(?P<description>.+)
+\\d+?(\\.
+\\d+\\.\\d+\\s+(\\d+) (?:.*?\\015?\\012)((?:.*?\\015?\\012)*?)\\015?\\012}) {\n    my ($code,$head) = ($0,$1);\n\n    # if (want.Boolean) {\n    #  return $code ~~ rx:perl5
+\\d+\\_(.+)
+\\d+\\_(.+)\\Z
+\\d+\\s+(comments|users responded in
+\\d+\\t[\\|]+\\t\\d+\\t[\\|]+\\t\\d+\\t[\\|]+\\t[\\w\\_\\-]+\\t[\\|]+\\t\\d+\\-\\d+\\-\\d+ \\d+:\\d+:\\d+\\.\\d+\\t[\\|]+\\t\\t[\\|]+\\t\\t[\\|]+\\t
+\\d+{4}-\\d+{2}-\\d+{2}
+\\d+{4}-\\d+{2}-\\d+{2} \\d+{2}:\\d+{2}:\\d+{2}
+\\d+{4}-\\d+{2}-\\d+{2}T\\d+{2}:\\d+{2}:\\d+{2}
+\\d+|\\p{IsAlpha}+
+\\d++
+\\d++#[\\da-zA-Z]++
+\\d++(?<_1>\\.)\\d++(?<_2>(?<_3>[eE][\\+\\-])?\\d++)?
+\\d++(\\.)\\d++(([eE][\\+\\-])?\\d++)?
+\\d++(\\.)\\d++([eE][\\+\\-]?\\d++)?
+\\Date: ([^)]+) \\UTC
+\\\\ddot\\{\\\\iota\\}
+\\\\ddot\\{\\\\upsilon\\}
+\\\\E
+\\E
+\\E$inc
+\\e_EscStatus\\e\\\\
+\\e_EscStatus\\e\\\\([^\\n]*)\\n
+\\\\E<([^>]+)>
+\\\\Elolarr 
+\\\\ElOr 
+\\\\Elorarr 
+\\\\Elroang 
+\\\\ElsevierGlyph\\{2129\\}
+\\\\ElsevierGlyph\\{21B3\\}
+\\\\ElsevierGlyph\\{2232\\}
+\\\\ElsevierGlyph\\{2233\\}
+\\\\ElsevierGlyph\\{2238\\}
+\\\\ElsevierGlyph\\{2242\\}
+\\\\ElsevierGlyph\\{225A\\}
+\\\\ElsevierGlyph\\{225F\\}
+\\\\ElsevierGlyph\\{2274\\}
+\\\\ElsevierGlyph\\{2275\\}
+\\\\ElsevierGlyph\\{22C0\\}
+\\\\ElsevierGlyph\\{22C1\\}
+\\\\ElsevierGlyph\\{300A\\}
+\\\\ElsevierGlyph\\{300B\\}
+\\\\ElsevierGlyph\\{3018\\}
+\\\\ElsevierGlyph\\{3019\\}
+\\\\ElsevierGlyph\\{E20A\\}
+\\\\ElsevierGlyph\\{E20B\\}
+\\\\ElsevierGlyph\\{E20C\\}
+\\\\ElsevierGlyph\\{E20D\\}
+\\\\ElsevierGlyph\\{E20E\\}
+\\\\ElsevierGlyph\\{E20F\\}
+\\\\ElsevierGlyph\\{E210\\}
+\\\\ElsevierGlyph\\{E211\\}
+\\\\ElsevierGlyph\\{E212\\}
+\\\\ElsevierGlyph\\{E214\\}
+\\\\ElsevierGlyph\\{E215\\}
+\\\\ElsevierGlyph\\{E219\\}
+\\\\ElsevierGlyph\\{E21A\\}
+\\\\ElsevierGlyph\\{E21C\\}
+\\\\ElsevierGlyph\\{E21D\\}
+\\\\ElsevierGlyph\\{E259\\}
+\\\\ElsevierGlyph\\{E25A\\}
+\\\\ElsevierGlyph\\{E25B\\}
+\\\\ElsevierGlyph\\{E25C\\}
+\\\\ElsevierGlyph\\{E25D\\}
+\\\\ElsevierGlyph\\{E25E\\}
+\\\\ElsevierGlyph\\{E260\\}
+\\\\ElsevierGlyph\\{E291\\}
+\\\\ElsevierGlyph\\{E30D\\}
+\\\\ElsevierGlyph\\{E36E\\}
+\\\\ElsevierGlyph\\{E372\\}
+\\\\ElsevierGlyph\\{E381\\}
+\\\\ElsevierGlyph\\{E395\\}
+\\\\ElsevierGlyph\\{E61B\\}
+\\\\ElsevierGlyph\\{E838\\}
+\\\\Elxsqcup 
+\\\\Elxuplus 
+\\\\ElzAnd 
+\\\\Elzbar 
+\\\\Elzbtdl 
+\\\\ElzCint 
+\\\\Elzcirfb 
+\\\\Elzcirfl 
+\\\\Elzcirfr 
+\\\\Elzclomeg 
+\\\\Elzddfnc 
+\\\\Elzdefas 
+\\\\Elzdlcorn 
+\\\\Elzdshfnc 
+\\\\Elzdyogh 
+\\\\Elzesh 
+\\\\Elzfhr 
+\\\\Elzglst 
+\\\\Elzhlmrk 
+\\\\ElzInf 
+\\\\Elzinglst 
+\\\\Elzinvv 
+\\\\Elzinvw 
+\\\\ElzLap 
+\\\\Elzlmrk 
+\\\\Elzlow 
+\\\\Elzlpargt 
+\\\\Elzltlmr 
+\\\\Elzltln 
+\\\\Elzminhat 
+\\\\Elzopeno 
+\\\\ElzOr 
+\\\\Elzpalh 
+\\\\Elzpbgam 
+\\\\Elzpgamma 
+\\\\Elzpscrv 
+\\\\Elzpupsil 
+\\\\Elzrais 
+\\\\Elzrarrx 
+\\\\Elzreapos 
+\\\\Elzreglst 
+\\\\Elzrh 
+\\\\Elzrl 
+\\\\ElzrLarr 
+\\\\ElzRlarr 
+\\\\Elzrtld 
+\\\\Elzrtll 
+\\\\Elzrtln 
+\\\\Elzrtlr 
+\\\\Elzrtls 
+\\\\Elzrtlt 
+\\\\Elzrtlz 
+\\\\Elzrttrnr 
+\\\\Elzrvbull 
+\\\\Elzsbbrg 
+\\\\Elzsblhr 
+\\\\Elzsbrhr 
+\\\\Elzschwa 
+\\\\Elzsqfl 
+\\\\Elzsqfnw 
+\\\\Elzsqfr 
+\\\\Elzsqfse 
+\\\\Elzsqspne 
+\\\\ElzSup 
+\\\\Elztdcol 
+\\\\Elztesh 
+\\\\Elztfnc 
+\\\\ElzThr 
+\\\\ElzTimes 
+\\\\Elztrna 
+\\\\Elztrnh 
+\\\\Elztrnm 
+\\\\Elztrnmlr 
+\\\\Elztrnr 
+\\\\Elztrnrl 
+\\\\Elztrnsa 
+\\\\Elztrnt 
+\\\\Elztrny 
+\\\\Elzverti 
+\\\\Elzverts 
+\\\\Elzvrecto 
+\\\\Elzxh 
+\\\\Elzxl 
+\\\\Elzxrat 
+\\\\Elzyogh 
+\\\\Em
+\\\\emph(\\{(?:[^{}]|\\g<1>)*\\})
+\\\\ensuremath\\{\\\\Elzpes\\}
+\\\\Entity$
+\\\\Entity\\\\
+\\\\Epsilon 
+\\\\Equal 
+\\\\ESCAPED_AT\\\\
+\\\\Eta 
+\\FeatureContext$
+\\\\Fn=\"(.*?)\"(.*?)\\\\Fn\n              
+\\\\footnote\\{(?<gr>\\\\(?!footnote)[^\\{]+\\{[^\\}]+\\}(?:\\{[^\\}]+\\})?\\g<gr>|[^{])+\\}
+\\\\frac\\s*(?<num>\\{(?:(?>[^{}])|\\g<num>)*\\})\\s*(?<denom>\\{(?:(?>[^{}])|\\g<denom>)*\\})
+\\\\function (?P<id>[a-z0-9_]+)(?P<args>\\(.*\\))$
+\\G  [^[]*   \\[  # find a \"[\"\n                            ( [^]]+ ) \\]  # capture up to \"]\"\n                          
+\\G  [^[]*   \\[  # find a \"[\"\n\n                            ( [^]]+ ) \\]  # capture up to \"]\"\n\n                        
+\\G ( (??{ $C_arg }) ) , 
+\\G (?: '([^'\\\\]*(?:\\\\.[^'\\\\]*)*)'\n\t\t          |\n\t\t        \"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"  )
+\\G (?:[$sep]) ( [^\\\\$sep]* (?: \\\\(?:.|$) [^\\\\$sep]* )* ) 
+\\G (?:[\\.]) ( [^\\\\\\.]* (?: \\\\(?:.|$) [^\\\\\\.]* )* ) 
+\\G [^\\S\\n]* \\Q$pure_sep\\E ([^\\n]*) (?:\\n|\\z) 
+\\G [^\\S\\n]* \\Q$sep\\E ([^\\n]*) (?:\\n|\\z) 
+\\G \" ( (?: $ESC_CHAR | [^\"\\\\])*) \"
+\\G \" ([^\"\\\\]* (?: \\\\. [^\"\\\\]*)*) \"
+\\G \\n?+ (?:.+\\n)* (\\n+)
+\\G \\Q$l_delim\\E (.*?) \\Q$r_delim\\E
+\\G \\s*? (\\S.+?) \\s*? (?:(?=\\\\item)|\\z)
+\\G \\s*? \\\\item (?:\\s*?\\[(.+?)\\]\\s+?|\\s+?) (\\S.+)?$
+\\G( '                # opening apostrophe\n                         (?:[^'\\\\]|    # an ordinary character\n                              \\\\\\\\|    # escaped \\ i.e. \\\\\n                               \\\\'|    # escaped apostrophe i.e. \\'\n                                \\\\     # escape i.e. \\\n                        )*?            # non greedy repetitions\n                      '                # closing apostrophe\n                    )
+\\G( [\\'\\\"\\\\] )
+\\G( [\\w+.\\\\]+ (?: \\[ [^\\]]* \\] )+ )
+\\G( [\\w+.\\\\]+ (?: \\[ [^\\]]* \\] )+ \\s*,\\s*[\\w.]+ \\s*,\\s*\\w+=[^\\]]+ )
+\\G(#[^\\Q$rdel\\E]*?)\\n
+\\G(((?:[^\\x00-\\x1F\\\\\"]|\\\\(?:[\"\\\\/bfnrt]|u[[:xdigit:]]{4})){0,32766})*)
+\\G(('([^'\\\\]+|(?:\\\\\\\\)+)+')|(\"((\\\\n)|(\\\\t)|[^\"\\@\\$\\\\])*((\\\\n)|(\\\\t))+((\\\\n)|(\\\\t)|[^\"\\@\\$\\\\])*\")|(q\\{([^}\\\\]+|(?:\\\\\\\\)+)*\\}))
+\\G((?: {
+\\G((?:(?:[^\\x00-\\x1f\\\\\"]|\\\\(?:[\"\\\\/bfnrt]|u[0-9a-fA-F]{4})){0,32766})*)
+\\G((?:(?=[^\\n])\\X)*?)($break|\\n+|\\z)
+\\G((?:(?=[^\\n])\\X){$ll})
+\\G((?:(?=[^\\n])\\X){0,$ll})($break|\\n+|\\z)
+\\G((?:[^\\\\]|\\\\.)*?)(\\\\)?\\?
+\\G('(?:[^'\\\\]|\\\\\\\\|\\\\'|\\\\)+?')
+\\G((?:[^\\0].|\\0[^A-Za-z0-9\\'\\(\\)\\,\\-\\.\\/\\:\\?\\!\\\"\\#\\$\\%\\&\\*\\;\\<\\=\\>\\@\\[\\]\\^\\_\\`\\{\\|\\}\\s])+)
+\\G((?:\\\\\\\\)+)(?=\\\\?(\")?)
+\\G((?:\\\\.|(?![\"])[^\\\\])*)[\"]
+\\G((?:\\\\.|(?!['])[^\\\\])*)[']
+\\G((?:\\\\.|[^\\s\\\\\"'\\Q$tchrs\\E])+)
+\\G((?:\\0[A-Za-z0-9\\'\\(\\)\\,\\-\\.\\/\\:\\?\\!\\\"\\#\\$\\%\\&\\*\\;\\<\\=\\>\\@\\[\\]\\^\\_\\`\\{\\|\\}\\s])+)
+\\G(--(?:\\h(.*))?)
+\\G((?<=\\{)|(?<=\\{\\h))(?=[a-z]+\\h*\\})
+\\G((\\p{IsZero}+)   # $2\n                  |(\\p{IsDouble}+)   # $3\n                  |(\\t)               # $4\n                  |($RE{ANSIescape})  # $5\n                  |\\p{IsOther}+\n                  |.                  # plain Esc, either non-ANSI or malformed\n                  )
+\\G((DELIMITER(?:\\h+(\\S+))?)([^\n]*?)(?=\n|\\z))
+\\G(.*?)(\\\\(\\d{1,3}|.)?)?
+\\G(.*?)\\\\(.)
+\\G(.*?)\\Q$oldtext\\E
+\\G(.*?)<\\s*/\\s*\\Q$start\\E\\s*>
+\\G(?!(?>tr|[ysm]|q[rwxq]?)\\h*=>)
+\\G(?!\\w+\\h*\\})
+\\G(?:
+\\G(?: ([^:{}()]+)             # $1 other text\n\t\t   |    (?<=/) \\:(\\w+(?:\\:\\w+)*) # $2 :var:type\n\t\t   | \\{(\\w+                      # $3 {var:...}\n\t\t       (?:\n\t\t\t : (?: (?:\\w+(?:\\:\\w+)*) #    :type\n\t\t\t | (?: [^{}]+            #    regexp(other than {})\n\t\t\t   | (\\{                 # $4 re-qualifier(nestable)\n\t\t\t       (?: (?> [^{}]+)\n\t\t\t       | (?-1)\n\t\t\t       )*\n\t\t\t       \\})\n\t\t\t   )+\n\t\t\t )\n\t\t       )?\n\t\t     )\n\t\t     \\}\n\t\t   | ([()])                      # $5 (optional)\n\t\t   )\n\t\t  
+\\G(?:(\\*\\*|\\d+)\\\\(\\*\\*|\\d+)|(\\.))(?:\\s+|$)
+\\G(?:(\\n+)|\\\\((?:[bfnrt\"\\\\]))|\\\\u([0-9a-fA-F]{4})|([^\\\\\"\\x{0}-\\x{8}\\x{A}-\\x{C}\\x{E}-\\x{1F}]+))
+\\G(?:[\\s,]+|
+\\G(?:\"((?>(?:(?>[^\"\\\\]+)|\\\\.)*))\"|([^()\\s]+))\\s*
+\\G(?:\n    \\s*\n    ((?i)[A-Z][-A-Z0-9]*|(?:oid\\.)?\\d+(?:\\.\\d+)*)\t# attribute type\n    \\s*\n    =\n    [ ]*\n    (\t\t\t\t\t\t\t# attribute value\n      (?:(?:[^\\x00 \"\\#+,;<>\\\\\\x80-\\xBF]|$pair)\t\t# string\n         (?:(?:[^\\x00\"+,;<>\\\\]|$pair)*\n            (?:[^\\x00 \"+,;<>\\\\]|$pair))?)?\n      |\n      \\#(?:[0-9a-fA-F]{2})+\t\t\t\t# hex string\n      |\n      \"(?:[^\\\\\"]+|$pair)*\"\t\t\t\t# \"-quoted string, only for v2\n    )\n    [ ]*\n    (?:([;,+])\\s*(?=\\S)|$)\t\t\t\t# separator\n    )\\s*
+\\G(?:\\\n(?# 1:  SPACE   )( )|\\\n(?# 2:  NIL     )(NIL)|\\\n(?# 3:  NUMBER  )(\\d+)|\\\n(?# 4:  QUOTED  )\"((?:[^\\x00\\r\\n\"\\\\]|\\\\[\"\\\\])*)\"|\\\n(?# 5:  LITERAL )\\{(\\d+)\\}\\r\\n|\\\n(?# 6:  LPAR    )(\\()|\\\n(?# 7:  RPAR    )(\\)))
+\\G(?:\\\n(?# 1:  SPACE   )( +)|\\\n(?# 2:  NIL     )(NIL)(?=[\\x80-\\xff(){ \\x00-\\x1f\\x7f%*
+\\G(?:\\\n(?# 1:  SPACE   )( +)|\\\n(?# 2:  NIL     )(NIL)(?=[\\x80-\\xff(){ \\x00-\\x1f\\x7f%*\"\\\\\\[\\]+])|\\\n(?# 3:  NUMBER  )(\\d+)(?=[\\x80-\\xff(){ \\x00-\\x1f\\x7f%*\"\\\\\\[\\]+])|\\\n(?# 4:  ATOM    )([^\\x80-\\xff(){ \\x00-\\x1f\\x7f%*\"\\\\\\[\\]+]+)|\\\n(?# 5:  QUOTED  )\"((?:[^\\x00\\r\\n\"\\\\]|\\\\[\"\\\\])*)\"|\\\n(?# 6:  LPAR    )(\\()|\\\n(?# 7:  RPAR    )(\\))|\\\n(?# 8:  BSLASH  )(\\\\)|\\\n(?# 9:  STAR    )(\\*)|\\\n(?# 10: LBRA    )(\\[)|\\\n(?# 11: RBRA    )(\\])|\\\n(?# 12: LITERAL )\\{(\\d+)\\}\\r\\n|\\\n(?# 13: PLUS    )(\\+)|\\\n(?# 14: PERCENT )(%)|\\\n(?# 15: CRLF    )(\\r\\n)|\\\n(?# 16: EOF     )(\\z))
+\\G(?:\n(?<preprocessing_directive>\n  ^[ \\t\\f\\v]*(?:\\#|%:).*(?:\\\\\\n.*)*[^\\\\]\\n\n) |\n(?<comment>\n  (?<multiline_comment> \\/\\* (?> (?:.|\\n)*? \\*\\/ ) ) |\n  (?<singleline_comment> \\/\\/ .*(?:\\\\\\n.*)*(?<!\\\\)\\n )\n) |\n(?<partial_comment>\n  (?<partial_multiline_comment> \\/\\* (?:.|\\n)* ) |\n  (?<partial_singleline_comment> \\/\\/ .*? \\\\\\n (?:.|\\n)* )\n) |\n(?<keyword>\n  (?: 
+\\G(?:\\Q$esc$esc\\E|\\Q$esc$hyp\\E|$re)
+\\G(?:\\s*(['\"`]))(.*?)(?<!\\\\)\\1
+\\G(?<!(?:\\+\\+|--)\\h)
+\\G(?<!^)(?>(\\[quote\\b[^]]*](?>[^[]++|\\[(?!/?quote)|(?1))*\\[/quote])|(?<!\\[)(?>[^[]++|\\[(?!/?quote))+\\K)|\\[quote\\b[^]]*]\\K
+\\G(?=[a-z]+\\h*\\})
+\\G(?=\\h*=>)
+\\G(?=\\R)
+\\G(?P<literal>[^:{\\[\\]]*)(?P<token>[:\\[\\]]|$)
+\\G(?P<literal>[^:{\\[\\]]*)(?P<token>[:{\\[\\]]|$)
+\\G(?P<literal>[^}]+)\\}
+\\G(?P<literal>[a-z0-9-.]*)(?P<token>[:{\\[\\]]|$)
+\\G(?P<name>[^:.{\\[\\]]+)(?:{(?P<delimiters>[^}]+)})?:?
+\\G(?P<name>[^:/{\\[\\]]+)(?:{(?P<delimiters>[^}]+)})?:?
+\\G(?P<name>[A-Z][A-Z0-9\\_\\-]*?)(?: +|$)
+\\G(?P<name>[a-zA-Z][a-zA-Z0-9\\_\\-\\:]*?)(?: +|$)
+\\G-(?P<name>[a-zA-Z0-9])(?:=(?P<type>[ns]))?(?: +|$)
+\\G--(?P<name>[a-zA-Z0-9][a-zA-Z0-9\\_\\-]+)(?P<hasValue>=\\S*?)?(?: +|$)
+\\G([\\Q$tchrs\\E])
+\\G([\\w+.\\\\]+)<
+\\G([\\w+.\\\\]+`\\d+)
+\\G([\\w+.\\\\]+`\\d+\\[)
+\\G([^\"\\\\]+)
+\\G([^\"]*)(?:\"([^\"\\\\]*(\\\\.[^\"\\\\]*)*)\")*
+\\G([^\\\\]*)\\\\(?:([^u])|u(.{4}))
+\\G([^\\\\]{1,$len}|\\\\\\d{1,3}|\\\\.)
+\\G([^\\\\]|\\\\([a-zA-Z]+)(-?\\d+)? ?|\\\\'.{2}|\\\\.){$skip}
+\\G([^\\s\"\\\\]+|\"[^\"\\\\]*(?:\\\\[\\\\\"nrt][^\"\\\\]*)*\")(?:\\s+|\\z)
+\\G(\"((?>(?:(?>[^\"\\\\]+)|\\\\.)*))\"\\s*|[()]|[^()\"]+)
+\\G(\\\\)$
+\\G(\\[*                   # [ starts an array\n                  (?:[BCDFIJSZ]|           # the native java types\n                     L\\w+(?:/\\w+)*;))
+\\G(\\d+)(y|Y|mo|MO|mO|Mo|w|W|d|D|h|H|s|S|ms|MS|mS|Ms|us|US|uS|Us|?s|?S|ns|NS|nS|Ns|m|M)
+\\G(\n           /             # opening slash\n             (?:[^/\\\\]|    # an ordinary character\n                  \\\\\\\\|    # escaped \\ i.e. \\\\\n                   \\\\/|    # escaped slash i.e. \\/\n                    \\\\     # escape i.e. \\\n             )*?           # non greedy repetitions\n           /               # closing slash\n          )\n        
+\\G(\\Q(?)\\E|\\Q(s?)\\E|\\Q(s)\\E)
+\\G(\\X)
+\\G.*?([A-Za-z_]+)\\=(?:;|(.*?[^\\\\]{1});)
+\\G.*?\\n(?=\\Q$label\\E\\n)
+\\G.*?\\Q$context\\E 
+\\G.*?\\R\\Q$token\\E(?=\\R|\\z)
+\\G.*?\\R=cut\\h*(?=\\R|\\z)
+\\G...(
+\\G[\\x00-\\x1f\\\\]
+\\G[\\x00-\\x1F\\\\]
+\\G[^\\\\$1]*(?:\\\\.[^\\\\$1]*)*(\\Q$1\\E)
+\\G[^\\\\]?\\{(.*?[^\\\\]?)\\}
+\\\\g[<](.+?)[>]
+\\G\\\\
+\\G\\\\\\\\
+\\G\\\"((?:\\\\.|[^\\\"\\\\])*)\\\"
+\\G\\\"(.*?)(?<!\\\\)(?:\\\"|\\z)\\s*
+\\G\\\"(|[^\\\\]|.*(?:\\\\[^\\\\]|\\\\\\\\|[^\\\\][^\\\\]))\\\"(?==)
+\\G\\$VERSION\\ =\\ (\\d\\d?\\.\\d{3}\\_\\d{3});
+\\G\\((.*?)(?<!\\\\)\\)\\s*
+\\G\\\\(.)
+\\G\\\\(.?)
+\\G\\\\([0-8]{1,3})
+\\G\\\\([abtnvfr\\\\\"'?])
+\\G\\[ *?(?P<name>[a-zA-Z][a-zA-Z0-9\\_\\-\\:]*?) *?\\](?: +|$)
+\\G\\[ *?-(?P<name>[a-zA-Z0-9])(?:=(?P<type>[ns]))? *?\\](?: +|$)
+\\G\\[ *?--(?P<name>[a-zA-Z0-9][a-zA-Z0-9\\_\\-]+) *?\\](?: +|$)
+\\G\\[ *?--(?P<name>[a-zA-Z0-9][a-zA-Z0-9\\_\\-]+)(?P<hasValue>=\\S*?)? *?\\](?: +|$)
+\\G\\[ *?\\.\\.\\.(?P<name>[a-zA-Z][a-zA-Z0-9\\_\\-\\:]*?) *?\\](?: +|$)
+\\G\\[ *\\<(?P<name>[a-zA-Z][a-zA-Z0-9\\_\\-]*?)\\> *\\](?: +|$)
+\\G\\[(?P<name>[A-Z][A-Z0-9\\_\\-]*?)\\](?: +|$)
+\\G\\< *(?P<name>[a-zA-Z][a-zA-Z0-9\\_\\-]*?) *\\>(?: +|$)
+\\G\\<(.*?)(?<!\\\\)(?:[>,;]|\\z)\\s*
+\\G\\h+
+\\G\n         (\n            (?> [^\\012N_]+ | [N_][^\\012_] | [N_]_[^\\012\"(] )*\n            [N_]_\n               \\(?\" (\n                  (?> [^\"\\\\]+ | \\\\. )+\n               ) \"\\)?\n            (?> [^\\012N_]+ | [N_][^\\012_] | [N_]_[^\\012\"(] )*\n         )\n      
+\\G\\\n(?# 1: NAME     )(?:NIL|\"((?:[^\\x80-\\xff\\x00\\r\\n\"\\\\]|\\\\[\"\\\\])*)\") \\\n(?# 2: ROUTE    )(?:NIL|\"((?:[^\\x80-\\xff\\x00\\r\\n\"\\\\]|\\\\[\"\\\\])*)\") \\\n(?# 3: MAILBOX  )(?:NIL|\"((?:[^\\x80-\\xff\\x00\\r\\n\"\\\\]|\\\\[\"\\\\])*)\") \\\n(?# 4: HOST     )(?:NIL|\"((?:[^\\x80-\\xff\\x00\\r\\n\"\\\\]|\\\\[\"\\\\])*)\")\\\n\\)
+\\G\n\t\t(?:\n\t\t\t# #include\n\t\t\t(?> ^ (?&SP)* \\# include (?&SP)*\n\t\t\t\t(?:\t\\' ( [^\\'\\n]+ ) \\' \t(?{ [INCLUDE => $^N] }) \n\t\t\t\t|\t\\\" ( [^\\\"\\n]+ ) \\\" \t(?{ [INCLUDE => $^N] }) \n\t\t\t\t|\t < ( [^>\\n]+  )  > \t(?{ [INCLUDE => $^N] }) \n\t\t\t\t|\t   ( \\S+      )\t\t(?{ [INCLUDE => $^N] }) \n\t\t\t\t|\t\t\t\t\t\t(?{ [ERROR => \n\t\t\t\t\t\t\t\t\t\t\t \"#include expects a file name\"] })\n\t\t\t\t)\n\t\t\t\t.* \\n?\t\t\t\t\t# eat newline\n\t\t\t)\n\t\t\n\t\t\t# #line\n\t\t|\t(?> ^ (?&SP)* \\# line (?&SP)+ \n\t\t\t\t\t(\\d+) (?&SP)+ \t\t(?{ $LINE_NR = $^N })\n\t\t\t\t\t\\\"? ([^\\\"\\n]+) \\\"?\t(?{ [INPUT_POS => $^N, $LINE_NR, 1] })\n\t\t\t\t.* \\n?\t\t\t\t\t# eat newline\n\t\t\t)\n\t\t\t\n\t\t\t# other #-lines - ignore\n\t\t|\t(?> ^ (?&SP)* \\# .* \\n?\t\t(?{ undef }) \n\t\t\t)\n\t\t\n\t\t\t# white space\n\t\t|\t(?> \\s+\t\t\t\t\t\t(?{ undef }) \n\t\t\t)\n\t\t\t\n\t\t\t# string\n\t\t|\t(?>\t( \\\" (?: \\\\. | [^\\\\\\\"] )* \\\" )\n\t\t\t\t\t\t\t\t\t\t(?{ [STR => eval($^N)] })\n\t\t\t)\n\t\t|\t(?>\t( \\' (?: \\\\. | [^\\\\\\'] )* \\' )\n\t\t\t\t\t\t\t\t\t\t(?{ [STR => eval($^N)] })\n\t\t\t)\n\t\t\t\n\t\t\t# number\n\t\t|\t(?> 0x ( [0-9a-f]+ ) \\b \t(?{ [NUM => hex($^N)] }) \n\t\t\t)\n\t\t|\t(?> 0b ( [01]+ ) \\b\t\t\t(?{ [NUM => oct(\"0b\".$^N)] }) \n\t\t\t)\n\t\t|\t(?> 0 ( [0-7]+ ) \\b\t\t\t(?{ [NUM => oct(\"0\".$^N)] }) \n\t\t\t)\n\t\t|\t(?> ( \\d+ ) \\b \t\t\t\t(?{ [NUM => 0+$^N] }) \n\t\t\t)\n\t\t\n\t\t\t# name\n\t\t|\t(?> ( [a-z_]\\w* )\t\t\t(?{ [NAME => $^N] }) \n\t\t\t)\n\t\t\t\n\t\t\t# symbols\n\t\t|\t(?> ( << | >> | == | != | >= | <= | . )\n\t\t\t\t\t\t\t\t\t\t(?{ [$^N, $^N] }) \n\t\t\t)\n\t\t)\n\t\t\n\t\t(?(DEFINE)\n\t\t\t# horizontal blanks\n\t\t\t(?<SP>\t[\\t\\f\\r ] )\n\t\t)\n\t
+\\G\n\t\t/\n\t\t( (?:[^/*\\\\[] | \\\\. | \\[ (?>(?:[^]\\\\] | \\\\.)*) \\] )\n\t\t  (?>(?:[^/\\\\[] | \\\\. | \\[ (?>(?:[^]\\\\] | \\\\.)*) \\] )*) )\n\t\t/\n\t  \t($id_cont*)\n\t      
+\\G\\Q$from\\E
+\\G\\Q$label\\E\\n
+\\G\\s* # initial whitespace\n          (\n            [^\\s=;,]+ # name\n            \\s*=\\s*   # =\n            (?:\n              \\\"(?:[^\\\"\\\\]*(?:\\\\.[^\\\"\\\\]*)*)\\\" # quoted value\n                |\n              [^;,\\s]*  # unquoted value\n            )\n          )\n          \\s*;?\n         
+\\G\\s*(
+\\G\\s*(?:\n            ## If the character following an NCName (possibly after\n            ## intervening ExprWhitespace) is (, then the token must be\n            ## recognized as a EventType or a FunctionName.\n            ($NCName)\\s*(?=\\()\n\n            ## If the two characters following an NCName (possibly after\n            ## intervening ExprWhitespace) are ::, then the token must be\n            ## recognized as an AxisName\n            |($NCName)\\s*(?=::)\n\n            ## Otherwise, it's just a normal lexer.\n            |($NCName:\\*)                           #NAME_COLON_STAR\n            |((?:$NCName:)?$NCName)                 #QNAME\n            |('[^']*'|\"[^\"]*\")                      #LITERAL\n            |(-?\\d+(?:\\.\\d+)?|\\.\\d+)                #NUMBER\n            |\\$((?:$NCName:)?$NCName)               #DOLLAR_QNAME\n            |($simple_tokens)\n        )\\s*
+\\G\\s*(?>([^\\s\\\\\\'\\\"]+)|'([^\\']*)'|\"((?:[^\\\"\\\\]|\\\\.)*)\"|(\\\\.?)|(\\S))(\\s|\\z)?
+\\G\\s*([\\d\\w\\_]+)\\s*
+\\G\\s*\"((?:[^\"\\\\]|\\\\.)*)\"\\s*
+\\G\\s*\"((\\\\.|[^\"\\\\])*)\"
+\\G\\s+(\\w+)\\=(?:(?![\\\"\\'])(\\S*)|([\\\"\\'])((?:(?!\\\\|\\g{-2}).|\\\\.)*)\\g{-2})
+\\G\\\\u([Dd][C-Fc-f]..)
+\\G\\\\x($Hex+)
+\\G\\\\x([0-9a-fA-F]+)
+\\G\\\\x[0-9A-Fa-f]
+\\G\\\\x\\{([0-9a-fA-F]+)\\}
+\\G\\x5f\\x5f\"((?:(?:[^\"\\\\]+|\\\\.)*))\"
+\\G__(?>DATA|END)__\\b\\h*+(?!=>).*\\z
+\\G__(?>SUB|FILE|PACKAGE|LINE)__\\b(?!\\h*+=>)
+\\\\g<([0-9]+)>
+\\G=(|.*?[^\\\\])\\n
+\\G=\\\"(|[^\\\\]|.*?(?:\\\\[^\\\\]|\\\\\\\\|[^\\\\][^\\\\]))\\\"\\n
+\\\\gamma 
+\\\\gemini 
+\\\\geq 
+\\\\geq
+\\\\geqq 
+\\\\geqslant 
+\\\\gg 
+\\\\gimel 
+\\\\git\\\\bin$
+\\\\gnapprox 
+\\\\gneq 
+\\\\gneqq 
+\\\\gnsim 
+\\\\greaterequivlnt 
+\\\\gtrapprox 
+\\\\gtrdot 
+\\\\gtreqless 
+\\\\gtreqqless 
+\\\\gtrless 
+\\\\guillemotleft 
+\\\\guillemotright 
+\\\\guilsinglleft 
+\\\\guilsinglright 
+\\\\gvertneqq 
+\\Gx(\\h\\h)
+\\h
+\\\\H
+\\H
+\\\\h
+\\h*$
+\\h*\\*\\h*@property(-read)?\\h+(\\S+)\\h+\\$(\\S+)([^\\v]*)
+\\h*\\{\\{\\@placeholder\\h+(.*)\\h+\\@end\\}\\}\\h*\\r*\\n+
+\\h-[a-zA-Z]*[wW]
+\\h\\[.*
+\\\\H\\{\\}
+\\\\H\\{O\\}
+\\\\H\\{o\\}
+\\\\H\\{U\\}
+\\\\H\\{u\\}
+\\h\\h+
+\\h\\n
+\\h\\N{LEFTWARDS ARROW}.*
+\\h\\N{RIGHTWARDS ARROW}.*
+\\h{1,4}
+\\h{16}
+\\h{32}
+\\h{64}
+\\h{8}-?\\h{4}-?\\h{4}-?\\h{4}-?\\h{12}
+\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12}
+\\H+
+\\h+
+\\h+$
+\\h+,\\h+
+\\h+\\.\\w+$
+\\h+\\-\\h+\\-\\h+\\-\\h+\\-\\h+
+\\h+\\n
+\\habc
+\\\\hackscore\\s*{[^}]*}
+\\\\ham\\{[aiwy]\\}
+\\\\ham\\{I\\}
+\\\\ham\\{i\\}([^\\\\])
+\\\\ham{[aiwy]}
+\\\\ham{I}
+\\\\ham{i}([^\\\\])
+\\\\hermitconjmatrix 
+\\\\hline
+\\\\homothetic 
+\\\\hookleftarrow 
+\\\\hookrightarrow 
+\\\\hphantom\\{,\\}
+\\\\hphantom\\{0\\}
+\\\\href\\{(.*?)\\}\\{(.*?)\\}
+\\\\hslash 
+\\\\hspace\\{0.166em\\}
+\\\\hspace\\{0.167em\\}

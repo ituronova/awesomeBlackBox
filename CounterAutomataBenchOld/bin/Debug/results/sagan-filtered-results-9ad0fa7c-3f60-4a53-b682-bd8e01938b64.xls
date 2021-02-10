@@ -1,0 +1,15 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	|NCA|	|DCA|	|DCA|-opt	|DCA|-alg	NCA-trans	DCA-trans	DCC-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Positive-opt-errors	Lenght string	DCA Matcher - time (milliseconds)	DCA Matcher opt - time (milliseconds)	Regex Matcher - time (milliseconds)
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external,	0,0046	38,1167	121,4287	54,0019	40	53	53	77	171	954	396	3	3	3								
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0013	9,8022	45,3991	30,8486	45	51	51	107	232	1020	870	4	4	4								
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external	0,0013	13,9664	41,5643	10,6209	40	53	53	77	171	954	396	3	3	3								
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0018	12,6881	44,4367	31,2797	45	51	51	107	232	1020	870	4	4	4								
+vsys\d{1,2},Untrust,|vsys\d{1,2},Outside,|vsys\d{1,2},external	0,0013	8,1339	34,5906	10,4007	40	53	53	77	171	954	396	3	3	3								
+vsys\d{1,2},Trust,|vsys\d{1,2},Inside,|vsys\d{1,2},DMZ,|vsys\d{1,2},internal,	0,0013	12,599	43,7803	32,5277	45	51	51	107	232	1020	870	4	4	4								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-500 	0,0013	3,1695	5,9169	2,4562	17	32	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-556 	0,0009	1,6785	4,3079	1,504	17	32	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-1101 	0,0013	1,9421	4,6363	2,5458	18	34	34	34	51	306	124	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-512 	0,0013	1,4952	3,3687	2,1866	17	32	32	32	45	256	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-519 	0,0013	1,6911	4,1105	5,7737	17	32	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-520 	0,0013	1,5101	6,8845	1,8007	17	32	32	32	50	288	118	3	3	3								
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-518 	0,0013	1,9234	6,1735	2,062	17	32	32	32	50	288	118	3	3	3								
+User-Agent\x3a \{[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\}	0,0009	5,33	9,1761	5,6193	19	36	36	36	59	540	142	5	5	5								

@@ -1,0 +1,49 @@
+^.{12}(\x00\x00\x00\x00|.{12})
+^.{20}(\x00\x00\x00\x00|.{12})
+^.{268}(\x00\x00\x00\x00|.{12})
+^.{4}(\x00\x00\x00\x00|.{12})
+^.{68}(\x00\x00\x00\x00|.{12})
+^X?PAT\s+[^\n]{1024}
+^.{12}\x00{6}\x09\x01.{16}.{300}
+^.{20}(\x00\x00\x00\x00|.{12})
+^.{12}(\x00|\x01)\x00\x00(\x70|\x71)
+^(\x01|\x02)[^\x00]+\x00[^\x00]{473}
+^.{12}\x00{6}\x09\x01.{16}.{300}
+^.{12}(\x00\x00\x00\x00|.{12})
+^.{12}(\x00|\x01)\x00\x00(\x70|\x71)
+^.{20}(\x00\x00\x00\x00|.{12})
+^.{268}(\x00\x00\x00\x00|.{12})
+^.{4}(\x00\x00\x00\x00|.{12})
+^.{68}(\x00\x00\x00\x00|.{12})
+^[A-Z]+\s+sip\x3A[^\r\n\x40]+\x40{2}
+^(\x01|\x02)[^\x00]+\x00[^\x00]{473}
+\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{200,}
+(\x5c[^\x5c]{16,}|\x2f[^\x2f]{16,})\.cda$
+^X?PAT\s+[^\n]{1024}
+^[A-Z]+\s+sip\x3A[^\r\n\x40]+\x40{2}
+\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{200,}
+(\x5c[^\x5c]{16,}|\x2f[^\x2f]{16,})\.cda$
+^Max-Forwards\x3A\s+(\d{3,}|[89]\d|7[1-9])
+^UNLOCK\s+\S+\s+\S{100}
+^Max-dotdot[\s\r\n]*\d{3,}
+^UNLOCK\s+\S+\s+\S{100}
+^Expires\x3A\s+\d{11}
+^Max-dotdot[\s\r\n]*\d{3,}
+^Max-Forwards\x3A\s+(\d{3,}|[89]\d|7[1-9])
+Visio \x28TM\x29 Drawing\r\n\x00{4}([^\x00]|\x00[^\x00]|\x00\x00[^\x00]|\x00\x00\x00[^\x01-t\x0b])
+^Expires\x3A\s+\d{11}
+^CON\w{1,10}\d+\xAE[^\r\n]{1,20}\x3B
+Visio \x28TM\x29 Drawing\r\n\x00{4}([^\x00]|\x00[^\x00]|\x00\x00[^\x00]|\x00\x00\x00[^\x01-t\x0b])
+^.{20}([\x01-t]|0x00[\x01-t]|\x00{2}[\x02-t]|\x00{2}\x01[\x15-t])
+^t=(-|\d{1,6}\s-)
+^t=(-|\d{1,6}\s-)
+^.{20}([\x01-t]|0x00[\x01-t]|\x00{2}[\x02-t]|\x00{2}\x01[\x15-t])
+^Accept\x2dCharset\x3a\s*([^\x3b\x3d\x2c]{1,36}\s*(\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}
+^CON\w{1,10}\d+\xAE[^\r\n]{1,20}\x3B
+^\s*MAIL\s+[^\s\n][^\n]{1006,}
+^Accept\x2dCharset\x3a\s*([^\x3b\x3d\x2c]{1,36}\s*(\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}
+^NLST\s+[^\n]*\x2a{10}
+^\s*Content-Encoding\s*\x3A\s*[^\r\n]{300}
+^\s*SOML\s+[^\n]{246}
+^\s*Content-Encoding\s*\x3A\s*[^\r\n]{300}
+^Content-Length\x3A\s*[^\r\n]{100,}

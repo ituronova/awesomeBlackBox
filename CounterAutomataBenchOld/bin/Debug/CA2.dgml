@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml" ZoomLevel="1.5" GraphDirection="TopToBottom" >
+<Nodes>
+<Node Id="init" Label="CA2" Stroke="white" Background="white"/>
+</Nodes>
+<Links>
+<Link Source="init" Target="0" Label="" Category="StartTransition" />
+<Link Source="0" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="0" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="1" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="1" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="2" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="2" Target="3" Label="4096" Category="NonepsilonTransition" />
+<Link Source="2" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="3" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536" Category="NonepsilonTransition" />
+<Link Source="3" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="3" Target="4" Label="131072" Category="NonepsilonTransition" />
+<Link Source="4" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="4" Target="5" Label="4096, c0[0]=0, c1[0]=0, c2[0]=0" Category="NonepsilonTransition" />
+<Link Source="4" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="5" Target="1" Label="1, 2, c0[0]&lt;2, c1[0]&lt;2, c2[0]&lt;2, 4, c0[0]==2, c1[0]==2, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="5" Target="6" Label="2, c0[0]&lt;2, c1[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="5" Target="7" Label="2, c0[0]&lt;2, c1[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="5" Target="8" Label="2, c0[0]&lt;2, c1[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="5" Target="9" Label="2, c0[0]==2, c1[0]&lt;2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="5" Target="10" Label="2, c0[0]==2, c1[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="5" Target="11" Label="2, c0[0]==2, c1[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="5" Target="12" Label="2, c0[0]==2, c1[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="5" Target="5" Label="4, c0[0]&lt;2, c1[0]&lt;2, c2[0]&lt;2, c0[0]++, c1[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="5" Target="13" Label="4, c0[0]&lt;2, c1[0]&lt;2, c2[0]==2, c0[0]++, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="5" Target="14" Label="4, c0[0]&lt;2, c1[0]==2, c2[0]&lt;2, c0[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="5" Target="15" Label="4, c0[0]&lt;2, c1[0]==2, c2[0]==2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="5" Target="16" Label="4, c0[0]==2, c1[0]&lt;2, c2[0]&lt;2, c1[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="5" Target="17" Label="4, c0[0]==2, c1[0]&lt;2, c2[0]==2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="5" Target="18" Label="4, c0[0]==2, c1[0]==2, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="5" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="6" Target="1" Label="1, 2, 4, 8, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="6" Target="19" Label="16" Category="NonepsilonTransition" />
+<Link Source="6" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="7" Target="1" Label="1, 2, 4, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="7" Target="64" Label="8" Category="NonepsilonTransition" />
+<Link Source="7" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="8" Target="1" Label="1, 2, 4, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="8" Target="64" Label="8" Category="NonepsilonTransition" />
+<Link Source="8" Target="19" Label="16" Category="NonepsilonTransition" />
+<Link Source="8" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="9" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="9" Target="70" Label="128" Category="NonepsilonTransition" />
+<Link Source="9" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="10" Target="1" Label="1, 2, 4, 8, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="10" Target="19" Label="16" Category="NonepsilonTransition" />
+<Link Source="10" Target="70" Label="128" Category="NonepsilonTransition" />
+<Link Source="10" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="11" Target="1" Label="1, 2, 4, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="11" Target="64" Label="8" Category="NonepsilonTransition" />
+<Link Source="11" Target="70" Label="128" Category="NonepsilonTransition" />
+<Link Source="11" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="12" Target="1" Label="1, 2, 4, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="12" Target="64" Label="8" Category="NonepsilonTransition" />
+<Link Source="12" Target="19" Label="16" Category="NonepsilonTransition" />
+<Link Source="12" Target="70" Label="128" Category="NonepsilonTransition" />
+<Link Source="12" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="13" Target="1" Label="1, 2, c0[0]&lt;2, c1[0]&lt;2, 4, c0[0]==2, c1[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="13" Target="7" Label="2, c0[0]&lt;2, c1[0]==2" Category="NonepsilonTransition" />
+<Link Source="13" Target="9" Label="2, c0[0]==2, c1[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="13" Target="11" Label="2, c0[0]==2, c1[0]==2" Category="NonepsilonTransition" />
+<Link Source="13" Target="13" Label="4, c0[0]&lt;2, c1[0]&lt;2, c0[0]++, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="13" Target="15" Label="4, c0[0]&lt;2, c1[0]==2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="13" Target="17" Label="4, c0[0]==2, c1[0]&lt;2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="13" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="14" Target="1" Label="1, 2, c0[0]&lt;2, c2[0]&lt;2, 4, c0[0]==2, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="14" Target="6" Label="2, c0[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="14" Target="9" Label="2, c0[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="14" Target="10" Label="2, c0[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="14" Target="14" Label="4, c0[0]&lt;2, c2[0]&lt;2, c0[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="14" Target="15" Label="4, c0[0]&lt;2, c2[0]==2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="14" Target="18" Label="4, c0[0]==2, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="14" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="15" Target="1" Label="1, 2, c0[0]&lt;2, 4, c0[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="15" Target="9" Label="2, c0[0]==2" Category="NonepsilonTransition" />
+<Link Source="15" Target="15" Label="4, c0[0]&lt;2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="15" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="16" Target="1" Label="1, 2, c1[0]&lt;2, c2[0]&lt;2, 4, c1[0]==2, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="16" Target="6" Label="2, c1[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="16" Target="7" Label="2, c1[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="16" Target="8" Label="2, c1[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="16" Target="16" Label="4, c1[0]&lt;2, c2[0]&lt;2, c1[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="16" Target="17" Label="4, c1[0]&lt;2, c2[0]==2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="16" Target="18" Label="4, c1[0]==2, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="16" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="17" Target="1" Label="1, 2, c1[0]&lt;2, 4, c1[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="17" Target="7" Label="2, c1[0]==2" Category="NonepsilonTransition" />
+<Link Source="17" Target="17" Label="4, c1[0]&lt;2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="17" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="18" Target="1" Label="1, 2, c2[0]&lt;2, 4, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="18" Target="6" Label="2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="18" Target="18" Label="4, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="18" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="19" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="19" Target="20" Label="1024" Category="NonepsilonTransition" />
+<Link Source="19" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="20" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="20" Target="21" Label="8192" Category="NonepsilonTransition" />
+<Link Source="20" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="21" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="21" Target="22" Label="2048" Category="NonepsilonTransition" />
+<Link Source="21" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="22" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="22" Target="23" Label="16384" Category="NonepsilonTransition" />
+<Link Source="22" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="23" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="23" Target="24" Label="4096" Category="NonepsilonTransition" />
+<Link Source="23" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="24" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="24" Target="25" Label="8192" Category="NonepsilonTransition" />
+<Link Source="24" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="25" Target="1" Label="1, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="25" Target="26" Label="2" Category="NonepsilonTransition" />
+<Link Source="25" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="26" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="26" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="27" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="27" Target="28" Label="4096" Category="NonepsilonTransition" />
+<Link Source="27" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="28" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536" Category="NonepsilonTransition" />
+<Link Source="28" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="28" Target="29" Label="131072" Category="NonepsilonTransition" />
+<Link Source="29" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="29" Target="30" Label="4096, c0[0]=0, c1[0]=0, c2[0]=0" Category="NonepsilonTransition" />
+<Link Source="29" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="30" Target="26" Label="1, 2, c0[0]&lt;2, c1[0]&lt;2, c2[0]&lt;2, 4, c0[0]==2, c1[0]==2, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="30" Target="31" Label="2, c0[0]&lt;2, c1[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="30" Target="32" Label="2, c0[0]&lt;2, c1[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="30" Target="33" Label="2, c0[0]&lt;2, c1[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="30" Target="34" Label="2, c0[0]==2, c1[0]&lt;2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="30" Target="35" Label="2, c0[0]==2, c1[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="30" Target="36" Label="2, c0[0]==2, c1[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="30" Target="37" Label="2, c0[0]==2, c1[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="30" Target="30" Label="4, c0[0]&lt;2, c1[0]&lt;2, c2[0]&lt;2, c0[0]++, c1[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="30" Target="38" Label="4, c0[0]&lt;2, c1[0]&lt;2, c2[0]==2, c0[0]++, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="30" Target="39" Label="4, c0[0]&lt;2, c1[0]==2, c2[0]&lt;2, c0[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="30" Target="40" Label="4, c0[0]&lt;2, c1[0]==2, c2[0]==2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="30" Target="41" Label="4, c0[0]==2, c1[0]&lt;2, c2[0]&lt;2, c1[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="30" Target="42" Label="4, c0[0]==2, c1[0]&lt;2, c2[0]==2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="30" Target="43" Label="4, c0[0]==2, c1[0]==2, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="30" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="31" Target="26" Label="1, 2, 4, 8, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="31" Target="44" Label="16" Category="NonepsilonTransition" />
+<Link Source="31" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="32" Target="26" Label="1, 2, 4, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="32" Target="51" Label="8" Category="NonepsilonTransition" />
+<Link Source="32" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="33" Target="26" Label="1, 2, 4, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="33" Target="51" Label="8" Category="NonepsilonTransition" />
+<Link Source="33" Target="44" Label="16" Category="NonepsilonTransition" />
+<Link Source="33" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="34" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="34" Target="57" Label="128" Category="NonepsilonTransition" />
+<Link Source="34" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="35" Target="26" Label="1, 2, 4, 8, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="35" Target="44" Label="16" Category="NonepsilonTransition" />
+<Link Source="35" Target="57" Label="128" Category="NonepsilonTransition" />
+<Link Source="35" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="36" Target="26" Label="1, 2, 4, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="36" Target="51" Label="8" Category="NonepsilonTransition" />
+<Link Source="36" Target="57" Label="128" Category="NonepsilonTransition" />
+<Link Source="36" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="37" Target="26" Label="1, 2, 4, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="37" Target="51" Label="8" Category="NonepsilonTransition" />
+<Link Source="37" Target="44" Label="16" Category="NonepsilonTransition" />
+<Link Source="37" Target="57" Label="128" Category="NonepsilonTransition" />
+<Link Source="37" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="38" Target="26" Label="1, 2, c0[0]&lt;2, c1[0]&lt;2, 4, c0[0]==2, c1[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="38" Target="32" Label="2, c0[0]&lt;2, c1[0]==2" Category="NonepsilonTransition" />
+<Link Source="38" Target="34" Label="2, c0[0]==2, c1[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="38" Target="36" Label="2, c0[0]==2, c1[0]==2" Category="NonepsilonTransition" />
+<Link Source="38" Target="38" Label="4, c0[0]&lt;2, c1[0]&lt;2, c0[0]++, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="38" Target="40" Label="4, c0[0]&lt;2, c1[0]==2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="38" Target="42" Label="4, c0[0]==2, c1[0]&lt;2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="38" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="39" Target="26" Label="1, 2, c0[0]&lt;2, c2[0]&lt;2, 4, c0[0]==2, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="39" Target="31" Label="2, c0[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="39" Target="34" Label="2, c0[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="39" Target="35" Label="2, c0[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="39" Target="39" Label="4, c0[0]&lt;2, c2[0]&lt;2, c0[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="39" Target="40" Label="4, c0[0]&lt;2, c2[0]==2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="39" Target="43" Label="4, c0[0]==2, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="39" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="40" Target="26" Label="1, 2, c0[0]&lt;2, 4, c0[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="40" Target="34" Label="2, c0[0]==2" Category="NonepsilonTransition" />
+<Link Source="40" Target="40" Label="4, c0[0]&lt;2, c0[0]++" Category="NonepsilonTransition" />
+<Link Source="40" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="41" Target="26" Label="1, 2, c1[0]&lt;2, c2[0]&lt;2, 4, c1[0]==2, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="41" Target="31" Label="2, c1[0]&lt;2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="41" Target="32" Label="2, c1[0]==2, c2[0]&lt;2" Category="NonepsilonTransition" />
+<Link Source="41" Target="33" Label="2, c1[0]==2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="41" Target="41" Label="4, c1[0]&lt;2, c2[0]&lt;2, c1[0]++, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="41" Target="42" Label="4, c1[0]&lt;2, c2[0]==2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="41" Target="43" Label="4, c1[0]==2, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="41" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="42" Target="26" Label="1, 2, c1[0]&lt;2, 4, c1[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="42" Target="32" Label="2, c1[0]==2" Category="NonepsilonTransition" />
+<Link Source="42" Target="42" Label="4, c1[0]&lt;2, c1[0]++" Category="NonepsilonTransition" />
+<Link Source="42" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="43" Target="26" Label="1, 2, c2[0]&lt;2, 4, c2[0]==2, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="43" Target="31" Label="2, c2[0]==2" Category="NonepsilonTransition" />
+<Link Source="43" Target="43" Label="4, c2[0]&lt;2, c2[0]++" Category="NonepsilonTransition" />
+<Link Source="43" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="44" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="44" Target="45" Label="1024" Category="NonepsilonTransition" />
+<Link Source="44" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="45" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="45" Target="46" Label="8192" Category="NonepsilonTransition" />
+<Link Source="45" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="46" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="46" Target="47" Label="2048" Category="NonepsilonTransition" />
+<Link Source="46" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="47" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="47" Target="48" Label="16384" Category="NonepsilonTransition" />
+<Link Source="47" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="48" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="48" Target="49" Label="4096" Category="NonepsilonTransition" />
+<Link Source="48" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="49" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="49" Target="50" Label="8192" Category="NonepsilonTransition" />
+<Link Source="49" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="50" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="50" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="51" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="51" Target="52" Label="16384" Category="NonepsilonTransition" />
+<Link Source="51" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="52" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="52" Target="53" Label="8192" Category="NonepsilonTransition" />
+<Link Source="52" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="53" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="53" Target="54" Label="4096" Category="NonepsilonTransition" />
+<Link Source="53" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="54" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="54" Target="55" Label="256" Category="NonepsilonTransition" />
+<Link Source="54" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="55" Target="26" Label="1, 2, 4, 8, 16, 32, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="55" Target="56" Label="64" Category="NonepsilonTransition" />
+<Link Source="55" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="56" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="56" Target="50" Label="128" Category="NonepsilonTransition" />
+<Link Source="56" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="57" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 131072" Category="NonepsilonTransition" />
+<Link Source="57" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="57" Target="58" Label="65536" Category="NonepsilonTransition" />
+<Link Source="58" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="58" Target="59" Label="8192" Category="NonepsilonTransition" />
+<Link Source="58" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="59" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="59" Target="60" Label="128" Category="NonepsilonTransition" />
+<Link Source="59" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="60" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="60" Target="61" Label="2048" Category="NonepsilonTransition" />
+<Link Source="60" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="61" Target="26" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="61" Target="62" Label="1024" Category="NonepsilonTransition" />
+<Link Source="61" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="62" Target="26" Label="1, 2, 4, 8, 16, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="62" Target="63" Label="32, 1, 2, 4, 8, 16, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="62" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="63" Target="26" Label="32, 1, 2, 4, 8, 16, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="63" Target="27" Label="32768" Category="NonepsilonTransition" />
+<Link Source="64" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="64" Target="65" Label="16384" Category="NonepsilonTransition" />
+<Link Source="64" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="65" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="65" Target="66" Label="8192" Category="NonepsilonTransition" />
+<Link Source="65" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="66" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="66" Target="67" Label="4096" Category="NonepsilonTransition" />
+<Link Source="66" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="67" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="67" Target="68" Label="256" Category="NonepsilonTransition" />
+<Link Source="67" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="68" Target="1" Label="1, 2, 4, 8, 16, 32, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="68" Target="69" Label="64" Category="NonepsilonTransition" />
+<Link Source="68" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="69" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="69" Target="25" Label="128" Category="NonepsilonTransition" />
+<Link Source="69" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="70" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 131072" Category="NonepsilonTransition" />
+<Link Source="70" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="70" Target="71" Label="65536" Category="NonepsilonTransition" />
+<Link Source="71" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="71" Target="72" Label="8192" Category="NonepsilonTransition" />
+<Link Source="71" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="72" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="72" Target="73" Label="128" Category="NonepsilonTransition" />
+<Link Source="72" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="73" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="73" Target="74" Label="2048" Category="NonepsilonTransition" />
+<Link Source="73" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="74" Target="1" Label="1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="74" Target="75" Label="1024, 1, 2, 4, 8, 16, 32, 64, 128, 256, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="74" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="75" Target="1" Label="1, 2, 4, 8, 16, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="75" Target="76" Label="32" Category="NonepsilonTransition" />
+<Link Source="75" Target="2" Label="32768" Category="NonepsilonTransition" />
+<Link Source="76" Target="1" Label="1024, 1, 2, 4, 8, 16, 32, 64, 128, 256, 2048, 4096, 8192, 16384, 65536, 131072" Category="NonepsilonTransition" />
+<Link Source="76" Target="26" Label="512" Category="NonepsilonTransition" />
+<Link Source="76" Target="2" Label="32768" Category="NonepsilonTransition" />
+</Links>
+<Categories>
+<Category Id="EpsilonTransition" Label="Epsilon transition" IsTag="True" />
+<Category Id="StartTransition" Label="Initial transition" IsTag="True" />
+<Category Id="FinalLabel" Label="Final transition" IsTag="True" />
+<Category Id="FinalState" Label="Final state" IsTag="True" />
+<Category Id="SinkState" Label="Sink state" IsTag="True" />
+<Category Id="EpsilonState" Label="Epsilon state" IsTag="True" />
+<Category Id="InitialState" Label="Initial state" IsTag="True" />
+<Category Id="NonepsilonTransition" Label="Nonepsilon transition" IsTag="True" />
+<Category Id="State" Label="State" IsTag="True" />
+</Categories>
+<Styles>
+<Style TargetType="Node" GroupLabel="InitialState" ValueLabel="True">
+<Condition Expression="HasCategory('InitialState')" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="FinalState" ValueLabel="True">
+<Condition Expression="HasCategory('FinalState')" />
+<Setter Property="StrokeThickness" Value="4" />
+</Style>
+<Style TargetType="Node" GroupLabel="SinkState" ValueLabel="True">
+<Condition Expression="HasCategory('SinkState')" />
+<Setter Property="NodeRadius" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="EpsilonState" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonState')" />
+<Setter Property="Background" Value="tomato" />
+</Style>
+<Style TargetType="Node" GroupLabel="State" ValueLabel="True">
+<Condition Expression="HasCategory('State')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Link" GroupLabel="NonepsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('NonepsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="StartTransition" ValueLabel="True">
+<Condition Expression="HasCategory('StartTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="EpsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+<Style TargetType="Link" GroupLabel="FinalLabel" ValueLabel="False">
+<Condition Expression="HasCategory('FinalLabel')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+</Styles>
+</DirectedGraph>

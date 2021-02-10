@@ -1,0 +1,108 @@
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Downloads\Automata-cadet_bench\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lenka\Downloads\Automata-cadet_bench2\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Downloads\Automata-cadet_bench3\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lenka\view_refinement\Margus\Automata-cadet_bench-03-29-2019\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache
+C:\Users\lenka\view_refinement\Margus\Backups\Automata-cadet_bench-03-29-2019\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\lenka\view_refinement\Margus\Backups\Automata-cadet_bench-03-29-2019\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\lenka\view_refinement\Margus\Backups\Automata-cadet_bench-03-29-2019\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache
+C:\Users\lenka\Desktop\countingautomata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\lenka\Desktop\countingautomata\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\lenka\Desktop\countingautomata\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lenka\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Automata\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\countingautomata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\42073\Desktop\countingautomata\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\42073\Desktop\countingautomata\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\System.ValueTuple.dll
+C:\Users\42073\Desktop\Code\Automata\CounterAutomataBench\bin\Debug\System.ValueTuple.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe.config
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\obj\Debug\CounterAutomataBench.exe
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\obj\Debug\CounterAutomataBench.pdb
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\CounterAutomataBench.exe
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\CounterAutomataBench.pdb
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\Microsoft.Automata.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\System.ValueTuple.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\Microsoft.Automata.pdb
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\System.ValueTuple.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\42073\Desktop\Code\Automata - kopie\CounterAutomataBench\obj\Debug\CounterAutomataBench.csprojResolveAssemblyReference.cache

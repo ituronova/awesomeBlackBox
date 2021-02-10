@@ -1,0 +1,479 @@
+<Skinny Pills|\<change your life with a \w{0,25} ?med formula|\<This product will become a sensation
+Aiful Company|aiful.[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}|Frank Walton
+^Subject\: \d{1,2}122016\d{5,25}
+<If you have any queries in regards to your Purchase Order, please contact your requestor,  .{2,30} on \d{3,9} \d{3,9} ext \d{3,5}\.$
+<("Sanesecurity\.Malware\.\d{1,6}\.JsHeur\.UNOFFICIAL\([a-z0-9]{1,35}\:\d{1,6}\)"\.|"JS\:Trojan\.JS\.Nemucod\.BH"\.)
+<Your USPS Tracking Number is\: \d{1,30}
+<[\w\,\.\s]{1,250}asked me to send you invoice for August\. Please look over the attachement and make a payment ASAP\./ic                                                                        
+<I have attached a revised spreadsheet contains .{1,35}\. Please check ifit.s correct
+<The attached spreadsheet contains.{1,35}\. Please review
+[A-Z0-9]{1,10}-[A-Z0-9]{1,10}-[A-Z0-9]{1,10}-[A-Z0-9]{1,10}
+<[-_a-z0-9]{2,20}_\d{2}-\d{2}-\d{4}[-_a-zA-Z0-9]{2,20}\.pdf\>
+<Description of Violation.{3,50}\<TO PLEAD, PRINT OUT THE ENCLOSED TICKET AND SEND IT TO TOWN COURT
+<The amount of money transfer: \d{4} USD|\<tracking number.{1,100}\<att?ach
+html_raw_regular /<div dir="ltr"><br clear="all"><br>-- <br>Regards<br>\w{3,25} [-a-zA-Z0-9_]{3,25}\x20</div>\x20
+find_regular /\x20----=_NextPart[_\.A-Z0-9]{1,40}\x20
+html_raw_regular /<style type="text/css">header::before \{\s*content: "[^\x20]{100,}
+html_raw_regular /</table>\s{100,}
+html_raw_regular /<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}"[^>]{0,50}>Claim it Now</a>
+html_raw_regular /\x20<p>S pozdravem[^<]{0,60}</p>\x20{2}
+html_raw_regular /<body>\s*<h1><a \x20?href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}">
+html_raw_regular /<body>\s*<h1><a \x20?href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}"><span \x20style="[^"]+"><span \x20style="color:#FF0000"><strong>[^<]{30,130}</strong></span></span></a></h1>
+html_raw_regular /<br />\s*Does this sound like fun to you\? <a href="http://[-.a-zA-Z0-9]{1,40}\.ru/\?profile=[a-z0-9]{2,80}"[^>]*>My user is [a-zA-Z0-9]{2,15}</a>\. Please\s+hurry\.</p>
+html_raw_regular /<a [^>]*\<href="http://emarketingdeguatemala\.com/[^"]{0,80}"[^>]*>SI NO PUEDE VER LA IMAGEN POR FAVOR CLICK AQUI</a>
+html_raw_regular /<body><meta[^>]*>\s*<title>[^<]{5,50}</title>\s*<center>\s*
+html_raw_regular /<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,100}">See\s+the\s+method\s+revealed.?</a>
+find_regular /Good day!\x20{2}You should know this[^\x20]{10,80}\x20it.s strongly confidential[^\x20]{10,50}\x20{2}[^\x20]{10,50}\x20[^\x20]{10,50}\x20*
+html_raw_regular /<h1 [^>]{0,50}\<style="[^"]{0,160}\<font-size: ?[4-9][0-9]px[^"]{0,160}"[^>]*>
+html_raw_regular /<a[ \x20][^>]{100,}>
+html_raw_regular /<body>\s*<p>\s*<img src="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,50}"[^>]*></p>\s*
+html_raw_regular /<a href="https?://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^.]{0,12}Invoice_?\d{6,12}\.zip">[^<]{2,80}</a>
+html_raw_regular /\<Please review the details of the payment <a href="https?://[-.a-z0-9]{1,40}\.[a-z]{2,4}/download\.[^"]{0,150}">here.?</a>
+html_raw_regular /<a [^>]*\<href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}"[^>]*>
+find_regular /\x20.{0,30}\<credit note.{0,30}\<is attached.{0,30}\<open.{0,30}\<Adobe Reader. If you do not have an Adobe Reader.{0,40}\<download\sit: http://get.adobe.com/reader/\x20{2}
+find_regular /\<are registered marks of the Project Management Institute, Inc\.\s-{60,}\s[^\x20]{0,80}\<Unsubscribe.{0,80}$
+html_raw_regular /\<href="[^"]{10,60}/uver.html">
+html_raw_regular /<!DOCTYPE HTML PUBLIC "[^"]{10,60}">\x20
+html_raw_regular /<meta http-equiv="refresh" content="0 url=http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{0,50}">
+html_raw_regular /<body><p><span[^>]{0,80}>[^<]{2,20}<br />\s*
+html_raw_regular /\<<body>\x20+<p[^>]{0,80}>[^<]{60,}</p>\x20+
+html_raw_regular /style.{8}BACKGROUND-COLOR: rgb\(0,255,255\).{5} COLOR: rgb\(255,0,0\).{5} FONT-SIZE: \d{2}px.{8}Ship\s*Free.{5}nbsp
+html_raw_regular /<p[^>]{0,180}>
+html_raw_regular /<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{0,50}cnrmf[^>]{0,50}>[^<]{0,50}\<stock\>[^<]{0,50}</a>
+find_regular /\x20Local Mom.s Shocking Story http://[-.a-z0-9]{1,20}\.[a-z]{2,4}/[^\x20]{2,20}\x20
+find_regular /I.m\x20{1,2}from [A-Z][- a-zA-Z]{2,20}\.\x20{2}
+find_regular /http://[-a-z0-9]{1,40}\.([-.a-z0-9]{1,40}\.[a-z]{2,4})/?
+html_raw_regular /<span style="[^"]{0,90}font-size: large[^"]{0,90}"><a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{0,50}">\s{0,2}Make money and change your life NOW! Within 5 minutes!</a><br ?/>
+find_regular /Pokud m.te z.jem o na.i nab.dku, napi.te n.m na [a-zA-Z0-9._-]{1,25}@jobcz.org a my v.m za.leme v.ce informac.\.\x20
+html_raw_regular /<body>\x20?<img src="http://[-.a-z0-9 ]{1,40}\.[a-z]{2,4}/[^=]{0,50}=[a-zA-Z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}">\x20?</body>
+find_regular /@ ?a ?t ?l ?a ?n ?t ?a ?c ?o ?n ?s ?u ?l ?t ?i ?n ?g ?\.[^\x20]{2,60}\x20{2}
+html_raw_regular /<(tr)>\s{0,10}<(td)[^>]{0,120}><br/>\s{0,10}
+find_regular /\x20[a-z0-9._-]{1,25}@key\.com\x20{2}
+find_regular /\x20[^\x20]{30,60}\*\x20{2}
+find_regular /\<Go undercover with a .500 gift voucher for each store[^\x20]{0,60}\x20
+html_raw_regular /\<<body[^>]{0,120}><div[^>]{0,160}><a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/?">
+html_raw_regular /<img alt="BrandViagra \d\d% OFF"[^>]{0,120}>
+html_raw_regular /\<<body[^>]{0,60}>[ \x20]{1,8}<p>[ \x20]{1,8}
+find_regular /First Name: [A-Z][a-z]{1,20}\x20yes: [a-z]{1,10}\x20Hair Color: [a-z]{1,10}\x20
+html_raw_regular /<font style="BACKGROUND-COLOR: white"[ \x20]{1,3}color=white>[^<]{1,120}</font>
+html_raw_regular /<html>\s{0,5}<body>\s{0,5}<h1[^>]{0,120}>[^<]{5,40}</h1>
+html_raw_regular /<tr>\s{0,10}<td[^>]{0,80}>
+html_raw_regular /<table[^>]{0,160}>\s{0,2}<tr>\s{0,5}<td[^>]{0,160}>
+html_raw_regular /<body[^>]{0,120}>\x20
+html_raw_regular /<tbody><tr><td[^>]{0,160}>Hello,<br><br>You recently asked to reset your Facebook password\.<a href="(http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,50})"[^>]{0,80}><br>Click here to change your password\.</a><br>
+html_raw_regular /\<<a href="http://[-_/.a-z0-9]{20,80}/www.microsoftstore.com.store.html\?store/msusa/en_US/home" title="Microsoft Store"
+html_raw_regular /\<<BODY[^>]{0,80}>\x20
+html_raw_regular /\x20<div>[^<]{3,255}</div>\x20
+html_raw_regular /<body>[^<]{0,5}<h3>[^<]{0,5}<center><form[^>]{1,50}
+html_raw_regular /<body>\x20 {0,50}\x20 {20,80}<font[^>]{3,80}>[^<]{3,30}
+html_raw_regular /<table[^>]{0,50}>[ \x20\x20]{0,5}<tr>[ \x20\x20]{0,8}<td[^>]{0,60}>[ \x20\x20]{0,10}
+html_raw_regular /\x20<body[^>]{0,120}>\x20<div[^>]{0,80}>\x20[^<]{0,10}<table[^>]{0,120}>\x20
+html_raw_regular /\x20? {0,60}<body>[^<]{0,50}<p>[^<]{0,50}<font[^>]{0,30}>[^<]{0,80}
+html_raw_regular /\x20 {0,4}<body[^>]{0,50}>\x20 {0,5}
+html_raw_regular /<img src=[^ >]{0,50}paypal\.com[^>]{0,120}>
+html_raw_regular /<img src=[^>]{0,50}intuit\.com[^>]{0,120}>
+html_raw_regular /\x20 {0,5}<body[^>]{0,50}>\x20 {0,5}<p>\x20
+html_raw_regular /\x20<body[^>]{0,150}>\x20?<div[^>]{0,80}>\x20<table[^>]{0,150}><tr><td>\x20<div[^>]{0,200}>\x20?
+html_raw_regular /\x20<table[^>]{0,80}>\x20 {0,6}
+find_regular /\x20[^\x20]{3,120}\<My Verizon\x20Total Balance Due: \$\d{1,3}\.\d{2}\x20Scheduled Automatic Payment Date: \d{2}/\d{2}/20\d{2}\x20
+html_raw_regular /\x20 {0,5}<body >\x20<table[^>]{0,200}><tr><td>[^<]{0,10}
+html_raw_regular /\x20<html>\x20 {0,5}<head>\x20 {0,5}<meta[^>]{10,80}>\x20 {0,5}</head>\x20 {0,5}<body> {0,5}\x20{2}<h1><b>[^<]{1,50}</b>\x20{2}<script>[^<]{250,}
+html_raw_regular /<table[^>]{0,50}>[^<]{1,50}<tr>[^<]{1,50}<td[^>]{0,50}>[^<]{1,50}<font[^>]{0,80}>[^<]{40,80}<br />[^<]{40,80}<br />[^<]{60,120}</font>[^<]{1,50}</td>[^<]{1,50}</tr>[^<]{1,50}</table>
+html_raw_regular /\x20</HEAD>\x20<BODY[^>]{0,25}>\x20[^<]{1,80}<a href="[a-z0-9]{3,10}\.ru">[^<]{1,50}</a></BODY></HTML>
+find_regular /\x20{2}[^\x20]{40,120}\x20Our e-mail: \<[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}Sincerely, [^\x20]{2,25}\x20{0,3}$
+find_regular /\x20You can receive more information, having sent a request along with your resume to this email [a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20[^\x20]{3,80}\x20{1,3}$
+find_regular /\x20{2}[-*+]{1,120}\x20{2}\+ 1 - \d{3} - \d{3} - \d{4}\x20{2}[-*+]{1,120}\x20{2}[^\x20]{3,50}\x20[).] [^\x20]{3,80}\x20[).] [^\x20]{3,80}\x20[).] [^\x20]{3,80}\x20
+html_raw_regular /\x20{5}<br/><br>\x20<img src="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/open.php[^>]{1,50}"></body></html>\x20{1,2}$
+find_regular /X\-KSE\-AttachmentFiltering\-Interceptor\-Info\s*\-\-\-\-\-\-\=\_Part\_\d{3,10}\_\d{3,15}\.\d{3,20}
+find_regular /Hi,\x20s promised your changelog is attached,\x20[^\x20]{3,80}\x20{1,5}
+find_regular /PLEASE,\x20\x20KINDLY READ[^\x20]{10,80}\x20\x20[^\x20]{3,40}\x20{1,5}
+find_regular /\x20http://[a-z0-9]{1,8}\.[-.a-z0-9]{1,40}\.ru/\?[^\x20]{3,80}\x20
+html_raw_regular /<html>[^<]{1,50}<a {1,3}href="http://thingdream.[a-z]{2,4}">
+find_regular /[^\x20]{3,30}\x20[^\x20]{2,10}\x20ye\x20{1,5}
+html_raw_regular /\x20<BODY[^>]{0,25}>\x20<DIV[^>]{0,35}><FONT[^>]{0,35}><IMG[^>]{0,60}[ \x20]src="cid:[^>]{10,50}"></FONT></DIV></BODY>
+html_raw_regular /\x20<BODY>\x20<img [^>]{0,100}>\x20<p><span[^>]{0,35}>\x20[^\x20]{3,40}\x20</span></p>\x20</BODY>
+html_raw_regular /\x20?<DIV><FONT[^>]{1,50}><A href="http://[^>]{1,50}><IMG[^\x20]{1,50}\x20[^\x20]{1,150}\x20lign=baseline border=0></A></FONT></DIV>\x20
+html_raw_regular /\x20<BODY><table[^>]{0,25}><tr><td><a href="[^>]{20,60}"><br><b>\x20<font[^>]{0,60}>[^<]{5,150}</font></b><a href="[^>]{20,60}"><br><br>\x20<a href="[^>]{20,60}"><img[^>]{20,80}></a>\x20</td></tr></table>\x20<br><br>
+find_regular /\x20Newsletter \d{1,4} - [a-z]{2,20} \d\d[a-z]{2}, \d{4} In This Issue\x20{4}Enjoy today's articles!\x20
+html_raw_regular /\x20[ \x20]{0,25}<br> ?<hr[^>]{0,60}><a target="_blank" href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{40,}>\x20\x20{1,5} {0,5}<img alt="[^>"]{0,30}Click here[^>"]{0,30}" [^>]{5,80}></a><br> ?<hr[^>]{0,60}>&nbsp
+html_raw_regular /<body>\x20<style>[^<]{5,60}</style>\x20<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{2,50}">[^<]{5,120}</a>\x20<style>[^<]{5,60}</style>\x20</body>
+html_raw_regular /\x20<BODY>.{5,80}<br>.{5,80} <a href="mailto:[a-z0-9._-]{1,30}@[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{2,50}</a>.{0,20}<br>.{5,80}<br>.{5,80}</BODY>
+find_regular /\x20>>> http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{2,20} <<<\x20
+html_raw_regular /\x20<BODY[^>]{0,20}>\x20<FONT[^>]{0,20}>[^<]{5,50}<BR>[^<]{5,50}</FONT><BR>\x20<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{2,25}">.{3,50}</a></BODY>
+html_raw_regular /\x20<body>[^<]{3,80}<br><br>\x20<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,50}</a>\x20<br><br>[^<]{3,80}</body>
+html_raw_regular /\x20<BODY>[\x20\x20]{1,2}<DIV>.{60,200}<\/DIV>[\x20\x20]{1,2}<DIV>.{0,10}<\/DIV>[\x20\x20]{1,2}<DIV><A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,25}<\/A><\/DIV><\/BODY>
+html_raw_regular /\x20<BODY>.{0,2}<BR>.{5,50}<BR>.{0,2}<A HREF="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,50}<\/a>.{0,2}<\/BODY>
+html_raw_regular /\x20<BODY[^>]{0,20}>.{1,2}<DIV .{100,}<\/DIV>.{1,2}<DIV .{30,120}<\/DIV>.{1,2}<DIV .{50,150}<\/DIV><BR>.{1,2}<DIV .{100,}<\/DIV>.{1,2}<DIV .{30,120}<\/DIV>.{1,2}<DIV .{20,60}<A .{0,2}href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{5,50}<\/A>.{3,30}<\/DIV><\/BODY>
+html_raw_regular /\x20<body>.{2,20} [a-z0-9._-]{1,30}@[-.a-z0-9]{1,40}\.[a-z]{2,4} {0,5}<br>.{2,30}<style>[^<]{2,100}<\/style>.{2,20}<br>.{3,20}<br>.{3,60}<\/style>.{0,2}<\/body>
+html_raw_regular /\x20<BODY>[\x20\x20 ]{1,5}<\/?p>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,50}<\/a>[\x20\x20]{1,4}<\/BODY>
+html_raw_regular /\x20<BODY><style>.{250,}<\/style>.{0,2}<center>.{0,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><img .{50,100}><\/a><br>.{0,2}<style>.{150,}<\/style><\/BODY>
+html_raw_regular /\x20<BODY><table>.{0,2}<tr><td><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/">.{0,2}<img [^>]{50,150}><\/a><br>.{0,2}<br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/">.{20,150}<\/table>.{0,2}<br><br><br>.{30,250}<br>.{100,}<\/BODY>
+html_raw_regular /\x20<body>.{0,2}<style>.{2,120}<center>.{0,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><img [^>]{5,50}><\/a><br>.{0,2}<style>.{2,120}<\/center>.{0,2}<\/body>
+html_raw_regular /\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<DIV.{5,60}<A[ \x20\x20]{1,2}href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{5,40}<\/A>.{5,40}<DIV.{5,100}<DIV.{1,25}<A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/"><IMG .{50,150}<\/A><\/DIV><\/BODY>
+html_raw_regular /<body><table[^>]{0,80}><tr.{50,100}<\/tr><tr.{50,100}<\/tr><tr.{5,30}<hr[^>]{0,20}><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{3,40}<\/a><hr[^>]{0,20}>.{0,10}<\/tr><tr.{50,100}<\/tr><\/table><\/body>
+html_raw_regular /\x20<BODY><a href="[-.a-z0-9]{1,40}\.[a-z]{2,4}"[^>]{0,20}>[\x20\x20]{1,2}<img src="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{3,10}" [^>]{50,100}><\/a><\/BODY>
+html_raw_regular /\x20<BODY><div.{5,20}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><img .{5,50}<\/a><\/div><\/a><\/BODY>
+find_regular /\x20-{20,80}\x20 {1,5}[^\x20]{10,80}\x20{2} {1,5}\d{1,2}% OFF [^\x20]{10,80}\x20{2}-{20,80}\x20{2}
+html_raw_regular /\x20<BODY><table>.{2,20}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/"><img .{50,180}<\/a><br>.{2,20}<a href="[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{20,120}<\/table><\/BODY>
+html_raw_regular /\x20<body[^>]{0,20}>[\x20\x20]{1,2}<table.{10,100}<br>.{5,80}<br><br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{10,100}<br>.{5,50}\x20<\/table>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><\/a>[\x20\x20]{1,2}<\/body>
+html_raw_regular /<body>[\x20\x20]{1,2}.{5,120}<br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,20}">[^<]{2,40}<\/a><br><br><br>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><\/a>[\x20\x20]{1,2}<\/body>
+html_raw_regular /\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<TABLE[^>]{0,100}><TR><TD><DIV.{20,150}<BR><DIV[^>]{0,25}><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{20,120}<\/a><\/DIV><BR>.{25,100}<\/TD><\/TR><\/TABLE>[\x20\x20]{1,2}<\/BODY>
+html_raw_regular /\x20<\/HEAD><BODY[^>]{0,20}>[\x20\x20]{1,2}<p>.{250,}<\/p>[\x20\x20]{1,2}<p>.{200,}<br \/>[\x20\x20]{1,2}<br \/>.{20,150}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/">.{50,180}<\/a>.{2,30}<\/p>[\x20\x20]{1,2}<\/BODY>
+html_raw_regular /\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<center>[^>]{5,100}<br><A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,15}">[^<]{3,25}<\/A><br>.{20,80}<\/center>[\x20\x20]{1,2}<\/BODY>
+html_raw_regular /\x20<BODY[^>]{0,25}>.{5,80}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/.{1,20}<br>[\x20\x20]{1,2}<img .{5,100}<\/img>[\x20\x20]{3,6}<\/BODY>
+html_raw_regular /\x20<BODY[^>]{0,25}>.{0,6}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20?">.{5,80}<br><br>.{0,6}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20?">.{5,180}<br><br>.{0,10}.{5,180}<br>.{5,180}<\/BODY>
+html_raw_regular /\x20<BODY>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{5,100}<\/a><br><br>[\x20\x20]{1,2}.{50,}<\/BODY>
+html_raw_regular /\x20<html><body[^>]{0,20}><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{2,20}">.{3,100}<\/a><\/body><\/html>[\x20\x20]{1,2}
+html_raw_regular /\x20<BODY[^>]{0,20}>[\x20\x20]{2,4}.{100,}<br>[\x20\x20]{1,2}<br>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{2,20}">.{2,150}<\/a>[\x20\x20]{2,4}<\/BODY>
+html_raw_regular /\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}[^<]{50,}<br>[\x20\x20]{1,2}<br>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{5,30}<\/a>[\x20\x20]{2,8}<\/BODY>
+html_raw_regular /\x20<BODY>.{2,40}<br><br>.{2,60}<br>.{2,120}<br>.{2,25}<br>.{2,60}<br><br>.{2,80} <a href="mailto:[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}"><b>[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}<\/b><\/a><\/BODY>
+html_raw_regular /\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<DIV>.{30,}<\/DIV>[\x20\x20]{1,2}<DIV>&nbsp<\/DIV>[\x20\x20]{1,2}<DIV><FONT[^>]{0,25}><A[ \x20\x20]{0,3}href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{1,30}<\/A><\/FONT><\/DIV><\/BODY>
+html_raw_regular /\x20<html><body[^>]{0,20}><b><br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,25}">[^<]{2,50}<\/a><\/b><\/body><\/html>[\x20\x20]{1,2}
+html_raw_regular /\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<\/BODY>[\x20\x20]{1,2}
+html_raw_regular /\x20<body>[\x20\x20]{1,2}<table.{20,80}<tr>.{0,10}<td>.{20,150}<br \/>.{20,100}<br \/>.{0,15}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,40}">.{1,60}<\/a><br \/>.{20,100}<br \/>.{100,}<\/td>[\x20\x20 ]{1,5}<\/tr>[\x20\x20]{1,2}<\/table>[\x20\x20]{1,2}<\/body>
+find_regular /\x20[^\x20]{2,20}\|[^\x20]{2,20}\x20[^\x20]{5,50} http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^\x20]{2,25}\x20
+html_raw_regular /\x20<[^>]{40,150}/> {0,3}[\x20\x20]{1,2}<A HREF="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{5,120}"> ?<IMG [^>]{5,80}"><\/A><BR\/><BR\/>[\x20\x20]{1,2}<A HREF="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{5,120}"> ?http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{5,120}<\/A>[\x20\x20]{1,2}<[^>]{40,150}/> {0,3}[\x20\x20]{1,2}
+html_raw_regular /\x20<BODY>[\x20\x20]{1,2}[^<]{0,50}<BR>[\x20\x20]{1,2}<A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{0,10}">[^<]{0,50}<\/A>[\x20\x20]{1,2}<\/BODY>
+find_regular /[^\x20]{3,150}\x20[^\x20]{3,150}\x20{3}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{0,150}
+html_raw_regular /\x20<STYLE><\/STYLE>[ \x20\x20]{0,2}<\/HEAD>[ \x20\x20]{0,2}<BODY>[ \x20\x20]{0,2}[^\x20\x20]{1,100}[ \x20\x20]{0,2}<\/BODY>
+find_regular /\$\d{2,6}[,.]\d{3}.{1,50}for.{1,50}\$\d{3}
+find_regular /Click.here.{1,100}http:\/\/[a-z0-9.]{1,10}
+@[-.a-z0-9]{1,40}\.best>?$
+@[-.a-z0-9]{1,40}\.pro>?$
+@[-.a-z0-9]{1,40}\.live
+@[-.a-z0-9]{1,40}\.icu
+@[-.a-z0-9]{1,40}\.wang
+^<3582e01d-4839-f1b5-82f7-418410429a54@[-.a-z0-9]{1,40}\.[a-z]{2,4}>$
+@[-.a-z0-9]{1,40}\.club>?$
+@[-.a-z0-9]{1,40}\.trade>?$
+@[-.a-z0-9]{1,40}\.stream>?$
+@[-.a-z0-9]{1,40}\.party>?$
+@[-.a-z0-9]{1,40}\.faith>?$
+@[-.a-z0-9]{1,40}\.date>?$
+@[-.a-z0-9]{1,40}\.space>?$
+@[-.a-z0-9]{1,40}\.review>?$
+@[-.a-z0-9]{1,40}\.bid>?$
+<a00[\w\-\.]{1,20}\@.*\.[\w\.\-]{1,10}\>
+<[a-z]{1,20}\@[a-z0-9]{1,20}\.club\>
+<(sd|sc|sa|sch|s(\.|\-|\_)?(chu|au|ci|ca|ce|cg|ch|che|chr|co|ci|c|le|l(i|y)|la|lo|lu|lw|lv|mi|ma|me|mo|mu|mc|m|mie|ne|ng|nd))(\w{1,20})\@.*\.[\w\.\-]{1,10}\>
+^.{200,}
+@[-.a-z0-9]{1,40}\.win>?$
+@[-.a-z0-9]{1,40}\.top>?$
+<"[a-z]{2,15} [a-z]{2,15}" <[a-z0-9]{2,20}
+<[a-z0-9._-]{1,35}@rambler.ru>
+[a-zA-Z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.jp>?$
+^<[a-zA-Z0-9._-]{1,25}@[-.a-z0-9]{1,30}\.[a-z]{2,4}>$
+^application/zip name="MICROSOFT_[a-z0-9]{6,20}_[\._-a-z0-9]{4,20}\.zip"$
+<Inv\# [0-9a-f]{4,12} for PO\# [0-9a-f]{4,12}
+^(Possible Spam \: |Probable Virus Outbreak\: )?(\d{1,2}(122016|022027|052024|012006)\d{5,25}|\d{10,30})
+^\d{3,25} Incidencia en la entrega
+^application/zip name="[a-z0-9]{6,20}_[\._-a-z0-9]{4,20}\.zip"$
+\Your Amazon\.com order has dispatched \(\#\d{1,5}\-\d{2,10}\-\d{2,10}\)\>
+from Exchahge by service\.mail\..{5,50} with Microsoft SMTP
+from Pickup by server\.mail\..{5,50} with Microsoft SMTP
+<\d{4,15} (pen|under)[\w]{1,20}
+^application/zip name="EMAIL_\d{4,20}_(pen|under)[\w]{1,20}\.zip"$
+<\d{15,26}\.pdf
+<Emailing\:\s*[0-9\_]{1,25}
+\application\/zip\\s*name\="INFO_\d{1,15}_a[\_\-0-9a-z]{1,15}\.zip"
+^"Color @ MRH Solicitors" <color\d{1,6}@[^>]{4,25}>$
+<[a-z0-9._-]{1,25}@PayPal\.com>
+[a-z0-9._-]{1,25}@bbb.org
+Intuit No Reply[^<>]{0,50}<[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}>
+<[a-z0-9._-]{1,35}@[-.a-z0-9]{0,20}intuit\.com>
+<Linked ?In[^<>]{0,50}<[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}>
+<[a-z0-9._-]{1,25}@linkedin\.com>
+<[a-z0-9._-]{1,25}@bounce.linkedin\.com>
+<[a-z0-9._-]{1,35}@[-.a-z0-9]{0,20}intuit\.com>
+^attachment filename="?[^\x20]{1,140}\.img"?
+image/jpeg|name=["'][^\x20]{1,30}\.png
+application/zip[\x20\x20 ]{1,10}name="?[PIU]\d{4,12}\.zip"?
+application/zip[\x20\x20 ]{1,10}name="?[A-Z]{1,4}\d{4,12}\.zip"?
+^application/vnd.ms-excel[\x20\x20 ]{1,10}name="[^\x20]{6,30}\.xls"$
+application/msword[\x20\x20 ]{1,10}name="?Invoice[A-Z]{2,4}[0-9]{5,9}\.docx?"?
+attachment[\x20\x20 ]{1,10}filename="?\d{1,10}_\d{1,10}\.(docx?|xlsx?|pdf)"?\>
+attachment[\x20\x20 ]{1,10}filename="msg\d{2,12}\.(7z|zip|rar|z|gz)"\>
+attachment[\x20\x20 ]{1,10}filename="Fax[0-9a-f]{6,16}\.rar"\>
+inline[\x20\x20 ]{1,10}filename="[0-9a-f]{16}\.jpg"\>
+application\/pdf[\x20\x20 ]{1,10}name="MX-[a-zA-Z0-9]{3,6}_2017\d{4}_\d{6}\.pdf"\>
+^application/msword[\x20\x20 ]{1,10}name="Scan_\d{1,5}_\d{4,16}\.docx?"
+^application/octet-stream[\x20\x20 ]{1,10}name="?img-201\d{5}-\d{4,8},jpeg\.zip"?$
+application/zip[\x20\x20 ]{1,10}name="\d{1,2}\.\d{2}.\d{8,20}\.zip"
+application/octet-stream[\x20\x20 ]{1,10}name="[A-Z]{1,3}\d{10,20}-xls\.zip"
+application/zip[\x20\x20 ]{1,10}name="\d{10,12}\-\(0\d\)\.zip"
+^application\/zip[\x20\x20 ]{1,10}name="Paket von \d{6,16} \d{6,16}\.zip"$
+application/vnd.ms-word.document.macroEnabled.12 name="?BookingConfirmation_\d{1,8}_.{5,50}\.docm"?
+application/vnd.ms-excel[\x20\x20 ]{1,10}name="?[\x20\x20 ]{1,2}_\d{2,12}_\d{2,12}.xls"?
+application/vnd.ms-excel[\x20\x20 ]{1,10}name="?Invoice_INV\d{4,15}\.xls"?
+application/zip name="?ORDER\-\d{3,6}\-\d{4,10}\-\d{4,10}\.zip"?
+attachment filename="\d{15,26}\.pdf\.zip"
+^application\/zip name="INFO_\d{1,20}_a[\w\-\.]{1,20}\.zip"
+^application\/zip name="INVOICE_\d{1,25}_[\w\-]{1,20}\.zip"
+^application\/zip name="\d{1,25}(sc|sa|sch|s(\.|\-|\_)?)\w{1,20}\.zip"
+^application\/zip[\x20\x20 ]{1,10}name="Message_from_\d{6,20}\.wav\.zip"$
+^application\/zip[\x20\x20 ]{1,10}name="[^"]{1,30}@[^"]{1,50}\.pdf\.zip"$
+^application\/zip[\x20\x20 ]{1,10}name="Freemobile_\d{8,12}_\d{2}-\d{2}-\d{4}\.zip"$
+^attachment\s+filename="[^"]{1,30}\.js"
+^application\/octet-stream\s+name="[^"]{1,50}\.js"
+^application\/msword[\x20\x20 ]{1,10}name="[A-Z0-9]{15} - Confirmation with Photos\.doc"$
+image/jpeg|name=["'][^\x20]{1,30}\.jp[e]?g
+<name="[^\x20]{1,80}\.html?"
+<name=.{2,25}\.mp3
+^[13][0-9a-zA-Z]{30,34}\x20
+^[13][0-9a-zA-Z]{30,33}\x20
+\x20ompany: http://www\.[-.a-z0-9]{20,40}\.org/\x20
+^[^\x20]{5,100}\x20
+^[^\x20]{2,20}\x20{1,3}
+\d{15,25}\x20{1,4}
+<head>\x20\x20{4}<!-- NAME: GIFT GIVING -->\x20\x20{4}<!--\[if gte mso 15\]>\x20\x20{4}<xml>\x20\x20{6}<o:officedocumentsettings>\x20\x20{8}<o:allowpng />\x20\x20{8}<o:pixelsperinch>96</o:pixelsperinch>\x20\x20{6}</o:officedocumentsettings>\x20\x20{4}</xml>\x20\x20{4}<!\[endif\]-->\x20\x20{4}<meta charset="UTF-8">\x20\x20{4}<meta http-equiv="x-ua-compatible" content="IE=edge">\x20\x20{4}
+<div dir="ltr"><br clear="all"><br>-- <br>Regards<br>\w{3,25} [-a-zA-Z0-9_]{3,25}\x20</div>\x20
+^Dear [\w\d\.\_\-]{1,90},\x20{2}
+^Hi [^ ]{1,90} how are you?.$
+\x20----=_NextPart[_\.A-Z0-9]{1,40}\x20
+<style type="text/css">header::before \{\s*content: "[^\x20]{100,}
+^Hi\x20{2}Any chance of getting this invoice paid, please\?\x20{2}Many thanks\x20{2}[ A-Za-z]{2,30}\s*
+^Dear [a-z0-9._-]{1,25}, Attached is the invoice for the product\(s\) and.or service\(s\) you recently purchased\. We appreciate doing business with you! Regards, [ A-Za-z]{2,30}\s*$
+</table>\s{100,}
+^It.s time to [^\x20]{10,150}\x20[^\x20]{20,200}\x20ll [^\x20]{10,150}\x20ll [^\x20]{10,150}\x20*$
+<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}"[^>]{0,50}>Claim it Now</a>
+\x20<p>S pozdravem[^<]{0,60}</p>\x20{2}
+<body>\s*<h1><a \x20?href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}">
+<body>\s*<h1><a \x20?href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}"><span \x20style="[^"]+"><span \x20style="color:#FF0000"><strong>[^<]{30,130}</strong></span></span></a></h1>
+<br />\s*Does this sound like fun to you\? <a href="http://[-.a-zA-Z0-9]{1,40}\.ru/\?profile=[a-z0-9]{2,80}"[^>]*>My user is [a-zA-Z0-9]{2,15}</a>\. Please\s+hurry\.</p>
+<a [^>]*\<href="http://emarketingdeguatemala\.com/[^"]{0,80}"[^>]*>SI NO PUEDE VER LA IMAGEN POR FAVOR CLICK AQUI</a>
+^Hola, aqui les mando las fotos de la fiesta.\x20[^\x20]{30,}\x20
+^wollen Frau heute Abend\?\x20{2}[^\x20]{10,30}\s*$
+<body><meta[^>]*>\s*<title>[^<]{5,50}</title>\s*<center>\s*
+<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,100}">See\s+the\s+method\s+revealed.?</a>
+Good day!\x20{2}You should know this[^\x20]{10,80}\x20it.s strongly confidential[^\x20]{10,50}\x20{2}[^\x20]{10,50}\x20[^\x20]{10,50}\x20*
+<h1 [^>]{0,50}\<style="[^"]{0,160}\<font-size: ?[4-9][0-9]px[^"]{0,160}"[^>]*>
+<a[ \x20][^>]{100,}>
+^[^\x20]{15,80}\x20{3}Check It Out Here For More Information\x20
+^[^\x20]{2,50}\x20{2}Ahr You received my photos\?.{30,120}$
+^Hi [a-z0-9._-]{1,25}\s*How are you\?\s*My name is [A-Z][a-z]{1,12}\.\s*I am [1-3][0-9] years old\. I am from
+<body>\s*<p>\s*<img src="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,50}"[^>]*></p>\s*
+^[^\x20]{20,200}\x20<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{0,150}">Hot Offer!</a>\x20*$
+^[^\x20]{10,80}\x20<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{0,200}">Welcome!</a>\x20*$
+^\x20*[^\x20]{2,50}\x20{0,2}
+<a href="https?://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^.]{0,12}Invoice_?\d{6,12}\.zip">[^<]{2,80}</a>
+<Please review the details of the payment <a href="https?://[-.a-z0-9]{1,40}\.[a-z]{2,4}/download\.[^"]{0,150}">here.?</a>
+<a [^>]*\<href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,150}"[^>]*>
+^provare questo : http://[-.a-zA-Z0-9]{1,40}\.[a-zA-Z]{2,4}/[^\x20]{10,60}\x20$
+^Begin forwarded message\s+http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^.]{1,50}\.php\x20{2}
+^http://[-.a-zA-Z0-9]{1,40}\.[a-zA-Z]{2,4}/inf\.htm\x20*$
+^zkuste to ?: http://[-.a-zA-Z0-9]{1,40}\.[a-zA-Z]{2,4}/164\.html\?[^\x20]{10,50}\x20*$
+\x20.{0,30}\<credit note.{0,30}\<is attached.{0,30}\<open.{0,30}\<Adobe Reader. If you do not have an Adobe Reader.{0,40}\<download\sit: http://get.adobe.com/reader/\x20{2}
+<are registered marks of the Project Management Institute, Inc\.\s-{60,}\s[^\x20]{0,80}\<Unsubscribe.{0,80}$
+^\x20*[^\x20]{0,50}podnik[^\x20]{0,50}\s[^\x20]{0,50}\<podrobnosti[^\x20]{0,50}\x20{2}
+^\x20{2}Cher client[ ,]{1,3}[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}
+^\x20{2,8}Gem Cox\x20[- 0-9]{10,16} cellinvoice\s*$
+^Your order acknowledgment is attached.\x20{2}[^\x20]{20,60}\x20{2}[^\x20]{2,20}\x20{2}[^\x20]{2,20}\x20*$
+<href="[^"]{10,60}/uver.html">
+<!DOCTYPE HTML PUBLIC "[^"]{10,60}">\x20
+<meta http-equiv="refresh" content="0 url=http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{0,50}">
+^\*{30,}\x20[ A-Z]{10,50}\x20\*{30,}\x20
+^[^\x20]{0,30}\<download[^\x20]{0,50}\<payment[^\x20]{0,50}\x20{2}
+^DOCUMENT NOTIFICATION.[^\x20]{2,30}\x20{2}DOCUMENT NAME: [^\x20]{2,30}\x20{2}
+<body><p><span[^>]{0,80}>[^<]{2,20}<br />\s*
+<<body>\x20+<p[^>]{0,80}>[^<]{60,}</p>\x20+
+style.{8}BACKGROUND-COLOR: rgb\(0,255,255\).{5} COLOR: rgb\(255,0,0\).{5} FONT-SIZE: \d{2}px.{8}Ship\s*Free.{5}nbsp
+^[^\x20]{0,30}\<attached file[^\x20]{0,30}\x20{1,4}Assistant Vice President, FBR service\x20{1,2}Management Corporation\s*$
+^Username:"[^"]{1,120}" Password:"[^"]{1,12}" Valid From:"[^"]{5,32}" Valid To:"[^"]{5,32}"$
+<p[^>]{0,180}>
+^\x20?Your ADP past due invoice is ready for your review at .{0,20}\<Online Invoice Management.{0,20}\x20{2}
+<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{0,50}cnrmf[^>]{0,50}>[^<]{0,50}\<stock\>[^<]{0,50}</a>
+^hello [a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20*$
+^[^\x20]{10,90}\x20http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{0,50}oprah\.html$
+^[^\x20]{3,30}\x20[^\x20]{0,30}\<Beautiful Russian Girl[^\x20]{0,50}\x20
+\x20Local Mom.s Shocking Story http://[-.a-z0-9]{1,20}\.[a-z]{2,4}/[^\x20]{2,20}\x20
+^<p><b>[^<]{0,90}\<click on link below</b></p>\s{0,5}
+^Dear [a-zA-Z0-9._-]{1,45}@[-.a-z0-9]{1,40}\.[a-z]{2,4} !\x20[^\x20]{100,}\x20
+I.m\x20{1,2}from [A-Z][- a-zA-Z]{2,20}\.\x20{2}
+find_regular /http://[-a-z0-9]{1,40}\.([-.a-z0-9]{1,40}\.[a-z]{2,4})/?
+^I have a VERY exciting \*{2}Members Only\*{2} invite\.{3}\x20{2}==> http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{0,50}\x20{2}
+<span style="[^"]{0,90}font-size: large[^"]{0,90}"><a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{0,50}">\s{0,2}Make money and change your life NOW! Within 5 minutes!</a><br ?/>
+Pokud m.te z.jem o na.i nab.dku, napi.te n.m na [a-zA-Z0-9._-]{1,25}@jobcz.org a my v.m za.leme v.ce informac.\.\x20
+<body>\x20?<img src="http://[-.a-z0-9 ]{1,40}\.[a-z]{2,4}/[^=]{0,50}=[a-zA-Z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}">\x20?</body>
+@ ?a ?t ?l ?a ?n ?t ?a ?c ?o ?n ?s ?u ?l ?t ?i ?n ?g ?\.[^\x20]{2,60}\x20{2}
+<(tr)>\s{0,10}<(td)[^>]{0,120}><br/>\s{0,10}
+\x20[a-z0-9._-]{1,25}@key\.com\x20{2}
+^Transaction is completed\. .\d{3,6} has been successfully transfered\.\x20[^\x20]{60,160}\x20[^\x20]{250,}$
+^Please review you payment details\.\x20Transaction id #[a-z0-9]{10,20}\x20{0,5}$
+^<html>\x20<div[^>]{0,80}>\x20
+\x20[^\x20]{30,60}\*\x20{2}
+^[^\x20]{2,40}\x20
+^\x20<p>[^<]{20,150}[.?]</p>\x20{0,2}$
+^[^\x20]{2,20}\x20[^\x20]{80,160}\x20[^\x20]{30,90}\x20?[^\x20]{10,90}\x20
+^\x20<center>\x20<p><font color=#FF0000><h1>[^<]{3,20}\<Girls[^<]{3,20}<br>[^<]{3,20}\<fuck[^<]{3,20}</h1></font></p>\x20
+<Go undercover with a .500 gift voucher for each store[^\x20]{0,60}\x20
+<<body[^>]{0,120}><div[^>]{0,160}><a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/?">
+<img alt="BrandViagra \d\d% OFF"[^>]{0,120}>
+^\*{3} PLEASE DO NOT RESPOND TO THIS EMAIL \*{3} Your federal Tax payment \(ID: [0-9A-Z]{10,20}\), recently sent from your checking account was returned by the your financial institution\. For more information, please download notification, using your security PIN \d{4,8}\.\x20
+<<body[^>]{0,60}>[ \x20]{1,8}<p>[ \x20]{1,8}
+First Name: [A-Z][a-z]{1,20}\x20yes: [a-z]{1,10}\x20Hair Color: [a-z]{1,10}\x20
+<font style="BACKGROUND-COLOR: white"[ \x20]{1,3}color=white>[^<]{1,120}</font>
+^Is this email not displaying correctly\?\x20View it in your browser http://[a-z0-9]{1,10}\.burnfatblog[a-z]{0,10}\.ru/[^\x20]{0,50}$
+<html>\s{0,5}<body>\s{0,5}<h1[^>]{0,120}>[^<]{5,40}</h1>
+<tr>\s{0,10}<td[^>]{0,80}>
+^[^\x20]{10,120}\x20{2,4}
+<table[^>]{0,160}>\s{0,2}<tr>\s{0,5}<td[^>]{0,160}>
+<body[^>]{0,120}>\x20
+<tbody><tr><td[^>]{0,160}>Hello,<br><br>You recently asked to reset your Facebook password\.<a href="(http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,50})"[^>]{0,80}><br>Click here to change your password\.</a><br>
+<<a href="http://[-_/.a-z0-9]{20,80}/www.microsoftstore.com.store.html\?store/msusa/en_US/home" title="Microsoft Store"
+^<input id="[^"]{1,20}"  border="0"  src="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^"]{0,80}"  type="image" />
+<<BODY[^>]{0,80}>\x20
+^\x20{0,3}Hello, [^\x20]{2,30}\x20{2}[^\x20]{20,60}\x20{2}
+\x20<div>[^<]{3,255}</div>\x20
+html_raw_regular /<body>[^<]{0,5}<h3>[^<]{0,5}<center><form[^>]{1,50}
+<body>\x20 {0,50}\x20 {20,80}<font[^>]{3,80}>[^<]{3,30}
+<table[^>]{0,50}>[ \x20\x20]{0,5}<tr>[ \x20\x20]{0,8}<td[^>]{0,60}>[ \x20\x20]{0,10}
+\x20<body[^>]{0,120}>\x20<div[^>]{0,80}>\x20[^<]{0,10}<table[^>]{0,120}>\x20
+^[ \x20]{0,150}\<[+0-9]{9,13}[^\x20]{5,255}\x20{1,4}$
+\x20? {0,60}<body>[^<]{0,50}<p>[^<]{0,50}<font[^>]{0,30}>[^<]{0,80}
+^[^\x20]{3,40}\<[0-9]{3,5} ?\$[^\x20]{3,50}\<www.[-a-z0-9]{1,40}\.[a-z]{2,4}\x20{0,2}$
+^[^\x20]{0,30}\<Processing Service[^\x20]{0,20}\x20
+^.{0,20}DEPOSIT.{1,20}Profit.{1,20}%.{1,30}\<WWW\.[-.a-zA-Z0-9]{1,40}\.[a-zA-Z]{2,4}$
+\x20 {0,4}<body[^>]{0,50}>\x20 {0,5}
+^<!DOCTYPE[^>]{30,80}>\x20<HTML><HEAD><TITLE></TITLE>\x20</HEAD>\x20<BODY>\x20{2}<html><body>
+<img src=[^ >]{0,50}paypal\.com[^>]{0,120}>
+<img src=[^>]{0,50}intuit\.com[^>]{0,120}>
+\x20 {0,5}<body[^>]{0,50}>\x20 {0,5}<p>\x20
+\x20<body[^>]{0,150}>\x20?<div[^>]{0,80}>\x20<table[^>]{0,150}><tr><td>\x20<div[^>]{0,200}>\x20?
+^New messasge\x20[^\x20]{3,30}message for you: "I am on-line now, let`s chat\?" Total unread messages - \d{1,2}\. Read now\.\. \x20$
+^[a-zA-Z]{2,20} [a-zA-Z]{2,20} sent you a message:\x20
+^ +\x20[^\x20]{3,80}\x20[^\x20]{3,120}\x20http://[-.a-z0-9]{1,40}\.ru\x20 +\x20{1,5}$
+\x20<table[^>]{0,80}>\x20 {0,6}
+^[^\x20]{3,50}\x20{2}
+\x20[^\x20]{3,120}\<My Verizon\x20Total Balance Due: \$\d{1,3}\.\d{2}\x20Scheduled Automatic Payment Date: \d{2}/\d{2}/20\d{2}\x20
+^http://[-.a-z0-9]{0,15}store[-.a-z0-9]{1,20}\.[a-z]{2,4}/\x20{2}[^\x20]{3,25}\x20{1,5}$
+\x20 {0,5}<body >\x20<table[^>]{0,200}><tr><td>[^<]{0,10}
+\x20<html>\x20 {0,5}<head>\x20 {0,5}<meta[^>]{10,80}>\x20 {0,5}</head>\x20 {0,5}<body> {0,5}\x20{2}<h1><b>[^<]{1,50}</b>\x20{2}<script>[^<]{250,}
+^[^\x20]{3,80}\x20{2}
+^[^\x20]{3,80}\x20[^\x20]{50,200}\x20[^\x20]{3,80}\x20[^\x20]{3,120}\<http://[-.a-z0-9]{1,40}\.ru/\x20{1,5}$
+^Date: [^\x20]{3,40}\x20Message-Id: [^\x20]{3,80}\x20X-abte: [^\x20]{3,40}\x20rom: [^\x20]{3,80}\x20To: [^\x20]{3,80}\x20Subject: [^\x20]{3,80}\x20X-Accept-Language: [^\x20]{1,10}\x20pproved-by: [^\x20]{3,80}\x20User-Agent: [^\x20]{3,30}\x20MIME-Version: [^\x20]{1,10}\x20ontent-Type: [^\x20]{3,80}\x20ontent-Transfer-Encoding: [^\x20]{1,10}\x20{1,2}$
+<table[^>]{0,50}>[^<]{1,50}<tr>[^<]{1,50}<td[^>]{0,50}>[^<]{1,50}<font[^>]{0,80}>[^<]{40,80}<br />[^<]{40,80}<br />[^<]{60,120}</font>[^<]{1,50}</td>[^<]{1,50}</tr>[^<]{1,50}</table>
+\x20</HEAD>\x20<BODY[^>]{0,25}>\x20[^<]{1,80}<a href="[a-z0-9]{3,10}\.ru">[^<]{1,50}</a></BODY></HTML>
+^ {20,50}\x20$
+\x20{2}[^\x20]{40,120}\x20Our e-mail: \<[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}Sincerely, [^\x20]{2,25}\x20{0,3}$
+^\x20<font[^>]{0,50}><b><a href="http://http://[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{1,100}\<making \$\d{3} [^<]{1,80}</a></b></font>\x20$
+\x20You can receive more information, having sent a request along with your resume to this email [a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20[^\x20]{3,80}\x20{1,3}$
+\x20{2}[-*+]{1,120}\x20{2}\+ 1 - \d{3} - \d{3} - \d{4}\x20{2}[-*+]{1,120}\x20{2}[^\x20]{3,50}\x20[).] [^\x20]{3,80}\x20[).] [^\x20]{3,80}\x20[).] [^\x20]{3,80}\x20
+^\x20[^\x20]{3,80}\x20[^\x20]{3,80}: [a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4} [^\x20]{3,80}\x20{2}cheers\x20{1,3}$
+^[^\x20]{60,150}\x20http:// \x20{0,3}$
+^[^\x20]{80,180}<br>\x20[a-z]{2,15}\.ru\x20{1,2}$
+\x20{5}<br/><br>\x20<img src="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/open.php[^>]{1,50}"></body></html>\x20{1,2}$
+^[^\x20]{1,30}\x20[^\x20]{30,150}\x20{1,2}[^\x20]{30,150}\x20[^\x20]{30,120}\x20[^\x20]{3,40}\x20{2}[a-z0-9._-]{1,25}@hotmail\.com\x20{0,5}$
+^[^\x20]{1,30}\x20[^\x20]{3,80}\x20[^\x20]{3,30}\<http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/?\x20[^\x20]{1,30}\x20{0,3}$
+^\x20?<script language="JavaScript" type="text/javascript">\x20[^\x20]{150,}document\.write\([a-z0-9]{1,25}\)\x20</script>$
+X\-KSE\-AttachmentFiltering\-Interceptor\-Info\s*\-\-\-\-\-\-\=\_Part\_\d{3,10}\_\d{3,15}\.\d{3,20}
+^\x20?<script type='text/javascript'>\x20<!--\x20var s="[^\x20]{3,150}"\x20[^\x20]+-->\x20</script>\x20$
+^[^\x20]{3,80} -> http://[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{7,}$
+Hi,\x20s promised your changelog is attached,\x20[^\x20]{3,80}\x20{1,5}
+PLEASE,\x20\x20KINDLY READ[^\x20]{10,80}\x20\x20[^\x20]{3,40}\x20{1,5}
+^<script>[^\x20]{200,}</script>$
+^http://[-.a-z0-9]{1,40}\.com\x20{3}$
+\x20http://[a-z0-9]{1,8}\.[-.a-z0-9]{1,40}\.ru/\?[^\x20]{3,80}\x20
+<html>[^<]{1,50}<a {1,3}href="http://thingdream.[a-z]{2,4}">
+[^\x20]{3,30}\x20[^\x20]{2,10}\x20ye\x20{1,5}
+^\x20{0,2}>>>[^\x20]{3,30}\x20{4}http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/?\x20{4}[^\x20]{3,80}\x20{1,5}$
+\x20<BODY[^>]{0,25}>\x20<DIV[^>]{0,35}><FONT[^>]{0,35}><IMG[^>]{0,60}[ \x20]src="cid:[^>]{10,50}"></FONT></DIV></BODY>
+^\x20{2}>>>[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2,4}$
+^[^\x20]{5,}\x20{2}[^\x20]{3,30} <www\.[-.a-z0-9]{1,40}\.[a-z]{2,4}>\x20$
+^[^\x20]{3,80}\x20[^\x20]{3,150}\x20[^\x20]{3,80}\x20http://[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{1,3}$
+^\x20{0,2}[^\x20]{3,25}\x20{2}[^\x20]{30,}\x20{2}http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/?\x20$
+^[^\x20]{3,80} http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/?\x20{2}\(c\) \d{4} [^\x20]{3,50}\x20$
+\x20<BODY>\x20<img [^>]{0,100}>\x20<p><span[^>]{0,35}>\x20[^\x20]{3,40}\x20</span></p>\x20</BODY>
+^\x20?[^\x20]{3,80}\x20{2}[^\x20]{3,120} http://[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{1,2}$
+^[^\x20]{2,80}\x20{30,}[^\x20]{2,80}\x20$
+\x20?<DIV><FONT[^>]{1,50}><A href="http://[^>]{1,50}><IMG[^\x20]{1,50}\x20[^\x20]{1,150}\x20lign=baseline border=0></A></FONT></DIV>\x20
+^[^\x20]{3,120}\x20={60,90}\x20[^\x20]{3,80}\x20\. [^\x20]{3,80}\x20http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{80,180}\x20{2}2\.
+\x20<BODY><table[^>]{0,25}><tr><td><a href="[^>]{20,60}"><br><b>\x20<font[^>]{0,60}>[^<]{5,150}</font></b><a href="[^>]{20,60}"><br><br>\x20<a href="[^>]{20,60}"><img[^>]{20,80}></a>\x20</td></tr></table>\x20<br><br>
+\x20Newsletter \d{1,4} - [a-z]{2,20} \d\d[a-z]{2}, \d{4} In This Issue\x20{4}Enjoy today's articles!\x20
+^[^\x20]{3,50}\x20http://[-.a-z0-9]{1,40}\.[a-z]{2,4} [^\x20]{2,30}\x20[^\x20]{1,50}\x20{15,25}[^\x20]{3,80}\x20{1,3}$
+^\x20?<DIV><A href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}"><IMG[^>]{5,150}></A></DIV>\x20{0,3}$
+\x20[ \x20]{0,25}<br> ?<hr[^>]{0,60}><a target="_blank" href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{40,}>\x20\x20{1,5} {0,5}<img alt="[^>"]{0,30}Click here[^>"]{0,30}" [^>]{5,80}></a><br> ?<hr[^>]{0,60}>&nbsp
+^\x20?[^\x20]+\x20{2}[^\x20]{3,50} [a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{3,30}\x20{1,3}$
+^[^\x20]{2,20}\x20{2}[^\x20]{3,80}\x20[^\x20]{2,30} [a-z0-9._-]{1,35}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{3,60}\x20$
+^http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/\?\d{2,25}\x20[^\x20]{5,150}\x20$
+^TO UNSUBSCRIBE [^\x20]{5,150} PRIVACY POLICY [^\x20]{2,50}\x20opyright [^\x20]{5,150}\x20$
+^\x20?[^\x20]{50,}\x20[^\x20]{10,100}\x20[\do]{3}.?[\do]{3}.?[\do]{4}\x20{1,3}$
+^[^\x20]{1,15}\x20{2}[^\x20]{5,80}\x20[^\x20]{5,80} http://[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{1,20}\x20{1,3}$
+<body>\x20<style>[^<]{5,60}</style>\x20<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{2,50}">[^<]{5,120}</a>\x20<style>[^<]{5,60}</style>\x20</body>
+^\x20[^\x20]{2,100}\x20{3}[^\x20]{2,}\x20{2}[^\x20]{2,100}\x20http://[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{1,3}$
+^\x20?[^\x20]{2,100}\x20{2}[^\x20]{2,100}\x20http://[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{5,}\x20{1,3}$
+^Win http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/!\x20{0,5}$
+\x20<BODY>.{5,80}<br>.{5,80} <a href="mailto:[a-z0-9._-]{1,30}@[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{2,50}</a>.{0,20}<br>.{5,80}<br>.{5,80}</BODY>
+\x20>>> http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{2,20} <<<\x20
+^ \d{1,2} [a-z]{3,10} 200\d {1,3}[a-z ]{2,30}\x20.+\x20 200\d\x20{1,3}$
+^[^\x20]{5,}\x20{2}[^\x20]{2,25} http://[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{3,50}\x20{1,3}$
+^[^ \x20]{2,15}, http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{3,15}\x20{1,2}$
+^[^\x20]{20,80}\x20[^\x20]{5,50}\x20To unsubscribe [^\x20]{5,60}\x20{2}To subscribe [^\x20]{5,60}\x20{2}[^\x20]{5,60} [^a-z0-9._-]?[a-z0-9._-]{1,30}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{50,200}\x20{2}[^\x20]{200,}\x20$
+^[^\x20]{5,40}\x20{3}[0-9 ]{7,13}\x20{1,3}$
+^[^\x20]{3,50}\x20[^\x20]{5,120}\x20[^\x20]{3,60} http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{2,20}\x20[*\x20]{4,10}[^\x20]{3,60} http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^\x20]{2,20}\x20{1,3}$
+\x20<BODY[^>]{0,20}>\x20<FONT[^>]{0,20}>[^<]{5,50}<BR>[^<]{5,50}</FONT><BR>\x20<a href="http://[-.a-z0-9]{1,40}\.[a-z]{2,4}/[^>]{2,25}">.{3,50}</a></BODY>
+\x20<body>[^<]{3,80}<br><br>\x20<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,50}</a>\x20<br><br>[^<]{3,80}</body>
+^\x20?<!DOCTYPE HTML .{200,}<\/BODY><\/HTML>\x20$
+^http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{120,}
+\x20<BODY>[\x20\x20]{1,2}<DIV>.{60,200}<\/DIV>[\x20\x20]{1,2}<DIV>.{0,10}<\/DIV>[\x20\x20]{1,2}<DIV><A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,25}<\/A><\/DIV><\/BODY>
+^[^\x20]{10,100}\x20{2}www\.[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20$
+^[^<\x20]{5,120}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{3,30}">[^<]{5,50}<\/a>\x20$
+^[^\x20]{5,50}\x20{2}[^\x20]{5,80}\x20[^\x20]{5,200}\x20[^\x20]{5,80}\x20http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20$
+^[\x20\x20]{0,2}<DIV>.{5,150}<\/DIV>[\x20\x20]{1,2}<DIV>.{5,60}<\/DIV>[\x20\x20]{1,2}<DIV>.{5,40}<A [\x20\x20]{0,2}href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{5,40}<\/A><\/FONT><\/DIV>[\x20\x20]{0,2}$
+^[^\x20]{2,20}\x20{2}www.[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20$
+\x20<BODY>.{0,2}<BR>.{5,50}<BR>.{0,2}<A HREF="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,50}<\/a>.{0,2}<\/BODY>
+\x20<BODY[^>]{0,20}>.{1,2}<DIV .{100,}<\/DIV>.{1,2}<DIV .{30,120}<\/DIV>.{1,2}<DIV .{50,150}<\/DIV><BR>.{1,2}<DIV .{100,}<\/DIV>.{1,2}<DIV .{30,120}<\/DIV>.{1,2}<DIV .{20,60}<A .{0,2}href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{5,50}<\/A>.{3,30}<\/DIV><\/BODY>
+\x20<body>.{2,20} [a-z0-9._-]{1,30}@[-.a-z0-9]{1,40}\.[a-z]{2,4} {0,5}<br>.{2,30}<style>[^<]{2,100}<\/style>.{2,20}<br>.{3,20}<br>.{3,60}<\/style>.{0,2}<\/body>
+\x20<BODY>[\x20\x20 ]{1,5}<\/?p>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{3,50}<\/a>[\x20\x20]{1,4}<\/BODY>
+^\x20[^\x20]{3,15}\x20{2}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}
+^[^\x20]{5,50}\x20 {0,15}V[^\x20]{1,30}\x20 {0,15}I[^\x20]{1,30}\x20 {0,15}A[^\x20]{1,30}\x20 {0,15}G[^\x20]{1,30}\x20 {0,15}R[^\x20]{1,30}\x20 {0,15}A[^\x20]{1,30}
+^<style>[^>]{5,100}<\/style>[^<]{3,40} <a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/">[^<]{1,20}<\/a><style>[^>]{5,100}<\/style>[\x20\x20]{0,2}$
+\x20<BODY><style>.{250,}<\/style>.{0,2}<center>.{0,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><img .{50,100}><\/a><br>.{0,2}<style>.{150,}<\/style><\/BODY>
+\x20<BODY><table>.{0,2}<tr><td><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/">.{0,2}<img [^>]{50,150}><\/a><br>.{0,2}<br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/">.{20,150}<\/table>.{0,2}<br><br><br>.{30,250}<br>.{100,}<\/BODY>
+\x20<body>.{0,2}<style>.{2,120}<center>.{0,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><img [^>]{5,50}><\/a><br>.{0,2}<style>.{2,120}<\/center>.{0,2}<\/body>
+\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<DIV.{5,60}<A[ \x20\x20]{1,2}href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{5,40}<\/A>.{5,40}<DIV.{5,100}<DIV.{1,25}<A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/"><IMG .{50,150}<\/A><\/DIV><\/BODY>
+^[^\x20]{10,80}\x20{2}[^\x20]{10,180}\x20http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4} {0,3}\x20{1,5}$
+<body><table[^>]{0,80}><tr.{50,100}<\/tr><tr.{50,100}<\/tr><tr.{5,30}<hr[^>]{0,20}><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{3,40}<\/a><hr[^>]{0,20}>.{0,10}<\/tr><tr.{50,100}<\/tr><\/table><\/body>
+\x20<BODY><a href="[-.a-z0-9]{1,40}\.[a-z]{2,4}"[^>]{0,20}>[\x20\x20]{1,2}<img src="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{3,10}" [^>]{50,100}><\/a><\/BODY>
+\x20<BODY><div.{5,20}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><img .{5,50}<\/a><\/div><\/a><\/BODY>
+\x20-{20,80}\x20 {1,5}[^\x20]{10,80}\x20{2} {1,5}\d{1,2}% OFF [^\x20]{10,80}\x20{2}-{20,80}\x20{2}
+^[^\x20]{5,60}\x20{2}- http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4} -\x20{2}[^\x20]{5,60}\x20{0,3}$
+^[^\x20]{5,80}\x20{2}http:\/\/\x20$
+\x20<BODY><table>.{2,20}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/"><img .{50,180}<\/a><br>.{2,20}<a href="[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{20,120}<\/table><\/BODY>
+^[^\x20]{5,80}\x20www\.[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{4,}$
+^[^\x20]{2,25}\x20{2}[^\x20]{200,}\x20 {0,25}\x20 {0,12}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/?\x20{2}[^\x20]{2,25}\x20{0,3}$
+\x20<body[^>]{0,20}>[\x20\x20]{1,2}<table.{10,100}<br>.{5,80}<br><br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{10,100}<br>.{5,50}\x20<\/table>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><\/a>[\x20\x20]{1,2}<\/body>
+<body>[\x20\x20]{1,2}.{5,120}<br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,20}">[^<]{2,40}<\/a><br><br><br>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}"><\/a>[\x20\x20]{1,2}<\/body>
+\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<TABLE[^>]{0,100}><TR><TD><DIV.{20,150}<BR><DIV[^>]{0,25}><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{20,120}<\/a><\/DIV><BR>.{25,100}<\/TD><\/TR><\/TABLE>[\x20\x20]{1,2}<\/BODY>
+\x20<\/HEAD><BODY[^>]{0,20}>[\x20\x20]{1,2}<p>.{250,}<\/p>[\x20\x20]{1,2}<p>.{200,}<br \/>[\x20\x20]{1,2}<br \/>.{20,150}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/">.{50,180}<\/a>.{2,30}<\/p>[\x20\x20]{1,2}<\/BODY>
+\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<center>[^>]{5,100}<br><A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,15}">[^<]{3,25}<\/A><br>.{20,80}<\/center>[\x20\x20]{1,2}<\/BODY>
+\x20<BODY[^>]{0,25}>.{5,80}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/.{1,20}<br>[\x20\x20]{1,2}<img .{5,100}<\/img>[\x20\x20]{3,6}<\/BODY>
+\x20<BODY[^>]{0,25}>.{0,6}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20?">.{5,80}<br><br>.{0,6}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20?">.{5,180}<br><br>.{0,10}.{5,180}<br>.{5,180}<\/BODY>
+^[^\x20]{10,120}\x20 \x20http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20 \x20[^\x20]{10,100}\x20 \x20 \x20[^\x20]{10,120}\x20{1,3}$
+\x20<BODY>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{5,100}<\/a><br><br>[\x20\x20]{1,2}.{50,}<\/BODY>
+\x20<html><body[^>]{0,20}><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{2,20}">.{3,100}<\/a><\/body><\/html>[\x20\x20]{1,2}
+\x20<BODY[^>]{0,20}>[\x20\x20]{2,4}.{100,}<br>[\x20\x20]{1,2}<br>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{2,20}">.{2,150}<\/a>[\x20\x20]{2,4}<\/BODY>
+\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}[^<]{50,}<br>[\x20\x20]{1,2}<br>[\x20\x20]{1,2}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">.{5,30}<\/a>[\x20\x20]{2,8}<\/BODY>
+^[^\x20]{5,60}\x20[^\x20]{2,30} http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/\x20[^\x20]{60,}\x20{1,3}$
+^[^\x20]{100,200}\x20http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20[^\x20]{15,45}\x20{1,3}$
+\x20<BODY>.{2,40}<br><br>.{2,60}<br>.{2,120}<br>.{2,25}<br>.{2,60}<br><br>.{2,80} <a href="mailto:[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}"><b>[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}<\/b><\/a><\/BODY>
+^[^\x20]{5,80}\x20[^\x20]{5,150}\x20[^\x20]{2,25}\x20{2} {0,5}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{1,3}$
+^[^\x20]{5,80}\x20{2}[a-z]{1,15}\.narod\.ru\x20{3}$
+\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<DIV>.{30,}<\/DIV>[\x20\x20]{1,2}<DIV>&nbsp<\/DIV>[\x20\x20]{1,2}<DIV><FONT[^>]{0,25}><A[ \x20\x20]{0,3}href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}">[^<]{1,30}<\/A><\/FONT><\/DIV><\/BODY>
+\x20<html><body[^>]{0,20}><b><br><a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,25}">[^<]{2,50}<\/a><\/b><\/body><\/html>[\x20\x20]{1,2}
+\x20<BODY[^>]{0,20}>[\x20\x20]{1,2}<\/BODY>[\x20\x20]{1,2}
+\x20<body>[\x20\x20]{1,2}<table.{20,80}<tr>.{0,10}<td>.{20,150}<br \/>.{20,100}<br \/>.{0,15}<a href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{1,40}">.{1,60}<\/a><br \/>.{20,100}<br \/>.{100,}<\/td>[\x20\x20 ]{1,5}<\/tr>[\x20\x20]{1,2}<\/table>[\x20\x20]{1,2}<\/body>
+\x20[^\x20]{2,20}\|[^\x20]{2,20}\x20[^\x20]{5,50} http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^\x20]{2,25}\x20
+\x20<[^>]{40,150}/> {0,3}[\x20\x20]{1,2}<A HREF="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{5,120}"> ?<IMG [^>]{5,80}"><\/A><BR\/><BR\/>[\x20\x20]{1,2}<A HREF="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{5,120}"> ?http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{5,120}<\/A>[\x20\x20]{1,2}<[^>]{40,150}/> {0,3}[\x20\x20]{1,2}
+^[^\x20]{2,15}\x20{2}[^\x20]{50,}\x20{2}[a-z0-9._-]{1,25}@[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2,6}$
+^[^\x20]{5,50}\x20{2}[^\x20]{50,}\x20{2}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/?\x20{1,4}$
+\x20<BODY>[\x20\x20]{1,2}[^<]{0,50}<BR>[\x20\x20]{1,2}<A href="http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^>]{0,10}">[^<]{0,50}<\/A>[\x20\x20]{1,2}<\/BODY>
+^\x20{2,4}Be smart[^\x20]{0,250}\x20{2,4}[^\x20]{5,150}\x20{1,3}$
+^\x20?[^\x20]{2,60}\x20http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{1,3}$
+^[^\x20]{10,150} http:\/\/[-.a-z0-9]{1,50}\.[a-z]{2,4}\/[^\x20]{1,20}\x20{0,2}$
+[^\x20]{3,150}\x20[^\x20]{3,150}\x20{3}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\x20{2}[^\x20]{0,150}
+\x20<STYLE><\/STYLE>[ \x20\x20]{0,2}<\/HEAD>[ \x20\x20]{0,2}<BODY>[ \x20\x20]{0,2}[^\x20\x20]{1,100}[ \x20\x20]{0,2}<\/BODY>
+^[^\x20]{1,150}\x20[^\x20]{0,150}\x20[^\x20]{1,150}\x20[^\x20]{1,150}\x20{2}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}\/[^\x20]{0,25}\x20{1,5}$
+^[^\x20]+\x20[^\x20]+\x20[^\x20]+\x20{2}http:\/\/[-.a-z0-9]{1,40}\.[a-z]{2,4}[^\x20]{0,5}\x20{2}[^\x20]+\x20
+^\x20?[^\x20]{15,100}\x20[^\x20]{15,100}\x20{1,2}http:\/\/[-.a-z0-9]+\.[a-z]{2,4}\/?\x20{1,3}$
+\$\d{2,6}[,.]\d{3}.{1,50}for.{1,50}\$\d{3}
+Click.here.{1,100}http:\/\/[a-z0-9.]{1,10}

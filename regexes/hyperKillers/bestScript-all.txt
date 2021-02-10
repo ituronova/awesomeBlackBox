@@ -1,0 +1,4 @@
+{"regex":"^([a-z]|[0-9]| |,|'|\\.|!|\\?){1,4000}$","file":"stackoverflow-above_04_3.txt"}
+{"regex":"^\\<![ \\r\\n\\t]*--[\\S\\s]{400,6000}--[ \\r\\n\\t]*\\>$","file":"stackoverflow-above_06_5.txt"}
+{"regex":"^.{0,4980}(\\<\\/div\\>|\\<\\/p\\>|\\<\\/section\\>|\\<\\/blockquote\\>|\\<\\/br\\>|\\.\\s)$","file":"runAgain-06-01/stackoverflow-above_00_1.txt"}
+{"regex":"^[\\s\\S]{1,8192}$","file":"uniq-above_04_5.txt"}

@@ -1,0 +1,7 @@
+(\x20[a-zA-Z\x20][a-zA-Z0-9\x20]*[^\x20]*[^\x20]\x20){50,}
+PUTOLF\s+((\S+\s+){4}[^\s]{256}|(\S+\s+){6}[^\x20]{512})
+\x20reate\s+(aggregate\s+)*function\s+\S{50}
+^.*HTTP.*\r\n(.+\x20\s+.+\r\n){31,}
+^Accept\x20Language\x20\s*(\w{1,36}\s*(\x20|\x20|\x20|\x20|\x20)\s*)*[^\x20\x20\x20\x20\n]{37}
+^Content-Disposition\x20(\s*|\s*\r?\n\s+)[^\r\n]*\{[\da-fA-F]{8}(-[\da-fA-F]{4}){3}-[\da-fA-F]{12}\}
+^Location\s*\x20\s*\w+\x20\/\/([^\n]*\x20)?[^\n]{128}

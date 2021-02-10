@@ -1,0 +1,2231 @@
+^\\Q${templates_root}\\E\\/(.+)\\.(${types})$
+^\\Q${tmp_base}$tmp_prefix\\E(\\d*)\\.(\\d*)
+^\\Q${tz_candidate}\\E$
+^\\Q$1
+^\\Q$1\\E
+^\\Q$1\\E$
+^\\Q$a
+^\\Q$a\\E
+^\\Q$abs_app_path
+^\\Q$abs_base_path\\E
+^\\Q$abs_inc\\E$
+^\\Q$action{text}
+^\\Q$action{what}
+^\\Q$addr\\E\\|ip=
+^\\Q$address\\E
+^\\Q$alias.\\E(.+)$
+^\\Q$answer
+^\\Q$answer\\E
+^\\Q$any\\E
+^\\Q$APIBase\\E
+^\\Q$app
+^\\Q$app_class\\E::Bot::
+^\\Q$app_class\\E::Server::
+^\\Q$apr
+^\\Q$arg
+^\\Q$arg\\E
+^\\Q$arg\\E$
+^\\Q$arg\\E(?:-|\\z)
+^\\Q$args{_dbname}\\E\\.
+^\\Q$args{'alias'}.
+^\\Q$args{function}\\E:
+^\\Q$args{OLD}\\E\\.
+^\\Q$args{prefix}\\E::
+^\\Q$argv{$key}
+^\\Q$assertion\\E$
+^\\Q$attr\\E
+^\\Q$attr->{name}\\E\\s*=
+^\\Q$AttributePrefix\\E(.+)
+^\\Q$avail_lang\\E(_[A-Z]+)?$
+^\\Q$aza\\E
+^\\Q$aza_kana\\E
+^\\Q$b\\E
+^\\Q$base/
+^\\Q$base\\E
+^\\Q$base\\E#?
+^\\Q$base\\E\\:\\:
+^\\Q$base\\Es?
+^\\Q$base_class\\E
+^\\Q$base_lang\\E_
+^\\Q$base_path\\E
+^\\Q$base_path\\E/?
+^\\Q$base_path\\E::
+^\\Q$baseclass\\E::Model::
+^\\Q$basename\\E\\.orig(-[[:alnum:]-]+)?\\.tar\\.$ext$
+^\\Q$basename\\E\\.orig-([[:alnum:]-]+)\\.tar\\.$re_ext$
+^\\Q$basename\\E\\.orig-([[:alnum:]-]+)\\.tar\\.$re_ext\\.asc$
+^\\Q$basename\\E\\.orig-[[:alnum:]-]+\\.tar\\.$opts{extension}$
+^\\Q$basename\\E\\.orig\\.tar\\.$opts{extension}$
+^\\Q$basename\\E\\.orig\\.tar\\.$re_ext$
+^\\Q$basename\\E\\.orig\\.tar\\.$re_ext\\.asc$
+^\\Q$basenamerev\\E\\.debian\\.tar\\.$re_ext$
+^\\Q$basenamerev\\E\\.tar\\.$comp_ext_regex$
+^\\Q$basepackage\\E$
+^\\Q$basepath\\E\\\\
+^\\Q$BASEVERSION\\E(?:_(?:svn|git)[0-9]+)?$
+^\\Q$block->[-1]\\E
+^\\Q$bom
+^--\\Q$bound\\E
+^--\\Q$boundary\\E
+^--\\Q$boundary\\E$
+^--\\Q$boundary\\E--$
+^--\\Q$boundary\\E(?:--)?\\s*$
+^--\\Q$boundary\\E\\s*
+^--\\Q$boundary\\E\\s*$
+^--\\Q$boundary\\E--\\s*$
+^\\Q$build_src\\E/.*?(im|cd|iup).*$
+^\\Q$build_town\\E(.+)\u00ef\u00bc\u0088(.+)\u00ef\u00bc\u0089$
+^\\Q$build_town_kana\\E(.+)\\(.+$
+^\\Q$c\\E
+^\\Q$caller*\\E
+^\\Q$caller\\E::([^:]+)$
+^\\Q$candidate\\E
+^\\Q$canon_url\\E
+^\\Q$cap\\E
+^\\Q$cf->{location}->[0]\\E
+^\\Q$cfgFile\\E$
+^\\Q$class
+^\\Q$class\\E$
+^\\Q$class\\E\\:\\:
+^\\Q$clause\\E(\\.|\\z)
+^\\Q$close
+^\\Q$cmd\\E
+^\\Q$cmd\\E \\b @?
+^\\Q$cmdstr\\E
+^\\Q$cmdstr\\E\\s*(?:($cmds))?\\s*(.*)
+^\\Q$cmdstr\\E\\s+
+^\\Q$codeblock_marker\\E\\s*$
+^\\Q$command_name\\E\\s(.+)
+^\\Q$commodity
+^\\Q$common_prefix\\E
+^\\Q$cookie[3]\\E
+^\\Q$cookie_path\\E
+^\\Q$country\\E$
+^\\Q$CPAN::Config->{build_dir}\\E
+^\\Q$creator\\E$
+^\\Q$ctag\\E
+^\\Q$cur
+^\\Q$curdir\\E
+^\\Q$current\\E/*(([^/]+)/?)
+^\\Q$cvs_base\\E/(.*?)(/.*)?
+^\\Q$cwd\\E
+^\\Q$cwd\\E\\/(.+)$
+^\\Q$d\\E
+^\\Q$d\\E[\\\\](.*)$
+^\\Q$data{'seq1'}->{'name'}
+^\\Q$data->{path_col_sep}\\E
+^\\Q$date\\E(.*)$
+^\\Q$dav\\E
+^\\Q$dbase\\E/(.*)$
+^\\Q$dbase\\E[/\\\\]*(.+)$
+^\\Q$dbase\\E\\W?
+^\\Q$Dec_char\\E(.+)$
+^\\Q$delim$nested$eledelim\\E\\s*
+^\\Q$dir
+^\\Q$dir\\/\\E
+^\\Q$dir\\E
+^\\Q$dir\\E([/\\\\]?.*)
+^\\Q$dir\\E([/\\\\]?.*)$
+^\\Q$Dir\\E/
+^\\Q$dir\\E[\\/\\\\]
+^\\Q$dir\\E\\\\(blib\\\\.+)$
+^\\Q$dir\\E\\/?
+^\\Q$dir->{'dir'}\\E(\\/.*)$
+^\\Q$directive
+^\\Q$directory\\E.|\\.pm$
+^\\Q$dirname\\E\\/
+^\\Q$disk->{devpath}\\E|\\Q$dmpath\\E$
+^\\Q$distdir\\E(?:/|$)
+^\\Q$distribution-\\E[\\d.]+
+^\\Q$doc\\E$
+^\\Q$docroot\\E
+^\\Q$domain
+^\\Q$domain\\E$
+^\\Q$dotslash
+^\\Q$DRefPrefix\\E(.*)
+^\\Q$dstpath/
+^\\Q$e\\E$
+^\\Q$el\\E$
+^\\Q$eledelim\\E
+^\\Q$en\\E\\s*([,-:]*)\\s*(.*)
+^\\Q$end
+^\\Q$end_marker\\E\\s*$
+^\\Q$env_base\\E_
+^\\Q$env_base\\E_[_0-9A-Za-z]+$
+^\\Q$ENV{PWD}\\E/?
+^\\Q$ENV{'SCRIPT_NAME'}
+^\\Q$ENV{'SCRIPT_NAME'}\\E
+^\\Q$env->{SCRIPT_NAME}\\E
+^\\Q$enviroment->{SCRIPT_NAME}\\E
+^\\Q$environment{SCRIPT_NAME}\\E
+^\\Q$environment->{SCRIPT_NAME}\\E
+^\\Q$exclude\\E(::|$)
+^\\Q$exp_msg\\E at .+ line \\d+\\.?$
+^\\Q$exp_msg\\E at \\S+ line \\d+\\.?$
+^\\Q$exp_path\\E
+^\\Q$expected
+^\\Q$expected\\E
+^\\Q$exportfile\\E$
+^\\Q$f\\E$
+^\\Q$family_bits$device_bits\\E
+^\\Q$family_bits\\E
+^\\Q$field\\E$
+^\\Q$field\\E\\:([^\\n]*)
+^\\Q$field\\E\\:[^\\n]*\\n?
+^\\Q$field\\E\\:\\s*([^\\n]*?)\\;?\\s*$
+^\\Q$File::Find::name
+^\\Q$file_ext\\E$
+^\\Q$filePath\\E
+^\\Q$fileSecurePath\\E
+^\\Q$fio->{localDir}
+^\\Q$first_dir\\E
+^\\Q$fmt\\E\\s*-\\s*(.+)\\z
+^\\Q$fname\\E: 
+^\\Q$fname\\E\\/
+^\\Q$folder
+^\\Q$folder\\E\\/?
+^\\Q$freq\\E\\*
+^\\Q$from\\E
+^\\Q$from\\E$
+^\\Q$from\\E(?:_\\d+)$
+^\\Q$full_dbgp_prefix/\\E(\\d+)/(.*)$
+^\\Q$fullpath\\E\\/?
+^\\Q$fworkprefix\\E
+^\\Q$h{$cf}{id}\\E
+^\\Q$hate_path/
+^\\Q$hdr\\E:[ \\t]+(.*?\\n(?![ \\t]))
+^\\Q$hdr\\E[ \\t]*:[ \\t]*(.*?\\n(?![ \\t]))
+^\\Q$header
+^\\Q$header\\E
+^\\Q$header\\E(.*?)$CRLF(?=$boundary)
+^\\Q$hear_me
+^\\Q$holname\\E
+^\\Q$HOSTNAME\\E (-?\\d+) 
+^\\Q$hyp\\E
+^\\Q$char\\E
+^\\Q$check\\E
+^\\Q$checking\\E$
+^\\Q$child\\E/?$
+^\\Q$choice\\E$
+^\\Q$i\\E$
+^\\Q$id\\E
+^\\Q$ID\\E/bin:
+^\\Q$id\\E\\b
+^\\Q$in
+^\\Q$in\\E
+^\\Q$inc\\E/
+^\\Q$inc_base$dir\\E
+^\\Q$inc_base\\E(.*)
+^\\Q$inc_path\\E(.*)\\.pm$
+^\\Q$incomplete
+^\\Q$indent
+^\\Q$index\\E
+^\\Q$index\\E$
+^\\Q$index_dir\\E\\/?
+^\\Q$index_name
+^\\Q$input\\E
+^\\Q$input\\E$
+^\\Q$inst_root\\E$
+^\\Q$internal\\E
+^\\Q$k\\E$
+^\\Q$k\\E=.*$
+^\\Q$key$self->{sep}\\E
+^\\Q$key\\E
+^\\Q$Key\\E
+^\\Q$key\\E$
+^\\Q$key\\E(.+)
+^\\Q$key\\E=
+^\\Q$KEY_SEPARATOR\\E(.+)
+^\\Q$key1\\E \\Q$key2\\E
+^\\Q$l\\E.
+^\\Q$lastkey\\E=
+^\\Q$lib_path\\E\\/
+^\\Q$LIBS_IDX{libs}{$Key}[0]\\E
+^\\Q$line
+^\\Q$Lingua::Wordnet::SUBDELIM
+^\\Q$link\\E$
+^\\Q$lnk\\E
+^\\Q$location
+^\\Q$location\\E
+^\\Q$location\\E(/|$)
+^\\Q$lop\\E(?:/|$)
+^\\Q$lower_lang\\E$
+^\\Q$m_path\\E
+^\\Q$Magic
+^\\Q$MAGIC\\E(\\S+)
+^\\Q$main_module_path\\/\\E([^\\/]+)\\.pm
+^\\Q$marker\\E(\\S+)(?:\\h+([^\\n]+))?\\n
+^\\Q$mask\\E
+^\\Q$mask\\E[\\\\\\/]*(.+)
+^\\Q$masterPageGUID
+^\\Q$maybe_stem
+^\\Q$mbase
+^\\Q$md5
+^\\Q$MD5Magic
+^\\Q$me\\E!
+^\\Q$meas\\E[ ]
+^\\Q$method
+^\\Q$method\\E$
+^\\Q$mimetype\\E=
+^\\Q$mimetype\\E=(.*)$
+^\\Q$mod\\E::
+^\\Q$modbase\\E::
+^\\Q$module\\E version \\Q$version\\E required
+^\\Q$mpath\\E
+^\\Q$mutants_dir\\E/(.*?)/(.*$)
+^\\Q$my_home
+^\\Q$my_nick\\E:\\s*
+^\\Q$n\\E$
+^\\Q$name
+^\\Q$name\\E
+^\\Q$name\\E:
+^\\Q$name\\E_
+^\\Q$name\\E=(.*)$
+^\\Q$name_wanted\\E-\\d+\\.\\d+\\.gir$
+^\\Q$namespace:
+^\\Q$namespace\\E(?:::|$)
+^\\Q$namespace\\E::
+^\\Q$namespace_dir\\E
+^\\Q$newquoter
+^\\Q$nick
+^\\Q$nick\\E$
+^\\Q$node->{quoter}
+^\\Q$now1\\E$
+^\\Q$object_prefix\\E
+^\\Q$objectHeaderGUID
+^\\Q$objectTrailerGUID
+^\\Q$old\\E
+^\\Q$oldname\\E
+^\\Q$oPps->{Name}\\E$
+^\\Q$opt{sbase}\\E
+^\\Q$options->{strip_leading}\\E
+^\\Q$Opts{Masquerade_From}\\E
+^\\Q$orig_server
+^\\Q$original_nonce\\E.
+^\\Q$origpath\\E
+^\\Q$out_prefix\\E
+^\\Q$p$self->{path_col_sep}\\E
+^\\Q$p\\E
+^\\Q$p\\E$
+^\\Q$p\\E(.*)
+^\\Q$p\\E\\_?(\\w+?)_(.*)$
+^\\Q$p{type}\\E::
+^\\Q$pack\\E::
+^\\Q$package\\E$
+^\\Q$PACKAGE\\E::
+^\\Q$param\\E$
+^\\Q$parm\\E$
+^\\Q$parser_libdir\\E\\/(.+)\\.pm$
+^\\Q$part\\E
+^\\Q$part\\E$
+^\\Q$partial\\E
+^\\Q$parts[0]\\E
+^\\Q$parts[1].$parts[0]\\E$
+^\\Q$pat\\E
+^\\Q$path
+^\\Q$path\\E$
+^\\Q$path\\E/
+^\\Q$path\\E/(.+)\\.pm\\Z
+^\\Q$path\\E:
+^\\Q$path\\E\\/?
+^\\Q$path_lop\\E(?:/|$)
+^\\Q$pb_open\\E(\\d+(.)?)\\Q$pb_close\\E\\s*$
+^\\Q$perllibdir\\E[\\'/]
+^\\Q$phyml_result_file_prefix\\E
+^\\Q$place_holder\\E:
+^\\Q$plugin\\E
+^\\Q$plugin_class\\E::Model::
+^\\Q$pod_dir
+^\\Q$podRoot\\E.
+^\\Q$prd\\E
+^\\Q$pre\\E(.*)$
+^\\Q$pre\\E(.+?)?
+^\\Q$pre\\E(?:::|$)
+^\\Q$prefix
+^\\Q$PREFIX
+^\\Q$prefix$nextchar\\E.
+^\\Q$prefix:
+^\\Q$PREFIX\\E
+^\\Q$prefix\\E
+^\\Q$prefix\\E(.*)
+^\\Q$prefix\\E(.+)$
+^\\Q$prefix\\E::
+^\\Q$prefix\\E\\/
+^\\Q$prefix\\E\\b
+^\\Q$prefix\\t
+^\\Q$prefs->{'rootdir'}\\E
+^\\Q$prefSep
+^\\Q$prev_indent\\E(.+)$
+^\\Q$printed\\E(\\s.*)?\\n
+^\\Q$project\\E/
+^\\Q$project_dir\\E
+^\\Q$project_path\\E(/rev/|/log[{/])
+^\\Q$project_root\\E
+^\\Q$prop\\E$
+^\\Q$proto
+^\\Q$q\\E
+^\\Q$qn\\E$
+^\\Q$r_con->{dira}
+^\\Q$r_con->{dirb}
+^\\Q$r_t\\E
+^\\Q$r->
+^\\Q$ra->{repos_root}\\E(/|$)
+^\\Q$re\\E\\s*$
+^\\Q$ref\\E\\=([A-Z]+)\\(0x[0-9a-fA-Z]+\\)$
+^\\Q$ref_A\\E\\=([A-Z]+)\\(0x[0-9a-f]+\\)$
+^\\Q$ref_B\\E\\=([A-Z]+)\\(0x[0-9a-f]+\\)$
+^\\Q$ref_type\\E\\=([A-Z]+)\\(0x[0-9a-f]+\\)$
+^\\Q$regex\\E$
+^\\Q$REGEX_TO_STRING_PREFIX\\E
+^\\Q$region\\E-
+^\\Q$relalias.\\E.+
+^\\Q$remote_base\\E/?
+^\\Q$remove
+^\\Q$removed\\E$
+^\\Q$repository\\E$
+^\\Q$repospath_start
+^\\Q$return
+^\\Q$return\\E
+^\\Q$rolename\\E$
+^\\Q$root
+^\\Q$root\\E
+^\\Q$root\\E$
+^\\Q$root\\E(.*)
+^\\Q$root\\E[\\\\/]
+^\\Q$root_dir
+^\\Q$rr\\E
+^\\Q$RT::rtname\\E\\b
+^\\Q$ru_path\\E
+^\\Q$s\\E
+^\\Q$scope\\E
+^\\Q$scope\\E$
+^\\Q$script_name\\E
+^\\Q$search_string\\E
+^\\Q$searchStr\\E
+^\\Q$sect\\E$
+^\\Q$section\\E$
+^\\Q$select\\E$
+^\\Q$self->
+^\\Q$self->{ strict_root }\\E
+^\\Q$self->{\"-\"}\\E
+^\\Q$self->{\"+\"}\\E
+^\\Q$self->{_script_url}?\\E
+^\\Q$self->{_syndicator}{prefix}
+^\\Q$Self->{basepath}\\E/?
+^\\Q$self->{conf}{RequireRealm}\\E$
+^\\Q$self->{dataroot}/\\E
+^\\Q$self->{depotbase}\\E/
+^\\Q$self->{incopy}[-1]{src_frompath}/
+^\\Q$self->{'key'}
+^\\Q$self->{multiValuesSeparator}\\E
+^\\Q$self->{name}::$self->{dispatch}::
+^\\Q$self->{path_col_sep}\\E(.*)
+^\\Q$self->{prefix}\\E
+^\\Q$self->{Prefix}\\E
+^\\Q$self->{'prefix'}\\E
+^\\Q$self->{quote_char}\\E
+^\\Q$self->{repos_root}\\E(/|$)
+^\\Q$self->{root_schema_url}\\E\\#
+^\\Q$self->{strip_path}\\E
+^\\Q$self->{trigger}
+^\\Q$Self->{url}\\E/?
+^\\Q$self->{'workspace'}\\E
+^\\Q$self->namespace\\E::
+^\\Q$sent\\E
+^\\Q$sep\\E+
+^\\Q$server_admin\\E$
+^\\Q$scheme\\E:
+^\\Q$sigil
+^\\Q$site\\E
+^\\Q$sname\\E$
+^\\Q$sName\\E$
+^\\Q$sName\\E_(\\d+)_$
+^\\Q$snip\\E
+^\\Q$snips[0]
+^\\Q$source_dir
+^\\Q$sr\\E/(.*)
+^\\Q$src\\E[\\(\\)\\d\\s:]*
+^\\Q$src\\E[\\d\\s:]*
+^\\Q$src_path\\E(\\/|$)
+^\\Q$src_target
+^\\Q$srcdir\\E
+^\\Q$srcpath
+^\\Q$srcpath/
+^\\Q$srcrootdir\\E
+^\\Q$srfs\\E/
+^\\Q$srchval\\E
+^\\Q$srchval\\E$
+^\\Q$stacktop\\E$
+^\\Q$start\\E::
+^\\Q$stash\\E::(?!\\z|.*::)
+^\\Q$state\\E\\s+(.+)
+^\\Q$steal_from
+^\\Q$string
+^\\Q$strip
+^\\Q$strip_root\\E
+^\\Q$SUBDELIM
+^\\Q$SUBSTITUTION_TAG\\E\\s*(.+?)\\s*$
+^\\Q$substring
+^\\Q$svn_base\\E(\\w+)
+^\\Q$svn_dir\\E/
+^\\Q$SWITCH_PREFIX_STR\\E
+^\\Q$sym\\E::
+^\\Q$symbol$;\\E(.*)
+^\\Q$system_root\\E/
+^\\Q$t2\\E$
+^\\Q$table\\E$
+^\\Q$tag\\E$
+^\\Q$Tag\\E$
+^\\Q$tag\\E$sep(.*?)$sep?$
+^\\Q$tag\\E(?: \\(\\d+\\))?$
+^\\Q$tag_prefix\\E(.*)
+^\\Q$tag_prefix\\E(?<tag>.*)
+^\\Q$tagname\\E$
+^\\Q$tar\\E[^/]*/
+^\\Q$target\\E
+^\\Q$target_dir\\E
+^\\Q$target{ $ident }\\E$
+^\\Q$template_name\\E$
+^\\Q$TERMINATOR\\E$
+^\\Q$terminator\\E\\n
+^\\Q$text
+^\\Q$text\\E
+^\\Q$textval\\E
+^\\Q$tftp_prefix\\E
+^\\Q$this->{_co}\\E\\/
+^\\Q$this->{ROOT}\\E::
+^\\Q$tie\\E
+^\\Q$tmp\\E$
+^\\Q$tmp_prefix\\E(\\d*)\\.(\\d*)
+^\\Q$to\\E$
+^\\Q$to\\E(?:_\\d+)$
+^\\Q$to_constraint\\E$
+^\\Q$token
+^\\Q$token\\E.*
+^\\Q$top_level\\E.
+^\\Q$topath\\E
+^\\Q$TopClass\\E/?$
+^\\Q$topdir\\E(.)(?:\\1)*
+^\\Q$topdir\\E[\\\\/]
+^\\Q$topdir\\E\\\\
+^\\Q$topdir\\E\\/
+^\\Q$topic
+^\\Q$TR{$tar}\\E
+^\\Q$type
+^\\Q$type$str\\E
+^\\Q$type\\E
+^\\Q$type\\E$
+^\\Q$type\\E((?:;.*)?)$
+^\\Q$type\\E(\\w+)\\s*(.*)$
+^\\Q$type\\E[ ]
+^\\Q$updir_str\\E
+^\\Q$uri\\E \\Q$alg\\E=([a-f0-9]{32,128})\\r\\n
+^\\Q$uri\\E \\Q$alg\\E=-1\\r\\n
+^\\Q$user\\E$
+^\\Q$username\\E:
+^\\Q$v\\E$
+^\\Q$v\\E/
+^\\Q$val\\E$
+^\\Q$value\\E
+^\\Q$var\\E$
+^\\Q$version\\E 
+^\\Q$version\\E$
+^\\Q$w\\E=
+^\\Q$want\\E
+^\\Q$warn_0\\E # (.*)$
+^\\Q$warn_0\\E # no warnings\\b
+^\\Q$warn_1\\E # (.*)$
+^\\Q$warn_1\\E # use warnings\\b
+^\\Q$warning\\E\\b.*\\n
+^\\Q$web_root\\E\\/
+^\\Q$webmaster_email\\E$
+^\\Q$webpath
+^\\Q$WebURL
+^\\Q$word
+^\\Q$word\\E
+^\\Q$ws\\E(.+)$
+^\\Q$x_traversal_path\\E
+^\\Q$y\\E ?
+^\\Q%\\^
+^\\\\Q((\\\\E\\\\s*append\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*delete\\\\s+(-?\\\\d+)\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*delete\\\\s+([^ ]+)?\\\\s*(.+)\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*delete\\\\s+([^ ]+)?\\\\s*\\\"(.+)\\\"\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*inline\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*insert\\\\s+(after|before)\\\\s+([^ ]+)?\\\\s*\\\"(.+)\\\"\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*insert\\\\s+(after|before)\\\\s+(\\\\d+)\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*merge(?:\\\\s+on\\\\s+(.*?))?\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*merge\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*merge\\\\s+(on)\\\\s+(.+)\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*prepend\\\\s*\\\\Q))\\\\E$
+^\\\\Q((\\\\E\\\\s*replace\\\\s*\\\\Q))\\\\E$
+^\\\\Q(/.*?)\\\\E.*
+^\\\\q(uit)?\\s*$
+^\\Q***************\\E$
+^\\Q../
+^\\Q.1.3.6.1.4.1.9.1.\\E\\d+$
+^\\Q.1.3.6.1.4.1.9.9.368.4.\\E\\d+
+^\\Q@{[ $self->req->base ]}\\E
+^\\Q\u00a5\u00a2\u00a5\u00af\u00a5\u00bb\u00a5\u00b9\u00a4\u00c7\u00a4\u00ad\u00a4\u00de\u00a4\u00bb\u00a4\u00f3\\E<html>
+^\\Q\u00a5\u00c7\u00a1\u00bc\u00a5\u00bf\u00a4\u00cf\u00a4\u00a2\u00a4\u00ea\u00a4\u00de\u00a4\u00bb\u00a4\u00f3\u00a1\u00a3\\E<html>
+^\\Q\u00b4\u00d6\u00b3\u00d6\u00a4\u00f2\u00b6\u00f5\u00a4\u00b1\u00a4\u00ca\u00a4\u00a4\u00cf\u00a2\u00c2\u00b3\u00c5\u00aa\u00a4\u00ca\u00a5\u00da\u00a1\u00bc\u00a5\u00b8\u00a4\u00ce\u00c1\u00ab\u00b0\u00dc\u00a1\u00a6\u00b9\u00b9\u00bf\u00b7\u00a4\u00f2\u00c9\u00d1\u00c8\u00cb\u00a4\u00cb\u00a4\u00aa\u00a4\u00b3\u00a4\u00ca\u00a4\u00ef\u00a4\u00ec\u00a4\u00c6\u00a4\u00a4\u00a4\u00eb\\E
+^\\Q^^\\E
+^\\Q</IfModule>\\E
+^\\QApp::GitHooks::Plugin::Test::\\E
+^\\Qapplication/json\\E
+^\\QC::DynaLib::__ANON__
+^\\QDBIx::Class::
+^\\QDEVNAME=\\E(.*)
+^\\QDEVTYPE=\\E(.*)
+^\\Qhttp://rt.cpan.org/NoAuth/Bugs.html?Dist=\\E(\\w+)
+^\\Qhttp://rt.cpan.org/NoAuth/ReportBug.html?Queue=\\E(\\w+)
+^\\Qif (typeof A4J != 'undefined') { if (A4J.AJAX) { with (A4J.AJAX) {\\E|\\Q}}};\\E$
+^\\Qinc\\E::
+^\\Qmain.*\\E$
+^\\QMAJOR=\\E(.*)
+^\\QMINOR=\\E(.*)
+^\\QMultiple values
+^\\Qname: DBIx-Class\\E$
+^\\Qno such column:
+^\\Qno such table:
+^\\QNote: including file:
+^\\QNote: including file:\\E(\\s+)(.*)
+^\\QNote: including file:\\E\\s+\\Q$include
+^\\Qone\\E
+^\\Qp5-$name-\\E[\\d.]+
+^\\QTemplate::Plugin
+^\\QTests were run but no plan was declared and done_testing() was not seen.\\E$
+^\\Qthree\\E
+^\\Qtwo\\E
+^\\QUsage: ->coderef2text(CODEREF)\\E
+^\r\n                      ([#]{2,4}\\s+(
+^\\R+|^[\t\\s]*\\R+
+^\\Recursive\\(var(\\d+)=\\{\\}, \\-\\[\\(?var\\1\\)?(\\.-|-1)\\]\\)$
+^\\Recursive\\(var(\\d+)=\\{\\}, \\+\\[var\\1\\]\\)$
+^\\s((
+^\\s*                                        # INITIAL WHITESPACE\n    (\n        (                                           # NOTE\n            (\n                (?P<note>[abcdefg])                     # NOTE NAME\n                ((?P<sharp>(is)+)|(?P<flat>(es)+)) ?    # ACCIDENTALS ?\n                (?P<octave>'+|,+) ?                     # OCTAVE ?\n                (=(?P<octave_check>'+|,+)) ?            # OCTAVE CHECK ?\n                |                                       # or\n                (?P<rest>r)                             # REST\n            )\n            (?P<duration>\\d+\\.*) ?                      # DURATION ?\n            (\\s*(?P<tie>~)) ?                           # TIE ?\n        )\n        |                                           # or\n        \\\\(?P<command>(                             # COMMANDS\n            relative | acciaccatura\n        ))\n        |                                           # or\n        (?P<open_brace>{) | (?P<close_brace>})      # { or }\n    )\n    
+^\\s*         # ignore insignificant leading spaces\n                 (.*[^|\\s])   # any non-empty string, not ending with ' ' or '|'\n                 \\|           # followed by a literal '|'\n                 (\\w+)        # followed by a word (the alias))\n                 \\s*          # ignore insignificant trailing spaces\n                 $
+^\\s* / ((?:(?:(?:\\\\\\\\)*\\\\/) | [^/] )*) / (.*?)\\s*$
+^\\s*#([\\w$]+)(?:=([^\"]\\S*|\"(?:[^\"\\\\]|\\\\.)*\"))?\\s*
+^\\s*#:include\\s*([\"\\'])(?P<incfile>.+?)\\1
+^\\s*#\\s*(pragma\\s*)?include\\s+[<\"](?P<file>.*)[>\"]
+^\\s*#\\s*END\\s+\\Q$type\\E\\s*$
+^\\s*#\\s*endif\\b.*?(?<!\\\\)\\n
+^\\s*#\\s*if\\s+0\\s*$[^]*?^\\s*#\\s*endif\\s*$
+^\\s*#\\s*include\\s*(<(?P<brackets>\\S+?)>|\"(?P<quotes>\\S+?)\")
+^\\s*#\\s+(?P<colnumber>[0-9]+)\\s+-\\s+(?P<colname>(.*))
+^\\s*$LABEL\\s*=\\s*(.*?)(\\\\)?\\s*$
+^\\s*$LABEL\\s*=\\s*\"(.*)\"\\s*(\\\\)?${TRAILING_WHITESPACE}$
+^\\s*%\\s+(?P<colname>\\w+)
+^\\s*(
+^\\s*('
+^\\s*(%?[\\\"\\']((([^\\\"\\'\\\\\\n\\r])|(\\\\([ntbrf\\\\'\\\"])|([0-7][0-7?)|([0-3][0-7][0-7])))*)[\\\"\\'](\\@([a-z0-9]+(-[a-z0-9]+)?))?%?)\\s*
+^\\s*((
+^\\s*(((
+^\\s*((?:\\\\.|[\\w\\u00c0-\\uFFFF\\-])+)\\s*(?:(\\S?)=\\s*(?:(['\"])([^]*?)\\3|(#?(?:\\\\.|[\\w\\u00c0-\\uFFFF\\-])*)|)|)\\s*(i)?\\]
+^\\s*((?:W/)?\"(?:[^\"\\\\]|\\\\.)*\")\\s*\\]
+^\\s*((@)\\S++\\n)
+^\\s*((@)\\S++\\s)
+^\\s*(.*?)(\\\\)?\\s*$
+^\\s*(.*?)\\s*(\\\\)?\\s*$
+^\\s*(.*?[^\\\\]+?(?:\\\\\\\\)*)=(.*)$
+^\\s*(:(?P<role>\\w+):`(?P<name>[a-zA-Z0-9_.-]+)`| (?P<name2>[a-zA-Z0-9_.-]+))\\s*
+^\\s*(?!#)(?P<name>.+)=(['\"]?)(?P<value>.+)\\2
+^\\s*(?:#\\s*+(.*?)\\s*)?$
+^\\s*(?:(?P<scope>my|our)\\s+)?(?:module|class|role|enum|grammar)
+^\\s*(?:(?P<true>y|true|yes|on)|(n|false|no|off|))\\s*$
+^\\s*(?:([\\w\\\\]+|\\?)::)?([\\w\\\\]+)\\s*\\((.*)\\)\\s*$
+^\\s*(?:'[^'\\\\]*(?:\\\\[\\S\\s][^'\\\\]*)*'|\"[^\"\\\\]*(?:\\\\[\\S\\s][^\"\\\\]*)*\"|[^,'\"\\s\\\\]*(?:\\s+[^,'\"\\s\\\\]+)*)\\s*(?:,\\s*(?:'[^'\\\\]*(?:\\\\[\\S\\s][^'\\\\]*)*'|\"[^\"\\\\]*(?:\\\\[\\S\\s][^\"\\\\]*)*\"|[^,'\"\\s\\\\]*(?:\\s+[^,'\"\\s\\\\]+)*)\\s*)*$
+^\\s*(?:\\[(?:\\s?)(?P<source>[^,\\]]*)(?:,\\s(?P<category>[^,\\]]*))?(?:,\\s?(?P<level>[a-zA-Z_]*))?\\s?\\])?\\s*(?P<message>.*)$
+^\\s*(?:\\{:(?!(?:
+^\\s*(?:<\\?xml[^>]*>\\s*)?(?:<!doctype svg[^>]*\\s*(?:\\[?(?:\\s*<![^>]*>\\s*)*\\]?)*[^>]*>\\s*)?<svg[^>]*>[^]*<\\/svg>\\s*$
+^\\s*(?:<\\?xml[^>]*>\\s*)?(?:<!doctype svg[^>]*\\s*(?:<![^>]*>)*[^>]*>\\s*)?<svg[^>]*>[^]*<\\/svg>\\s*$
+^\\s*(?:array(?P<dim>\\d)d\\s*\\(\\s*(?P<indices>([\\d\\.+\\-]+|\\{\\})(?:\\s*,\\s*([\\d\\.+\\-]+|\\{\\}))*)\\s*,\\s*)?\\[(?P<vals>[\\w\\s\\.,+\\-\\\\/\\*^|\\(\\)\\{\\}]*)\\]\\)?$
+^\\s*(?:url|local)\\s*\\(\\s*(?P<url>\\S+)\\s*\\)\\s*$
+^\\s*(?<!\\\\)([%*])
+^\\s*(?<_1>(?<_2>@)\\S++\\n)
+^\\s*(?<_1>(?<_2>@)\\S++\\s)
+^\\s*(?<fn>(?:[\\p{Ll}_][\\p{Ll}_\\p{Lu}\\p{Lt}\\p{Nd}']*|\\((?!--+\\))[\\p{S}\\p{P}&&[^(),;\\[\\]`{}_\"']]+\\))(?:\\s*,\\s*\\g<fn>)?)\\s*(::)
+^\\s*(?<pre-tag-text>[[:alnum:]]+[[:alnum:][:space:][:punct:]]*?)<
+^\\s*(?P<ADDRESS>\\S+)\\s+dev\\s+(?P<DEV>\\S+)\\s+proto\\s+(?P<PROTO>\\S+)\\s+scope\\s+(?P<SCOPE>\\S+)\\s+src\\s+(?P<SRC>\\S+)\\s*$
+^\\s*(?P<ADDRESS>\\S+)\\s+via\\s+(?P<VIA>\\S+)\\s+dev\\s+(?P<DEV>\\S+).*$
+^\\s*(?P<ADDRESS>\\S+)\\s+via\\s+(?P<VIA>\\S+)\\s+dev\\s+(?P<DEV>\\S+)\\s+metric\\s+(?P<METRIC>\\S+)\\s*$
+^\\s*(?P<ADDRESS>\\S+)\\s+via\\s+(?P<VIA>\\S+)\\s+dev\\s+(?P<DEV>\\S+)\\s+metric\\s+(?P<METRIC>\\S+)\\s+mtu\\s+(?P<MTU>\\S+)\\s*$
+^\\s*(?P<ADDRESS>\\S+)\\s+via\\s+(?P<VIA>\\S+)\\s+dev\\s+(?P<DEV>\\S+)\\s+proto\\s+(?P<PROTO>\\S+)\\s+metric\\s+(?P<METRIC>\\S+)\\s*$
+^\\s*(?P<ADDRESS>\\S+)\\s+via\\s+(?P<VIA>\\S+)\\s+dev\\s+(?P<DEV>\\S+)\\s+proto\\s+(?P<PROTO>\\S+)\\s+metric\\s+(?P<METRIC>\\S+)\\s+expires\\s+(?P<EXPIRES>\\S+)\\s+mtu\\s+(?P<MTU>\\S+)\\s+hoplimit\\s+(?P<HOPLIMIT>\\S+)$
+^\\s*(?P<basefile>\\d{4}:\\d+)
+^\\s*(?P<body>.*?)(?P<backslashes>\\\\*)$
+^\\s*(?P<closing>/)?amp-source-stack\\s+(?P<args>{.+})\\s*$
+^\\s*(?P<comm>.+)-(?P<thread>[0-9]+)\\s+\\(\\s*(?P<tgid>\\S+)\\)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>.+):(?P<etc>.+)
+^\\s*(?P<comm>.+)-(?P<thread>[0-9]+)\\s+\\(\\s*(?P<tgid>\\S+)\\)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>\\S+)(?P<etc>.+)
+^\\s*(?P<comm>.+)-(?P<thread>[0-9]+)\\s+\\(\\s*(?P<tgid>\\S+)\\)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>\\S+):(?P<etc>.+)
+^\\s*(?P<comm>.+)-(?P<thread>[0-9]+)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>.+):(?P<etc>.+)
+^\\s*(?P<comm>.+)-(?P<thread>[0-9]+)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>\\S+)(?P<etc>.+)
+^\\s*(?P<comm>.+)-(?P<thread>[0-9]+)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>\\S+):(?P<etc>.+)
+^\\s*(?P<comm>\\S+)-(?P<thread>[0-9]+)\\s+\\(\\s*(?P<tgid>\\S+)\\)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>\\S+):(?P<etc>.+)
+^\\s*(?P<comm>\\S+)-(?P<thread>[0-9]+)\\s+\\[(?P<core>[0-9]+)\\]\\s+(?P<time>\\S+):\\s+(?P<func>\\S+):(?P<etc>.+)
+^\\s*(?P<comm>\\S+)-(?P<thread>[0-9]+)\\s+\\[(?P<core>[0-9]+)\\]\\s+\\(\\s*(?P<tgid>.+)\\)\\s+(?P<time>\\S+):\\s+(?P<func>.+):(?P<etc>.+)
+^\\s*(?P<comm>\\S+)-(?P<thread>[0-9]+)\\s+\\[(?P<core>[0-9]+)\\]\\s+\\(\\s*(?P<tgid>.+)\\)\\s+(?P<time>\\S+):\\s+(?P<func>\\S+)(?P<etc>.+)
+^\\s*(?P<comm>\\S+)-(?P<thread>[0-9]+)\\s+\\[(?P<core>[0-9]+)\\]\\s+\\(\\s*(?P<tgid>.+)\\)\\s+(?P<time>\\S+):\\s+(?P<func>\\S+):(?P<etc>.+)
+^\\s*(?P<data>([0-9\\.\\-]+\\s*?)+)\\s+(?P<id>[A-Z]{1,3})\\s*
+^\\s*(?P<diagram>\\w+).*$
+^\\s*(?P<filename>.*):(?P<line>\\d+)\\s*$
+^\\s*(?P<id>[0-9]+\\s+[0-9]+\\s+R)
+^\\s*(?P<id>[a-f\\d]{32})(?:v\\d+)?\\s*$
+^\\s*(?P<integer>[\\+\\-]?\\d+)?(?P<fraction>.\\d+)?\\s*([eE]\\s*(?P<expof10>[\\+\\-]?\\d+))?$
+^\\s*(?P<key>\\w+)\\s*=\\s*(?P<value>\\S.*)$
+^\\s*(?P<long>-)?-(?P<key>[a-z]+)\\s+(?:(?P<optional>\\[[a-z]+\\])|(?P<required><[a-z]+>))?\\s+(?P<msg>.*)
+^\\s*(?P<lower>\\d+)\\s*,\\s*(?P<upper>\\d+)\\s*$
+^\\s*(?P<major>[0-9]+),(?P<minor>[0-9]+)\\s*(?P<operation>\\S+)\\s*(?P<address>\\S+)\\s+\\+\\s+(?P<size>[0-9]+)
+^\\s*(?P<major>[0-9]+),(?P<minor>[0-9]+)\\s*(?P<operation>\\S+)\\s*\\(.*\\)\\s*(?P<address>\\S+)\\s+\\+\\s+(?P<size>[0-9]+)
+^\\s*(?P<module>.*)
+^\\s*(?P<module>.*)\\s+(?P<address>.*)
+^\\s*(?P<module>.*)\\s+call_site=(?P<site>.*)\\s+refcnt=(?P<refcnt>[0-9]+)
+^\\s*(?P<month>\\d{1,2})\\s*\\/\\s*(?P<year>\\d{2}|\\d{4})\\s*$
+^\\s*(?P<name>.+?)\\s+\\((?P<provider>[^)]+)\\)\\s*$
+^\\s*(?P<name>[\\S/]+)(?:\\s+(?P<version>\\S+))?\\s*$
+^\\s*(?P<name>[\\w.-]+)\\s+(?P<count>[\\d]+)\\s+(?P<frequency>[\\d.]+)/h\\s+(?P<percentage>[\\d.]+) %\\s\\([\\w]+\\)\\s*$
+^\\s*(?P<name>[\\w.-]+)\\s+(?P<size>[\\d]+)MB\\s+(?P<frequency>[\\d.]+)MB/h\\s+(?P<percentage>[\\d.]+) %\\s\\([\\w]+\\)\\s*$
+^\\s*(?P<name>[\\w]+)\\s+(?P<time>[\\d]+) s\\s+(?P<frequency>[\\d.]+) s/msg\\s+\\([\\w]+\\)\\s*$
+^\\s*(?P<name>[a-zA-Z0-9.+\\-]{1,})(\\s*\\(\\s*(?P<relop>[>=<]+)\\s*(?P<version>[0-9a-zA-Z:\\-+~.]+)\\s*\\))?(\\s*\\[(?P<archs>[\\s!\\w\\-]+)\\])?\\s*$
+^\\s*(?P<name>[A-Za-z0-9_]*?)(?:\\s*?=\\s*?(?P<value>[0-9]*?)(?P<percent>\\%?))?\\s*?$
+^\\s*(?P<name>\\/[A-Z0-9\\._]+)(?P<value>.*)
+^\\s*(?P<num>[\\d.]+)\\s*(?P<unit>[a-zA-Z]+)?\\s*$
+^\\s*(?P<num>\\d+)\\s*\\[(?P<id>\\w+)\\s*\\]:.*-\\s(?P<name>.*)$
+^\\s*(?P<numerator>\\d+)/(?P<denominator>\\d+)$
+^\\s*(?P<part_prefix>\\D+)(?P<range_start>\\d+)\\s*[-:]\\s*\\1(?P<range_end>\\d+)\\s*$
+^\\s*(?P<path>.+?\\.\\w+):(?P<line>\\d+:)(?P<column>\\d+:?)?(?:(?P<tag>warning|error)[:])?(?P<message>.+?)(?: [(](?P<label>[-\\w]+)[)])?$
+^\\s*(?P<path>.+?\\.\\w+):(?P<line>\\d+:)(?P<column>\\d+:?)?(?P<message>.+)$
+^\\s*(?P<path>.+?\\.\\w+)\\((?P<line>\\d+)(?:,(?P<column>\\d+))?\\):(?P<message>.+)$
+^\\s*(?P<pkg>(\\w|-)+)(?P<verspec>\\S*)\\s+\\(\\s*wheel from \\s*(?P<wheel_src_name>\\S+)\\)$
+^\\s*(?P<prefix>Feature:|Scenario[^:]*:|Given|Then|And|But|When)(?<context>.*)$
+^\\s*(?P<program>\\w+)\\s*\\{\\s*(?P<code>.*\\})\\s*\\}$
+^\\s*(?P<proto>TCP6?) \\s+\n                       (?P<local_host>\\S+?):(?P<local_port>\\w+)\\s+\n                       (?P<foreign_host>\\S+?):(?P<foreign_port>\\w+|\\*)\\s+\n                       (?P<state>\\S+) (?: \\s+ (?:\n                               (?P<pid>\\d+)\n                       ))? \\s*$
+^\\s*(?P<proto>UDP6?) \\s+\n                       (?P<local_host>\\S+?):(?P<local_port>\\w+)\\s+\n                       (?P<foreign_host>\\S+?):(?P<foreign_port>\\w+|\\*)\\s+\n                       (?: \\s+ (?:\n                               (?P<pid>\\d+)\n                       ))? \\s*$
+^\\s*(?P<seek>[^\\s].*)\\s*---\\s*(?P<repl>[^\\s].*)\\s*$
+^\\s*(?P<start>[\\d]+)?\\s*\\-\\s*(?P<end>[\\d]+)?\\s*$
+^\\s*(?P<start>\\-?\\d+)?\\s*(?P<separator>:|(\\.{2,}))?\\s*(?P<end>\\-?\\d+)?\\s*$
+^\\s*(?P<start>\\d*).*(?P<stop>\\d*)\\s*$
+^\\s*(?P<start>\\d+)\\-(?P<end>\\d+)\\s*$
+^\\s*(?P<timestamp>.*?)\\s+(?P<level>[A-Z]+)(\\s+\\[(?P<thread>.*?)\\])\\s+(?P<logger>\\S+)(\\s+\\((?P<caller_location>\\S+)\\))?( - |: )(?P<message>.*?)$
+^\\s*(?P<timestamp>.*?)\\s+(?P<level>[A-Z]+)\\s+(?P<logger>\\S+)(\\s+\\((?P<thread>.*?)\\))?( - |: )(?P<message>.*?)$
+^\\s*(?P<title>.*)\\s*\\(Group (?P<group>\\d+)\\)\\s*(?P<words>.*)$
+^\\s*(?P<type>\\w+) (?P<name>\\w+);$
+^\\s*(?P<uaddr>\\S+), (?P<op>\\S+), (?P<val>\\S+), (?P<timer>\\S+),
+^\\s*(?P<unit_type>module(?!\\s+procedure)|program)\\s*(?P<modname>\\w*)
+^\\s*(?P<upper>\\d+)\\s*$
+^\\s*(?P<value>[+-]?\\s*(?:\\d*\\.)?\\d+)(?P<unit>[A-Za-z]+)?\\s*$
+^\\s*(?P<value>\\-?[0-9\\.]+)
+^\\s*(?P<value>\\d+)\\s*$
+^\\s*(?P<value>\\d+)\\s*(?P<units>[a-zA-Z]+)\\s*$
+^\\s*(?P<value>true|false)
+^\\s*(?P<var>[\\w]+)\\s*=\\s*(?P<val>.+)$
+^\\s*([
+^\\s*([$@][-\\w]++|-?\\.\\d++|-?\\d++(?:\\.\\d++)?)(?>\\s*(?>[-+*]|div)\\s*(?1))++\\s*$
+^\\s*([\":\\w.]+|\\(((?:[^()]+|\\((?2)\\))*)\\))(?:\\s+(?:as\\s+)?((?!ON|USING)[\"\\w.]+))?\\s*(?:(?:ON|USING)\\s+(.*))?\\s*$
+^\\s*([\\pL\\p{Pc}\\pM][\\w.]*)\\s*(.*?)\\s*$
+^\\s*([\\w\\.\\-\\_]+)\\s*[=:]\\s*(.*?)\\s*([#;].*)?$
+^\\s*([\\w\\.\\-\\_]+)\\s*=\\s*(.*?)\\s*$
+^\\s*([\\w\\d\\-\\_\\.\\:]+)\\s*$
+^\\s*([\\w\\d\\_]+)\\s+=\\s*(.*)
+^\\s*([\\w\\d\\_]+)\\s+=\\s*'([^']*)'\\s*$
+^\\s*([\\w-]+)(?=\\s*[+-\\\\]?=)
+^\\s*([\\w-]+)[.#-\\w]*\\(
+^\\s*([^
+^\\s*([^$tagDelim]+?)\\s*\\Q$tagDelim\\E\\s*(.*)$
+^\\s*([^:]+)\\s*:\\s*(.*+)$
+^\\s*([^=\\s\\pC][^=\\pC]*?)\\s*=\\s*(.*?)\\s*$
+^\\s*([A-z0-9-_.]+)\\s+([[A-z0-9-_.\\?\\[\\]\\*\\+\\\\]+)\\s*=\\s*(.*)$
+^\\s*([a-zA-Z0-9\\_\\.]+)\\s*$
+^\\s*(\\\"[^\\\"\\\\]*(?:\\\\.[^\\\"\\\\]*)*\\\")
+^\\s*(\\#[^\\xd\\xa]*)(.*)$
+^\\s*(\\/\\*.*?\\*\\/)\\s*\\Q$end_value\\E\\s*
+^\\s*(\\[|\\{)[ \\t\\r]*([\\+\\.]*)[ \\t\\r]*([^
+^\\s*(\\}?\\s*(else|do|try)|(class|function)\\s*[a-zA-Z_0-9]+*)$
+^\\s*(\\}?\\s*(else|try|do)|(class|struct|enum|namespace)\\s*[a-zA-Z_0-9]+*)$
+^\\s*(\\}?\\s*(else|try|do|finally)|(class|package|enum)\\s*[a-zA-Z_0-9]+*)$
+^\\s*(\\d*)\\s+\\Q$redis_server\\E\\ (\\S+)
+^\\s*(\\d+)((?:\\s+\\|)?(?:\\s+\\\\_)?)\\s+.+?(\\d+)\\s+(\\d+)$
+^\\s*(\\d+).*? \\Q$chunk\\E$
+^\\s*(\\d+).+mongod .+--port (\\d+) --dbpath (.+(?:\\/|\\\\)db)
+^\\s*(\\d+):((?:\\s+\\S+){
+^\\s*(\\\\i\\s+|@)
+^\\s*(\\p{javaJavaIdentifierStart}\\p{javaJavaIdentifierPart}*)(?:\\s((?:\\n|.)*))?
+^\\\\s*(\\\\S+)\\\\s*(\\\\d+)?\\\\s*(
+^\\s*(\\S+)\\s*\\Q${app_sym}\\E?\\s*\\Q${aff_sym}\\E\\s*(.*)$
+^\\s*(\\S+)\\s*\\Q${app_sym}\\E\\s*\\Q${aff_sym}\\E\\s*(.*)$
+^\\s*(\\S+)\\s*\\Q${list}\\E\\s*$
+^\\s*(\\S+)\\s+'((?:[^'\\\\]|\\\\.)*)'\\s+(.+)
+^\\s*(\\S+?)\\Q$end_value\\E\\s*
+^\\s*(\\w+) (
+^\\s*(\\w+)=(\\S+|\"(?:[^\\\\\"]+|\\\\\"|\\\\)*\")
+^\\s*(<(?P<a>.*)>|\"(?P<b>.*)\")
+^\\s*(abstract)*\\s*(class|interface) ([a-zA-Z_\\x7f-\\xff][a-zA-Z0-9\\\\_\\x7f-\\xff]*)
+^\\s*(from +[^#\"'()]*(\\\\|import\\b)|import +[^#\"'()]*\\\\)
+^\\s*(include|includeoptional)\\s*([\"'])(.*?)(?<!\\\\)\\2$
+^\\s*(INSERT|EXEC sp_executesql N'INSERT)[^(]+\\([^)]*\\b(
+^\\s*(null|\\\\N)?\\s*$
+^\\s*(W/)?(\"(?:[^\"\\\\]|\\\\.)*\")\\s*
+^\\s*.. :quickref:\\s*(?P<quick>.*)$
+^\\s*/([^/\\\\]*(\\\\.[^\\//]*)*)/\\s*$
+^\\s*?([*]|/\\*\\*)(?P<line>.*?)
+^\\s*@\\s*0x(?P<addr>[A-Fa-f0-9]+)\\s*\\+\\s*(?P<len>\\d+)\\s*$
+^\\s*@method\\s+((?P<citdl>[\\w\\\\]+)\\s+)?(?P<name>\\w+)(\\(\\))?(?P<doc>.*?)$
+^\\s*@param\\s+(?P<type>[\\w\\\\]+)\\s+\\$(?P<name>\\w+)(?:\\s+?(?P<doc>.*?))?
+^\\s*@property(-(?P<type>read|write))?\\s+((?P<citdl>[\\w\\\\]+)\\s+)?(?P<name>\\$\\w+)(?:\\s+(?P<doc>.*?))?
+^\\s*@return\\s+(?P<type>[\\w\\\\]+)(?:\\s+(?P<doc>.*))?
+^\\s*@var\\s+(\\$(?P<variable>\\w+)\\s+)?(?P<type>[\\w\\\\]+)(\\s+\\$(?P<variable2>\\w+)\\s+)?(?:\\s+(?P<doc>.*?))?
+^\\s*[
+^\\s*[@%]?\\Q$me\\E[:,;.!?~]?\\s*(.*)$
+^\\s*[[
+^\\s*[\\*\\-\\_]
+^\\s*[\\-\\*\\+]\\s*([\\'\\\"\\w\\|\\=\\%\\@\\+\\{\\:\\,\\}\\-\\_\\>\\<\\*]+)\\s+(.*?)\\s*(\\[default=([^\\]]+)\\]){0,1}\\s*$
+^\\s*[\\\\]{2}s*
+^\\s*[\\w.0-9$\\/\\-:\\\\]+\\s*$
+^---\\s*[^]*?(-{3}|\\.{3})\\s*
+^\\s*[0-9\\.]+\\s+[a-zA-Z0-9\\.\\?\\:]+\\s+(?P<cls_value>[a-zA-Z0-9_\\.\\?\\:]+)\\s+\\+?\\s+(?P<prob>[a-zA-Z0-9\\.\\?\\,\\*]+)
+^\\s*[a-z]:[/\\\\]
+^\\s*[a-z0-9-\\_]+\\s*$
+^\\s*[A-Za-z0-9\\_\\:]+\\s*$
+^\\s*\\\\
+^\\s*\\!\\s*\\[\\s*CDATA\\s*\\[([^]*)\\]\\]
+^\\s*\\\" ((?:[^\"\\r\\n\\\\]*|\\\\.)*) (?:\\\"|\\s*$)
+^\\s*\"$QUOTED_LABEL\"\\s*=\\s*(.*?)(\\\\)?\\s*$
+^\\s*\"$QUOTED_LABEL\"\\s*=\\s*\"(.*)\"\\s*(\\\\)?${TRAILING_WHITESPACE}$
+^\\s*\\\"(([^\\\"\\\\]|\\\\.)*)\\\"\\Q$end_value\\E\\s*
+^\\s*\\\"(([^\\\"\\\\]|\\\\.)+)\\\"
+^\\s*\"(.*)\"\\s*(\\\\)?${TRAILING_WHITESPACE}$
+^\\s*\"(.*?)\"\\s*(\\\\)?\\s*$
+^\\s*\"(?P<env>[^=]+?)\"\\s*\\,\\s*\"(?P<default>.*?)\"\\s*$
+^\\s*\\#\\s*x\\.render\\_file\\(\\'hello.pdf\\'\\)
+^\\s*\\$(?P<name>\\S+)\\s+(?P<value>.*?)(?:\\s+#.*)?$
+^\\s*\\$(\\w+)\\s*(?:=\\s*(\\-?\\d+|NULL|(['\"]).*?(?<!\\\\)\\3))?$
+^\\s*\\$branch\\s*=\\s*(?P<brackets>[\\'\"])?([0-9]+)(?P=brackets)\\s*;
+^\\s*\\$CFG->([a-z_]+)\\s*=\\s*((?P<brackets>[\\'\"])?(.+)(?P=brackets)|([0-9.]+)|(true|false|null))\\s*;$
+^\\s*\\$release\\s*=\\s*(?P<brackets>[\\'\"])?(.+)(?P=brackets)\\s*;
+^\\s*\\$VERSION\\s*=\\s*['\"]?([\\d\\.\\_]+)['\"]?;\\s*$
+^\\s*\\(((?:[^)\\\\]+|\\\\.)*)\\)
+^\\s*\\((?P<caller>.+)\\+(?P<offset>.+) <- (?P<name>.+)\\)(?P<args>.*)
+^\\s*\\((?P<caller>.+)\\+(?P<offset>.+) <(?P<caddr>.+)> <- (?P<name>.+) <(?P<addr>.+)>\\)(?P<args>.*)
+^\\s*\\((?P<name>.*)
+^\\s*\\((?P<name>.+)\\+(?P<offset>.+) <(?P<addr>.+)>\\)(?P<args>.*)
+^\\s*\\((?P<name>.+)\\+(?P<offset>.+)\\)(?P<args>.*)
+^\\s*\\((?P<versions>.*)\\)\\s*$|^\\s*(?P<versions2>.*)\\s*$
+^\\s*\\\\(.*)$
+^\\s*\\\\(?:\\w+\\*?)
+^\\s*\\\\(?:copy|unioncopy|paste)\\s*\\(.+?\\)\\s+(.*)$
+^\\s*\\\\(['\"])(.*?)\\\\\\1\\s*\\\\=\\s*\\\\(['\"])(.*?)\\\\\\3\\s*
+^\\s*\\\\([\\@%\\$\\&])
+^\\s*\\\\([a-z]+)
+^\\s*\\\\(\\S+)\\s*$
+^\\s*\\\\(\\w+\\*?)
+^\\s*\\\\(begin)|(section|subsection)\\b|{\\s*$
+^\\s*\\\\(begin)|(section|subsection|paragraph)\\b|{\\s*$
+^\\s*\\\\(begin)|\\s*\\\\(part|chapter|(?:sub)*(?:section|paragraph))\\b|{\\s*$
+^\\s*\\(D\\:(?P<name>.*?)\\)
+^\\s*\\\\(end)\\b|^\\s*}
+^\\s*\\**\\s*@(\\p{Alpha}+)\\s
+^\\s*\\\\\\*\\\\([a-z]+)
+^\\s*\\*\\h?
+^\\s*\\/(?P<name>[A-Z0-9\\-\\+,#\\.]+)
+^\\s*\\[(?P<array>.*)
+^\\s*\\[(?P<section>.+)\\]\\s*$
+^\\s*\\[(?P<section>\\w+)\\]\\s*
+^\\s*\\[\\s*(?P<time>\\S+)\\s*\\]\\s+CPU(?P<core>[0-9]+)\\: shutdown
+^\\s*\\[\\s*(?P<time>\\S+)\\s*\\]\\s+EVENT_(?P<event>\\S+)
+^\\s*\\{\\s*(?P<code>.*\\})\\s*\\}$
+^\\s*\\<(?P<name>[A-F0-9]+)\\>
+^\\s*\\<\\!DOCTYPE\\s+[a-z0-9\\_\\-]\\:RDF\\s
+^\\s*\\<\\<(\\w+)(?:\\Q$end_value\\E)?
+^\\s*\\d+\\.\\d+\\.\\d+\\.\\d+\\s.+\\s(?P<address>\\d+\\.\\d+\\.\\d+\\.\\d+)\\s+(?P<metric>\\d+)\\s*$
+^\\s*\\d+\\s*(?P<free>\\d+)\\s*\\d+\\s*\\d+\\s*\\d+\\s*(?P<ce>[^:/\\s]+uk:\\d+/cream.*)$
+^\\s*\\\\def\\\\(\\w+)#1\\s*\\{([^\\}]*)\\}\\s*$
+^\\s*\\\\edef\\\\(\\w+)#1\\s*\\{(.*)\\}\\s*$
+^\\s*\\\\group
+^\\s*\\\\group\\w*([a-zA-Z0-9 ]*[a-zA-Z0-9])
+^\\s*\\\\h\\s+[A-Z]*$
+^\\s*\\\\hyphenation\\s*{\\s*(.*)$
+^\\s*\\\\input\\{(?P<filename>.+?)\\}
+^\\s*\\\\l
+^\\s*\\\\l\\s+(.*)$
+^\\s*\\\\mbox{(.*)}
+^\\s*\n    (?P<id>\\d+)\\s+\n    (?P<name>[\\w_]+)\\s+\n    .+$
+^\\s*\\\\p\\s+(.*)$
+^\\s*\\\\patterns\\s*\\{\\s*(.*)$
+^\\s*\\Q$_[0]\\E\\s*$
+^\\s*\\Q${array_end}\\E\\s*$
+^\\s*\\Q${array}\\E\\s*$
+^\\s*\\Q${include}\\E\\s+(\\S+)\\s*$
+^\\s*\\Q${list_end}\\E\\s*$
+^\\s*\\Q${multi_end}\\E\\s*$
+^\\s*\\Q${multiline}\\E\\s*$
+^\\s*\\Q$arg\\E\\s*=
+^\\s*\\Q$arg\\E\\s*=\\s*NULL\\s*;\\s*$
+^\\s*\\Q$bar\\E<?\\s*
+^\\s*\\Q$base\\E(.+?)\\s*$
+^\\s*\\Q$bot\\E[:,;.!?~]?\\s
+^\\s*\\Q$comment\\E
+^\\s*\\Q$crf\\E\\s*([0-9.]+)$
+^\\s*\\Q$end_tag
+^\\s*\\Q$ender\\E[\\;\\,]?\\s*$
+^\\s*\\Q$leader\\E ?
+^\\s*\\Q$lit\\E\\s*
+^\\s*\\Q$me\\E[:,;.!?~]?\\s*(.*)$
+^\\s*\\Q$my_nick\\E[\\:\\,\\;\\.]?\\s*(.*)$
+^\\s*\\Q$mynick\\E:\\s+(.*?)\\s*$
+^\\s*\\Q$mynick\\E[:,;.~]?\\s*(.*)$
+^\\s*\\Q$mynick\\E[\\:\\,\\;\\.]?\\s*(.*)$
+^\\s*\\Q$nick\\E[:,;.!?~]?\\s
+^\\s*\\Q$nme\\E\\s*$
+^\\s*\\Q$nme\\E\\s*=
+^\\s*\\Q$op\\E
+^\\s*\\Q$sct\\E\\s*$
+^\\s*\\Q$snapshot\\E\\s*$
+^\\s*\\Q$to\\E,
+^\\s*\\Q$to\\E,\\s
+^\\s*\\Q$to\\E,\\S
+^\\s*\\Q((\\E\\s*merge\\s*.*\\Q))\\E
+^\\s*\\Q((\\E\\s*prune\\s*\\Q))\\E
+^\\s*\\Q((\\E\\s*sort(?:\\s+by\\s+(.*?))?\\s*\\Q))\\E$
+^\\s*\\Q@{[ $settings->hereDoc ]}\\E\\s*$
+^\\s*\\S*: EVENT_(?P<event>\\S+)
+^\\s*+ @[\\w\\.]++ .*+ [\n\r]++ \\s*+ def\\b
+^\\s*+ class \\s++ \\w++ \\s*+ \\( \\s*+ object \\s*+ \\)
+^\\s*+ for \\s++ \\w++ \\s++ in \\s++ \\w++ \\s*+ :
+^\\s*+ from \\s++ (?:\\w++(?:\\.\\w++)*+) \\s++ import \\s
+^\\s*+#\\s*+(include\\s++[<\"]|ifdef|endif|define)\\b
+^\\s*+$
+^\\s*+(-)\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(\\()
+^\\s*+(-)\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(\\(?)
+^\\s*+(-)\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(\\.)
+^\\s*+(-)\\s*+(behaviour)\\s*+(\\()\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(\\))\\s*+(\\.)
+^\\s*+(-)\\s*+(define)\\s*+(\\()\\s*+([a-zA-Z\\d@_]++)\\s*+(,)
+^\\s*+(-)\\s*+(define)\\s*+(\\()\\s*+([a-zA-Z\\d@_]++)\\s*+(\\()
+^\\s*+(-)\\s*+(export)\\s*+(\\()
+^\\s*+(-)\\s*+(ifdef)\\s*+(\\()\\s*+([a-zA-z\\d@_]++)\\s*+(\\))\\s*+(\\.)
+^\\s*+(-)\\s*+(ifdef)\\s*+(\\()\\s*+([a-zA-Z\\d@_]++)\\s*+(\\))\\s*+(\\.)
+^\\s*+(-)\\s*+(ifndef)\\s*+(\\()\\s*+([a-zA-z\\d@_]++)\\s*+(\\))\\s*+(\\.)
+^\\s*+(-)\\s*+(ifndef)\\s*+(\\()\\s*+([a-zA-Z\\d@_]++)\\s*+(\\))\\s*+(\\.)
+^\\s*+(-)\\s*+(import)\\s*+(\\()\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(,)
+^\\s*+(-)\\s*+(import)\\s*+(\\()\\s*+([a-z][a-zA-Z\\d@_]*+|'[^']*+')\\s*+(,)
+^\\s*+(-)\\s*+(module)\\s*+(\\()\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(\\))\\s*+(\\.)
+^\\s*+(-)\\s*+(record)\\s*+(\\()\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(,)
+^\\s*+(-)\\s*+(record)\\s*+(\\()\\s*+([a-z][a-zA-Z\\d@_]*+|'[^']*+')\\s*+(,)
+^\\s*+(-)\\s*+(undef)\\s*+(\\()\\s*+([a-zA-Z\\d@_]++)\\s*+(\\))\\s*+(\\.)
+^\\s*+(-)\\s*+(undef)\\s*+(\\()\\s*+([a-zA-z\\d@_]++)\\s*+(\\))\\s*+(\\.)
+^\\s*+(?<_1>-)\\s*+(?<_2>[a-z][a-zA-Z\\d@_]*+)\\s*+(?<_3>\\()
+^\\s*+(?<_1>-)\\s*+(?<_2>[a-z][a-zA-Z\\d@_]*+)\\s*+(?<_3>\\.)
+^\\s*+(?<_1>-)\\s*+(?<_2>define)\\s*+(?<_3>\\()\\s*+(?<_4>[a-zA-Z\\d@_]++)\\s*+(?<_5>,)
+^\\s*+(?<_1>-)\\s*+(?<_2>define)\\s*+(?<_3>\\()\\s*+(?<_4>[a-zA-Z\\d@_]++)\\s*+(?<_5>\\()
+^\\s*+(?<_1>-)\\s*+(?<_2>export)\\s*+(?<_3>\\()
+^\\s*+(?<_1>-)\\s*+(?<_2>ifdef)\\s*+(?<_3>\\()\\s*+(?<_4>[a-zA-z\\d@_]++)\\s*+(?<_5>\\))\\s*+(?<_6>\\.)
+^\\s*+(?<_1>-)\\s*+(?<_2>ifndef)\\s*+(?<_3>\\()\\s*+(?<_4>[a-zA-z\\d@_]++)\\s*+(?<_5>\\))\\s*+(?<_6>\\.)
+^\\s*+(?<_1>-)\\s*+(?<_2>import)\\s*+(?<_3>\\()\\s*+(?<_4>[a-z][a-zA-Z\\d@_]*+)\\s*+(?<_5>,)
+^\\s*+(?<_1>-)\\s*+(?<_2>module)\\s*+(?<_3>\\()\\s*+(?<_4>[a-z][a-zA-Z\\d@_]*+)\\s*+(?<_5>\\))\\s*+(?<_6>\\.)
+^\\s*+(?<_1>-)\\s*+(?<_2>record)\\s*+(?<_3>\\()\\s*+(?<_4>[a-z][a-zA-Z\\d@_]*+)\\s*+(?<_5>,)
+^\\s*+(?<_1>-)\\s*+(?<_2>undef)\\s*+(?<_3>\\()\\s*+(?<_4>[a-zA-z\\d@_]++)\\s*+(?<_5>\\))\\s*+(?<_6>\\.)
+^\\s*+(?<_1>[a-z][a-zA-Z\\d@_]*+)\\s*+(?=\\()
+^\\s*+([a-z][a-zA-Z\\d@_]*+)\\s*+(?=\\()
+^\\s*+([a-z][a-zA-Z\\d@_]*+|'[^']*+')\\s*+(?=\\()
+^\\s*+(\\d*+)\\s*+-\\s*+(\\d*+)\\s*+$
+^\\s*+(\\d++)\\s*+%?+\\s*+$
+^\\s*+Content-Length\\s*+:\\s*+(\\d++)\\s*+$
+^\\s*+Content-Type\\s*+:\\s*+image\\/(.++)$
+^\\s*+def\\s++[a-zA-Z_]\\w*+[ \t]*+[\n\r]
+^\\s*<(?P<type>[a-zA-Z]+)(?:\\s+(?P<params>[^>]+))?>(?P<content>.*?)\\s*</\\1>\\s*
+^\\s*<\\/(
+^\\s*<<(?P<struct>.*)
+^\\s*<video\\s+id=\"html5player-video\"\\s+src=\"(?P<url>[^\"]+)\"
+^\\s*=\\s(?P<variable>[a-zA-Z_][a-zA-Z0-9._-]*)\\s*$
+^\\s*=\\s*\\\"([^\\\"\\\\]*(?:\\\\.[^\\\"\\\\]*)*)\\\"
+^\\s*0\\s*;\\s*URL\\s*=\\s*(?|'([^']++)|\"([^\"]++)|([^'\"].*))
+^\\s*0x(?P<start>[A-Fa-f0-9]+)\\s*-\\s*0x(?P<end>[A-Fa-f0-9]+)\\s*$
+^\\s*alias\\s*([\\w\\.\\-\\_]*)\\s*([\\w\\d\\s\\+]*)\\s*$
+^\\s*alias\\s*([\\w\\.\\-\\_]*)\\s*(\\+?\\d*)\\s*$
+^\\s*arg:([\\w\\d\\.\\-\\_]+)\\s*$
+^\\s*bdi\\s+(?P<major>[0-9]+):(?P<minor>[0-9]+):\\s*ino=(?P<ino>\\S+)\\s+index=(?P<index>\\S+)
+^\\s*bdi\\s+(?P<major>[0-9]+):(?P<minor>[0-9]+):\\s*towrt=(?P<towrt>\\S+)\\s+skip=(?P<skip>\\S+)
+^\\s*Bundle!\\s*(
+^\\s*Bundle\\s*(
+^\\s*BundleCommand\\s*(
+^\\s*C[Cc]:\\s*(?P<to>[^#]+@[^\\s#]*)\\s*(#.*)?$
+^\\s*c\\s*/(?P<regex>.*?)/\\s*(?P<destination>.+?)\\s*$
+^\\s*call_site=(?P<caller>\\S+)\\s+ptr=(?P<ptr>\\S+)\\s+bytes_req=(?P<req>[0-9]+)\\s+bytes_alloc=(?P<alloc>[0-9]+)\\s+gfp_flags=(?P<flags>\\S+)
+^\\s*call_site=(?P<caller>\\S+)\\s+ptr=\\s*(?P<ptr>\\S+)
+^\\s*comm=(?P<comm>.*)\\s+pid=(?P<pid>[0-9]+)
+^\\s*comm=(?P<comm>.*)\\s+pid=(?P<pid>[0-9]+)\\s+child_comm=(?P<child_comm>.*)\\s+child_pid=(?P<child_pid>[0-9]+)
+^\\s*comm=(?P<comm>.*)\\s+pid=(?P<pid>[0-9]+)\\s+prio=(?P<prio>[0-9]+)\\s+
+^\\s*comm=(?P<comm>.*)\\s+pid=(?P<pid>[0-9]+)\\s+prio=(?P<prio>[0-9]+)\\s+orig_cpu=(?P<orig_cpu>[0-9]+)\\s+dest_cpu=(?P<dest_cpu>[0-9]+)
+^\\s*CREATE SEQUENCE\\s+(?P<schema>.*?)\\.(?P<seq>.*?)\\s*$
+^\\s*CREATE TABLE\\s+(?P<schema>.*?)\\.(?P<table>.*?)\\s+.*^\\s*(?P<col>.*?)\\s+IDENTITY\\s*,\\s*$
+^\\s*create\\s*.*\\s*function\\s*{0,1}(?:[`\\\"]*([a-zA-Z0-9_]+)[`\\\"]*\\.){0,1}[`\\\"]*([a-zA-Z0-9_]+)
+^\\s*create\\s*.*\\s*procedure\\s*{0,1}(?:[`\\\"]*([a-zA-Z0-9_]+)[`\\\"]*\\.){0,1}[`\\\"]*([a-zA-Z0-9_]+)
+^\\s*create\\s+database\\s+test_env\\_
+^\\s*CREATE\\s+TABLE\\s+(?:\\Q$sf->{d}{table}\\E|\\Q$qt_table\\E)\\s+\\(\n                                \\s*(?:\\Q$sf->{d}{cols}[0]\\E|\\Q$qt_col\\E)\\s+INTEGER\\s+PRIMARY\\s+KEY\\s*,
+^\\s*create\\s+table\\s+if\\s+not\\s+exists\\s+some\\_schema\\.some\\_table\\s+\\(\\s*some\\_column\\s+integer\\s+(not|default)\\s+null\\s*,\\s*some\\_other\\_column\\s+character\\s+varying\\(255\\)\\s+(not|default)\\s+null\\s*,\\s*yet\\_another\\_column\\s+character\\(5\\)\\s+(not|default)\\s+null\\)\\s+distkey\\s*\\(\\s*some\\_column\\s*\\)\\s+sortkey\\s*\\(\\s*some\\_column\\s*,\\s*yet\\_another\\_column\\s*\\)\\s*;\\s*$
+^\\s*create\\s+table\\s+if\\s+not\\s+exists\\s+some\\_schema\\.some\\_table\\s+\\(\\s*some\\_column\\s+integer\\s+default\\s+null\\s*,\\s*some\\_other\\_column\\s+character\\s+varying\\(255\\)\\s+default\\s+null\\s*,\\s*yet\\_another\\_column\\s+character\\(5\\)\\s+default\\s+null\\)\\s+distkey\\s*\\(\\s*some\\_column\\s*\\)\\s+sortkey\\s*\\(\\s*some\\_column\\s*,\\s*yet\\_another\\_column\\s*\\)\\s*;\\s*$
+^\\s*D/WebViewClassic.loadDataWithBaseURL\\(\\s*\\d+\\s*\\)\\s*:\\s*(?P<content>\\<.*)\\s*$
+^\\s*data:([a-z]+\\/[a-z]+(;[a-z\\-]+\\=[a-z\\-]+)?)?(;base64)?,[a-z0-9\\!\\$\\&\\'\\,\\(\\)\\*\\+\\,\\;\\=\\-\\.\\_\\~\\:\\@\\/\\?\\%\\s]*\\s*$
+^\\s*data:([a-z]+\\/[a-z0-9\\-\\+]+(;[a-z\\-]+\\=[a-z0-9\\-]+)?)?(;base64)?,[a-z0-9\\!\\$\\&\\'\\,\\(\\)\\*\\+\\,\\;\\=\\-\\.\\_\\~\\:\\@\\/\\?\\%\\s]*\\s*$
+^\\s*DELIMITER\\s+(?P<delimiter>.+)\\s*$
+^\\s*dev (?P<major>[0-9]+):(?P<minor>[0-9]+) .+page=(?P<page>\\S+)\\s+pfn=(?P<pfn>[0-9]+)
+^\\s*dev=(?P<dev>.+)\\s+ino=(?P<ino>.+)\\s+type=(?P<type>.+)\\s+ctx=(?P<ctx>.+)
+^\\s*drop\\s+table\\s*(|if\\s+exists)\\s+(?P<table_name>[^\\s;]+)
+^\\s*echo\\s+((?:[^;]+|\"[^\"\\\\]*\"|'[^'\\\\]*'|\\/\\*.*?\\*\\/)+);*\\s*$
+^\\s*end\\s*(?P<unit_type>module|program)\\s*(?P<modname>\\w*)?
+^\\s*EVENT_(?P<event>\\S+)
+^\\s*Explicit\\s*?\\n(?P<explicit>.+)^\\s*End Explicit\\s*Implicit\\s*\\n(?P<implicit>.+)^\\s*End Implicit
+^\\s*File \"(?P<co_filename>.+)\", line (?P<tb_lineno>\\d+)(, in (?P<co_name>.+))?$
+^\\s*gem '(
+^\\s*GROUP\\s*:\\s*([\\_A-Z0-9\\,\\;\\s]+)$
+^\\s*header:([\\w\\d\\-\\_]+)\\s*$
+^\\s*HTTP/1\\.1 (?P<code>\\d{3})
+^\\s*Chain\\s\\Q$chain\\E\\s\\(
+^\\s*Chain\\s+\\Q$start_chain\\E\\s+\\(
+^\\s*import\\s*(?P<moduleA>[\\w+\\.]+)|^\\s*from\\s*(?P<moduleB>[\\w+\\.]+)\\s+import
+^\\s*inet [a-zA-Z]*:?(?P<address>\\d+\\.\\d+\\.\\d+\\.\\d+)[\\s/].+$
+^\\s*inet\\s+(?P<IP>\\d+\\.\\d+\\.\\d+\\.\\d+)\\/(?P<MASK>\\d+)\\sscope\\s(\\S.*\\S)\\s(\\S.*\\S)$
+^\\s*insert\\s+into\\s+some\\_schema\\.some\\_table\\s+\\(some\\_column,some\\_other\\_column\\)\\s+values\\s*\\('some\\_value',1234\\)\\s*;?\\s*$
+^\\s*interface ([a-zA-Z_\\x7f-\\xff][a-zA-Z0-9\\\\_\\x7f-\\xff]*)
+^\\s*irq=(?P<irq>[0-9]+)\\s+name=(?P<name>\\S+)
+^\\s*irq=(?P<irq>[0-9]+)\\s+ret=(?P<return>\\S+)
+^\\s*m\\s*/(?P<regex>.*?)/\\s*(?P<destination>.+?)\\s*$
+^\\s*map\\s+(?P<map>\\d+)%\\s+reduce\\s+(?P<reduce>\\d+)%\\s*$
+^\\s*msgid\\s*\"(.*?[^\\\\])\"
+^\\s*msgstr\\[(\\d+)\\]\\s*\"(.*?[^\\\\])\"
+^\\s*msgstr\\s*\"(.*?[^\\\\])\"
+^\\s*Node\\s+(?P<node>\\d+),\\s+zone\\s+(?P<zone>\\S+),\\s+type\\s+(?P<mtype>\\S+)\\s+(?P<counts>.*)$
+^\\s*Node\\s+(?P<node>\\d+),\\s+zone\\s+(?P<zone>\\S+)\\s+(?P<counts>.*)$
+^\\s*not\\(\\s*([a-zA-Z0-9\\_\\.]+)\\s*\\)\\s*$
+^\\s*NR (?P<nr>[0-9]+) (?P<args>.+)
+^\\s*NR (?P<nr>\\S+) = (?P<ret>.+)
+^\\s*nr_reclaimed=(?P<nr>[0-9]+)
+^\\s*package\\s+(?P<package_name>[^\\s]+)\\s*;\\s*$
+^\\s*page=(?P<page>\\S+)\\s+pfn=(?P<pfn>[0-9]+)\\s+order=(?P<order>[0-9]+)
+^\\s*page=\\s*(?P<page>\\S+)\\s+pfn=(?P<pfn>[0-9]+)\\s+order=(?P<order>[0-9]+)\\s+migratetype=(?P<mt>[0-9]+)\\s+gfp_flags=(?P<flags>\\S+)
+^\\s*Photolysis\\s*\\n(?P<photolysis>.+)^\\s*End Photolysis
+^\\s*pid=(?P<pid>[0-9]+)\\s+comm=(?P<comm>\\S+)
+^\\s*pid=(?P<pid>[0-9]+)\\s+oldcomm=(?P<oldcomm>.*)\\s+newcomm=(?P<newcomm>.*)\\s+oom_score_adj
+^\\s*pl2bat\\.bat [\\w\\\\]+
+^\\s*prev_comm=(?P<prev_comm>.*)\\s+prev_pid=(?P<prev_pid>[0-9]+)\\s+prev_prio=(?P<prev_prio>\\S+)\\s+prev_state=(?P<prev_state>\\S+)\\s+==>\\s+next_comm=(?P<next_comm>.*)\\s+next_pid=(?P<next_pid>[0-9]+)\\s+next_prio=(?P<next_prio>\\S+)
+^\\s*qw\\s*\\Q$d_left\\E\\s*
+^\\s*-r\\s*(?P<filename>.*)$
+^\\s*rb_define_(singleton_)?(?:private_)?method\\(rb_.(.*?),\\s*\"(.*?)\",\\s*(\\w+),(?#\\))
+^\\s*Reactions\\s*\\n(?P<kinetic>.+)^\\s*End Reactions
+^\\s*s/(.*?)(?<!\\\\)/(.*)/\\s*
+^\\s*select\\s+\\*\\s+from\\s+pg\\_table\\_def\\s+where\\s+schemaname\\s*=\\s*'some\\_schema'\\s+and\\s+tablename\\s*=\\s*'some\\_table'\\s*;\\s*$
+^\\s*select\\s+schemaname\\s+\\|\\|\\s+'\\.'\\s+\\|\\|\\s+tablename\\s+as schema\\_and\\_table\\s+from\\s+pg_tables\\s+where\\s+tableowner\\s*=\\s*'some_user'\\s*;?\\s*$
+^\\s*set search\\_path\\s+to\\s+'\\$user',\\s*some\\_schema\\s*;\\s*$
+^\\s*sig=(?P<sig>[0-9]+) errno=(?P<err>[0-9]+) code=(?P<code>.*) comm=(?P<comm>.*) pid=(?P<pid>[0-9]+)
+^\\s*sig=(?P<sig>[0-9]+) errno=(?P<err>[0-9]+) code=(?P<code>.*) sa_handler=(?P<handler>.*) sa_flags=(?P<flags>.*)
+^\\s*state=(?P<state>[0-9]+)\\s+cpu_id=(?P<cpu_id>[0-9]+)
+^\\s*truncate\\s+table\\s+some\\_other\\_schema\\.some\\_other\\_table\\s*;?\\s*$
+^\\s*truncate\\s+table\\s+some\\_schema\\.some\\_table\\s*;?\\s*$
+^\\s*use \\Q$pname\\E *\\(? *sub *\\{(.*)
+^\\s*use\n(\\s*,\\s*intrinsic\\s*)?(\\s*::\\s*|\\s+)  # Valid separators between \"use\" and module name\n(?P<moduse>\\w*)                       # The module name\n\\s*(, )?\\s*(only)?\\s*(:)?.*?$         # Stuff that might follow the name\n
+^\\s*var\\s*feed\\s*=\\s*(?P<feed>{.*})\\s*;
+^\\s*vec=(?P<vector>[0-9]+)\\s+\\[action=(?P<action>\\S+)\\]
+^\\s*xref:\\s*(?P<xref_file>[^#]+)(?P<xref_frag>#\\S+)?\\s*?$
+^\\s\\s(?P<key>\\S*)\\s*(?P<value>.*)
+^\\s{24,25}(?P<_>(\"(<|:).*|\\S.*\"$))
+^\\\\s|^\"|^'''|^#|^/\\\\*|^//|^\\\\{|^\\\\}|^\\\\[|^\\\\]|^:|^,|\\\\s$|[\\x00-\\x1f\\x7f-\\u{9f}\\u{00ad}\\u{0600}-\\u{0604}\\u{070f}\\u{17b4}\\u{17b5}\\u{200c}-\\u{200f}\\u{2028}-\\u{202f}\\u{2060}-\\u{206f}\\u{feff}\\u{fff0}-\\u{ffff}]
+^\\s|^\"|^'|^#|^/\\*|^//|^\\{|^\\}|^\\[|^\\]|^:|^,|\\s$|[\\x00-\\x1f\\x7f-\\x9f\\x{00ad}\\x{0600}-\\x{0604}\\x{070f}\\x{17b4}\\x{17b5}\\x{200c}-\\x{200f}\\x{2028}-\\x{202f}\\x{2060}-\\x{206f}\\x{feff}\\x{fff0}-\\x{ffff}]
+^\\s|^\"|^'''|^#|^/\\*|^//|^\\{|^\\}|^\\[|^\\]|^:|^,|\\s$|[\\x00-\\x1f\\x7f-\\x9f\\x{00ad}\\x{0600}-\\x{0604}\\x{070f}\\x{17b4}\\x{17b5}\\x{200c}-\\x{200f}\\x{2028}-\\x{202f}\\x{2060}-\\x{206f}\\x{feff}\\x{fff0}-\\x{ffff}]
+^\\s+- (?P<item>[^,]+),\\s+(?P<value>(True|False))(, (?P<description>.+)$)?
+^\\s+(
+^\\s+(?:\\*\\s+)?(?P<name>.+?)\\s+(?P<rev>[-]?\\d+):(?P<nodeid>[0-9a-f]+)
+^\\s+(?P<addr>[0-9a-f]+)\\s+[0-9a-f]+\\s+\\S+\\s+[01]\\s+[0-9]+\\s+[0-9]+\\s+(?P<lib>\\S+)$
+^\\s+(?P<address>[0-9a-fA-F]+)\\s+(?P<symbol>.*)\\s+\\((?P<module>.*)\\)$
+^\\s+(?P<address>[0-9a-fA-F]+)\\s+(?P<symbol>.*)\\s+\\((?P<module>[^)]*)\\)$
+^\\s+(?P<ARR_NAME>.*\\s+modes):\\s*(?P<VALUE>\\S.*\\S)\\s*$
+^\\s+(?P<CONN>\\w[\\w\\s]*\\w)\\s*:\\s+(?P<KEY>\\S+):\\s+(?P<VALUE>\\S.*\\S)$
+^\\s+(?P<CONN>\\w[\\w\\s]*\\w)\\s*:\\s+(?P<VALUE>\\d+.\\d+.\\d+.\\d+...\\d+.\\d+.\\d+.\\d+)\\s+(?P<KEY>\\S+),\\s+(?P<KEY_2>\\S+)=(?P<VALUE_2>\\S+)$
+^\\s+(?P<CONTENT>\\w+.*)
+^\\s+(?P<field_name>[^\\ ]*)\\s+(?P<field_type>[^\\ ]*)(\\s+`mapstructure:\"(?P<ms_field_name>[^\"]*)\"`)?
+^---\\s+(?P<file>.+)
+^---\\s+(?P<file>\\S+)
+^\\s+(?P<IP_ADDR>\\S.*\\S)$
+^\\s+(?P<KEY>\\w[\\w\\s]*\\w)\\s*:\\s+(?P<VALUE>\\S.*\\S)$
+^\\s+(?P<ncalls>\\d+)\\s+(?P<tottime>\\d+\\.\\d+)\\s+(?P<tpercall>\\d+\\.\\d+)\\s+(?P<cumtime>\\d+\\.\\d+)\\s+(?P<cpercall>\\d+\\.\\d+)\\s+(?P<filename>.*):(?P<lineno>\\d+)\\((?P<function>.*)\\)$
+^\\s+(?P<PARAM>\\S+)\\s+(?P<MODE>\\S+)$
+^\\s+(?P<thread>\\S+.*?\\S+)\\s+\\[(?P<cpu_id>\\d+)\\]\\s+(?P<ts>[\\d.]+):\\s+(?P<name>[^:]+):\\s+(?P<body>.*?)\\s*$
+^\\s+(?P<total_calls>\\d+) function calls \\((?P<primitive_calls>\\d+) primitive calls\\) in (?P<total_time>\\d+\\.\\d+) seconds$
+^\\s+(?P<VALUE>\\S.*\\S|\\S)\\s*$
+^\\s+(?P<value>\\w.*)$
+^\\s+(?P<vendor>\\w+): (?P<status>UP|DOWN) (?P<version>v[\\d\\.]+)$
+^\\s+([123ABDEGHILMPST\\.gu]+)\\s+\\d+\\s+[$out->{SPIN}]*\\s+(\\d+\\.\\d+)\\s+(\\-*\\d\\.\\d+E\\-*\\+*\\d+)\\s+(\\-*\\d+\\.\\d+)\\s+
+^\\s+(\\d+):\\s+([a-zA-Z0-9\\_]+)\\s+([\\s\\w]*) \\*?(\\d+(?:\\.\\d+)? [A-Z])B\\s+([a-z0-9]+)
+^\\s+\\\\
+^\\S+\\/(\\d+(?:[\\.\\_]\\d+)+)
+^\\s+\\[([\\w\\\\]+\\\\)?(\\w+)\\]\\s+(.+)\\r?\\n\\r?\\n\\S
+^\\S+\\s+(?P<mac_address>[0-9A-Fa-f\\:]+)\\s+\\S+\\s+(?P<interface>\\d+)\\s+\\S+
+^\\S+\\s++(?:(?:\\.{3}\\s*)?(\\$\\S+)\\s+)?[^$]
+^\\s++|\\s++$
+^\\s+BGP state = (?P<state>\\w+)
+^\\s+def \\K\\w+
+^\\s+Description: (?P<description>.+)
+^\\s+For address family: (?P<afi>\\S+) 
+^\\s+inet\\s+(?P<address>[0-9.]+)\\s+netmask\\s+(?P<netmask>[.x0-9a-f]+)$
+^\\s+inet\\s+(?P<address>[0-9.]+)\\s+netmask\\s+(?P<netmask>[.x0-9a-f]+)\\s+broadcast\\s+(?P<broadcast>[0-9.]+)$
+^\\s+inet6\\s+(?P<address>[0-9:a-f]+)%(?P<scope>[^s]+)\\s+prefixlen\\s+(?P<prefix>\\d+)\\s+scopeid\\s+(?P<scope_id>[x0-9a-f]+)$
+^\\s+inet6\\s+(?P<address>[0-9:a-f]+)\\s+prefixlen\\s+(?P<prefix>\\d+)$
+^\\s+Prefixes Current:\\s+(?P<sent_prefixes>\\d+)\\s+(?P<accepted_prefixes>\\d+).*
+^\\s+Saved (soft-reconfig):.+(?P<received_prefixes>\\d+).*
+^\\s+VERSION = ['\"](
+^\\t([0-9A-Za-z:-]+)\\s+=\\s+[\"]?([A-Za-z0-9=\\\\\\.-\\_\\s]*)[\"]?.*\\n
+^\\t\\$\\(FIXIN\\) .*\\Q$exe\\E$
+^\\t\\Q$arg\\E = new
+^\\t\\Q$arg\\E\\s*=\\s*(boolSV\\(|(&PL_sv_yes|&PL_sv_no|&PL_sv_undef)\\s*;)
+^\t\t  # Method parsing regex\n\t     (\\+|-|)\t  # $1 => method-diffs. Defaults to \"+\" if unspecified\n\t     (\\*|\\^|\\&|)  # $2 => purpose. Defaults to \"*\"\n\t     (.*?)\t  # $3 => protection? attribute? return-type?\n\t     \\s*\t  # C++ type voodoo =~ m!type\\s*(\\**\\s*)*&?\\s*!\n\t     (\\w+)::\t  # $4 => class-name\n\t     (operator\\s*\\S+  # allow \"operator ()\" without choking the regex\n\t      |~?\\w+)\t  # $5 => method-name, allow \"~destructor\"\n\t     \\s*\t  # allow \"type class::method ()\"\n\t     \\((.*?)\\)\t  # $6 => end this argument-list with a space or a ;\n\t     (?:\\s+([:\\w].*))? # $7 => post-arg modifiers and colon-substitutes\n\t     ;\t\t  # EVERY method must be terminated with a semi-colon!\n\t     (?:\\s*\\#.*)? # toss any comments at the end of the line\n\t    $
+^\\tpath\\s*=\\s*\\K(.+)$
+^\\\\u
+^\\U$shortname\\E$
+^\\\\u([0-9A-F]{4})
+^'\\\\u([0-9A-F]{4})'$
+^\\\\U([0-9A-F]{8})
+^\\\\u([0-9A-Fa-f]{1,4})
+^\\\\u([0-9A-Fa-f]{1,4})\\'
+^\\\\u([0-9a-fA-F]{4})
+^\\\\u([0-9A-Fa-f]{4})
+^\\\\U([0-9A-Fa-f]{8})
+^\\u(\\w)\\|\\u(\\w)$
+^\\\\u[0-9A-F]
+^\\\\\\\\u[0-9A-F]{4}$
+^\\\\u[0-9a-fA-F]{4}
+^\\\\u[dD][89abAB][0-9a-fA-F]{2}\\\\u[dD][c-fC-F][0-9a-fA-F]{2}
+^\\\\u\\{[0-9a-fA-F]{1,}\\}
+^\\\\u\\{[0-9a-fA-F]+\\}
+^\\U\\Q$part
+^\\u\\w$
+^\\\\unioncopy\\s+
+^\\\\Users\\\\
+^\\\\\\\\VED\\\\\\\\Policy
+^\\w(:)(\\\\)
+^\\w:[/\\\\]
+^\\w:[/\\\\]*$
+^\\w:[\\/\\\\]
+^\\w:\\\\
+^\\w\\:\\\\
+^\\w{1,5}:\\/\\/|^\\w{0,3}:?\\\\\\\\
+^\\w{2}(?:\\_|\\-)\\w{2,3}$
+^\\w{4}(\\d{2,}|(?:\\(([^()]*(?:\\([^()]+\\)[^()]*)*)\\))?(?:\\[(\\\\.|[^]\\\\]*)\\])?)$
+^\\w+:\\\\
+^\\w+\\:[\\/\\\\]
+^\\w+\\s+(
+^\\w++$
+^\\w++://[^/]++
+^\\Wurfl\\Handlers\\(.+)Handler$
+^\\\\x
+^\\X$
+^\\\\x([\\da-fA-F]{2})
+^\\\\x([0-9,A-F,a-f]{1,2})
+^\\\\x([0-9a-f]{2})$
+^\\\\x([0-9A-Fa-f]{1,2})
+^\\\\x([0-9A-Fa-f]{1,2})\\'
+^\\\\x([0-9A-Fa-f]{2})
+^\\\\x([0-9a-fA-F]{2})
+^\\\\x[0-9A-F]
+^\\\\x[0-9a-fA-F]{1,2}
+^\\\\x[0-9a-fA-F]{2}
+^\\\\x\\{
+^\\x0([^\\x0]+)\\x0(.*)$
+^\\x01\\x02([^\\x01]*+)\\x01$
+^\\x1b\\](\\d+);([^\\x07\\x1b]+)(?:\\x07|\\x1b\\\\)
+^\\x1b\\](l|L)([^\\x07\\x1b]*)(?:\\x07|\\x1b\\\\)
+^\\x1bP([0-9;@A-Za-z`]*)\\x1b\\\\
+^-\\x20\n              (?# Type of statement )\n                (?P<type>Refs|Fixed|Closed|Implemented|Documented|Tested)\n              (?# Match optional bug number )\n                (?:\\x20\\#(?P<bug>[1-9]+[0-9]*))?\n              (?# Match required text line )\n                (?::\\x20(?P<text>[\\x20-\\x7E]+))?\n            $
+^^(.*?)[\\\\/]*([^/\\\\]*?)[\\\\/\\.]*$
+^^[\\p{Print}]*$
+^_(
+^_((?>\\\\_|[^_]|__[^_]*__)+?)_(?!_[^_])\\b
+^_(.*?)\\_$
+^_(?P<Service>\\w+)\\.\\_(?P<Protocol>\\w+)$
+^_(?P<text>.+?)_
+^_([+\\-]?[0-9]+|[^\\\\])
+^_([0-9\\_]*Hz)
+^_\\\\([A-Z])_
+^__ (?P<url>\\./.*)
+^__((?:\\\\[\\s\\S]|[^\\\\])+?)__(?!_)
+^__((?>\\\\_|[^_]|_[^_]*_)+?)__
+^__(?P<container_identifier>.+?)__\\.(?P<service_identifier>.++)$
+^__(?P<text>.+?)__
+^__(?P<type>collection|entity)__$
+^__(?P<type>collection|entity|resource)__$
+^__\\Q$name\\E__
+^__\\U$sec\\E__$
+^__app_name__ += (?P<q>['\"])(.+?)(?P=q)$
+^__EMU__([A-Z]++)__(?:([A-Za-z0-9]++)__)?$
+^__keyspace.*__:(?P<queue_name>.*)$
+^__version__ = '(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)(?P<tag>.*)?'$
+^__version__ = (?P<quote>[\\'\"])(?P<version>[0-9]+\\.[0-9]+\\.[0-9]+(?:\\.dev[0-9]+)?)(?P=quote)$
+^__version__ = '(?P<version>[^']+)'$
+^__version__ = ([\\'\"])(?P<version>.*)\\1$
+^__version__ = [\"\\'](?P<version>[^\"\\']*)[\"\\']
+^__version__ = \\\"(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)(?P<tag>.*)?\\\"$
+^__version__\\s*=\\s*(?P<quote>['\"])(?P<version>[^'\"]+)(?P=quote)\\s*(?:#.*)?$
+^_<.*\\/\\Q$file\\E$
+^_unmemoized_(
+^`(?P<name>.*)`$
+^`(?P<name>[^`]+)`
+^`(?P<text>.+?)`
+^`\\p{Letter}${chartypes{notcaron}}*\\x{030C}${chartypes{notcaron}}*\u00c2\u00b4$
+^`\\p{Letter}${chartypes{notgrave}}*\\x{0300}
+^``(?:[^'\\\\]|\\\\.)*''
+^``(?P<text>.+?)``
+^```+\\N*\\n(.*?)\\n```+
+^{(?P<namespace>.+)}-(?P<operation>.+)$
+^{(?P<type>[a-zA-Z]+)(?::(?P<params>[^}]+))?}(?:(?P<text>.*){\\1})?$
+^{(?P<w>[^()[\\]][^()[\\]]*?)\\((?P<n>[^()\\[\\]]+)\\)}$
+^{(?P<w>[^[\\]()]+)(?:\\[(?P<i>\\d+)\\])?}$
+^{\\\\([`'^\"~])([\\w])}$
+^{\\\\([vc])(\\w)}$
+^{\\\\([vc]){(\\w)}}$
+^{{(?P<symbol>.+)}}$
+^{{(\\\\[A-Z][\\\\A-Za-z\\d_]+::[A-Z\\d_]+)}}$
+^-{3} (.+) -{3}\\R?$
+^-{3}.*+[\n\r]++\\+{3}
+^~($|\\/|\\\\)
+^~(?= [/\\\\] | $ )
+^~(?=$|\\/|\\\\)
+^~(\\/|\\\\)
+^~(\\w*)((?:[/\\\\]).+)?$
+^~[/\\\\]
+^~[\\/\\\\]
+^~[^/\\\\]+$
+^~[A-Z](?:\\((?:[^\\)\\r\\n\\\\]|\\\\.)+\\)|\\[(?:[^\\]\\r\\n\\\\]|\\\\.)+\\]|\\{(?:[^\\}\\r\\n\\\\]|\\\\.)+\\}|\\<(?:[^\\>\\r\\n\\\\]|\\\\.)+\\>)[A-Z]*
+^~[A-Z](?:\\/(?:[^\\/\\r\\n\\\\]|\\\\.)+\\/|\\|(?:[^\\|\\r\\n\\\\]|\\\\.)+\\||\"(?:[^\"\\r\\n\\\\]|\\\\.)+\"|'(?:[^'\\r\\n\\\\]|\\\\.)+')[A-Z]*
+^~~~+\\N*\\n(.*?)\\n~~~+
+^<!-- aliasbegin -->\\R.*?^<!-- aliasend -->\\R
+^<!---?[^>-](?:-?+[^-])*-->
+^<!DOCTYPE[^>]*+>
+^<((?>
+^<(?P<nick>.*?)>\\s*(?P<quote>.*)\\s*$
+^<(?P<pri>\\d+)>(?P<date>\\w{3} [ 0-9][0-9] \\d\\d:\\d\\d:\\d\\d) (?:(?P<host>[^ :\\[]+) )?(?P<tag>[^ :\\[]+)(?P<rest>[:\\[ ].+?)\\s*$
+^<(?P<prio>\\d{1,3})>\n                                (?P<content>.*)
+^<(?P<prio>\\d{1,3})>\n                               (?:(?P<rfc5424>1\\ )?\n                                  (?P<timestamp>\\S{20,38}|...\\ ..\\ ..:..:..(\\ 20\\d\\d)?|-))\\ ?\n                                  (?P<hostname>\\S+)*\\ ?\n                                  (?P<content>.*)
+^<(?P<tag_name>\\w+)
+^<(?P<url>https?:\\/\\/[^>]+)>;\\s+rel=\"(?P<rel>next|last|first|prev)\"$
+^<([^.\\s/0-9>]+)(\\.[^\\s\\\\>]+)?([^>\\\\]+)?(\\\\?)>?$
+^<([a-zA-Z][a-zA-Z0-9\\-\\_]*)>\\s*
+^<([a-zA-Z0-9.!
+^<(\\d+|\\.)>[ \\t]+(
+^<(\\w++:\\/{2}[^ >]++)>
+^<.+>(?P<message_without_path>:\\d+:\\d+.+)
+^<[^>]*rel\\s*=\\s*(?|\"\\s*nofollow\\s*\"|'\\s*nofollow\\s*'|\\s*nofollow\\s*)[^>]*>
+^<\\/\\w[\\w-]*+[ ]*+>
+^<\n        (?:\n            (?P<converter>[a-zA-Z_][a-zA-Z0-9_]+)   # converter name\n            (?:\\((?P<args>.*?)\\))?                  # converter args\n            \\:                                      # delimiter\n        )?\n        (?P<variable>[a-zA-Z_][a-zA-Z0-9_]*)        # variable name\n        >$
+^<\\s*[\\w]{1,20}+://
+^<<(.?*)>>=|\\\\begin\\{.*\\}
+^<<(?:['\"`\\-]|
+^<<-?(?:[\"'`]|
+^<<-?(?:['\"`]|
+^<div class=\"wiki-(?P<name>[a-z]+)\"(?P<opts>( data-wiki-([a-z]+)=\"([^\"]+)\")*)>(?P<value>.*)</div>$
+^<ol[^>]*>(.*?(?R)?.*?)<\\/ol>
+^<p>(
+^<p>hmm<\\/p>\\n\\n<pre>\\nthis is `a\\\\_test` and this\\\\_too and finally_this_is\\n<\\/pre>$
+^<pre[ >][^]*<\\/pre>$
+^<pre>\\nthis is `a\\\\_test` and this\\\\_too and finally_this_is\\n<\\/pre>$
+^<string>:(?P<line>(?:\\d+)?): \\((?P<level>DEBUG|INFO|WARNING|ERROR|SEVERE)/(\\d+)?\\) (?P<message>.*)
+^<table>[^]*?\\n<\\/table>
+^<template>[^]+<\\/script>
+^<U(....)> \\\\x(..)\\\\x(..) \\|\\d
+^<U(....)> \\\\x(..)\\\\x(..) \\|0
+^<U(....)> \\\\x(..)\\\\x(..)( \\|(.)|)
+^<U([0-9a-fA-F]+)>\\s*([\\+0-9a-fA-Fx\\\\]+)\\s*\\|(\\d)
+^<ul[^>]*>(.*?(?R)?.*?)<\\/ul>
+^=*(?:[ \\t]|<\\!--(?:(?!-->)[^])*-->)*(?:[\\r\\n]|$)
+^=\"(([^\\\\\"]|\\\\\"|\\\\)*)\"
+^=\\s*([\\'\\\"])(([^\\\\]|\\\\.)*?)\\1
+^={2}(?P<string>.*?)={2}
+^==== (?P<depotpath>.*?)#\\d+ (- (?P<path>.*?)|\\(.*?\\)) ====$
+^=encoding\\s+(?P<encoding>[-\\w.]+)
+^=for pod2wp CATEGOR(?:Y|IES):\\s*(.+)\\R\\R
+^=for pod2wp POSTID:\\s*(\\d+)\\R\\R
+^=for pod2wp TAGS?:\\s*(.+)\\R\\R
+^=for pod2wp TITLE:\\s*(.+)\\R\\R
+^=head1 \\s+ NAME\\s*\\R\n                \\s*\\R\n                \\S+ \\s+ - \\s+ ([^\\r\\n]+)\n               
+^=item\\s+\\Q$function\\E\\b
+^>*\\s*[Cc]opyright\\s(\\([Cc]\\)|\u00a9)*(?P<CLINE>.*)
+^>.*\\R
+^>[ \\t]*[
+^>[ ]?+(.*+)
+^>>>\\Q$data{'qname'}
+^0 (?P<partsize>\\d+) linear (?P<major>\\d+):(?P<minor>\\d+) (?P<offset>\\d+)\n\\Z
+^0 (?P<plainsize>\\d+) crypt (?P<cipher>[a-z0-9:-]+) 0+ 0 (?P<major>\\d+):(?P<minor>\\d+) (?P<offset>\\d+)(?P<options> [^\n]*)?\n\\Z
+^0(
+^0*([x|X][\\p{XDigit}]+)(;?)
+^0;([^\\007]*)(?:\\007|\\033\\\\)
+^0?(
+^0\\_0|\\d+|\\d+_\\d+$
+^0+(?:\\Q$thousands_sep\\E)?
+^0x[0-9a-f]++$
+^1;([^\\007]*)(?:\\007|\\033\\\\)
+^1?$|^(11+?)\\1++$
+^2;([^\\007]*)(?:\\007|\\033\\\\)
+^4(?P<smaxt>0|1)\n                                (?P<maxt>\\d\\d\\d)\n                                (?P<smint>0|1)\n                                (?P<mint>\\d\\d\\d)\\s+
+^4/(?P<snowdepth>\\d\\d\\d)\\s+
+^5(?P<tend>[0-8])\n                                (?P<press>\\d\\d\\d)\\s+
+^a migration named \"([^\"]*)\" (
+^a page exists at (
+^a score=(?P<score>.+)$
+^a.c+[^one]{2,3}\\b\\d\\\\\\C-C$
+^Access to undeclared static property: ([\\w\\\\]+)::\\$(\\w+)
+^Action\\_
+^Active connections: (?P<conn>\\d+)
+^active:(?P<bool>\\w+)$
+^ACTUALCE: (?P<actualCE>\\S+)
+^ajax_(?<action>[a-z0-9]+)_(?<function>[a-z0-9\\_]+)$
+^ajax_(?<function>[a-z0-9\\_]+)$
+^alias\\_for\\_.*
+^alloy[\\/\\\\]backbone([\\/\\\\]|$)
+^AlphaLemon\\\\Theme\\\\[\\w]+ThemeBundle
+^AO(?P<type>\\d)\\s+
+^app/(views/.+/[^/]*\\.(?:
+^app/layouts/(.+)/[^/]*\\.(?:
+^app/views/(.+)/[^/]*\\.(?:
+^App\\\\(.+)$
+^App\\\\(?P<module>\\w+)\\\\Controllers\\\\(?P<controller>\\w+)@(?P<action>\\w+)
+^App\\\\Bundle\\\\([^\\\\]+)\\\\(.+)$
+^App\\\\Forms\\\\([^\\\\]+)$
+^AppSamurai\\/([\\w\\d\\_]+?)\\s*$
+^Assert\\\\(.+)
+^Asterisk *Call *Manager/(?P<version>([0-9]+\\.)*[0-9]+)
+^attachment; filename=(?P<filename>.*)$
+^attributes\\.entry\\.(?P<index>\\d+)\\.(?P<type>key|value)$
+^authorize_(\\w+)(?:\\|([\\w\\\\]+))?$
+^available on (?:
+^a-zA-Z-0-9\\_
+^b'([^\\\\]|\\\\(.|x[\\da-fA-F]{2}))'
+^b\"(?:[^\\\\]|\\\\(?:.|x[\\da-fA-F]{2}))*?\"
+^backup-([\\w\\-]+)-(\\d\\d\\d\\d)(\\d\\d)(\\d\\d)_(\\d\\d)(\\d\\d)(\\d\\d)-(\\w+)\\.(.*?)(?:\\.(
+^bc(?P<attributes>.*?)(?P<mode>\\\\.{1,2}) 
+^beConstructed(?P<method>[0-9A-Z]+)
+^beConstructedThrough(?P<method>[0-9A-Z]+)
+^Berkeley DB \\(.*, version (?P<version>[0-9]+),.*\\)$
+^bitbucket:(?P<owner>[^/]+)/(?P<code>.+)$
+^bitbucket\\.org/(?P<owner>[a-z0-9A-Z_.\\-]+)/(?P<repo>[a-z0-9A-Z_.\\-]+)(?P<dir>/[a-z0-9A-Z_.\\-/]*)?$
+^bitbucket-snippet:(?P<owner>[^/]+)/(?P<code>.+)$
+^bitcoinrpc://(?P<user>\\S*):(?P<password>\\S*)\\@(?P<hostname>\\S*)(:(?P<port>\\d*))
+^block\\.([a-zA-Z0-9\\-\\_]+)\\.tpl$
+^BO\\_ (\\w+) (\\w+) *: (\\w+) (\\w+)
+^BOARD\\s*=(?P<value>[^#]*).*$
+^bodyhtml\\_([0-9]+)$
+^BolCom\\\\(\\w+)
+^bootstrap\\((\\{[^]+})\\);$
+^bq(?P<attributes>.*?)(?P<mode>\\\\.{1,2})(?::(?P<cite>.+?))? 
+^Build settings for action (?P<action>.+) and target \"?(?P<target>.+)\"?:$
+^build-(([0-9]+)\\.([0-9]+)\\.([0-9]+))(\\/|\\\\)index\\.html$
+^build-([0-9]+)\\.([0-9]+)\\.([0-9]+)(\\/|\\\\)index\\.html$
+^bytes (?P<start>\\d+)-(?P<end>\\d+)/(?P<total>\\d+)$
+^c#([\\p{PerlWord}-]+)\\z
+^c:[/\\\\]
+^c:\\\\backupdir[\\\\/]+a\\\\b\\\\c.txt.chef-\\d{14}.\\d{6}$
+^C:\\\\fakepath\\\\
+^c\\_
+^Call to undefined function (\\S+\\\\)?(\\w+)\\(
+^Call to undefined method ([\\w\\\\]+)::(\\w+)
+^camlistore\\.org/r/p/(?P<repo>[^/]+)$
+^Can't exec \"\\Q$prog\\E\":
+^Can't locate \\Q$file\\E in \\@INC
+^Can't locate \\Q$fn\\E .*? at .* line [0-9]+(?:, <[^>]*> (?:line|chunk) [0-9]+)?\\.\\n\\z
+^Can't locate \\Q$load_module\\E\\.pm 
+^Can't locate \\Q$module.pm\\E
+^Can't locate \\Q@{[class_to_path $class]}\\E in \\@INC
+^Can't locate \\Q@{[class_to_path $module]}\\E in \\@INC
+^cdxj?\\+(?P<url>https?\\:.*)
+^CFe(?P<campos>\\d{44})$
+^Civi\\\\
+^Class ([A-Za-z0-9_\\\\]+) does not exist$
+^Class 'OxidEsales\\\\Eshop\\\\.*' not found
+^class\\s+(
+^cleartool: Error: Unable to perform operation.*\"\\Q$lrep\\E\"
+^cmd \\\\c
+^CMSSW_(?P<one>[0-9]+)_(?P<two>[0-9]+)_(?P<three>[0-9]+)(?:_pre(?P<four>[0-9]+))?
+^cobc: (?P<error>.*)$
+^code\\.google\\.com/(?P<pr>[pr])/(?P<repo>[a-z0-9\\-]+)(:?\\.(?P<subrepo>[a-z0-9\\-]+))?(?P<dir>/[a-z0-9A-Z_.\\-/]+)?$
+^code\\.google\\.com/p/(?P<repo>[a-z0-9\\-]+)(:?\\.(?P<subrepo>[a-z0-9\\-]+))?(?P<dir>/[a-z0-9A-Z_.\\-/]+)?$
+^col(?P<index>\\d+)$
+^COLLATE (?P<collate>[^ ]+)($| )
+^column\\_([0-9])+$
+^CommandHandler::process [a-z0-9_\\\\]+ \\d+\\.\\d+
+^Compilation\\ failed\\ in\\ require\n\t\t\t \\ at\\ \\Q@{[__FILE__]}\\E\\ line
+^composer\\s+(?P<url>\\S+)
+^Configuration contains key \\\\[(?P<key>\\\\S+)\\\\]
+^Content-Length: (?P<length>\\d+)
+^content-length:(\\d++)$
+^content-length[:]\\s*(?P<value>[0-9]+)
+^Content-Type:\\s+(?P<type>[a-z*][a-z0-9_/*+.-]*)(;\\s*(?P<options>.*))?$
+^convert (?P<from>.*) (?P<to>.*)$
+^convert (?P<from>.*) to (?P<to>.*)$
+^convert (?P<from>.*)$
+^convert (?P<notional>\\d+) (?P<from>.*) (?P<to>.*)$
+^convert (?P<notional>\\d+) (?P<from>.*) to (?P<to>.*)$
+^convert (?P<notional>\\d+) (?P<from>.*)$
+^Counters: (?P<amount>\\d+)\\s*$
+^Counters: (?P<num_counters>\\d+)\\s*$
+^create(?P<channel>.+)Message$
+^create([A-Za-z0-9\\_]+)(Model|Collection)
+^create_(
+^curl\\_
+^CURLOPT\\_
+^Current Power\\s*:\\s*(?P<value>[0-9.]*)\\s*Watts.*
+^CUTYPE=(?:INDIVIDUAL|GROUP|RESOURCE|ROOM|UNKNOWN|(?:
+^CX\\_?
+^d = \\d+ 0x\\h+$
+^Dat0r\\\\Core\\\\Field\\\\(.*)Field$
+^data:(?P<mime>[a-z]+/[a-z]+);base64,(?P<data>.*)$
+^data:(?P<mime>[a-z0-9\\/+-.]+)(;charset=(?P<charset>[a-z0-9-])+)?(?P<base64>;base64)?\\,(?P<data>.*)?
+^data:([a-z0-9][a-z0-9\\!\\#\\$\\&\\-\\^\\_\\+\\.]{0,126}\\/[a-z0-9][a-z0-9\\!\\#\\$\\&\\-\\^\\_\\+\\.]{0,126}(;[a-z0-9\\-]+\\=[a-z0-9\\-]+)?)?(;base64)?,[a-z0-9\\!\\$\\&\\'\\,\\(\\)\\*\\+\\,\\;\\=\\-\\.\\_\\~\\:\\@\\/\\?\\%\\s]*\\s*$
+^DATA\\s+(?P<Nsec>\\d+)\\s+(?P<Kinsns>\\d+)\\s+(?P<Uinsns>\\d+)\\s+(?P<Udud>\\d+)\\s+(?P<Idle>\\d+)\\s+(?P<IRQs>\\d+)\\s+(?P<Exns>\\d+)\\s+(?P<Disk>\\d+)\\s+(?P<Con>\\d+)\\s+(?P<Emu>\\d+)\\s+(?P<Net>\\d+)
+^db\\\\([a-zA-Z0-9_\\-]+)$
+^db\\-v[^_]+_(?P<dtm>[\\d\\-_]+).*\\.dump$
+^Dealt to (?P<hero_name>.*) \\[(..) (..)\\]$
+^Dealt to (?P<hero_name>.+?) \\[(..) (..)\\]
+^def\\s+(
+^define (?P<thing>(.*))
+^Degami\\\\PHPFormsApi\\\\(.*?)$
+^DELETE FROM (
+^describe\\((?P<name>(\"[^\"]+\"|'[^']+'))[^{]+\\{
+^DetInfo\\((?P<det>\\S+)\\.(?P<det_id>\\d+)\\:(?P<dev>\\S+)\\.(?P<dev_id>\\d+)\\)$
+^diff --git \"?a\\/(.+?)(?<!\\\\)\"? \"?b\\/(.+?)(?<!\\\\)\"?$
+^directions (?P<start>.*) to (?P<end>.*)$
+^directions to (?P<end>.*)$
+^Directory: (?P<version>\\d.\\d)$
+^do((?!
+^docs[\\/\\\\]
+^DomainEventHandler::process [a-z0-9_\\\\]+ \\d+\\.\\d+
+^DQM_V[0-9]{4}_(?P<subsys>.*)_R(?P<runnr>[0-9]{9})(|_T[0-9]*)\\.root$
+^Drupal\\\\(?<provider>[\\w]+)\\\\
+^Drupal\\\\Tests\\\\Listeners\\\\
+^ds\\[([[A-Za-z0-9\\_]+)?\\]\\.([a-z_]+)
+^DUMP\\s+OF\\s+SERVICE\\s+(?P<service>\\S+):
+^duplicity-full\\.(?P<time>.*?)\\.manifest(?P<partial>(\\.part))?($|\\.)
+^duplicity-full\\.(?P<time>.*?)\\.vol(?P<num>[0-9]+)\\.difftar(?P<partial>(\\.part))?($|\\.)
+^duplicity-full-signatures\\.(?P<time>.*?)\\.sigtar(?P<partial>(\\.part))?(\\.|$)
+^duplicity-inc\\.(?P<start_time>.*?)\\.to\\.(?P<end_time>.*?)\\.manifest(?P<partial>(\\.part))?(\\.|$)
+^duplicity-inc\\.(?P<start_time>.*?)\\.to\\.(?P<end_time>.*?)\\.vol(?P<num>[0-9]+)\\.difftar($|\\.)
+^duplicity-new-signatures\\.(?P<start_time>.*?)\\.to\\.(?P<end_time>.*?)\\.sigtar(?P<partial>(\\.part))?(\\.|$)
+^Duration: (?P<duration>\\d{2}:\\d{2}:\\d{2}).\\d{2}(.*)$
+^-e (?P<link>(?P<vcs>git|svn|hg|bzr).+#egg=(?P<package>.+)-(?P<version>\\d(?:\\.\\d)*))$
+^-e (?P<link>.*).+#(?P<package>.+)-(?P<version>\\d(?:\\.\\d)*)$
+^Elastica\\\\Test
+^else \\\\
+^en\\_?
+^ENGINE=(?P<engine>[^ ]+) (AUTO_INCREMENT=\\d+ )?DEFAULT CHARSET=(?P<defaultCharset>[^ ]+) COLLATE=(?P<collate>[^ ]+)$
+^entry.([a-zA-Z\\_]+)
+^entry.([a-zA-Z\\_]+).
+^enum\\('(?P<matches>.*)'\\)$
+^error (.*)(
+^Error: .*[\\/\\\\]node_modules[\\/\\\\]~ is already being used$
+^Error: throwing fn\\s+at sum.+\\\\__tests__\\\\test_root\\\\sourcemaps\\\\(out\\\\)?throwing-mapped-fn.js:\\d+:\\d+
+^Error: throwing fn\\s+at sum.+\\\\__tests__\\\\test_root\\\\throwing_fn.js:11:9
+^ERROR:\\s+duplicate key violates unique constraint \"$tableName\\_(.+?)\\_key\"$
+^Errors: (?P<errors>[0-9]+)[ ]+Warnings: (?P<warnings>[0-9]+)[ ]+Total checks: (?P<total>[0-9]+)$
+^event:(?P<event>[^/]+)
+^EXITCODE: (?P<exitcode>-?\\d*)
+^EXITCODE: (?P<exitcode>\\d+)
+^ext:(?P<ext>\\d+):sticker:(?P<sticker>\\d+)$
+^external:\\\\
+^FACTFinder\\\\
+^FAILED \\((?:failures=(?P<f>\\d+))?,? ?(?:errors=(?P<e>\\d+))?\\)$
+^Faker\\\\Provider.*
+^Faker\\\\Provider\\\\(?P<locale>[a-z]{2}_[A-Z]{2})\\\\
+^farm([1-3])\\.static.?flickr.com\\/([0-9]+?)\\/([0-9]+?)\\_([a-z0-9]+?)((?:\\_[a-z]){1,2}){0,1}\\.([a-z]+)
+^fast\\_send\\.
+^fields\\[(?P<resource>\\w+)\\]$
+^File \"(?P<filepath>.+)\", line (?P<lineno>\\d+)
+^File \"(?P<filepath>.+)\", line (?P<lineno>\\d+), in (?P<funcname>.+)$
+^file://(?P<computer>[^/]+)(?P<path>.*)$
+^filename[*]=UTF-8''(?P<name>[-_.~A-Za-z0-9%]+)$
+^filter(?P<ldelim>\\[?)(?P<assoc>[\\w\\.\\-]*)(?P<rdelim>\\]?$)
+^filter_(?P<filter>[\\w\\d]+)_for_(?P<backend>[\\w\\d]+)$
+^Firmware Revision\\s*:\\s*(?P<value>[0-9.]*).*
+^Flash Lite\\N{TRADE MARK SIGN}
+^Floxim\\\\Floxim\\\\Component\\\\([\\w]+)\\\\Finder$
+^foo[/\\\\]_cacache$
+^For address family: (?P<afi>\\S+) 
+^form\\_([a-zA-Z0-9\\_\\-]+)\\.php$
+^form_cgroup (?P<field_variables>[^\"']*)(?: (?:[\"'](?P<classes>.*)[\"']))?$
+^freetds v(?P<major>[\\d]+)\\.(?P<minor>[\\d]+)(?:\\.(?P<patch>[\\d]+))?$
+^from \\. import (?P<name>.+)$
+^func\\({1}(?P<args>.*?)?\\){1}\\s*\\(?(?P<rets>.*?)\\)??$
+^function (?P<output>\\S+)\\s*=\\s*gsw_(?P<funcname>\\S+)\\((?P<input>.*)\\)
+^function \\[(?P<output>.*)\\]\\s*=\\s*gsw_(?P<funcname>\\S+)\\((?P<input>.*)\\)
+^function[\\s\\r\\n]*[^\\(]*\\(([^\\)]*)\\)[\\s\\r\\n]*\\{([^]*?)\\}$
+^function\\(\"([^\"\\\\]+)\"\\)$
+^function\\s*\\w*\\s*\\(([^]*?)\\)
+^fzf-(?P<ver>\\d+\\.\\d+\\.\\d+)-(?P<plat>[^-]+)_(?P<arch>[^.]+).(?P<ext>tgz|tar\\.gz|tar\\.bz2|zip)$
+^get(?P<name>.+)$
+^get([\\p{Upper}]{1}.*)$|^is([\\p{Upper}]{1}.*)$
+^get[\\p{Upper}]{1}.*$|^is[\\p{Upper}]{1}.*$
+^gi[\\_]*([0-9]*)
+^Giosh94mhz\\\\GeonamesBundle\\\\Import\\\\StepBuilder\\\\(\\w+)ImportStepBuilder$
+^gist\\.github\\.com/(?P<gist>[a-z0-9A-Z_.\\-]+)\\.git$
+^git://((?P<user>[^@]+)@)?(?P<repository1>(?P<host>[^:]+):(?P<path>.*))$|^(?P<protocol>https)://(?P<repository2>.*\\.git)$
+^git@(
+^git\\.gitorious\\.org/(?P<repo>[^/]+/[^/]+)$
+^git\\.oschina\\.net/(?P<repo>[^/]+/[^/]+)$
+^gitcafe.com/(?P<repo>[^/]+/.[^/]+)$
+^github:(?P<owner>[^/]+)/(?P<project>.+)$
+^github\\.com/(?P<owner>[a-z0-9A-Z_.\\-]+)/(?P<repo>[a-z0-9A-Z_.\\-]+)(?P<dir>/.*)?$
+^github\\.com/(?P<owner>[a-z0-9A-Z_.\\-]+)/(?P<repo>[a-z0-9A-Z_.\\-]+)(?P<dir>/[a-z0-9A-Z_.\\-/]*)?$
+^github-gist:([^/]+/)?(?P<code>.+)$
+^gitlab:(?P<owner>[^/]+)/(?P<project>.+)$
+^gitlab-snippet:(?P<code>.+)$
+^global\\.([a-zA-Z0-9\\-\\_\\.]+)\\.php$
+^global\\s+(?P<parameters>.*)?
+^GLS\\/1.0 (\\d+) (\\w+).*?\\r\\n\\r\\n([^]*)$
+^Going to sign-off the following commits:\\n\\* \\h{7} Alan Smithee <asmithee@example\\.com> first branch commit$
+^Going to sign-off the following commits:\\n\\* \\h{7} Alan Smithee <asmithee@example\\.com> second branch commit$
+^Going to sign-off the following commits:\\n\\* \\h{7} Alan Smithee <asmithee@example\\.com> second branch commit\\n\\* \\h{7} Alan Smithee <asmithee@example\\.com> first branch commit$
+^Going to sign-off the following commits:\\n\\* \\h{7} Alan Smithee <asmithee@example\\.com> second branch commit\\n\\* \\h{7} Alan Smithee <asmithee@example\\.com> Merge branch 'master' into mybranch\\n\\* \\h{7} Alan Smithee <asmithee@example\\.com> first branch commit$
+^golang\\.org/x/(?P<repo>[a-z0-9\\-]+)?(?P<dir>/[a-z0-9A-Z_.\\-/]+)?$
+^goog.addDependency\\(['\"]([^/]+[a-zA-Z0-9\\-\\_/\\.]*\\.js)['\"], \\[((['\"][\\w\\.]+['\"])+(, ['\"][\\w\\.]+['\"])*)\\], \\[((['\"][\\w\\.]+['\"])+(, ['\"][\\w\\.]+['\"])*)?\\](, {((['\"][\\w]+['\"]: ['\"][\\w]+['\"])+(, ['\"][\\w]+['\"]: ['\"][\\w]+['\"])*)?})?\\);
+^gramps://(?P<object_class>[A-Z][a-z]+)/handle/(?P<handle>\\w+)$
+^h(?P<level>[1-6])(?P<attributes>.*)\\\\. 
+^H\\[(?P<bucket>[^\\]]+)\\]=(?P<count>[0-9]+)$
+^Has been clicked at (?P<x>[\\d\\.-]+),(?P<y>[\\d\\.-]+)$
+^Has been double clicked at (?P<x>[\\d\\.-]+),(?P<y>[\\d\\.-]+)$
+^Has been right clicked at (?P<x>[\\d\\.-]+),(?P<y>[\\d\\.-]+)$
+^hdbobj__$class_obj\\__
+^HELO\\_
+^help|\\\\h|\\/\\?$
+^HH\\\\
+^host(?P<index>\\d+)-(?P<build>\\d+)-(?P<shard>\\d+)$
+^Host: \\Q$ServerName\\E$
+^HTC[\\w\\-\\.\\_\\ ]*
+^http(?:s)?://(?:www\\.)?twitter\\.com/(?P<handle>[A-Za-z0-9_]{1,25})/?$
+^HTTP/(?P<version>[^ ]+) 
+^HTTP/(?P<version>[1-9]\\d*\\.\\d) (?P<status>[1-5]\\d{2})(\\s+(?P<reason>.+))?$
+^HTTP/(?P<version>\\d+\\.\\d+)\\s+(?P<status>\\d+)
+^HTTP/(\\d(?:\\.\\d)?)\\s+(\\d{3})\\s?+(.+)?$
+^HTTP/\\S+ (?P<status>\\d+) 
+^http://(?:[a-zA-Z0-9\\-]+\\.)?jimaku\\.in/w/([a-zA-Z0-9\\_][^/]+)/([a-zA-Z0-9\\_][^/]+)
+^http://testserver/posted/\\?c=(?P<pk>\\d+$)
+^http://www.acme.com/items/(?P<item_id>\\d+)/$
+^http://www.fanfiction.net/s(?P<id>\\d+)//$
+^http://www.youtube.com/v/([0-9A-Za-z\\-\\_]+)\\&.*$
+^HTTP\\/(\\d\\.\\d) (\\d++) (.*)
+^HTTP\\/[^ ]+ \\d+\\s+(?P<reason>.+)\\s*\\r
+^HTTP\\/[0-9]{1}\\.[0-9]{1} (?P<code>[0-9]+) (?P<message>.*)$
+^http\\+unix://(?P<sockfile>.+)/write/(?P<id>.+)$
+^https://github.com/([^/]++)
+^https://github.com/([^/]++)/(.*?)(?:\\.git)?$
+^https:\\/\\/(d-\\d+\\.ampproject\\.net)\\/\\$\\internal\\w+\\$\\/frame\\.html$
+^https:\\/\\/(d-\\d+\\.ampproject\\.net)\\/\\$\\internal\\w+\\$\\/frame2\\.html$
+^https:\\/\\/d-\\d+\\.ampproject\\.net\\/\\$\\internal\\w+\\$\\/frame\\.html$
+^https:\\/\\/raw.githubusercontent.com\\/(?P<orga>[\\w-_]+)\\/(?P<repo>[\\w-_]+)\\/.*$
+^https?://([^/:\\?]+).+?(https?:/
+^https?://(s3[-\\.](?P<region1>.+)\\.amazonaws\\.com/(.+)|(.+)\\.s3-(?P<region2>.+)\\.amazonaws\\.com)/?
+^https?://[^/]+?\\Q$_\\E.*
+^https?://[^/]++(.*)$
+^https?://\n    (?:\\w*.)?\n    showroom-live.com/\n    (?:\n        (?P<room_title>[\\w-]+$)\n        |\n        room/profile\\?room_id=(?P<room_id>\\d+)$\n    )\n
+^https?://archiveofourown.org/works/(?P<work_id>[0-9]+)
+^https?:\\\\
+^https?:\\/\\/(?:(?:(?<subsubdomain>\\w*)\\.)?(?<subdomain>\\w*)\\.)?(?<domain>
+^https?:\\/\\/([0-9a-z\\_\\.\\-:]+)\\/
+^https?:\\/\\/([0-9a-z\\_\\.\\-:]+)\\/?
+^https?:\\/\\/([a-z]+\\.)?([a-z]+\\.)?\\w+(\\/sharing)?\\/watch\\/[a-zA-Z0-9\\-\\_]+\\/?(?:\\?[^\\/]+)?$
+^https?:\\/\\/(www|m).facebook.com\\/login.php\\?next=\\Q$e\\E
+^https?:\\/\\/[^\\/]+\\/\\.well-known\\/genid\\/([^]+)$
+^https?:\\/\\/[0-9a-z\\_\\.\\-\\/:]{1,100}[\\/]$
+^https?:\\/\\/asciinema\\.org\\/a\\/[\\p{Alnum}_\\-]+$
+^https?:\\/\\/slides\\.com\\/[\\p{Alnum}_\\-]+\\/[\\p{Alnum}_\\-]+$
+^https?:\\/\\/www\\.([a-z\\-]+)\\.com\\/media\\/cinematic\\/video\\/(\\d{7,9})\\/[a-zA-Z0-9\\-\\_:\\.]+\\/?(?:[^\\/]+)?$
+^https?:\\/\\/www\\.([a-z\\-]+)\\.com\\/videos\\/\\w+\\/(?:[a-z0-9\\-\\/]+)?\\d{4}\\/\\d{2}\\/\\d{2}\\/[a-zA-Z0-9\\-\\_\\.:]+\\/(\\d{7,9})\\/?(?:[^\\/]+)?$
+^https?:|^\\s*+[a-z0-9+.-]*+[^:]
+^https\\:\\/\\/w\\.soundcloud\\.com\\/player\\/\\?url\\=\\https\\:\\/\\/api\\.soundcloud\\.com\\/tracks\\/([0-9]+)
+^https\\:\\/\\/w\\.soundcloud\\.com\\/player\\/\\?url\\=\\https\\:\\/\\/api\\.soundcloud\\.com\\/tracks\\/[0-9]+?
+^I (
+^I (?:request|visit) (
+^I am editing the page at (
+^I have a paypal account(?: with 
+^I have a(?:n)? (
+^I have a(?:n)? unestimated \\s?Pivotal Tracker (
+^I time the cucumber suite with (
+^i.*\\sinto\\s+\\Q$word\\E$
+^image/([a-z0-9\\_\\-\\+]+)
+^import +[\"\\'](?P<contract>[^\"\\']+.sol)[\"\\'];$
+^import\\s++(os|sys|re)\\b
+^inc[\\/\\\\]
+^Index:\\s+(?P<path>.*?)\\s*$
+^inet6?\\s+(alias\\s+)?(?P<ip>[\\da-f.:]+)\\s+(?:netmask 0x(?P<netmask>[0-9a-f]+)|prefixlen (?P<mask>\\d+)).*
+^info\\s+([\\w\\-\\_]+)$
+^INSERT INTO (
+^INSERT[\\t\\n ]+INTO[\\t\\n ]+([a-z0-9\\_\\-]+)
+^INSERT[\t\n ]+INTO[\t\n ]+([a-z0-9\\_\\-]+)
+^INSERT[\t\n ]+INTO[\t\n ]+\"?([a-z0-9\\_\\-]+)\"?
+^insert\\h+(?:INTO)?\\h*(\\w+?)\\h*\\(.*\\b(?:row)?id\\b.*\\)\\h+VALUES
+^insert\\s.*into\\s+\\Q$word\\E$
+^insight:(?P<url>\\S*)$
+^interface (?P<intf>\\S+)$
+^Iop_(?P<generic_name>\\D+?)??(?P<from_type>[IFDV])??(?P<from_signed>[US])??(?P<from_size>\\d+)??(?P<from_signed_back>[US])??((?P<from_side>HL|HI|L|LO)??(?P<conversion>to|as)(?P<to_type>Int|I|F|D|V)??(?P<to_size>\\d+)??(?P<to_signed>[US])??)??(?P<vector_info>\\d+U?S?F?0?x\\d+)??(?P<rounding_mode>_R([ZPNM]))?$
+^Ip-admin-([a-z\\_A-Z]+)\\.json$
+^is\\_a\\:
+^is\\_a\\:\\s+
+^isReachable\\(\\p{Alnum}+,\\p{Space}*\\p{Alnum}+,\\p{Space}*\\[(\\p{Alnum}+,\\p{Space})*\\p{Alnum}+\\]+\\)$
+^isReachable\\(\\p{Space}*\\p{Alnum}+,\\p{Space}*\\p{Alnum}+\\)$
+^ITEM (?P<key>\\S+) \\[(?P<size>\\d+) b; (?P<expires>\\d+) s\\]
+^java version \"(?P<major1>\\d+)\\.(?P<major2>\\d+)\\.[^\"]+\"$
+^job (?P<job_id>\\d+) at (?P<timespec>.*)$
+^JOINED\\_$rel_name\\_
+^juju-(?P<storageName>\\D+)-\\d+$
+^k-(
+^k8s_(?P<kubernetes_container_name>[^_\\.]+)[^_]+_(?P<kubernetes_pod_name>[^_]+)_(?P<kubernetes_namespace>[^_]+)
+^L\\(\\p{Space}*\\p{Alnum}+\\p{Space}*\\)$
+^label-(?P<locale>.*)$
+^label-(?P<locale>[\\w_]+)$
+^LastPassPrivateKey<(?P<hex_key>.*)>LastPassPrivateKey$
+^launchpad\\.net/(?P<repo>(?P<project>[a-z0-9A-Z_.\\-]+)(?P<series>/[a-z0-9A-Z_.\\-]+)?|~[a-z0-9A-Z_.\\-]+/(\\+junk|[a-z0-9A-Z_.\\-]+)/[a-z0-9A-Z_.\\-]+)(?P<dir>/[a-z0-9A-Z_.\\-/]+)*$
+^lib(?P<libname>.*)
+^lib/\\Q$ARCH\\E/.*\\.pm$
+^lib/\\Q$ARCH\\E/.*\\.so$
+^lib/auto/(?:.+/)?([^\\/]+)/\\1(?:\\Q$Config{_a}\\E|\\.pdb|\\.exp)$
+^LIBRARIES\\s*=(?P<value>[^#]*).*$
+^License server status: (?P<servers>[\\w\\,\\.\\@\\-]+)
+^line.*(?:Error|Warning):.* attribute \\\"(?:
+^line.*(?:Error|Warning):.*<\\/?(?:
+^Linux (?P<name>.+?) (?P<version>[0-9.]+).*$
+^Linux (?P<name>.+?) (?P<version>[0-9.]+)\\b
+^Linux (?P<name>Ubuntu|Debian) (?P<version>[0-9.]+).*$
+^lithium\\\\tests\\\\cases\\\\
+^lmstat (?P<version>v[\\d\\.]+) build (?P<build>\\d+) (?P<arch>[\\w\\_]+)
+^local:(?P<database>[A-Za-z][A-Za-z0-9\\_\\$\\(\\)\\+\\-\\/]+)$
+^localstorage\\_\\_\\_(.*)+\\_\\_\\_\\d*$
+^lxc\\.network\\.hwaddr\\s*+=\\s*+(.+)$
+^M \\h{7} Alan Smithee <asmithee@example.com> first branch commit$
+^m(\\d+)_(\\d+)\\_(.*)\\.[jt]s$
+^m(\\d+)_(\\d+)\\_(.*)\\.js$
+^Magento\\\\([^\\\\]+)\\\\Test
+^Manufacturer ID\\s*:\\s*(?P<value>.*)
+^memcached:(//)?(?:([^@]*+)@)?
+^Merge pull request #(?P<number>\\d+)
+^module\\s+(
+^mov (?P<a>e..), (?P<b>(?P=a))$
+^mov (?P<a>e..), (?P<b>0?x?([0-7][0-9A-Fa-f]|[0-9A-Fa-f]))$
+^mov (?P<a>e..), (?P<b>0?x?0)$
+^mov (?P<a>e..), (?P<b>0?x?1)$
+^mov (?P<a>e..), (?P<b>e..)$
+^mov (?P<a>r.(i|x|p)), (?P<b>r.(i|x|p))$
+^Mozilla[0-9\\-\\.\\_\\ ]*
+^MSG\\s+(?P<subject>[^\\s\r\n]+)\\s+(?P<sid>[^\\s\r\n]+)\\s+(?P<reply>([^\\s\r\n]+)[^\\S\r\n]+)?(?P<size>\\d+)\r\n
+^multipart/mixed; boundary=\"(?P<boundary>[a-f0-9]+)\"$
+^N \\h{7} Alan Smithee <asmithee@example.com> first branch commit$
+^N \\h{7} Alan Smithee <asmithee@example.com> second branch commit$
+^N \\h{7} Alan Smithee <asmithee@example.com> third commit$
+^N\\d+\\_CA\\d+\\_\\w\\d+
+^Name: (?P<name>.*), value: (?P<value>.*), timestamp: (?P<timestamp>.*), flags: ?(?P<flags>.*)$
+^namespace:[\\s]*(?P<alias>[\\w\\.]+)[\\s]*\\=[\\s]*(?P<packageKey>[\\w\\.]+)[\\s]*$
+^nav_menu\\[(?P<nav_menu_id>-?\\d+)\\]$
+^node\\.(?P<id>.*?)\\.
+^node_modules[/\\\\]
+^Nokia[\\w\\.\\_\\ ]*
+^notextile(?P<mode>\\\\.{1,2}) 
+^not-matched(?P<Match>.+)$
+^NT\\_.*\\s
+^numeric\\((?P<precision>\\d+), *(?P<scale>\\d+)\\)$
+^O:[0-9]+:\"(?P<classname>.+?)\"
+^O:\\d+:\"[^\"]++\"
+^oa-(?P<major>\\d)\\.(?P<minor>\\d+)-
+^obo\\\\
+^one (
+^Opening '(?P<path>.*?)' for reading$
+^openrtb\\\\models\\\\
+^or (?P<a>e..), (?P<b>(?P=a))$
+^or (?P<a>r..), (?P<b>(?P=a))$
+^origin\\s+(?P<url>\\S+)
+^ORM\\\\(.+)
+^orm\\\\(.+)
+^OS Name:\\s+(?P<osname>.*)
+^OS Version:\\s+(?P<osversion>.*)
+^osu file format v(?P<version>\\d+)$
+^other\\_(.+)$
+^Output( directory)?:\\s+(?P<output_dir>\\S+://\\S+)\\s*$
+^p#(?:[FP]L)?([\\p{PerlWord}-]+)\\z
+^P((?P<year>\\d+)Y)?((?P<month>\\d+)M)?((?P<week>\\d+)W)?((?P<day>\\d+)D)?(T((?P<hour>\\d+)H)?((?P<minute>\\d+)M)?((?P<second>\\d+)S)?)?$
+^P(?:(?P<days>\\d+(.\\d+)?)D)?(?:T(?:(?P<hours>\\d+(.\\d+)?)H)?(?:(?P<minutes>\\d+(.\\d+)?)M)?(?:(?P<seconds>\\d+(.\\d+)?)S)?)?$
+^P(?P<manufacturer>\\w{3})$
+^P(?P<precip>\\d\\d\\d\\d)\\s+
+^P[A-Z]\\s+WND\\s+\n                               (?P<dir>\\d\\d\\d)\n                               (?P<speed>P?\\d\\d\\d?)/\n                               (?P<hour>\\d\\d)?\n                               (?P<min>\\d\\d)\\s+
+^pa\\_
+^pam_unix\\(sshd\\:session\\)\\: session (opened|closed) for user (?P<username>[a-zA-Z0-9\\@._-]+)(?: by \\(uid\\=\\d*\\))?$
+^pam_unix\\(su(?:-l)?\\:session\\)\\: session (?P<status>\\w+) for user (?P<username>\\w+)(?: (?:by (?:(?P<originuser>\\w+))?\\(uid\\=(?P<uid>[0-9]+)\\)?)?)?$
+^papi\\_
+^papi\\_\\w+\\_store$
+^papi\\_\\w+\\_type
+^Parser Error: | at column \\d+ in [^]*$
+^pastebin:(?P<code>.+)$
+^perl\\Q$exe\\E$
+^PHALCON_DOC_METHOD\\(([a-zA-Z0-9\\_]+), (.*)\\)
+^PHALCON_INIT_CLASS\\(([a-zA-Z0-9\\_]+)\\)
+^PhlytyTest\\\\
+^PHP Fatal error: Call to undefined function Test\\\\Creator\\\\Stuff\\\\doSomething\\(\\)$
+^PHP Fatal error: Call to undefined method MyStuff\\\\Test::iDontExist\\(\\)$
+^PHP Fatal error: Cannot use Uniter\\\\Tool\\\\Stuff as Stuff because the name is already in use$
+^PHP Fatal error: Class 'Creator\\\\Autoload\\\\ClassLoader' not found$
+^PHP Fatal error: Class 'My\\\\Library\\\\TeSt' not found$
+^PHP Fatal error: Undefined constant 'Fun\\\\My\\\\Stuff\\\\NAME'$
+^PHP_METHOD\\(([a-zA-Z0-9\\_]+), (.*)\\)
+^PHP_METHOD\\(([a-zA-Z0-9\\_]+), ([a-zA-Z0-9\\_]+)\\)
+^phpbb\\\\avatar\\\\driver\\\\
+^PhpCsFixer\\\\Tests
+^PID: (?P<pid>\\d*)
+^PID: (?P<pid>\\d+)
+^PING (?P<payload>.*)
+^PL([a-zA-Z0-9\\\\_\\\\-]{32})$
+^Playback_V[0-9]{4}_(?P<subsys>.*)_R(?P<runnr>[0-9]{9})(|_T[0-9]*)\\.root$
+^Plugin\\\\.*\\\\Entity$
+^POE\\-([\\d\\.\\_]+)\\-(\\w+?)\\-(LITE|HEAVY)\\-(noassert|assert)\\-(noxsqueue|xsqueue)\\.yml$
+^pop (?P<a>e..)$
+^population (?P<country>.*)$
+^population of (?P<country>.*)$
+^PORT=(?P<port>\\d+$)
+^Postmark\\\\
+^Postponed (?P<authmethod>\\w+) for (?P<username>[a-zA-Z0-9\\@._-]+) from (?P<sourceipaddress>\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}) port (?P<sourceport>\\d{1,5}) ssh2(?: \\[preauth\\])?$
+^pre(?P<attributes>.*?)(?P<mode>\\\\.{1,2}) 
+^prefix=(?P<prefix>.*)
+^prettier-ignore-attribute(?:\\s+([^]+))?$
+^Processing split:\\s+(?P<path>.*):(?P<start_line>\\d+)\\+(?P<num_lines>\\d+)$
+^PROGRAM_VERSION = \"(?P<version>[0-9.]+)\"
+^ptui_checkVC\\('(?P<status>\\d+)','(?P<content>\\S+)'\\);$
+^ptuiCB\\('(?P<one>\\d+)','(?P<two>\\d+)','(?P<url>\\S+)','(?P<three>\\d+)','(?P<status>\\S+)'\\);
+^pug\\_
+^push (?P<b>e..)$
+^q=\\Q$qid\\E\\|f=
+^qr(.)(.*)\\g{1}
+^que (?:el|la) (.+) ['\"](.+)[\"'] tiene (
+^que dich[oa]s? (.+) tienen? (
+^QUEUE: (?P<queue>\\S+)
+^quit|\\\\q|q$
+^r/(?P<RE_REGEXP>.+)/$
+^r?'('|[^\\n\\f\\r]*?[^\\\\]')
+^r?'''[\\S\\s]*?[^\\\\]'''
+^r?\\\"(\\\"|(?:[^\\n\\r\\f])*?[^\\\\]\\\")
+^r?\"(\"|[^\\n\\f\\r]*?[^\\\\]\")
+^r?\"\"\"[\\S\\s]*?[^\\\\]\"\"\"
+^r?\\'(\\'|(?:[^\\n\\r\\f])*?[^\\\\]\\')
+^r\\w+\\s+\\Q$word\\E$
+^r\\w+\\s+\\w+\\s+\\Q$word\\E$
+^raise[\\(\\s]*(
+^rake (
+^random (?P<fact_type>(.*)) fact
+^RCS file: $RCS_Root[/\\\\](.*),v$
+^RE(?P<desc>MI|PR|BC|DR|BL|SH|TS|FZ)?\n                              (?P<prec>(DZ|RA|SN|SG|IC|PL|GR|GS|UP)*)?\n                              (?P<obsc>BR|FG|FU|VA|DU|SA|HZ|PY)?\n                              (?P<other>PO|SQ|FC|SS|DS)?\\s+
+^recaptcha\\_(challenge|response)\\_field$
+^Received request: GET (?P<url>.+)\nHeaders: (?P<headers>\\{.+\\})\n\\s*$
+^RedKiteCms\\\\Theme\\\\[\\w]+ThemeBundle
+^ref: refs/heads/(?P<branch>.+)\\n$
+^Referer:\\s*\\Q$base
+^refs/\\Q$type\\E/
+^refs\\/(?P<area>[^\\/]+)\\/(?P<shortname>.*)$
+^refs\\/(?P<key>\\S+)\\/(?P<value>\\S+)
+^refs\\/changes\\/[0-9]*\\/[0-9]*\\/(?P<patchset>.+)$
+^region-\\Q$self->{region_name}\\E\\.
+^remote:(?P<hostname>([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]+[A-Za-z0-9])|(([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]+[A-Za-z0-9])\\.)+([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]+[A-Za-z0-9])):(?P<portnum>\\d+):(?P<database>[A-Za-z][A-Za-z0-9\\_\\$\\(\\)\\+\\-\\/]+)$
+^remove\\s+([\\w\\-\\_]+)$
+^requirements-(?P<channel>.*)$
+^requirements(?P<suffix>.*).txt$
+^Resource id #(?P<id>\\d+)$
+^Responding with 200 for: GET (?P<url>.+)\nHeaders: (?P<headers>\\{.+\\})\n\nresponse\\!\n\\s*$
+^Revision history for Acme-Version-Hex\\n\\n\\K$orig_version(\\s+)
+^rinohtype-(?P<version>\\d+\\.\\d+\\.\\d+(\\.dev\\d+)?(\\+[a-z0-9]+(\\.dirty\\d{8})?)?)\\.zip$
+^RSpec.describe \"(.*)\\/edit\
+^RSpec.describe \"(.*)\\/index\
+^RSpec.describe \"(.*)\\/new\
+^RSpec.describe \"(.*)\\/show\
+^RSpec.describe \\\"admin\\/posts\\/index\\\
+^RSpec.describe \\\"Posts\\\
+^RSpec.describe \"posts\\/index.html.erb\
+^RSpec.describe \"posts\\/index.html.haml\
+^RSpec.describe \\\"posts\\/index\\\
+^RSpec.describe \"posts\\/show.html.erb\
+^RSpec.feature \\\"Folder::Posts\\\
+^RSpec.feature \\\"Post\\\
+^RSpec.feature \\\"Posts\\\
+^rtmp://[^/]+/(?P<app>.+)/?$
+^ruby-1\\.0\\.\\d+(-[\\w\\.]+)?+$
+^Running job: (?P<job_id>job_\\d+_\\d{4})\\s*$
+^s(hift)?[\\_\\-]?jis
+^s/(.+)(?!\\\\)/
+^s/\\^?(.+?)\\$?(?!\\\\)/
+^s?([0-9]+)\\_
+^s?\\/(.*)(?<!\\\\)\\/(.*)(?<!\\\\)\\/.*$
+^s?\\/(.*?(?:(?!\\\\).))\\/(.*)\\/$
+^S\\[\"(\\w+)\"\\]\\s*=\\s*\"(.*)\"\\s*(\\\\)?$
+^s\\_
+^S-1-5-21-[0-9]+-[0-9]+-[0-9]+-[0-9]{3,}\\\\Software\\\\Policies\\\\Microsoft\\\\Windows\\\\Installer
+^s3://(?P<bucket_name>[^/]+)(?P<key>.*)$
+^s3://(?P<bucket>[a-zA-Z0-9.\\-_]+)/(?P<key>.+)$
+^s3-website-(?P<region>.*?)?\\.amazonaws.com
+^Samsung[\\w\\.\\_\\-]*
+^screenshot_(?P<width>\\d+)x(?P<height>\\d+)$
+^Seat (?P<seat>\\d): (?P<name>.*?) .*collected \\((\\d*)\\),
+^Seat (?P<seat>\\d+): (?P<name>.+?) \\(\\$?(?P<stack>\\d+(\\.\\d+)?) in chips\\)
+^SELECT .* FROM (
+^select\\s+((?:`|\")
+^SERVICE\\s(?P<service>\\S+)\\s\\w+\\spid=\\d+$
+^session \\Q$kernel_id\\E \\(alias-1\\)$
+^SESSION\\s+WHERE\\s+VERSION\\s*\\=\\s*(((:\\$*)?\\w+)|\\d+))?(\\s+AND\\s+(HOSTID|SESSIONNO|USER)\\s*=\\s*((:\\$*)?\\w+))*$
+^SET timestamp=(?P<unixTime>[0-9]+);$
+^SET\\s|^BEGIN;|^COPY\\s|^END;|^\\\\
+^setIs(?P<remainder>[A-Z].*)$
+^SG\\_ (\\w+) (\\w+) *: (\\d+)\\|(\\d+)@(\\d+)([\\+|\\-]) \\(([0-9.+\\-eE]+),([0-9.+\\-eE]+)\\) \\[([0-9.+\\-eE]+)\\|([0-9.+\\-eE]+)\\] \\\"(.*)\\\" (.*)
+^SG\\_ (\\w+) : (\\d+)\\|(\\d+)@(\\d+)([\\+|\\-]) \\(([0-9.+\\-eE]+),([0-9.+\\-eE]+)\\) \\[([0-9.+\\-eE]+)\\|([0-9.+\\-eE]+)\\] \\\"(.*)\\\" (.*)
+^sg-\\h{8}$
+^shared\\_
+^shared\\_backend\\.(.*)
+^SID:(?P<type>(?:ANON|AUTH)):(?P<realm>.*?):(?P<session_id>.+?)(?:[-:][0-9a-fA-F]+){0,2}$
+^SKIP\\S*\n            (?P<whitespace>\\s*) # Optional whitespace.\n            (?P<reason>.*)      # Slurp up the rest.
+^SLP(?P<press>\\d\\d\\d)\\s+
+^Smart\\\\Controllers\\\\(?P<module>\\w+)\\\\(?P<controller>\\w+)@(?P<action>\\w+)
+^smtp://(?P<host>[^:]+):(?P<port>\\d+)$
+^snap-\\h{8}$
+^snmp-server\\s+community\\s+(?P<community>\\S+)\n                                (\\s+view\\s+(?P<view>\\S+))?(\\s+(?P<access>ro|rw)?)\n                                (\\s+ipv6\\s+(?P<v6_acl>\\S+))?(\\s+(?P<v4_acl>\\S+))?$
+^snort\\\\.raw\\\\[(?P<bytes>\\\\d+)\\\\]:\\n
+^SonyEricsson[\\w\\.\\_]*
+^soyfile://(
+^SparkAPI\\_
+^SPF\\_
+^Spryker.*\\\\
+^Spryker.*\\\\Shared\\\\
+^Spryker[a-zA-Z]*\\\\[a-zA-Z]+\\\\[a-zA-Z]+\\\\Communication\\\\Plugin\\b
+^Spryker[a-zA-Z]*\\\\[a-zA-Z]+\\\\[a-zA-Z]+\\\\Dependency\\\\Plugin\\b
+^Spryker[a-zA-Z]*\\\\Client\\\\[a-zA-Z]+$
+^Spryker[a-zA-Z]*\\\\Zed\\\\(.*?)\\\\Persistence$
+^Spryker\\\\Zed\\\\(.*?)\\\\Business$
+^Spryker\\\\Zed\\\\(.+?)\\\\Business$
+^SQL\\s+WHERE\\s+VERSION\\s*\\=\\s*(((:\\$*)?\\w+)|\\d+))?(\\s+AND\\s+(HOSTID|SESSIONNO)\\s*=\\s*((:\\$*)?\\w+))*$
+^SRC:.*[/\\\\].original.js:1$
+^SRC:.*[/\\\\]\\.original\\.js:1$
+^src[\\/\\\\]dev[\\/\\\\]build
+^ssh://(?P<hostname>[^/]+)?(?P<filesystem_path>/.*)$
+^Stability:[^\\\\]*(\\\\n[^\\\\]*)?
+^start\\s+([\\w\\-\\_]+)$
+^Starting session: (?P<sessiontype>\\w+)(?: on )?(?P<device>pts/0)? for (?P<username>[a-zA-Z0-9\\@._-]+) from (?P<sourceipaddress>\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}) port (?P<sourceport>\\d{1,5})$
+^STAT queue_(\\S+?)_(
+^static[/\\\\][^/\\\\]+[/\\\\]pages.*\\.js$
+^static[/\\\\][^/\\\\]+[/\\\\]pages[/\\\\](.*)\\.js$
+^status\\s+([\\w\\-\\_]+)$
+^STEAM_(?P<universe>\\d+):(?P<reminder>[0-1]):(?P<id>\\d+)$
+^STEAM_(?P<X>\\d+):(?P<Y>\\d+):(?P<Z>\\d+)$
+^sticker: \\Q$name\\E=(.*)$
+^stock (?P<symbol>[\\w=]{,10})$
+^stop\\s+([\\w\\-\\_]+)$
+^sub (?P<a>e..), (?P<b>(?P=a))$
+^sub (?P<a>r..), (?P<b>(?P=a))$
+^sub-(?P<subject_id>[a-zA-Z0-9]+)(_ses-(?P<session_id>[a-zA-Z0-9]+))?(_task-(?P<task_id>[a-zA-Z0-9]+))?(_acq-(?P<acq_id>[a-zA-Z0-9]+))?(_rec-(?P<rec_id>[a-zA-Z0-9]+))?(_run-(?P<run_id>[a-zA-Z0-9]+))?
+^Subject: \\Q${tag}\\E 
+^Submitted application (?P<application_id>application_\\d+_\\d{4})\\s*$
+^subtitle_(?P<lang>[^_]+)_(?P<ext>(vtt|srt))
+^Successfully built\\s+(?P<id>\\S+)\n?$
+^SUTURE\\_
+^SvKFS (?P<basefile>\\d{4}:\\d{1,3})
+^Symfony\\\\Component\\\\([a-z]+\\\\)+[a-z]+Interface$
+^sys\\_
+^System Locale:\\s+(?P<syslocale>.*)
+^T(?P<tsign>0|1)\n                               (?P<temp>\\d\\d\\d)\n                               ((?P<dsign>0|1)\n                               (?P<dewpt>\\d\\d\\d))?\\s+
+^t/\\Q$_
+^T_([0-9\\_]+)\\.[spo]+
+^Table '(.*)' (\\d+)-max Seat #(?P<button>\\d+) is the button
+^tag matching (
+^tag:(?P<name>.*),(?P<date>\\d{4}-?\\d{0,2}-?\\d{0,2}):(?P<specific>.*)(.*:)*$
+^TAO\\\\([^\\\\]+)$
+^TAO\\\\Bundle\\\\([^\\\\]+)\\\\(.+)$
+^TAO\\\\CachedInfoblock\\\\([^\\\\]+)$
+^TAO\\\\CLI\\\\([^\\\\]+)$
+^TAO\\\\PropertyContainer\\\\([^\\\\]+)$
+^TAO\\\\UField\\\\([^\\\\]+)$
+^TAP version (?P<version>\\d+)$
+^Task Id *: (?P<attempt_id>attempt_\\d+_\\d{4}_[mr]_\\d+_\\d+), Status *: FAILED$
+^task=\\s?([A-Za-z\\d\\_]+)\\s?
+^Tdt[\\\\](?!Core)
+^Teardown GRE connection (?P<connection>\\d+) from (?P<src_iface>\\w+):(?P<src>[\\d.]+)\\s*\\/(?P<srcport>\\d+) \\([\\d./]*\\) (?P<idw_user1>\\(\\w+\\)\\s)?to (?P<dst_iface>\\w+):(?P<dst>[\\d.]+)\\s*\\/(?P<dstport>\\d+) \\([\\d./]*\\) (?P<idw_user2>\\(\\w+\\)\\s)?duration (?P<duration>[\\d:\\s]+) bytes (?P<bytes>\\d+).*$
+^Teardown ICMP connection for faddr (?P<faddr>[\\d.]+)\\s*\\/(?P<faddrport>\\d+) (?P<idw_user1>\\(\\w+\\)\\s)?gaddr (?P<gaddr>[\\d.]+)\\s*\\/(?P<gaddrport>\\d+) laddr (?P<laddr>[\\d.]+)\\s*\\/(?P<laddrport>\\d+)(?P<idw_user2>\\s?\\(\\w+\\)\\s)?.*$
+^Teardown TCP connection (?P<connection>\\d+) for (?P<dst_interface>\\w+)\\s*:(?P<dst>[\\d\\.]+)\\s*\\/(?P<dstport>\\d+) (?:\\(\\w+\\)\\s)?to (?P<src_interface>\\w+)\\s*:(?P<src>[\\d\\.]+)\\s*\\/(?P<srcport>\\d+) (?:\\(\\w+\\)\\s)?duration (?P<duration>[\\d:\\s]+) bytes (?P<bytes>\\d+).*$
+^Teardown UDP connection (?P<connection>\\d+) for (?P<dst_interface>\\w+)\\s*:(?P<dst>[\\d\\.]+)\\s*\\/(?P<dstport>\\d+) (?:\\(\\w+\\)\\s)?to (?P<src_interface>\\w+)\\s*:(?P<src>[\\d\\.]+)\\s*\\/(?P<srcport>\\d+) (?:\\(\\w+\\)\\s)?duration (?P<duration>[\\d:\\s]+) bytes (?P<bytes>\\d+).*$
+^templates(?:\\/|\\\\)
+^test (?P<a>e..), (?P<b>(?P=a))$
+^test (?P<a>r..), (?P<b>(?P=a))$
+^test-(?P<build>\\d+)-(?P<shard>\\d+)-(?P<index>\\d+)$
+^test(\\/|\\\\)(?!bower_components)
+^test(\\/|\\\\)(?=bower_components)
+^test/(
+^testing .*Error.*foo.* function \\(\\) {[^]*} \\/bar\\/ 5$
+^tests\\_[a-z]+\\.php$
+^that (
+^that the uploader class has a version named '([^\\']+)' which process '([a-zA-Z0-9\\_\\?!]*)'$
+^the (
+^the class will process '([a-zA-Z0-9\\_\\?!]*)'$
+^the file at ([a-zA-Z0-9/\\\\_.]+) contains:$
+^the last output should match (
+^the last output should not match (
+^the last vendor output should match (
+^the last vendor output should not match (
+^the migration (
+^theme\\_(.*?)$
+^this (scenario|background|
+^tmutil version (?P<version>[^ ]+) \\(built (?P<builddate>[^)]+)\\)$
+^to\\_.*
+^to_(
+^toc::\\[(
+^TODO\\b             # The directive name\n            (?P<whitespace>\\s*) # Immediately following must be whitespace.\n            (?P<reason>.*)      # Slurp up the rest.
+^traefik\\.(?P<segment_name>.+?)\\.(?P<property_name>port|portIndex|portName|weight|protocol|backend|frontend\\.(.+))$
+^traefik\\.(?P<segment_name>.+?)\\.port$
+^traefik\\.(?P<service_name>.+?)\\.(?P<property_name>port|portIndex|weight|protocol|backend|frontend\\.(.*))$
+^traefik\\.(?P<service_name>.+?)\\.(?P<property_name>port|weight|protocol|frontend\\.(.*))$
+^traefik\\.frontend\\.errors\\.(?P<name>[^ .]+)\\.(?P<field>[^ .]+)$
+^traefik\\.frontend\\.rateLimit\\.rateSet\\.(?P<name>[^ .]+)\\.(?P<field>[^ .]+)$
+^trimElement\\_
+^Trismegiste\\\\Mondrian\\\\(.+)$
+^tss~v1~*[a-zA-Z0-9\\.\\-\\_]{0,16}~[0-9]{1,3}~([a-zA-Z0-9\\-\\_]+\\={0,2})$
+^Tx_(?P<extensionName>[^_]+)_.*$
+^type (?P<struct_name>[^\\ ]*) struct {$
+^u#([\\p{PerlWord}-]+)\\z
+^u(
+^u(\\h{,4})$
+^U(\\h{,8})$
+^u\\w+\\s+\\Q$word\\E$
+^UC([a-zA-Z0-9\\\\-\\\\_]{22})$
+^Uid\\s+(?P<uid>\\S+):
+^Undefined property: ([\\w\\\\]+)::\\$(\\w+)
+^Unit\\\\
+^UNKNOWN\\K$
+^Unrecognized option: (?P<option>.*)$
+^UPDATE (
+^update\\s+([\\w\\-\\_]+)\\s+(\\{.*\\})$
+^update\\s+\\Q$word\\E$
+^URL: \\Q$url\\E$
+^url\\($_optspace(?:\n\t\t\t\t(')[^'\\\\]*(?:\\\\.[^'\\\\]*)*\n\t\t\t \t  |\n\t\t\t\t(\")[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\n\t\t\t\t  |\n\t\t\t\t[^)\\\\]*(?:\\\\.[^)\\\\]*)*\n\t\t\t)
+^urn:[a-zA-Z0-9][a-zA-Z0-9\\-]{1,31}:([a-zA-Z0-9\\(\\)\\+\\,\\.\\:\\=\\@\\;$\\_\\!\\*\\-]|%[0-9a-fA-F]{2})*
+^Usage: screw.js [^]*\\n$
+^use (?:([^ ]+ as )|(.*\\\\))?(.*);$
+^use (?P<class>[^\\s;]+)(?:\\s+as\\s+(?P<alias>.*))?;
+^User #: (?P<usernum>\\d+)\\s+(?P<callerid>.+)\\s+Channel: (?P<channel>\\S+)\\s+\\((?P<monitor>.+)\\)\\s+(?P<duration>\\S+)
+^User (?P<user>[^\\s]+) marked read (?P<outbox>\\d+) outbox and (?P<inbox>\\d+) inbox messages$
+^user\\_.+$
+^userId=(?P<uid>\\d+)(\\s+gids.*)?
+^username\\s+(?<user>
+^User's \\(AFS ID \\d*\\) tokens for (?P<id>\\w*@\\S*) \\[Expires (?P<expires>.*)\\]$
+^v(?P<maj>\\d+)\\.(?P<min>\\d+)(?P<suffix>[a-zA-Z][a-zA-Z0-9]*)?(-(?P<gitsuffix>\\d+-?g?[a-fA-F0-9]*))?$
+^v(?P<major>\\d+)\\.(?P<minor>\\d+)
+^v(?P<version>\\d+\\.\\d+\\.\\d+)(?P<dirty>\\+dirty)?$
+^v(?P<version>\\d+\\.\\d+\\.\\d+)-dev\\.(?P<time>\\d+)\\+(?P<gitInfo>g[a-z0-9]+)(?P<dirty>.dirty)?$
+^v(?P<version>\\d+\\.\\d+\\.\\d+)-rc\\.(?P<rcN>\\d+)(?P<dirty>\\+dirty)?$
+^v?(
+^v\\s+(
+^Vagrant (?P<version>.+)$
+^values\\[(?P<attribute>[a-z0-9-_\\<\\>]+)
+^varchar\\((?P<length>\\d+)\\)
+^varchar\\((?P<max_length>\\d+)\\)$
+^variant-attributes_(?P<level>.*)$
+^variant-axes_(?P<level>.*)$
+^vendor/bundle([/\\\\]|$)
+^Version \\Q$v\\E$
+^version\\s+(['\"])(
+^VERSION\\s+WHERE\\s+VERSION\\s*\\=\\s*(((:\\$*)?\\w+)|\\d+))$
+^version_info\\s*=\\s*\\(\\s*(?P<v0>\\d+)\\s*,\\s*(?P<v1>\\d+)\\s*,\\s*(?P<v2>\\d+)\\s*\\)\\s*$
+^video_urls\\]\\[(?P<resolution>[0-9]+)p
+^VIDEOOT-[A-Z0-9]+\\\\([\\w!.,& ()\\[\\]'\\`-]{8,}?\\b.?)([-_](proof|sample|thumbs?))*(\\.part\\d*(\\.rar)?|\\.rar|\\.7z)?(\\d{1,3}\\.rev|\\.vol.+?|\\.mp4)
+^visited\\(\\p{Alnum}+\\)$
+^vmlinuz-(?P<version>.+)$
+^vn = \\d+ 0x\\h+$
+^vn\\s+(
+^vt\\s+(
+^we have (
+^widget\\[(?P<widget_id>.+)\\]$
+^Wikimedia\\\\Rdbms\\\\
+^Wikimedia\\\\Rdbms\\\\Database::query \\((.+)\\)$
+^WSHFT\\s+\n                                (?P<hour>\\d\\d)?\n                                (?P<min>\\d\\d)\n                                (\\s+(?P<front>FROPA))?\\s+
+^x(\\h{,2})$
+^X[SBC]*-\\Q$name\\E$
+^X-Bitrix-Posting:\\s*(?P<id>[0-9]+)\\s*$
+^Xcode (?P<version>.+)\\nBuild version (?P<build>.+)
+^xmlns(:[
+^xn--([a-z0-9](-?[a-z0-9]+)){2,}*\\.((xn--[a-z0-9](-?[a-z0-9]+)*)|([a-z]{2,}))?\\.?$
+^xor (?P<a>e..), (?P<b>(?P=a))$
+^xor (?P<a>r..), (?P<b>(?P=a))$
+^X-Pingback:\\h*(.+)
+^YAML error: (?P<msg>.*)$
+^YAML error: line (?P<line>[[:digit:]]+): (?P<msg>.*)$
+^year:(?P<year>\\d{4})$
+^Your vendor has not defined constants macro \\Q$const
+^zdp\\_
+_$self->{memory}{ \"$key\\_num\" }$
+_(
+_(?!\\\\)((_\\\\|[^_])*)_(?=$|[^\\\\])
+_(?P<base_code>[a-z]{2,7})(_(?P<ext_code>[a-z]{2,7})){0,1}$
+_(?P<height>\\d+)p_(?P<tbr>\\d+)\\.mp4
+_(?P<version>[0-9][0-9][0-9])_syn
+_(?P<width>\\d+)x(?P<height>\\d+)\\.mp4$
+_(?P<width>\\d+)X(?P<height>\\d+)\\.mp4$
+_(?P<width>\\d+)x(?P<height>\\d+)_(?P<vbr>\\d+)k\\.mp4$
+_(?P<width>\\d+|AUTO)x(?P<height>\\d+|AUTO)_(?P<mode>[a-z]+)(?:_(?P<position>[a-z\\-]+))?(?:_(?P<quality>\\d+))?(?:_(?P<interlace>[a-z]+))?
+_([^ _\\\\]|\\\\.)+_[a-z](_([^ _\\\\]|\\\\.)+)?(_rel)?$|[^_]([^ \\\\]|\\\\.)+(_rel)?$
+-_.~!#$&*+,/:;=?@[]
+_:((?:[0-9]|
+_:(?:[0-9]|
+_?(?P<lemma>.*?)_((?P<pos>[a-z])_)?((?P<sense>([^_\\\\]|(?:\\\\.))+)_)?(?P<end>rel)$
+_[\\h]{8}-[\\h]{4}-4[\\h]{3}-[\\h]{4}-[\\h]{12}
+_\\((?<!\\\\)'(.*?)(?<!\\\\)'
+_\\((?<!\\\\)\"(.*?)(?<!\\\\)\"
+_\\@\\_
+_\\K
+_\\Q$value\\E$
+__(?P<name>[a-z_]+)__ = (?P<expr>.*)
+__([^_\\\\]+)__
+__\\((?:'|\")(?P<matches>.*?)(?:'|\")*\\)
+__\\(('|\")(.+?)(?<!\\\\)\\1
+___(
+___YUICSSMIN_PRESERVE_CANDIDATE_COMMENT_(?P<num>\\d+)___
+__alarm__ignore__\\Q($id)\\E
+__fixtures__(\\/|\\\\)svgr(\\/|\\\\)\\.svgrrc$
+__MSG_(?P<value>.+)__
+__version__ = \\\"(?P<version>[0-9.a-zA-Z-]+)\\\"
+__version__\\s*=\\s*(?P<q>['\"])(?P<version>\\d+(\\.\\d+)*(-(alpha|beta|rc)(\\.\\d+)?)?)(?P=q)
+__version__\\s*=\\s*\"(?P<version>.*)\"\n
+__version__\\s+=\\s+(?P<q>[\"\\'])(?P<ver>\\d+(?:\\.\\d+)*)(?P=q)
+__version__\\s+=\\s+(?P<quote>['\"])(?P<version>.+?)(?P=quote)
+__version__\\s+=\\s+(?P<quote>[\\'\"])(?P<version>.*)(?P=quote)
+__version__\\s+=\\s+(?P<version>.*)
+__version__\\s+=\\s+(['\"])(?P<version>.+?)\\1
+__version_date_info__ = (
+__version_info__ = (
+_{2,}+
+_|(?!\\p{Mc})\\p{Alpha}|[^\\u0000-\\uFFFF]
+_|\\P{Word}
+_ac__(?P<confkey>.*)
+_B(?P<num_band>\\d+).tif
+_default([\\/\\\\index])?\\.html$
+_design\\/[a-zA-Z0-9\\_\\-]+
+_EMO_([^_]+?)_([^]*?)_EMO_
+_MAT(?P<dimensions>[\\dx]+)
+_py(?P<version>\\d)
+_reverse($text);\n        $x -= length($text);\n        $y += length($text);\n        $x++;\n        $y--;\n        while ($text =~ 
+_reverse($text);\n        push(@matches, [length($1),$x, length($text)-_start(\\$text, $1)-1,\n            0, -1, \\$_]) while ($text =~ 
+_reverse($text);\n        while ($text =~ 
+_reverse($text);\n        while ($text =~
+_user_(.*?)\\\\
+_VEC(?P<dimensions>\\d)
+_widest(\\@text);\n    }\n    elsif (defined $text) {\n        my @text = split(
+_x(\\h\\h\\h\\h)_
+_x\\p{XDigit}{4}_
+`((?:\\\\`|[^`\\\\]+)*)`
+`((?s).*?)[^\\\\\\\\]`
+`((\\\\.|[^])*?)`
+`(.*?[^\\\\])`
+`(?!`)(?=.*\\p{IsWord})
+`(?:
+`(?:[^`\\\\]*(?:\\\\.[^`\\\\]*)*)`
+`(?:\\\\.|[^`])*`|'(?:\\\\.|[^'])*'|\"(?:\\\\.|[^\"])*\"|\\/\\*[^]*?\\*\\/|\\/\\/.*\\n?
+`(?:\\\\['\\\\bfnrtv0]|[^'\\\\])*?`
+`(?:\\\\\\\\|\\\\?[^\\\\])*?`
+`(?P<name>[^`]+)`
+`(?P<path>[^\\']+)\\', file type (?P<target>\\S+).
+`(?P<subargs>.+)`
+`([^`\\\\]*(?:\\\\.[^`\\\\]*)*)`
+`(`?
+`?(
+`[^`]*+`|([^`\\.]++)
+`[^`]*+`|\"(?:[^\"\\\\]++|\\\\.)*+\"|'(?:[^'\\\\]++|\\\\.)*+'|(%?)(?:(\\?)|:(\\w++))(%?)
+`[^`]*+`|\"(?:[^\"\\\\]++|\\\\.)*+\"|'(?:[^'\\\\]++|\\\\.)*+'|(\\?)|:(\\w++)
+`[^`]*+`|\"(?:[^\"\\\\]++|\\\\.)*+\"|'(?:[^'\\\\]++|\\\\.)*+'|(\\?|:\\w++)
+`` (.+?) ``|(?<!\\\\)`(.+?)(?!\\\\)`
+```(?P<inline>.*?)```(?P<rest>.*)
+```(?P<language>\\w+)?\\n(?P<lines>.*?)```
+```([\\w ]*)\\R(.*)```
+```php(?P<code>.+?)```.+?```(?P<output>.+?)```.+?
+```python(?P<code>.*?)```
+`people`.`name` LIKE '%\\\\\\\\%\\\\\\\\.\\\\\\\\_\\\\\\\\\\\\\\\\%'
+`people`.`name` NOT LIKE '%\\\\\\\\%\\\\\\\\.\\\\\\\\_\\\\\\\\\\\\\\\\%'
+`TEST_CASE\\s*\\(\\s*\"(?P<name>.*?)\"\\s*\\)
+{ *name: *((?:'(?:(?:(?:\\\\(?=')')|[^'])*?)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*?)\")) *, *module: *require\\(((?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*?)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*?)\")))\\) *}
+{ *name: *((?:'(?:(?:(?:\\\\(?=')')|[^'])*?)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*?)\")) *, *module: *require\\(((?:(?:'(?:(?:(?:\\\\(?=')')|[^'])*?)')|(?:\"(?:(?:(?:\\\\(?=\")\")|[^\"])*?)\")))\\) *} *,? *
+{ _id: \"(?P<replSet>\\S+)\", members: (?P<replSetMembers>[^]]+ ])
+{ _id: \"(?P<replSet>\\S+)\", version: (?P<replSetVersion>\\d+), (protocolVersion: (?P<replSetProtocol>\\d+), )?members: (?P<replSetMembers>[^]]+ ])
+{#(?P<identifier>[^}]+)}
+{#([a-zA-Z][a-zA-Z0-9\\_\\-]+)}([\\s\\S]*){\\/\\1}\\n?
+{% block (?P<block_name>(.*)) %}(?P<block_content>(.*)){% endblock %}
+{%\\\\include\\\\\\s*?([\\w\\-\\.\\/~]+)(?:\\:[A-Za-z0-9-_|]+)?(?:(?:| )\\(.*)?(?:\\s*)?%}
+{(([^{}]*|(?R))*)}
+{(?=\\s*
+{(?P<alts>[^}]+,[^}]+)}
+{(?P<param>\\w+)}
+{(?P<parameter>[^{}]+)}
+{(?P<parameter>\\w+)}
+{(?P<protocol>\\\\d+|\\\\w+)}\\\\s([\\\\d\\\\.]+):?(\\\\d+)?\\\\s..\\\\s([\\\\d\\\\.]+):?(\\\\d+)?
+{(?P<var>[\\w][\\w\\d_]*)}
+{(?P<varname>[a-zA-Z0-9_]+)(:(?P<converter>[a-zA-Z0-9_]+))?}
+{([^{}]|
+{(\\PM\\pM+)}
+{[^]*
+{\\$(?P<name>\\w+)}
+{\\((?P<group_id>(\\\\.|[^)}\\\\])*)\\)\\((?P<group_name>(\\\\.|[^)}\\\\])*)\\)(?P<counter_list_str>\\[(\\\\.|[^}\\\\])*\\])}
+{\\\\([`'^\"~vc])( ?)([\\w])}
+{\\\\([`'^\"~vc]){([\\w])}}
+{\\\\(\\\\*[a-z][a-z0-9-]+(?:\\|[a-z][a-z0-9-]+)*)}
+{\\\\i0}
+{\\\\i1}
+{\\\\l}
+{\\s*([^]*?)\\s*}\\s*$
+{\\s*@link[plain]*\\s+([^]+?)\\s*}
+{\\s*@link\\s+([^]+?)\\s*}
+{\\\\u0}
+{\\\\u1}
+{{ *?(?:(?:(?:(?:([\\w$]+ *?(?:[^\\s\\w($][^\\n]*?)*?))|(?:@(?:([\\w$]+:|(?:\\.\\.\\/)+))? *(.+?) *))(?: *?(\\| *?[\\w$]+? *?)+?)?)|(?:([\\w$]+) *?\\(([^\\n]*?)\\) *?([\\w$]*))|(?:\\/ *?([\\w$]+))|(?:# *?([\\w$]+))|(?:([\\w$]+) *?\\(([^\\n]*?)\\) *?\\/)|(?:!--[^]+?--)) *?}}\\n?
+{{(([^{}]*|(?R))*)}}
+{{(?P<count>[#]+)}}
+{{([^\\s{}]++)}}
+{{[\\s]?#mf (.*?)}}\\s*([^]*?)\\s*{{\\/mf}}
+{{\\s([\\w\\d\\.\\_\\-]*?)\\s}}
+{{\\s*(?P<method>.+)\\s*\\((?P<arguments>.*)\\)\\s*}}
+{{\\s*([^}])++\\s*}}
+{{\\s*\\$(?P<block>\\w*)\\s*}}
+{{i18n\\s+(\"(?:[^\"\\\\]|\\\\.)*\"|'(?:[^'\\\\]|\\\\.)*')?([^}]*)}}
+{APP_BUNDLE:\"(?P<live_player_url>.+?/app.js)\"
+{color:([^}]+)}([^]*?){color}
+'|(?<! \\\\) \\\\{2}* \\\\ (?![\\\\\"])
+'|.*?[^\\\\]'
+'''|[\\x00-\\x09\\x0b\\x0c\\x0e-\\x1f\\x7f-\\u{9f}\\u{00ad}\\u{0600}-\\u{0604}\\u{070f}\\u{17b4}\\u{17b5}\\u{200c}-\\u{200f}\\u{2028}-\\u{202f}\\u{2060}-\\u{206f}\\u{feff}\\u{fff0}-\\u{ffff}]
+'''|[\\x00-\\x09\\x0b\\x0c\\x0e-\\x1f\\x7f-\\x9f\\x{00ad}\\x{0600}-\\x{0604}\\x{070f}\\x{17b4}\\x{17b5}\\x{200c}-\\x{200f}\\x{2028}-\\x{202f}\\x{2060}-\\x{206f}\\x{feff}\\x{fff0}-\\x{ffff}]
+'|\\\\
+'|\"|\\\\
+'|\\\\(?=[\\\\']|$)
+'|\\\\(?=['\\\\]|\\z)
+|q| \\\\gt 1
+|q| \\\\lt 1
+} *(?P<id>[A-Z][A-Za-z0-9_]+)_(?P<global>([A-Za-z0-9_]+)?)TypeDef;$
+} if shift =~ $rx;\n    return undef;\n}\n\n1;\n\n__END__\n\n=pod\n\n=encoding UTF-8\n\n=head1 NAME\n\nCSS::Selector::Grammar - Generate parse trees for CSS3 selectors.\n\n=head1 VERSION\n\nversion 0.002\n\n=head1 SYNOPSIS\n\n  use CSS::Selector::Grammar;\n\n  my $ast = parse_selector('html|*:not(:link):not(:visited)');\n\n=head1 DESCRIPTION\n\nL<CSS::Selector::Grammar> translates the grammar defined in\nL<http:
+}(\\pM+\\pL){(?!\\pL+\\\\)
+}\\ \\[(?P<datetime>.*?)\\]\\ (?P<request_method>POST|GET|DELETE|PUT|PATCH)\\s\n        (?P<request_uri>[^ ]*?)\\ =>\\ generated\\ (?:.*?)\\ in\\ (?P<resp_msecs>\\d+)\\ msecs\\s\n        \\(HTTP/[\\d.]+\\ (?P<resp_status>\\d+)\\)
+}{\\\\};\n    $path ~~ s:perl5:g{([^\\\\])\\\\+}{$0\\\\};                                                 # xx\\\\\\\\xx  -> xx\\xx\n    $path ~~ s:perl5:g{(\\\\\\.)+\\\\}{\\\\};                                           # xx\\.\\.\\xx -> xx\\xx\n    $path ~~ s:perl5{^(\\.\\\\)+}{} unless $path eq \".\\\\\";                             # .\\xx      -> xx\n    $path ~~ s:perl5{\\\\\\Z(?!\\n)}{} unless $path ~~ rx:perl5{^([A-Z]:)?\\\\\\Z(?!\\n)};  # xx\\       -> xx\n    # xx1
+~([A-Za-z])?(
+~[cCsSwW](?:(\"\"\"|''')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])+\\1|([\\/|\"'])(?:\\\\.|(?!\\2)[^\\\\\\r\\n])+\\2|\\((?:\\\\.|[^\\\\)\\r\\n])+\\)|\\[(?:\\\\.|[^\\\\\\]\\r\\n])+\\]|\\{(?:\\\\.|#\\{[^}]+\\}|[^\\\\}\\r\\n])+\\}|<(?:\\\\.|[^\\\\>\\r\\n])+>)[csa]?
+~[rR](?:(\"\"\"|''')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])+\\1|([\\/|\"'])(?:\\\\.|(?!\\2)[^\\\\\\r\\n])+\\2|\\((?:\\\\.|[^\\\\)\\r\\n])+\\)|\\[(?:\\\\.|[^\\\\\\]\\r\\n])+\\]|\\{(?:\\\\.|[^\\\\}\\r\\n])+\\}|<(?:\\\\.|[^\\\\>\\r\\n])+>)[uismxfr]*
+~\\\\\\\\([\\\\\\\\$nrtfve]|[xX][0-9a-fA-F]{1,2}|[0-7]{1,3})~
+~\\Q$word\\E~
+~__EMU__([A-Z]++)__(?:([A-Za-z0-9]++)__)?~
+~|-|?|??|?
++
++):)? (-?\\d+) (?:-|\\.\\.) (-?\\d+) /x 
++[^+]*$
++}{
+#NÃZEV?
+-+BEGIN\\ \\Q$marker\\E-+$\n                           (.*?)\n                           ^-+END\\ \\Q$marker\\E-+$
+#NÃZEV?
+<!-- BEGIN-ASIDE (\\S+) -->([^]*?)<!-- END-ASIDE -->
+<!-- BUGCATEGORY (?P<bug_category>.*) -->$
+<!-- BUGDESC (?P<bug_description>.*) -->$
+<!-- BUGFILE (?P<bug_file>.*) -->$
+<!-- BUGLINE (?P<bug_line>.*) -->$
+<!-- BUGPATHLENGTH (?P<bug_path_length>.*) -->$
+<!-- BUGTYPE (?P<bug_type>.*) -->$
+<!-- FUNCTIONNAME (?P<bug_function>.*) -->$
+<!-- TOC -->([^]*)<!-- TOC -->
+<!--#[\\s.]+include[\\s.]+virtual=[\"\\'](?P<path>.+)[\"\\'][\\s.]+-->
+<!(?P<special>[^<>]*)>
+<!--([^]*?)-->
+<!--[^]*?(?=-->)-->|<(\\/?)([a-z\\-\\_][a-z0-9\\-\\_]*)\\s*([^>]*?)(\\/?)>
+<!--[^]*?(?=-->)-->|<(\\/?)([a-z][a-z0-9]*)\\s*([^>]*?)(\\/?)>
+<!\\[CDATA\\[([^]*?)]]>
+<!--\\s*(
+<!--\\s*@(ifn?def)\\s+(\\w+)\\s*-->([^]*?)<!--\\s*@endif\\s*-->
+<!--\\s*@@var\\s*[= ]\\s*(\\S+?)\\s*(?:\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"\\s*)?-->
+<!--\\s*@vuese:([a-zA-Z_][\\w\\-\\.]*):(\\w+):start\\s*-->[^]*<!--\\s*@vuese:\\1:\\2:end\\s*-->
+<!--\\s*yaspeller\\s+ignore:start\\s*-->[^]*?<!--\\s*yaspeller\\s+ignore:end\\s*-->
+<!DOCTYPE\\s+(?P<name>[a-zA-Z][a-zA-Z-]*)\\s+PUBLIC\\s+\"(?P<public_id>.+)\"
+<$td>$s\\Q\u00a5\u00bf\u00a5\u00a4\u00a5\u00c8\u00a5\u00eb\\E$s<\\/$td>$s<$td>$s($str)<\\/$td>
+<$td>$s\\Q\u00b3\u00ab\u00ba\u00c5\u00be\u00ec\u00bd\u00ea\\E$s<\\/$td>$s<$td>$s($str)<\\/$td>
+<$td>$s\\Q\u00b3\u00ab\u00ba\u00c5\u00c6\u00fc\u00bb\u00fe\\E$s<\\/$td>$s<$td>$s($str)<\\/$td>
+<$td>$s\\Q\u00b4\u00d8\u00cf\u00a2\u00a5\u00b3\u00a5\u00df\u00a5\u00e5\u00a5\u00cb\u00a5\u00c6\u00a5\u00a3\\E$s<\\/$td>$s<$td>$s($str)<\\/$td>
+<$td>$s\\Q\u00b4\u00eb\u00b2\u00e8\u00bc\u00d4\\E$s<\\/$td>$s<$td>$s($str)<\\/$td>
+<$td>$s\\Q\u00bb\u00b2\u00b2\u00c3\u00bc\u00d4\\E$s<\\/$td>$s<$td>$s<$table>$s<$tr>$s<$td>$s($str)<\\/$td>$s<$td>$s($str)<\\/$td>
+<$td>$s\\Q\u00be\u00dc\u00ba\u00d9\\E$s<\\/$td>$s<$td><$table>$s<$tr>$s<$td>($str)<\\/$td>$s<\\/$tr>$s<\\/$table>$s<\\/$td>
+<$td>$s\\Q\u00ca\u00e7\u00bd\u00b8\u00b4\u00fc\u00b8\u00c2\\E$s<\\/$td>$s<$td>$s($str)<\\/$td>
+<% emojiSequence %>|\\p{Emoji_Presentation}|\\p{Emoji}\\uFE0F?|\\p{Emoji_Modifier_Base}
+<% emojiSequence %>|\\p{Emoji_Presentation}|\\p{Emoji}\\uFE0F|\\p{Emoji_Modifier_Base}
+<%# REPLACE %>([^]*?)<%# END_REPLACE %>
+<%(?P<type>[^ ]*) (?P<expr>[^ ].*) %>
+<%([0-9.\\-+
+<%@\\s*(
+<%\\s*#\\s*(
+<%\\s*karma:formatter\\s*=\\s*(?P<formatterName>[^%]+)%>
+<%=.*label(_tag)?.*?,\\s*(?<label-title>(['\"].+?['\"]|:[[:alnum:]_]+))
+<%=.*label(_tag)?[^,]+?(?<label-title>(['\"].+?['\"]|:[[:alnum:]_]+))[^,]+%>.*$
+<%=.*submit(_tag)?\\s+(?<submit-text>(['\"].+?['\"]|:[[:alnum:]_]+))
+<%=[ \\t]*(
+<(
+<(!--)?\\s*PKIT_ERROR(?:FONT|SPAN)$key_value_pattern?\\s*(?(1)--)>(.*?)<(!--)?\\s*/PKIT_ERROR(?:FONT|SPAN)\\s*(?(8)--)>
+<((?:
+<((?>
+<((?P<type>.+?):)?(?P<name>.+?)>
+<(.+?)(\\s.*?)?>.*?</.+?>(?uism)
+<(?!%)\\/?[^\\s>\\/]+(?:\\s+[^\\s>\\/=]+(?:=(?:(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1|[^\\s'\">=]+))?)*\\s*\\/?>
+<(?!(?:
+<(?!(\\\\s|\\\\/)*(
+<(?:
+<(?:!--\\s*)?tmpl_var\\s*(?:name\\s*=\\s*)?\n                 (?:\"(
+<(?:(?:embed|iframe)[^>]+?src=|input[^>]+id=[\\'\"]dmcloudUrlEmissionSelect[\\'\"][^>]+value=)([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?dailymotion\\.com/(?:embed|swf)/video/.+?)\\1
+<(?:(?P<converter>[^>:]+):)?(?P<parameter>\\w+)>
+<(?:amp-)?iframe[^>]+\\bsrc=([\"\\'])(?P<url>(?:https?:)?//video\\.foxnews\\.com/v/video-embed\\.html?.*?\\bvideo_id=\\d+.*?)\\1
+<(?:iframe[^>]+?src|param[^>]+?value)=([\"\\'])(?P<url>(?:https?:)?//(?:www\\.)?viddler\\.com/(?:embed|player)/.+?)\\1
+<(?:iframe[^>]+src|param[^>]+value)=([\"\\'])(?P<url>(?:https?:)?//embed\\.crooksandliars\\.com/(?:embed|v)/.+?)\\1
+<(?:iframe|script)[^>]+src=[\"\\'](?P<url>(?:https?:)?//(?:www\\.)?ultimedia\\.com/deliver/(?:generic|musique)(?:/[^/]+)*/(?:src|article)/[\\d+a-z]+)
+<(?:meta[^>]+?content|iframe[^>]+?src)=([\"\\'])(?P<url>(?:https?:)?//(?:fast\\.)?wistia\\.net/embed/iframe/.+?)\\1
+<(?:object|a[^>]+class=[\"\\']webcaster-player[\"\\'])[^>]+data(?:-config)?=([\"\\']).*?config=(?P<url>https?://bl\\.webcaster\\.pro/feed/start/free_.*?)(?:[?&]|\\1)
+<(?:pre|h1)>([^<]++)</(?:pre|h1)>
+<(?:script|iframe) [^>]*?src=\"(?P<url>http://www\\.arte\\.tv/(?:playerv2/embed|arte_vp/index)[^\"]+)\"
+<(?>(?!(?:
+<(?P<id>[^@]+)@(?P<host>[^>+]+)>
+<(?P<link>[^>]+)>\\; rel=\\\"(?P<rel>[^\\\"]+)\\\"
+<(?P<n>[^>]+)>.+
+<(?P<name>[A-Za-z_]\\w*)(?P<op>\\W*)(?P<type>\\w+)*>
+<(?P<name>[a-zA-Z0-9_\\-]+)(?P<attrs>\\s[^>]+\\]=[^>]+)>
+<(?P<num>[0-7])>
+<(?P<pattern>\\w+?:*[\\w|\\*]+?)>
+<(?P<placeholder>\\w+)>
+<(?P<prio>\\d+)>(?P<timestamp>.+?) (?P<host>\\S*) (?P<program>\\S+?)(\\[(?P<pid>\\d+)\\])?: (?P<message>.+)
+<(?P<string>[0-9A-F]+)> *
+<(?P<tag>[A-Z0-9./ ]+?)>\n                            (?P<text>[^<]+)?\n                            (</(?P<closetag>(?P=tag))>)?\n                            (?P<tail>[^<]+)?\n                            
+<(?P<tag>[a-z0-9-_]+)>(?P<text>.*?)<\\/(\\1)>
+<(?P<tag>p|h[1-6])(?P<atts>[^>]*?)>(?P<content>.*)(?P<closetag></\\1>)
+<(?P<type>\\w+) \\'(?P<name>\\S+)\\'>
+<(?P<url>.*)>; rel=\"next\"
+<(?P<url>[^>]+)>; rel=\"(?P<rel>[^\"]+)\"
+<([^ />]++)[^>]*></\\1>
+<([^<\\/>]*)>([\\s]*?|(?R))<\\/\\1>
+<([^>]*)>;\\s*rel=\"\\Q$rel\\E\"
+<([a-z\\_]+)>
+<([a-z]+) +(?:(?:lang|title)=\"
+<([a-z0-9\\-\\_]+[^>]+?)([a-z0-9\\-\\_]+=\"[^\"]*?\\{\\{.+?\\}\\}.*?\".*?)>
+<([A-Z0-9]+) \\K(.*?)>
+<([a-zA-Z\\_]+)>
+<([A-Za-z0-9.]+)>([\\w\u00e0-\u00fa\u00c0-\u00da0-9\\.\\-\\_\\+\\, ;:\\[\\]\\'\\&\\/\\\\*\\(\\)\\+\\{\\|\\}\\!\\\u00a3$\\?=@\u20ac\u00a3#%\u00b1\u00a7~`\"]+)$
+<([a-zA-Z0-9_]++)>
+<(\\/)?(pre|code|tt)|(\\\\)?\\{(?!\\})(\\S+?)(?:\\s([^\\}]*?\\S))?\\}(?=[\\W<]|.+<\\/|$)
+<(\\p{Alpha}\\w*) (?: [^\\/>]*\\/> | .*?<\\/\\1>)
+<(attribution)>[^]*<\\/\\1>
+<(include|require) tpl=\"(.+?)(?=(?<!\\\\)\")\"(?: once=\"(true|false)\")? />
+<(keygen|source|track|wbr)(?=\\s|>)((?:\"[^\"]*\"|'[^']*'|[^\"'>])*+)(?<!/)>
+<(rt-.*?-\\d+-\\d+)\\.(\\d+)-\\d+-\\d+\\@\\QRT->Config->Get('Organization')\\E>$
+<(script|style)([^>]*)>((\\\\.|[^\\\\])*)<\\/\\1>
+<.+>f=(?P<n>-{,1}[0-9\\.]+)</.+>
+</%\\Q$type\\E>\\n?
+</(?:div|li|html)>\\n\\K\\n
+</*(?:applet|b(?:ase|gsound|link)|!--\\#exec|style|form|embed|frame(?:set)?|i(?:frame|layer)|l(?:ayer|ink)|meta|object|s(?:cript)|title|xml|\\?xml)[^>]*+>
+</*(?:applet|b(?:ase|gsound|link)|embed|frame(?:set)?|i(?:frame|layer)\n                |l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>
+</*(?:applet|b(?:ase|gsound|link)|embed|frame(?:set)?|i(?:frame|layer)|l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>
+</*\\w+:\\w[^>]*+>
+</\\w+\\p{Punct}?\\w*>
+</label>Comments \\((?P<commentcount>\\d+)\\)</div>
+</select> of (?P<count>\\d*)(\\s)*</div>
+</x:xmpmeta>\n                           (?P<whitespace>\\s*)\n                           <\\?xpacket\\s\n                           end=\"w\"\\?>
+<[!\\/?\\[]?(
+<[:_-\\w\\s\\!\\/\\=\\\"\\']+>
+<[^\\s\\>]*script[^\\S\\>]*language=\"javascript\"[^\\S\\>]*src=\"\\/\\/ad\\.jp\\.ap\\.valuecommerce\\.com\\/servlet\\/jsbanner\\?sid=([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)(&|\\&amp\\;)pid=([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"\\>\\<\\/script\\>\\<noscript\\>.*?<\\/noscript\\>
+<[^>\\n]+>?|\"[^\"\\n\\\\]*(?:\\\\.[^\"\\n\\\\]*)*\"?
+<[^>]+>|&(?:[a-z][a-z]+\\d{0,2}|#\\d\\d\\d{0,4}|#x[\\da-f][\\da-f][\\da-f]{0,3});|[^ 
+<\\\\\\\"([A-Za-z]:)?[[:alnum:]_\\\\-\\\\./\\\\\\\\]+\\\\\\\">
+<\\\\(script)
+<\\/(
+<\\/(?!(?:
+<\\/*([a-z0-9\\:\\-\\_]+)

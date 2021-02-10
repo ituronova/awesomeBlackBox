@@ -1,0 +1,58 @@
+pattern	regex->SR (milliseconds)	SR->NCA (milliseconds)	NCA->DCA (milliseconds)	NCA->DCA (milliseconds)-alg	|NCA|	|DCA|	|DCA|-alg	NCA-trans	DCA-trans	DCC-trans-alg	Counters-NCA	Counters-DCA	Counters-DCA-alg	Timeouts-our	Our exception	Positive-errors	Negative-errors	Positive-errors-alg	Negative-errors-alg	regex->NFA (milliseconds)	NFA->DFA (milliseconds)	DFA->min (milliseconds)	|NFA|	|DFA|	|MIN|	DFA-trans	MIN-trans	Timeouts-classical	Classical exception
+^\x21{3}Optix\s+Pro\s+v\d+\x2E\d+\s+Server\s+Online\x21{3}	12,60072	1,06121	7,96875		30	31		74	91		2	2				0	0			0,26721	0,35357	0,20834	41	35	35	41	41		
+\x2B\x2D{3}\x7C[^\r\n]*\x7C\x2D{3}\x2B	0,835	0,93578	0,29048		5	10		21	62		2	2				0	0			0,20741	0,84918	0,28474	12	28	11	112	34		
+^\x2F40e800[0-9A-F]{30,}$	0,99964	0,77609	0,30752		9	10		21	35		1	1				0	0			0,44421	0,00041	0,25507	38	38	38	38	38		
+^answer\x00{6}NetControl\x2EServer\s+\d+\x2E\d+\s+\x22The\s+UNSEEN\x22\s+Project	20,85375	1,34601	31,8418		49	50		82	83		1	1				0	0			0,35268	0,74324	0,28415	61	55	55	61	61		
+\s{23}DIMBUS\s+Server\s+v\d+\x2E\d+	8,58601	8,39915	3,96095		21	40		65	532		1	1				0	0			0,28807	4,93298	1,54582	47	172	86	472	234		
+^\x21{3}Optix\s+Pro\s+v\d+\x2E\d+\s+Server\s+Online\x21{3}	11,01235	0,94168	7,71263		30	31		74	91		2	2				0	0			0,27334	0,43268	0,19388	41	35	35	41	41		
+^HTTP\/[0-9]\.[0-9] [0-9]{3} ?[^\r\n]*\r\n	1,54448	1,3046	1,14509		14	15		51	66		2	2				0	0			0,21591	0,21043	0,17676	18	17	15	21	16		
+^SIP\/[0-9]\.[0-9] [0-9]{3} ?[^\r\n]*\r\n	1,45458	0,96002	1,25659		13	14		50	65		2	2				0	0			0,20266	0,20297	0,18762	17	16	14	20	15		
+^HTTP\/[0-9]\.[0-9] [0-9]{3} ?[^\r\n]*\r\n	1,72981	0,96801	1,77727		14	15		51	66		2	2				0	0			0,20013	0,26174	0,13684	18	17	15	21	16		
+^SIP\/[0-9]\.[0-9] [0-9]{3} ?[^\r\n]*\r\n	1,47382	0,70694	1,20994		13	14		50	65		2	2				0	0			0,18081	0,26227	0,13933	17	16	14	20	15		
+\r\nAuthorization\x3a\s*Basic[^\n]{256}	9,26181	29,19683	7,32012		23	50		97	1040		1	1				0	0			0,51291	23,82222	12,81715	279	1068	535	3212	1605		
+\r\nAuthorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{250}	4,80711	22,28782	7,38421		28	56		118	1152		2	2				0	0			0,69361	27,64224	12,2179	281	1060	525	3218	1575		
+\r\nAuthorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{512}	4,42401	23,78485	8,29866		28	56		118	1152		2	2				0	0			3,02094	61,83636	33,14053	543	2108	1049	6362	3147		
+instancename=[^&\x3b\r\n]{513}	1,5893	15,98857	1,28407		15	52		58	1118		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+contenttype=[^\r\n\x3b\x38]{100}	1,39626	13,54849	1,36061		14	48		53	936		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\s{230,}\.htr	1,33892	1,35543	0,33374		7	12		22	84		1	1				0	0			0,58875	101,74162	7,17599	237	468	235	944	473		
+w3who\.dll\x3F[^\r\n]{519}	1,61361	12,79888	1,09906		12	40		51	780		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\x2fWebID\x2fIISWebAgentIF.dll[^\n\x26\x3f]*\x3fRedirect\x3furl=[^\n\x26\x3f]{1024}	5,28105	215,30457	27,15717		40	228		173	9644		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\x3c\x21\x2d\x2d\x23include\s+file[^(\x2d\x2d\x3e)]{250,}	4,07995	19,27577	4,12356		20	46		120	942		1	1				0	0			1,51309	894,02345	467,8583	270	1534	764	5600	2781		
+\r\nAccept-Language\x3A[^\n]{100}	2,07754	10,67572	3,05788		20	40		79	716		1	1				0	0			3,97792	26,09287	12,65825	119	434	218	1300	649		
+\r\nAccept\x2dCharset\x3a\s*([^\x3b\x3d\x2c]{1,36}\s*(\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}	4,65633	174,48993	6,30486		22	168		143	8636		2	2				0	0											1	The function has taken longer than the maximum time allowed.
+\r\nAccept\x2dLanguage\x3a\s*(\w{1,36}\s*(\x2e|\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}	97,72287	161,62934	6,51882		23	127		146	6384		2	2				0	0											1	The function has taken longer than the maximum time allowed.
+\r\nAuthorization\x3a\s*Basic[^\n]{256}	6,34966	25,48743	6,70838		23	50		97	1040		1	1				0	0			0,479	110,86726	68,1925999999999	279	1068	535	3212	1605		
+\r\nAuthorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{250}	6,25051	27,88063	7,80066		28	56		118	1152		2	2				0	0			0,972839999999999	136,4229	75,83968	281	1060	525	3218	1575		
+\r\nAuthorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{512}	4,27549	21,37732	7,71906		28	56		118	1152		2	2				0	0			4,11708	1444,7846	777,00863	543	2108	1049	6362	3147		
+connectID=[^&\x3b\r\n]{255}	1,45312	10,38242	1,0949		12	40		51	780		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\r\nCONNECT\s[^\s]{1024}	2,08572	3,95349	0,98736		12	24		47	252		1	1				0	0			2,57433	8713,54172	3373,33342	1035	2070	1036	6210	3106		
+\r\nContent-Length\x3A\s*[^\r\n]{100,}	3,99518	57,83919	3,885		21	102		127	2650		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\r\n(\d{5,}|390[1-9]|39[1-9][0-9]|[4-9][0-9]{3})\x3A	6,72233	15,39311	0,7654		14	44		76	858		2	2				0	0			4,48565000000017	1,62368999999999	0,58245	22	36	15	134	52		
+\r\nDESCRIBE\s[^\n]{300}	2,04476	5,33482	1,19081		13	26		58	370		1	1				0	0			0,456389999999999	115,14463	81,16538	312	1222	612	3664	1831		
+fn=Eye\d{4}_\d{2}.log	6,85424	5,97673	1,37619		12	24		49	316		2	2				0	0			0,12007	1,02728	0,45512	18	36	19	108	55		
+^GET\s+\w[^\x0a\x20]{165}	32,46858	0,70461	0,30412		7	9		33	58		1	1				0	0			0,64497	42,16314	2,0684	172	171	171	172	172		
+j_(username|password)=[^\n|^&]{256,}	3,44671	83,5317	2,7357		21	108		131	3402		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+mfcisapicommand=[^&\r\n\x3b]{250}	2,28431	25,52931	2,26677		18	64		69	1632		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+php.*\x3f[^\n]{256}	0,58906	2,18005	0,2196		6	15		30	129		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\S{190}.rt	1,91381	2,59198	0,22482		5	12		21	104		1	1				0	0			16,81407	10669,15525	1119,08624	195	390	196	796	399		
+SET_(SENDFROM|MAILHOST)\x28\x27[^\x27]{256}	3,05965	60,74229	3,52952		23	84		91	2142		1	1				0	0			23,4981	3159,6632	1814,1832	278	10500	5138	41458	20112	1	The function has taken longer than the maximum time allowed.
+sid=[^&\x3b\r\n]{255}	0,85007	2,94108	0,22446		6	16		29	184		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\r\nUser-Agent\x3a[^\n]{216}	1,65252	7,96549	2,13195		15	30		66	490		1	1				0	0			42821,4612	190,3601	51788,8703	230	888	445	2662	1330	1	The function has taken longer than the maximum time allowed.
+\r\nUser-Agent\x3a[^\n]{244,255}	1,68345	8,30586	2,19293		15	30		66	490		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+username=[^&\x3b\r\n]{250}	1,88666	10,65667	0,90297		11	36		50	702		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+username=[^&\x3b\r\n]{255}	1,61781	10,61159	1,2054		11	36		50	702		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+wqPassword=[^\r\n\x26]{294}	1,37803	12,83525	1,15782		13	44		56	946		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\x2Edll[\x2F\x5C]\x23[^\x3E\x00\s\x2F\x5C]{6}	1,84659	5,29018	0,38448		8	22		34	274		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\x2FCSuserCGI\x2Eexe\x3FLogout\x2B[^\s]{96}	5,87636	63,33693	6,72716		24	88		99	3300		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\x2fnds[^\r\n]{1000}	0,72216	2,23285	0,19487		6	16		29	184		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+^[^\x3e\x3f\x26]{50}	0,4154	0,07937	0,03301		2	3		7	6		1	1				0	0			51682,4224	0,0013	45291,5341	51	51	51	51	51	1	The function has taken longer than the maximum time allowed.
+cache_lastpostdate\[[^\]]+\]=[^\x00\x3B\x3D]{30}	2,88551	85,80449	5,07352		24	164		115	3936		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\r\nHost\x3A\s[^\r\n]{300,}	1,89351	5,03374	1,13693		11	22		70	278		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+instancename=[^&\x3b\r\n]{513}	1,5672	17,00058	1,60087		15	52		58	1118		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+pwd=(\!|\%21)CRYPT(\!|\%21)[A-Z0-9]{512}	2,1942	7,59158	2,1396		17	32		72	526		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+SoftCart.exe\?[^\s]{100}	2,16712	18,96057	1,83786		15	56		73	1316		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+\x05\x00\x00\x03\x10\x00\x00\x00.{16}\x0a[\x03\x04]	1,1563	5,77218	1,37293		11	36		33	396		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+[\x01|\x02|\x03|\x04|\x05|\x06|\x07]\x00.{4}\x43\x00	0,86761	0,95312	0,15922		5	12		17	78		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+[\x05|\x06|\x07]\x00.{6}[SS|DS]	0,7124	0,73512	0,27962		4	8		21	68		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+[\x05-t][bcdfghjklmnpqrstvwxyz]{5,32}\x02cn	1,86128	2,58018	0,29911		5	8		26	76		1	1				0	0											1	The function has taken longer than the maximum time allowed.
+[\x05-t][bcdfghjklmnpqrstvwxyz]{5,32}\x02ru	1,29545	1,0752	0,23138		5	8		24	72		1	1				0	0											1	The function has taken longer than the maximum time allowed.

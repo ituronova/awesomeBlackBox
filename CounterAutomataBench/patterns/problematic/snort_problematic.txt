@@ -1,0 +1,1 @@
+\x2Fbi\x2Fservlet\x2FThinstall(Pre|Result).*^User-Agent\x3A[^\r\n]*\.exe[^\r\n]*\x7B[\dA-Za-z]{8}-[\dA-Za-z]{4}-[\dA-Za-z]{4}-[\dA-Za-z]{4}-[\dA-Za-z]{12}\x7D\x7C[\dA-Za-z]{8}\x7C\d{5}-\d{3}-\d{7}-\d{5}

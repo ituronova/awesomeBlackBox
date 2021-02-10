@@ -1,0 +1,1 @@
+^Authorization\x3a([ \t]*|[ \t]*\r?\n[ \t]+)Basic[ \t][^\n]{51}

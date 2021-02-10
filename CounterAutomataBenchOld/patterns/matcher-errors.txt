@@ -1,0 +1,5 @@
+yang2010
+.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]
+
+home
+^\x21{3}Optix\s+Pro\s+v\d+\x2E\d+\s+Server\s+Online\x21{3}

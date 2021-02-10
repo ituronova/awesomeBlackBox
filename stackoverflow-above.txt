@@ -1,0 +1,9 @@
+".{30000}.{10000}", ".{40000}";./texts/runAgain-14-12/copy/stackoverflow-above_00_3.txt
+"[999]", "{242424} from X [100] bulks, linked to {57575757} from Y for [500] units", "{12345}";./texts/runAgain-14-12/copy/stackoverflow-above_00_4.txt
+"\"[ACGT]{1,12000}(AAC)[AG]{2,5}[ACGT]{2,5}(CTGTGTA)\"", "paste(\"(CTAAA)[AC]{5,100}(TTTGGG)\", rule_1, \"(CTT)[AG]{10,5000}\", rule_2, sep=\"\")";./texts/runAgain-14-12/copy/stackoverflow-above_00_5.txt
+"\w[^\.!\?]{400,600}[\.!\?]", "{400,600}", ".", "\w", ".*", ".{400,600}", "[^\.!\?]", "?";./texts/runAgain-14-12/copy/stackoverflow-above_00_6.txt
+"<.{1,10000}>";./texts/runAgain-14-12/copy/stackoverflow-above_01_1.txt
+"d.{40000}o.{40000}g.{40000}s";./texts/runAgain-14-12/copy/stackoverflow-above_01_2.txt
+"regex(\".{40000}\")", "regex_match(\"\", regex(\".{40000}\"))";./texts/runAgain-14-12/copy/stackoverflow-above_01_3.txt
+"s = {6} {56780} {Sample String}";./texts/runAgain-14-12/copy/stackoverflow-above_01_4.txt
+"set promptInfo [oBOTANDROID2 launchVapiEiCmd getinfo]", "VAPIEI Cmd Rcvd: {state inservice} {type dmc} {description {BOTSP2,10.77.41.154,tcp(dmc)}} {lines 2} {calls 2} {streams 4} {{primary cm} 10.77.41.11} {{backup cm} } {status {}} {id dmc2} {userid } {{last error} {}} {{delay offer} false} {{Voice Mail client status} {inactive}} {{primary cti} {}} {{backup cti} {}} {{current cti} {}} {{preferred mode} {voip}} {{call type} {voip}} {{domain} {}} {{ixenabled} {no}} {{esrstvernego} {null}} {{ipv4address} {10.77.41.154}} {{ipv6address} {}} {{deploymentmodel} {on-premise}} {{login type} {uc-directory}} {centraluds {}} {{sip port} {42708}} {privacy disabled}";./texts/runAgain-14-12/copy/stackoverflow-above_01_5.txt

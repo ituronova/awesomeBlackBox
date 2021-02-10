@@ -1,0 +1,52 @@
+(ABCHEHG)[HGE]{5,1230}(EEJOPK)[DM]{5}
+(ABCHEHG)[HGHE]{5,1230}(EEJOPK)[DM]{5}", "(ABCHEHG)[HGHE]{5,1230}(EEJOPK)[DM]{5}[ACF]{1,1000}(BBBA)[CU]{2,5}
+.{0,4980}(\<\/div\>|\<\/p\>|\<\/section\>|\<\/blockquote\>|\<\/br\>|\.\s)
+.{1,1000}
+.{10,4000}$
+.{30000}.{10000}", ".{40000}
+[%=:]{1000,}
+[*]", "*", "+", ".*", "s/\*/{0,1024}
+["[abc[0123]", "[efg[987]h", "[Hello [world]!", "[foo [baz]"]", "/{name}/{foo\{bar}/{baz\{foo\}}/", "[foo [baz]]", "{"{abc{0123}}", "{efg{987}h}", "{Hello {world}!}", "{baz}"]", "["[abc[0123]]", "[efg[987]h]", "[Hello [world]!]", "[baz]"]", "[baz]", "input[name=\[0\]], input[name=foo\[baz\]\[bar\]]", "[0], [1]", "["{abc{0123}", "{efg{987}", "{Hello {world}", "{foo {baz}"]
+[\s\S]{0,500}", ".{0,500}
+[\s\S]{1,2000}
+[\s\S]{1,999}\W|[\s\S]{1,1000}
+'[\s][A-Z,a-z,0-9]{0,1000}[\s]'
+[\w\n\r]{0,1000}
+'[{1,2,3,4}, 3, 5,2,4, {1,2}, {1,2,3,4}, {1,33,3443}]'", "[{1,2,3,4}, 3, 5,2,4, {1,2}, {1,2,3,4}, {1,33,3443}, 1..10]", "expected = ['{1,2,3,4}', '3', '5', '2', '4', '{1,2}', '{1,2,3,4}', '{1,33,3443}', '1..10']
+[999]", "{242424} from X [100] bulks, linked to {57575757} from Y for [500] units", "{12345}
+[a-z]{1000}
+[a-zA-Z,]{1,1024}", "[a-zA-Z,]{1,1025}
+[ftp:\/\/www\/.-https:\/\/-http:\/\/][a-zA-Z0-9u00a1-uffff0]{1,3}[^ ]{1,1000}
+" {10000}"
+"([a-zA-Z0-9]{0,4000})"
+"[ACGT]{1,12000}(AAC)[AG]{2,5}[ACGT]{2,5}(CTGTGTA)"", "paste("(CTAAA)[AC]{5,100}(TTTGGG)", rule_1, "(CTT)[AG]{10,5000}", rule_2, sep="")
+\<![ \r\n\t]*--[\S\s]{400,6000}--[ \r\n\t]*\>
+\n", ".{0,1000}
+\w[^\.!\?]{400,600}[\.!\?]", "{400,600}", ".", "\w", ".*", ".{400,600}", "[^\.!\?]", "?
+^([\S\s]{1000})
+^([a-z]|[0-9]| |,|'|\.|!|\?){1,4000}$
+^([-a-zA-Z\/\-\&\\\?\!\,\.\'\"\s0-9@:=_]{1,1000})$
+^.{0,1000}$
+^.{0,1999}$
+^.{0,5000}$
+^.{10,4000}$
+^.{3,5000}
+^[^/\\#?]{0,1024}$
+^[a-z]{0,2000}$
+^[a-z0-9 ,'.!?]{1,4000}$
+^[a-z0-9\s_@/.-]{1,4095}$
+^[a-zA-Z0-9',!?~>+&\"\-@#%*.\s]{1,1000}$
+^\d{1,980989}$
+^\s*([\w\s\?\\:\!\"\u0022\$%]{1,2046})\s*$
+<.{1,10000}>
+<title>(.{1000,})</title>
+a{20001}", "texts = [os.urandom(20000) for x in range(20000)]", "0.013", "'a{%d}' % (len(input)+1)
+abcd{1234}", "[^}{]+
+d.{40000}o.{40000}g.{40000}s
+regex(".{40000}")", "regex_match("", regex(".{40000}"))
+s = {6} {56780} {Sample String}
+set a {35214}
+set promptInfo [oBOTANDROID2 launchVapiEiCmd getinfo]", "VAPIEI Cmd Rcvd: {state inservice} {type dmc} {description {BOTSP2,10.77.41.154,tcp(dmc)}} {lines 2} {calls 2} {streams 4} {{primary cm} 10.77.41.11} {{backup cm} } {status {}} {id dmc2} {userid } {{last error} {}} {{delay offer} false} {{Voice Mail client status} {inactive}} {{primary cti} {}} {{backup cti} {}} {{current cti} {}} {{preferred mode} {voip}} {{call type} {voip}} {{domain} {}} {{ixenabled} {no}} {{esrstvernego} {null}} {{ipv4address} {10.77.41.154}} {{ipv6address} {}} {{deploymentmodel} {on-premise}} {{login type} {uc-directory}} {centraluds {}} {{sip port} {42708}} {privacy disabled}
+string :[[text hundred any text1 (two hundred) text2 three hundred, four hundred, five hundred not{600} ]]", "string :[[text, hundred, any text1(, two hundred, )text2, three hundred, four hundred, five hundred, not, {600}, ]] but", ""[text hundred any text1 (two hundred) text2 three hundred,four hundred,five hundred not{600}]"
+Text1{489.15,274.3},text2{183.24,1.2},text3{192,1001}
+url:            /:\/\/(www\.)?.{1,200}\..{1,1800}/,", "Insecure '.'", "foo.boo.moo.(note it matched up until the last .) ( this character set is listed above)", "www.(optional)", "[a-zA-Z0-9\-]

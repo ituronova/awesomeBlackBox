@@ -1,0 +1,4 @@
+.*IHEGFJDCA[BD-J]{60,60}A.*
+.*BA{0,50}(EC|EE)A{0,10}[DE]{86,86}FF.*
+.*IFKKLHJG[AB]*D[AB]*E?C[^BC]{4,}C.*
+.*GDIIJFHE[AB]+[C-J]{52,52}([AB].*|B+.*)

@@ -1,0 +1,179 @@
+.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]: [bB][aA][sS][iI][cC] [^\x0A]{512}
+(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S{157}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S{125}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S{1025}|(0x[ 0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S+\s+\S{117}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S+\s+\S
+Authorization\s*\x3A\s*Basic\s*[^\n]{437}
+CONNECT_OPTIONS\x3D[^\x20\x0A\x0D\x00]{900}
+\d\d\.[^\s\n\r]{40}
+GET\s\x2f[^\r\n]{900}
+goaway\?message=[^\s]{500}
+HTTP_COOKIE=[^\x0a\x0d\x26\x3f\x20]{250}
+\/OvCgi\/[^\.]*\.exe[^\x20]{2000,}
+\x2fnds\x2f[^&\r\n\x3b]{500}
+\x3C[^\x3E\x0a]{500}
+AUTH\s[^\n]{100}
+\sAP[A-Za-z]{4}\s[^\n]{256}
+\sAPPEND\s[^\n]{256}
+\sAUTHENTICATE\s[^\n]{100}
+\sCREATE\s[^\n]{1024}
+\sDELETE\s[^\n]{100}
+\sEXAMINE\s[^\n]{100}
+\sFETCH\s[^\n]{256}
+\sLIST\s[^\n]{100}
+\sLOGIN\s[^\n]{100}
+\sLSUB\s[^\n]{100}
+\sPARTIAL.*BODY\[[^\]]{1024}
+\sPARTIAL.*BODY\.PEEK\[[^\]]{1024}
+\sRENAME\s[^\n]{100}
+\sSELECT\s[^\n]{100}
+\sSTATUS[^\n]{100}
+^Location\s*\x3a\s*\w+\x3a\/\/([^\n]*\x3a)?[^\n]{128}
+^SEARCH\s+[^\n]{1024}
+^X?PAT\s+[^\n]{1024}
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1025,}
+NUMTO(DS|YM)INTERVAL\s*\(\s*\d+\s*,\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+^POST [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1025,}
+\(\s*TIMESTAMP\s*(\s*(\x27[^\x27]+'|\x22[^\x22]+\x22)\s*,)\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+\(\s*(\x27[^\x27]{1024,}|\x22[^\x22]{1024,})
+\(\s*(\x27[^\x27]{1075,}|\x22[^\x22]{1075,})
+\(\s*(\x27[^\x27]*\x27|\x22[^\x22]+\x22)\s*,\s*(\x27[^\x27]{1024,}|\x22[^\x22]{1024,})
+TIME_ZONE\s*=\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+TO_CHAR\s*\(\s*SYSTIMESTAMP\s*,\s*(\x27[^\x27]{256}|\x22[^\x22]{256})
+USING\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+[\x05-t][bcdfghjklmnpqrstvwxyz]{5,32}\x02cn
+[\x05-t][bcdfghjklmnpqrstvwxyz]{5,32}\x02ru
+(name|id|number|total|boundary)=\s*[^\r\n\x3b\s\x2c]{300}
+name=\s*[^\r\n\x3b\s\x2c]{300}
+\x3D[^\s\n]{88}
+.{0}\x05.{1}\x0b.{29}\xA0\x01\x00\x00\x00\x00\x00\x00\xC0\x00\x00\x00\x00\x00\x00\x46
+.{0}\x05.{1}\x0b.{29}\xB8\x4A\x9F\x4D\x1C\x7D\xCF\x11\x86\x1E\x00\x20\xAF\x6E\x7C\x57
+.{11}\x00\x01\x86\xB8.{4}\x00\x00\x00\x02.{0,251}%x %x
+.{15}\x00\x01\x86\xB8.{4}\x00\x00\x00\x02.{0,251}%x %x
+200 [^\x0a]{64}
+.{3}\xFF[sS][mM][bB]\x25.{56}\x26\x00.{5}\x5c\x00[pP]\x00[iI]\x00[pP]\x00[eE]\x00\x5c\x00.{0}\x05.{1}\x0b.{29}\xA0\x01\x00\x00\x00\x00\x00\x00\xC0\x00\x00\x00\x00\x00\x00\x46
+.{3}\xFF[sS][mM][bB]\x25.{56}\x26\x00.{5}\x5c\x00[pP]\x00[iI]\x00[pP]\x00[eE]\x00\x5c\x00.{0}\x05.{1}\x0b.{29}\xB8\x4A\x9F\x4D\x1C\x7D\xCF\x11\x86\x1E\x00\x20\xAF\x6E\x7C\x57
+.{3}\xFF[sS][mM][bB]\x25.{56}\x26\x00.{5}\x5c\x00[pP]\x00[iI]\x00[pP]\x00[eE]\x00\x5c\x00.{2}\x05.{1}\x0b.{21}\x00
+.*[aA][pP][oO][pP][^\x0a]{256}
+.* [aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][eE] [^\x0a]{100}
+[aA][uU][tT][hH][iI][nN][fF][oO] [uU][sS][eE][rR] [^\x0a]{500}
+.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]: [bB][aA][sS][iI][cC] [^\x0A]{512}
+.*[aA][uU][tT][hH][^\x0a]{50}
+.* BODY\[[^\]]{1024}
+.* BODY\.PEEK\[[^\]]{1024}
+.*[cC][eE][lL] [^\x0a]{100}
+.* [cC][hH][oO][wW][nN] [^\x0a]{100}
+.*[cC][mM][dD] [^\x0a]{100}
+.* [cC][pP][wW][dD] [^\x0a]{100}
+.*[cC][wW][dD] [^\x0a]{100}
+.* CREATE [^\x0a]{1024}
+.*[dD][eE][lL][eE] [^\x0a]{100}
+ETRN [^\x0A]{500}
+.* [fF][iI][nN][dD] [^\x0a]{1024}
+.*FOLD [^\x0A]{256}
+HELO [^\x0a]{500}
+.* [lL][iI][sS][tT] [^\x0a]{100}
+.*[lL][iI][sS][tT][^\x0a]{50}
+.* LOGIN [^\x0a]{100}
+.* LSUB [^\x0a]{100}
+.*[mM][kK][dD] [^\x0a]{100}
+.* [nN][eE][wW][eE][rR] [^\x0a]{100}
+.*[pP][aA][sS][sS] [^\x0a]{100}
+.*[pP][aA][sS][sS][^\x0a]{50}
+.*[pP][rR][iI][vV][mM][sS][gG] [nN][iI][cC][kK][sS][eE][rR][vV] [iI][dD][eE][nN][tT][iI][fF][yY][^\x0a]{150}
+.* [rR][eE][nN][aA][mM][eE] [^\x0a]{1024}
+.*[rR][eE][sS][tT] [^\x0a]{100}
+.*[rR][mM][dD][iI][rR] [^\x0a]{100}
+.*[rR][mM][dD] [^\x0a]{100}
+SSH-[^\x0a]{600}
+.*[sS][iI][tT][eE] [^\x0a]{100}
+.*[sS][tT][aA][tT] [^\x0a]{100}
+.*[uU][sS][eE][rR] [^\x0a]{100}
+.*[uU][sS][eE][rR][^\x0a]{50}
+.*\x00.{33}.*\x00.*.{0}.*\x00
+\x01.{240}.*\x0C.*.{0}.*%.{1}.{0,7}%.{1}.{0,7}%
+.*\x0d[lL][oO][cC][aA][tT][iI][oO][nN]\x3a[^\x0a]{128}
+.*[xX][tT][nN][dD][^\x0a]{50}
+.* [zZ][iI][pP][cC][hH][kK] [^\x0a]{100}
+(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S{157}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S{125}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S{1025}|(0x[ 0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S+\s+\S{117}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S+\s+\S
+^Accept\x2dCharset\x3a\s*([^\x3b\x3d\x2c]{1,36}\s*(\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}
+^Accept\x2dLanguage\x3a\s*(\w{1,36}\s*(\x2e|\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}
+Authorization\s*\x3A\s*Basic\s*[^\n]{437}
+AUTH\s[^\n]{100}
+connectID=[^&\x3b\r\n]{255}
+CONNECT_OPTIONS\x3D[^\x20\x0A\x0D\x00]{900}
+contenttype=[^\r\n\x3b\x38]{100}
+\d\d\.[^\s\n\r]{40}
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1025,}
+GET\s+\w[^\x0a\x20]{165}
+GET\s\x2f[^\r\n]{900}
+goaway\?message=[^\s]{500}
+href\s*=\s*(\x22mhtml\x3A\x2F\x2F[A-Z\x2D]{2,31}\x3A[^\x22]{1253,}|\x27mhtml\x3A\x2F\x2F[A-Z\x2D]{2,31}\x3A[^\x27]{1253,}|mhtml\x3A\x2F\x2F[A-Z\x2D]{2,31}\x3A[^\x09\r\n\x20]{1253,})
+HTTP_COOKIE=[^\x0a\x0d\x26\x3f\x20]{250}
+instancename=[^&\x3b\r\n]{513}
+j_(username|password)=[^\n|^&]{256,}
+^Location\s*\x3a\s*\w+\x3a\/\/([^\n]*\x3a)?[^\n]{128}
+mfcisapicommand=[^&\r\n\x3b]{250}
+(name|id|number|total|boundary)=\s*[^\r\n\x3b\s\x2c]{300}
+name=\s*[^\r\n\x3b\s\x2c]{300}
+NUMTO(DS|YM)INTERVAL\s*\(\s*\d+\s*,\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+\/OvCgi\/[^\.]*\.exe[^\x20]{2000,}
+php.*\x3f[^\n]{256}
+^POST [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1025,}
+\sAP[A-Za-z]{4}\s[^\n]{256}
+\sAPPEND\s[^\n]{256}
+\sAUTHENTICATE\s[^\n]{100}
+\sCAPABILITY\s[^\n]{100}
+\sCREATE\s[^\n]{1024}
+\sDELETE\s[^\n]{100}
+^SEARCH\s+[^\n]{1024}
+\sEXAMINE\s[^\n]{100}
+\sFETCH\s[^\n]{256}
+sid=[^&\x3b\r\n]{255}
+\sLIST\s[^\n]{100}
+\sLOGIN\s[^\n]{100}
+\sLSUB\s[^\n]{100}
+SoftCart.exe\?[^\s]{100}
+\sPARTIAL.*BODY\[[^\]]{1024}
+\sPARTIAL.*BODY\.PEEK\[[^\]]{1024}
+\sRENAME\s[^\n]{100}
+\sSELECT\s[^\n]{100}
+\sSTATUS[^\n]{100}
+\(\s*TIMESTAMP\s*(\s*(\x27[^\x27]+'|\x22[^\x22]+\x22)\s*,)\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+\(\s*(\x27[^\x27]{1024,}|\x22[^\x22]{1024,})
+\(\s*(\x27[^\x27]{1075,}|\x22[^\x22]{1075,})
+\(\s*(\x27[^\x27]*\x27|\x22[^\x22]+\x22)\s*,\s*(\x27[^\x27]{1024,}|\x22[^\x22]{1024,})
+TIME_ZONE\s*=\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+TO_CHAR\s*\(\s*SYSTIMESTAMP\s*,\s*(\x27[^\x27]{256}|\x22[^\x22]{256})
+username=[^&\x3b\r\n]{250}
+username=[^&\x3b\r\n]{255}
+USING\s*((\x27[^\x27]{1000,})|(\x22[^\x22]{1000,}))
+w3who.dll\x3F[^\r\n]{519}
+wqPassword=[^\r\n\x26]{294}
+<\w+\x3afill\s[^>]*method\s*=\s*(\x27[^\x27]{32}|\x22[^\x22]{32}|[^\s>]{32})
+[\x05-t][bcdfghjklmnpqrstvwxyz]{5,32}\x02cn
+[\x05-t][bcdfghjklmnpqrstvwxyz]{5,32}\x02ru
+\x2FCSuserCGI\x2Eexe\x3FLogout\x2B[^\s]{96}
+\x2fnds[^\r\n]{1000}
+\x2fnds\x2f[^&\r\n\x3b]{500}
+\x3C[^\x3E\x0a]{500}
+\x3D[^\s\n]{88}
+\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{200,}
+^X?PAT\s+[^\n]{1024}
+instancename=[^&\x3b\r\n]{513}
+SoftCart.exe\?[^\s]{100}
+href\s*=\s*(\x22mhtml\x3A\x2F\x2F[A-Z\x2D]{2,31}\x3A[^\x22]{1253,}|\x27mhtml\x3A\x2F\x2F[A-Z\x2D]{2,31}\x3A[^\x27]{1253,}|mhtml\x3A\x2F\x2F[A-Z\x2D]{2,31}\x3A[^\x09\r\n\x20]{1253,})
+<\w+\x3afill\s[^>]*method\s*=\s*(\x27[^\x27]{32}|\x22[^\x22]{32}|[^\s>]{32})
+\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{200,}
+contenttype=[^\r\n\x3b\x38]{100}
+w3who.dll\x3F[^\r\n]{519}
+^Accept\x2dCharset\x3a\s*([^\x3b\x3d\x2c]{1,36}\s*(\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}
+^Accept\x2dLanguage\x3a\s*(\w{1,36}\s*(\x2e|\x2d|\x3b|\x3d|\x2c)\s*)*[^\x2d\x3b\x2c\x3d\n]{37}
+connectID=[^&\x3b\r\n]{255}
+GET\s+\w[^\x0a\x20]{165}
+j_(username|password)=[^\n|^&]{256,}
+mfcisapicommand=[^&\r\n\x3b]{250}
+php.*\x3f[^\n]{256}
+sid=[^&\x3b\r\n]{255}
+username=[^&\x3b\r\n]{250}
+username=[^&\x3b\r\n]{255}
+wqPassword=[^\r\n\x26]{294}
+\x2FCSuserCGI\x2Eexe\x3FLogout\x2B[^\s]{96}
+\x2fnds[^\r\n]{1000}

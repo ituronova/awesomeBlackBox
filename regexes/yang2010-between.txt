@@ -1,0 +1,80 @@
+(.{1}\x20.{10}\x20)|(.{10}\x20.{1}\x20)
+(\x20\x20.{4}\x20.{8}[^\x20]*)|(\x20\x20.{8}[^\x20]*.{4}\x20)|(.{4}\x20\x20\x20.{8}[^\x20]*)|(.{4}\x20.{8}[^\x20]*\x20\x20)|(.{8}[^\x20]*\x20\x20.{4}\x20)|(.{8}[^\x20]*.{4}\x20\x20\x20)
+.*(\x20[^\x20]{16}|\x20[^\x20]{16})\.cda$
+.*\x20SuserCGI\x20xe\x20Logout\x20[^\s]{96}
+.*<\w+\x20ill\s[^>]*method\s*=\s*(\x20[^\x20]{32}|\x20[^\x20]{32}|[^\s>]{32})
+.*<OBJECT\s+[^>]*type\s*=[\x20\x20]\x20{32}
+.*cache_lastpostdate\[[^\]]+\]=[^\x20\x20\x20]{30}
+.*connectID=[^&\x20\r\n]{25}
+.*get-dated-rev\x20\x20\x20\d{1,4}\x20([^T\x20\x20]{9}|[^\x20]{4}\x20[^\x20]{3}|[^\x20]{4}\x20[^\x20]{2}\x20[^\x20]{3})
+.*isComponentInstalled\s*\([^,\)]{25}
+.*mfcisapicommand=[^&\r\n\x20]{25}
+.*username=[^&\x20\r\n]{25}
+.*w3who.dll\x20[^\r\n]{51}
+.*wqPassword=[^\r\n\x20]{29}
+.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]
+[\x20&]connectID=#[^&\x20\x20\r\n]{255}
+[\x20&]instancename=#[^&\x20\x20\r\n]{513}
+[\x20&]mfcisapicommand=#[^&\r\n\x20\x20]{250}
+[\x20&]sid=#[^&\x20\x20\r\n]{255}
+[\x20&]username=#[^&\x20\x20\r\n]{250}
+[\x20&]username=#[^&\x20\x20\r\n]{255}
+[\x20&]wqPassword=#[^\r\n\x20\x20]{294}
+\x20\x20\x20.{2}\x20.{3}\x20\x20.{32}\x20
+^[^\n]*[\x20-\x21].*\nAccept-Language\x20\s*[\S]{32}
+^\x20[0-9A-F]{30}$
+^ALLO[ \t][^\n]{200}
+^APPE[ \t][^\n]{200}
+^Authorization\x20([ \t]*|[ \t]*\r?\n[ \t]+)Basic[ \t][^\n]{51}
+^Authorization\x20(\s*|\s*\r?\n\s+)Basic\s[^\n]{25}
+^Authorization\x20\s*Negotiate\s*((YE4G.{40}LgMc)|(YIIQ.{40}QUFB))
+^CEL[ \t][^\n]{100}
+^CMD[ \t][^\n]{200}
+^CWD[ \t][^\n]{180}
+^DELE[ \t][^\n]{100}
+^DESCRIBE[ ][^\n]{30}
+^file\x20\x20\x20[^\n]{40}
+^HELP[ \t][^\n]{200}
+^Host\x20[ ][^\n]{30}
+^http\x20\x20\x20[^\n]{40}
+^LIST[^\n]{120}
+^MDTM[ \t][^\n]{100}
+^MKD[ \t][^\n]{180}
+^NLST[ \t][^\n]{200}
+^PASS[ \t][^\n]{100}
+^PORT[ \t][^\n]{400}
+^PWD[ \t][^\n]{190}
+^PWD\s.{190}
+^REST[ \t][^\n]{100}
+^RETR[ \t][^\n]{200}
+^RMD[ \t][^\n]{100}
+^RMDIR[ \t][^\n]{100}
+^RNFR[ \t][^\n]{200}
+^RNFR\s[^\n]{200}
+^RNTO[ \t][^\n]{200}
+^SITE[ \t][^\n]{100}
+^SITE[ \t]+CPWD[ \t][^\n]{100}
+^SITE[ \t]+CHMOD[ \t][^\n]{200}
+^SITE[ \t]+CHOWN[ \t][^\n]{100}
+^SITE[ \t]+NEWER[ \t][^\n]{100}
+^SITE[ \t]+ZIPCHK[ \t][^\n]{100}
+^SITE\s+CPWD\s[^\n]{100}
+^SITE\s+CHMOD\s[^\n]{200}
+^SITE\s+CHOWN\s[^\n]{100}
+^SITE\s+NEWER\s[^\n]{100}
+^SITE\s+ZIPCHK\s[^\n]{100}
+^SIZE[ \t]+[\x20\x20][^\x20\x20\x20\n][^\n]{526}
+^STAT[ \t][^\n]{190}
+^STOR[ \t][^\n]{200}
+^STOU[ \t][^\n]{200}
+^STOU\s[^\n]{200}
+^SYST[ \t][^\n]{100}
+^TEST[ \t][^\n]{100,}
+^TEST[ \t][^\n]{100}
+^USER[ \t][^\n]{100,}
+^USER[ \t][^\n]{100}
+^User-Agent\x20[^\n]{21}
+^User-Agent\x20[^\n]{24}
+^XCWD[ \t][^\n]{100}
+^XMD5[ \t][^\n]{200}
+^XMKD[ \t][^\n]{200}

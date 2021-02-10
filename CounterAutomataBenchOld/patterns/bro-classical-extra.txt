@@ -1,0 +1,43 @@
+^.{3}\xFF[sS][mM][bB][sS].{56}.*\x00.{255}.*\x00\x00.*.*\x00\x00
+^.* [aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][eE] [^\x0a]{100}
+^.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]: [bB][aA][sS][iI][cC] [^\x0A]{512}
+^.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]\x3A [bB][aA][sS][iI][cC] [^\x0A]{512}
+^.*[aA][uU][tT][hH][^\x0a]{50}
+^.* BODY\[[^\]]{1024}
+^.* BODY\.PEEK\[[^\]]{1024}
+^.*[cC][eE][lL] [^\x0a]{100}
+^.* [cC][hH][oO][wW][nN] [^\x0a]{100}
+^.*[cC][mM][dD] [^\x0a]{100}
+^.* [cC][pP][wW][dD] [^\x0a]{100}
+^.*[cC][wW][dD] [^\x0a]{100}
+^.* CREATE [^\x0a]{1024}
+^.*[dD][eE][lL][eE] [^\x0a]{100}
+^.* [fF][iI][nN][dD] [^\x0a]{1024}
+^.*FOLD [^\x0A]{256}
+^.* [lL][iI][sS][tT] [^\x0a]{100}
+^.*[lL][iI][sS][tT][^\x0a]{50}
+^.* LOGIN [^\x0a]{100}
+^.* LSUB [^\x0a]{100}
+^.*[mM][kK][dD] [^\x0a]{100}
+^.* [nN][eE][wW][eE][rR] [^\x0a]{100}
+^\n*[\x20\x09\x0b][pP][aA][rR][tT][iI][aA][lL].*[bB][oO][dD][yY]\[[^\]]{1024}
+^\n*[\x20\x09\x0b][pP][aA][rR][tT][iI][aA][lL].*[bB][oO][dD][yY]\.[pP][eE][eE][kK]\[[^\]]{1024}
+^.*[pP][aA][sS][sS] [^\x0a]{100}
+^.*[pP][aA][sS][sS][^\x0a]{50}
+^.* [rR][eE][nN][aA][mM][eE] [^\x0a]{1024}
+^.*[rR][eE][sS][tT] [^\x0a]{100}
+^.*[rR][mM][dD][iI][rR] [^\x0a]{100}
+^.*[rR][mM][dD] [^\x0a]{100}
+^.*[sS][iI][tT][eE] [^\x0a]{100}
+^.*[sS][tT][aA][tT] [^\x0a]{100}
+^.*[tT][xX][tT][uU][sS][eE][rR][nN][aA][mM][eE]=[^\x0A]{980}
+^.*[uU][sS][eE][rR] [^\x0a]{100}
+^.*[uU][sS][eE][rR][^\x0a]{50}
+^.*\x00.{33}.*\x00.*.{0}.*\x00
+^.*\x00.{33}.*\x00.*.*\x00
+^.*\x05.{1}\x0B.{29}j\x28\x199\x0C\xB1\xD0\x11\x9B\xA8\x00\xC0O\xD9\.\xF5
+^.*\x0a\x55\x73\x65\x72\x2d\x41\x67\x65\x6e\x74\x3a\x20.{10,70}rv\x3a[0-2]\x2e[0-9].{0,30}Gecko\x2f.*
+^.*\x0a\x55\x73\x65\x72\x2d\x41\x67\x65\x6e\x74\x3a\x20.{10,70}rv\x3a[0-2]\x2e[0-9].{0,30}Gecko\x2f(2000|2001|2002).*
+^.*\x0d[lL][oO][cC][aA][tT][iI][oO][nN]\x3a[^\x0a]{128}
+^.*[xX][tT][nN][dD][^\x0a]{50}
+^.* [zZ][iI][pP][cC][hH][kK] [^\x0a]{100}

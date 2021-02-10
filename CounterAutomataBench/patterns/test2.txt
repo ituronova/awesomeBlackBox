@@ -1,0 +1,60 @@
+^answer\x00{6}NetControl\x2EServer\s+\d+\x2E\d+\s+\x22The\s+UNSEEN\x22\s+Project
+^CON\w{1,10}\d+\xAE[^\r\n]{1,20}\x3B
+\s{23}DIMBUS\s+Server\s+v\d+\x2E\d+
+^\x21{3}Optix\s+Pro\s+v\d+\x2E\d+\s+Server\s+Online\x21{3}
+\x2B\x2D{3}\x7C[^\r\n]*\x7C\x2D{3}\x2B
+^\x2F40e800[0-9A-F]{30,}$
+^[0-9]{1,5}\x00
+\x05\x00\x00\x03\x10\x00\x00\x00.{16}\x0a[\x03\x04]
+.{0,5}[pP][cC][cC][sS][mM][yY][sS][qQ][lL][aA][dD][mM]\/[iI][nN][cC][sS]\/[dD][bB][cC][oO][nN][nN][eE][cC][tT]\.[iI][nN][cC]
+.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]: [bB][aA][sS][iI][cC] [^\x0A]{512}
+.*Content-Type:[^\x0A]{50}
+.*SEARCH \/ HTTP\/1\.1\x0d\x0aHost\x3a.{0,251}\x0d\x0a\x0d\x0a
+^0*(([1-9]\d{3,})|([7-9]\d\d)|(6[7-9]\d)|(66[8-9]))
+(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S{157}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S{125}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S{1025}|(0x[ 0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S+\s+\S{117}|(0x[0-9a-f]+|0[0-8]+|[1-9]\d*)\s+\S+\s+\S+\s+\S+\s+\S+\s+\S{37}
+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}
+^.{20}([\x01-t]|0x00[\x01-t]|\x00{2}[\x02-t]|\x00{2}\x01[\x15-t])
+Authorization\s*\x3A\s*Basic\s*[^\n]{437}
+CONNECT_OPTIONS\x3D[^\x20\x0A\x0D\x00]{900}
+^COPY[^s]{432}
+crypto\x3Arc4_(encrypt|decrypt)\x28\x27[^\x27]{129}
+^CSeq\x3A\s*[^\nA-Za-z]*[A-Za-z][^\n]{16,}
+\d\d\.[^\s\n\r]{40}
+^DELETE[^s]{432}
+^DESCRIPTION\x3A[^\n]{268}
+^Entry \/file\/[0-9.]{71,}\/\/.*\x0aannotate\x0a
+get-dated-rev\x20\x28\x20\d{1,4}\x3a([^T\x2d\x3a]{9}|[^\x2d]{4}\x2d[^\x2d]{3}|[^\x2d]{4}\x2d[^\x2d]{2}\x2d[^\x2d]{3})
+^GET[^s]{432}
+GET\s\x2f[^\r\n]{900}
+GET\s+\x2fstream\x2f\x3f[^\x0a\x0d\x00\x20\x2f\x3d\x3b]{800}
+goaway\?message=[^\s]{500}
+group meta[^\s\x00]{12}
+^HEAD[^s]{432}
+HTTP_COOKIE=[^\x0a\x0d\x26\x3f\x20]{250}
+^LoadTestPassword\x3A[^\r\n]{1024,}
+^LOCK[^s]{432}
+^MKCOL[^s]{432}
+^MOVE[^s]{432}
+^[^\n]*[t-\x80].*\nAccept-Language\x3A\s*[\S]{32}
+\/OvCgi\/[^\.]*\.exe[^\x20]{2000,}
+^PASS\s[^\n]{49}
+^POST[^s]{432}
+^.*POST\s+\x2f[^\s\x2f]{9,}\x2f[^\s]{235}
+^PRIVMSG\s+[^\s]+\s+\x3a\s*\x01SENDLINK\x7c[^\x7c]{69}
+propfind xmlns\x3A[^\x3D]*\x3d\x22[^\x22]{512,}
+^PUT[^s]{432}
+^\S{65}|\S+\s+\S{65}|\S+\s+\S+\s+\S{65}
+skype4com\x3A[A-Z\d]{0,6}[^A-Z\d]
+SSH-0*([2-9]\d*|1\d+)\.[^-]*-[^\n]*\n\x00\x00.{3}\x14.{1000}
+^SSH-\s[^\n]{200}
+^TRACE[^s]{432}
+^USER\s[^\n]{49}
+\x00\x00\x00\x00[^\x00]{262,}
+^\x01.{23}(\x25|\x26).{15}(\x0A|\x34)
+^\x01.{23}(\x25|\x26)
+^(\x03|[\x14-t]).{19}(\x25|\x26).{15}(\x0A|\x34)
+^(\x03|[\x14-t]).{19}(\x25|\x26)
+\x2fnds\x2f[^&\r\n\x3b]{500}
+^\x2f[^\x2f]{256}
+\x3C[^\x3E\x0a]{500}
+^NLST\s+[^\n]*\x2a{10}

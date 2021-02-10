@@ -1,0 +1,49 @@
+Automata.NET can be built using Visual Studio 2013 from Main.sln.
+Build.sln excludes the test projects.
+All compiled binaries, except for binaries for test projects, 
+are placed in the top level bin folder.
+
+The main projects are: Automata, Automata.Z3, Fast, and Bek
+that are accompanied by corresponding unit test projects:
+Automata.Tests, Automata.Z3.Tests, Fast.Tests, and Bek.Tests
+
+All projects are configured to use .NET Framework Version 4.5.
+and require at least version 4.0 
+(due to dependency on System.Numerics.BigInteger)
+
+The core Automata project (/src/Automata/Automata.csproj) 
+can be built separately and has no dependencies. 
+
+The Automata.Z3 project depends on Automata and Z3. 
+Z3 version 4.3.2.0 x86 binary exists as the nuget project with id "z3x86win"
+Install nuget from: http://docs.nuget.org/consume/installing-nuget.
+When building the solution with Visual Studio 2013 or 2015 the 
+nuget packages should be installed automatically in the packages folder.
+
+The Fast (Functional Abstraction of Symbolic Transductions) project
+depends on Automata, Automata.Z3, and Z3. 
+Fast language uses a custom parser that is generated with 
+Gardens Point Parser Generator version 1.5.0. 
+The generated fast-parser is standalone, there is no runtime library dependency.
+The tool can be downloaded from http://gppg.codeplex.com/downloads/get/378045
+in order to regenerate the fast-parser if modifications are made 
+to the /src/Fast/parser/fast.lex or /src/Fast/parser/fast.y files,
+see the file: /src/Fast/parser/genparser.bat for details.
+
+The Bek project depends on Automata, Automata.Z3, Z3, 
+and Antlr34 runtime for the bek-parser and query-parser for bek.
+Antlr34 is a nuget package that is installed automatically with VS.
+The runtime library Antlr3.Runtime.dll of Antlr34 will be istalled in
+the folder /packages/Antlr34.3.4.19004.1/lib/.
+In order to regenerate the bek-parser or the query-parser if changes are made 
+to the bek parser source file /src/Bek/Frontend/ParserImpl/bek.g or
+the query parser source file /src/Bek/Query/ParserImpl/query.g
+see /src/Bek/Frontend/ParserImpl/generateBekParser.bat 
+and /src/Bek/Query/ParserImpl/generateQueryParser.bat
+The bat files assume Antlr34 has been installed in /packages/Antlr34.3.4.19004.1
+
+
+
+
+
+
