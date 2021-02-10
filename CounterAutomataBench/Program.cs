@@ -216,7 +216,7 @@ namespace CounterAutomataBench
             if (args.Length < 6)
             {
                 Console.WriteLine("\n---------------------------  HELP --------------------------\n");
-                Console.WriteLine("Usage: ./CounterAutomataBench [inputFile] [outputFolder] [bound] [TIMEOUT] [-v/-nv] [-hybrid/-nonhybrid]\n");
+                Console.WriteLine("Usage: ./CounterAutomataBench [inputFile] [outputFolder] [TIMEOUT]\n");
                 Console.WriteLine("\n-------------------------------------------------------------\n");
                 Console.Read();
                 return;
